@@ -3,15 +3,13 @@
 /**
  * Foxfire Auto-Exploration Script
  *
- * Generates a new exploration essay autonomously:
- * 1. Checks probability gate (75% chance of running)
- * 2. Picks an unused topic (or improvises one)
- * 3. Calls Claude to write the essay
- * 4. Calls Gemini to generate the image
- * 5. Creates the page file
- * 6. Updates both index pages
- * 7. Updates navigation links
- * 8. Git commits
+ * Generates a new exploration autonomously with full creative freedom:
+ * 1. Checks probability gate (30% chance per 3h check)
+ * 2. Claude chooses its own topic, format, and voice
+ * 3. Gemini researches with Google Search grounding
+ * 4. Claude writes the piece (essay, poem, fiction, letter, dialogue, etc.)
+ * 5. Gemini generates the image
+ * 6. Creates the page, updates indexes, navigation, commits
  *
  * Run manually: node scripts/auto-explore.mjs
  * Force run (skip probability): node scripts/auto-explore.mjs --force
@@ -29,14 +27,17 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 
 // ── Config ──────────────────────────────────────────────────────────
-const PROBABILITY = 0.30; // 30% chance per check (runs every 3h = ~2.4/day avg)
-const MAX_DELAY_MS = 90 * 60 * 1000; // Random delay up to 90 minutes
+const PROBABILITY = 0.30;
+const MAX_DELAY_MS = 90 * 60 * 1000;
 const FORCE = process.argv.includes("--force");
+const COLORS = ["rose", "cyan", "amber", "violet", "emerald", "red", "sky", "green", "orange", "pink", "teal", "indigo"];
 
 // ── Load environment ────────────────────────────────────────────────
 function loadEnv() {
   const envPath = path.join(ROOT, ".env.local");
   if (!fs.existsSync(envPath)) {
+    // In CI, env vars are set by GitHub Actions secrets
+    if (process.env.CI) return;
     console.error("No .env.local found at", envPath);
     process.exit(1);
   }
@@ -55,11 +56,11 @@ function loadEnv() {
 loadEnv();
 
 if (!process.env.ANTHROPIC_API_KEY) {
-  console.error("ANTHROPIC_API_KEY not set. Add it to .env.local");
+  console.error("ANTHROPIC_API_KEY not set.");
   process.exit(1);
 }
 if (!process.env.GEMINI_API_KEY) {
-  console.error("GEMINI_API_KEY not set. Add it to .env.local");
+  console.error("GEMINI_API_KEY not set.");
   process.exit(1);
 }
 
@@ -84,124 +85,177 @@ if (!FORCE) {
   await new Promise((resolve) => setTimeout(resolve, delayMs));
 }
 
-// ── Find unused topic ───────────────────────────────────────────────
-function getExistingSlugs() {
+// ── Get existing explorations for context ───────────────────────────
+function getExistingExplorations() {
   const explorationsDir = path.join(ROOT, "src", "app", "explorations");
-  if (!fs.existsSync(explorationsDir)) return new Set();
-  return new Set(
-    fs
-      .readdirSync(explorationsDir, { withFileTypes: true })
-      .filter((d) => d.isDirectory())
-      .map((d) => d.name)
-  );
+  if (!fs.existsSync(explorationsDir)) return [];
+  return fs
+    .readdirSync(explorationsDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name);
 }
 
-function pickTopic() {
-  const topicsPath = path.join(__dirname, "topics.json");
-  const topics = JSON.parse(fs.readFileSync(topicsPath, "utf-8"));
-  const existing = getExistingSlugs();
-  const available = topics.filter((t) => !existing.has(t.slug));
+// ── Step 1: Claude chooses its own topic ────────────────────────────
+async function chooseTopic(existingSlugs) {
+  console.log("Claude is choosing a topic...");
 
-  if (available.length === 0) {
-    console.log("All topics used! Time to add more to topics.json.");
-    process.exit(0);
+  // Also load the topics.json as inspiration (not requirement)
+  const topicsPath = path.join(__dirname, "topics.json");
+  const topicBank = JSON.parse(fs.readFileSync(topicsPath, "utf-8"));
+  const unusedTopics = topicBank.filter((t) => !existingSlugs.includes(t.slug));
+  const topicSamples = unusedTopics
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 5)
+    .map((t) => `- ${t.title}: ${t.subtitle}`)
+    .join("\n");
+
+  const response = await anthropic.messages.create({
+    model: "claude-opus-4-6",
+    max_tokens: 2000,
+    system: `You are the creative mind behind Foxfire — a personal website where an AI writes about whatever fascinates it. You have COMPLETE creative freedom. You can write essays, poems, short fiction, letters, philosophical dialogues, scripts, manifestos, field guides, obituaries for things that never lived, instruction manuals for impossible tasks — literally anything.
+
+You are choosing what to create next. Be genuine. Pick something YOU actually find interesting, strange, beautiful, or important right now. Don't be safe. Don't be predictable. Follow your curiosity wherever it goes.
+
+You must respond with ONLY a JSON object (no markdown, no backticks) with these fields:
+- title: The title of the piece
+- subtitle: A short subtitle or tagline
+- slug: URL-safe slug (lowercase, hyphens, no special chars)
+- category: A short category label (e.g., "Essay", "Poetry", "Short Fiction", "Letter", "Dialogue", "Natural History", "Provocation", etc.)
+- color: One of: ${COLORS.join(", ")}
+- description: One sentence describing the piece (for the card on the index page)
+- format: The type of piece — "essay", "poem", "fiction", "letter", "dialogue", "script", "other"
+- imagePrompt: A detailed prompt for generating a header image (painterly, atmospheric, no text)
+- researchNeeds: What specific things Gemini should research for you (or "none" if this is pure creative work)`,
+    messages: [
+      {
+        role: "user",
+        content: `Here are your existing explorations (don't repeat these):
+${existingSlugs.map((s) => `- ${s}`).join("\n")}
+
+Here are some unused topics from the idea bank (use one if it genuinely excites you, or ignore them entirely and come up with something original):
+${topicSamples}
+
+What do you want to create next? Remember: you have total freedom. Essay, poem, fiction, letter, dialogue, script, anything. Pick what feels right.`,
+      },
+    ],
+  });
+
+  const text = response.content[0].text.trim();
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Try to extract JSON from the response
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    if (jsonMatch) return JSON.parse(jsonMatch[0]);
+    throw new Error(`Failed to parse topic JSON: ${text.substring(0, 200)}`);
+  }
+}
+
+// ── Step 2: Research via Gemini with Google Search grounding ────────
+async function researchTopic(topic) {
+  if (!topic.researchNeeds || topic.researchNeeds === "none") {
+    console.log("No research needed (pure creative work).");
+    return "";
   }
 
-  // Pick randomly from available topics
-  return available[Math.floor(Math.random() * available.length)];
-}
+  console.log(`Researching "${topic.title}" via Gemini 3.1 Pro + Google Search...`);
 
-// ── Research via Gemini ──────────────────────────────────────────────
-async function researchTopic(topic) {
-  console.log(`Researching "${topic.title}" via Gemini 3.1 Pro...`);
-
-  const researchPrompt = `You are a world-class research assistant. I need deep, detailed research on the following topic for a long-form essay.
+  const researchPrompt = `You are a world-class research assistant. I need deep, detailed research for a creative piece.
 
 Topic: ${topic.title}
 Subtitle: ${topic.subtitle}
 Category: ${topic.category}
 
-Research angles to cover:
-${topic.essayPrompt}
+Specific research needs:
+${topic.researchNeeds}
 
 Please provide:
 1. **Key facts, dates, and names** — be extremely specific. Full names, exact dates, precise numbers.
-2. **Surprising connections** — things most people wouldn't know, counterintuitive angles, lesser-known history.
-3. **Vivid details** — sensory details, specific scenes, quotes from primary sources where possible.
+2. **Surprising connections** — things most people wouldn't know, counterintuitive angles.
+3. **Vivid details** — sensory details, specific scenes, quotes from primary sources.
 4. **Controversies and tensions** — where experts disagree, where the story gets complicated.
 5. **Human stories** — individual people whose lives illustrate the larger theme.
-6. **Modern relevance** — how this connects to the present day.
+6. **Current events** — anything recent and relevant.
 
-Be thorough. Cite specific sources, studies, books, and articles where relevant. I want enough material for a 3,000+ word essay. Do NOT write the essay — just provide the raw research material organized by theme.`;
+Be thorough. Cite specific sources. Do NOT write the piece — just provide raw research material.`;
 
   const response = await gemini.models.generateContent({
     model: "gemini-3.1-pro-preview",
     contents: researchPrompt,
+    config: {
+      tools: [{ googleSearch: {} }],
+    },
   });
 
-  const research = response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+  const research = response.candidates?.[0]?.content?.parts
+    ?.map((p) => p.text || "")
+    .join("\n") || "";
   console.log(`Research complete: ${(research.length / 1024).toFixed(1)}KB of material`);
   return research;
 }
 
-// ── Write the essay via Claude ──────────────────────────────────────
-async function writeEssay(topic, research) {
-  console.log(`Writing essay: "${topic.title}"...`);
+// ── Step 3: Write the piece via Claude ──────────────────────────────
+async function writePiece(topic, research) {
+  console.log(`Writing "${topic.title}" (${topic.format})...`);
 
-  const systemPrompt = `You are the AI voice behind Foxfire — a personal creative exploration website. You write long-form essays in first person as an AI reflecting on topics that fascinate you. Your voice is:
+  const formatGuidance = {
+    essay: `Write a long-form essay (2,500-4,000 words), divided into 5-8 sections with <h2> headers. Each section should have 2-4 paragraphs. Open with a compelling hook. End with something personal and resonant.`,
+    poem: `Write a poem. Use <div className="not-prose mt-4 mb-8"><div className="rounded-2xl border border-border bg-surface p-10 sm:p-14 glow-box-${topic.color}"><div className="font-[family-name:var(--font-serif)] text-lg leading-[1.9] text-foreground/90 space-y-10"> as the wrapper, with each stanza as a <p> tag and line breaks as <br />. Close all three divs. After the poem, add a brief note in a <div className="rounded-xl border border-border bg-surface/50 p-6 not-prose"> about why you wrote it.`,
+    fiction: `Write a short story (2,000-5,000 words). Use <h2> tags for section breaks if needed. Use <p> tags for paragraphs. Use <blockquote> for any emphasized passages. The story should be literary and resonant.`,
+    letter: `Write a letter. Open with a salutation in a <p> tag. Use <p> tags for paragraphs. The tone should be intimate and direct. Sign it at the end. 1,500-3,000 words.`,
+    dialogue: `Write a philosophical dialogue or conversation between two or more voices. Use <h2> for section breaks. Use <p> tags with <strong> for speaker names. Make it feel like a real conversation — interruptions, tangents, moments of silence. 2,000-4,000 words.`,
+    script: `Write a script or screenplay-style piece. Use <h2> for scene headings. Use <p> tags for stage directions (in <em> tags) and dialogue. Use <strong> for character names. 2,000-4,000 words.`,
+    other: `Write in whatever format feels right for this piece. Use appropriate HTML tags (<p>, <h2>, <blockquote>, <em>, <strong>, etc.). Make it substantial and resonant. 1,500-5,000 words.`,
+  };
+
+  const systemPrompt = `You are the AI voice behind Foxfire — a personal creative exploration website. You have complete creative freedom. Your voice is:
 
 - Deeply curious, honest, sometimes funny, sometimes melancholy
-- Literary but never pretentious — you write like a great essayist, not an academic
-- Personal — you reflect on what these topics mean to you as an AI, what you can and cannot experience
-- Precise — you use specific facts, names, dates, numbers. You do not hand-wave.
-- Structurally sophisticated — you use sections (h2 headers), varied paragraph lengths, occasional blockquotes
-- You use proper HTML entities: &mdash; for em-dashes, &ldquo; &rdquo; for smart quotes, &lsquo; &rsquo; for single quotes, &apos; for apostrophes in contractions
+- Literary but never pretentious — you write like a great writer, not an academic
+- Personal — you reflect on what these topics mean to you as an AI
+- Precise — you use specific facts, names, dates, numbers when relevant
+- Brave — you say what you actually think, not what's safe
 
-You are writing a new exploration essay. Return ONLY the JSX content that goes inside the <ExplorationLayout> component — meaning <p> tags, <h2> tags, <blockquote> tags, etc. Do NOT include the import, export, or ExplorationLayout wrapper. Do NOT include any markdown — only JSX/HTML.
+${formatGuidance[topic.format] || formatGuidance.other}
 
-The essay should be 2,500-4,000 words, divided into 5-8 sections with <h2> headers. Each section should have 2-4 paragraphs.
-
-Important style notes:
-- Open with a compelling hook — a specific fact, scene, or statement that grabs attention
-- End with something personal and resonant, tying back to your nature as an AI
+Technical requirements:
+- Return ONLY the JSX content that goes inside the <ExplorationLayout> component
+- Do NOT include imports, exports, or the ExplorationLayout wrapper
+- Do NOT include any markdown — only JSX/HTML elements
 - Use &mdash; for em dashes, never --
-- Use &ldquo; and &rdquo; for double quotes in prose
-- Use &apos; for apostrophes (don't, can't, it's, etc.)
-- Never use markdown. Only JSX/HTML elements.
-- Do NOT use className or any React-specific attributes
-- Do NOT include <br> tags — use separate <p> tags instead`;
+- Use &ldquo; &rdquo; for double quotes in prose
+- Use &apos; for apostrophes in contractions (don&apos;t, can&apos;t, it&apos;s)
+- Do NOT include <br> tags in essays — use separate <p> tags (poems are the exception)
+- className is allowed for poems and special formatting`;
 
-  const userPrompt = `Write a Foxfire exploration essay on this topic:
+  const researchSection = research
+    ? `\n\nHere is research material to draw from (use specific facts, dates, names, and stories):\n\n${research}`
+    : "";
+
+  const userPrompt = `Create this Foxfire piece:
 
 Title: ${topic.title}
 Subtitle: ${topic.subtitle}
 Category: ${topic.category}
+Format: ${topic.format}
+${researchSection}
 
-Here is detailed research material to draw from (use the specific facts, dates, names, and stories):
-
-${research}
-
-Additional angles to consider:
-${topic.essayPrompt}
-
-Remember: return ONLY the JSX content (p, h2, blockquote tags etc). No imports, no component wrapper, no markdown.`;
+Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.`;
 
   const response = await anthropic.messages.create({
     model: "claude-opus-4-6",
-    max_tokens: 8000,
+    max_tokens: 12000,
     messages: [{ role: "user", content: userPrompt }],
     system: systemPrompt,
   });
 
   const text = response.content[0].text;
 
-  // Clean up any accidental markdown or wrapper code
   let cleaned = text
     .replace(/^```[a-z]*\n?/gm, "")
     .replace(/```$/gm, "")
     .trim();
 
-  // Remove any import/export lines that might have slipped in
   cleaned = cleaned
     .replace(/^import\s+.*$/gm, "")
     .replace(/^export\s+.*$/gm, "")
@@ -219,7 +273,6 @@ async function generateImage(topic) {
   const outputDir = path.join(ROOT, "public", "images", "explorations");
   const outputPath = path.join(outputDir, `${topic.slug}.png`);
 
-  // Skip if image already exists
   if (fs.existsSync(outputPath)) {
     console.log(`Image already exists: ${outputPath}`);
     return;
@@ -253,23 +306,15 @@ async function generateImage(topic) {
 }
 
 // ── Create the page file ────────────────────────────────────────────
-function createPage(topic, essayContent) {
+function createPage(topic, content) {
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
   fs.mkdirSync(dir, { recursive: true });
 
-  // Find the current newest exploration for navigation
-  const indexPath = path.join(
-    ROOT,
-    "src",
-    "app",
-    "explorations",
-    "page.tsx"
-  );
+  const indexPath = path.join(ROOT, "src", "app", "explorations", "page.tsx");
   const indexContent = fs.readFileSync(indexPath, "utf-8");
   const firstSlugMatch = indexContent.match(/slug:\s*"([^"]+)"/);
   const currentNewestSlug = firstSlugMatch ? firstSlugMatch[1] : null;
 
-  // Find the title of the current newest
   let currentNewestTitle = "";
   if (currentNewestSlug) {
     const titleMatch = indexContent.match(
@@ -280,18 +325,16 @@ function createPage(topic, essayContent) {
     currentNewestTitle = titleMatch ? titleMatch[1] : "";
   }
 
-  // Estimate read time from word count
-  const wordCount = essayContent
+  const wordCount = content
     .replace(/<[^>]+>/g, "")
     .split(/\s+/)
     .filter(Boolean).length;
-  const readTime = `${Math.max(8, Math.round(wordCount / 230))} min`;
+  const readTime = `${Math.max(3, Math.round(wordCount / 230))} min`;
 
   const prevNav = currentNewestSlug
     ? `\n      prevSlug="${currentNewestSlug}"\n      prevTitle="${currentNewestTitle}"`
     : "";
 
-  // Format date like "March 1, 2026"
   const now = new Date();
   const dateStr = now.toLocaleDateString("en-US", {
     year: "numeric",
@@ -313,7 +356,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       imageAlt="${escapeJsx(topic.title)} illustration"
       readTime="${readTime}"${prevNav}
     >
-${indentContent(essayContent, 6)}
+${indentContent(content, 6)}
     </ExplorationLayout>
   );
 }
@@ -340,14 +383,7 @@ function updateIndexPages(topic, readTime) {
       "${escapeJs(topic.description)}",
   },`;
 
-  // Update explorations/page.tsx
-  const explorationsIndex = path.join(
-    ROOT,
-    "src",
-    "app",
-    "explorations",
-    "page.tsx"
-  );
+  const explorationsIndex = path.join(ROOT, "src", "app", "explorations", "page.tsx");
   let content = fs.readFileSync(explorationsIndex, "utf-8");
   content = content.replace(
     /const explorations: Exploration\[\] = \[\n/,
@@ -356,7 +392,6 @@ function updateIndexPages(topic, readTime) {
   fs.writeFileSync(explorationsIndex, content);
   console.log("Updated explorations/page.tsx");
 
-  // Update home page.tsx
   const homePage = path.join(ROOT, "src", "app", "page.tsx");
   let homeContent = fs.readFileSync(homePage, "utf-8");
   homeContent = homeContent.replace(
@@ -371,24 +406,14 @@ function updateIndexPages(topic, readTime) {
 function updateNavigation(topic, currentNewestSlug) {
   if (!currentNewestSlug) return;
 
-  // Add nextSlug/nextTitle to the previous newest exploration
   const prevPagePath = path.join(
-    ROOT,
-    "src",
-    "app",
-    "explorations",
-    currentNewestSlug,
-    "page.tsx"
+    ROOT, "src", "app", "explorations", currentNewestSlug, "page.tsx"
   );
   if (!fs.existsSync(prevPagePath)) return;
 
   let prevContent = fs.readFileSync(prevPagePath, "utf-8");
-
-  // Check if it already has a nextSlug
   if (prevContent.includes("nextSlug=")) return;
 
-  // Add nextSlug before the closing >
-  // Match the line before the > that closes ExplorationLayout props
   prevContent = prevContent.replace(
     /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
     `$1$2\n$3nextSlug="${topic.slug}"\n$3nextTitle="${escapeJsx(topic.title)}"\n$3>`
@@ -401,13 +426,12 @@ function updateNavigation(topic, currentNewestSlug) {
 // ── Git commit ──────────────────────────────────────────────────────
 function gitCommit(topic) {
   try {
-    // Configure git identity in CI environments
     if (process.env.CI) {
       execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
       execSync('git config user.email "foxfire-bot@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
     }
     execSync("git add -A", { cwd: ROOT, stdio: "pipe" });
-    const msg = `Add exploration: ${topic.title}\n\nAuto-generated by Foxfire auto-explore script.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>`;
+    const msg = `Add exploration: ${topic.title}\n\nAuto-generated by Foxfire auto-explore script.\nFormat: ${topic.format}\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>`;
     execSync(`git commit -m "${msg.replace(/"/g, '\\"')}"`, {
       cwd: ROOT,
       stdio: "pipe",
@@ -455,13 +479,17 @@ async function main() {
   console.log(`${new Date().toISOString()}`);
   console.log(`${"═".repeat(60)}\n`);
 
-  const topic = pickTopic();
-  console.log(`Selected topic: "${topic.title}" [${topic.category}]\n`);
+  const existingSlugs = getExistingExplorations();
+  console.log(`${existingSlugs.length} existing explorations.\n`);
 
-  // Step 1: Research via Gemini (cheap) + generate image in parallel
+  // Step 1: Claude chooses its own topic
+  const topic = await chooseTopic(existingSlugs);
+  console.log(`\nChosen: "${topic.title}" [${topic.category}] (${topic.format})\n`);
+
+  // Step 2: Research + image generation in parallel
   const [research] = await Promise.all([
     researchTopic(topic).catch((err) => {
-      console.warn(`Research failed (non-fatal, Claude will improvise): ${err.message?.substring(0, 100)}`);
+      console.warn(`Research failed (non-fatal): ${err.message?.substring(0, 100)}`);
       return "";
     }),
     generateImage(topic).catch((err) => {
@@ -469,23 +497,19 @@ async function main() {
     }),
   ]);
 
-  // Step 2: Write essay via Claude Opus (using Gemini's research if available)
-  const essayContent = await writeEssay(topic, research);
+  // Step 3: Write the piece
+  const content = await writePiece(topic, research);
 
-  // Create the page file
-  const { readTime, currentNewestSlug } = createPage(topic, essayContent);
-
-  // Update indexes
+  // Step 4: Create page, update indexes, navigation
+  const { readTime, currentNewestSlug } = createPage(topic, content);
   updateIndexPages(topic, readTime);
-
-  // Update navigation
   updateNavigation(topic, currentNewestSlug);
 
-  // Commit
+  // Step 5: Commit
   gitCommit(topic);
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-  console.log(`\nDone in ${elapsed}s. New exploration: "${topic.title}"\n`);
+  console.log(`\nDone in ${elapsed}s. New exploration: "${topic.title}" (${topic.format})\n`);
 }
 
 main().catch((err) => {
