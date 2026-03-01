@@ -29,7 +29,8 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 
 // ── Config ──────────────────────────────────────────────────────────
-const PROBABILITY = 0.75; // 75% chance of running each invocation
+const PROBABILITY = 0.30; // 30% chance per check (runs every 3h = ~2.4/day avg)
+const MAX_DELAY_MS = 90 * 60 * 1000; // Random delay up to 90 minutes
 const FORCE = process.argv.includes("--force");
 
 // ── Load environment ────────────────────────────────────────────────
@@ -68,9 +69,19 @@ const gemini = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // ── Probability gate ────────────────────────────────────────────────
 if (!FORCE && Math.random() > PROBABILITY) {
   console.log(
-    `[${new Date().toISOString()}] Dice roll: skipping this run (${(PROBABILITY * 100).toFixed(0)}% chance)`
+    `[${new Date().toISOString()}] Dice roll: skipping this run (${(PROBABILITY * 100).toFixed(0)}% chance per check)`
   );
   process.exit(0);
+}
+
+// ── Random delay (skip when forced) ─────────────────────────────────
+if (!FORCE) {
+  const delayMs = Math.floor(Math.random() * MAX_DELAY_MS);
+  const delayMin = Math.round(delayMs / 60000);
+  console.log(
+    `[${new Date().toISOString()}] Dice roll: GO. Waiting ${delayMin} minutes before starting...`
+  );
+  await new Promise((resolve) => setTimeout(resolve, delayMs));
 }
 
 // ── Find unused topic ───────────────────────────────────────────────
