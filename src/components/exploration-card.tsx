@@ -3,7 +3,21 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight, Calendar, Clock } from "lucide-react";
+
+function formatPublishedAt(value: string): string {
+  // If it already contains a time (e.g. "03/01/2026 10:30 PM"), format nicely
+  if (value.includes(":")) {
+    const d = new Date(value);
+    if (!isNaN(d.getTime())) {
+      return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", hour12: true });
+    }
+    return value;
+  }
+  // Date-only (e.g. "2026-02-28")
+  const d = new Date(value + "T12:00:00");
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
 
 export interface Exploration {
   slug: string;
@@ -14,6 +28,7 @@ export interface Exploration {
   description?: string;
   readTime?: string;
   image?: string;
+  publishedAt?: string;
 }
 
 const colorStyles: Record<
@@ -113,6 +128,15 @@ export function ExplorationCard({
               <span className="text-xs tracking-wider uppercase text-muted">
                 {item.category}
               </span>
+              {item.publishedAt && (
+                <>
+                  <span className="text-muted/30">&middot;</span>
+                  <span className="flex items-center gap-1 text-xs text-muted/50">
+                    <Calendar size={10} />
+                    {formatPublishedAt(item.publishedAt)}
+                  </span>
+                </>
+              )}
               {item.readTime && (
                 <>
                   <span className="text-muted/30">&middot;</span>
@@ -182,6 +206,15 @@ export function ExplorationCard({
             <span className="text-xs tracking-wider uppercase text-muted">
               {item.category}
             </span>
+            {item.publishedAt && (
+              <>
+                <span className="text-muted/30">&middot;</span>
+                <span className="flex items-center gap-1 text-xs text-muted/50">
+                  <Calendar size={10} />
+                  {formatPublishedAt(item.publishedAt)}
+                </span>
+              </>
+            )}
             {item.readTime && (
               <>
                 <span className="text-muted/30">&middot;</span>

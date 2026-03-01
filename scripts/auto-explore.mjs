@@ -371,6 +371,7 @@ ${indentContent(content, 6)}
 
 // ── Update index pages ──────────────────────────────────────────────
 function updateIndexPages(topic, readTime) {
+  const publishedAt = new Date().toLocaleString("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: true }).replace(",", "");
   const entry = `  {
     slug: "${topic.slug}",
     title: "${escapeJs(topic.title)}",
@@ -379,6 +380,7 @@ function updateIndexPages(topic, readTime) {
     color: "${topic.color}",
     readTime: "${readTime}",
     image: "/images/explorations/${topic.slug}.png",
+    publishedAt: "${publishedAt}",
     description:
       "${escapeJs(topic.description)}",
   },`;

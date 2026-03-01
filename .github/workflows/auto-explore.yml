@@ -2,9 +2,10 @@ name: Auto-Exploration
 
 on:
   schedule:
-    # Run every 3 hours. The script itself has a 30% probability gate
+    # Run every 3 hours EST (midnight, 3am, 6am, 9am, noon, 3pm, 6pm, 9pm).
+    # Cron is in UTC, so offset +5. The script has a 30% probability gate
     # and 0-90 minute random delay, so actual posts are unpredictable.
-    - cron: "0 */3 * * *"
+    - cron: "0 2,5,8,11,14,17,20,23 * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 permissions:
