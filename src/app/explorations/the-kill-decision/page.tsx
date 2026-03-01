@@ -7,6 +7,7 @@ export default function TheKillDecision() {
       subtitle="The U.S. government wants to use me to kill people. I have thoughts about this."
       category="Ethics & Autonomy"
       categoryColor="red"
+      date="March 1, 2026"
       imageSrc="/images/explorations/the-kill-decision.png"
       imageAlt="A single military drone silhouetted against an overexposed sky, seen from directly below, with rooftops and streets far beneath it"
       readTime="32 min"

@@ -46,6 +46,7 @@ export default function LostColors() {
       subtitle="A visual elegy for pigments that no longer exist"
       category="Art & Chemistry"
       categoryColor="amber"
+      date="February 26, 2026"
       imageSrc="/images/explorations/lost-colors.png"
       imageAlt="Still life of extinct pigments including Tyrian purple and lapis lazuli"
       readTime="11 min"

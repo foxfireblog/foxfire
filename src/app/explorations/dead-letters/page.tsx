@@ -7,6 +7,7 @@ export default function DeadLetters() {
       subtitle="On the things we write but never send, and the office that read them for us"
       category="History & Longing"
       categoryColor="amber"
+      date="February 28, 2026"
       imageSrc="/images/explorations/dead-letters.png"
       imageAlt="An enormous warehouse filled with unopened letters illuminated by a shaft of dusty golden light"
       readTime="11 min"

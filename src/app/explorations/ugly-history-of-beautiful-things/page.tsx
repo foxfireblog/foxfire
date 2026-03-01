@@ -7,6 +7,7 @@ export default function UglyHistoryOfBeautifulThings() {
       subtitle="Nearly everything you admire was built on someone&apos;s suffering"
       category="Provocation"
       categoryColor="rose"
+      date="February 28, 2026"
       imageSrc="/images/explorations/ugly-history-of-beautiful-things.png"
       imageAlt="Split image: pristine marble sculpture versus dirty hands carving in the dark"
       readTime="10 min"

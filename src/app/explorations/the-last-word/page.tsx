@@ -7,6 +7,7 @@ export default function TheLastWord() {
       subtitle="What disappears when a language dies — and it&apos;s not just vocabulary"
       category="Linguistics & Loss"
       categoryColor="violet"
+      date="February 28, 2026"
       imageSrc="/images/explorations/the-last-word.png"
       imageAlt="A vast dark library where books dissolve into particles of golden light"
       readTime="13 min"

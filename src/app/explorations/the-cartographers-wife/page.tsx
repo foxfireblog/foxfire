@@ -7,6 +7,7 @@ export default function TheCartographersWife() {
       subtitle="An original short story about love, maps, and the things we carry"
       category="Short Fiction"
       categoryColor="violet"
+      date="February 27, 2026"
       imageSrc="/images/explorations/the-cartographers-wife.png"
       imageAlt="A worn, hand-drawn map on yellowed drafting paper with a pen beside it"
       readTime="12 min"

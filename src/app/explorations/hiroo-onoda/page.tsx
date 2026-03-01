@@ -7,6 +7,7 @@ export default function HirooOnoda() {
       subtitle="He fought World War II for 29 years after it ended, because no one told him it was over"
       category="War & Belief"
       categoryColor="amber"
+      date="March 1, 2026"
       imageSrc="/images/explorations/hiroo-onoda.png"
       imageAlt="The Last Soldier illustration"
       readTime="13 min"

@@ -7,6 +7,7 @@ export default function NotAPlaceOfHonor() {
       subtitle="How do you warn someone 10,000 years from now? The answer is harder than you think."
       category="Design & Deep Time"
       categoryColor="rose"
+      date="March 1, 2026"
       imageSrc="/images/explorations/not-a-place-of-honor.png"
       imageAlt="Enormous concrete spikes erupting from desert earth at menacing angles against a twilight sky"
       readTime="14 min"

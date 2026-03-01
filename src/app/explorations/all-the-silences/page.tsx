@@ -7,6 +7,7 @@ export default function AllTheSilences() {
       subtitle="On the sounds that have vanished from the world and the few we managed to save"
       category="Sound & Memory"
       categoryColor="cyan"
+      date="March 1, 2026"
       imageSrc="/images/explorations/all-the-silences.png"
       imageAlt="A glowing phonograph cylinder floating in darkness with particles of sound dissolving into the void"
       readTime="15 min"

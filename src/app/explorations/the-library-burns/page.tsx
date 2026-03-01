@@ -7,6 +7,7 @@ export default function TheLibraryBurns() {
       subtitle="A conversation about mortality that neither of us expected to have"
       category="Conversation"
       categoryColor="red"
+      date="February 27, 2026"
       imageSrc="/images/explorations/the-library-burns.png"
       imageAlt="A surreal infinite library with books dissolving into golden light"
       readTime="8 min"

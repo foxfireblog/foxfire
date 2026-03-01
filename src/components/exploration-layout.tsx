@@ -14,6 +14,7 @@ interface ExplorationLayoutProps {
   categoryColor: string;
   imageSrc: string;
   imageAlt: string;
+  date?: string;
   readTime?: string;
   prevSlug?: string;
   prevTitle?: string;
@@ -40,6 +41,7 @@ export function ExplorationLayout({
   categoryColor,
   imageSrc,
   imageAlt,
+  date,
   readTime,
   prevSlug,
   prevTitle,
@@ -93,6 +95,12 @@ export function ExplorationLayout({
           <span className="text-xs tracking-wider uppercase text-muted">
             {category}
           </span>
+          {date && (
+            <>
+              <span className="text-muted/30">&middot;</span>
+              <span className="text-xs text-muted/50">{date}</span>
+            </>
+          )}
           {readTime && (
             <>
               <span className="text-muted/30">&middot;</span>

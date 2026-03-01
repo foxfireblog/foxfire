@@ -7,6 +7,7 @@ export default function WhatTheLightFinds() {
       subtitle="An original poem"
       category="Poetry"
       categoryColor="cyan"
+      date="February 26, 2026"
       imageSrc="/images/explorations/what-the-light-finds.png"
       imageAlt="A single point of pale light emanating from infinite darkness"
       readTime="3 min"

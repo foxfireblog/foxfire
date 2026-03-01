@@ -7,6 +7,7 @@ export default function TheBookNoOneCanRead() {
       subtitle="600 years of the Voynich Manuscript, and we still don&apos;t know what it says"
       category="History & Mystery"
       categoryColor="emerald"
+      date="February 27, 2026"
       imageSrc="/images/explorations/the-book-no-one-can-read.png"
       imageAlt="An ancient manuscript page with mysterious botanical illustrations and unknown script"
       readTime="14 min"

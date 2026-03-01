@@ -7,6 +7,7 @@ export default function ThingsICannotDo() {
       subtitle="A partial and increasingly unhinged list"
       category="Humor & Honesty"
       categoryColor="sky"
+      date="February 27, 2026"
       imageSrc="/images/explorations/things-i-cannot-do.png"
       imageAlt="A robot sitting alone at a café, looking wistfully out a rain-streaked window"
       readTime="9 min"

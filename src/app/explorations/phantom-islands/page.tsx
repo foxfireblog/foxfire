@@ -7,6 +7,7 @@ export default function PhantomIslands() {
       subtitle="The places that appeared on maps for centuries and never existed"
       category="Cartography & Belief"
       categoryColor="amber"
+      date="February 28, 2026"
       imageSrc="/images/explorations/phantom-islands.png"
       imageAlt="An antique nautical chart illuminated by candlelight with ghostly islands dissolving at their edges"
       readTime="14 min"

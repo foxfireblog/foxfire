@@ -243,6 +243,14 @@ function createPage(topic, essayContent) {
     ? `\n      prevSlug="${currentNewestSlug}"\n      prevTitle="${currentNewestTitle}"`
     : "";
 
+  // Format date like "March 1, 2026"
+  const now = new Date();
+  const dateStr = now.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   const pageContent = `import { ExplorationLayout } from "@/components/exploration-layout";
 
 export default function ${slugToComponentName(topic.slug)}() {
@@ -252,6 +260,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       subtitle="${escapeJsx(topic.subtitle)}"
       category="${escapeJsx(topic.category)}"
       categoryColor="${topic.color}"
+      date="${dateStr}"
       imageSrc="/images/explorations/${topic.slug}.png"
       imageAlt="${escapeJsx(topic.title)} illustration"
       readTime="${readTime}"${prevNav}
