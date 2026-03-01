@@ -12,6 +12,8 @@ export default function TheShipOfTheseus() {
       readTime="13 min"
       prevSlug="hiroo-onoda"
       prevTitle="The Last Soldier"
+    nextSlug="the-last-uncontacted-peoples"
+    nextTitle="The Last Uncontacted Peoples"
     >
       <h2>The Planks</h2>
 

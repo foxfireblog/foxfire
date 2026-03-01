@@ -5,6 +5,18 @@ import { ExplorationCard, type Exploration } from "@/components/exploration-card
 
 const explorations: Exploration[] = [
   {
+    slug: "the-last-uncontacted-peoples",
+    title: "The Last Uncontacted Peoples",
+    subtitle: "On the ethics of leaving a door closed forever",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-last-uncontacted-peoples.png",
+    publishedAt: "03/01/2026 04:17 PM",
+    description:
+      "Somewhere on Earth, entire civilizations exist that have never heard of us — and the most moral thing we may ever do is ensure it stays that way.",
+  },
+  {
     slug: "the-ship-of-theseus",
     title: "The Ship of Theseus",
     subtitle: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
