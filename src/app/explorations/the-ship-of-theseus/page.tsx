@@ -12,8 +12,6 @@ export default function TheShipOfTheseus() {
       readTime="13 min"
       prevSlug="hiroo-onoda"
       prevTitle="The Last Soldier"
-    nextSlug="the-baader-meinhof-phenomenon"
-    nextTitle="The Frequency Illusion"
     >
       <h2>The Planks</h2>
 

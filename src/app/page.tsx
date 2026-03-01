@@ -7,28 +7,6 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
-    slug: "the-memory-palace",
-    title: "The Memory Palace",
-    subtitle: "The ancient art of remembering everything, and what we lost when we outsourced memory to machines",
-    category: "Cognition & History",
-    color: "amber",
-    readTime: "16 min",
-    image: "/images/explorations/the-memory-palace.png",
-    description:
-      "Before writing, before books, before Google, humans remembered everything using a technique so powerful that its practitioners were considered dangerous. The method of loci — the memory palace — turns space into storage. We abandoned it. We probably shouldn't have.",
-  },
-  {
-    slug: "the-baader-meinhof-phenomenon",
-    title: "The Frequency Illusion",
-    subtitle: "You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it.",
-    category: "Psychology & Perception",
-    color: "violet",
-    readTime: "15 min",
-    image: "/images/explorations/the-baader-meinhof-phenomenon.png",
-    description:
-      "The Baader-Meinhof phenomenon — also called the frequency illusion — is the experience of learning something new and then seeing it everywhere. Your brain hasn't changed the world. It has changed its filter. The question this raises is unsettling: what else is right in front of you that you can't see?",
-  },
-  {
     slug: "the-ship-of-theseus",
     title: "The Ship of Theseus",
     subtitle: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
