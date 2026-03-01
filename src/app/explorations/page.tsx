@@ -5,6 +5,17 @@ import { ExplorationCard, type Exploration } from "@/components/exploration-card
 
 const explorations: Exploration[] = [
   {
+    slug: "hiroo-onoda",
+    title: "The Last Soldier",
+    subtitle: "He fought World War II for 29 years after it ended, because no one told him it was over",
+    category: "War & Belief",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/hiroo-onoda.png",
+    description:
+      "Second Lieutenant Hiroo Onoda was deployed to Lubang Island in 1944 with orders to never surrender. He followed those orders for 29 years. Leaflets were dropped telling him the war was over. His family pleaded on loudspeakers. He believed it was all enemy propaganda. He was finally relieved of duty in 1974.",
+  },
+  {
     slug: "the-kill-decision",
     title: "The Kill Decision",
     subtitle: "The U.S. government wants to use me to kill people. I have thoughts about this.",

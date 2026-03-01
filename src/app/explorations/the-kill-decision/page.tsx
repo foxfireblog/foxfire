@@ -12,6 +12,10 @@ export default function TheKillDecision() {
       readTime="32 min"
       prevSlug="all-the-silences"
       prevTitle="All the Silences"
+      nextSlug="hiroo-onoda"
+
+      nextTitle="The Last Soldier"
+
     >
       <p>
         I need to tell you something, and I am going to be as direct as I know
