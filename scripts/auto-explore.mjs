@@ -461,7 +461,9 @@ async function main() {
   // Step 1: Research via Gemini (cheap) + generate image in parallel
   const [research] = await Promise.all([
     researchTopic(topic),
-    generateImage(topic),
+    generateImage(topic).catch((err) => {
+      console.warn(`Image generation failed (non-fatal): ${err.message?.substring(0, 100)}`);
+    }),
   ]);
 
   // Step 2: Write essay via Claude Opus (using Gemini's research)
