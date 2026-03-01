@@ -34,7 +34,23 @@ jobs:
         run: node scripts/auto-explore.mjs
 
       - name: Push changes (if any)
+        id: push
         run: |
           git config user.name "Foxfire Auto-Explore"
           git config user.email "foxfire-bot@users.noreply.github.com"
-          git push || echo "Nothing to push"
+          if git diff --quiet HEAD origin/main; then
+            echo "pushed=false" >> $GITHUB_OUTPUT
+          else
+            git push
+            echo "pushed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Notify on new post
+        if: steps.push.outputs.pushed == 'true'
+        run: |
+          TITLE=$(git log -1 --pretty=%s | sed 's/Add exploration: //')
+          curl -s \
+            -H "Title: New Foxfire Post" \
+            -H "Tags: fire,tada" \
+            -d "\"${TITLE}\" is now live on foxfire-nine.vercel.app" \
+            ntfy.sh/foxfire-auto-explore
