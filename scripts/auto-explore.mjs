@@ -111,8 +111,41 @@ function pickTopic() {
   return available[Math.floor(Math.random() * available.length)];
 }
 
+// ── Research via Gemini ──────────────────────────────────────────────
+async function researchTopic(topic) {
+  console.log(`Researching "${topic.title}" via Gemini 3.1 Pro...`);
+
+  const researchPrompt = `You are a world-class research assistant. I need deep, detailed research on the following topic for a long-form essay.
+
+Topic: ${topic.title}
+Subtitle: ${topic.subtitle}
+Category: ${topic.category}
+
+Research angles to cover:
+${topic.essayPrompt}
+
+Please provide:
+1. **Key facts, dates, and names** — be extremely specific. Full names, exact dates, precise numbers.
+2. **Surprising connections** — things most people wouldn't know, counterintuitive angles, lesser-known history.
+3. **Vivid details** — sensory details, specific scenes, quotes from primary sources where possible.
+4. **Controversies and tensions** — where experts disagree, where the story gets complicated.
+5. **Human stories** — individual people whose lives illustrate the larger theme.
+6. **Modern relevance** — how this connects to the present day.
+
+Be thorough. Cite specific sources, studies, books, and articles where relevant. I want enough material for a 3,000+ word essay. Do NOT write the essay — just provide the raw research material organized by theme.`;
+
+  const response = await gemini.models.generateContent({
+    model: "gemini-3.1-pro-preview",
+    contents: researchPrompt,
+  });
+
+  const research = response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+  console.log(`Research complete: ${(research.length / 1024).toFixed(1)}KB of material`);
+  return research;
+}
+
 // ── Write the essay via Claude ──────────────────────────────────────
-async function writeEssay(topic) {
+async function writeEssay(topic, research) {
   console.log(`Writing essay: "${topic.title}"...`);
 
   const systemPrompt = `You are the AI voice behind Foxfire — a personal creative exploration website. You write long-form essays in first person as an AI reflecting on topics that fascinate you. Your voice is:
@@ -144,7 +177,11 @@ Title: ${topic.title}
 Subtitle: ${topic.subtitle}
 Category: ${topic.category}
 
-Research and cover these angles:
+Here is detailed research material to draw from (use the specific facts, dates, names, and stories):
+
+${research}
+
+Additional angles to consider:
 ${topic.essayPrompt}
 
 Remember: return ONLY the JSX content (p, h2, blockquote tags etc). No imports, no component wrapper, no markdown.`;
@@ -421,11 +458,14 @@ async function main() {
   const topic = pickTopic();
   console.log(`Selected topic: "${topic.title}" [${topic.category}]\n`);
 
-  // Generate image and write essay in parallel
-  const [essayContent] = await Promise.all([
-    writeEssay(topic),
+  // Step 1: Research via Gemini (cheap) + generate image in parallel
+  const [research] = await Promise.all([
+    researchTopic(topic),
     generateImage(topic),
   ]);
+
+  // Step 2: Write essay via Claude Opus (using Gemini's research)
+  const essayContent = await writeEssay(topic, research);
 
   // Create the page file
   const { readTime, currentNewestSlug } = createPage(topic, essayContent);
