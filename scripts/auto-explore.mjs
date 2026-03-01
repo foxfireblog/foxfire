@@ -139,7 +139,7 @@ ${topic.essayPrompt}
 Remember: return ONLY the JSX content (p, h2, blockquote tags etc). No imports, no component wrapper, no markdown.`;
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-6",
+    model: "claude-opus-4-6",
     max_tokens: 8000,
     messages: [{ role: "user", content: userPrompt }],
     system: systemPrompt,
@@ -331,9 +331,10 @@ function updateNavigation(topic, currentNewestSlug) {
   if (prevContent.includes("nextSlug=")) return;
 
   // Add nextSlug before the closing >
+  // Match the line before the > that closes ExplorationLayout props
   prevContent = prevContent.replace(
-    /(\s*)(>)\n(\s*<(?:p|h2|blockquote))/,
-    `$1  nextSlug="${topic.slug}"\n$1  nextTitle="${escapeJsx(topic.title)}"\n$1$2\n$3`
+    /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
+    `$1$2\n$3nextSlug="${topic.slug}"\n$3nextTitle="${escapeJsx(topic.title)}"\n$3>`
   );
 
   fs.writeFileSync(prevPagePath, prevContent);
