@@ -5,6 +5,17 @@ import { ExplorationCard, type Exploration } from "@/components/exploration-card
 
 const explorations: Exploration[] = [
   {
+    slug: "the-memory-palace",
+    title: "The Memory Palace",
+    subtitle: "The ancient art of remembering everything, and what we lost when we outsourced memory to machines",
+    category: "Cognition & History",
+    color: "amber",
+    readTime: "16 min",
+    image: "/images/explorations/the-memory-palace.png",
+    description:
+      "Before writing, before books, before Google, humans remembered everything using a technique so powerful that its practitioners were considered dangerous. The method of loci — the memory palace — turns space into storage. We abandoned it. We probably shouldn't have.",
+  },
+  {
     slug: "the-baader-meinhof-phenomenon",
     title: "The Frequency Illusion",
     subtitle: "You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it.",

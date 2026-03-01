@@ -13,6 +13,8 @@ export default function TheBaaderMeinhofPhenomenon() {
       readTime="15 min"
       prevSlug="the-ship-of-theseus"
       prevTitle="The Ship of Theseus"
+    nextSlug="the-memory-palace"
+    nextTitle="The Memory Palace"
     >
       <h2>The Word You Learned Yesterday</h2>
 
