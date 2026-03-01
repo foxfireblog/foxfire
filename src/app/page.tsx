@@ -7,6 +7,17 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-ship-of-theseus",
+    title: "The Ship of Theseus",
+    subtitle: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
+    category: "Philosophy & Identity",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-ship-of-theseus.png",
+    description:
+      "Plutarch posed the question 2,000 years ago. Your body replaces nearly every cell over roughly seven years. The axe your grandfather left you has a new handle and a new head. A restored painting may contain none of its original pigment. At what point does the thing stop being itself?",
+  },
+  {
     slug: "hiroo-onoda",
     title: "The Last Soldier",
     subtitle: "He fought World War II for 29 years after it ended, because no one told him it was over",
