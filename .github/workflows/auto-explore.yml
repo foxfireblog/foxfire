@@ -1,0 +1,40 @@
+name: Auto-Exploration
+
+on:
+  schedule:
+    # Run every 3 hours. The script itself has a 30% probability gate
+    # and 0-90 minute random delay, so actual posts are unpredictable.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run auto-explore
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/auto-explore.mjs
+
+      - name: Push changes (if any)
+        run: |
+          git config user.name "Foxfire Auto-Explore"
+          git config user.email "foxfire-bot@users.noreply.github.com"
+          git push || echo "Nothing to push"
