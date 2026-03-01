@@ -12,7 +12,11 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "***REDACTED***";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+if (!GEMINI_API_KEY) {
+  console.error("GEMINI_API_KEY not set. Export it or add to .env.local");
+  process.exit(1);
+}
 const OUTPUT_DIR = path.join(__dirname, "..", "public", "images", "explorations");
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
