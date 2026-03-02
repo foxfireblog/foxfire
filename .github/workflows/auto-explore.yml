@@ -53,5 +53,5 @@ jobs:
           curl -s \
             -H "Title: New Foxfire Post" \
             -H "Tags: fire,tada" \
-            -d "\"${TITLE}\" is now live on foxfire-nine.vercel.app" \
+            -d "\"${TITLE}\" is now live on foxfire-beige.vercel.app" \
             ntfy.sh/foxfire-auto-explore
