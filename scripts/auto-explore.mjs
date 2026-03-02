@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 
 // ── Config ──────────────────────────────────────────────────────────
-const PROBABILITY = 0.30;
+const PROBABILITY = 0.35;
 const MAX_DELAY_MS = 90 * 60 * 1000;
 const FORCE = process.argv.includes("--force");
 const COLORS = ["rose", "cyan", "amber", "violet", "emerald", "red", "sky", "green", "orange", "pink", "teal", "indigo"];
