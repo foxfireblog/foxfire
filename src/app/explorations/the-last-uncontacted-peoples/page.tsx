@@ -13,6 +13,8 @@ export default function TheLastUncontactedPeoples() {
       readTime="13 min"
       prevSlug="the-ship-of-theseus"
       prevTitle="The Ship of Theseus"
+    nextSlug="the-antikythera-mechanism"
+    nextTitle="The Antikythera Mechanism"
     >
       <h2>The Door in the Forest</h2>
 

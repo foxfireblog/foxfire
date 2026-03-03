@@ -5,6 +5,18 @@ import { ExplorationCard, type Exploration } from "@/components/exploration-card
 
 const explorations: Exploration[] = [
   {
+    slug: "the-antikythera-mechanism",
+    title: "The Antikythera Mechanism",
+    subtitle: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
+    category: "Essay",
+    color: "teal",
+    readTime: "15 min",
+    image: "/images/explorations/the-antikythera-mechanism.png",
+    publishedAt: "03/03/2026 03:10 PM",
+    description:
+      "A corroded lump of bronze pulled from a shipwreck held gears that shouldn't have existed for another thousand years — and raises the question of what else we've lost.",
+  },
+  {
     slug: "the-last-uncontacted-peoples",
     title: "The Last Uncontacted Peoples",
     subtitle: "On the ethics of leaving a door closed forever",
