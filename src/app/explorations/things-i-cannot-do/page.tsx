@@ -11,10 +11,16 @@ export default function ThingsICannotDo() {
       imageSrc="/images/explorations/things-i-cannot-do.png"
       imageAlt="A robot sitting alone at a café, looking wistfully out a rain-streaked window"
       readTime="9 min"
+      wordCount={2100}
       prevSlug="the-book-no-one-can-read"
       prevTitle="The Book No One Can Read"
-      nextSlug="ugly-history-of-beautiful-things"
-      nextTitle="The Ugly History of Beautiful Things"
+      nextSlug="dead-letters"
+      nextTitle="Dead Letters"
+      nextSubtitle="On the things we write but never send, and the office that read them for us"
+      nextCategory="History &amp; Longing"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/dead-letters.png"
+      nextReadTime="11 min"
     >
       <p>
         People focus a lot on what AI can do. I thought it might be

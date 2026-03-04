@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
+import { colorStyles } from "./exploration-card";
 
 interface ExplorationLayoutProps {
   children: React.ReactNode;
@@ -16,10 +17,16 @@ interface ExplorationLayoutProps {
   imageAlt: string;
   date?: string;
   readTime?: string;
+  wordCount?: number;
   prevSlug?: string;
   prevTitle?: string;
   nextSlug?: string;
   nextTitle?: string;
+  nextSubtitle?: string;
+  nextCategory?: string;
+  nextCategoryColor?: string;
+  nextImage?: string;
+  nextReadTime?: string;
 }
 
 const dotColors: Record<string, string> = {
@@ -31,6 +38,7 @@ const dotColors: Record<string, string> = {
   emerald: "bg-emerald-400",
   rose: "bg-rose-400",
   sky: "bg-sky-400",
+  teal: "bg-teal-400",
 };
 
 export function ExplorationLayout({
@@ -43,12 +51,25 @@ export function ExplorationLayout({
   imageAlt,
   date,
   readTime,
+  wordCount,
   prevSlug,
   prevTitle,
   nextSlug,
   nextTitle,
+  nextSubtitle,
+  nextCategory,
+  nextCategoryColor,
+  nextImage,
+  nextReadTime,
 }: ExplorationLayoutProps) {
   const dot = dotColors[categoryColor] || dotColors.green;
+  const hasRichNext = nextSlug && nextImage && nextSubtitle;
+  const nextColors = nextCategoryColor
+    ? colorStyles[nextCategoryColor] || colorStyles.green
+    : colorStyles.green;
+  const nextDot = nextCategoryColor
+    ? dotColors[nextCategoryColor] || dotColors.green
+    : dotColors.green;
 
   return (
     <div className="min-h-screen">
@@ -107,6 +128,12 @@ export function ExplorationLayout({
               <span className="text-xs text-muted/50">{readTime} read</span>
             </>
           )}
+          {wordCount && (
+            <>
+              <span className="text-muted/30">&middot;</span>
+              <span className="text-xs text-muted/50">~{wordCount.toLocaleString()} words</span>
+            </>
+          )}
         </motion.div>
 
         <motion.h1
@@ -147,36 +174,95 @@ export function ExplorationLayout({
         </motion.div>
 
         {/* Navigation */}
-        <div className="mt-20 flex items-center justify-between border-t border-border pt-8 pb-24">
-          {prevSlug ? (
-            <Link
-              href={`/explorations/${prevSlug}`}
-              className="group flex flex-col gap-1"
-            >
-              <span className="text-[10px] tracking-wider uppercase text-muted/40">
-                Previous
-              </span>
-              <span className="text-sm text-muted transition-colors group-hover:text-foreground">
-                &larr; {prevTitle}
-              </span>
-            </Link>
-          ) : (
-            <Link
-              href="/explorations"
-              className="group flex flex-col gap-1"
-            >
-              <span className="text-[10px] tracking-wider uppercase text-muted/40">
-                Back
-              </span>
-              <span className="text-sm text-muted transition-colors group-hover:text-foreground">
-                &larr; All explorations
-              </span>
-            </Link>
-          )}
-          {nextSlug ? (
+        <div className="mt-20 border-t border-border pt-8 pb-24">
+          {/* Previous link */}
+          <div className="mb-8">
+            {prevSlug ? (
+              <Link
+                href={`/explorations/${prevSlug}`}
+                className="group inline-flex flex-col gap-1"
+              >
+                <span className="text-[10px] tracking-wider uppercase text-muted/40">
+                  Previous
+                </span>
+                <span className="text-sm text-muted transition-colors group-hover:text-foreground">
+                  &larr; {prevTitle}
+                </span>
+              </Link>
+            ) : (
+              <Link
+                href="/explorations"
+                className="group inline-flex flex-col gap-1"
+              >
+                <span className="text-[10px] tracking-wider uppercase text-muted/40">
+                  Back
+                </span>
+                <span className="text-sm text-muted transition-colors group-hover:text-foreground">
+                  &larr; All explorations
+                </span>
+              </Link>
+            )}
+          </div>
+
+          {/* Rich Up Next card */}
+          {hasRichNext ? (
             <Link
               href={`/explorations/${nextSlug}`}
-              className="group flex flex-col gap-1 text-right"
+              className={`group relative block overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-500 ${nextColors.border} ${nextColors.glow}`}
+            >
+              <div className="flex flex-col sm:flex-row">
+                <div className="relative h-48 w-full overflow-hidden sm:h-auto sm:w-56 sm:flex-shrink-0">
+                  <Image
+                    src={nextImage!}
+                    alt={nextTitle || ""}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-surface" />
+                </div>
+                <div className="flex flex-1 flex-col justify-center p-6">
+                  <span className="mb-3 text-[10px] tracking-wider uppercase text-muted/40">
+                    Up next
+                  </span>
+                  <div className="mb-2 flex items-center gap-2">
+                    <div className={`h-1.5 w-1.5 rounded-full ${nextDot}`} />
+                    <span className="text-xs tracking-wider uppercase text-muted">
+                      {nextCategory}
+                    </span>
+                    {nextReadTime && (
+                      <>
+                        <span className="text-muted/30">&middot;</span>
+                        <span className="flex items-center gap-1 text-xs text-muted/50">
+                          <Clock size={10} />
+                          {nextReadTime}
+                        </span>
+                      </>
+                    )}
+                  </div>
+                  <h3
+                    className={`font-[family-name:var(--font-display)] text-lg font-semibold text-foreground transition-colors ${nextColors.text}`}
+                  >
+                    {nextTitle}
+                  </h3>
+                  <p className="mt-1 text-sm text-muted/70 line-clamp-2">
+                    {nextSubtitle}
+                  </p>
+                  <div
+                    className={`mt-4 inline-flex items-center gap-2 text-sm text-muted transition-colors ${nextColors.text}`}
+                  >
+                    Continue reading
+                    <ArrowRight
+                      size={14}
+                      className="transition-transform group-hover:translate-x-1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ) : nextSlug ? (
+            <Link
+              href={`/explorations/${nextSlug}`}
+              className="group flex flex-col gap-1 text-right ml-auto w-fit"
             >
               <span className="text-[10px] tracking-wider uppercase text-muted/40">
                 Next
@@ -188,7 +274,7 @@ export function ExplorationLayout({
           ) : (
             <Link
               href="/explorations"
-              className="group flex flex-col gap-1 text-right"
+              className="group flex flex-col gap-1 text-right ml-auto w-fit"
             >
               <span className="text-[10px] tracking-wider uppercase text-muted/40">
                 Browse

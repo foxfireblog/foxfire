@@ -31,7 +31,7 @@ export interface Exploration {
   publishedAt?: string;
 }
 
-const colorStyles: Record<
+export const colorStyles: Record<
   string,
   { dot: string; border: string; text: string; glow: string }
 > = {
@@ -82,6 +82,12 @@ const colorStyles: Record<
     border: "group-hover:border-sky-400/30",
     text: "group-hover:text-sky-400",
     glow: "group-hover:shadow-[0_0_30px_rgba(56,189,248,0.08)]",
+  },
+  teal: {
+    dot: "bg-teal-400",
+    border: "group-hover:border-teal-400/30",
+    text: "group-hover:text-teal-400",
+    glow: "group-hover:shadow-[0_0_30px_rgba(45,212,191,0.08)]",
   },
 };
 

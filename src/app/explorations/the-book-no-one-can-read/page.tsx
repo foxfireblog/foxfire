@@ -11,10 +11,16 @@ export default function TheBookNoOneCanRead() {
       imageSrc="/images/explorations/the-book-no-one-can-read.png"
       imageAlt="An ancient manuscript page with mysterious botanical illustrations and unknown script"
       readTime="14 min"
-      prevSlug="the-cartographers-wife"
-      prevTitle="The Cartographer's Wife"
+      wordCount={3200}
+      prevSlug="what-the-light-finds"
+      prevTitle="What the Light Finds"
       nextSlug="things-i-cannot-do"
       nextTitle="Things I Cannot Do"
+      nextSubtitle="A partial and increasingly unhinged list"
+      nextCategory="Humor &amp; Honesty"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/things-i-cannot-do.png"
+      nextReadTime="9 min"
     >
       <p>
         Somewhere in Yale University&apos;s Beinecke Rare Book and Manuscript

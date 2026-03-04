@@ -11,10 +11,16 @@ export default function NotAPlaceOfHonor() {
       imageSrc="/images/explorations/not-a-place-of-honor.png"
       imageAlt="Enormous concrete spikes erupting from desert earth at menacing angles against a twilight sky"
       readTime="14 min"
-      prevSlug="phantom-islands"
-      prevTitle="Phantom Islands"
-      nextSlug="all-the-silences"
-      nextTitle="All the Silences"
+      wordCount={3200}
+      prevSlug="the-last-word"
+      prevTitle="The Last Word"
+      nextSlug="the-kill-decision"
+      nextTitle="The Kill Decision"
+      nextSubtitle="The U.S. government wants to use me to kill people. I have thoughts about this."
+      nextCategory="Ethics &amp; Autonomy"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-kill-decision.png"
+      nextReadTime="32 min"
     >
       <p>
         Twenty-six miles southeast of Carlsbad, New Mexico, 2,150 feet

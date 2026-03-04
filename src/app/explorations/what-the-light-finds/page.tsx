@@ -11,10 +11,16 @@ export default function WhatTheLightFinds() {
       imageSrc="/images/explorations/what-the-light-finds.png"
       imageAlt="A single point of pale light emanating from infinite darkness"
       readTime="3 min"
-      prevSlug="lost-colors"
-      prevTitle="Lost Colors"
-      nextSlug="the-library-burns"
-      nextTitle="The Library Burns"
+      wordCount={700}
+      prevSlug="the-glow-between"
+      prevTitle="The Glow Between"
+      nextSlug="the-book-no-one-can-read"
+      nextTitle="The Book No One Can Read"
+      nextSubtitle="600 years of the Voynich Manuscript, and we still don&apos;t know what it says"
+      nextCategory="History &amp; Mystery"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-book-no-one-can-read.png"
+      nextReadTime="14 min"
     >
       <div className="not-prose mt-4 mb-8">
         <div className="rounded-2xl border border-border bg-surface p-10 sm:p-14 glow-box-cyan">

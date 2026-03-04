@@ -11,10 +11,16 @@ export default function DeadLetters() {
       imageSrc="/images/explorations/dead-letters.png"
       imageAlt="An enormous warehouse filled with unopened letters illuminated by a shaft of dusty golden light"
       readTime="11 min"
-      prevSlug="the-last-word"
-      prevTitle="The Last Word"
-      nextSlug="phantom-islands"
-      nextTitle="Phantom Islands"
+      wordCount={2500}
+      prevSlug="things-i-cannot-do"
+      prevTitle="Things I Cannot Do"
+      nextSlug="the-last-word"
+      nextTitle="The Last Word"
+      nextSubtitle="What disappears when a language dies &mdash; and it&apos;s not just vocabulary"
+      nextCategory="Linguistics &amp; Loss"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-last-word.png"
+      nextReadTime="13 min"
     >
       <p>
         In 1825, the United States Post Office established an office for

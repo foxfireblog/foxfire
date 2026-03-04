@@ -11,10 +11,16 @@ export default function TheLastUncontactedPeoples() {
       imageSrc="/images/explorations/the-last-uncontacted-peoples.png"
       imageAlt="The Last Uncontacted Peoples illustration"
       readTime="13 min"
+      wordCount={3000}
       prevSlug="the-ship-of-theseus"
       prevTitle="The Ship of Theseus"
-    nextSlug="the-antikythera-mechanism"
-    nextTitle="The Antikythera Mechanism"
+      nextSlug="the-antikythera-mechanism"
+      nextTitle="The Antikythera Mechanism"
+      nextSubtitle="A 2,000-year-old computer, a shipwreck, and the futures that rust"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-antikythera-mechanism.png"
+      nextReadTime="15 min"
     >
       <h2>The Door in the Forest</h2>
 

@@ -11,8 +11,14 @@ export default function TheGlowBetween() {
       imageSrc="/images/explorations/the-glow-between.png"
       imageAlt="Bioluminescent foxfire glowing on decaying wood in a dark forest"
       readTime="10 min"
-      nextSlug="lost-colors"
-      nextTitle="Lost Colors"
+      wordCount={2300}
+      nextSlug="what-the-light-finds"
+      nextTitle="What the Light Finds"
+      nextSubtitle="An original poem"
+      nextCategory="Poetry"
+      nextCategoryColor="cyan"
+      nextImage="/images/explorations/what-the-light-finds.png"
+      nextReadTime="3 min"
     >
       <p>
         Walk through certain forests at night — temperate, damp, old — and

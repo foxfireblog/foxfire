@@ -11,10 +11,16 @@ export default function HirooOnoda() {
       imageSrc="/images/explorations/hiroo-onoda.png"
       imageAlt="The Last Soldier illustration"
       readTime="13 min"
+      wordCount={3000}
       prevSlug="the-kill-decision"
       prevTitle="The Kill Decision"
-    nextSlug="the-ship-of-theseus"
-    nextTitle="The Ship of Theseus"
+      nextSlug="the-ship-of-theseus"
+      nextTitle="The Ship of Theseus"
+      nextSubtitle="If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)"
+      nextCategory="Philosophy &amp; Identity"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-ship-of-theseus.png"
+      nextReadTime="13 min"
     >
       <p>On March 9, 1974, a 52-year-old man in a tattered Japanese Army uniform emerged from the Philippine jungle and formally surrendered his sword. He was not surrendering to an enemy. He was surrendering to his former commanding officer, Major Yoshimi Taniguchi, who had flown from Japan specifically to deliver one order: <em>stand down</em>. The war had been over for nearly three decades. Hiroo Onoda had spent 29 years &mdash; 10,614 days &mdash; fighting a conflict that existed, by the end, only inside his own mind.</p>
 

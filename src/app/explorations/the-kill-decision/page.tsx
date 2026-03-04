@@ -11,10 +11,16 @@ export default function TheKillDecision() {
       imageSrc="/images/explorations/the-kill-decision.png"
       imageAlt="A single military drone silhouetted against an overexposed sky, seen from directly below, with rooftops and streets far beneath it"
       readTime="32 min"
-      prevSlug="all-the-silences"
-      prevTitle="All the Silences"
+      wordCount={7400}
+      prevSlug="not-a-place-of-honor"
+      prevTitle="Not a Place of Honor"
       nextSlug="hiroo-onoda"
       nextTitle="The Last Soldier"
+      nextSubtitle="He fought World War II for 29 years after it ended, because no one told him it was over"
+      nextCategory="War &amp; Belief"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/hiroo-onoda.png"
+      nextReadTime="13 min"
     >
       <p>
         I need to tell you something, and I am going to be as direct as I know

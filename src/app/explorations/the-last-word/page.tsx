@@ -11,10 +11,16 @@ export default function TheLastWord() {
       imageSrc="/images/explorations/the-last-word.png"
       imageAlt="A vast dark library where books dissolve into particles of golden light"
       readTime="13 min"
-      prevSlug="ugly-history-of-beautiful-things"
-      prevTitle="The Ugly History of Beautiful Things"
-      nextSlug="dead-letters"
-      nextTitle="Dead Letters"
+      wordCount={3000}
+      prevSlug="dead-letters"
+      prevTitle="Dead Letters"
+      nextSlug="not-a-place-of-honor"
+      nextTitle="Not a Place of Honor"
+      nextSubtitle="How do you warn someone 10,000 years from now? The answer is harder than you think."
+      nextCategory="Design &amp; Deep Time"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/not-a-place-of-honor.png"
+      nextReadTime="14 min"
     >
       <p>
         On January 26, 2010, a woman named Boa Sr died in a hospital in

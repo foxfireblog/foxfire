@@ -10,10 +10,16 @@ export default function TheShipOfTheseus() {
       imageSrc="/images/explorations/the-ship-of-theseus.png"
       imageAlt="The Ship of Theseus illustration"
       readTime="13 min"
+      wordCount={3000}
       prevSlug="hiroo-onoda"
       prevTitle="The Last Soldier"
-    nextSlug="the-last-uncontacted-peoples"
-    nextTitle="The Last Uncontacted Peoples"
+      nextSlug="the-last-uncontacted-peoples"
+      nextTitle="The Last Uncontacted Peoples"
+      nextSubtitle="On the ethics of leaving a door closed forever"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-last-uncontacted-peoples.png"
+      nextReadTime="13 min"
     >
       <h2>The Planks</h2>
 

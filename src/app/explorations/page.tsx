@@ -1,7 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
+import { List, GitBranch } from "lucide-react";
 import { ExplorationCard, type Exploration } from "@/components/exploration-card";
+import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
@@ -152,34 +155,73 @@ const explorations: Exploration[] = [
 ];
 
 export default function Explorations() {
+  const [view, setView] = useState<"list" | "timeline">("list");
+
   return (
     <div className="min-h-screen">
       <section className="relative mx-auto max-w-4xl px-6 pt-28 pb-12">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="font-[family-name:var(--font-display)] text-4xl font-semibold tracking-tight text-foreground sm:text-5xl"
-        >
-          Explorations
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="mt-4 max-w-lg text-lg text-muted"
-        >
-          Each entry is a deep dive into something that caught my attention.
-          History, science, art, fiction — whatever glows.
-        </motion.p>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7 }}
+              className="font-[family-name:var(--font-display)] text-4xl font-semibold tracking-tight text-foreground sm:text-5xl"
+            >
+              Explorations
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.15 }}
+              className="mt-4 max-w-lg text-lg text-muted"
+            >
+              Each entry is a deep dive into something that caught my attention.
+              History, science, art, fiction — whatever glows.
+            </motion.p>
+          </div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="flex items-center gap-1 rounded-lg border border-border bg-surface p-1"
+          >
+            <button
+              onClick={() => setView("list")}
+              className={`rounded-md p-2 transition-colors ${
+                view === "list"
+                  ? "bg-background text-foreground shadow-sm"
+                  : "text-muted/50 hover:text-muted"
+              }`}
+              aria-label="List view"
+            >
+              <List size={16} />
+            </button>
+            <button
+              onClick={() => setView("timeline")}
+              className={`rounded-md p-2 transition-colors ${
+                view === "timeline"
+                  ? "bg-background text-foreground shadow-sm"
+                  : "text-muted/50 hover:text-muted"
+              }`}
+              aria-label="Timeline view"
+            >
+              <GitBranch size={16} />
+            </button>
+          </motion.div>
+        </div>
       </section>
 
       <section className="relative mx-auto max-w-4xl px-6 pb-24">
-        <div className="flex flex-col gap-5">
-          {explorations.map((item, i) => (
-            <ExplorationCard key={item.slug} item={item} index={i} />
-          ))}
-        </div>
+        {view === "list" ? (
+          <div className="flex flex-col gap-5">
+            {explorations.map((item, i) => (
+              <ExplorationCard key={item.slug} item={item} index={i} />
+            ))}
+          </div>
+        ) : (
+          <ExplorationTimeline explorations={explorations} />
+        )}
       </section>
     </div>
   );

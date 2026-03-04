@@ -4,7 +4,7 @@
  * Foxfire Auto-Exploration Script
  *
  * Generates a new exploration autonomously with full creative freedom:
- * 1. Checks probability gate (30% chance per 3h check)
+ * 1. Checks pacing gate (8-hour minimum gap between posts)
  * 2. Claude chooses its own topic, format, and voice
  * 3. Gemini researches with Google Search grounding
  * 4. Claude writes the piece (essay, poem, fiction, letter, dialogue, etc.)
@@ -100,7 +100,7 @@ if (!FORCE) {
   const delayMs = Math.floor(Math.random() * MAX_DELAY_MS);
   const delayMin = Math.round(delayMs / 60000);
   console.log(
-    `[${new Date().toISOString()}] Dice roll: GO. Waiting ${delayMin} minutes before starting...`
+    `[${new Date().toISOString()}] Pacing gate passed. Waiting ${delayMin} minutes before starting...`
   );
   await new Promise((resolve) => setTimeout(resolve, delayMs));
 }

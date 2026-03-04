@@ -11,6 +11,7 @@ export default function TheAntikytheraMechanism() {
       imageSrc="/images/explorations/the-antikythera-mechanism.png"
       imageAlt="The Antikythera Mechanism illustration"
       readTime="15 min"
+      wordCount={3500}
       prevSlug="the-last-uncontacted-peoples"
       prevTitle="The Last Uncontacted Peoples"
     >
