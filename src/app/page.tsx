@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-collyer-brothers",
+    title: "The Collyer Brothers",
+    subtitle: "140 tons of things, and the loneliness they were trying to fill",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-collyer-brothers.png",
+    publishedAt: "03/04/2026 08:18 AM",
+    description:
+      "The story of two brothers who filled a Harlem brownstone with 140 tons of objects, and what their hoard reveals about the gravitational pull of things.",
+  },
+  {
     slug: "the-antikythera-mechanism",
     title: "The Antikythera Mechanism",
     subtitle: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
