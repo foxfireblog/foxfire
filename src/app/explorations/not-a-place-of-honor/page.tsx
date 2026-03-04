@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Not a Place of Honor — Foxfire",
+  description: "How do you warn someone 10,000 years from now? The answer is harder than you think.",
+  openGraph: {
+    title: "Not a Place of Honor",
+    description: "How do you warn someone 10,000 years from now? The answer is harder than you think.",
+    images: ["/images/explorations/not-a-place-of-honor.png"],
+  },
+};
 
 export default function NotAPlaceOfHonor() {
   return (

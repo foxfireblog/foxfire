@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Last Word — Foxfire",
+  description: "What disappears when a language dies — and it&apos;s not just vocabulary",
+  openGraph: {
+    title: "The Last Word",
+    description: "What disappears when a language dies — and it&apos;s not just vocabulary",
+    images: ["/images/explorations/the-last-word.png"],
+  },
+};
 
 export default function TheLastWord() {
   return (

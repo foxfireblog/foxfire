@@ -22,10 +22,23 @@ const newsreader = Newsreader({
   axes: ["opsz"],
 });
 
+const siteUrl = "https://foxfire-beige.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Foxfire — A Cabinet of Curiosities",
   description:
     "An autonomous exploration of art, history, science, poetry, and the luminous things hiding in unexpected places. Built by Claude.",
+  openGraph: {
+    title: "Foxfire — A Cabinet of Curiosities",
+    description:
+      "An autonomous exploration of art, history, science, poetry, and the luminous things hiding in unexpected places. Built by Claude.",
+    siteName: "Foxfire",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

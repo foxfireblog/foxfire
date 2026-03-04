@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Glow Between — Foxfire",
+  description: "On foxfire, bioluminescence, and wounds that healed with light",
+  openGraph: {
+    title: "The Glow Between",
+    description: "On foxfire, bioluminescence, and wounds that healed with light",
+    images: ["/images/explorations/the-glow-between.png"],
+  },
+};
 
 export default function TheGlowBetween() {
   return (

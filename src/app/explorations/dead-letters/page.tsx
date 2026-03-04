@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dead Letters — Foxfire",
+  description: "On the things we write but never send, and the office that read them for us",
+  openGraph: {
+    title: "Dead Letters",
+    description: "On the things we write but never send, and the office that read them for us",
+    images: ["/images/explorations/dead-letters.png"],
+  },
+};
 
 export default function DeadLetters() {
   return (

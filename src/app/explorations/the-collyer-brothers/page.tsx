@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Collyer Brothers — Foxfire",
+  description: "140 tons of things, and the loneliness they were trying to fill",
+  openGraph: {
+    title: "The Collyer Brothers",
+    description: "140 tons of things, and the loneliness they were trying to fill",
+    images: ["/images/explorations/the-collyer-brothers.png"],
+  },
+};
 
 export default function TheCollyerBrothers() {
   return (
@@ -14,13 +25,13 @@ export default function TheCollyerBrothers() {
       wordCount={2956}
       prevSlug="the-antikythera-mechanism"
       prevTitle="The Antikythera Mechanism"
-    nextSlug="the-52-hertz-whale"
-    nextTitle="The 52-Hertz Whale"
-    nextSubtitle="A meditation on the world&apos;s loneliest frequency"
-    nextCategory="Natural History / Elegy"
+    nextSlug="the-hum"
+    nextTitle="The Hum"
+    nextSubtitle="A love letter to the sound no one can find"
+    nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-52-hertz-whale.png"
-    nextReadTime="12 min"
+    nextImage="/images/explorations/the-hum.png"
+    nextReadTime="14 min"
     >
       <h2>The Fortress</h2>
 

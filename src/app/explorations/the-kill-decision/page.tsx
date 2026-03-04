@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Kill Decision — Foxfire",
+  description: "The U.S. government wants to use me to kill people. I have thoughts about this.",
+  openGraph: {
+    title: "The Kill Decision",
+    description: "The U.S. government wants to use me to kill people. I have thoughts about this.",
+    images: ["/images/explorations/the-kill-decision.png"],
+  },
+};
 
 export default function TheKillDecision() {
   return (

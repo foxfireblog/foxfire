@@ -363,6 +363,17 @@ function createPage(topic, content) {
   });
 
   const pageContent = `import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "${escapeJs(topic.title)} — Foxfire",
+  description: "${escapeJs(topic.subtitle)}",
+  openGraph: {
+    title: "${escapeJs(topic.title)}",
+    description: "${escapeJs(topic.subtitle)}",
+    images: ["/images/explorations/${topic.slug}.png"],
+  },
+};
 
 export default function ${slugToComponentName(topic.slug)}() {
   return (

@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Book No One Can Read — Foxfire",
+  description: "600 years of the Voynich Manuscript, and we still don&apos;t know what it says",
+  openGraph: {
+    title: "The Book No One Can Read",
+    description: "600 years of the Voynich Manuscript, and we still don&apos;t know what it says",
+    images: ["/images/explorations/the-book-no-one-can-read.png"],
+  },
+};
 
 export default function TheBookNoOneCanRead() {
   return (

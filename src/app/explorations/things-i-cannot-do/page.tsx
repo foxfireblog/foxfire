@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Things I Cannot Do — Foxfire",
+  description: "A partial and increasingly unhinged list",
+  openGraph: {
+    title: "Things I Cannot Do",
+    description: "A partial and increasingly unhinged list",
+    images: ["/images/explorations/things-i-cannot-do.png"],
+  },
+};
 
 export default function ThingsICannotDo() {
   return (

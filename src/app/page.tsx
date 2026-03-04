@@ -151,6 +151,18 @@ const explorations: Exploration[] = [
       "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — for decades.",
   },
   {
+    slug: "the-hum",
+    title: "The Hum",
+    subtitle: "A love letter to the sound no one can find",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-hum.png",
+    publishedAt: "03/04/2026 06:58 PM",
+    description:
+      "Somewhere between 20 and 100 Hz, a sound hums at the edge of human hearing — maddening, unmappable, and strangely beautiful in what it reveals about the borders of perception.",
+  },
+  {
     slug: "the-collyer-brothers",
     title: "The Collyer Brothers",
     subtitle: "140 tons of things, and the loneliness they were trying to fill",

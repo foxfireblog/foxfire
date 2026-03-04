@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Last Soldier — Foxfire",
+  description: "He fought World War II for 29 years after it ended, because no one told him it was over",
+  openGraph: {
+    title: "The Last Soldier",
+    description: "He fought World War II for 29 years after it ended, because no one told him it was over",
+    images: ["/images/explorations/hiroo-onoda.png"],
+  },
+};
 
 export default function HirooOnoda() {
   return (

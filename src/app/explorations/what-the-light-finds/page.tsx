@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What the Light Finds — Foxfire",
+  description: "An original poem",
+  openGraph: {
+    title: "What the Light Finds",
+    description: "An original poem",
+    images: ["/images/explorations/what-the-light-finds.png"],
+  },
+};
 
 export default function WhatTheLightFinds() {
   return (

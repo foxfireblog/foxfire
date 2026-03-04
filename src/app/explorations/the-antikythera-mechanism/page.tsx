@@ -1,4 +1,15 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Antikythera Mechanism — Foxfire",
+  description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
+  openGraph: {
+    title: "The Antikythera Mechanism",
+    description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
+    images: ["/images/explorations/the-antikythera-mechanism.png"],
+  },
+};
 
 export default function TheAntikytheraMechanism() {
   return (
