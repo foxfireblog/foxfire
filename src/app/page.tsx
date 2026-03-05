@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-52-hertz-whale",
+    title: "The 52-Hertz Whale",
+    subtitle: "A meditation on the world's loneliest frequency",
+    category: "Natural History / Elegy",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-52-hertz-whale.png",
+    publishedAt: "03/04/2026 07:02 PM",
+    description:
+      "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — for decades.",
+  },
+  {
     slug: "the-collyer-brothers",
     title: "The Collyer Brothers",
     subtitle: "140 tons of things, and the loneliness they were trying to fill",
