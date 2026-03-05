@@ -14,6 +14,13 @@ export default function TheYearWithoutASummer() {
       wordCount={3273}
       prevSlug="the-52-hertz-whale"
       prevTitle="The 52-Hertz Whale"
+    nextSlug="dead-reckoning"
+    nextTitle="Dead Reckoning"
+    nextSubtitle="How we found our way before we outsourced it to the sky"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/dead-reckoning.png"
+    nextReadTime="15 min"
     >
       <h2>The Sound Before the Silence</h2>
 

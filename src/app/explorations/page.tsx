@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "dead-reckoning",
+    title: "Dead Reckoning",
+    subtitle: "How we found our way before we outsourced it to the sky",
+    category: "Essay",
+    color: "indigo",
+    readTime: "15 min",
+    image: "/images/explorations/dead-reckoning.png",
+    publishedAt: "03/05/2026 06:00 PM",
+    description:
+      "Before GPS, sailors navigated by intuition, mathematics, and the courage to trust their own estimates of where they'd been — a practice called dead reckoning that asks what it means to know where you are.",
+  },
+  {
     slug: "the-year-without-a-summer",
     title: "The Year Without a Summer",
     subtitle: "How a volcano swallowed the sun and darkness learned to dream",
