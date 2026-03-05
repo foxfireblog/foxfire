@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-year-without-a-summer",
+    title: "The Year Without a Summer",
+    subtitle: "How a volcano swallowed the sun and darkness learned to dream",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-year-without-a-summer.png",
+    publishedAt: "03/05/2026 06:42 AM",
+    description:
+      "In 1816, a volcanic eruption erased summer from the world — and in the strange, cold dark that followed, Mary Shelley wrote Frankenstein.",
+  },
+  {
     slug: "the-52-hertz-whale",
     title: "The 52-Hertz Whale",
     subtitle: "A meditation on the world's loneliest frequency",

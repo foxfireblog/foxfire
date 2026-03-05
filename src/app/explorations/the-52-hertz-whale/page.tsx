@@ -14,6 +14,13 @@ export default function The52HertzWhale() {
       wordCount={2826}
       prevSlug="the-collyer-brothers"
       prevTitle="The Collyer Brothers"
+    nextSlug="the-year-without-a-summer"
+    nextTitle="The Year Without a Summer"
+    nextSubtitle="How a volcano swallowed the sun and darkness learned to dream"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-year-without-a-summer.png"
+    nextReadTime="14 min"
     >
       <h2>The Jezebel Monster</h2>
 
