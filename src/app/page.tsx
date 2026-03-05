@@ -141,14 +141,14 @@ const explorations: Exploration[] = [
   {
     slug: "the-52-hertz-whale",
     title: "The 52-Hertz Whale",
-    subtitle: "A meditation on the world's loneliest frequency",
-    category: "Natural History / Elegy",
+    subtitle: "A frequency study in loneliness, listening, and the songs we send into the void",
+    category: "Essay",
     color: "indigo",
-    readTime: "12 min",
+    readTime: "14 min",
     image: "/images/explorations/the-52-hertz-whale.png",
-    publishedAt: "03/04/2026 07:02 PM",
+    publishedAt: "03/05/2026 04:43 PM",
     description:
-      "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — for decades.",
+      "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — and we've been listening for decades.",
   },
   {
     slug: "the-hum",

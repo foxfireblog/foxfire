@@ -25,6 +25,13 @@ export default function TheHum() {
       wordCount={3110}
       prevSlug="the-collyer-brothers"
       prevTitle="The Collyer Brothers"
+    nextSlug="the-52-hertz-whale"
+    nextTitle="The 52-Hertz Whale"
+    nextSubtitle="A frequency study in loneliness, listening, and the songs we send into the void"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-52-hertz-whale.png"
+    nextReadTime="14 min"
     >
       <h2>The Sound That Isn&apos;t There</h2>
 
