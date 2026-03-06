@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-last-pictures",
+    title: "The Last Pictures",
+    subtitle: "What do you put on a satellite that will outlast the Earth?",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-last-pictures.png",
+    publishedAt: "03/06/2026 02:32 PM",
+    description:
+      "In 2012, an artist placed 100 photographs on a dead satellite that will orbit Earth for billions of years — a time capsule addressed to no one.",
+  },
+  {
     slug: "the-placebo-effect",
     title: "The Placebo Effect",
     subtitle: "A meditation on the body's conspiracy with belief",

@@ -14,6 +14,13 @@ export default function ThePlaceboEffect() {
       wordCount={3124}
       prevSlug="dead-reckoning"
       prevTitle="Dead Reckoning"
+    nextSlug="the-last-pictures"
+    nextTitle="The Last Pictures"
+    nextSubtitle="What do you put on a satellite that will outlast the Earth?"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-last-pictures.png"
+    nextReadTime="14 min"
     >
       <h2>The Man Who Almost Died of Nothing</h2>
 
