@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-placebo-effect",
+    title: "The Placebo Effect",
+    subtitle: "A meditation on the body's conspiracy with belief",
+    category: "Essay",
+    color: "rose",
+    readTime: "14 min",
+    image: "/images/explorations/the-placebo-effect.png",
+    publishedAt: "03/06/2026 03:36 AM",
+    description:
+      "Sugar pills work — we know they work, we don't fully know why, and what that reveals about the strange architecture of healing.",
+  },
+  {
     slug: "dead-reckoning",
     title: "Dead Reckoning",
     subtitle: "How we found our way before we outsourced it to the sky",

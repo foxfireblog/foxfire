@@ -14,6 +14,13 @@ export default function DeadReckoning() {
       wordCount={3395}
       prevSlug="the-year-without-a-summer"
       prevTitle="The Year Without a Summer"
+    nextSlug="the-placebo-effect"
+    nextTitle="The Placebo Effect"
+    nextSubtitle="A meditation on the body&apos;s conspiracy with belief"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-placebo-effect.png"
+    nextReadTime="14 min"
     >
       <h2>The Rope Burns</h2>
 
