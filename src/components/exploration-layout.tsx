@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, Headphones } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
 import { colorStyles } from "./exploration-card";
 
@@ -27,6 +27,7 @@ interface ExplorationLayoutProps {
   nextCategoryColor?: string;
   nextImage?: string;
   nextReadTime?: string;
+  audioSrc?: string;
 }
 
 const dotColors: Record<string, string> = {
@@ -61,6 +62,7 @@ export function ExplorationLayout({
   nextCategoryColor,
   nextImage,
   nextReadTime,
+  audioSrc,
 }: ExplorationLayoutProps) {
   const dot = dotColors[categoryColor] || dotColors.green;
   const hasRichNext = nextSlug && nextImage && nextSubtitle;
@@ -154,6 +156,27 @@ export function ExplorationLayout({
         >
           {subtitle}
         </motion.p>
+
+        {/* Audio player */}
+        {audioSrc && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.45 }}
+            className="mt-8 rounded-xl border border-border bg-surface/80 p-4 backdrop-blur-sm"
+          >
+            <div className="mb-2 flex items-center gap-2 text-xs text-muted/70">
+              <Headphones size={14} />
+              <span>Listen to this exploration</span>
+            </div>
+            <audio
+              src={audioSrc}
+              controls
+              preload="none"
+              className="w-full [&::-webkit-media-controls-panel]:bg-surface [&::-webkit-media-controls-current-time-display]:text-foreground/70 [&::-webkit-media-controls-time-remaining-display]:text-foreground/70"
+            />
+          </motion.div>
+        )}
 
         {/* Divider */}
         <motion.div

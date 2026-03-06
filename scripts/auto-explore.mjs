@@ -18,6 +18,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { GoogleGenAI } from "@google/genai";
 import * as fs from "node:fs";
+import * as os from "node:os";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
@@ -325,8 +326,120 @@ async function generateImage(topic) {
   console.warn("No image data in Gemini response");
 }
 
+// ── Generate audio narration via edge-tts ────────────────────────────
+// To enable Kokoro fallback instead, set USE_KOKORO = true and ensure
+// kokoro-js is installed (npm install kokoro-js). Kokoro runs natively
+// in Node.js — no Python needed — but edge-tts has better voice quality.
+const USE_KOKORO = false;
+
+function generateAudio(topic, content) {
+  console.log(`Generating audio narration for "${topic.title}"...`);
+
+  const audioDir = path.join(ROOT, "public", "audio");
+  fs.mkdirSync(audioDir, { recursive: true });
+  const outputPath = path.join(audioDir, `${topic.slug}.mp3`);
+
+  if (fs.existsSync(outputPath)) {
+    console.log(`Audio already exists: ${outputPath}`);
+    return true;
+  }
+
+  // Strip HTML tags to get plain text for narration
+  const plainContent = content
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&ldquo;/g, '"')
+    .replace(/&rdquo;/g, '"')
+    .replace(/&lsquo;/g, "'")
+    .replace(/&rsquo;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&middot;/g, "·")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Prepend title and subtitle as intro
+  const narrationText = `${topic.title}, by Foxfire. ${topic.subtitle}. ${plainContent}`;
+
+  const voice = "en-US-AndrewMultilingualNeural";
+
+  try {
+    // For long text, write to a temp file to avoid shell argument limits
+    if (narrationText.length > 2000) {
+      const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`);
+      fs.writeFileSync(tmpFile, narrationText, "utf-8");
+      execSync(
+        `edge-tts --file "${tmpFile}" --voice "${voice}" --write-media "${outputPath}"`,
+        { cwd: ROOT, stdio: "pipe", timeout: 300_000 }
+      );
+      fs.unlinkSync(tmpFile);
+    } else {
+      const escaped = narrationText.replace(/"/g, '\\"');
+      execSync(
+        `edge-tts --text "${escaped}" --voice "${voice}" --write-media "${outputPath}"`,
+        { cwd: ROOT, stdio: "pipe", timeout: 300_000 }
+      );
+    }
+
+    const stats = fs.statSync(outputPath);
+    console.log(`Saved audio: ${outputPath} (${(stats.size / 1024).toFixed(0)}KB)`);
+    return true;
+  } catch (err) {
+    console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
+    // Clean up partial file if it exists
+    if (fs.existsSync(outputPath)) fs.unlinkSync(outputPath);
+    return false;
+  }
+}
+
+async function generateAudioKokoro(topic, content) {
+  // Kokoro-js fallback — runs natively in Node.js, no Python needed.
+  // Enable by setting USE_KOKORO = true at the top of this file.
+  // Requires: npm install kokoro-js
+  console.log(`Generating audio via Kokoro for "${topic.title}"...`);
+
+  const audioDir = path.join(ROOT, "public", "audio");
+  fs.mkdirSync(audioDir, { recursive: true });
+  const outputPath = path.join(audioDir, `${topic.slug}.wav`);
+
+  if (fs.existsSync(outputPath)) {
+    console.log(`Audio already exists: ${outputPath}`);
+    return true;
+  }
+
+  const plainContent = content
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&ldquo;/g, '"')
+    .replace(/&rdquo;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const narrationText = `${topic.title}, by Foxfire. ${topic.subtitle}. ${plainContent}`;
+
+  try {
+    const { KokoroTTS } = await import("kokoro-js");
+    const tts = await KokoroTTS.from_pretrained(
+      "onnx-community/Kokoro-82M-v1.0-ONNX",
+      { dtype: "q8" }
+    );
+    const audio = await tts.generate(narrationText, { voice: "af_heart" });
+    audio.save(outputPath);
+    console.log(`Saved audio (Kokoro): ${outputPath}`);
+    return true;
+  } catch (err) {
+    console.warn(`Kokoro audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
+    if (fs.existsSync(outputPath)) fs.unlinkSync(outputPath);
+    return false;
+  }
+}
+
 // ── Create the page file ────────────────────────────────────────────
-function createPage(topic, content) {
+function createPage(topic, content, hasAudio = false) {
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
   fs.mkdirSync(dir, { recursive: true });
 
@@ -386,7 +499,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       imageSrc="/images/explorations/${topic.slug}.png"
       imageAlt="${escapeJsx(topic.title)} illustration"
       readTime="${readTime}"
-      wordCount={${wordCount}}${prevNav}
+      wordCount={${wordCount}}${hasAudio ? `\n      audioSrc="/audio/${topic.slug}.mp3"` : ""}${prevNav}
     >
 ${indentContent(content, 6)}
     </ExplorationLayout>
@@ -544,12 +657,24 @@ async function main() {
   // Step 3: Write the piece
   const content = await writePiece(topic, research);
 
-  // Step 4: Create page, update indexes, navigation
-  const { readTime, currentNewestSlug } = createPage(topic, content);
+  // Step 4: Generate audio narration
+  let hasAudio = false;
+  try {
+    if (USE_KOKORO) {
+      hasAudio = await generateAudioKokoro(topic, content);
+    } else {
+      hasAudio = generateAudio(topic, content);
+    }
+  } catch (err) {
+    console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
+  }
+
+  // Step 5: Create page, update indexes, navigation
+  const { readTime, currentNewestSlug } = createPage(topic, content, hasAudio);
   updateIndexPages(topic, readTime);
   updateNavigation(topic, currentNewestSlug, readTime);
 
-  // Step 5: Commit
+  // Step 6: Commit
   gitCommit(topic);
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);

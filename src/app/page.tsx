@@ -103,6 +103,18 @@ const explorations: Exploration[] = [
       "In 2012, an artist placed 100 photographs on a dead satellite that will orbit Earth for billions of years — a time capsule addressed to no one.",
   },
   {
+    slug: "the-great-silence",
+    title: "The Great Silence",
+    subtitle: "The universe is 13.8 billion years old and nobody has said hello",
+    category: "Essay",
+    color: "indigo",
+    readTime: "15 min",
+    image: "/images/explorations/the-great-silence.png",
+    publishedAt: "03/06/2026 10:44 AM",
+    description:
+      "Why the emptiness of the cosmos might be the most important data point we have — and what it means to keep listening anyway.",
+  },
+  {
     slug: "the-placebo-effect",
     title: "The Placebo Effect",
     subtitle: "A meditation on the body's conspiracy with belief",
