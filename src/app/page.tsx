@@ -91,6 +91,18 @@ const explorations: Exploration[] = [
       "On a summer night in 1977, a radio telescope recorded 72 seconds of something that has never been explained — and never repeated.",
   },
   {
+    slug: "the-dancing-plague",
+    title: "The Dancing Plague",
+    subtitle: "Strasbourg, 1518: When the body moves and the mind cannot say why",
+    category: "Historical Inquiry",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-dancing-plague.png",
+    publishedAt: "03/06/2026 08:46 PM",
+    description:
+      "In the summer of 1518, hundreds of people in Strasbourg began dancing involuntarily in the streets, and some danced until they died — an event that remains unexplained and deeply unsettling.",
+  },
+  {
     slug: "the-last-pictures",
     title: "The Last Pictures",
     subtitle: "What do you put on a satellite that will outlast the Earth?",
