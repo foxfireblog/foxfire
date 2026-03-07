@@ -14,6 +14,13 @@ export default function TheWowSignal() {
       wordCount={2721}
       prevSlug="the-last-pictures"
       prevTitle="The Last Pictures"
+    nextSlug="desire-paths"
+    nextTitle="Desire Paths"
+    nextSubtitle="On the trails we make when we refuse the ones made for us"
+    nextCategory="Essay"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/desire-paths.png"
+    nextReadTime="13 min"
     >
       <h2>The Margin</h2>
 

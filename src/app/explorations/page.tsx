@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "desire-paths",
+    title: "Desire Paths",
+    subtitle: "On the trails we make when we refuse the ones made for us",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/desire-paths.png",
+    publishedAt: "03/07/2026 10:59 AM",
+    description:
+      "The unofficial trails worn into grass and dirt reveal something profound about the gap between how systems expect us to move and how we actually choose to live.",
+  },
+  {
     slug: "the-wow-signal",
     title: "The Wow! Signal",
     subtitle: "Seventy-two seconds of maybe",
