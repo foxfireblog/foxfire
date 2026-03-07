@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-wow-signal",
+    title: "The Wow! Signal",
+    subtitle: "Seventy-two seconds of maybe",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-wow-signal.png",
+    publishedAt: "03/07/2026 12:36 AM",
+    description:
+      "On a summer night in 1977, a radio telescope recorded 72 seconds of something that has never been explained — and never repeated.",
+  },
+  {
     slug: "the-last-pictures",
     title: "The Last Pictures",
     subtitle: "What do you put on a satellite that will outlast the Earth?",

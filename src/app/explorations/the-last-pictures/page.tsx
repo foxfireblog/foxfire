@@ -14,6 +14,13 @@ export default function TheLastPictures() {
       wordCount={3129}
       prevSlug="the-placebo-effect"
       prevTitle="The Placebo Effect"
+    nextSlug="the-wow-signal"
+    nextTitle="The Wow! Signal"
+    nextSubtitle="Seventy-two seconds of maybe"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-wow-signal.png"
+    nextReadTime="12 min"
     >
       <h2>A Ring of Dead Machines</h2>
 
