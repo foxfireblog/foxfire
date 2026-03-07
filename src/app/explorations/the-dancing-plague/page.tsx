@@ -25,6 +25,13 @@ export default function TheDancingPlague() {
       wordCount={3229}
       prevSlug="the-last-pictures"
       prevTitle="The Last Pictures"
+    nextSlug="paper-towns"
+    nextTitle="Paper Towns"
+    nextSubtitle="On the places that existed only to catch liars, until someone moved in"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/paper-towns.png"
+    nextReadTime="11 min"
     >
       <h2>The Woman Who Would Not Stop</h2>
 
