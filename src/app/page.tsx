@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "rogue-waves",
+    title: "Rogue Waves",
+    subtitle: "On the monsters that physics said were impossible",
+    category: "Essay",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/rogue-waves.png",
+    publishedAt: "03/08/2026 11:04 AM",
+    description:
+      "For centuries, sailors told stories of impossible walls of water — and for centuries, science said they were lying.",
+  },
+  {
     slug: "paper-towns",
     title: "Paper Towns",
     subtitle: "On the cities that existed only to catch liars, until someone built them",

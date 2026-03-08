@@ -14,6 +14,13 @@ export default function PaperTowns() {
       wordCount={3024}
       prevSlug="desire-paths"
       prevTitle="Desire Paths"
+    nextSlug="rogue-waves"
+    nextTitle="Rogue Waves"
+    nextSubtitle="On the monsters that physics said were impossible"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/rogue-waves.png"
+    nextReadTime="13 min"
     >
       <h2>The Town That Caught Itself Existing</h2>
 
