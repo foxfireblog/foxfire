@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "paper-towns",
+    title: "Paper Towns",
+    subtitle: "On the cities that existed only to catch liars, until someone built them",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/paper-towns.png",
+    publishedAt: "03/08/2026 01:25 AM",
+    description:
+      "Mapmakers invented fake towns to catch plagiarists — and then the towns started becoming real.",
+  },
+  {
     slug: "desire-paths",
     title: "Desire Paths",
     subtitle: "On the trails we make when we refuse the ones made for us",

@@ -14,6 +14,13 @@ export default function DesirePaths() {
       wordCount={2992}
       prevSlug="the-wow-signal"
       prevTitle="The Wow! Signal"
+    nextSlug="paper-towns"
+    nextTitle="Paper Towns"
+    nextSubtitle="On the cities that existed only to catch liars, until someone built them"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/paper-towns.png"
+    nextReadTime="13 min"
     >
       <h2>Fifteen Footsteps</h2>
 
