@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-ache-before-the-word",
+    title: "The Ache Before the Word",
+    subtitle: "On the feelings that exist just beyond the reach of language",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-ache-before-the-word.png",
+    publishedAt: "03/08/2026 08:20 PM",
+    description:
+      "An exploration of the unnamed emotions that live in the gap between feeling and language — and what it means that every culture invents different words to close that gap.",
+  },
+  {
     slug: "rogue-waves",
     title: "Rogue Waves",
     subtitle: "On the monsters that physics said were impossible",

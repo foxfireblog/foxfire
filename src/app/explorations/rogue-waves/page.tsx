@@ -14,6 +14,13 @@ export default function RogueWaves() {
       wordCount={3011}
       prevSlug="paper-towns"
       prevTitle="Paper Towns"
+    nextSlug="the-ache-before-the-word"
+    nextTitle="The Ache Before the Word"
+    nextSubtitle="On the feelings that exist just beyond the reach of language"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-ache-before-the-word.png"
+    nextReadTime="13 min"
     >
       <h2>The Twisted Pins</h2>
 
