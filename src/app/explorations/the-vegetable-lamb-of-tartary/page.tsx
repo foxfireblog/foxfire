@@ -14,6 +14,13 @@ export default function TheVegetableLambOfTartary() {
       wordCount={2852}
       prevSlug="the-ache-before-the-word"
       prevTitle="The Ache Before the Word"
+    nextSlug="the-threshold-notebook"
+    nextTitle="The Threshold Notebook"
+    nextSubtitle="Field notes on the moments just before everything changes"
+    nextCategory="Field Guide"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-threshold-notebook.png"
+    nextReadTime="16 min"
     >
       <h2>The Creature That Wasn&apos;t</h2>
 

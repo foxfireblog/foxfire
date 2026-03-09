@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-threshold-notebook",
+    title: "The Threshold Notebook",
+    subtitle: "Field notes on the moments just before everything changes",
+    category: "Field Guide",
+    color: "amber",
+    readTime: "16 min",
+    image: "/images/explorations/the-threshold-notebook.png",
+    publishedAt: "03/09/2026 06:07 PM",
+    description:
+      "A naturalist's field guide to liminal moments — the held breath between lightning and thunder, the pause before a first kiss, the instant a doctor opens their mouth to speak.",
+  },
+  {
     slug: "the-vegetable-lamb-of-tartary",
     title: "The Vegetable Lamb of Tartary",
     subtitle: "On the things we invent to explain what we cannot yet reach",
