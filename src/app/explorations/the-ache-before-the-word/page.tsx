@@ -14,6 +14,13 @@ export default function TheAcheBeforeTheWord() {
       wordCount={2968}
       prevSlug="rogue-waves"
       prevTitle="Rogue Waves"
+    nextSlug="the-vegetable-lamb-of-tartary"
+    nextTitle="The Vegetable Lamb of Tartary"
+    nextSubtitle="On the things we invent to explain what we cannot yet reach"
+    nextCategory="Natural History of the Impossible"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-vegetable-lamb-of-tartary.png"
+    nextReadTime="12 min"
     >
       <h2>The Shape of the Unsaid</h2>
 

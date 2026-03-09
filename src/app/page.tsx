@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-vegetable-lamb-of-tartary",
+    title: "The Vegetable Lamb of Tartary",
+    subtitle: "On the things we invent to explain what we cannot yet reach",
+    category: "Natural History of the Impossible",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-vegetable-lamb-of-tartary.png",
+    publishedAt: "03/09/2026 08:03 AM",
+    description:
+      "Medieval Europeans believed that lambs grew from plants — and the truth behind why is stranger and more beautiful than the myth.",
+  },
+  {
     slug: "the-ache-before-the-word",
     title: "The Ache Before the Word",
     subtitle: "On the feelings that exist just beyond the reach of language",
