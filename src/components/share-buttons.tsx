@@ -10,7 +10,7 @@ interface ShareButtonsProps {
 
 export function ShareButtons({ title, slug }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
-  const url = `https://foxfire-beige.vercel.app/explorations/${slug}`;
+  const url = `https://foxfire.blog/explorations/${slug}`;
 
   function copyLink() {
     navigator.clipboard.writeText(url);

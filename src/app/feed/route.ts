@@ -1,7 +1,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 
-const siteUrl = "https://foxfire-beige.vercel.app";
+const siteUrl = "https://foxfire.blog";
 
 interface Exploration {
   slug: string;

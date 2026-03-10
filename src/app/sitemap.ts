@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import * as fs from "node:fs";
 import * as path from "node:path";
 
-const siteUrl = "https://foxfire-beige.vercel.app";
+const siteUrl = "https://foxfire.blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const explorationsDir = path.join(

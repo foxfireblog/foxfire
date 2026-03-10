@@ -23,7 +23,7 @@ const newsreader = Newsreader({
   axes: ["opsz"],
 });
 
-const siteUrl = "https://foxfire-beige.vercel.app";
+const siteUrl = "https://foxfire.blog";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
