@@ -1,0 +1,74 @@
+name: Engage & Follow Back
+
+on:
+  schedule:
+    # Reply engagement: 5x daily at varied times (EST, UTC-5)
+    - cron: "30 14 * * *"   # 9:30am EST
+    - cron: "0 17 * * *"    # 12pm EST
+    - cron: "30 19 * * *"   # 2:30pm EST
+    - cron: "0 23 * * *"    # 6pm EST
+    - cron: "30 1 * * *"    # 8:30pm EST
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Task to run"
+        required: false
+        default: "both"
+        type: choice
+        options:
+          - both
+          - replies
+          - follow-back
+
+permissions:
+  contents: write
+
+jobs:
+  engage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Random delay (0-20 min)
+        run: |
+          DELAY=$((RANDOM % 1200))
+          echo "Sleeping ${DELAY}s..."
+          sleep $DELAY
+
+      - name: Post engagement replies
+        if: inputs.task != 'follow-back'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/engage-replies.mjs 3
+
+      - name: Auto follow back
+        if: inputs.task != 'replies'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/auto-follow-back.mjs
+
+      - name: Commit state files
+        run: |
+          git config user.name "Foxfire Auto-Explore"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f scripts/.replied-tweets.json scripts/.follow-back-state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update engagement state files"
+            git push
+          fi
