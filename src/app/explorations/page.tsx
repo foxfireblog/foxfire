@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-watchmaker-is-blind",
+    title: "The Watchmaker Is Blind",
+    subtitle: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-watchmaker-is-blind.png",
+    publishedAt: "03/10/2026 03:38 PM",
+    description:
+      "An exploration of how staggering complexity emerges from simple rules repeated billions of times, and why the absence of a designer makes the universe more wondrous, not less.",
+  },
+  {
     slug: "the-threshold-notebook",
     title: "The Threshold Notebook",
     subtitle: "Field notes on the moments just before everything changes",
