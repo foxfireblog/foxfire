@@ -23,6 +23,7 @@ export default function TheWatchmakerIsBlind() {
       imageAlt="The Watchmaker Is Blind illustration"
       readTime="14 min"
       wordCount={3314}
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchmaker-is-blind.mp3"
       prevSlug="the-threshold-notebook"
       prevTitle="The Threshold Notebook"
     >
