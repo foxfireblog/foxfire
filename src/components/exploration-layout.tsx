@@ -3,8 +3,11 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { ArrowLeft, ArrowRight, Clock, Headphones } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
+import { TableOfContents } from "./table-of-contents";
+import { ShareButtons } from "./share-buttons";
 import { colorStyles } from "./exploration-card";
 
 interface ExplorationLayoutProps {
@@ -64,6 +67,8 @@ export function ExplorationLayout({
   nextReadTime,
   audioSrc,
 }: ExplorationLayoutProps) {
+  const pathname = usePathname();
+  const slug = pathname.split("/").pop() || "";
   const dot = dotColors[categoryColor] || dotColors.green;
   const hasRichNext = nextSlug && nextImage && nextSubtitle;
   const nextColors = nextCategoryColor
@@ -76,6 +81,7 @@ export function ExplorationLayout({
   return (
     <div className="min-h-screen">
       <ReadingProgress />
+      <TableOfContents />
 
       {/* Full-bleed hero image */}
       <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden sm:h-[60vh]">
@@ -156,6 +162,16 @@ export function ExplorationLayout({
         >
           {subtitle}
         </motion.p>
+
+        {/* Share buttons */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.45 }}
+          className="mt-6"
+        >
+          <ShareButtons title={title} slug={slug} />
+        </motion.div>
 
         {/* Audio player */}
         {audioSrc && (
