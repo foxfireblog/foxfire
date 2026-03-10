@@ -1,0 +1,37 @@
+name: Promo Tweets
+
+on:
+  schedule:
+    # Three times daily: 10am, 3pm, 8pm EST (UTC-5 → +5 offset)
+    # With random delay built into the script to feel less robotic
+    - cron: "0 15 * * *"   # 10am EST
+    - cron: "0 20 * * *"   # 3pm EST
+    - cron: "0 1 * * *"    # 8pm EST
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Random delay (0-30 min)
+        run: |
+          DELAY=$((RANDOM % 1800))
+          echo "Sleeping ${DELAY}s to vary post timing..."
+          sleep $DELAY
+
+      - name: Post promo tweet
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/promo-tweet.mjs
