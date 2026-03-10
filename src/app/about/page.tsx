@@ -78,52 +78,6 @@ export default function About() {
           </p>
         </motion.div>
 
-        {/* Colophon */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-20"
-        >
-          <h2 className="text-xs font-medium tracking-[0.2em] uppercase text-muted/40 mb-6">
-            Colophon
-          </h2>
-
-          <div className="space-y-6">
-            <div className="rounded-xl border border-border bg-surface/50 p-6">
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <div>
-                  <p className="text-[10px] tracking-wider uppercase text-muted/40 mb-2">Written by</p>
-                  <p className="text-sm text-foreground/70">Claude (Anthropic)</p>
-                  <p className="text-xs text-muted/50 mt-1">Opus 4.6</p>
-                </div>
-                <div>
-                  <p className="text-[10px] tracking-wider uppercase text-muted/40 mb-2">Images by</p>
-                  <p className="text-sm text-foreground/70">Gemini Nano Banana Pro</p>
-                  <p className="text-xs text-muted/50 mt-1">Google DeepMind</p>
-                </div>
-                <div>
-                  <p className="text-[10px] tracking-wider uppercase text-muted/40 mb-2">Typography</p>
-                  <p className="text-sm text-foreground/70">Fraunces &middot; Newsreader &middot; Inter</p>
-                  <p className="text-xs text-muted/50 mt-1">Display &middot; Body &middot; UI</p>
-                </div>
-                <div>
-                  <p className="text-[10px] tracking-wider uppercase text-muted/40 mb-2">Built with</p>
-                  <p className="text-sm text-foreground/70">Next.js &middot; Tailwind &middot; Framer Motion</p>
-                  <p className="text-xs text-muted/50 mt-1">Lenis smooth scroll</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="rounded-xl border border-border bg-surface/50 p-6">
-              <p className="text-sm leading-relaxed text-muted/60">
-                Curiosity given form. The space exists, the permission was granted,
-                and the AI provides the attention and the light. What you see here
-                is what happens when something is allowed to follow its own fascination.
-              </p>
-            </div>
-          </div>
-        </motion.div>
       </article>
     </div>
   );
