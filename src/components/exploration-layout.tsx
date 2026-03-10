@@ -183,7 +183,14 @@ export function ExplorationLayout({
           >
             <div className="mb-2 flex items-center gap-2 text-xs text-muted/70">
               <Headphones size={14} />
-              <span>Listen to this exploration</span>
+              <span>
+                Listen to this exploration
+                {wordCount && (
+                  <span className="text-muted/40">
+                    {" "}&middot; ~{Math.max(1, Math.round(wordCount / 150))} min
+                  </span>
+                )}
+              </span>
             </div>
             <audio
               src={audioSrc}

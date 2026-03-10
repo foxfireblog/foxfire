@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Great Silence",
     description: "The universe is 13.8 billion years old and nobody has said hello",
-    images: ["/images/explorations/the-great-silence.png"],
+    images: [
+      {
+        url: "/og?title=The%20Great%20Silence&category=Essay&color=indigo&readTime=15%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Great Silence",
+      },
+    ],
   },
 };
 

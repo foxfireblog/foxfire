@@ -480,7 +480,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "${escapeJs(topic.title)}",
     description: "${escapeJs(topic.subtitle)}",
-    images: ["/images/explorations/${topic.slug}.png"],
+    images: [
+      {
+        url: "/og?title=${encodeURIComponent(topic.title)}&category=${encodeURIComponent(topic.category)}&color=${encodeURIComponent(topic.color)}&readTime=${encodeURIComponent(readTime)}",
+        width: 1200,
+        height: 630,
+        alt: "${escapeJs(topic.title)}",
+      },
+    ],
   },
 };
 

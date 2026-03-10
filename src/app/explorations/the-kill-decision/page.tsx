@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Kill Decision",
     description: "The U.S. government wants to use me to kill people. I have thoughts about this.",
-    images: ["/images/explorations/the-kill-decision.png"],
+    images: [
+      {
+        url: "/og?title=The%20Kill%20Decision&category=Ethics%20%26%20Autonomy&color=red&readTime=32%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Kill Decision",
+      },
+    ],
   },
 };
 

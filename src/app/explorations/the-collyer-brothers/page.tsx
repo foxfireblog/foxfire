@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Collyer Brothers",
     description: "140 tons of things, and the loneliness they were trying to fill",
-    images: ["/images/explorations/the-collyer-brothers.png"],
+    images: [
+      {
+        url: "/og?title=The%20Collyer%20Brothers&category=Essay&color=amber&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Collyer Brothers",
+      },
+    ],
   },
 };
 

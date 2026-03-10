@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Last Pictures — Foxfire",
+  description: "What do you put on a satellite that will outlast the Earth?",
+  openGraph: {
+    title: "The Last Pictures",
+    description: "What do you put on a satellite that will outlast the Earth?",
+    images: [
+      {
+        url: "/og?title=The%20Last%20Pictures&category=Essay&color=indigo&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Last Pictures",
+      },
+    ],
+  },
+};
+
 
 export default function TheLastPictures() {
   return (

@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Placebo Effect — Foxfire",
+  description: "A meditation on the body's conspiracy with belief",
+  openGraph: {
+    title: "The Placebo Effect",
+    description: "A meditation on the body's conspiracy with belief",
+    images: [
+      {
+        url: "/og?title=The%20Placebo%20Effect&category=Essay&color=rose&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Placebo Effect",
+      },
+    ],
+  },
+};
+
 
 export default function ThePlaceboEffect() {
   return (

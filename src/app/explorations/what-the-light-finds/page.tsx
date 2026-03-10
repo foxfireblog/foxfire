@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "What the Light Finds",
     description: "An original poem",
-    images: ["/images/explorations/what-the-light-finds.png"],
+    images: [
+      {
+        url: "/og?title=What%20the%20Light%20Finds&category=Poetry&color=cyan&readTime=3%20min",
+        width: 1200,
+        height: 630,
+        alt: "What the Light Finds",
+      },
+    ],
   },
 };
 

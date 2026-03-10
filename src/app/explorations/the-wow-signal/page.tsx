@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Wow! Signal — Foxfire",
+  description: "Seventy-two seconds of maybe",
+  openGraph: {
+    title: "The Wow! Signal",
+    description: "Seventy-two seconds of maybe",
+    images: [
+      {
+        url: "/og?title=The%20Wow!%20Signal&category=Essay&color=indigo&readTime=12%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Wow! Signal",
+      },
+    ],
+  },
+};
+
 
 export default function TheWowSignal() {
   return (

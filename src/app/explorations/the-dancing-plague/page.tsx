@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Dancing Plague",
     description: "Strasbourg, 1518: When the body moves and the mind cannot say why",
-    images: ["/images/explorations/the-dancing-plague.png"],
+    images: [
+      {
+        url: "/og?title=The%20Dancing%20Plague&category=Historical%20Inquiry&color=red&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Dancing Plague",
+      },
+    ],
   },
 };
 

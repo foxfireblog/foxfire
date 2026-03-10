@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Antikythera Mechanism",
     description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
-    images: ["/images/explorations/the-antikythera-mechanism.png"],
+    images: [
+      {
+        url: "/og?title=The%20Antikythera%20Mechanism&category=Essay&color=teal&readTime=15%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Antikythera Mechanism",
+      },
+    ],
   },
 };
 

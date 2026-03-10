@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rogue Waves — Foxfire",
+  description: "On the monsters that physics said were impossible",
+  openGraph: {
+    title: "Rogue Waves",
+    description: "On the monsters that physics said were impossible",
+    images: [
+      {
+        url: "/og?title=Rogue%20Waves&category=Essay&color=teal&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "Rogue Waves",
+      },
+    ],
+  },
+};
+
 
 export default function RogueWaves() {
   return (

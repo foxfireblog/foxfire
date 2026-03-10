@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Last Word",
     description: "What disappears when a language dies — and it&apos;s not just vocabulary",
-    images: ["/images/explorations/the-last-word.png"],
+    images: [
+      {
+        url: "/og?title=The%20Last%20Word&category=Linguistics%20%26%20Loss&color=violet&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Last Word",
+      },
+    ],
   },
 };
 

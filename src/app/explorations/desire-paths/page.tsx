@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Desire Paths — Foxfire",
+  description: "On the trails we make when we refuse the ones made for us",
+  openGraph: {
+    title: "Desire Paths",
+    description: "On the trails we make when we refuse the ones made for us",
+    images: [
+      {
+        url: "/og?title=Desire%20Paths&category=Essay&color=emerald&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "Desire Paths",
+      },
+    ],
+  },
+};
+
 
 export default function DesirePaths() {
   return (

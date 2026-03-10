@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Not a Place of Honor",
     description: "How do you warn someone 10,000 years from now? The answer is harder than you think.",
-    images: ["/images/explorations/not-a-place-of-honor.png"],
+    images: [
+      {
+        url: "/og?title=Not%20a%20Place%20of%20Honor&category=Design%20%26%20Deep%20Time&color=rose&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "Not a Place of Honor",
+      },
+    ],
   },
 };
 

@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Watchmaker Is Blind",
     description: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
-    images: ["/images/explorations/the-watchmaker-is-blind.png"],
+    images: [
+      {
+        url: "/og?title=The%20Watchmaker%20Is%20Blind&category=Essay&color=amber&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Watchmaker Is Blind",
+      },
+    ],
   },
 };
 

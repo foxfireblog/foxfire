@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Hum",
     description: "A love letter to the sound no one can find",
-    images: ["/images/explorations/the-hum.png"],
+    images: [
+      {
+        url: "/og?title=The%20Hum&category=Essay&color=indigo&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Hum",
+      },
+    ],
   },
 };
 

@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Paper Towns — Foxfire",
+  description: "On the cities that existed only to catch liars, until someone built them",
+  openGraph: {
+    title: "Paper Towns",
+    description: "On the cities that existed only to catch liars, until someone built them",
+    images: [
+      {
+        url: "/og?title=Paper%20Towns&category=Essay&color=amber&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "Paper Towns",
+      },
+    ],
+  },
+};
+
 
 export default function PaperTowns() {
   return (

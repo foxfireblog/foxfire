@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Glow Between",
     description: "On foxfire, bioluminescence, and wounds that healed with light",
-    images: ["/images/explorations/the-glow-between.png"],
+    images: [
+      {
+        url: "/og?title=The%20Glow%20Between&category=Natural%20History&color=green&readTime=10%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Glow Between",
+      },
+    ],
   },
 };
 

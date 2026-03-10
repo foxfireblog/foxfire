@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Year Without a Summer — Foxfire",
+  description: "How a volcano swallowed the sun and darkness learned to dream",
+  openGraph: {
+    title: "The Year Without a Summer",
+    description: "How a volcano swallowed the sun and darkness learned to dream",
+    images: [
+      {
+        url: "/og?title=The%20Year%20Without%20a%20Summer&category=Essay&color=amber&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Year Without a Summer",
+      },
+    ],
+  },
+};
+
 
 export default function TheYearWithoutASummer() {
   return (

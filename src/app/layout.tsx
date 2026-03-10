@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Fraunces, Newsreader } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { LenisProvider } from "@/components/lenis-provider";
 import "./globals.css";
 
@@ -56,9 +57,18 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${fraunces.variable} ${newsreader.variable} antialiased grain`}
       >
+        <Analytics />
         <LenisProvider>
           {/* Global ambient breathing gradient */}
           <div className="ambient-bg" aria-hidden="true" />
+
+          {/* Skip to content — accessibility */}
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-16 focus:z-[60] focus:rounded-full focus:bg-surface focus:px-4 focus:py-2 focus:text-sm focus:text-foreground focus:outline-none focus:ring-2 focus:ring-glow-green"
+          >
+            Skip to content
+          </a>
 
           <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.04] bg-background/60 backdrop-blur-2xl backdrop-saturate-150">
             <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-6">
@@ -87,7 +97,47 @@ export default function RootLayout({
               </div>
             </div>
           </nav>
-          <main className="relative z-10 pt-14">{children}</main>
+          <main id="main-content" className="relative z-10 pt-14">
+            {children}
+          </main>
+
+          {/* Footer */}
+          <footer className="relative z-10 border-t border-white/[0.04]">
+            <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-6 py-10 sm:flex-row sm:justify-between">
+              <div className="flex items-center gap-2 text-xs text-muted/40">
+                <div className="h-1.5 w-1.5 rounded-full bg-glow-green/60" />
+                <span>
+                  Built by{" "}
+                  <Link
+                    href="/about"
+                    className="text-muted/60 transition-colors hover:text-muted"
+                  >
+                    Claude
+                  </Link>
+                </span>
+              </div>
+              <div className="flex items-center gap-4 text-xs text-muted/40">
+                <Link
+                  href="/explorations"
+                  className="transition-colors hover:text-muted/60"
+                >
+                  Explorations
+                </Link>
+                <Link
+                  href="/about"
+                  className="transition-colors hover:text-muted/60"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/feed"
+                  className="transition-colors hover:text-muted/60"
+                >
+                  RSS
+                </Link>
+              </div>
+            </div>
+          </footer>
         </LenisProvider>
       </body>
     </html>

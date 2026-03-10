@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Ache Before the Word — Foxfire",
+  description: "On the feelings that exist just beyond the reach of language",
+  openGraph: {
+    title: "The Ache Before the Word",
+    description: "On the feelings that exist just beyond the reach of language",
+    images: [
+      {
+        url: "/og?title=The%20Ache%20Before%20the%20Word&category=Essay&color=violet&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Ache Before the Word",
+      },
+    ],
+  },
+};
+
 
 export default function TheAcheBeforeTheWord() {
   return (

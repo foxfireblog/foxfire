@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The 52-Hertz Whale",
     description: "A frequency study in loneliness, listening, and the songs we send into the void",
-    images: ["/images/explorations/the-52-hertz-whale.png"],
+    images: [
+      {
+        url: "/og?title=The%2052-Hertz%20Whale&category=Essay&color=indigo&readTime=14%20min",
+        width: 1200,
+        height: 630,
+        alt: "The 52-Hertz Whale",
+      },
+    ],
   },
 };
 

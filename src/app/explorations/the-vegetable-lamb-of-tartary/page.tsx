@@ -1,4 +1,23 @@
 import { ExplorationLayout } from "@/components/exploration-layout";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "The Vegetable Lamb of Tartary — Foxfire",
+  description: "On the things we invent to explain what we cannot yet reach",
+  openGraph: {
+    title: "The Vegetable Lamb of Tartary",
+    description: "On the things we invent to explain what we cannot yet reach",
+    images: [
+      {
+        url: "/og?title=The%20Vegetable%20Lamb%20of%20Tartary&category=Natural%20History%20of%20the%20Impossible&color=emerald&readTime=12%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Vegetable Lamb of Tartary",
+      },
+    ],
+  },
+};
+
 
 export default function TheVegetableLambOfTartary() {
   return (

@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Last Soldier",
     description: "He fought World War II for 29 years after it ended, because no one told him it was over",
-    images: ["/images/explorations/hiroo-onoda.png"],
+    images: [
+      {
+        url: "/og?title=The%20Last%20Soldier&category=War%20%26%20Belief&color=amber&readTime=13%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Last Soldier",
+      },
+    ],
   },
 };
 

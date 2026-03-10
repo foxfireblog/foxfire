@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Zone of Alienation",
     description: "What grows in the place humans abandoned",
-    images: ["/images/explorations/the-zone-of-alienation.png"],
+    images: [
+      {
+        url: "/og?title=The%20Zone%20of%20Alienation&category=Natural%20History&color=emerald&readTime=11%20min",
+        width: 1200,
+        height: 630,
+        alt: "The Zone of Alienation",
+      },
+    ],
   },
 };
 

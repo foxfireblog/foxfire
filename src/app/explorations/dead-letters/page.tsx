@@ -7,7 +7,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dead Letters",
     description: "On the things we write but never send, and the office that read them for us",
-    images: ["/images/explorations/dead-letters.png"],
+    images: [
+      {
+        url: "/og?title=Dead%20Letters&category=History%20%26%20Longing&color=amber&readTime=11%20min",
+        width: 1200,
+        height: 630,
+        alt: "Dead Letters",
+      },
+    ],
   },
 };
 
