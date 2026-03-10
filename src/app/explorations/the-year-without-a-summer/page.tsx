@@ -21,6 +21,7 @@ export default function TheYearWithoutASummer() {
     nextCategoryColor="indigo"
     nextImage="/images/explorations/dead-reckoning.png"
     nextReadTime="15 min"
+    audioSrc="/audio/the-year-without-a-summer.mp3"
     >
       <h2>The Sound Before the Silence</h2>
 

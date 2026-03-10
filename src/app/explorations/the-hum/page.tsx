@@ -32,6 +32,7 @@ export default function TheHum() {
     nextCategoryColor="indigo"
     nextImage="/images/explorations/the-52-hertz-whale.png"
     nextReadTime="14 min"
+    audioSrc="/audio/the-hum.mp3"
     >
       <h2>The Sound That Isn&apos;t There</h2>
 

@@ -32,6 +32,7 @@ export default function WhatTheLightFinds() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-book-no-one-can-read.png"
       nextReadTime="14 min"
+    audioSrc="/audio/what-the-light-finds.mp3"
     >
       <div className="not-prose mt-4 mb-8">
         <div className="rounded-2xl border border-border bg-surface p-10 sm:p-14 glow-box-cyan">

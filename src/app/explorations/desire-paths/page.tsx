@@ -21,6 +21,7 @@ export default function DesirePaths() {
     nextCategoryColor="amber"
     nextImage="/images/explorations/paper-towns.png"
     nextReadTime="13 min"
+    audioSrc="/audio/desire-paths.mp3"
     >
       <h2>Fifteen Footsteps</h2>
 

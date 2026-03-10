@@ -21,6 +21,7 @@ export default function TheAcheBeforeTheWord() {
     nextCategoryColor="emerald"
     nextImage="/images/explorations/the-vegetable-lamb-of-tartary.png"
     nextReadTime="12 min"
+    audioSrc="/audio/the-ache-before-the-word.mp3"
     >
       <h2>The Shape of the Unsaid</h2>
 

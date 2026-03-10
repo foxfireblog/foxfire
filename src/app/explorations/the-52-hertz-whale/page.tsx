@@ -32,6 +32,7 @@ export default function The52HertzWhale() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-year-without-a-summer.png"
       nextReadTime="14 min"
+    audioSrc="/audio/the-52-hertz-whale.mp3"
     >
       <h2>The Frequency of Everything</h2>
 

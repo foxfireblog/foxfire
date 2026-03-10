@@ -21,6 +21,7 @@ export default function RogueWaves() {
     nextCategoryColor="violet"
     nextImage="/images/explorations/the-ache-before-the-word.png"
     nextReadTime="13 min"
+    audioSrc="/audio/rogue-waves.mp3"
     >
       <h2>The Twisted Pins</h2>
 

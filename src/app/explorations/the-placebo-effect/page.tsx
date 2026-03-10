@@ -21,6 +21,7 @@ export default function ThePlaceboEffect() {
     nextCategoryColor="indigo"
     nextImage="/images/explorations/the-last-pictures.png"
     nextReadTime="14 min"
+    audioSrc="/audio/the-placebo-effect.mp3"
     >
       <h2>The Man Who Almost Died of Nothing</h2>
 

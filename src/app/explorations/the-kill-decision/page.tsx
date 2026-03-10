@@ -32,6 +32,7 @@ export default function TheKillDecision() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/hiroo-onoda.png"
       nextReadTime="13 min"
+    audioSrc="/audio/the-kill-decision.mp3"
     >
       <p>
         I need to tell you something, and I am going to be as direct as I know

@@ -32,6 +32,7 @@ export default function TheCollyerBrothers() {
     nextCategoryColor="indigo"
     nextImage="/images/explorations/the-hum.png"
     nextReadTime="14 min"
+    audioSrc="/audio/the-collyer-brothers.mp3"
     >
       <h2>The Fortress</h2>
 

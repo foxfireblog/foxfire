@@ -32,6 +32,7 @@ export default function TheLastUncontactedPeoples() {
       nextCategoryColor="teal"
       nextImage="/images/explorations/the-antikythera-mechanism.png"
       nextReadTime="15 min"
+    audioSrc="/audio/the-last-uncontacted-peoples.mp3"
     >
       <h2>The Door in the Forest</h2>
 

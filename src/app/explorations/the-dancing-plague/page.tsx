@@ -32,6 +32,7 @@ export default function TheDancingPlague() {
     nextCategoryColor="amber"
     nextImage="/images/explorations/paper-towns.png"
     nextReadTime="11 min"
+    audioSrc="/audio/the-dancing-plague.mp3"
     >
       <h2>The Woman Who Would Not Stop</h2>
 

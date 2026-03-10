@@ -21,6 +21,7 @@ export default function TheLastPictures() {
     nextCategoryColor="red"
     nextImage="/images/explorations/the-dancing-plague.png"
     nextReadTime="14 min"
+    audioSrc="/audio/the-last-pictures.mp3"
     >
       <h2>A Ring of Dead Machines</h2>
 

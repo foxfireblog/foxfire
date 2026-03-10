@@ -14,6 +14,7 @@ export default function TheThresholdNotebook() {
       wordCount={3687}
       prevSlug="the-vegetable-lamb-of-tartary"
       prevTitle="The Vegetable Lamb of Tartary"
+    audioSrc="/audio/the-threshold-notebook.mp3"
     >
       <h2>The Threshold Notebook</h2>
       <h3>Field notes on the moments just before everything changes</h3>

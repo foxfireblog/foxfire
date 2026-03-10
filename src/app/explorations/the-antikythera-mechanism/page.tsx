@@ -32,6 +32,7 @@ export default function TheAntikytheraMechanism() {
     nextCategoryColor="amber"
     nextImage="/images/explorations/the-collyer-brothers.png"
     nextReadTime="13 min"
+    audioSrc="/audio/the-antikythera-mechanism.mp3"
     >
       <h2>The Heap of Rotting Corpses</h2>
 

@@ -32,6 +32,7 @@ export default function DeadLetters() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-last-word.png"
       nextReadTime="13 min"
+    audioSrc="/audio/dead-letters.mp3"
     >
       <p>
         In 1825, the United States Post Office established an office for
