@@ -32,7 +32,7 @@ export default function TheLastWord() {
       nextCategoryColor="rose"
       nextImage="/images/explorations/not-a-place-of-honor.png"
       nextReadTime="14 min"
-    audioSrc="/audio/the-last-word.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-word.mp3"
     >
       <p>
         On January 26, 2010, a woman named Boa Sr died in a hospital in

@@ -25,7 +25,7 @@ export default function TheGreatSilence() {
       wordCount={3401}
       prevSlug="dead-reckoning"
       prevTitle="Dead Reckoning"
-    audioSrc="/audio/the-great-silence.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-silence.mp3"
     >
       <h2>The Lunchtime Question</h2>
 

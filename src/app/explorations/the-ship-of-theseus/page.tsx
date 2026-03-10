@@ -31,7 +31,7 @@ export default function TheShipOfTheseus() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-last-uncontacted-peoples.png"
       nextReadTime="13 min"
-    audioSrc="/audio/the-ship-of-theseus.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ship-of-theseus.mp3"
     >
       <h2>The Planks</h2>
 

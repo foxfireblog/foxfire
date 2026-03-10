@@ -21,7 +21,7 @@ export default function TheWowSignal() {
     nextCategoryColor="emerald"
     nextImage="/images/explorations/desire-paths.png"
     nextReadTime="13 min"
-    audioSrc="/audio/the-wow-signal.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wow-signal.mp3"
     >
       <h2>The Margin</h2>
 

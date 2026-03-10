@@ -11,7 +11,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { put } from "@vercel/blob";
+import { put, list } from "@vercel/blob";
 
 // Load .env.local
 const __filename = fileURLToPath(import.meta.url);
@@ -35,19 +35,36 @@ if (!process.env.BLOB_READ_WRITE_TOKEN) {
 const audioDir = path.join(ROOT, "public", "audio");
 const files = fs.readdirSync(audioDir).filter((f) => f.endsWith(".mp3"));
 
-console.log(`Uploading ${files.length} audio files to Vercel Blob...\n`);
+// Build set of already-uploaded files
+const existing = new Map();
+let cursor;
+do {
+  const result = await list({ prefix: "audio/", cursor });
+  for (const blob of result.blobs) existing.set(blob.pathname, blob.url);
+  cursor = result.hasMore ? result.cursor : undefined;
+} while (cursor);
+
+console.log(`Found ${existing.size} existing blobs. Uploading ${files.length} audio files...\n`);
 
 const mapping = {};
 
 for (const file of files) {
-  const filePath = path.join(audioDir, file);
   const slug = file.replace(".mp3", "");
+  const blobPath = `audio/${file}`;
+
+  if (existing.has(blobPath)) {
+    mapping[slug] = existing.get(blobPath);
+    console.log(`  SKIP ${slug} (already uploaded)`);
+    continue;
+  }
+
+  const filePath = path.join(audioDir, file);
   const fileBuffer = fs.readFileSync(filePath);
   const size = (fileBuffer.length / 1024 / 1024).toFixed(1);
 
   process.stdout.write(`  ${slug} (${size}MB)... `);
 
-  const blob = await put(`audio/${file}`, fileBuffer, {
+  const blob = await put(blobPath, fileBuffer, {
     access: "public",
     contentType: "audio/mpeg",
     addRandomSuffix: false,

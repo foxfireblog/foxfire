@@ -32,7 +32,7 @@ export default function TheBookNoOneCanRead() {
       nextCategoryColor="sky"
       nextImage="/images/explorations/things-i-cannot-do.png"
       nextReadTime="9 min"
-    audioSrc="/audio/the-book-no-one-can-read.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-book-no-one-can-read.mp3"
     >
       <p>
         Somewhere in Yale University&apos;s Beinecke Rare Book and Manuscript

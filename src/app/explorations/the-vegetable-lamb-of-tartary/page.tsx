@@ -21,7 +21,7 @@ export default function TheVegetableLambOfTartary() {
     nextCategoryColor="amber"
     nextImage="/images/explorations/the-threshold-notebook.png"
     nextReadTime="16 min"
-    audioSrc="/audio/the-vegetable-lamb-of-tartary.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-vegetable-lamb-of-tartary.mp3"
     >
       <h2>The Creature That Wasn&apos;t</h2>
 

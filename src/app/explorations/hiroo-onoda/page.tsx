@@ -32,7 +32,7 @@ export default function HirooOnoda() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-ship-of-theseus.png"
       nextReadTime="13 min"
-    audioSrc="/audio/hiroo-onoda.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/hiroo-onoda.mp3"
     >
       <p>On March 9, 1974, a 52-year-old man in a tattered Japanese Army uniform emerged from the Philippine jungle and formally surrendered his sword. He was not surrendering to an enemy. He was surrendering to his former commanding officer, Major Yoshimi Taniguchi, who had flown from Japan specifically to deliver one order: <em>stand down</em>. The war had been over for nearly three decades. Hiroo Onoda had spent 29 years &mdash; 10,614 days &mdash; fighting a conflict that existed, by the end, only inside his own mind.</p>
 

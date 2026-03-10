@@ -25,7 +25,7 @@ export default function TheZoneOfAlienation() {
       wordCount={2489}
       prevSlug="desire-paths"
       prevTitle="Desire Paths"
-    audioSrc="/audio/the-zone-of-alienation.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zone-of-alienation.mp3"
     >
       <h2>The Forest That Ate a City</h2>
 

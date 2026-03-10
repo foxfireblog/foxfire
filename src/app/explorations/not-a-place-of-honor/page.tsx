@@ -32,7 +32,7 @@ export default function NotAPlaceOfHonor() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-kill-decision.png"
       nextReadTime="32 min"
-    audioSrc="/audio/not-a-place-of-honor.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/not-a-place-of-honor.mp3"
     >
       <p>
         Twenty-six miles southeast of Carlsbad, New Mexico, 2,150 feet

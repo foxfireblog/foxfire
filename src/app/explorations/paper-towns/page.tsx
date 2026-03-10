@@ -21,7 +21,7 @@ export default function PaperTowns() {
     nextCategoryColor="teal"
     nextImage="/images/explorations/rogue-waves.png"
     nextReadTime="13 min"
-    audioSrc="/audio/paper-towns.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/paper-towns.mp3"
     >
       <h2>The Town That Caught Itself Existing</h2>
 

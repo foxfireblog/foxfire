@@ -21,7 +21,7 @@ export default function DeadReckoning() {
     nextCategoryColor="rose"
     nextImage="/images/explorations/the-placebo-effect.png"
     nextReadTime="14 min"
-    audioSrc="/audio/dead-reckoning.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-reckoning.mp3"
     >
       <h2>The Rope Burns</h2>
 

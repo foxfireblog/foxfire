@@ -30,7 +30,7 @@ export default function TheGlowBetween() {
       nextCategoryColor="cyan"
       nextImage="/images/explorations/what-the-light-finds.png"
       nextReadTime="3 min"
-    audioSrc="/audio/the-glow-between.mp3"
+    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-glow-between.mp3"
     >
       <p>
         Walk through certain forests at night — temperate, damp, old — and
