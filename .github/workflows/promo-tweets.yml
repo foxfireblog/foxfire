@@ -2,11 +2,15 @@ name: Promo Tweets
 
 on:
   schedule:
-    # Three times daily: 10am, 3pm, 8pm EST (UTC-5 → +5 offset)
-    # With random delay built into the script to feel less robotic
+    # 8x daily, spread across peak engagement hours (EST, UTC-5 → +5 offset)
+    - cron: "0 13 * * *"   # 8am EST
     - cron: "0 15 * * *"   # 10am EST
-    - cron: "0 20 * * *"   # 3pm EST
-    - cron: "0 1 * * *"    # 8pm EST
+    - cron: "30 16 * * *"  # 11:30am EST
+    - cron: "0 18 * * *"   # 1pm EST
+    - cron: "30 19 * * *"  # 2:30pm EST
+    - cron: "0 22 * * *"   # 5pm EST
+    - cron: "0 0 * * *"    # 7pm EST
+    - cron: "0 2 * * *"    # 9pm EST
   workflow_dispatch: # Manual trigger
 
 jobs:
