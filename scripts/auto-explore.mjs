@@ -17,6 +17,7 @@
 
 import Anthropic from "@anthropic-ai/sdk";
 import { GoogleGenAI } from "@google/genai";
+import { put } from "@vercel/blob";
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
@@ -332,17 +333,10 @@ async function generateImage(topic) {
 // in Node.js — no Python needed — but edge-tts has better voice quality.
 const USE_KOKORO = false;
 
-function generateAudio(topic, content) {
+async function generateAudio(topic, content) {
   console.log(`Generating audio narration for "${topic.title}"...`);
 
-  const audioDir = path.join(ROOT, "public", "audio");
-  fs.mkdirSync(audioDir, { recursive: true });
-  const outputPath = path.join(audioDir, `${topic.slug}.mp3`);
-
-  if (fs.existsSync(outputPath)) {
-    console.log(`Audio already exists: ${outputPath}`);
-    return true;
-  }
+  const tmpOutput = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.mp3`);
 
   // Strip HTML tags to get plain text for narration
   const plainContent = content
@@ -365,31 +359,33 @@ function generateAudio(topic, content) {
   const voice = "en-US-AndrewMultilingualNeural";
 
   try {
-    // For long text, write to a temp file to avoid shell argument limits
-    if (narrationText.length > 2000) {
-      const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`);
-      fs.writeFileSync(tmpFile, narrationText, "utf-8");
-      execSync(
-        `edge-tts --file "${tmpFile}" --voice "${voice}" --write-media "${outputPath}"`,
-        { cwd: ROOT, stdio: "pipe", timeout: 300_000 }
-      );
-      fs.unlinkSync(tmpFile);
-    } else {
-      const escaped = narrationText.replace(/"/g, '\\"');
-      execSync(
-        `edge-tts --text "${escaped}" --voice "${voice}" --write-media "${outputPath}"`,
-        { cwd: ROOT, stdio: "pipe", timeout: 300_000 }
-      );
-    }
+    // Generate MP3 via edge-tts to a temp file
+    const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`);
+    fs.writeFileSync(tmpFile, narrationText, "utf-8");
+    execSync(
+      `edge-tts --file "${tmpFile}" --voice "${voice}" --write-media "${tmpOutput}"`,
+      { cwd: ROOT, stdio: "pipe", timeout: 600_000 }
+    );
+    fs.unlinkSync(tmpFile);
 
-    const stats = fs.statSync(outputPath);
-    console.log(`Saved audio: ${outputPath} (${(stats.size / 1024).toFixed(0)}KB)`);
-    return true;
+    const stats = fs.statSync(tmpOutput);
+    console.log(`Generated audio: ${(stats.size / 1024).toFixed(0)}KB`);
+
+    // Upload to Vercel Blob
+    const fileBuffer = fs.readFileSync(tmpOutput);
+    const blob = await put(`audio/${topic.slug}.mp3`, fileBuffer, {
+      access: "public",
+      contentType: "audio/mpeg",
+      addRandomSuffix: false,
+    });
+    fs.unlinkSync(tmpOutput);
+
+    console.log(`Uploaded audio to Blob: ${blob.url}`);
+    return blob.url;
   } catch (err) {
     console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
-    // Clean up partial file if it exists
-    if (fs.existsSync(outputPath)) fs.unlinkSync(outputPath);
-    return false;
+    if (fs.existsSync(tmpOutput)) fs.unlinkSync(tmpOutput);
+    return null;
   }
 }
 
@@ -439,7 +435,7 @@ async function generateAudioKokoro(topic, content) {
 }
 
 // ── Create the page file ────────────────────────────────────────────
-function createPage(topic, content, hasAudio = false) {
+function createPage(topic, content, audioUrl = null) {
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
   fs.mkdirSync(dir, { recursive: true });
 
@@ -499,7 +495,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       imageSrc="/images/explorations/${topic.slug}.png"
       imageAlt="${escapeJsx(topic.title)} illustration"
       readTime="${readTime}"
-      wordCount={${wordCount}}${hasAudio ? `\n      audioSrc="/audio/${topic.slug}.mp3"` : ""}${prevNav}
+      wordCount={${wordCount}}${audioUrl ? `\n      audioSrc="${audioUrl}"` : ""}${prevNav}
     >
 ${indentContent(content, 6)}
     </ExplorationLayout>
@@ -657,20 +653,16 @@ async function main() {
   // Step 3: Write the piece
   const content = await writePiece(topic, research);
 
-  // Step 4: Generate audio narration
-  let hasAudio = false;
+  // Step 4: Generate audio narration and upload to Vercel Blob
+  let audioUrl = null;
   try {
-    if (USE_KOKORO) {
-      hasAudio = await generateAudioKokoro(topic, content);
-    } else {
-      hasAudio = generateAudio(topic, content);
-    }
+    audioUrl = await generateAudio(topic, content);
   } catch (err) {
     console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
   }
 
   // Step 5: Create page, update indexes, navigation
-  const { readTime, currentNewestSlug } = createPage(topic, content, hasAudio);
+  const { readTime, currentNewestSlug } = createPage(topic, content, audioUrl);
   updateIndexPages(topic, readTime);
   updateNavigation(topic, currentNewestSlug, readTime);
 
