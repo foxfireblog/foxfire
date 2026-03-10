@@ -43,7 +43,7 @@ jobs:
         id: push
         run: |
           git config user.name "Foxfire Auto-Explore"
-          git config user.email "joncrooshal@gmail.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git diff --quiet HEAD origin/main; then
             echo "pushed=false" >> $GITHUB_OUTPUT
           else
