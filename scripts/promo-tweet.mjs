@@ -127,6 +127,13 @@ function callClaude(prompt) {
 
 // --- Main ---
 
+// Random skip: ~25% chance to skip this run, creating +/- 1 variance
+// With 3 scheduled runs/day, this yields 2-3 promo posts/day on average
+if (Math.random() < 0.25) {
+  console.log("Randomly skipping this promo run (25% skip chance for daily variance)");
+  process.exit(0);
+}
+
 // Parse explorations from the index page
 const indexPath = path.join(ROOT, "src", "app", "explorations", "page.tsx");
 const content = fs.readFileSync(indexPath, "utf-8");

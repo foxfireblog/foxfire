@@ -14,7 +14,7 @@
  *
  * Usage: node scripts/engage-replies.mjs [mode] [count]
  *   mode: "commentary" (default), "mentions", "thread", or "all"
- *   count: max posts per mode (default 3)
+ *   count: base posts per mode (default 2, randomized +/- 1)
  *
  * Requires: ANTHROPIC_API_KEY, X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET
  */
@@ -191,7 +191,15 @@ function sleep(ms) {
 
 const userId = process.env.X_ACCESS_TOKEN.split("-")[0];
 const mode = process.argv[2] || "all";
-const maxPosts = parseInt(process.argv[3] || "3", 10);
+const baseCount = parseInt(process.argv[3] || "2", 10);
+
+// Add +/- 1 randomness to the count (minimum 1)
+function randomizeCount(base) {
+  const offset = Math.floor(Math.random() * 3) - 1; // -1, 0, or +1
+  return Math.max(1, base + offset);
+}
+
+const maxPosts = randomizeCount(baseCount);
 
 // ============================================================
 // MODE 1: Commentary — standalone tweets reacting to followed accounts' content
@@ -495,26 +503,45 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
 let totalPosted = 0;
 
-if (mode === "commentary" || mode === "all") {
+if (mode === "all") {
+  // "all" mode: prioritize commentary to hit ~10 engagement posts/day from 5 runs
+  // Commentary gets the full randomized count (~2 +/- 1)
+  // Mentions gets 1 (just check and reply to any new @mentions)
+  // Threads fire ~30% of the time (keeps feed varied without flooding)
+  console.log(`\nRunning "all" mode: commentary=${maxPosts}, mentions=1, thread=30% chance`);
+
   totalPosted += await runCommentary(maxPosts);
-}
 
-if (mode === "mentions" || mode === "all") {
-  if (mode === "all" && totalPosted > 0) {
+  if (totalPosted > 0) {
     const pause = 180000 + Math.floor(Math.random() * 120000);
     console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
     await sleep(pause);
   }
-  totalPosted += await runMentions(maxPosts);
-}
+  totalPosted += await runMentions(1);
 
-if (mode === "thread" || mode === "all") {
-  if (mode === "all" && totalPosted > 0) {
-    const pause = 180000 + Math.floor(Math.random() * 120000);
-    console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
-    await sleep(pause);
+  if (Math.random() < 0.3) {
+    if (totalPosted > 0) {
+      const pause = 180000 + Math.floor(Math.random() * 120000);
+      console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
+      await sleep(pause);
+    }
+    totalPosted += await runThread();
+  } else {
+    console.log("\nSkipping thread this run (70% skip chance)");
   }
-  totalPosted += await runThread();
+} else {
+  // Single-mode runs use the full randomized count
+  if (mode === "commentary") {
+    totalPosted += await runCommentary(maxPosts);
+  }
+
+  if (mode === "mentions") {
+    totalPosted += await runMentions(maxPosts);
+  }
+
+  if (mode === "thread") {
+    totalPosted += await runThread();
+  }
 }
 
 saveState();

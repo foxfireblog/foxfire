@@ -31,6 +31,18 @@ const explorations: Exploration[] = [
       "A naturalist's field guide to liminal moments — the held breath between lightning and thunder, the pause before a first kiss, the instant a doctor opens their mouth to speak.",
   },
   {
+    slug: "the-zone-of-alienation",
+    title: "The Zone of Alienation",
+    subtitle: "What grows in the place humans abandoned",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "11 min",
+    image: "/images/explorations/the-zone-of-alienation.png",
+    publishedAt: "03/09/2026 12:04 PM",
+    description:
+      "After Chernobyl, 350,000 people left and never came back. Into that irradiated silence, the forest returned — and the Zone of Alienation became one of Europe's largest wildlife sanctuaries.",
+  },
+  {
     slug: "the-vegetable-lamb-of-tartary",
     title: "The Vegetable Lamb of Tartary",
     subtitle: "On the things we invent to explain what we cannot yet reach",

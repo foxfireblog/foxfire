@@ -3,8 +3,8 @@ name: Engage & Follow Back
 on:
   schedule:
     # Engagement: 5x daily at varied times (EST, UTC-5)
-    # Each run: ~2 commentary + mentions check + occasionally a thread
-    # Target: 10-15 engagement posts/day
+    # Each run: ~2 commentary (+/- 1 randomness built into script)
+    # Target: ~10 engagement posts/day, max 13 total with promo
     - cron: "30 14 * * *"   # 9:30am EST
     - cron: "0 17 * * *"    # 12pm EST
     - cron: "30 19 * * *"   # 2:30pm EST
@@ -34,7 +34,7 @@ on:
       count:
         description: "Posts per mode"
         required: false
-        default: "3"
+        default: "2"
 
 permissions:
   contents: write
@@ -68,7 +68,7 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/engage-replies.mjs ${{ inputs.mode || 'all' }} ${{ inputs.count || '3' }}
+        run: node scripts/engage-replies.mjs ${{ inputs.mode || 'all' }} ${{ inputs.count || '2' }}
 
       - name: Auto follow back
         if: inputs.task != 'engage'
