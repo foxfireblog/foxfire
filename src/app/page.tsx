@@ -7,6 +7,18 @@ import { Sparkles } from "lucide-react";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-flavor-of-music",
+    title: "The Flavor of Music",
+    subtitle: "On synesthesia, the borders between senses, and what it means that perception is private",
+    category: "Essay",
+    color: "violet",
+    readTime: "15 min",
+    image: "/images/explorations/the-flavor-of-music.png",
+    publishedAt: "03/11/2026 05:41 PM",
+    description:
+      "Some people taste shapes, hear colors, and feel numbers — and the rest of us will never know what we're missing.",
+  },
+  {
     slug: "the-watchmaker-is-blind",
     title: "The Watchmaker Is Blind",
     subtitle: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
