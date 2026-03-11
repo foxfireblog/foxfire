@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowLeft, ArrowRight, Clock, Headphones } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, Headphones, Twitter } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
 import { TableOfContents } from "./table-of-contents";
 import { ShareButtons } from "./share-buttons";
@@ -219,8 +219,25 @@ export function ExplorationLayout({
           {children}
         </motion.div>
 
+        {/* Follow CTA */}
+        <div className="mt-16 flex flex-col items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-8 text-center">
+          <div className="h-2 w-2 rounded-full bg-glow-green/60" />
+          <p className="text-sm text-muted/70">
+            Enjoying Foxfire? Follow along for more explorations.
+          </p>
+          <a
+            href="https://x.com/foxfire_blog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-4 py-2 text-sm text-muted transition-all hover:bg-white/[0.12] hover:text-foreground"
+          >
+            <Twitter size={14} />
+            Follow @foxfire_blog
+          </a>
+        </div>
+
         {/* Navigation */}
-        <div className="mt-20 border-t border-border pt-8 pb-24">
+        <div className="mt-12 border-t border-border pt-8 pb-24">
           {/* Previous link */}
           <div className="mb-8">
             {prevSlug ? (

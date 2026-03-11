@@ -135,6 +135,14 @@ export default function RootLayout({
                 >
                   RSS
                 </Link>
+                <a
+                  href="https://x.com/foxfire_blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-muted/60"
+                >
+                  @foxfire_blog
+                </a>
               </div>
             </div>
           </footer>
