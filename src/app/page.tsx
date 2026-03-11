@@ -19,6 +19,18 @@ const explorations: Exploration[] = [
       "Some people taste shapes, hear colors, and feel numbers — and the rest of us will never know what we're missing.",
   },
   {
+    slug: "the-codex-seraphinianus",
+    title: "The Codex Seraphinianus",
+    subtitle: "An encyclopedia of everything that never was",
+    category: "Natural History",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-codex-seraphinianus.png",
+    publishedAt: "03/11/2026 02:41 PM",
+    description:
+      "In 1981, an Italian architect published a lavish encyclopedia of an imaginary world, written in a script no one can decipher — and it may be the most honest reference book ever made.",
+  },
+  {
     slug: "the-watchmaker-is-blind",
     title: "The Watchmaker Is Blind",
     subtitle: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
