@@ -76,6 +76,5 @@ jobs:
           TITLE=$(git log -1 --pretty=%s | sed 's/Add exploration: //')
           SLUG=$(git diff-tree --no-commit-id --name-only -r HEAD | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
           URL="https://foxfire.blog/explorations/${SLUG}"
-          node scripts/tweet.mjs "${TITLE}
-
-${URL}"
+          TWEET_TEXT=$(printf "%s\n\n%s" "${TITLE}" "${URL}")
+          node scripts/tweet.mjs "${TWEET_TEXT}"
