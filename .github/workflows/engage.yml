@@ -87,5 +87,6 @@ jobs:
           git add -f scripts/.replied-tweets.json scripts/.follow-back-state.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Update engagement state files"
-            git push
+            git pull --rebase origin main || true
+            git push || true
           fi

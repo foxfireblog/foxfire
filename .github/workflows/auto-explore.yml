@@ -51,6 +51,7 @@ jobs:
           if git diff --quiet HEAD origin/main; then
             echo "pushed=false" >> $GITHUB_OUTPUT
           else
+            git pull --rebase origin main || true
             git push
             echo "pushed=true" >> $GITHUB_OUTPUT
           fi
