@@ -7,6 +7,9 @@ on:
     # and 0-90 minute random delay, so actual posts are unpredictable.
     - cron: "0 2,5,8,11,14,17,20,23 * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
+  push:
+    paths:
+      - '.github/workflows/auto-explore.yml'
 
 permissions:
   contents: write
@@ -14,6 +17,7 @@ permissions:
 jobs:
   explore:
     runs-on: ubuntu-latest
+    if: github.event_name != 'push'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
