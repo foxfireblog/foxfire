@@ -643,6 +643,9 @@ async function generateAudio(topic, content) {
     return blob.url;
   } catch (err) {
     console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
+    // Clean up both temp files
+    const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`);
+    if (fs.existsSync(tmpFile)) fs.unlinkSync(tmpFile);
     if (fs.existsSync(tmpOutput)) fs.unlinkSync(tmpOutput);
     return null;
   }
