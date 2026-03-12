@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-winchester-mystery-house",
+    title: "The Winchester Mystery House",
+    subtitle: "A woman built a labyrinth of guilt, and it never stopped growing",
+    category: "Essay",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-winchester-mystery-house.png",
+    publishedAt: "03/12/2026 06:48 AM",
+    description:
+      "Sarah Winchester spent 38 years building a house to appease the ghosts of everyone killed by her family's rifle — and created the most haunting architecture of grief ever constructed.",
+  },
+  {
     slug: "the-flavor-of-music",
     title: "The Flavor of Music",
     subtitle: "On synesthesia, the borders between senses, and what it means that perception is private",
