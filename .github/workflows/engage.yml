@@ -42,6 +42,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   engage:
@@ -101,3 +102,14 @@ jobs:
             done
             echo "State file push failed after 3 attempts (non-critical)"
           fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --title "🔴 ${{ github.workflow }} failed ($(date -u +%Y-%m-%d))" \
+            --body "**Workflow:** ${{ github.workflow }}\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)\n**Trigger:** ${{ github.event_name }}" \
+            --label "automation-failure" \
+            2>/dev/null || echo "Could not create issue (label may not exist yet)"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

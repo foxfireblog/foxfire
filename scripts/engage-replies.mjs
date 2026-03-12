@@ -24,6 +24,7 @@ import * as path from "node:path";
 import * as crypto from "node:crypto";
 import * as https from "node:https";
 import { fileURLToPath } from "node:url";
+import { MODELS } from "./config.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -169,7 +170,7 @@ function apiPost(url, body) {
 function callClaude(prompt, maxTokens = 300) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      model: "claude-sonnet-4-6",
+      model: MODELS.fast,
       max_tokens: maxTokens,
       messages: [{ role: "user", content: prompt }],
     });

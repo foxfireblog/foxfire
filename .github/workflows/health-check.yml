@@ -1,0 +1,48 @@
+name: Health Check
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # Daily at noon UTC (7am EST)
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check site is live
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://foxfire.blog)
+          echo "Status: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "Site returned $STATUS!"
+            exit 1
+          fi
+
+      - name: Check latest exploration loads
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://foxfire.blog/explorations)
+          echo "Explorations page status: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "Explorations page returned $STATUS!"
+            exit 1
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --repo ${{ github.repository }} \
+            --title "🔴 Site health check failed ($(date -u +%Y-%m-%d))" \
+            --body "**Check:** foxfire.blog returned non-200 status\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)" \
+            --label "automation-failure" \
+            2>/dev/null || echo "Could not create issue"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

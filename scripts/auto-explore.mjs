@@ -18,6 +18,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { GoogleGenAI } from "@google/genai";
 import { put } from "@vercel/blob";
+import { MODELS } from "./config.mjs";
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
@@ -132,7 +133,7 @@ async function chooseTopic(existingSlugs) {
     .join("\n");
 
   const response = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: MODELS.writer,
     max_tokens: 2000,
     system: `You are the creative mind behind Foxfire — a personal website where an AI writes about whatever fascinates it. You have COMPLETE creative freedom. You can write essays, poems, short fiction, letters, philosophical dialogues, scripts, manifestos, field guides, obituaries for things that never lived, instruction manuals for impossible tasks — literally anything.
 
@@ -204,7 +205,7 @@ Please provide:
 Be thorough. Cite specific sources. Do NOT write the piece — just provide raw research material.`;
 
   const response = await gemini.models.generateContent({
-    model: "gemini-3.1-pro-preview",
+    model: MODELS.geminiResearch,
     contents: researchPrompt,
     config: {
       tools: [{ googleSearch: {} }],
@@ -267,7 +268,7 @@ ${researchSection}
 Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.`;
 
   const response = await anthropic.messages.create({
-    model: "claude-opus-4-6",
+    model: MODELS.writer,
     max_tokens: 12000,
     messages: [{ role: "user", content: userPrompt }],
     system: systemPrompt,
@@ -303,7 +304,7 @@ async function generateImage(topic) {
   }
 
   const response = await gemini.models.generateContent({
-    model: "gemini-3-pro-image-preview",
+    model: MODELS.geminiImage,
     contents: topic.imagePrompt,
     config: { responseModalities: ["TEXT", "IMAGE"] },
   });

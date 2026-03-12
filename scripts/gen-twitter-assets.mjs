@@ -8,6 +8,7 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { GoogleGenAI } from "@google/genai";
+import { MODELS } from "./config.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,7 +35,7 @@ const outputDir = path.join(ROOT, "public", "images");
 async function generateImage(prompt, filename) {
   console.log(`Generating ${filename}...`);
   const response = await gemini.models.generateContent({
-    model: "gemini-3-pro-image-preview",
+    model: MODELS.geminiImage,
     contents: prompt,
     config: { responseModalities: ["TEXT", "IMAGE"] },
   });

@@ -13,6 +13,7 @@ import * as path from "node:path";
 import * as crypto from "node:crypto";
 import * as https from "node:https";
 import { fileURLToPath } from "node:url";
+import { MODELS } from "./config.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -121,7 +122,7 @@ function apiPost(url, body) {
 function callClaude(prompt) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
+      model: MODELS.classifier,
       max_tokens: 50,
       messages: [{ role: "user", content: prompt }],
     });
