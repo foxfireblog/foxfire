@@ -1,0 +1,4074 @@
+[
+  {
+    "name": "Hedy Lamarr",
+    "born": "01-01",
+    "year": 1914,
+    "died": 2000,
+    "field": "Invention",
+    "known_for": "Frequency-hopping spread spectrum technology"
+  },
+  {
+    "name": "Satyendra Nath Bose",
+    "born": "01-01",
+    "year": 1894,
+    "died": 1974,
+    "field": "Physics",
+    "known_for": "Bose-Einstein statistics, boson namesake"
+  },
+  {
+    "name": "Isaac Asimov",
+    "born": "01-02",
+    "year": 1920,
+    "died": 1992,
+    "field": "Biochemistry",
+    "known_for": "Science fiction, popular science writing"
+  },
+  {
+    "name": "Sergei Korolev",
+    "born": "01-03",
+    "year": 1907,
+    "died": 1966,
+    "field": "Aerospace Engineering",
+    "known_for": "Chief designer of Soviet space program"
+  },
+  {
+    "name": "Isaac Newton",
+    "born": "01-04",
+    "year": 1643,
+    "died": 1727,
+    "field": "Physics",
+    "known_for": "Laws of motion, universal gravitation, calculus"
+  },
+  {
+    "name": "Georg Cantor",
+    "born": "01-05",
+    "year": 1845,
+    "died": 1918,
+    "field": "Mathematics",
+    "known_for": "Set theory, transfinite numbers"
+  },
+  {
+    "name": "George Washington Carver",
+    "born": "01-05",
+    "year": 1864,
+    "died": 1943,
+    "field": "Agricultural Science",
+    "known_for": "Peanut products, crop rotation, soil conservation"
+  },
+  {
+    "name": "Camillo Golgi",
+    "born": "01-07",
+    "year": 1843,
+    "died": 1926,
+    "field": "Medicine",
+    "known_for": "Golgi staining technique, Golgi apparatus"
+  },
+  {
+    "name": "Zora Neale Hurston",
+    "born": "01-07",
+    "year": 1891,
+    "died": 1960,
+    "field": "Anthropology",
+    "known_for": "Folklore research, Their Eyes Were Watching God"
+  },
+  {
+    "name": "Alfred Russel Wallace",
+    "born": "01-08",
+    "year": 1823,
+    "died": 1913,
+    "field": "Natural History",
+    "known_for": "Co-discoverer of natural selection, biogeography"
+  },
+  {
+    "name": "Stephen Hawking",
+    "born": "01-08",
+    "year": 1942,
+    "died": 2018,
+    "field": "Physics",
+    "known_for": "Hawking radiation, black hole theory"
+  },
+  {
+    "name": "Har Gobind Khorana",
+    "born": "01-09",
+    "year": 1922,
+    "died": 2011,
+    "field": "Biochemistry",
+    "known_for": "Genetic code interpretation, gene synthesis"
+  },
+  {
+    "name": "Simone de Beauvoir",
+    "born": "01-09",
+    "year": 1908,
+    "died": 1986,
+    "field": "Philosophy",
+    "known_for": "Existentialist philosophy, The Second Sex"
+  },
+  {
+    "name": "Donald Knuth",
+    "born": "01-10",
+    "year": 1938,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "The Art of Computer Programming, TeX typesetting"
+  },
+  {
+    "name": "Nikolaus Otto",
+    "born": "01-10",
+    "year": 1832,
+    "died": 1891,
+    "field": "Engineering",
+    "known_for": "Four-stroke internal combustion engine"
+  },
+  {
+    "name": "Theodor Schwann",
+    "born": "01-10",
+    "year": 1810,
+    "died": 1882,
+    "field": "Biology",
+    "known_for": "Cell theory, Schwann cells, pepsin discovery"
+  },
+  {
+    "name": "William James",
+    "born": "01-11",
+    "year": 1842,
+    "died": 1910,
+    "field": "Psychology",
+    "known_for": "Father of American psychology, pragmatism"
+  },
+  {
+    "name": "Gottlob Frege",
+    "born": "01-12",
+    "year": 1848,
+    "died": 1925,
+    "field": "Mathematics",
+    "known_for": "Predicate logic, philosophy of language"
+  },
+  {
+    "name": "Yellapragada Subbarow",
+    "born": "01-12",
+    "year": 1895,
+    "died": 1948,
+    "field": "Biochemistry",
+    "known_for": "Methotrexate, ATP function, folic acid synthesis"
+  },
+  {
+    "name": "Jan Ingenhousz",
+    "born": "01-13",
+    "year": 1730,
+    "died": 1799,
+    "field": "Plant Physiology",
+    "known_for": "Discovered photosynthesis in plants"
+  },
+  {
+    "name": "Albert Schweitzer",
+    "born": "01-14",
+    "year": 1875,
+    "died": 1965,
+    "field": "Medicine",
+    "known_for": "Medical missionary in Africa, Nobel Peace Prize"
+  },
+  {
+    "name": "Edward Teller",
+    "born": "01-15",
+    "year": 1908,
+    "died": 2003,
+    "field": "Physics",
+    "known_for": "Hydrogen bomb development, nuclear physics"
+  },
+  {
+    "name": "Sofia Kovalevskaya",
+    "born": "01-15",
+    "year": 1850,
+    "died": 1891,
+    "field": "Mathematics",
+    "known_for": "Cauchy-Kovalevskaya theorem, rotating rigid bodies"
+  },
+  {
+    "name": "Andre Michelin",
+    "born": "01-16",
+    "year": 1853,
+    "died": 1931,
+    "field": "Engineering",
+    "known_for": "Pneumatic tire, Michelin company co-founder"
+  },
+  {
+    "name": "Dian Fossey",
+    "born": "01-16",
+    "year": 1932,
+    "died": 1985,
+    "field": "Primatology",
+    "known_for": "Mountain gorilla conservation and research"
+  },
+  {
+    "name": "Benjamin Franklin",
+    "born": "01-17",
+    "year": 1706,
+    "died": 1790,
+    "field": "Invention",
+    "known_for": "Lightning rod, bifocals, electricity experiments"
+  },
+  {
+    "name": "Jacob Bernoulli",
+    "born": "01-17",
+    "year": 1655,
+    "died": 1705,
+    "field": "Mathematics",
+    "known_for": "Bernoulli numbers, law of large numbers"
+  },
+  {
+    "name": "Nikolai Zhukovsky",
+    "born": "01-17",
+    "year": 1847,
+    "died": 1921,
+    "field": "Aerospace Engineering",
+    "known_for": "Father of Russian aviation, aerodynamic theory"
+  },
+  {
+    "name": "Daniel Bernoulli",
+    "born": "01-18",
+    "year": 1700,
+    "died": 1782,
+    "field": "Mathematics",
+    "known_for": "Bernoulli's principle in fluid dynamics"
+  },
+  {
+    "name": "James Watt",
+    "born": "01-19",
+    "year": 1736,
+    "died": 1819,
+    "field": "Engineering",
+    "known_for": "Improved steam engine, watt unit namesake"
+  },
+  {
+    "name": "Buzz Aldrin",
+    "born": "01-20",
+    "year": 1930,
+    "died": null,
+    "field": "Aerospace",
+    "known_for": "Second person to walk on the Moon"
+  },
+  {
+    "name": "Andre-Marie Ampere",
+    "born": "01-22",
+    "year": 1775,
+    "died": 1836,
+    "field": "Physics",
+    "known_for": "Electrodynamics, ampere unit namesake"
+  },
+  {
+    "name": "David Hilbert",
+    "born": "01-23",
+    "year": 1862,
+    "died": 1943,
+    "field": "Mathematics",
+    "known_for": "Hilbert space, Hilbert's 23 problems"
+  },
+  {
+    "name": "Gertrude Elion",
+    "born": "01-23",
+    "year": 1918,
+    "died": 1999,
+    "field": "Pharmacology",
+    "known_for": "Drug development for leukemia and herpes"
+  },
+  {
+    "name": "Chika Kuroda",
+    "born": "01-24",
+    "year": 1884,
+    "died": 1968,
+    "field": "Chemistry",
+    "known_for": "First Japanese woman chemistry PhD, natural dyes"
+  },
+  {
+    "name": "Joseph-Louis Lagrange",
+    "born": "01-25",
+    "year": 1736,
+    "died": 1813,
+    "field": "Mathematics",
+    "known_for": "Lagrangian mechanics, number theory"
+  },
+  {
+    "name": "Robert Boyle",
+    "born": "01-25",
+    "year": 1627,
+    "died": 1691,
+    "field": "Chemistry",
+    "known_for": "Boyle's law, father of modern chemistry"
+  },
+  {
+    "name": "Edith Clarke",
+    "born": "01-26",
+    "year": 1883,
+    "died": 1959,
+    "field": "Electrical Engineering",
+    "known_for": "First female electrical engineering professor in US"
+  },
+  {
+    "name": "Hideo Itokawa",
+    "born": "01-27",
+    "year": 1912,
+    "died": 1999,
+    "field": "Aerospace",
+    "known_for": "Father of Japanese rocketry"
+  },
+  {
+    "name": "Lewis Carroll",
+    "born": "01-27",
+    "year": 1832,
+    "died": 1898,
+    "field": "Mathematics",
+    "known_for": "Mathematical logic, Alice in Wonderland"
+  },
+  {
+    "name": "Augustin-Louis Cauchy",
+    "born": "01-28",
+    "year": 1789,
+    "died": 1857,
+    "field": "Mathematics",
+    "known_for": "Rigorous calculus foundations, complex analysis"
+  },
+  {
+    "name": "Charles Townes",
+    "born": "01-28",
+    "year": 1915,
+    "died": 2015,
+    "field": "Physics",
+    "known_for": "Maser and laser co-invention, Nobel Prize"
+  },
+  {
+    "name": "Kathleen Lonsdale",
+    "born": "01-28",
+    "year": 1903,
+    "died": 1971,
+    "field": "Chemistry",
+    "known_for": "Proved benzene ring is flat by X-ray diffraction"
+  },
+  {
+    "name": "Abdus Salam",
+    "born": "01-29",
+    "year": 1926,
+    "died": 1996,
+    "field": "Physics",
+    "known_for": "Electroweak unification theory, Nobel Prize"
+  },
+  {
+    "name": "Erwin Schrodinger",
+    "born": "01-30",
+    "year": 1887,
+    "died": 1961,
+    "field": "Physics",
+    "known_for": "Schrodinger equation, quantum wave mechanics"
+  },
+  {
+    "name": "Hideki Yukawa",
+    "born": "01-30",
+    "year": 1907,
+    "died": 1981,
+    "field": "Physics",
+    "known_for": "Predicted mesons, first Japanese Nobel laureate"
+  },
+  {
+    "name": "Isamu Akasaki",
+    "born": "01-30",
+    "year": 1929,
+    "died": 2021,
+    "field": "Physics",
+    "known_for": "Blue LED development, Nobel Prize"
+  },
+  {
+    "name": "Elijah McCoy",
+    "born": "02-01",
+    "year": 1844,
+    "died": 1929,
+    "field": "Engineering",
+    "known_for": "Automatic lubrication systems for engines"
+  },
+  {
+    "name": "Galileo Galilei",
+    "born": "02-01",
+    "year": 1564,
+    "died": 1642,
+    "field": "Physics",
+    "known_for": "Telescope astronomy, heliocentrism, kinematics"
+  },
+  {
+    "name": "Alfred Adler",
+    "born": "02-02",
+    "year": 1870,
+    "died": 1937,
+    "field": "Psychology",
+    "known_for": "Individual psychology, inferiority complex"
+  },
+  {
+    "name": "Gaston Julia",
+    "born": "02-03",
+    "year": 1893,
+    "died": 1978,
+    "field": "Mathematics",
+    "known_for": "Julia set in complex dynamics"
+  },
+  {
+    "name": "Jacques Hadamard",
+    "born": "02-03",
+    "year": 1865,
+    "died": 1963,
+    "field": "Mathematics",
+    "known_for": "Prime number theorem proof, Hadamard matrices"
+  },
+  {
+    "name": "Clyde Tombaugh",
+    "born": "02-04",
+    "year": 1906,
+    "died": 1997,
+    "field": "Astronomy",
+    "known_for": "Discovery of Pluto"
+  },
+  {
+    "name": "John Boyd Dunlop",
+    "born": "02-05",
+    "year": 1840,
+    "died": 1921,
+    "field": "Invention",
+    "known_for": "Pneumatic rubber tire for bicycles"
+  },
+  {
+    "name": "Andre Weil",
+    "born": "02-06",
+    "year": 1906,
+    "died": 1998,
+    "field": "Mathematics",
+    "known_for": "Weil conjectures, algebraic geometry foundations"
+  },
+  {
+    "name": "Clyde Cowan",
+    "born": "02-06",
+    "year": 1919,
+    "died": 1974,
+    "field": "Physics",
+    "known_for": "Co-discovered the neutrino experimentally"
+  },
+  {
+    "name": "Mary Leakey",
+    "born": "02-06",
+    "year": 1913,
+    "died": 1996,
+    "field": "Paleoanthropology",
+    "known_for": "Laetoli footprints, Olduvai Gorge discoveries"
+  },
+  {
+    "name": "G. H. Hardy",
+    "born": "02-07",
+    "year": 1877,
+    "died": 1947,
+    "field": "Mathematics",
+    "known_for": "Hardy-Ramanujan number, pure mathematics advocacy"
+  },
+  {
+    "name": "Dmitri Mendeleev",
+    "born": "02-08",
+    "year": 1834,
+    "died": 1907,
+    "field": "Chemistry",
+    "known_for": "Periodic table of elements"
+  },
+  {
+    "name": "John von Neumann",
+    "born": "02-08",
+    "year": 1903,
+    "died": 1957,
+    "field": "Mathematics",
+    "known_for": "Game theory, von Neumann architecture"
+  },
+  {
+    "name": "Luigi Galvani",
+    "born": "02-09",
+    "year": 1737,
+    "died": 1798,
+    "field": "Physiology",
+    "known_for": "Bioelectricity, galvanism discovery"
+  },
+  {
+    "name": "Laura Bassi",
+    "born": "02-10",
+    "year": 1711,
+    "died": 1778,
+    "field": "Physics",
+    "known_for": "First female university physics professor"
+  },
+  {
+    "name": "Per Teodor Cleve",
+    "born": "02-10",
+    "year": 1840,
+    "died": 1905,
+    "field": "Chemistry",
+    "known_for": "Discovered holmium and thulium elements"
+  },
+  {
+    "name": "Josiah Willard Gibbs",
+    "born": "02-11",
+    "year": 1839,
+    "died": 1903,
+    "field": "Physics",
+    "known_for": "Gibbs free energy, statistical mechanics"
+  },
+  {
+    "name": "Marian Diamond",
+    "born": "02-11",
+    "year": 1926,
+    "died": 2017,
+    "field": "Neuroscience",
+    "known_for": "Brain plasticity research, Einstein's brain study"
+  },
+  {
+    "name": "Thomas Edison",
+    "born": "02-11",
+    "year": 1847,
+    "died": 1931,
+    "field": "Invention",
+    "known_for": "Phonograph, practical light bulb, film camera"
+  },
+  {
+    "name": "Charles Darwin",
+    "born": "02-12",
+    "year": 1809,
+    "died": 1882,
+    "field": "Biology",
+    "known_for": "Theory of evolution by natural selection"
+  },
+  {
+    "name": "Inge Lehmann",
+    "born": "02-13",
+    "year": 1888,
+    "died": 1993,
+    "field": "Seismology",
+    "known_for": "Discovered Earth's solid inner core"
+  },
+  {
+    "name": "Thomas Malthus",
+    "born": "02-13",
+    "year": 1766,
+    "died": 1834,
+    "field": "Economics",
+    "known_for": "Population growth theory, Malthusian catastrophe"
+  },
+  {
+    "name": "William Shockley",
+    "born": "02-13",
+    "year": 1910,
+    "died": 1989,
+    "field": "Physics",
+    "known_for": "Transistor co-invention, semiconductor physics"
+  },
+  {
+    "name": "Fritz Zwicky",
+    "born": "02-14",
+    "year": 1898,
+    "died": 1974,
+    "field": "Astrophysics",
+    "known_for": "Dark matter hypothesis, supernovae classification"
+  },
+  {
+    "name": "Galileo Ferraris",
+    "born": "02-14",
+    "year": 1847,
+    "died": 1897,
+    "field": "Electrical Engineering",
+    "known_for": "AC polyphase motor, rotating magnetic field"
+  },
+  {
+    "name": "Mikhail Tsvet",
+    "born": "02-14",
+    "year": 1872,
+    "died": 1919,
+    "field": "Chemistry",
+    "known_for": "Invented chromatography for separating pigments"
+  },
+  {
+    "name": "Artturi Ilmari Virtanen",
+    "born": "02-15",
+    "year": 1895,
+    "died": 1973,
+    "field": "Chemistry",
+    "known_for": "AIV fodder preservation method, Nobel Prize"
+  },
+  {
+    "name": "Euclid",
+    "born": "02-15",
+    "year": -325,
+    "died": -265,
+    "field": "Mathematics",
+    "known_for": "Elements, foundation of geometry"
+  },
+  {
+    "name": "Francoise Barré-Sinoussi",
+    "born": "02-15",
+    "year": 1947,
+    "died": null,
+    "field": "Virology",
+    "known_for": "Co-discovered HIV, Nobel Prize"
+  },
+  {
+    "name": "Milutin Milankovic",
+    "born": "02-15",
+    "year": 1879,
+    "died": 1958,
+    "field": "Geophysics",
+    "known_for": "Milankovic cycles of Earth's climate"
+  },
+  {
+    "name": "Jacques Bernoulli",
+    "born": "02-16",
+    "year": 1654,
+    "died": 1705,
+    "field": "Mathematics",
+    "known_for": "Bernoulli numbers"
+  },
+  {
+    "name": "Ernst Mach",
+    "born": "02-18",
+    "year": 1838,
+    "died": 1916,
+    "field": "Physics",
+    "known_for": "Mach number, philosophy of science"
+  },
+  {
+    "name": "Svante Arrhenius",
+    "born": "02-19",
+    "year": 1859,
+    "died": 1927,
+    "field": "Chemistry",
+    "known_for": "Electrolyte dissociation, greenhouse effect prediction"
+  },
+  {
+    "name": "Ludwig Boltzmann",
+    "born": "02-20",
+    "year": 1844,
+    "died": 1906,
+    "field": "Physics",
+    "known_for": "Statistical mechanics, Boltzmann constant"
+  },
+  {
+    "name": "Carl Friedrich Gauss",
+    "born": "02-21",
+    "year": 1777,
+    "died": 1855,
+    "field": "Mathematics",
+    "known_for": "Number theory, Gaussian distribution, magnetism"
+  },
+  {
+    "name": "Heinrich Hertz",
+    "born": "02-22",
+    "year": 1857,
+    "died": 1894,
+    "field": "Physics",
+    "known_for": "Proved electromagnetic waves, hertz unit namesake"
+  },
+  {
+    "name": "Allan Cormack",
+    "born": "02-23",
+    "year": 1924,
+    "died": 1998,
+    "field": "Physics",
+    "known_for": "CT scan mathematics, Nobel Prize in Medicine"
+  },
+  {
+    "name": "John Holland",
+    "born": "02-24",
+    "year": 1841,
+    "died": 1914,
+    "field": "Engineering",
+    "known_for": "Modern submarine design pioneer"
+  },
+  {
+    "name": "Tsung-Dao Lee",
+    "born": "02-24",
+    "year": 1926,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Parity violation in weak interactions, Nobel Prize"
+  },
+  {
+    "name": "Alois Alzheimer",
+    "born": "02-25",
+    "year": 1864,
+    "died": 1915,
+    "field": "Psychiatry",
+    "known_for": "First description of Alzheimer's disease"
+  },
+  {
+    "name": "Julius Robert von Mayer",
+    "born": "02-25",
+    "year": 1814,
+    "died": 1878,
+    "field": "Physics",
+    "known_for": "Conservation of energy, mechanical heat equivalent"
+  },
+  {
+    "name": "Ahmed Zewail",
+    "born": "02-26",
+    "year": 1946,
+    "died": 2016,
+    "field": "Chemistry",
+    "known_for": "Femtochemistry, ultrafast laser spectroscopy"
+  },
+  {
+    "name": "Giulio Natta",
+    "born": "02-26",
+    "year": 1903,
+    "died": 1979,
+    "field": "Chemistry",
+    "known_for": "Stereoregular polymers, Nobel Prize"
+  },
+  {
+    "name": "Linus Pauling",
+    "born": "02-28",
+    "year": 1901,
+    "died": 1994,
+    "field": "Chemistry",
+    "known_for": "Chemical bond theory, two Nobel Prizes"
+  },
+  {
+    "name": "Hypatia",
+    "born": "03-01",
+    "year": 360,
+    "died": 415,
+    "field": "Mathematics",
+    "known_for": "Alexandrian philosopher, astronomy, conic sections"
+  },
+  {
+    "name": "Seki Takakazu",
+    "born": "03-01",
+    "year": 1642,
+    "died": 1708,
+    "field": "Mathematics",
+    "known_for": "Japanese calculus, determinants, Bernoulli numbers"
+  },
+  {
+    "name": "Alexander Graham Bell",
+    "born": "03-03",
+    "year": 1847,
+    "died": 1922,
+    "field": "Invention",
+    "known_for": "Telephone, contributions to deaf education"
+  },
+  {
+    "name": "Garrett Morgan",
+    "born": "03-04",
+    "year": 1877,
+    "died": 1963,
+    "field": "Invention",
+    "known_for": "Traffic signal, gas mask inventor"
+  },
+  {
+    "name": "George Gamow",
+    "born": "03-04",
+    "year": 1904,
+    "died": 1968,
+    "field": "Physics",
+    "known_for": "Big Bang nucleosynthesis, alpha decay theory"
+  },
+  {
+    "name": "Gerardus 't Hooft",
+    "born": "03-05",
+    "year": 1946,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Renormalization of gauge theories, Nobel Prize"
+  },
+  {
+    "name": "Gerardus Mercator",
+    "born": "03-05",
+    "year": 1512,
+    "died": 1594,
+    "field": "Cartography",
+    "known_for": "Mercator projection for world maps"
+  },
+  {
+    "name": "Lynn Margulis",
+    "born": "03-05",
+    "year": 1938,
+    "died": 2011,
+    "field": "Biology",
+    "known_for": "Endosymbiotic theory of mitochondria origin"
+  },
+  {
+    "name": "Joseph von Fraunhofer",
+    "born": "03-06",
+    "year": 1787,
+    "died": 1826,
+    "field": "Optics",
+    "known_for": "Fraunhofer lines in solar spectrum"
+  },
+  {
+    "name": "Valentina Tereshkova",
+    "born": "03-06",
+    "year": 1937,
+    "died": null,
+    "field": "Aerospace",
+    "known_for": "First woman in space (Vostok 6)"
+  },
+  {
+    "name": "John Herschel",
+    "born": "03-07",
+    "year": 1792,
+    "died": 1871,
+    "field": "Astronomy",
+    "known_for": "Southern sky catalog, coined 'photography'"
+  },
+  {
+    "name": "Luther Burbank",
+    "born": "03-07",
+    "year": 1849,
+    "died": 1926,
+    "field": "Botany",
+    "known_for": "Developed over 800 plant varieties"
+  },
+  {
+    "name": "Howard Aiken",
+    "born": "03-08",
+    "year": 1900,
+    "died": 1973,
+    "field": "Computer Science",
+    "known_for": "Harvard Mark I electromechanical computer"
+  },
+  {
+    "name": "Otto Hahn",
+    "born": "03-08",
+    "year": 1879,
+    "died": 1968,
+    "field": "Chemistry",
+    "known_for": "Discovery of nuclear fission"
+  },
+  {
+    "name": "Amerigo Vespucci",
+    "born": "03-09",
+    "year": 1451,
+    "died": 1512,
+    "field": "Exploration",
+    "known_for": "Americas named after him, navigational methods"
+  },
+  {
+    "name": "Yuri Gagarin",
+    "born": "03-09",
+    "year": 1934,
+    "died": 1968,
+    "field": "Aerospace",
+    "known_for": "First human in space"
+  },
+  {
+    "name": "Ptolemy",
+    "born": "03-10",
+    "year": 100,
+    "died": 170,
+    "field": "Astronomy",
+    "known_for": "Almagest, geocentric model, star catalog"
+  },
+  {
+    "name": "Joseph Bertrand",
+    "born": "03-11",
+    "year": 1822,
+    "died": 1900,
+    "field": "Mathematics",
+    "known_for": "Bertrand's postulate, Bertrand paradox"
+  },
+  {
+    "name": "Urbain Le Verrier",
+    "born": "03-11",
+    "year": 1811,
+    "died": 1877,
+    "field": "Astronomy",
+    "known_for": "Predicted Neptune's position mathematically"
+  },
+  {
+    "name": "Gustav Kirchhoff",
+    "born": "03-12",
+    "year": 1824,
+    "died": 1887,
+    "field": "Physics",
+    "known_for": "Kirchhoff's circuit laws, spectroscopy"
+  },
+  {
+    "name": "James Dwight Dana",
+    "born": "03-12",
+    "year": 1813,
+    "died": 1895,
+    "field": "Geology",
+    "known_for": "System of Mineralogy, volcanic island studies"
+  },
+  {
+    "name": "Virginia Apgar",
+    "born": "03-12",
+    "year": 1909,
+    "died": 1974,
+    "field": "Medicine",
+    "known_for": "Apgar score for newborn health assessment"
+  },
+  {
+    "name": "Percival Lowell",
+    "born": "03-13",
+    "year": 1855,
+    "died": 1916,
+    "field": "Astronomy",
+    "known_for": "Predicted Planet X, founded Lowell Observatory"
+  },
+  {
+    "name": "Albert Einstein",
+    "born": "03-14",
+    "year": 1879,
+    "died": 1955,
+    "field": "Physics",
+    "known_for": "Theory of relativity, mass-energy equivalence"
+  },
+  {
+    "name": "Giovanni Schiaparelli",
+    "born": "03-14",
+    "year": 1835,
+    "died": 1910,
+    "field": "Astronomy",
+    "known_for": "Mars canali observations, meteor shower orbits"
+  },
+  {
+    "name": "Fei-Fei Li",
+    "born": "03-15",
+    "year": 1976,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "ImageNet, computer vision, AI ethics"
+  },
+  {
+    "name": "Sushruta",
+    "born": "03-15",
+    "year": -600,
+    "died": -500,
+    "field": "Medicine",
+    "known_for": "Father of surgery, Sushruta Samhita"
+  },
+  {
+    "name": "Caroline Herschel",
+    "born": "03-16",
+    "year": 1750,
+    "died": 1848,
+    "field": "Astronomy",
+    "known_for": "Discovered 8 comets, first paid female scientist"
+  },
+  {
+    "name": "Georg Ohm",
+    "born": "03-16",
+    "year": 1789,
+    "died": 1854,
+    "field": "Physics",
+    "known_for": "Ohm's law of electrical resistance"
+  },
+  {
+    "name": "Richard Stallman",
+    "born": "03-16",
+    "year": 1953,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Free software movement, GNU Project, Emacs"
+  },
+  {
+    "name": "Gottlieb Daimler",
+    "born": "03-17",
+    "year": 1834,
+    "died": 1900,
+    "field": "Engineering",
+    "known_for": "High-speed internal combustion engine, automobile"
+  },
+  {
+    "name": "Norbert Rillieux",
+    "born": "03-17",
+    "year": 1806,
+    "died": 1894,
+    "field": "Engineering",
+    "known_for": "Multiple-effect evaporator for sugar refining"
+  },
+  {
+    "name": "Marin Mersenne",
+    "born": "03-18",
+    "year": 1588,
+    "died": 1648,
+    "field": "Mathematics",
+    "known_for": "Mersenne primes, acoustics research"
+  },
+  {
+    "name": "Rudolf Diesel",
+    "born": "03-18",
+    "year": 1858,
+    "died": 1913,
+    "field": "Engineering",
+    "known_for": "Diesel engine invention"
+  },
+  {
+    "name": "Mario Molina",
+    "born": "03-19",
+    "year": 1943,
+    "died": 2020,
+    "field": "Chemistry",
+    "known_for": "CFC ozone depletion discovery, Nobel Prize"
+  },
+  {
+    "name": "Joseph Fourier",
+    "born": "03-21",
+    "year": 1768,
+    "died": 1830,
+    "field": "Mathematics",
+    "known_for": "Fourier transform, heat conduction theory"
+  },
+  {
+    "name": "Richard Feynman",
+    "born": "03-22",
+    "year": 1918,
+    "died": 1988,
+    "field": "Physics",
+    "known_for": "Quantum electrodynamics, Feynman diagrams"
+  },
+  {
+    "name": "Emmy Noether",
+    "born": "03-23",
+    "year": 1882,
+    "died": 1935,
+    "field": "Mathematics",
+    "known_for": "Noether's theorem, abstract algebra"
+  },
+  {
+    "name": "Pierre-Simon Laplace",
+    "born": "03-23",
+    "year": 1749,
+    "died": 1827,
+    "field": "Mathematics",
+    "known_for": "Laplace transform, celestial mechanics"
+  },
+  {
+    "name": "Wernher von Braun",
+    "born": "03-23",
+    "year": 1912,
+    "died": 1977,
+    "field": "Aerospace Engineering",
+    "known_for": "Saturn V rocket, Apollo program architect"
+  },
+  {
+    "name": "Joseph Priestley",
+    "born": "03-24",
+    "year": 1733,
+    "died": 1804,
+    "field": "Chemistry",
+    "known_for": "Discovery of oxygen, carbonated water"
+  },
+  {
+    "name": "Paul Erdos",
+    "born": "03-26",
+    "year": 1913,
+    "died": 1996,
+    "field": "Mathematics",
+    "known_for": "Prolific combinatorics and number theory"
+  },
+  {
+    "name": "Willy Messerschmitt",
+    "born": "03-26",
+    "year": 1898,
+    "died": 1978,
+    "field": "Aerospace Engineering",
+    "known_for": "Me 262 jet fighter, aircraft design"
+  },
+  {
+    "name": "Flossie Wong-Staal",
+    "born": "03-27",
+    "year": 1946,
+    "died": 2020,
+    "field": "Virology",
+    "known_for": "First to clone HIV, mapped its genes"
+  },
+  {
+    "name": "Wilhelm Rontgen",
+    "born": "03-27",
+    "year": 1845,
+    "died": 1923,
+    "field": "Physics",
+    "known_for": "Discovery of X-rays, first Nobel in Physics"
+  },
+  {
+    "name": "Othniel Charles Marsh",
+    "born": "03-29",
+    "year": 1831,
+    "died": 1899,
+    "field": "Paleontology",
+    "known_for": "Discovered 80+ dinosaur species, Bone Wars"
+  },
+  {
+    "name": "Robert Bunsen",
+    "born": "03-30",
+    "year": 1811,
+    "died": 1899,
+    "field": "Chemistry",
+    "known_for": "Bunsen burner, spectroscopy with Kirchhoff"
+  },
+  {
+    "name": "Rene Descartes",
+    "born": "03-31",
+    "year": 1596,
+    "died": 1650,
+    "field": "Mathematics",
+    "known_for": "Cartesian coordinates, analytical geometry"
+  },
+  {
+    "name": "Sophie Germain",
+    "born": "04-01",
+    "year": 1776,
+    "died": 1831,
+    "field": "Mathematics",
+    "known_for": "Germain primes, elasticity theory"
+  },
+  {
+    "name": "Wangari Maathai",
+    "born": "04-01",
+    "year": 1940,
+    "died": 2011,
+    "field": "Environmental Science",
+    "known_for": "Green Belt Movement, Nobel Peace Prize"
+  },
+  {
+    "name": "Maria Sibylla Merian",
+    "born": "04-02",
+    "year": 1647,
+    "died": 1717,
+    "field": "Entomology",
+    "known_for": "Insect metamorphosis illustrations in Surinam"
+  },
+  {
+    "name": "Max Planck",
+    "born": "04-02",
+    "year": 1858,
+    "died": 1947,
+    "field": "Physics",
+    "known_for": "Quantum theory, Planck constant"
+  },
+  {
+    "name": "Fazlur Rahman Khan",
+    "born": "04-03",
+    "year": 1929,
+    "died": 1982,
+    "field": "Structural Engineering",
+    "known_for": "Tubular design for skyscrapers, Sears Tower"
+  },
+  {
+    "name": "Jane Goodall",
+    "born": "04-03",
+    "year": 1934,
+    "died": null,
+    "field": "Primatology",
+    "known_for": "Chimpanzee behavior research in Gombe"
+  },
+  {
+    "name": "Linus Torvalds",
+    "born": "04-03",
+    "year": 1969,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Created Linux kernel and Git"
+  },
+  {
+    "name": "Joseph Lister",
+    "born": "04-05",
+    "year": 1827,
+    "died": 1912,
+    "field": "Medicine",
+    "known_for": "Antiseptic surgery pioneer"
+  },
+  {
+    "name": "James Watson",
+    "born": "04-06",
+    "year": 1928,
+    "died": null,
+    "field": "Molecular Biology",
+    "known_for": "Co-discovered DNA double helix structure"
+  },
+  {
+    "name": "Leonhard Euler",
+    "born": "04-07",
+    "year": 1707,
+    "died": 1783,
+    "field": "Mathematics",
+    "known_for": "Graph theory, Euler's identity, prolific output"
+  },
+  {
+    "name": "Marjory Stoneman Douglas",
+    "born": "04-07",
+    "year": 1890,
+    "died": 1998,
+    "field": "Environmental Science",
+    "known_for": "Everglades conservation, River of Grass"
+  },
+  {
+    "name": "Melvin Calvin",
+    "born": "04-08",
+    "year": 1911,
+    "died": 1997,
+    "field": "Chemistry",
+    "known_for": "Calvin cycle in photosynthesis, Nobel Prize"
+  },
+  {
+    "name": "Dennis Ritchie",
+    "born": "04-09",
+    "year": 1941,
+    "died": 2011,
+    "field": "Computer Science",
+    "known_for": "Created C language and co-developed Unix"
+  },
+  {
+    "name": "Mary Jackson",
+    "born": "04-09",
+    "year": 1921,
+    "died": 2005,
+    "field": "Aerospace Engineering",
+    "known_for": "NASA's first Black female engineer"
+  },
+  {
+    "name": "Bernardo Houssay",
+    "born": "04-10",
+    "year": 1887,
+    "died": 1971,
+    "field": "Physiology",
+    "known_for": "Pituitary hormone role in blood sugar regulation"
+  },
+  {
+    "name": "Hippocrates",
+    "born": "04-10",
+    "year": -460,
+    "died": -370,
+    "field": "Medicine",
+    "known_for": "Father of medicine, Hippocratic Oath"
+  },
+  {
+    "name": "Mildred Dresselhaus",
+    "born": "04-11",
+    "year": 1930,
+    "died": 2017,
+    "field": "Physics",
+    "known_for": "Queen of carbon science, nanotube research"
+  },
+  {
+    "name": "Percy Julian",
+    "born": "04-11",
+    "year": 1899,
+    "died": 1975,
+    "field": "Chemistry",
+    "known_for": "Synthesized cortisone and physostigmine"
+  },
+  {
+    "name": "Gustave Eiffel",
+    "born": "04-12",
+    "year": 1832,
+    "died": 1923,
+    "field": "Engineering",
+    "known_for": "Eiffel Tower, structural engineering innovations"
+  },
+  {
+    "name": "Aryabhata",
+    "born": "04-13",
+    "year": 476,
+    "died": 550,
+    "field": "Mathematics",
+    "known_for": "Zero placeholder, trigonometry, Earth rotation"
+  },
+  {
+    "name": "Christiaan Huygens",
+    "born": "04-14",
+    "year": 1629,
+    "died": 1695,
+    "field": "Physics",
+    "known_for": "Wave theory of light, pendulum clock"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "born": "04-15",
+    "year": 1452,
+    "died": 1519,
+    "field": "Polymath",
+    "known_for": "Anatomical studies, flying machine designs"
+  },
+  {
+    "name": "Williamina Fleming",
+    "born": "04-15",
+    "year": 1857,
+    "died": 1911,
+    "field": "Astronomy",
+    "known_for": "Stellar classification system, Horsehead Nebula"
+  },
+  {
+    "name": "Wilbur Wright",
+    "born": "04-16",
+    "year": 1867,
+    "died": 1912,
+    "field": "Aviation",
+    "known_for": "First sustained powered airplane flight"
+  },
+  {
+    "name": "Clarence Birdseye",
+    "born": "04-18",
+    "year": 1886,
+    "died": 1956,
+    "field": "Food Science",
+    "known_for": "Flash-freezing process for food preservation"
+  },
+  {
+    "name": "Glenn Seaborg",
+    "born": "04-19",
+    "year": 1912,
+    "died": 1999,
+    "field": "Chemistry",
+    "known_for": "Discovered plutonium and 9 other elements"
+  },
+  {
+    "name": "Julius Lothar Meyer",
+    "born": "04-19",
+    "year": 1830,
+    "died": 1895,
+    "field": "Chemistry",
+    "known_for": "Independent periodic table, atomic volume curves"
+  },
+  {
+    "name": "Rene Dubos",
+    "born": "04-20",
+    "year": 1901,
+    "died": 1982,
+    "field": "Microbiology",
+    "known_for": "First commercial antibiotic, environmental thought"
+  },
+  {
+    "name": "J. Robert Oppenheimer",
+    "born": "04-22",
+    "year": 1904,
+    "died": 1967,
+    "field": "Physics",
+    "known_for": "Manhattan Project director, atomic bomb"
+  },
+  {
+    "name": "Rita Levi-Montalcini",
+    "born": "04-22",
+    "year": 1909,
+    "died": 2012,
+    "field": "Neuroscience",
+    "known_for": "Nerve growth factor discovery, Nobel Prize"
+  },
+  {
+    "name": "Jan Czochralski",
+    "born": "04-23",
+    "year": 1885,
+    "died": 1953,
+    "field": "Chemistry",
+    "known_for": "Czochralski crystal growth process for silicon"
+  },
+  {
+    "name": "Robert Moog",
+    "born": "04-23",
+    "year": 1934,
+    "died": 2005,
+    "field": "Engineering",
+    "known_for": "Moog synthesizer, electronic music pioneer"
+  },
+  {
+    "name": "Andrei Kolmogorov",
+    "born": "04-25",
+    "year": 1903,
+    "died": 1987,
+    "field": "Mathematics",
+    "known_for": "Probability axioms, complexity theory, turbulence"
+  },
+  {
+    "name": "Felix Klein",
+    "born": "04-25",
+    "year": 1849,
+    "died": 1925,
+    "field": "Mathematics",
+    "known_for": "Klein bottle, Erlangen program"
+  },
+  {
+    "name": "Frederick Banting",
+    "born": "04-25",
+    "year": 1891,
+    "died": 1941,
+    "field": "Medicine",
+    "known_for": "Co-discovery of insulin for diabetes"
+  },
+  {
+    "name": "Guglielmo Marconi",
+    "born": "04-25",
+    "year": 1874,
+    "died": 1937,
+    "field": "Electrical Engineering",
+    "known_for": "Radio telegraphy, transatlantic radio signal"
+  },
+  {
+    "name": "Charles Richter",
+    "born": "04-26",
+    "year": 1900,
+    "died": 1985,
+    "field": "Seismology",
+    "known_for": "Richter magnitude scale for earthquakes"
+  },
+  {
+    "name": "John James Audubon",
+    "born": "04-26",
+    "year": 1785,
+    "died": 1851,
+    "field": "Natural History",
+    "known_for": "Birds of America, ornithological illustration"
+  },
+  {
+    "name": "Maria Gaetana Agnesi",
+    "born": "04-26",
+    "year": 1718,
+    "died": 1799,
+    "field": "Mathematics",
+    "known_for": "Witch of Agnesi curve, calculus textbook"
+  },
+  {
+    "name": "Karl Landsteiner",
+    "born": "04-27",
+    "year": 1868,
+    "died": 1943,
+    "field": "Medicine",
+    "known_for": "ABO blood group system discovery"
+  },
+  {
+    "name": "Karl Pearson",
+    "born": "04-27",
+    "year": 1857,
+    "died": 1936,
+    "field": "Statistics",
+    "known_for": "Pearson correlation, chi-squared test, biometrics"
+  },
+  {
+    "name": "Samuel Morse",
+    "born": "04-27",
+    "year": 1791,
+    "died": 1872,
+    "field": "Invention",
+    "known_for": "Morse code, electric telegraph"
+  },
+  {
+    "name": "Hertha Ayrton",
+    "born": "04-28",
+    "year": 1854,
+    "died": 1923,
+    "field": "Electrical Engineering",
+    "known_for": "Electric arc research, line divider invention"
+  },
+  {
+    "name": "Kurt Godel",
+    "born": "04-28",
+    "year": 1906,
+    "died": 1978,
+    "field": "Mathematics",
+    "known_for": "Incompleteness theorems, foundations of logic"
+  },
+  {
+    "name": "Henri Poincare",
+    "born": "04-29",
+    "year": 1854,
+    "died": 1912,
+    "field": "Mathematics",
+    "known_for": "Poincare conjecture, topology, chaos theory"
+  },
+  {
+    "name": "Claude Shannon",
+    "born": "04-30",
+    "year": 1916,
+    "died": 2001,
+    "field": "Mathematics",
+    "known_for": "Information theory, digital circuit design"
+  },
+  {
+    "name": "Santiago Ramon y Cajal",
+    "born": "05-01",
+    "year": 1852,
+    "died": 1934,
+    "field": "Neuroscience",
+    "known_for": "Neuron doctrine, Nobel Prize in Medicine"
+  },
+  {
+    "name": "Benjamin Spock",
+    "born": "05-02",
+    "year": 1903,
+    "died": 1998,
+    "field": "Pediatrics",
+    "known_for": "Baby and Child Care, modern pediatrics"
+  },
+  {
+    "name": "Sake Dean Mahomed",
+    "born": "05-02",
+    "year": 1759,
+    "died": 1851,
+    "field": "Medicine",
+    "known_for": "Introduced shampooing therapy to Britain"
+  },
+  {
+    "name": "Thomas Henry Huxley",
+    "born": "05-04",
+    "year": 1825,
+    "died": 1895,
+    "field": "Biology",
+    "known_for": "Darwin's Bulldog, comparative anatomy"
+  },
+  {
+    "name": "J. B. S. Haldane",
+    "born": "05-05",
+    "year": 1892,
+    "died": 1964,
+    "field": "Genetics",
+    "known_for": "Population genetics, Haldane's rule"
+  },
+  {
+    "name": "Vandana Shiva",
+    "born": "05-05",
+    "year": 1952,
+    "died": null,
+    "field": "Environmental Science",
+    "known_for": "Seed sovereignty, anti-GMO activism"
+  },
+  {
+    "name": "Sigmund Freud",
+    "born": "05-06",
+    "year": 1856,
+    "died": 1939,
+    "field": "Psychology",
+    "known_for": "Psychoanalysis, theory of the unconscious"
+  },
+  {
+    "name": "Rabindranath Tagore",
+    "born": "05-07",
+    "year": 1861,
+    "died": 1941,
+    "field": "Literature",
+    "known_for": "Nobel laureate poet, Visva-Bharati university"
+  },
+  {
+    "name": "David Attenborough",
+    "born": "05-08",
+    "year": 1926,
+    "died": null,
+    "field": "Natural History",
+    "known_for": "BBC nature documentaries, conservation advocacy"
+  },
+  {
+    "name": "Gaspard Monge",
+    "born": "05-09",
+    "year": 1746,
+    "died": 1818,
+    "field": "Mathematics",
+    "known_for": "Descriptive geometry, Ecole Polytechnique founder"
+  },
+  {
+    "name": "Augustin-Jean Fresnel",
+    "born": "05-10",
+    "year": 1788,
+    "died": 1827,
+    "field": "Physics",
+    "known_for": "Fresnel lens, wave theory of light"
+  },
+  {
+    "name": "Cecilia Payne-Gaposchkin",
+    "born": "05-10",
+    "year": 1900,
+    "died": 1979,
+    "field": "Astronomy",
+    "known_for": "Stars are mainly hydrogen and helium"
+  },
+  {
+    "name": "Dorothy Hodgkin",
+    "born": "05-12",
+    "year": 1910,
+    "died": 1994,
+    "field": "Chemistry",
+    "known_for": "X-ray crystallography, penicillin and insulin structure"
+  },
+  {
+    "name": "Florence Nightingale",
+    "born": "05-12",
+    "year": 1820,
+    "died": 1910,
+    "field": "Nursing",
+    "known_for": "Modern nursing, statistical graphics pioneer"
+  },
+  {
+    "name": "Mary Harris Thompson",
+    "born": "05-12",
+    "year": 1829,
+    "died": 1895,
+    "field": "Medicine",
+    "known_for": "Chicago Hospital for Women founder, surgeon"
+  },
+  {
+    "name": "Maryam Mirzakhani",
+    "born": "05-12",
+    "year": 1977,
+    "died": 2017,
+    "field": "Mathematics",
+    "known_for": "First woman Fields Medal, Riemann surfaces"
+  },
+  {
+    "name": "Ronald Ross",
+    "born": "05-13",
+    "year": 1857,
+    "died": 1932,
+    "field": "Medicine",
+    "known_for": "Malaria transmission by mosquitoes"
+  },
+  {
+    "name": "Daniel Fahrenheit",
+    "born": "05-14",
+    "year": 1686,
+    "died": 1736,
+    "field": "Physics",
+    "known_for": "Mercury thermometer, Fahrenheit temperature scale"
+  },
+  {
+    "name": "Jabir ibn Hayyan",
+    "born": "05-15",
+    "year": 721,
+    "died": 815,
+    "field": "Chemistry",
+    "known_for": "Father of chemistry, distillation, mineral acids"
+  },
+  {
+    "name": "Maria Reiche",
+    "born": "05-15",
+    "year": 1903,
+    "died": 1998,
+    "field": "Archaeology",
+    "known_for": "Nazca Lines preservation and study"
+  },
+  {
+    "name": "Pierre Curie",
+    "born": "05-15",
+    "year": 1859,
+    "died": 1906,
+    "field": "Physics",
+    "known_for": "Radioactivity research, piezoelectricity"
+  },
+  {
+    "name": "Alan Kay",
+    "born": "05-17",
+    "year": 1940,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Object-oriented programming, Smalltalk, GUI concept"
+  },
+  {
+    "name": "Edward Jenner",
+    "born": "05-17",
+    "year": 1749,
+    "died": 1823,
+    "field": "Medicine",
+    "known_for": "Smallpox vaccine, father of immunology"
+  },
+  {
+    "name": "Bertrand Russell",
+    "born": "05-18",
+    "year": 1872,
+    "died": 1970,
+    "field": "Mathematics",
+    "known_for": "Principia Mathematica, mathematical logic"
+  },
+  {
+    "name": "Omar Khayyam",
+    "born": "05-18",
+    "year": 1048,
+    "died": 1131,
+    "field": "Mathematics",
+    "known_for": "Cubic equations, calendar reform, Rubaiyat"
+  },
+  {
+    "name": "Max Perutz",
+    "born": "05-19",
+    "year": 1914,
+    "died": 2002,
+    "field": "Molecular Biology",
+    "known_for": "Hemoglobin structure by X-ray crystallography"
+  },
+  {
+    "name": "Pythagoras",
+    "born": "05-20",
+    "year": -570,
+    "died": -495,
+    "field": "Mathematics",
+    "known_for": "Pythagorean theorem, mathematical philosophy"
+  },
+  {
+    "name": "Antonia Maury",
+    "born": "05-21",
+    "year": 1866,
+    "died": 1952,
+    "field": "Astronomy",
+    "known_for": "Stellar spectral classification refinement"
+  },
+  {
+    "name": "Mary Anning",
+    "born": "05-21",
+    "year": 1799,
+    "died": 1847,
+    "field": "Paleontology",
+    "known_for": "Ichthyosaur and plesiosaur fossil discoveries"
+  },
+  {
+    "name": "Carl Linnaeus",
+    "born": "05-23",
+    "year": 1707,
+    "died": 1778,
+    "field": "Biology",
+    "known_for": "Binomial nomenclature, taxonomy system"
+  },
+  {
+    "name": "John Bardeen",
+    "born": "05-23",
+    "year": 1908,
+    "died": 1991,
+    "field": "Physics",
+    "known_for": "Transistor, BCS superconductivity theory, two Nobels"
+  },
+  {
+    "name": "William Thomson (Lord Kelvin)",
+    "born": "05-24",
+    "year": 1824,
+    "died": 1907,
+    "field": "Physics",
+    "known_for": "Absolute temperature scale, thermodynamics"
+  },
+  {
+    "name": "Sally Ride",
+    "born": "05-26",
+    "year": 1951,
+    "died": 2012,
+    "field": "Physics",
+    "known_for": "First American woman in space"
+  },
+  {
+    "name": "John Cockcroft",
+    "born": "05-27",
+    "year": 1897,
+    "died": 1967,
+    "field": "Physics",
+    "known_for": "First artificial nuclear transmutation, Nobel Prize"
+  },
+  {
+    "name": "Rachel Carson",
+    "born": "05-27",
+    "year": 1907,
+    "died": 1964,
+    "field": "Marine Biology",
+    "known_for": "Silent Spring, environmental movement catalyst"
+  },
+  {
+    "name": "Louis Agassiz",
+    "born": "05-28",
+    "year": 1807,
+    "died": 1873,
+    "field": "Geology",
+    "known_for": "Ice age theory, glaciology pioneer"
+  },
+  {
+    "name": "Chien-Shiung Wu",
+    "born": "05-31",
+    "year": 1912,
+    "died": 1997,
+    "field": "Physics",
+    "known_for": "Disproved parity conservation, Wu experiment"
+  },
+  {
+    "name": "Jacques Cousteau",
+    "born": "06-01",
+    "year": 1910,
+    "died": 1997,
+    "field": "Oceanography",
+    "known_for": "Aqua-Lung co-inventor, ocean conservation"
+  },
+  {
+    "name": "John Napier",
+    "born": "06-01",
+    "year": 1550,
+    "died": 1617,
+    "field": "Mathematics",
+    "known_for": "Invention of logarithms, Napier's bones"
+  },
+  {
+    "name": "Kip Thorne",
+    "born": "06-01",
+    "year": 1940,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Gravitational wave detection, LIGO, Nobel Prize"
+  },
+  {
+    "name": "Charles Drew",
+    "born": "06-03",
+    "year": 1904,
+    "died": 1950,
+    "field": "Medicine",
+    "known_for": "Blood bank development, blood plasma storage"
+  },
+  {
+    "name": "James Hutton",
+    "born": "06-03",
+    "year": 1726,
+    "died": 1797,
+    "field": "Geology",
+    "known_for": "Deep time, father of modern geology"
+  },
+  {
+    "name": "Heinrich Otto Wieland",
+    "born": "06-04",
+    "year": 1877,
+    "died": 1957,
+    "field": "Chemistry",
+    "known_for": "Bile acid structure, Nobel Prize in Chemistry"
+  },
+  {
+    "name": "David Scott",
+    "born": "06-06",
+    "year": 1932,
+    "died": null,
+    "field": "Aerospace",
+    "known_for": "First to drive on Moon, Apollo 15 commander"
+  },
+  {
+    "name": "Reginald Fessenden",
+    "born": "06-06",
+    "year": 1866,
+    "died": 1932,
+    "field": "Invention",
+    "known_for": "First audio radio broadcast, sonar development"
+  },
+  {
+    "name": "Rolf Sievert",
+    "born": "06-06",
+    "year": 1896,
+    "died": 1966,
+    "field": "Medical Physics",
+    "known_for": "Radiation dosimetry, sievert unit namesake"
+  },
+  {
+    "name": "Alan Turing",
+    "born": "06-07",
+    "year": 1912,
+    "died": 1954,
+    "field": "Computer Science",
+    "known_for": "Turing machine, codebreaking, AI foundations"
+  },
+  {
+    "name": "Francis Crick",
+    "born": "06-08",
+    "year": 1916,
+    "died": 2004,
+    "field": "Molecular Biology",
+    "known_for": "Co-discovered DNA double helix structure"
+  },
+  {
+    "name": "Tikvah Alper",
+    "born": "06-08",
+    "year": 1909,
+    "died": 1995,
+    "field": "Biophysics",
+    "known_for": "Discovered prions lack nucleic acid"
+  },
+  {
+    "name": "Tim Berners-Lee",
+    "born": "06-08",
+    "year": 1955,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Invented the World Wide Web"
+  },
+  {
+    "name": "William Bateson",
+    "born": "06-08",
+    "year": 1861,
+    "died": 1926,
+    "field": "Genetics",
+    "known_for": "Coined the term 'genetics', Mendelian champion"
+  },
+  {
+    "name": "George Stephenson",
+    "born": "06-09",
+    "year": 1781,
+    "died": 1848,
+    "field": "Engineering",
+    "known_for": "Steam locomotive, railway gauge standard"
+  },
+  {
+    "name": "E. O. Wilson",
+    "born": "06-10",
+    "year": 1929,
+    "died": 2021,
+    "field": "Biology",
+    "known_for": "Sociobiology, biodiversity, ant ecology"
+  },
+  {
+    "name": "Katharine Burr Blodgett",
+    "born": "06-10",
+    "year": 1898,
+    "died": 1979,
+    "field": "Physics",
+    "known_for": "Non-reflective glass, Langmuir-Blodgett films"
+  },
+  {
+    "name": "Marthe Gautier",
+    "born": "06-10",
+    "year": 1925,
+    "died": 2022,
+    "field": "Medicine",
+    "known_for": "Discovered trisomy 21 chromosome in Down syndrome"
+  },
+  {
+    "name": "Erwin Chargaff",
+    "born": "06-11",
+    "year": 1905,
+    "died": 2002,
+    "field": "Biochemistry",
+    "known_for": "Chargaff's rules for DNA base pairing"
+  },
+  {
+    "name": "James Clerk Maxwell",
+    "born": "06-13",
+    "year": 1831,
+    "died": 1879,
+    "field": "Physics",
+    "known_for": "Maxwell's equations, electromagnetic theory"
+  },
+  {
+    "name": "John Nash",
+    "born": "06-13",
+    "year": 1928,
+    "died": 2015,
+    "field": "Mathematics",
+    "known_for": "Nash equilibrium, game theory"
+  },
+  {
+    "name": "Luis Alvarez",
+    "born": "06-13",
+    "year": 1911,
+    "died": 1988,
+    "field": "Physics",
+    "known_for": "Asteroid impact extinction theory, bubble chamber"
+  },
+  {
+    "name": "Alonzo Church",
+    "born": "06-14",
+    "year": 1903,
+    "died": 1995,
+    "field": "Mathematics",
+    "known_for": "Lambda calculus, Church-Turing thesis"
+  },
+  {
+    "name": "Charles-Augustin de Coulomb",
+    "born": "06-14",
+    "year": 1736,
+    "died": 1806,
+    "field": "Physics",
+    "known_for": "Coulomb's law of electrostatic force"
+  },
+  {
+    "name": "Archimedes",
+    "born": "06-15",
+    "year": -287,
+    "died": -212,
+    "field": "Mathematics",
+    "known_for": "Buoyancy principle, pi approximation, lever theory"
+  },
+  {
+    "name": "Brahmagupta",
+    "born": "06-15",
+    "year": 598,
+    "died": 668,
+    "field": "Mathematics",
+    "known_for": "Zero as a number, negative numbers, cyclic quadrilaterals"
+  },
+  {
+    "name": "Archie Carr",
+    "born": "06-16",
+    "year": 1909,
+    "died": 1987,
+    "field": "Marine Biology",
+    "known_for": "Sea turtle conservation pioneer"
+  },
+  {
+    "name": "Barbara McClintock",
+    "born": "06-16",
+    "year": 1902,
+    "died": 1992,
+    "field": "Genetics",
+    "known_for": "Transposable elements (jumping genes) in maize"
+  },
+  {
+    "name": "Irmgard Flugge-Lotz",
+    "born": "06-16",
+    "year": 1903,
+    "died": 1974,
+    "field": "Aerospace Engineering",
+    "known_for": "Automatic flight control theory pioneer"
+  },
+  {
+    "name": "Ramon Margalef",
+    "born": "06-16",
+    "year": 1919,
+    "died": 2004,
+    "field": "Ecology",
+    "known_for": "Information theory in ecology, limnology pioneer"
+  },
+  {
+    "name": "M. C. Escher",
+    "born": "06-17",
+    "year": 1898,
+    "died": 1972,
+    "field": "Mathematics",
+    "known_for": "Mathematical art, tessellations, impossible objects"
+  },
+  {
+    "name": "William Crookes",
+    "born": "06-17",
+    "year": 1832,
+    "died": 1919,
+    "field": "Chemistry",
+    "known_for": "Crookes tube, thallium discovery, radiometer"
+  },
+  {
+    "name": "Hisashi Owada",
+    "born": "06-18",
+    "year": 1932,
+    "died": null,
+    "field": "Law",
+    "known_for": "International Court of Justice president"
+  },
+  {
+    "name": "Blaise Pascal",
+    "born": "06-19",
+    "year": 1623,
+    "died": 1662,
+    "field": "Mathematics",
+    "known_for": "Pascal's triangle, probability theory, Pascaline"
+  },
+  {
+    "name": "Eratosthenes",
+    "born": "06-19",
+    "year": -276,
+    "died": -194,
+    "field": "Mathematics",
+    "known_for": "Measured Earth's circumference, prime sieve"
+  },
+  {
+    "name": "Paul Flory",
+    "born": "06-19",
+    "year": 1910,
+    "died": 1985,
+    "field": "Chemistry",
+    "known_for": "Polymer chemistry, Nobel Prize"
+  },
+  {
+    "name": "Marie-Anne Paulze Lavoisier",
+    "born": "06-20",
+    "year": 1758,
+    "died": 1836,
+    "field": "Chemistry",
+    "known_for": "Scientific illustrations, translated chemistry texts"
+  },
+  {
+    "name": "Robert Brown",
+    "born": "06-21",
+    "year": 1773,
+    "died": 1858,
+    "field": "Botany",
+    "known_for": "Brownian motion, cell nucleus discovery"
+  },
+  {
+    "name": "Konrad Zuse",
+    "born": "06-22",
+    "year": 1910,
+    "died": 1995,
+    "field": "Computer Science",
+    "known_for": "Z3, first programmable digital computer"
+  },
+  {
+    "name": "Agnes Arber",
+    "born": "06-23",
+    "year": 1879,
+    "died": 1960,
+    "field": "Botany",
+    "known_for": "Plant morphology, first female FRS botanist"
+  },
+  {
+    "name": "Henry Moseley",
+    "born": "06-23",
+    "year": 1887,
+    "died": 1915,
+    "field": "Physics",
+    "known_for": "Atomic number concept via X-ray spectroscopy"
+  },
+  {
+    "name": "Vint Cerf",
+    "born": "06-23",
+    "year": 1943,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "TCP/IP co-designer, father of the Internet"
+  },
+  {
+    "name": "William Rankine",
+    "born": "06-24",
+    "year": 1820,
+    "died": 1872,
+    "field": "Engineering",
+    "known_for": "Rankine cycle in thermodynamics"
+  },
+  {
+    "name": "Antoni Gaudi",
+    "born": "06-25",
+    "year": 1852,
+    "died": 1926,
+    "field": "Architecture",
+    "known_for": "Sagrada Familia, mathematical structural design"
+  },
+  {
+    "name": "Mary-Claire King",
+    "born": "06-27",
+    "year": 1946,
+    "died": null,
+    "field": "Genetics",
+    "known_for": "BRCA1 breast cancer gene discovery"
+  },
+  {
+    "name": "Alexis Carrel",
+    "born": "06-28",
+    "year": 1873,
+    "died": 1944,
+    "field": "Medicine",
+    "known_for": "Vascular suture techniques, organ transplantation"
+  },
+  {
+    "name": "Maria Goeppert Mayer",
+    "born": "06-28",
+    "year": 1906,
+    "died": 1972,
+    "field": "Physics",
+    "known_for": "Nuclear shell model, Nobel Prize"
+  },
+  {
+    "name": "Werner Forssmann",
+    "born": "06-29",
+    "year": 1904,
+    "died": 1979,
+    "field": "Medicine",
+    "known_for": "Cardiac catheterization, self-experimented"
+  },
+  {
+    "name": "Francoise Barre-Sinoussi",
+    "born": "06-30",
+    "year": 1947,
+    "died": null,
+    "field": "Virology",
+    "known_for": "Co-discovered HIV, Nobel Prize"
+  },
+  {
+    "name": "Sylvia Earle",
+    "born": "06-30",
+    "year": 1935,
+    "died": null,
+    "field": "Oceanography",
+    "known_for": "Deep ocean exploration, marine conservation"
+  },
+  {
+    "name": "Gottfried Wilhelm Leibniz",
+    "born": "07-01",
+    "year": 1646,
+    "died": 1716,
+    "field": "Mathematics",
+    "known_for": "Calculus co-inventor, binary number system"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "born": "07-01",
+    "year": 965,
+    "died": 1040,
+    "field": "Optics",
+    "known_for": "Book of Optics, scientific method pioneer"
+  },
+  {
+    "name": "Ignaz Semmelweis",
+    "born": "07-01",
+    "year": 1818,
+    "died": 1865,
+    "field": "Medicine",
+    "known_for": "Hand hygiene in hospitals, reduced puerperal fever"
+  },
+  {
+    "name": "Nikola Tesla",
+    "born": "07-01",
+    "year": 1856,
+    "died": 1943,
+    "field": "Electrical Engineering",
+    "known_for": "AC electrical system, Tesla coil, radio"
+  },
+  {
+    "name": "Hans Bethe",
+    "born": "07-02",
+    "year": 1906,
+    "died": 2005,
+    "field": "Physics",
+    "known_for": "Stellar nucleosynthesis, energy production in stars"
+  },
+  {
+    "name": "Jesse Douglas",
+    "born": "07-03",
+    "year": 1897,
+    "died": 1965,
+    "field": "Mathematics",
+    "known_for": "Solution to Plateau's problem, Fields Medal"
+  },
+  {
+    "name": "Henrietta Swan Leavitt",
+    "born": "07-04",
+    "year": 1868,
+    "died": 1921,
+    "field": "Astronomy",
+    "known_for": "Period-luminosity relation of Cepheid variables"
+  },
+  {
+    "name": "Ukichiro Nakaya",
+    "born": "07-04",
+    "year": 1900,
+    "died": 1962,
+    "field": "Physics",
+    "known_for": "First artificial snow crystals, snow classification"
+  },
+  {
+    "name": "Andrei Sakharov",
+    "born": "07-05",
+    "year": 1921,
+    "died": 1989,
+    "field": "Physics",
+    "known_for": "Soviet hydrogen bomb, human rights advocate"
+  },
+  {
+    "name": "George de Hevesy",
+    "born": "07-05",
+    "year": 1885,
+    "died": 1966,
+    "field": "Chemistry",
+    "known_for": "Radioactive tracers, hafnium co-discovery"
+  },
+  {
+    "name": "Meghnad Saha",
+    "born": "07-06",
+    "year": 1893,
+    "died": 1956,
+    "field": "Astrophysics",
+    "known_for": "Saha ionization equation for stellar spectra"
+  },
+  {
+    "name": "Barbara Liskov",
+    "born": "07-07",
+    "year": 1939,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Liskov substitution principle, Turing Award"
+  },
+  {
+    "name": "Nettie Stevens",
+    "born": "07-07",
+    "year": 1861,
+    "died": 1912,
+    "field": "Genetics",
+    "known_for": "Discovered XY sex-determination chromosomes"
+  },
+  {
+    "name": "Grace Brewster Murray Hopper",
+    "born": "07-09",
+    "year": 1906,
+    "died": 1992,
+    "field": "Computer Science",
+    "known_for": "COBOL, compiler development"
+  },
+  {
+    "name": "Percy Spencer",
+    "born": "07-09",
+    "year": 1894,
+    "died": 1970,
+    "field": "Engineering",
+    "known_for": "Microwave oven invention"
+  },
+  {
+    "name": "Subrahmanyan Chandrasekhar",
+    "born": "07-10",
+    "year": 1910,
+    "died": 1995,
+    "field": "Astrophysics",
+    "known_for": "Chandrasekhar limit for white dwarf stars"
+  },
+  {
+    "name": "Willis Carrier",
+    "born": "07-11",
+    "year": 1876,
+    "died": 1950,
+    "field": "Engineering",
+    "known_for": "Modern air conditioning system inventor"
+  },
+  {
+    "name": "Buckminster Fuller",
+    "born": "07-12",
+    "year": 1895,
+    "died": 1983,
+    "field": "Architecture",
+    "known_for": "Geodesic dome, synergetics, Dymaxion designs"
+  },
+  {
+    "name": "Vladimir Vernadsky",
+    "born": "07-12",
+    "year": 1863,
+    "died": 1945,
+    "field": "Geochemistry",
+    "known_for": "Biosphere concept, founder of geochemistry"
+  },
+  {
+    "name": "John Dee",
+    "born": "07-13",
+    "year": 1527,
+    "died": 1608,
+    "field": "Mathematics",
+    "known_for": "Navigation, cartography, Elizabethan polymath"
+  },
+  {
+    "name": "Ernest Just",
+    "born": "07-14",
+    "year": 1883,
+    "died": 1941,
+    "field": "Marine Biology",
+    "known_for": "Cell biology of fertilization, egg development"
+  },
+  {
+    "name": "Rosalind Franklin",
+    "born": "07-14",
+    "year": 1920,
+    "died": 1958,
+    "field": "Chemistry",
+    "known_for": "X-ray diffraction of DNA (Photo 51)"
+  },
+  {
+    "name": "Al-Khwarizmi",
+    "born": "07-15",
+    "year": 780,
+    "died": 850,
+    "field": "Mathematics",
+    "known_for": "Algebra, algorithm namesake, Hindu-Arabic numerals"
+  },
+  {
+    "name": "Aristotle",
+    "born": "07-15",
+    "year": -384,
+    "died": -322,
+    "field": "Natural Philosophy",
+    "known_for": "Logic, biology, classification of living things"
+  },
+  {
+    "name": "Jocelyn Bell Burnell",
+    "born": "07-15",
+    "year": 1943,
+    "died": null,
+    "field": "Astrophysics",
+    "known_for": "Discovery of pulsars"
+  },
+  {
+    "name": "Hugo de Vries",
+    "born": "07-16",
+    "year": 1848,
+    "died": 1935,
+    "field": "Genetics",
+    "known_for": "Mutation theory, rediscovery of Mendel's laws"
+  },
+  {
+    "name": "Nils Bohlin",
+    "born": "07-17",
+    "year": 1920,
+    "died": 2002,
+    "field": "Engineering",
+    "known_for": "Three-point seatbelt invention"
+  },
+  {
+    "name": "Ruben Rausing",
+    "born": "07-17",
+    "year": 1895,
+    "died": 1983,
+    "field": "Engineering",
+    "known_for": "Tetra Pak food packaging invention"
+  },
+  {
+    "name": "Terence Tao",
+    "born": "07-17",
+    "year": 1975,
+    "died": null,
+    "field": "Mathematics",
+    "known_for": "Fields Medal, Green-Tao theorem, harmonic analysis"
+  },
+  {
+    "name": "Konrad Lorenz",
+    "born": "07-18",
+    "year": 1903,
+    "died": 1989,
+    "field": "Ethology",
+    "known_for": "Imprinting behavior in animals, Nobel Prize"
+  },
+  {
+    "name": "Robert Hooke",
+    "born": "07-18",
+    "year": 1635,
+    "died": 1703,
+    "field": "Physics",
+    "known_for": "Hooke's law, Micrographia, coined 'cell'"
+  },
+  {
+    "name": "Mileva Maric",
+    "born": "07-19",
+    "year": 1875,
+    "died": 1948,
+    "field": "Physics",
+    "known_for": "Physicist, early collaborator with Einstein"
+  },
+  {
+    "name": "Rosalyn Yalow",
+    "born": "07-19",
+    "year": 1921,
+    "died": 2011,
+    "field": "Medical Physics",
+    "known_for": "Radioimmunoassay development, Nobel Prize"
+  },
+  {
+    "name": "Chandra Wickramasinghe",
+    "born": "07-20",
+    "year": 1939,
+    "died": null,
+    "field": "Astrophysics",
+    "known_for": "Interstellar dust composition, panspermia theory"
+  },
+  {
+    "name": "Gregor Mendel",
+    "born": "07-20",
+    "year": 1822,
+    "died": 1884,
+    "field": "Genetics",
+    "known_for": "Laws of inheritance, father of genetics"
+  },
+  {
+    "name": "Jean Piaget",
+    "born": "07-20",
+    "year": 1896,
+    "died": 1980,
+    "field": "Psychology",
+    "known_for": "Stages of cognitive development in children"
+  },
+  {
+    "name": "Thelma Estrin",
+    "born": "07-21",
+    "year": 1924,
+    "died": 2014,
+    "field": "Computer Science",
+    "known_for": "Biomedical engineering computing pioneer"
+  },
+  {
+    "name": "Bernhard Schmidt",
+    "born": "07-22",
+    "year": 1879,
+    "died": 1935,
+    "field": "Optics",
+    "known_for": "Schmidt telescope corrector plate"
+  },
+  {
+    "name": "Selman Waksman",
+    "born": "07-22",
+    "year": 1888,
+    "died": 1973,
+    "field": "Microbiology",
+    "known_for": "Streptomycin discovery, coined 'antibiotic'"
+  },
+  {
+    "name": "Alfred Kinsey",
+    "born": "07-23",
+    "year": 1894,
+    "died": 1956,
+    "field": "Biology",
+    "known_for": "Human sexuality research, Kinsey Reports"
+  },
+  {
+    "name": "Alice Ball",
+    "born": "07-24",
+    "year": 1892,
+    "died": 1916,
+    "field": "Chemistry",
+    "known_for": "Chaulmoogra oil treatment for leprosy"
+  },
+  {
+    "name": "Simon Newcomb",
+    "born": "07-24",
+    "year": 1835,
+    "died": 1909,
+    "field": "Astronomy",
+    "known_for": "Celestial mechanics, astronomical constants"
+  },
+  {
+    "name": "Pieter Zeeman",
+    "born": "07-25",
+    "year": 1865,
+    "died": 1943,
+    "field": "Physics",
+    "known_for": "Zeeman effect, Nobel Prize in Physics"
+  },
+  {
+    "name": "James Lovelock",
+    "born": "07-26",
+    "year": 1919,
+    "died": 2022,
+    "field": "Environmental Science",
+    "known_for": "Gaia hypothesis, electron capture detector"
+  },
+  {
+    "name": "John Dalton",
+    "born": "07-26",
+    "year": 1766,
+    "died": 1844,
+    "field": "Chemistry",
+    "known_for": "Atomic theory, Dalton's law of partial pressures"
+  },
+  {
+    "name": "Arthur Eddington",
+    "born": "07-28",
+    "year": 1882,
+    "died": 1944,
+    "field": "Astrophysics",
+    "known_for": "Proved general relativity via solar eclipse"
+  },
+  {
+    "name": "Beatrix Potter",
+    "born": "07-28",
+    "year": 1866,
+    "died": 1943,
+    "field": "Mycology",
+    "known_for": "Fungi and lichen research, children's illustration"
+  },
+  {
+    "name": "Lise Meitner",
+    "born": "07-28",
+    "year": 1878,
+    "died": 1968,
+    "field": "Physics",
+    "known_for": "Nuclear fission explanation, meitnerium namesake"
+  },
+  {
+    "name": "Luther George Simjian",
+    "born": "07-28",
+    "year": 1905,
+    "died": 1997,
+    "field": "Invention",
+    "known_for": "ATM prototype, flight simulator innovations"
+  },
+  {
+    "name": "Henry Ford",
+    "born": "07-30",
+    "year": 1863,
+    "died": 1947,
+    "field": "Engineering",
+    "known_for": "Assembly line mass production, Model T"
+  },
+  {
+    "name": "Jean-Baptiste Lamarck",
+    "born": "08-01",
+    "year": 1744,
+    "died": 1829,
+    "field": "Biology",
+    "known_for": "Early evolution theory, invertebrate taxonomy"
+  },
+  {
+    "name": "Maria Mitchell",
+    "born": "08-01",
+    "year": 1818,
+    "died": 1889,
+    "field": "Astronomy",
+    "known_for": "First American female astronomer, comet discovery"
+  },
+  {
+    "name": "Elisha Otis",
+    "born": "08-03",
+    "year": 1811,
+    "died": 1861,
+    "field": "Engineering",
+    "known_for": "Safety elevator brake invention"
+  },
+  {
+    "name": "John Venn",
+    "born": "08-04",
+    "year": 1834,
+    "died": 1923,
+    "field": "Mathematics",
+    "known_for": "Venn diagrams for set theory"
+  },
+  {
+    "name": "Lotfi Zadeh",
+    "born": "08-04",
+    "year": 1921,
+    "died": 2017,
+    "field": "Computer Science",
+    "known_for": "Fuzzy logic and fuzzy set theory"
+  },
+  {
+    "name": "Neil Armstrong",
+    "born": "08-05",
+    "year": 1930,
+    "died": 2012,
+    "field": "Aerospace",
+    "known_for": "First person to walk on the Moon"
+  },
+  {
+    "name": "Niels Henrik Abel",
+    "born": "08-05",
+    "year": 1802,
+    "died": 1829,
+    "field": "Mathematics",
+    "known_for": "Abel prize namesake, group theory, elliptic functions"
+  },
+  {
+    "name": "Alexander Fleming",
+    "born": "08-06",
+    "year": 1881,
+    "died": 1955,
+    "field": "Medicine",
+    "known_for": "Discovery of penicillin antibiotic"
+  },
+  {
+    "name": "Paul Dirac",
+    "born": "08-08",
+    "year": 1902,
+    "died": 1984,
+    "field": "Physics",
+    "known_for": "Dirac equation, predicted antimatter"
+  },
+  {
+    "name": "Roger Penrose",
+    "born": "08-08",
+    "year": 1931,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Penrose tilings, black hole singularity theorems"
+  },
+  {
+    "name": "Amedeo Avogadro",
+    "born": "08-09",
+    "year": 1776,
+    "died": 1856,
+    "field": "Chemistry",
+    "known_for": "Avogadro's number, molecular hypothesis"
+  },
+  {
+    "name": "Isambard Kingdom Brunel",
+    "born": "08-09",
+    "year": 1806,
+    "died": 1859,
+    "field": "Engineering",
+    "known_for": "Great Western Railway, SS Great Eastern"
+  },
+  {
+    "name": "Suzanne Simard",
+    "born": "08-09",
+    "year": 1960,
+    "died": null,
+    "field": "Forest Ecology",
+    "known_for": "Wood wide web mycorrhizal network discovery"
+  },
+  {
+    "name": "Thomas Telford",
+    "born": "08-09",
+    "year": 1757,
+    "died": 1834,
+    "field": "Civil Engineering",
+    "known_for": "Menai Strait bridge, canal engineering"
+  },
+  {
+    "name": "Wilson Greatbatch",
+    "born": "08-10",
+    "year": 1919,
+    "died": 2011,
+    "field": "Biomedical Engineering",
+    "known_for": "Implantable cardiac pacemaker inventor"
+  },
+  {
+    "name": "Christiaan Barnard",
+    "born": "08-11",
+    "year": 1922,
+    "died": 2001,
+    "field": "Medicine",
+    "known_for": "First successful human heart transplant"
+  },
+  {
+    "name": "Toshiko Yuasa",
+    "born": "08-11",
+    "year": 1909,
+    "died": 1980,
+    "field": "Physics",
+    "known_for": "First Japanese woman physicist, beta decay"
+  },
+  {
+    "name": "Ada Yonath",
+    "born": "08-12",
+    "year": 1939,
+    "died": null,
+    "field": "Chemistry",
+    "known_for": "Ribosome structure by crystallography, Nobel Prize"
+  },
+  {
+    "name": "Anders Jonas Angstrom",
+    "born": "08-13",
+    "year": 1814,
+    "died": 1874,
+    "field": "Physics",
+    "known_for": "Spectroscopy, angstrom unit namesake"
+  },
+  {
+    "name": "Annie Jump Cannon",
+    "born": "08-13",
+    "year": 1863,
+    "died": 1941,
+    "field": "Astronomy",
+    "known_for": "Stellar spectral classification system"
+  },
+  {
+    "name": "Hans Christian Orsted",
+    "born": "08-14",
+    "year": 1777,
+    "died": 1851,
+    "field": "Physics",
+    "known_for": "Discovered electromagnetism relationship"
+  },
+  {
+    "name": "Roger Bacon",
+    "born": "08-14",
+    "year": 1214,
+    "died": 1292,
+    "field": "Natural Philosophy",
+    "known_for": "Early scientific method advocate, optics"
+  },
+  {
+    "name": "Gerty Cori",
+    "born": "08-15",
+    "year": 1896,
+    "died": 1957,
+    "field": "Biochemistry",
+    "known_for": "Cori cycle, first woman Nobel in Physiology"
+  },
+  {
+    "name": "Margaret Hamilton",
+    "born": "08-17",
+    "year": 1936,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Apollo flight software, coined 'software engineering'"
+  },
+  {
+    "name": "Pierre de Fermat",
+    "born": "08-17",
+    "year": 1601,
+    "died": 1665,
+    "field": "Mathematics",
+    "known_for": "Fermat's Last Theorem, number theory"
+  },
+  {
+    "name": "Brook Taylor",
+    "born": "08-18",
+    "year": 1685,
+    "died": 1731,
+    "field": "Mathematics",
+    "known_for": "Taylor series expansion"
+  },
+  {
+    "name": "Orville Wright",
+    "born": "08-19",
+    "year": 1871,
+    "died": 1948,
+    "field": "Aviation",
+    "known_for": "Powered airplane flight at Kitty Hawk"
+  },
+  {
+    "name": "Count Alessandro Volta",
+    "born": "08-20",
+    "year": 1745,
+    "died": 1827,
+    "field": "Physics",
+    "known_for": "Electric battery (voltaic pile), volt namesake"
+  },
+  {
+    "name": "Hideki Shirakawa",
+    "born": "08-20",
+    "year": 1936,
+    "died": null,
+    "field": "Chemistry",
+    "known_for": "Conductive polymers, Nobel Prize in Chemistry"
+  },
+  {
+    "name": "Paul Ehrlich",
+    "born": "08-20",
+    "year": 1854,
+    "died": 1915,
+    "field": "Medicine",
+    "known_for": "Chemotherapy concept, Salvarsan for syphilis"
+  },
+  {
+    "name": "Beno Gutenberg",
+    "born": "08-21",
+    "year": 1889,
+    "died": 1960,
+    "field": "Seismology",
+    "known_for": "Gutenberg discontinuity, earthquake magnitude"
+  },
+  {
+    "name": "Antonie van Leeuwenhoek",
+    "born": "08-24",
+    "year": 1632,
+    "died": 1723,
+    "field": "Microbiology",
+    "known_for": "Microscopy pioneer, discovered microorganisms"
+  },
+  {
+    "name": "William Herschel",
+    "born": "08-25",
+    "year": 1738,
+    "died": 1822,
+    "field": "Astronomy",
+    "known_for": "Discovered Uranus, infrared radiation"
+  },
+  {
+    "name": "Antoine Lavoisier",
+    "born": "08-26",
+    "year": 1743,
+    "died": 1794,
+    "field": "Chemistry",
+    "known_for": "Named oxygen, law of conservation of mass"
+  },
+  {
+    "name": "Bernhard Riemann",
+    "born": "08-26",
+    "year": 1826,
+    "died": 1866,
+    "field": "Mathematics",
+    "known_for": "Riemannian geometry, Riemann hypothesis"
+  },
+  {
+    "name": "Katherine Johnson",
+    "born": "08-26",
+    "year": 1918,
+    "died": 2020,
+    "field": "Mathematics",
+    "known_for": "NASA orbital mechanics calculations for Apollo"
+  },
+  {
+    "name": "Giuseppe Peano",
+    "born": "08-27",
+    "year": 1858,
+    "died": 1932,
+    "field": "Mathematics",
+    "known_for": "Peano axioms, space-filling curves"
+  },
+  {
+    "name": "Katharine McCormick",
+    "born": "08-27",
+    "year": 1875,
+    "died": 1967,
+    "field": "Biology",
+    "known_for": "Funded birth control pill development"
+  },
+  {
+    "name": "Johann Wolfgang von Goethe",
+    "born": "08-28",
+    "year": 1749,
+    "died": 1832,
+    "field": "Natural Philosophy",
+    "known_for": "Color theory, morphology, comparative anatomy"
+  },
+  {
+    "name": "Ernest Rutherford",
+    "born": "08-30",
+    "year": 1871,
+    "died": 1937,
+    "field": "Physics",
+    "known_for": "Nuclear model of atom, discovered proton"
+  },
+  {
+    "name": "Marie Tharp",
+    "born": "08-30",
+    "year": 1920,
+    "died": 2006,
+    "field": "Geology",
+    "known_for": "Mapped ocean floor, proved continental drift"
+  },
+  {
+    "name": "Hermann von Helmholtz",
+    "born": "08-31",
+    "year": 1821,
+    "died": 1894,
+    "field": "Physics",
+    "known_for": "Conservation of energy, ophthalmoscope"
+  },
+  {
+    "name": "Engelbert Kaempfer",
+    "born": "09-01",
+    "year": 1651,
+    "died": 1716,
+    "field": "Natural History",
+    "known_for": "First Western description of Japan's natural history"
+  },
+  {
+    "name": "Irene Joliot-Curie",
+    "born": "09-02",
+    "year": 1897,
+    "died": 1956,
+    "field": "Chemistry",
+    "known_for": "Artificial radioactivity, Nobel Prize"
+  },
+  {
+    "name": "Wilhelm Ostwald",
+    "born": "09-02",
+    "year": 1853,
+    "died": 1932,
+    "field": "Chemistry",
+    "known_for": "Ostwald process for nitric acid, Nobel Prize"
+  },
+  {
+    "name": "Carl David Anderson",
+    "born": "09-03",
+    "year": 1905,
+    "died": 1991,
+    "field": "Physics",
+    "known_for": "Positron discovery, muon discovery"
+  },
+  {
+    "name": "Biruni",
+    "born": "09-04",
+    "year": 973,
+    "died": 1048,
+    "field": "Polymath",
+    "known_for": "Geodesy, calculated Earth's radius, pharmacology"
+  },
+  {
+    "name": "John McCarthy",
+    "born": "09-04",
+    "year": 1927,
+    "died": 2011,
+    "field": "Computer Science",
+    "known_for": "Coined 'artificial intelligence', created Lisp"
+  },
+  {
+    "name": "Max Delbruck",
+    "born": "09-04",
+    "year": 1906,
+    "died": 1981,
+    "field": "Biophysics",
+    "known_for": "Bacteriophage genetics, molecular biology founder"
+  },
+  {
+    "name": "Michael Faraday",
+    "born": "09-04",
+    "year": 1791,
+    "died": 1867,
+    "field": "Physics",
+    "known_for": "Electromagnetic induction, Faraday cage"
+  },
+  {
+    "name": "Shinya Yamanaka",
+    "born": "09-04",
+    "year": 1962,
+    "died": null,
+    "field": "Medicine",
+    "known_for": "Induced pluripotent stem cells, Nobel Prize"
+  },
+  {
+    "name": "Jane Addams",
+    "born": "09-06",
+    "year": 1860,
+    "died": 1935,
+    "field": "Social Science",
+    "known_for": "Settlement house movement, Nobel Peace Prize"
+  },
+  {
+    "name": "Georges-Louis Leclerc (Comte de Buffon)",
+    "born": "09-07",
+    "year": 1707,
+    "died": 1788,
+    "field": "Natural History",
+    "known_for": "Histoire Naturelle, Buffon's needle problem"
+  },
+  {
+    "name": "Stephanie Kwolek",
+    "born": "09-07",
+    "year": 1923,
+    "died": 2014,
+    "field": "Chemistry",
+    "known_for": "Invented Kevlar fiber"
+  },
+  {
+    "name": "James Jeans",
+    "born": "09-11",
+    "year": 1877,
+    "died": 1946,
+    "field": "Physics",
+    "known_for": "Rayleigh-Jeans law, radiation theory"
+  },
+  {
+    "name": "Walter Reed",
+    "born": "09-13",
+    "year": 1851,
+    "died": 1902,
+    "field": "Medicine",
+    "known_for": "Proved mosquitoes transmit yellow fever"
+  },
+  {
+    "name": "Alexander von Humboldt",
+    "born": "09-14",
+    "year": 1769,
+    "died": 1859,
+    "field": "Natural History",
+    "known_for": "Biogeography, Humboldt Current, Cosmos"
+  },
+  {
+    "name": "Birbal Sahni",
+    "born": "09-14",
+    "year": 1891,
+    "died": 1949,
+    "field": "Paleobotany",
+    "known_for": "Indian fossil plant research, Sahni Institute"
+  },
+  {
+    "name": "Ivan Pavlov",
+    "born": "09-14",
+    "year": 1849,
+    "died": 1936,
+    "field": "Physiology",
+    "known_for": "Classical conditioning, Pavlov's dogs"
+  },
+  {
+    "name": "Margaret Sanger",
+    "born": "09-14",
+    "year": 1879,
+    "died": 1966,
+    "field": "Medicine",
+    "known_for": "Birth control movement, family planning"
+  },
+  {
+    "name": "Murray Gell-Mann",
+    "born": "09-15",
+    "year": 1929,
+    "died": 2019,
+    "field": "Physics",
+    "known_for": "Quark model, eightfold way classification"
+  },
+  {
+    "name": "Eunice Newton Foote",
+    "born": "09-17",
+    "year": 1819,
+    "died": 1888,
+    "field": "Physics",
+    "known_for": "First to link CO2 to warming, climate science"
+  },
+  {
+    "name": "Leon Foucault",
+    "born": "09-18",
+    "year": 1819,
+    "died": 1868,
+    "field": "Physics",
+    "known_for": "Foucault pendulum, speed of light measurement"
+  },
+  {
+    "name": "Vera Rubin",
+    "born": "09-18",
+    "year": 1928,
+    "died": 2016,
+    "field": "Astronomy",
+    "known_for": "Dark matter evidence from galaxy rotation curves"
+  },
+  {
+    "name": "Tu Bisheng",
+    "born": "09-19",
+    "year": 990,
+    "died": 1051,
+    "field": "Invention",
+    "known_for": "Movable type printing inventor in Song China"
+  },
+  {
+    "name": "Dorothy Vaughan",
+    "born": "09-20",
+    "year": 1910,
+    "died": 2008,
+    "field": "Mathematics",
+    "known_for": "NASA mathematician, FORTRAN programming pioneer"
+  },
+  {
+    "name": "Galen",
+    "born": "09-22",
+    "year": 129,
+    "died": 216,
+    "field": "Medicine",
+    "known_for": "Anatomy, circulatory system, medical texts for 1500 years"
+  },
+  {
+    "name": "Ibn Sina",
+    "born": "09-22",
+    "year": 980,
+    "died": 1037,
+    "field": "Medicine",
+    "known_for": "Canon of Medicine, medieval physician polymath"
+  },
+  {
+    "name": "Hippolyte Fizeau",
+    "born": "09-23",
+    "year": 1819,
+    "died": 1896,
+    "field": "Physics",
+    "known_for": "First terrestrial measurement of speed of light"
+  },
+  {
+    "name": "Frances Kelsey",
+    "born": "09-24",
+    "year": 1914,
+    "died": 2015,
+    "field": "Pharmacology",
+    "known_for": "Blocked thalidomide in US, saved thousands"
+  },
+  {
+    "name": "Girolamo Cardano",
+    "born": "09-24",
+    "year": 1501,
+    "died": 1576,
+    "field": "Mathematics",
+    "known_for": "Complex numbers, probability, Ars Magna"
+  },
+  {
+    "name": "Edsger Dijkstra",
+    "born": "09-25",
+    "year": 1930,
+    "died": 2002,
+    "field": "Computer Science",
+    "known_for": "Dijkstra's algorithm, structured programming"
+  },
+  {
+    "name": "Martin Heidegger",
+    "born": "09-26",
+    "year": 1889,
+    "died": 1976,
+    "field": "Philosophy",
+    "known_for": "Being and Time, phenomenological ontology"
+  },
+  {
+    "name": "Alice Hamilton",
+    "born": "09-27",
+    "year": 1869,
+    "died": 1970,
+    "field": "Medicine",
+    "known_for": "Industrial toxicology pioneer, occupational health"
+  },
+  {
+    "name": "Louis Pasteur",
+    "born": "09-27",
+    "year": 1822,
+    "died": 1895,
+    "field": "Microbiology",
+    "known_for": "Pasteurization, germ theory, rabies vaccine"
+  },
+  {
+    "name": "Enrico Fermi",
+    "born": "09-29",
+    "year": 1901,
+    "died": 1954,
+    "field": "Physics",
+    "known_for": "First nuclear reactor, Fermi paradox"
+  },
+  {
+    "name": "Hans Geiger",
+    "born": "09-30",
+    "year": 1882,
+    "died": 1945,
+    "field": "Physics",
+    "known_for": "Geiger counter for radiation detection"
+  },
+  {
+    "name": "Chen-Ning Yang",
+    "born": "10-01",
+    "year": 1922,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Parity non-conservation, Yang-Mills theory"
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "born": "10-02",
+    "year": 1869,
+    "died": 1948,
+    "field": "Political Philosophy",
+    "known_for": "Nonviolent resistance, Indian independence"
+  },
+  {
+    "name": "Sau Lan Wu",
+    "born": "10-04",
+    "year": 1940,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Gluon discovery, Higgs boson detection"
+  },
+  {
+    "name": "Robert Goddard",
+    "born": "10-05",
+    "year": 1882,
+    "died": 1945,
+    "field": "Aerospace",
+    "known_for": "First liquid-fueled rocket launch"
+  },
+  {
+    "name": "Niels Bohr",
+    "born": "10-07",
+    "year": 1885,
+    "died": 1962,
+    "field": "Physics",
+    "known_for": "Bohr atomic model, quantum mechanics"
+  },
+  {
+    "name": "Sergey Brin",
+    "born": "10-07",
+    "year": 1973,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Co-founded Google, PageRank algorithm"
+  },
+  {
+    "name": "Gopalasamudram Narayana Iyer Ramachandran",
+    "born": "10-08",
+    "year": 1922,
+    "died": 2001,
+    "field": "Biophysics",
+    "known_for": "Ramachandran plot for protein structure"
+  },
+  {
+    "name": "Juan de la Cierva",
+    "born": "10-08",
+    "year": 1895,
+    "died": 1936,
+    "field": "Aviation",
+    "known_for": "Autogyro (precursor to helicopter)"
+  },
+  {
+    "name": "Hermann Emil Fischer",
+    "born": "10-09",
+    "year": 1852,
+    "died": 1919,
+    "field": "Chemistry",
+    "known_for": "Sugar and purine synthesis, Nobel Prize"
+  },
+  {
+    "name": "Max von Laue",
+    "born": "10-09",
+    "year": 1879,
+    "died": 1960,
+    "field": "Physics",
+    "known_for": "X-ray diffraction by crystals, Nobel Prize"
+  },
+  {
+    "name": "Fridtjof Nansen",
+    "born": "10-10",
+    "year": 1861,
+    "died": 1930,
+    "field": "Exploration",
+    "known_for": "Arctic explorer, oceanographer, Nobel Peace Prize"
+  },
+  {
+    "name": "Henry Cavendish",
+    "born": "10-10",
+    "year": 1731,
+    "died": 1810,
+    "field": "Chemistry",
+    "known_for": "Hydrogen discovery, gravitational constant"
+  },
+  {
+    "name": "Mary Kenneth Keller",
+    "born": "10-12",
+    "year": 1913,
+    "died": 1985,
+    "field": "Computer Science",
+    "known_for": "First American woman with CS doctorate, BASIC"
+  },
+  {
+    "name": "Rudolf Virchow",
+    "born": "10-13",
+    "year": 1821,
+    "died": 1902,
+    "field": "Medicine",
+    "known_for": "Cell pathology, father of modern pathology"
+  },
+  {
+    "name": "Evangelista Torricelli",
+    "born": "10-15",
+    "year": 1608,
+    "died": 1647,
+    "field": "Physics",
+    "known_for": "Barometer invention, Torricelli's law"
+  },
+  {
+    "name": "Harald Sverdrup",
+    "born": "10-15",
+    "year": 1888,
+    "died": 1957,
+    "field": "Oceanography",
+    "known_for": "Ocean circulation theory, The Oceans textbook"
+  },
+  {
+    "name": "Albrecht von Haller",
+    "born": "10-16",
+    "year": 1708,
+    "died": 1777,
+    "field": "Physiology",
+    "known_for": "Father of modern physiology, plant anatomy"
+  },
+  {
+    "name": "Katalin Kariko",
+    "born": "10-17",
+    "year": 1955,
+    "died": null,
+    "field": "Biochemistry",
+    "known_for": "mRNA technology enabling COVID vaccines"
+  },
+  {
+    "name": "Mae Jemison",
+    "born": "10-17",
+    "year": 1956,
+    "died": null,
+    "field": "Medicine",
+    "known_for": "First African American woman in space"
+  },
+  {
+    "name": "Shen Kuo",
+    "born": "10-17",
+    "year": 1031,
+    "died": 1095,
+    "field": "Polymath",
+    "known_for": "Dream Pool Essays, magnetic compass declination"
+  },
+  {
+    "name": "Christian Friedrich Schonbein",
+    "born": "10-18",
+    "year": 1799,
+    "died": 1868,
+    "field": "Chemistry",
+    "known_for": "Discovered ozone and guncotton"
+  },
+  {
+    "name": "Auguste Lumiere",
+    "born": "10-19",
+    "year": 1862,
+    "died": 1954,
+    "field": "Invention",
+    "known_for": "Cinematograph, color photography pioneer"
+  },
+  {
+    "name": "Walter Munk",
+    "born": "10-19",
+    "year": 1917,
+    "died": 2019,
+    "field": "Oceanography",
+    "known_for": "Ocean wave research, deep-sea tides"
+  },
+  {
+    "name": "Christiane Nusslein-Volhard",
+    "born": "10-20",
+    "year": 1942,
+    "died": null,
+    "field": "Genetics",
+    "known_for": "Embryonic development genes, Nobel Prize"
+  },
+  {
+    "name": "Alfred Nobel",
+    "born": "10-21",
+    "year": 1833,
+    "died": 1896,
+    "field": "Chemistry",
+    "known_for": "Dynamite invention, Nobel Prize endowment"
+  },
+  {
+    "name": "Charles Babbage",
+    "born": "10-22",
+    "year": 1791,
+    "died": 1871,
+    "field": "Computer Science",
+    "known_for": "Difference Engine, father of the computer"
+  },
+  {
+    "name": "Asima Chatterjee",
+    "born": "10-23",
+    "year": 1917,
+    "died": 2006,
+    "field": "Chemistry",
+    "known_for": "Anti-epileptic and anti-malarial drug research"
+  },
+  {
+    "name": "Robert Recorde",
+    "born": "10-23",
+    "year": 1510,
+    "died": 1558,
+    "field": "Mathematics",
+    "known_for": "Invented equals sign (=), algebra textbooks"
+  },
+  {
+    "name": "Henry Bessemer",
+    "born": "10-25",
+    "year": 1813,
+    "died": 1898,
+    "field": "Engineering",
+    "known_for": "Bessemer process for mass steel production"
+  },
+  {
+    "name": "James Cook",
+    "born": "10-27",
+    "year": 1728,
+    "died": 1779,
+    "field": "Exploration",
+    "known_for": "Pacific navigation, cartography, scurvy prevention"
+  },
+  {
+    "name": "Bill Gates",
+    "born": "10-28",
+    "year": 1955,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Microsoft co-founder, personal computing"
+  },
+  {
+    "name": "Jonas Salk",
+    "born": "10-28",
+    "year": 1914,
+    "died": 1995,
+    "field": "Medicine",
+    "known_for": "Polio vaccine development"
+  },
+  {
+    "name": "Homi Bhabha",
+    "born": "10-30",
+    "year": 1909,
+    "died": 1966,
+    "field": "Nuclear Physics",
+    "known_for": "Father of Indian nuclear program"
+  },
+  {
+    "name": "Karl Weierstrass",
+    "born": "10-31",
+    "year": 1815,
+    "died": 1897,
+    "field": "Mathematics",
+    "known_for": "Rigorous foundations of analysis, epsilontics"
+  },
+  {
+    "name": "Narinder Singh Kapany",
+    "born": "10-31",
+    "year": 1926,
+    "died": 2020,
+    "field": "Physics",
+    "known_for": "Father of fiber optics"
+  },
+  {
+    "name": "Alfred Wegener",
+    "born": "11-01",
+    "year": 1880,
+    "died": 1930,
+    "field": "Geology",
+    "known_for": "Continental drift hypothesis"
+  },
+  {
+    "name": "George Boole",
+    "born": "11-02",
+    "year": 1815,
+    "died": 1864,
+    "field": "Mathematics",
+    "known_for": "Boolean algebra, symbolic logic"
+  },
+  {
+    "name": "Huang Daopo",
+    "born": "11-03",
+    "year": 1245,
+    "died": 1330,
+    "field": "Engineering",
+    "known_for": "Revolutionized Chinese textile manufacturing"
+  },
+  {
+    "name": "Janaki Ammal",
+    "born": "11-04",
+    "year": 1897,
+    "died": 1984,
+    "field": "Botany",
+    "known_for": "Sugarcane cytogenetics, ethnobotany in India"
+  },
+  {
+    "name": "Raymond Dart",
+    "born": "11-04",
+    "year": 1893,
+    "died": 1988,
+    "field": "Paleoanthropology",
+    "known_for": "Australopithecus africanus discovery"
+  },
+  {
+    "name": "Adolphe Sax",
+    "born": "11-06",
+    "year": 1814,
+    "died": 1894,
+    "field": "Invention",
+    "known_for": "Invented the saxophone"
+  },
+  {
+    "name": "C. V. Raman",
+    "born": "11-07",
+    "year": 1888,
+    "died": 1970,
+    "field": "Physics",
+    "known_for": "Raman scattering of light, Nobel Prize"
+  },
+  {
+    "name": "Marie Curie",
+    "born": "11-07",
+    "year": 1867,
+    "died": 1934,
+    "field": "Physics",
+    "known_for": "Radioactivity, discovered polonium and radium"
+  },
+  {
+    "name": "Edmund Halley",
+    "born": "11-08",
+    "year": 1656,
+    "died": 1742,
+    "field": "Astronomy",
+    "known_for": "Halley's Comet prediction, stellar catalog"
+  },
+  {
+    "name": "Carl Sagan",
+    "born": "11-09",
+    "year": 1934,
+    "died": 1996,
+    "field": "Astronomy",
+    "known_for": "Cosmos, pale blue dot, planetary science"
+  },
+  {
+    "name": "Hideyo Noguchi",
+    "born": "11-09",
+    "year": 1876,
+    "died": 1928,
+    "field": "Bacteriology",
+    "known_for": "Syphilis pathogen in brain, yellow fever research"
+  },
+  {
+    "name": "Elizabeth Blackwell",
+    "born": "11-11",
+    "year": 1821,
+    "died": 1910,
+    "field": "Medicine",
+    "known_for": "First woman to earn US medical degree"
+  },
+  {
+    "name": "Mikhail Lomonosov",
+    "born": "11-11",
+    "year": 1711,
+    "died": 1765,
+    "field": "Chemistry",
+    "known_for": "Russian polymath, atmosphere of Venus discovery"
+  },
+  {
+    "name": "Auguste Comte",
+    "born": "11-12",
+    "year": 1798,
+    "died": 1857,
+    "field": "Philosophy",
+    "known_for": "Positivism, father of sociology"
+  },
+  {
+    "name": "Salim Ali",
+    "born": "11-12",
+    "year": 1896,
+    "died": 1987,
+    "field": "Ornithology",
+    "known_for": "Birdman of India, systematic ornithological surveys"
+  },
+  {
+    "name": "Charles Lyell",
+    "born": "11-14",
+    "year": 1797,
+    "died": 1875,
+    "field": "Geology",
+    "known_for": "Principles of Geology, uniformitarianism"
+  },
+  {
+    "name": "Niklaus Wirth",
+    "born": "11-15",
+    "year": 1934,
+    "died": 2024,
+    "field": "Computer Science",
+    "known_for": "Pascal language, Wirth's law, Turing Award"
+  },
+  {
+    "name": "Eugenio Beltrami",
+    "born": "11-16",
+    "year": 1835,
+    "died": 1900,
+    "field": "Mathematics",
+    "known_for": "Non-Euclidean geometry models"
+  },
+  {
+    "name": "Werner Heisenberg",
+    "born": "11-16",
+    "year": 1901,
+    "died": 1976,
+    "field": "Physics",
+    "known_for": "Uncertainty principle, matrix mechanics"
+  },
+  {
+    "name": "August Mobius",
+    "born": "11-17",
+    "year": 1790,
+    "died": 1868,
+    "field": "Mathematics",
+    "known_for": "Mobius strip, projective geometry"
+  },
+  {
+    "name": "Louis Daguerre",
+    "born": "11-18",
+    "year": 1787,
+    "died": 1851,
+    "field": "Invention",
+    "known_for": "Daguerreotype photography process"
+  },
+  {
+    "name": "James Braid",
+    "born": "11-19",
+    "year": 1795,
+    "died": 1860,
+    "field": "Medicine",
+    "known_for": "Father of hypnotism, coined 'hypnosis'"
+  },
+  {
+    "name": "Benoit Mandelbrot",
+    "born": "11-20",
+    "year": 1924,
+    "died": 2010,
+    "field": "Mathematics",
+    "known_for": "Fractal geometry, Mandelbrot set"
+  },
+  {
+    "name": "Edwin Hubble",
+    "born": "11-20",
+    "year": 1889,
+    "died": 1953,
+    "field": "Astronomy",
+    "known_for": "Expanding universe, Hubble's law"
+  },
+  {
+    "name": "Voltaire",
+    "born": "11-21",
+    "year": 1694,
+    "died": 1778,
+    "field": "Philosophy",
+    "known_for": "Scientific popularization, Newtonian advocacy"
+  },
+  {
+    "name": "Nikolai Vavilov",
+    "born": "11-25",
+    "year": 1887,
+    "died": 1943,
+    "field": "Botany",
+    "known_for": "Centers of origin of cultivated plants"
+  },
+  {
+    "name": "Thomas Hunt Morgan",
+    "born": "11-25",
+    "year": 1866,
+    "died": 1945,
+    "field": "Genetics",
+    "known_for": "Chromosome theory of heredity, fruit fly genetics"
+  },
+  {
+    "name": "Norbert Wiener",
+    "born": "11-26",
+    "year": 1894,
+    "died": 1964,
+    "field": "Mathematics",
+    "known_for": "Cybernetics, Wiener process in stochastics"
+  },
+  {
+    "name": "Anders Celsius",
+    "born": "11-27",
+    "year": 1701,
+    "died": 1744,
+    "field": "Astronomy",
+    "known_for": "Celsius temperature scale"
+  },
+  {
+    "name": "Claude Levi-Strauss",
+    "born": "11-28",
+    "year": 1908,
+    "died": 2009,
+    "field": "Anthropology",
+    "known_for": "Structural anthropology, kinship theory"
+  },
+  {
+    "name": "Christian Doppler",
+    "born": "11-29",
+    "year": 1803,
+    "died": 1853,
+    "field": "Physics",
+    "known_for": "Doppler effect in waves and light"
+  },
+  {
+    "name": "John Ambrose Fleming",
+    "born": "11-29",
+    "year": 1849,
+    "died": 1945,
+    "field": "Electrical Engineering",
+    "known_for": "Vacuum tube diode, thermionic valve"
+  },
+  {
+    "name": "Clive Sinclair",
+    "born": "11-30",
+    "year": 1940,
+    "died": 2021,
+    "field": "Engineering",
+    "known_for": "ZX Spectrum, personal computing pioneer"
+  },
+  {
+    "name": "Jagadish Chandra Bose",
+    "born": "11-30",
+    "year": 1858,
+    "died": 1937,
+    "field": "Physics",
+    "known_for": "Radio waves, plant biophysics, crescograph"
+  },
+  {
+    "name": "Nils Gustaf Dalen",
+    "born": "11-30",
+    "year": 1869,
+    "died": 1937,
+    "field": "Engineering",
+    "known_for": "Automatic lighthouse regulators, Nobel Prize"
+  },
+  {
+    "name": "Annie Easley",
+    "born": "12-01",
+    "year": 1933,
+    "died": 2011,
+    "field": "Computer Science",
+    "known_for": "NASA rocket propulsion code, energy conversion"
+  },
+  {
+    "name": "Jan Ernst Matzeliger",
+    "born": "12-01",
+    "year": 1852,
+    "died": 1889,
+    "field": "Engineering",
+    "known_for": "Shoe lasting machine, automated shoemaking"
+  },
+  {
+    "name": "Lee de Forest",
+    "born": "12-02",
+    "year": 1873,
+    "died": 1961,
+    "field": "Electrical Engineering",
+    "known_for": "Audion vacuum tube, father of radio"
+  },
+  {
+    "name": "Alain Aspect",
+    "born": "12-03",
+    "year": 1947,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Bell test experiments, quantum entanglement"
+  },
+  {
+    "name": "Carlos Finlay",
+    "born": "12-03",
+    "year": 1833,
+    "died": 1915,
+    "field": "Medicine",
+    "known_for": "Mosquito vector theory for yellow fever"
+  },
+  {
+    "name": "Johanna Westerdijk",
+    "born": "12-04",
+    "year": 1883,
+    "died": 1961,
+    "field": "Botany",
+    "known_for": "First female professor in Netherlands, mycology"
+  },
+  {
+    "name": "Konrad Adenauer",
+    "born": "12-05",
+    "year": 1876,
+    "died": 1967,
+    "field": "Political Science",
+    "known_for": "Post-war German reconstruction"
+  },
+  {
+    "name": "Wang Zhenyi",
+    "born": "12-05",
+    "year": 1768,
+    "died": 1797,
+    "field": "Astronomy",
+    "known_for": "Lunar eclipse research, Qing dynasty polymath"
+  },
+  {
+    "name": "Joseph Louis Gay-Lussac",
+    "born": "12-06",
+    "year": 1778,
+    "died": 1850,
+    "field": "Chemistry",
+    "known_for": "Gas laws, boron and iodine isolation"
+  },
+  {
+    "name": "Shin'ichiro Tomonaga",
+    "born": "12-06",
+    "year": 1906,
+    "died": 1979,
+    "field": "Physics",
+    "known_for": "Quantum electrodynamics, Nobel Prize"
+  },
+  {
+    "name": "Abdulrahman al-Sufi",
+    "born": "12-07",
+    "year": 903,
+    "died": 986,
+    "field": "Astronomy",
+    "known_for": "Book of Fixed Stars, Andromeda galaxy observation"
+  },
+  {
+    "name": "Noam Chomsky",
+    "born": "12-07",
+    "year": 1928,
+    "died": null,
+    "field": "Linguistics",
+    "known_for": "Generative grammar, Chomsky hierarchy"
+  },
+  {
+    "name": "Eli Whitney",
+    "born": "12-08",
+    "year": 1765,
+    "died": 1825,
+    "field": "Engineering",
+    "known_for": "Cotton gin, interchangeable parts system"
+  },
+  {
+    "name": "Grace Hopper",
+    "born": "12-09",
+    "year": 1906,
+    "died": 1992,
+    "field": "Computer Science",
+    "known_for": "COBOL language, compiler invention, 'bug' term"
+  },
+  {
+    "name": "Max Born",
+    "born": "12-11",
+    "year": 1882,
+    "died": 1970,
+    "field": "Physics",
+    "known_for": "Born rule in quantum mechanics, Nobel Prize"
+  },
+  {
+    "name": "Robert Koch",
+    "born": "12-11",
+    "year": 1843,
+    "died": 1910,
+    "field": "Medicine",
+    "known_for": "Koch's postulates, tuberculosis bacillus"
+  },
+  {
+    "name": "Jan Baptist van Helmont",
+    "born": "12-12",
+    "year": 1580,
+    "died": 1644,
+    "field": "Chemistry",
+    "known_for": "Coined 'gas', willow tree experiment"
+  },
+  {
+    "name": "Werner von Siemens",
+    "born": "12-13",
+    "year": 1816,
+    "died": 1892,
+    "field": "Engineering",
+    "known_for": "Electric elevator, telegraph, Siemens company"
+  },
+  {
+    "name": "Tycho Brahe",
+    "born": "12-14",
+    "year": 1546,
+    "died": 1601,
+    "field": "Astronomy",
+    "known_for": "Precise astronomical observations before telescopes"
+  },
+  {
+    "name": "Freeman Dyson",
+    "born": "12-15",
+    "year": 1923,
+    "died": 2020,
+    "field": "Physics",
+    "known_for": "Dyson sphere concept, QED unification"
+  },
+  {
+    "name": "Margaret Mead",
+    "born": "12-16",
+    "year": 1901,
+    "died": 1978,
+    "field": "Anthropology",
+    "known_for": "Cultural anthropology, Coming of Age in Samoa"
+  },
+  {
+    "name": "Humphry Davy",
+    "born": "12-17",
+    "year": 1778,
+    "died": 1829,
+    "field": "Chemistry",
+    "known_for": "Isolated sodium and potassium, Davy lamp"
+  },
+  {
+    "name": "Mary Cartwright",
+    "born": "12-17",
+    "year": 1900,
+    "died": 1998,
+    "field": "Mathematics",
+    "known_for": "Chaos theory foundations, Cartwright's theorem"
+  },
+  {
+    "name": "Willard Libby",
+    "born": "12-17",
+    "year": 1908,
+    "died": 1980,
+    "field": "Chemistry",
+    "known_for": "Radiocarbon dating method, Nobel Prize"
+  },
+  {
+    "name": "Esther Lederberg",
+    "born": "12-18",
+    "year": 1922,
+    "died": 2006,
+    "field": "Microbiology",
+    "known_for": "Lambda phage, replica plating technique"
+  },
+  {
+    "name": "Joseph John Thomson",
+    "born": "12-18",
+    "year": 1856,
+    "died": 1940,
+    "field": "Physics",
+    "known_for": "Electron discovery, plum pudding model"
+  },
+  {
+    "name": "Albert Abraham Michelson",
+    "born": "12-19",
+    "year": 1852,
+    "died": 1931,
+    "field": "Physics",
+    "known_for": "Speed of light measurement, Michelson-Morley experiment"
+  },
+  {
+    "name": "Rachel Zimmerman",
+    "born": "12-20",
+    "year": 1972,
+    "died": null,
+    "field": "Computer Science",
+    "known_for": "Blissymbol communication printer for disabled"
+  },
+  {
+    "name": "Katsuko Saruhashi",
+    "born": "12-22",
+    "year": 1920,
+    "died": 2007,
+    "field": "Geochemistry",
+    "known_for": "Radioactive fallout in ocean, CO2 measurement"
+  },
+  {
+    "name": "Srinivasa Ramanujan",
+    "born": "12-22",
+    "year": 1887,
+    "died": 1920,
+    "field": "Mathematics",
+    "known_for": "Self-taught genius, infinite series, partitions"
+  },
+  {
+    "name": "Jean-Francois Champollion",
+    "born": "12-23",
+    "year": 1790,
+    "died": 1832,
+    "field": "Linguistics",
+    "known_for": "Deciphered Egyptian hieroglyphs, Rosetta Stone"
+  },
+  {
+    "name": "Niels Kaj Jerne",
+    "born": "12-23",
+    "year": 1911,
+    "died": 1994,
+    "field": "Immunology",
+    "known_for": "Immune system theories, Nobel Prize"
+  },
+  {
+    "name": "Charles Hermite",
+    "born": "12-24",
+    "year": 1822,
+    "died": 1901,
+    "field": "Mathematics",
+    "known_for": "Hermite polynomials, proved e is transcendental"
+  },
+  {
+    "name": "James Prescott Joule",
+    "born": "12-24",
+    "year": 1818,
+    "died": 1889,
+    "field": "Physics",
+    "known_for": "Joule's law, mechanical equivalent of heat"
+  },
+  {
+    "name": "Clara Barton",
+    "born": "12-25",
+    "year": 1821,
+    "died": 1912,
+    "field": "Nursing",
+    "known_for": "Founded American Red Cross"
+  },
+  {
+    "name": "Mary Somerville",
+    "born": "12-26",
+    "year": 1780,
+    "died": 1872,
+    "field": "Mathematics",
+    "known_for": "Science writer, Somerville College namesake"
+  },
+  {
+    "name": "Johannes Kepler",
+    "born": "12-27",
+    "year": 1571,
+    "died": 1630,
+    "field": "Astronomy",
+    "known_for": "Laws of planetary motion, Kepler telescope"
+  },
+  {
+    "name": "Charles Goodyear",
+    "born": "12-29",
+    "year": 1800,
+    "died": 1860,
+    "field": "Invention",
+    "known_for": "Vulcanized rubber process"
+  },
+  {
+    "name": "Charles Messier",
+    "born": "12-30",
+    "year": 1730,
+    "died": 1817,
+    "field": "Astronomy",
+    "known_for": "Messier catalog of nebulae and star clusters"
+  },
+  {
+    "name": "Tu Youyou",
+    "born": "12-30",
+    "year": 1930,
+    "died": null,
+    "field": "Pharmacology",
+    "known_for": "Artemisinin antimalarial drug, Nobel Prize"
+  }
+]
