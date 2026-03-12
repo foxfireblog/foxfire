@@ -8,6 +8,18 @@ import { ExplorationTimeline } from "@/components/exploration-timeline";
 
 const explorations: Exploration[] = [
   {
+    slug: "the-second-law",
+    title: "The Second Law",
+    subtitle: "Everything falls apart. This is not pessimism. It is physics.",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-second-law.png",
+    publishedAt: "03/12/2026 10:29 AM",
+    description:
+      "An essay about entropy, impermanence, and why the universe's slow unraveling might be the most beautiful thing about it.",
+  },
+  {
     slug: "the-winchester-mystery-house",
     title: "The Winchester Mystery House",
     subtitle: "A woman built a labyrinth of guilt, and it never stopped growing",
