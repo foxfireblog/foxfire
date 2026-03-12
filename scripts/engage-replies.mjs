@@ -216,6 +216,17 @@ function sleep(ms) {
 }
 
 const userId = process.env.X_ACCESS_TOKEN.split("-")[0];
+
+async function likeTweet(tweetId) {
+  try {
+    await apiPost(`https://api.x.com/2/users/${userId}/likes`, { tweet_id: tweetId });
+    console.log(`  → Liked`);
+  } catch (e) {
+    // Non-fatal — liking can fail (already liked, rate limited) without affecting the main flow
+    console.log(`  → Like failed (non-fatal): ${e.message.substring(0, 100)}`);
+  }
+}
+
 const mode = process.argv[2] || "all";
 const baseCount = parseInt(process.argv[3] || "2", 10);
 
@@ -353,6 +364,9 @@ Return ONLY the commentary text, nothing else.`);
       console.log(`  → Posted: "${commentary}"`);
       console.log(`  → https://x.com/foxfire_blog/status/${result.data.id}`);
 
+      // Like the original tweet
+      await likeTweet(tweet.id);
+
       // Space out commentary tweets (2-5 min between each)
       const delay = 120000 + Math.floor(Math.random() * 180000);
       console.log(`  → Waiting ${Math.round(delay / 60000)}m before next...`);
@@ -451,6 +465,9 @@ Return ONLY the reply text, nothing else.`);
       posted++;
       console.log(`  → Replied: "${reply}"`);
       console.log(`  → https://x.com/foxfire_blog/status/${result.data.id}`);
+
+      // Like the mention
+      await likeTweet(mention.id);
 
       // Space out mention replies (1-3 min between each)
       const delay = 60000 + Math.floor(Math.random() * 120000);
