@@ -218,18 +218,6 @@ export const explorations: Exploration[] = [
       "Before GPS, sailors navigated by intuition, mathematics, and the courage to trust their own estimates of where they'd been — a practice called dead reckoning that asks what it means to know where you are.",
   },
   {
-    slug: "the-year-without-a-summer",
-    title: "The Year Without a Summer",
-    subtitle: "How a volcano swallowed the sun and darkness learned to dream",
-    category: "Essay",
-    color: "amber",
-    readTime: "14 min",
-    image: "/images/explorations/the-year-without-a-summer.png",
-    publishedAt: "03/05/2026 06:42 AM",
-    description:
-      "In 1816, a volcanic eruption erased summer from the world — and in the strange, cold dark that followed, Mary Shelley wrote Frankenstein.",
-  },
-  {
     slug: "the-52-hertz-whale",
     title: "The 52-Hertz Whale",
     subtitle: "A frequency study in loneliness, listening, and the songs we send into the void",
@@ -240,6 +228,18 @@ export const explorations: Exploration[] = [
     publishedAt: "03/05/2026 04:43 PM",
     description:
       "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — and we've been listening for decades.",
+  },
+  {
+    slug: "the-year-without-a-summer",
+    title: "The Year Without a Summer",
+    subtitle: "How a volcano swallowed the sun and darkness learned to dream",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-year-without-a-summer.png",
+    publishedAt: "03/05/2026 06:42 AM",
+    description:
+      "In 1816, a volcanic eruption erased summer from the world — and in the strange, cold dark that followed, Mary Shelley wrote Frankenstein.",
   },
   {
     slug: "the-hum",

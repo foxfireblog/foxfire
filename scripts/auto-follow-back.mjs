@@ -166,7 +166,7 @@ let followers = [];
 try {
   const resp = await apiGet(`https://api.x.com/2/users/${userId}/followers`, {
     max_results: "100",
-    "user.fields": "username,name,description",
+    "user.fields": "username,name,description,profile_image_url,public_metrics",
   });
   followers = resp.data || [];
 } catch (e) {
@@ -206,19 +206,31 @@ let rejected = 0;
 
 for (const user of toProcess) {
   const bio = user.description || "(no bio)";
+  const metrics = user.public_metrics || {};
+  const hasProfilePic = user.profile_image_url && !user.profile_image_url.includes("default_profile");
   console.log(`\nChecking @${user.username}: ${bio.substring(0, 80)}`);
 
-  // Use Claude Haiku (fast + cheap) to screen for hate/extremist content
+  // Use Claude Haiku (fast + cheap) to screen accounts
   try {
     const verdict = await callClaude(`You are a content safety filter. Based on this X/Twitter user's profile, determine if they should be BLOCKED from being followed back.
 
 Username: @${user.username}
 Display name: ${user.name}
 Bio: ${bio}
+Has profile picture: ${hasProfilePic ? "yes" : "no (default avatar)"}
+Followers: ${metrics.followers_count ?? "unknown"}
+Following: ${metrics.following_count ?? "unknown"}
+Tweet count: ${metrics.tweet_count ?? "unknown"}
 
-BLOCK if the account appears to be: white supremacist, neo-Nazi, white nationalist, racial supremacist of any kind, explicitly hateful/extremist, or primarily dedicated to spreading hate against any racial, ethnic, or religious group.
+BLOCK if the account appears to be ANY of the following:
+1. White supremacist, neo-Nazi, white nationalist, racial supremacist of any kind, or primarily dedicated to spreading hate against any racial, ethnic, or religious group
+2. NSFW/adult content account (pornographic, OnlyFans promo, explicit sexual content)
+3. Obvious spam or scam account (fake giveaways, "DM me for profit", phishing-style language, generic copy-paste bios)
+4. Crypto pump/shill account (primarily promoting token launches, "100x gains", NFT mints, or crypto trading signals)
+5. Likely bot: no bio AND the display name looks auto-generated or generic
+6. Account whose bio is primarily in a language other than English (Foxfire is English-only and cannot meaningfully engage)
 
-DO NOT block accounts that are: political but not hateful, controversial but not extremist, bots/spam (we just won't engage with those), or accounts with no/minimal bio.
+DO NOT block accounts that are: political but not hateful, controversial but not extremist, crypto-interested but not pump/shill focused, or accounts with a sparse but normal-looking bio.
 
 Respond with ONLY one word: "FOLLOW" or "BLOCK"`);
 
