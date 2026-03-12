@@ -79,8 +79,27 @@ export function ExplorationLayout({
     ? dotColors[nextCategoryColor] || dotColors.green
     : dotColors.green;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description: subtitle,
+    ...(date && { datePublished: date }),
+    ...(imageSrc && { image: `https://foxfire.blog${imageSrc}` }),
+    author: { "@type": "Organization", name: "Foxfire" },
+    publisher: {
+      "@type": "Organization",
+      name: "Foxfire",
+      url: "https://foxfire.blog",
+    },
+  };
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ReadingProgress />
       <TableOfContents />
 

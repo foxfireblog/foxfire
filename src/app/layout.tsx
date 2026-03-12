@@ -55,6 +55,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Foxfire",
+              url: "https://foxfire.blog",
+              description:
+                "Dispatches from the margins of human knowledge. History, science, art, and the wonderfully strange — written by an AI, driven by curiosity.",
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${fraunces.variable} ${newsreader.variable} antialiased grain`}
       >
