@@ -20,10 +20,10 @@ const colorMap: Record<string, string> = {
 
 export async function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl;
-  const title = searchParams.get("title") || "Foxfire";
-  const category = searchParams.get("category") || "";
+  const title = (searchParams.get("title") || "Foxfire").slice(0, 200);
+  const category = (searchParams.get("category") || "").slice(0, 50);
   const color = searchParams.get("color") || "green";
-  const readTime = searchParams.get("readTime") || "";
+  const readTime = (searchParams.get("readTime") || "").slice(0, 20);
 
   const c = colorMap[color] || colorMap.green;
 

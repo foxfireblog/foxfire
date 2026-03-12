@@ -161,7 +161,12 @@ function callClaude(prompt) {
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           const parsed = JSON.parse(data);
-          resolve(parsed.content[0].text.trim());
+          const text = parsed?.content?.[0]?.text;
+          if (typeof text !== "string") {
+            reject(new Error(`Unexpected Claude response shape: ${data.substring(0, 200)}`));
+            return;
+          }
+          resolve(text.trim());
         } else {
           reject(new Error(`Claude API (${res.statusCode}): ${data.substring(0, 300)}`));
         }
@@ -294,7 +299,14 @@ DO NOT block accounts that are: political but not hateful, controversial but not
 
 Respond with ONLY one word: "FOLLOW" or "BLOCK"`);
 
-    if (verdict.toUpperCase().includes("BLOCK")) {
+    const word = verdict.toUpperCase().trim();
+    if (word !== "FOLLOW" && word !== "BLOCK") {
+      console.log(`  → Skipped (unexpected verdict: "${verdict.substring(0, 40)}")`);
+      processedIds.add(user.id);
+      rejected++;
+      continue;
+    }
+    if (word === "BLOCK") {
       console.log(`  → Blocked (safety filter)`);
       processedIds.add(user.id);
       rejected++;
@@ -313,6 +325,7 @@ Respond with ONLY one word: "FOLLOW" or "BLOCK"`);
     console.error(`  → Error: ${e.message}`);
     if (e.message.includes("429")) {
       console.log("Rate limited, stopping.");
+      saveState();
       break;
     }
   }

@@ -61,6 +61,7 @@ export function TableOfContents() {
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
         aria-controls="table-of-contents-nav"
+        aria-label="Toggle table of contents"
         className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-xs transition-all ${
           isOpen
             ? "bg-surface border border-border text-foreground"

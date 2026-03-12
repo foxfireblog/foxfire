@@ -163,6 +163,7 @@ export default function RootLayout({
                   href="https://x.com/foxfire_blog"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Follow @foxfire_blog on X (opens in a new tab)"
                   className="transition-colors hover:text-muted/60"
                 >
                   @foxfire_blog

@@ -198,7 +198,12 @@ function callClaude(prompt, maxTokens = 300) {
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           const parsed = JSON.parse(data);
-          resolve(parsed.content[0].text.trim());
+          const text = parsed?.content?.[0]?.text;
+          if (typeof text !== "string") {
+            reject(new Error(`Unexpected Claude response shape: ${data.substring(0, 200)}`));
+            return;
+          }
+          resolve(text.trim());
         } else {
           reject(new Error(`Claude API (${res.statusCode}): ${data.substring(0, 300)}`));
         }
