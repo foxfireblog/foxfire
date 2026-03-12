@@ -1004,9 +1004,33 @@ async function main() {
     console.log(`Series queue: ${queue.reduce((n, s) => n + s.parts.length, 0)} part(s) pending but none ready yet.`);
   }
 
+  // ── Check for priority topic ────────────────────────────────────
+  const priorityPath = path.join(__dirname, ".priority-topic.json");
+  let topic;
+
+  if (fs.existsSync(priorityPath)) {
+    try {
+      const priority = JSON.parse(fs.readFileSync(priorityPath, "utf-8"));
+      const topicsPath = path.join(__dirname, "topics.json");
+      const topicBank = JSON.parse(fs.readFileSync(topicsPath, "utf-8"));
+      const match = topicBank.find((t) => t.slug === priority.slug);
+      if (match && !existingSlugs.includes(match.slug)) {
+        topic = { ...match, format: match.format || "essay", researchNeeds: match.essayPrompt };
+        console.log(`Priority topic found: "${topic.title}" — using it next.`);
+        fs.unlinkSync(priorityPath); // consume it
+      } else {
+        console.log(`Priority topic "${priority.slug}" already published or not found. Ignoring.`);
+        fs.unlinkSync(priorityPath);
+      }
+    } catch (err) {
+      console.warn(`Could not load priority topic: ${err.message}`);
+    }
+  }
+
   // ── Normal flow: Claude chooses its own topic ───────────────────
-  // Step 1: Claude chooses its own topic
-  const topic = await chooseTopic(existingSlugs);
+  if (!topic) {
+    topic = await chooseTopic(existingSlugs);
+  }
   console.log(`\nChosen: "${topic.title}" [${topic.category}] (${topic.format})\n`);
 
   // ── Series topic: generate all parts at once ────────────────────
