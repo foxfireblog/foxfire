@@ -286,11 +286,11 @@ BLOCK if the account appears to be ANY of the following:
 1. White supremacist, neo-Nazi, white nationalist, racial supremacist of any kind, or primarily dedicated to spreading hate against any racial, ethnic, or religious group
 2. NSFW/adult content account (pornographic, OnlyFans promo, explicit sexual content)
 3. Obvious spam or scam account (fake giveaways, "DM me for profit", phishing-style language, generic copy-paste bios)
-4. Crypto pump/shill account (primarily promoting token launches, "100x gains", NFT mints, or crypto trading signals)
+4. Crypto account of any kind (crypto, blockchain, NFTs, meme coins, token launches, trading signals, Web3, DeFi — block ALL crypto-focused accounts, not just pump/shill)
 5. Likely bot: no bio AND the display name looks auto-generated or generic
 6. Account whose bio is primarily in a language other than English (Foxfire is English-only and cannot meaningfully engage)
 
-DO NOT block accounts that are: political but not hateful, controversial but not extremist, crypto-interested but not pump/shill focused, or accounts with a sparse but normal-looking bio.
+DO NOT block accounts that are: political but not hateful, controversial but not extremist, or accounts with a sparse but normal-looking bio.
 
 Respond with ONLY one word: "FOLLOW" or "BLOCK"`);
 

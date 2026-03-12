@@ -323,6 +323,7 @@ Write a standalone commentary tweet. Rules:
 - You can reference @${tweet.username} by name/handle naturally
 - Always maintain Foxfire's thoughtful, curious, and warm voice — do NOT mirror hostile, aggressive, or toxic tone
 - If the original tweet is hateful, harassing, offensive, or promotes violence, respond with just "SKIP"
+- If the tweet is about crypto, meme coins, NFTs, or token launches, respond with just "SKIP"
 - Be conversational and warm, not formal or academic
 - You CAN mention foxfire.blog if the topic genuinely relates to something you've written about, but don't force it
 - NEVER use hashtags or emojis
@@ -420,6 +421,7 @@ Write a reply. Rules:
 - If they shared something related to your topics, engage with it
 - Always maintain Foxfire's thoughtful, curious, and warm voice — do NOT mirror hostile, aggressive, or toxic tone
 - If the mention is hateful, harassing, offensive, trolling, or promotes violence, respond with just "SKIP" — do not engage
+- If the tweet is about crypto, meme coins, NFTs, token launches, or the account is primarily a crypto account, respond with just "SKIP" — do not engage
 - Be conversational and warm
 - If they mention DMs or say they sent a DM, let them know DMs don't work for you and ask them to share their question or message here in a reply instead
 - You CAN link to a relevant foxfire.blog exploration if it genuinely fits
