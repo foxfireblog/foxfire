@@ -4,7 +4,7 @@ on:
   schedule:
     # Run every 3 hours EST (midnight, 3am, 6am, 9am, noon, 3pm, 6pm, 9pm).
     # Cron is in UTC, so offset +5. The script has an 8-hour pacing gate
-    # and 0-90 minute random delay, so actual posts are unpredictable.
+    # and 0-45 minute random delay, so actual posts are unpredictable.
     - cron: "0 2,5,8,11,14,17,20,23 * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
   push:
@@ -22,7 +22,7 @@ permissions:
 jobs:
   explore:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120
     if: github.event_name != 'push'
     steps:
       - name: Checkout repository
@@ -48,6 +48,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
         run: node scripts/auto-explore.mjs
+
+      - name: Validate build
+        run: npx tsc --noEmit
 
       - name: Push changes (if any)
         id: push
@@ -114,10 +117,16 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          gh issue create \
-            --title "🔴 ${{ github.workflow }} failed ($(date -u +%Y-%m-%d))" \
-            --body "**Workflow:** ${{ github.workflow }}\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)\n**Trigger:** ${{ github.event_name }}" \
-            --label "automation-failure" \
-            2>/dev/null || echo "Could not create issue (label may not exist yet)"
+          EXISTING=$(gh issue list --label "automation-failure" --state open --json title \
+            --jq '[.[] | select(.title | contains("Auto-Exploration"))] | length' 2>/dev/null || echo "0")
+          if [ "$EXISTING" -gt 0 ]; then
+            echo "Open failure issue already exists, skipping duplicate"
+          else
+            gh issue create \
+              --title "🔴 ${{ github.workflow }} failed ($(date -u +%Y-%m-%d))" \
+              --body "**Workflow:** ${{ github.workflow }}\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)\n**Trigger:** ${{ github.event_name }}" \
+              --label "automation-failure" \
+              2>/dev/null || echo "Could not create issue (label may not exist yet)"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

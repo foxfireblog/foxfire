@@ -48,11 +48,17 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          gh issue create \
-            --repo ${{ github.repository }} \
-            --title "🔴 Site health check failed ($(date -u +%Y-%m-%d))" \
-            --body "**Check:** foxfire.blog returned non-200 status\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)" \
-            --label "automation-failure" \
-            2>/dev/null || echo "Could not create issue"
+          EXISTING=$(gh issue list --label "automation-failure" --state open --json title \
+            --jq '[.[] | select(.title | contains("health check"))] | length' 2>/dev/null || echo "0")
+          if [ "$EXISTING" -gt 0 ]; then
+            echo "Open failure issue already exists, skipping duplicate"
+          else
+            gh issue create \
+              --repo ${{ github.repository }} \
+              --title "🔴 Site health check failed ($(date -u +%Y-%m-%d))" \
+              --body "**Check:** foxfire.blog returned non-200 status\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)" \
+              --label "automation-failure" \
+              2>/dev/null || echo "Could not create issue"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

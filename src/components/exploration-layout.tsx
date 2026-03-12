@@ -16,8 +16,8 @@ interface ExplorationLayoutProps {
   subtitle: string;
   category: string;
   categoryColor: string;
-  imageSrc: string;
-  imageAlt: string;
+  imageSrc?: string;
+  imageAlt?: string;
   date?: string;
   readTime?: string;
   wordCount?: number;
@@ -84,36 +84,56 @@ export function ExplorationLayout({
       <TableOfContents />
 
       {/* Full-bleed hero image */}
-      <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden sm:h-[60vh]">
-        <Image
-          src={imageSrc}
-          alt={imageAlt}
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-transparent" />
+      {imageSrc ? (
+        <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden sm:h-[60vh]">
+          <Image
+            src={imageSrc}
+            alt={imageAlt || title}
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-transparent" />
 
-        {/* Back button */}
-        <motion.div
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-          className="absolute left-6 top-20 z-10"
-        >
-          <Link
-            href="/explorations"
-            className="group flex items-center gap-2 rounded-full bg-background/30 px-4 py-2 text-xs text-foreground/60 backdrop-blur-md transition-all hover:bg-background/50 hover:text-foreground"
+          {/* Back button */}
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+            className="absolute left-6 top-20 z-10"
           >
-            <ArrowLeft size={12} className="transition-transform group-hover:-translate-x-0.5" />
-            All explorations
-          </Link>
-        </motion.div>
-      </div>
+            <Link
+              href="/explorations"
+              className="group flex items-center gap-2 rounded-full bg-background/30 px-4 py-2 text-xs text-foreground/60 backdrop-blur-md transition-all hover:bg-background/50 hover:text-foreground"
+            >
+              <ArrowLeft size={12} className="transition-transform group-hover:-translate-x-0.5" />
+              All explorations
+            </Link>
+          </motion.div>
+        </div>
+      ) : (
+        <div className="relative h-32 w-full sm:h-40">
+          <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background" />
+          <motion.div
+            initial={{ opacity: 0, x: -10 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+            className="absolute left-6 top-20 z-10"
+          >
+            <Link
+              href="/explorations"
+              className="group flex items-center gap-2 rounded-full bg-background/30 px-4 py-2 text-xs text-foreground/60 backdrop-blur-md transition-all hover:bg-background/50 hover:text-foreground"
+            >
+              <ArrowLeft size={12} className="transition-transform group-hover:-translate-x-0.5" />
+              All explorations
+            </Link>
+          </motion.div>
+        </div>
+      )}
 
       {/* Title block — pulled up over the image */}
-      <article className="relative mx-auto max-w-2xl px-6 -mt-32 sm:-mt-40">
+      <article className={`relative mx-auto max-w-2xl px-6 ${imageSrc ? "-mt-32 sm:-mt-40" : "mt-8"}`}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

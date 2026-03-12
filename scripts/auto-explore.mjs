@@ -31,7 +31,7 @@ const ROOT = path.join(__dirname, "..");
 
 // ── Config ──────────────────────────────────────────────────────────
 const MIN_GAP_HOURS = 8;   // Don't post more than ~2-3x per day
-const MAX_DELAY_MS = 90 * 60 * 1000; // 0-90 min random delay for organic timing
+const MAX_DELAY_MS = 45 * 60 * 1000; // 0-45 min random delay for organic timing
 const FORCE = process.argv.includes("--force");
 const COLORS = ["rose", "cyan", "amber", "violet", "emerald", "red", "sky", "green", "orange", "pink", "teal", "indigo"];
 
@@ -439,6 +439,13 @@ async function generateAudioKokoro(topic, content) {
 
 // ── Create the page file ────────────────────────────────────────────
 function createPage(topic, content, audioUrl = null) {
+  // Check for duplicate slug before creating anything
+  const dataContent = fs.readFileSync(path.join(ROOT, "src", "data", "explorations.ts"), "utf-8");
+  if (dataContent.includes(`slug: "${topic.slug}"`)) {
+    console.error(`ERROR: Exploration with slug "${topic.slug}" already exists. Aborting to prevent duplicate.`);
+    process.exit(1);
+  }
+
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
   fs.mkdirSync(dir, { recursive: true });
 
@@ -474,6 +481,8 @@ function createPage(topic, content, audioUrl = null) {
     day: "numeric",
   });
 
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+
   const pageContent = `import { ExplorationLayout } from "@/components/exploration-layout";
 import type { Metadata } from "next";
 
@@ -501,9 +510,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       subtitle="${escapeJsx(topic.subtitle)}"
       category="${escapeJsx(topic.category)}"
       categoryColor="${topic.color}"
-      date="${dateStr}"
-      imageSrc="/images/explorations/${topic.slug}.png"
-      imageAlt="${escapeJsx(topic.title)} illustration"
+      date="${dateStr}"${imageExists ? `\n      imageSrc="/images/explorations/${topic.slug}.png"\n      imageAlt="${escapeJsx(topic.title)} illustration"` : ""}
       readTime="${readTime}"
       wordCount={${wordCount}}${audioUrl ? `\n      audioSrc="${audioUrl}"` : ""}${prevNav}
     >
@@ -522,6 +529,7 @@ ${indentContent(content, 6)}
 
 // ── Update explorations data file ────────────────────────────────────
 function updateIndexPages(topic, readTime) {
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
   const publishedAt = new Date().toLocaleString("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: true }).replace(",", "");
   const entry = `  {
     slug: "${topic.slug}",
@@ -529,8 +537,7 @@ function updateIndexPages(topic, readTime) {
     subtitle: "${escapeJs(topic.subtitle)}",
     category: "${escapeJs(topic.category)}",
     color: "${topic.color}",
-    readTime: "${readTime}",
-    image: "/images/explorations/${topic.slug}.png",
+    readTime: "${readTime}",${imageExists ? `\n    image: "/images/explorations/${topic.slug}.png",` : ""}
     publishedAt: "${publishedAt}",
     description:
       "${escapeJs(topic.description)}",
@@ -538,10 +545,16 @@ function updateIndexPages(topic, readTime) {
 
   const dataFile = path.join(ROOT, "src", "data", "explorations.ts");
   let content = fs.readFileSync(dataFile, "utf-8");
+  const before = content;
   content = content.replace(
     /export const explorations: Exploration\[\] = \[\n/,
     `export const explorations: Exploration[] = [\n${entry}\n`
   );
+  if (content === before) {
+    console.error("ERROR: Failed to insert new exploration into explorations.ts — regex did not match!");
+    console.error("The explorations.ts file format may have changed. Manual intervention required.");
+    process.exit(1);
+  }
   fs.writeFileSync(dataFile, content);
   console.log("Updated src/data/explorations.ts");
 }
@@ -558,23 +571,29 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
   let prevContent = fs.readFileSync(prevPagePath, "utf-8");
   if (prevContent.includes("nextSlug=")) return;
 
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
   const richNextProps = [
     `nextSlug="${topic.slug}"`,
     `nextTitle="${escapeJsx(topic.title)}"`,
     `nextSubtitle="${escapeJsx(topic.subtitle)}"`,
     `nextCategory="${escapeJsx(topic.category)}"`,
     `nextCategoryColor="${topic.color}"`,
-    `nextImage="/images/explorations/${topic.slug}.png"`,
+    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.png"`] : []),
     `nextReadTime="${readTime}"`,
   ].map((p) => `$3${p}`).join("\n");
 
+  const beforeNav = prevContent;
   prevContent = prevContent.replace(
     /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+wordCount=\{[^}]+\})?(?:\n[ \t]+audioSrc="[^"]*")?(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
     `$1$2\n${richNextProps}\n$3>`
   );
 
-  fs.writeFileSync(prevPagePath, prevContent);
-  console.log(`Updated navigation in ${currentNewestSlug}/page.tsx`);
+  if (prevContent === beforeNav) {
+    console.warn("WARNING: Could not insert next-navigation props into " + currentNewestSlug + "/page.tsx — regex did not match. Navigation link will be missing.");
+  } else {
+    fs.writeFileSync(prevPagePath, prevContent);
+    console.log(`Updated navigation in ${currentNewestSlug}/page.tsx`);
+  }
 }
 
 // ── Git commit ──────────────────────────────────────────────────────
@@ -615,7 +634,11 @@ function escapeJsx(str) {
 }
 
 function escapeJs(str) {
-  return str.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+  return str
+    .replace(/\\/g, "\\\\")
+    .replace(/"/g, '\\"')
+    .replace(/\n/g, "\\n")
+    .replace(/\r/g, "\\r");
 }
 
 function indentContent(content, spaces) {
