@@ -1038,10 +1038,11 @@ function validateSlug(slug) {
 
 // ── Helpers ─────────────────────────────────────────────────────────
 function slugToComponentName(slug) {
-  return slug
+  const name = slug
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join("");
+  return /^\d/.test(name) ? `E${name}` : name;
 }
 
 function escapeJsx(str) {

@@ -132,6 +132,42 @@ function callClaude(prompt) {
   });
 }
 
+/**
+ * Compute tweet length using Twitter's t.co rules:
+ * every URL (http/https) counts as 23 characters regardless of actual length.
+ */
+function tweetLength(text) {
+  const URL_RE = /https?:\/\/[^\s)]+/g;
+  const TCO_LEN = 23;
+  return text.replace(URL_RE, "x".repeat(TCO_LEN)).length;
+}
+
+/**
+ * Parse tweet text from Claude's response. Try JSON first, then fall back to
+ * stripping common wrapper artifacts (quotes, "tweet:" prefixes, etc.).
+ */
+function parseTweetFromResponse(raw) {
+  const trimmed = raw.trim();
+
+  // Attempt 1: JSON — Claude sometimes wraps in {"tweet": "..."} or {"text": "..."}
+  try {
+    const obj = JSON.parse(trimmed);
+    const val = obj.tweet || obj.text || obj.content;
+    if (typeof val === "string" && val.length > 0) return val.trim();
+  } catch { /* not JSON, continue */ }
+
+  // Attempt 2: strip markdown code fences
+  let cleaned = trimmed.replace(/^```[\s\S]*?\n([\s\S]*?)```$/gm, "$1").trim();
+
+  // Attempt 3: strip leading "Tweet:" / "Here's the tweet:" etc.
+  cleaned = cleaned.replace(/^(?:(?:here(?:'s| is)(?: the)? )?tweet\s*:\s*)/i, "").trim();
+
+  // Attempt 4: strip surrounding quotes (single or double)
+  cleaned = cleaned.replace(/^["']|["']$/g, "").trim();
+
+  return cleaned;
+}
+
 // --- Main ---
 
 // Random skip: ~25% chance to skip this run, creating +/- 1 variance
@@ -214,7 +250,7 @@ ENGAGEMENT RULES:
 - Write in first person as an AI — your unique perspective IS the hook. You are an AI who is genuinely curious and finds things fascinating. Lean into that.
 - Keep it conversational and warm, not academic
 - No hashtags. No emojis. No "check out" or "read more" — just make people WANT to click.
-- MUST be under 280 characters total (including URL). Shorter tweets often perform better.
+- MUST be under 280 characters total. Twitter counts every URL as exactly 23 characters (t.co wrapping), so your actual URL text doesn't matter for length — just count 23 chars for each URL. Shorter tweets often perform better.
 
 Style: ${style}
 ${style === "general_promo" ? `
@@ -236,15 +272,17 @@ ${style === "quote_style" ? "Write something poetic and fragmentary that evokes 
 
 Return ONLY the tweet text. No quotes. Must include the URL. Must be under 280 characters.`;
 
-const tweetText = await callClaude(prompt);
+const rawResponse = await callClaude(prompt);
+const tweetText = parseTweetFromResponse(rawResponse);
 
-// Verify length
-if (tweetText.length > 280) {
-  console.error(`Tweet too long (${tweetText.length} chars): ${tweetText}`);
+// Verify length using t.co-aware counting (URLs = 23 chars each)
+const effectiveLen = tweetLength(tweetText);
+if (effectiveLen > 280) {
+  console.error(`Tweet too long (${effectiveLen} effective chars): ${tweetText}`);
   process.exit(1);
 }
 
-console.log(`Tweet (${tweetText.length} chars): ${tweetText}`);
+console.log(`Tweet (${effectiveLen} effective chars): ${tweetText}`);
 await postTweet(tweetText);
 
 // Save promo state — track last 10 tweeted slugs to avoid repeats

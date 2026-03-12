@@ -168,18 +168,39 @@ function sleep(ms) {
 
 const userId = process.env.X_ACCESS_TOKEN.split("-")[0];
 
-// Get followers
+// Get followers (paginated — up to 5 pages)
 console.log("Fetching followers...");
 let followers = [];
 try {
-  const resp = await apiGet(`https://api.x.com/2/users/${userId}/followers`, {
-    max_results: "100",
-    "user.fields": "username,name,description,profile_image_url,public_metrics",
-  });
-  followers = resp.data || [];
+  let paginationToken = undefined;
+  const MAX_PAGES = 5;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const params = {
+      max_results: "100",
+      "user.fields": "username,name,description,profile_image_url,public_metrics",
+    };
+    if (paginationToken) {
+      params.pagination_token = paginationToken;
+    }
+    const resp = await apiGet(`https://api.x.com/2/users/${userId}/followers`, params);
+    if (resp.data) {
+      followers.push(...resp.data);
+    }
+    paginationToken = resp.meta?.next_token;
+    if (!paginationToken) {
+      console.log(`  Fetched all followers in ${page + 1} page(s)`);
+      break;
+    }
+    console.log(`  Page ${page + 1}: ${followers.length} followers so far...`);
+    await sleep(1000);
+  }
+  if (paginationToken) {
+    console.log(`  Stopped after ${MAX_PAGES} pages (more followers may exist)`);
+  }
 } catch (e) {
   console.error("Failed to fetch followers:", e.message);
-  process.exit(1);
+  if (followers.length === 0) process.exit(1);
+  console.log(`  Continuing with ${followers.length} followers fetched before error`);
 }
 
 // Get who we follow

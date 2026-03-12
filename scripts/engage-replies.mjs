@@ -505,7 +505,14 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
     // Post first tweet
     console.log(`Tweet 1: "${tweets[0].substring(0, 80)}..."`);
-    const first = await apiPost("https://api.x.com/2/tweets", { text: tweets[0] });
+    let first;
+    try {
+      first = await apiPost("https://api.x.com/2/tweets", { text: tweets[0] });
+    } catch (e) {
+      console.error("Thread error: failed to post first tweet:", e.message);
+      return 0;
+    }
+    const postedTweets = [{ index: 1, id: first.data.id }];
     let lastId = first.data.id;
     console.log(`  → https://x.com/foxfire_blog/status/${lastId}`);
 
@@ -513,12 +520,24 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
     for (let i = 1; i < tweets.length; i++) {
       await sleep(3000);
       console.log(`Tweet ${i + 1}: "${tweets[i].substring(0, 80)}..."`);
-      const next = await apiPost("https://api.x.com/2/tweets", {
-        text: tweets[i],
-        reply: { in_reply_to_tweet_id: lastId },
-      });
-      lastId = next.data.id;
-      console.log(`  → https://x.com/foxfire_blog/status/${lastId}`);
+      try {
+        const next = await apiPost("https://api.x.com/2/tweets", {
+          text: tweets[i],
+          reply: { in_reply_to_tweet_id: lastId },
+        });
+        lastId = next.data.id;
+        postedTweets.push({ index: i + 1, id: lastId });
+        console.log(`  → https://x.com/foxfire_blog/status/${lastId}`);
+      } catch (e) {
+        console.error(`Thread error: failed to post tweet ${i + 1}/${tweets.length}: ${e.message}`);
+        console.error(`  Partial thread state: ${postedTweets.length}/${tweets.length} tweets posted successfully:`);
+        for (const t of postedTweets) {
+          console.error(`    Tweet ${t.index}: https://x.com/foxfire_blog/status/${t.id}`);
+        }
+        console.error(`  Tweets NOT posted: ${tweets.length - postedTweets.length} (indices ${postedTweets.length + 1}-${tweets.length})`);
+        // Return partial success — don't crash, let the rest of the script continue
+        return 1;
+      }
     }
 
     return 1;
