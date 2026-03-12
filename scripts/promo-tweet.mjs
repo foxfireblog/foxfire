@@ -134,8 +134,8 @@ if (Math.random() < 0.25) {
   process.exit(0);
 }
 
-// Parse explorations from the index page
-const indexPath = path.join(ROOT, "src", "app", "explorations", "page.tsx");
+// Parse explorations from the data file
+const indexPath = path.join(ROOT, "src", "data", "explorations.ts");
 const content = fs.readFileSync(indexPath, "utf-8");
 
 const explorations = [];

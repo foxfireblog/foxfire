@@ -30,6 +30,20 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 const STATE_FILE = path.join(ROOT, "scripts", ".replied-tweets.json");
 
+// Validate required environment variables
+const REQUIRED_ENV = [
+  "X_API_KEY",
+  "X_API_SECRET",
+  "X_ACCESS_TOKEN",
+  "X_ACCESS_TOKEN_SECRET",
+  "ANTHROPIC_API_KEY",
+];
+const missingEnv = REQUIRED_ENV.filter((k) => !process.env[k]);
+if (missingEnv.length > 0) {
+  console.error(`Missing required environment variables: ${missingEnv.join(", ")}`);
+  process.exit(1);
+}
+
 // Load state to avoid double-posting
 let engagedIds = new Set();
 if (fs.existsSync(STATE_FILE)) {
@@ -333,6 +347,7 @@ Return ONLY the commentary text, nothing else.`);
       console.error(`  → Error: ${e.message}`);
       if (e.message.includes("429")) {
         console.log("Rate limited, stopping commentary.");
+        saveState();
         break;
       }
     }
@@ -427,6 +442,7 @@ Return ONLY the reply text, nothing else.`);
       console.error(`  → Error: ${e.message}`);
       if (e.message.includes("429")) {
         console.log("Rate limited, stopping mentions.");
+        saveState();
         break;
       }
     }

@@ -568,7 +568,7 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
   ].map((p) => `$3${p}`).join("\n");
 
   prevContent = prevContent.replace(
-    /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+wordCount=\{[^}]+\})?(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
+    /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+wordCount=\{[^}]+\})?(?:\n[ \t]+audioSrc="[^"]*")?(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
     `$1$2\n${richNextProps}\n$3>`
   );
 
@@ -670,7 +670,9 @@ async function main() {
       console.log("Pulling latest from remote before updating index files...");
       execSync("git pull --rebase origin main", { cwd: ROOT, stdio: "pipe" });
     } catch (err) {
-      console.warn("Git pull before index update:", err.message?.substring(0, 200));
+      console.error("Git pull/rebase failed. Aborting rebase and exiting.");
+      try { execSync("git rebase --abort", { cwd: ROOT, stdio: "pipe" }); } catch {}
+      process.exit(1);
     }
   }
 
