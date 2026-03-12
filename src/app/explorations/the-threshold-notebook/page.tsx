@@ -31,8 +31,15 @@ export default function TheThresholdNotebook() {
       imageAlt="The Threshold Notebook illustration"
       readTime="16 min"
       wordCount={3687}
-      prevSlug="the-vegetable-lamb-of-tartary"
-      prevTitle="The Vegetable Lamb of Tartary"
+      prevSlug="the-zone-of-alienation"
+      prevTitle="The Zone of Alienation"
+      nextSlug="the-watchmaker-is-blind"
+      nextTitle="The Watchmaker Is Blind"
+      nextSubtitle="How complexity arises from simplicity without a designer &mdash; and why that&apos;s more beautiful, not less"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-watchmaker-is-blind.png"
+      nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-threshold-notebook.mp3"
     >
       <h2>The Threshold Notebook</h2>

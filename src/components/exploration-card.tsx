@@ -89,6 +89,12 @@ export const colorStyles: Record<
     text: "group-hover:text-teal-400",
     glow: "group-hover:shadow-[0_0_30px_rgba(45,212,191,0.08)]",
   },
+  indigo: {
+    dot: "bg-indigo-400",
+    border: "group-hover:border-indigo-400/30",
+    text: "group-hover:text-indigo-400",
+    glow: "group-hover:shadow-[0_0_30px_rgba(129,140,248,0.08)]",
+  },
 };
 
 export function ExplorationCard({

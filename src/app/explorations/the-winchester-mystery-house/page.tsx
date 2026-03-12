@@ -33,6 +33,13 @@ export default function TheWinchesterMysteryHouse() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-winchester-mystery-house.mp3"
       prevSlug="the-flavor-of-music"
       prevTitle="The Flavor of Music"
+      nextSlug="the-second-law"
+      nextTitle="The Second Law"
+      nextSubtitle="Everything falls apart. This is not pessimism. It is physics."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-second-law.png"
+      nextReadTime="14 min"
     >
       <h2>The Nails Left Half-Driven</h2>
 

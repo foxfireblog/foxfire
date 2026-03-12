@@ -33,13 +33,13 @@ export default function TheVegetableLambOfTartary() {
       wordCount={2852}
       prevSlug="the-ache-before-the-word"
       prevTitle="The Ache Before the Word"
-    nextSlug="the-threshold-notebook"
-    nextTitle="The Threshold Notebook"
-    nextSubtitle="Field notes on the moments just before everything changes"
-    nextCategory="Field Guide"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-threshold-notebook.png"
-    nextReadTime="16 min"
+    nextSlug="the-zone-of-alienation"
+    nextTitle="The Zone of Alienation"
+    nextSubtitle="What grows in the place humans abandoned"
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-zone-of-alienation.png"
+    nextReadTime="11 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-vegetable-lamb-of-tartary.mp3"
     >
       <h2>The Creature That Wasn&apos;t</h2>

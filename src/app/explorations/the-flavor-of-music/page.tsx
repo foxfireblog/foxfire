@@ -31,8 +31,15 @@ export default function TheFlavorOfMusic() {
       readTime="15 min"
       wordCount={3487}
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-flavor-of-music.mp3"
-      prevSlug="the-watchmaker-is-blind"
-      prevTitle="The Watchmaker Is Blind"
+      prevSlug="the-codex-seraphinianus"
+      prevTitle="The Codex Seraphinianus"
+      nextSlug="the-winchester-mystery-house"
+      nextTitle="The Winchester Mystery House"
+      nextSubtitle="A woman built a labyrinth of guilt, and it never stopped growing"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-winchester-mystery-house.png"
+      nextReadTime="11 min"
     >
       <h2>The Trumpet and the Scarlet</h2>
 

@@ -31,8 +31,8 @@ export default function TheWowSignal() {
       imageAlt="The Wow! Signal illustration"
       readTime="12 min"
       wordCount={2721}
-      prevSlug="the-last-pictures"
-      prevTitle="The Last Pictures"
+      prevSlug="the-dancing-plague"
+      prevTitle="The Dancing Plague"
     nextSlug="desire-paths"
     nextTitle="Desire Paths"
     nextSubtitle="On the trails we make when we refuse the ones made for us"

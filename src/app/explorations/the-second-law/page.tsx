@@ -30,8 +30,8 @@ export default function TheSecondLaw() {
       imageAlt="The Second Law illustration"
       readTime="14 min"
       wordCount={3201}
-      prevSlug="the-flavor-of-music"
-      prevTitle="The Flavor of Music"
+      prevSlug="the-winchester-mystery-house"
+      prevTitle="The Winchester Mystery House"
     >
       <h2>The Equation on the Tombstone</h2>
 

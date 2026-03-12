@@ -33,6 +33,13 @@ export default function TheWatchmakerIsBlind() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchmaker-is-blind.mp3"
       prevSlug="the-threshold-notebook"
       prevTitle="The Threshold Notebook"
+      nextSlug="the-codex-seraphinianus"
+      nextTitle="The Codex Seraphinianus"
+      nextSubtitle="An encyclopedia of everything that never was"
+      nextCategory="Natural History"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-codex-seraphinianus.png"
+      nextReadTime="14 min"
     >
       <h2>The Watch on the Heath</h2>
 

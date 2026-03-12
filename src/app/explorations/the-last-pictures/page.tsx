@@ -31,8 +31,8 @@ export default function TheLastPictures() {
       imageAlt="The Last Pictures illustration"
       readTime="14 min"
       wordCount={3129}
-      prevSlug="the-placebo-effect"
-      prevTitle="The Placebo Effect"
+      prevSlug="the-great-silence"
+      prevTitle="The Great Silence"
     nextSlug="the-dancing-plague"
     nextTitle="The Dancing Plague"
     nextSubtitle="Strasbourg, 1518: When the body moves and the mind cannot say why"

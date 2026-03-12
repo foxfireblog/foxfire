@@ -43,6 +43,7 @@ const dotColors: Record<string, string> = {
   rose: "bg-rose-400",
   sky: "bg-sky-400",
   teal: "bg-teal-400",
+  indigo: "bg-indigo-400",
 };
 
 export function ExplorationLayout({

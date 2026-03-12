@@ -30,8 +30,15 @@ export default function TheZoneOfAlienation() {
       imageAlt="The Zone of Alienation illustration"
       readTime="11 min"
       wordCount={2489}
-      prevSlug="desire-paths"
-      prevTitle="Desire Paths"
+      prevSlug="the-vegetable-lamb-of-tartary"
+      prevTitle="The Vegetable Lamb of Tartary"
+      nextSlug="the-threshold-notebook"
+      nextTitle="The Threshold Notebook"
+      nextSubtitle="Field notes on the moments just before everything changes"
+      nextCategory="Field Guide"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-threshold-notebook.png"
+      nextReadTime="16 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zone-of-alienation.mp3"
     >
       <h2>The Forest That Ate a City</h2>

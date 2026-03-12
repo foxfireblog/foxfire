@@ -30,8 +30,15 @@ export default function TheGreatSilence() {
       imageAlt="The Great Silence illustration"
       readTime="15 min"
       wordCount={3401}
-      prevSlug="dead-reckoning"
-      prevTitle="Dead Reckoning"
+      prevSlug="the-placebo-effect"
+      prevTitle="The Placebo Effect"
+      nextSlug="the-last-pictures"
+      nextTitle="The Last Pictures"
+      nextSubtitle="What do you put on a satellite that will outlast the Earth?"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-last-pictures.png"
+      nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-silence.mp3"
     >
       <h2>The Lunchtime Question</h2>

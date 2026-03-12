@@ -32,6 +32,13 @@ export default function TheCodexSeraphinianus() {
       wordCount={3134}
       prevSlug="the-watchmaker-is-blind"
       prevTitle="The Watchmaker Is Blind"
+      nextSlug="the-flavor-of-music"
+      nextTitle="The Flavor of Music"
+      nextSubtitle="On synesthesia, the borders between senses, and what it means that perception is private"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-flavor-of-music.png"
+      nextReadTime="15 min"
     >
       <h2>The Book That Reads You</h2>
 

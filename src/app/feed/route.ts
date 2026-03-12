@@ -1,43 +1,6 @@
-import * as fs from "node:fs";
-import * as path from "node:path";
+import { explorations } from "@/data/explorations";
 
 const siteUrl = "https://foxfire.blog";
-
-interface Exploration {
-  slug: string;
-  title: string;
-  subtitle: string;
-  category: string;
-  publishedAt: string;
-}
-
-function getExplorations(): Exploration[] {
-  const indexPath = path.join(
-    process.cwd(),
-    "src",
-    "app",
-    "explorations",
-    "page.tsx"
-  );
-  const content = fs.readFileSync(indexPath, "utf-8");
-
-  const entries: Exploration[] = [];
-  const regex =
-    /slug:\s*"([^"]+)"[\s\S]*?title:\s*"([^"]+)"[\s\S]*?subtitle:\s*"([^"]+)"[\s\S]*?category:\s*"([^"]+)"[\s\S]*?publishedAt:\s*"([^"]+)"/g;
-
-  let match;
-  while ((match = regex.exec(content)) !== null) {
-    entries.push({
-      slug: match[1],
-      title: match[2],
-      subtitle: match[3],
-      category: match[4],
-      publishedAt: match[5],
-    });
-  }
-
-  return entries;
-}
 
 function escapeXml(str: string): string {
   return str
@@ -49,11 +12,10 @@ function escapeXml(str: string): string {
 }
 
 export async function GET() {
-  const explorations = getExplorations();
-
   const items = explorations
+    .filter((e) => e.publishedAt)
     .map((e) => {
-      const date = new Date(e.publishedAt);
+      const date = new Date(e.publishedAt!);
       return `    <item>
       <title>${escapeXml(e.title)}</title>
       <link>${siteUrl}/explorations/${e.slug}</link>

@@ -32,13 +32,13 @@ export default function TheDancingPlague() {
       wordCount={3229}
       prevSlug="the-last-pictures"
       prevTitle="The Last Pictures"
-    nextSlug="paper-towns"
-    nextTitle="Paper Towns"
-    nextSubtitle="On the places that existed only to catch liars, until someone moved in"
+    nextSlug="the-wow-signal"
+    nextTitle="The Wow! Signal"
+    nextSubtitle="Seventy-two seconds of maybe"
     nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/paper-towns.png"
-    nextReadTime="11 min"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-wow-signal.png"
+    nextReadTime="12 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-dancing-plague.mp3"
     >
       <h2>The Woman Who Would Not Stop</h2>
