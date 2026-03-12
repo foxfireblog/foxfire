@@ -36,14 +36,31 @@ jobs:
           echo "Sleeping ${DELAY}s to vary post timing..."
           sleep $DELAY
 
-      - name: Post promo tweet
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Post promo tweet (with retry)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/promo-tweet.mjs
+        run: |
+          node scripts/promo-tweet.mjs && exit 0
+          echo "First attempt failed, retrying in 120s..."
+          sleep 120
+          node scripts/promo-tweet.mjs
+
+      - name: Close stale failure issues on success
+        if: success()
+        run: |
+          gh issue list --label "automation-failure" --state open --json number,title \
+            --jq '.[] | select(.title | contains("Promo Tweets")) | .number' \
+          | xargs -I{} gh issue close {} --comment "Auto-closed: workflow succeeded on $(date -u +%Y-%m-%d)" \
+          2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Notify on failure
         if: failure()

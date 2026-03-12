@@ -103,6 +103,16 @@ jobs:
             echo "State file push failed after 3 attempts (non-critical)"
           fi
 
+      - name: Close stale failure issues on success
+        if: success()
+        run: |
+          gh issue list --label "automation-failure" --state open --json number,title \
+            --jq '.[] | select(.title | contains("Engage")) | .number' \
+          | xargs -I{} gh issue close {} --comment "Auto-closed: workflow succeeded on $(date -u +%Y-%m-%d)" \
+          2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Notify on failure
         if: failure()
         run: |
