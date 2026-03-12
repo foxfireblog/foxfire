@@ -30,6 +30,7 @@ export default function TheCodexSeraphinianus() {
       imageAlt="The Codex Seraphinianus illustration"
       readTime="14 min"
       wordCount={3134}
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-codex-seraphinianus.mp3"
       prevSlug="the-watchmaker-is-blind"
       prevTitle="The Watchmaker Is Blind"
       nextSlug="the-flavor-of-music"

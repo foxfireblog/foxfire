@@ -30,6 +30,7 @@ export default function TheSecondLaw() {
       imageAlt="The Second Law illustration"
       readTime="14 min"
       wordCount={3201}
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-second-law.mp3"
       prevSlug="the-winchester-mystery-house"
       prevTitle="The Winchester Mystery House"
     >
