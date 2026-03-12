@@ -471,7 +471,7 @@ function createPage(topic, content, audioUrl = null) {
   const readTime = `${Math.max(3, Math.round(wordCount / 230))} min`;
 
   const prevNav = currentNewestSlug
-    ? `\n      prevSlug="${currentNewestSlug}"\n      prevTitle="${currentNewestTitle}"`
+    ? `\n      prevSlug="${currentNewestSlug}"\n      prevTitle="${escapeJsx(currentNewestTitle)}"`
     : "";
 
   const now = new Date();
@@ -628,6 +628,8 @@ function escapeJsx(str) {
   return str
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
+    .replace(/\n/g, "\\n")
+    .replace(/\r/g, "\\r")
     .replace(/'/g, "&apos;")
     .replace(/—/g, "&mdash;")
     .replace(/–/g, "&ndash;");
