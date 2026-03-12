@@ -441,7 +441,7 @@ function createPage(topic, content, audioUrl = null) {
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
   fs.mkdirSync(dir, { recursive: true });
 
-  const indexPath = path.join(ROOT, "src", "app", "explorations", "page.tsx");
+  const indexPath = path.join(ROOT, "src", "data", "explorations.ts");
   const indexContent = fs.readFileSync(indexPath, "utf-8");
   const firstSlugMatch = indexContent.match(/slug:\s*"([^"]+)"/);
   const currentNewestSlug = firstSlugMatch ? firstSlugMatch[1] : null;
@@ -519,7 +519,7 @@ ${indentContent(content, 6)}
   return { readTime, currentNewestSlug, currentNewestTitle };
 }
 
-// ── Update index pages ──────────────────────────────────────────────
+// ── Update explorations data file ────────────────────────────────────
 function updateIndexPages(topic, readTime) {
   const publishedAt = new Date().toLocaleString("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: true }).replace(",", "");
   const entry = `  {
@@ -535,23 +535,14 @@ function updateIndexPages(topic, readTime) {
       "${escapeJs(topic.description)}",
   },`;
 
-  const explorationsIndex = path.join(ROOT, "src", "app", "explorations", "page.tsx");
-  let content = fs.readFileSync(explorationsIndex, "utf-8");
+  const dataFile = path.join(ROOT, "src", "data", "explorations.ts");
+  let content = fs.readFileSync(dataFile, "utf-8");
   content = content.replace(
-    /const explorations: Exploration\[\] = \[\n/,
-    `const explorations: Exploration[] = [\n${entry}\n`
+    /export const explorations: Exploration\[\] = \[\n/,
+    `export const explorations: Exploration[] = [\n${entry}\n`
   );
-  fs.writeFileSync(explorationsIndex, content);
-  console.log("Updated explorations/page.tsx");
-
-  const homePage = path.join(ROOT, "src", "app", "page.tsx");
-  let homeContent = fs.readFileSync(homePage, "utf-8");
-  homeContent = homeContent.replace(
-    /const explorations: Exploration\[\] = \[\n/,
-    `const explorations: Exploration[] = [\n${entry}\n`
-  );
-  fs.writeFileSync(homePage, homeContent);
-  console.log("Updated page.tsx (home)");
+  fs.writeFileSync(dataFile, content);
+  console.log("Updated src/data/explorations.ts");
 }
 
 // ── Update navigation links ────────────────────────────────────────
