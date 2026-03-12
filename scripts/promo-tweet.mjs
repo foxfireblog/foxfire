@@ -74,6 +74,7 @@ function postTweet(text) {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(body),
       },
+      timeout: 30_000,
     }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
@@ -82,11 +83,14 @@ function postTweet(text) {
           const parsed = JSON.parse(data);
           console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
           resolve(parsed);
+        } else if (res.statusCode === 429) {
+          reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else {
           reject(new Error(`Tweet failed (${res.statusCode}): ${data}`));
         }
       });
     });
+    req.on("timeout", () => { req.destroy(); reject(new Error("Request timed out (30s)")); });
     req.on("error", reject);
     req.write(body);
     req.end();
@@ -108,6 +112,7 @@ function callClaude(prompt) {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(body),
       },
+      timeout: 30_000,
     }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
@@ -120,6 +125,7 @@ function callClaude(prompt) {
         }
       });
     });
+    req.on("timeout", () => { req.destroy(); reject(new Error("Claude API timed out (30s)")); });
     req.on("error", reject);
     req.write(body);
     req.end();
@@ -157,11 +163,24 @@ if (explorations.length === 0) {
   process.exit(0);
 }
 
+// Load recent promo state to avoid repeating the same exploration
+const promoStatePath = path.join(__dirname, ".promo-state.json");
+let recentPromos = [];
+try {
+  if (fs.existsSync(promoStatePath)) {
+    recentPromos = JSON.parse(fs.readFileSync(promoStatePath, "utf-8"));
+  }
+} catch { recentPromos = []; }
+const recentSlugs = new Set(recentPromos.slice(-10));
+
 // Pick a random exploration, weighted toward recent ones (first in array = newest)
-// Top 10 get 3x weight, rest get 1x
+// Top 10 get 3x weight, rest get 1x — skip recently tweeted
+const candidates = explorations.filter((e) => !recentSlugs.has(e.slug));
+const pool = candidates.length > 0 ? candidates : explorations; // fallback if all recently tweeted
 const weighted = [];
-explorations.forEach((e, i) => {
-  const weight = i < 10 ? 3 : 1;
+pool.forEach((e, i) => {
+  const origIdx = explorations.indexOf(e);
+  const weight = origIdx < 10 ? 3 : 1;
   for (let w = 0; w < weight; w++) weighted.push(e);
 });
 const pick = weighted[Math.floor(Math.random() * weighted.length)];
@@ -227,3 +246,7 @@ if (tweetText.length > 280) {
 
 console.log(`Tweet (${tweetText.length} chars): ${tweetText}`);
 await postTweet(tweetText);
+
+// Save promo state — track last 10 tweeted slugs to avoid repeats
+recentPromos.push(pick.slug);
+fs.writeFileSync(promoStatePath, JSON.stringify(recentPromos.slice(-10)));

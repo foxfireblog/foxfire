@@ -398,7 +398,11 @@ async function generateSeriesParts(topic, existingSlugs) {
   let previousPartsSummary = "";
 
   for (const part of series.parts) {
+    if (!part.partNumber || typeof part.partNumber !== "number") {
+      throw new Error(`Series part missing valid partNumber: ${JSON.stringify(part).substring(0, 200)}`);
+    }
     const partSlug = part.partNumber === 1 ? topic.slug : `${topic.slug}-part-${part.partNumber}`;
+    validateSlug(partSlug);
     const partTitle = `${topic.title}: ${part.partTitle}`;
     const partSubtitle = part.partSubtitle || topic.subtitle;
 
@@ -535,6 +539,13 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
     .replace(/<ExplorationLayout[^>]*>/g, "")
     .replace(/<\/ExplorationLayout>/g, "")
     .trim();
+
+  // Sanitize content to prevent JSX breakage:
+  // - Escape stray { } that aren't part of JSX expressions (e.g., in prose about code)
+  // - Escape </script> and </style> sequences
+  cleaned = cleaned
+    .replace(/<\/script>/gi, "&lt;/script&gt;")
+    .replace(/<\/style>/gi, "&lt;/style&gt;");
 
   return cleaned;
 }
@@ -687,11 +698,18 @@ function createPage(topic, content, audioUrl = null, seriesPrev = null) {
   // Validate slug is safe before using in file paths
   validateSlug(topic.slug);
 
-  // Check for duplicate slug before creating anything
+  // Check for duplicate slug before creating anything (both data file AND filesystem)
   const dataContent = fs.readFileSync(path.join(ROOT, "src", "data", "explorations.ts"), "utf-8");
   if (dataContent.includes(`slug: "${topic.slug}"`)) {
-    console.error(`ERROR: Exploration with slug "${topic.slug}" already exists. Aborting to prevent duplicate.`);
+    console.error(`ERROR: Exploration with slug "${topic.slug}" already exists in explorations.ts. Aborting to prevent duplicate.`);
     process.exit(1);
+  }
+  const pageDir = path.join(ROOT, "src", "app", "explorations", topic.slug, "page.tsx");
+  if (fs.existsSync(pageDir)) {
+    console.error(`ERROR: Page file already exists for slug "${topic.slug}" (likely from a crashed previous run). Cleaning up orphan.`);
+    // Remove the orphaned directory so we can recreate it cleanly
+    fs.rmSync(path.join(ROOT, "src", "app", "explorations", topic.slug), { recursive: true });
+    console.log(`Removed orphaned directory: src/app/explorations/${topic.slug}/`);
   }
 
   const dir = path.join(ROOT, "src", "app", "explorations", topic.slug);
@@ -936,9 +954,13 @@ Do not use any of these existing slugs: ${allSlugs.join(", ")}`,
       else throw new Error("Could not parse new topics JSON");
     }
 
-    // Filter out any accidental duplicates
+    // Filter out duplicates and invalid slugs
     const usedSlugsSet = new Set(allSlugs);
-    const validNew = newTopics.filter((t) => t.slug && !usedSlugsSet.has(t.slug));
+    const validNew = newTopics.filter((t) => {
+      if (!t.slug || usedSlugsSet.has(t.slug)) return false;
+      try { validateSlug(t.slug); return true; }
+      catch { console.warn(`Skipping replenished topic with invalid slug: "${t.slug}"`); return false; }
+    });
 
     if (validNew.length > 0) {
       topicBank.push(...validNew);
@@ -1092,6 +1114,7 @@ async function main() {
       const topicBank = JSON.parse(fs.readFileSync(topicsPath, "utf-8"));
       const match = topicBank.find((t) => t.slug === priority.slug);
       if (match && !existingSlugs.includes(match.slug)) {
+        validateSlug(match.slug);
         topic = { ...match, format: match.format || "essay", researchNeeds: match.essayPrompt };
         console.log(`Priority topic found: "${topic.title}" — using it next.`);
         fs.unlinkSync(priorityPath); // consume it

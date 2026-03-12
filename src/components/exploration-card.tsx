@@ -6,17 +6,18 @@ import Link from "next/link";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 function formatPublishedAt(value: string): string {
+  const tz = "America/New_York";
   // If it already contains a time (e.g. "03/01/2026 10:30 PM"), format nicely
   if (value.includes(":")) {
     const d = new Date(value);
     if (!isNaN(d.getTime())) {
-      return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", hour12: true });
+      return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", hour12: true, timeZone: tz });
     }
     return value;
   }
   // Date-only (e.g. "2026-02-28")
   const d = new Date(value + "T12:00:00");
-  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: tz });
 }
 
 export interface Exploration {

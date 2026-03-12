@@ -91,6 +91,7 @@ const req = https.request(
       "Content-Type": "application/json",
       "Content-Length": Buffer.byteLength(body),
     },
+    timeout: 30_000,
   },
   (res) => {
     let data = "";
@@ -107,6 +108,7 @@ const req = https.request(
   }
 );
 
+req.on("timeout", () => { req.destroy(); console.error("Request timed out (30s)"); process.exit(1); });
 req.on("error", (err) => {
   console.error(`Request error: ${err.message}`);
   process.exit(1);

@@ -19,14 +19,17 @@ function groupByDate(explorations: Exploration[]): DateGroup[] {
     const d = new Date(item.publishedAt);
     if (isNaN(d.getTime())) continue;
 
+    const tz = "America/New_York";
     const dateKey = d.toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
+      timeZone: tz,
     });
     const time = d.toLocaleTimeString("en-US", {
       hour: "numeric",
       minute: "2-digit",
       hour12: true,
+      timeZone: tz,
     });
 
     if (!groups.has(dateKey)) groups.set(dateKey, []);

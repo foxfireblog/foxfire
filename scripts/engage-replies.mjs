@@ -117,19 +117,24 @@ function apiGet(url, queryParams = {}) {
   oauthParams.oauth_signature = sig;
 
   return new Promise((resolve, reject) => {
-    https.get(fullUrl.toString(), {
+    const req = https.get(fullUrl.toString(), {
       headers: { Authorization: buildAuthHeader(oauthParams) },
+      timeout: 30_000,
     }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           resolve(JSON.parse(data));
+        } else if (res.statusCode === 429) {
+          reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else {
           reject(new Error(`GET ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
       });
-    }).on("error", reject);
+    });
+    req.on("timeout", () => { req.destroy(); reject(new Error(`GET ${url} timed out (30s)`)); });
+    req.on("error", reject);
   });
 }
 
@@ -150,17 +155,21 @@ function apiPost(url, body) {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(bodyStr),
       },
+      timeout: 30_000,
     }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           resolve(JSON.parse(data));
+        } else if (res.statusCode === 429) {
+          reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else {
           reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
       });
     });
+    req.on("timeout", () => { req.destroy(); reject(new Error(`POST ${url} timed out (30s)`)); });
     req.on("error", reject);
     req.write(bodyStr);
     req.end();
@@ -182,6 +191,7 @@ function callClaude(prompt, maxTokens = 300) {
         "Content-Type": "application/json",
         "Content-Length": Buffer.byteLength(body),
       },
+      timeout: 30_000,
     }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
@@ -194,6 +204,7 @@ function callClaude(prompt, maxTokens = 300) {
         }
       });
     });
+    req.on("timeout", () => { req.destroy(); reject(new Error("Claude API timed out (30s)")); });
     req.on("error", reject);
     req.write(body);
     req.end();
