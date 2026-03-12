@@ -587,6 +587,7 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
 function gitCommit(topic) {
   try {
     if (process.env.CI) {
+      // Git config already set in step 5, but set again in case step 5 was skipped
       execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
       execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
     }
@@ -668,12 +669,24 @@ async function main() {
     console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
   }
 
-  // Step 5: Create page, update indexes, navigation
+  // Step 5: Pull latest before modifying shared files (prevents merge conflicts)
+  if (process.env.CI) {
+    try {
+      execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
+      execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
+      console.log("Pulling latest from remote before updating index files...");
+      execSync("git pull --rebase origin main", { cwd: ROOT, stdio: "pipe" });
+    } catch (err) {
+      console.warn("Git pull before index update:", err.message?.substring(0, 200));
+    }
+  }
+
+  // Step 6: Create page, update indexes, navigation
   const { readTime, currentNewestSlug } = createPage(topic, content, audioUrl);
   updateIndexPages(topic, readTime);
   updateNavigation(topic, currentNewestSlug, readTime);
 
-  // Step 6: Commit
+  // Step 7: Commit
   gitCommit(topic);
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);

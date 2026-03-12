@@ -87,6 +87,13 @@ jobs:
           git add -f scripts/.replied-tweets.json scripts/.follow-back-state.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Update engagement state files"
-            git pull --rebase origin main || true
-            git push || true
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || true
+              if git push; then
+                exit 0
+              fi
+              echo "Push attempt $attempt failed, retrying in 5s..."
+              sleep 5
+            done
+            echo "State file push failed after 3 attempts (non-critical)"
           fi

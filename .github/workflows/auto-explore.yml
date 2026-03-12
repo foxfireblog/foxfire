@@ -51,9 +51,19 @@ jobs:
           if git diff --quiet HEAD origin/main; then
             echo "pushed=false" >> $GITHUB_OUTPUT
           else
-            git pull --rebase origin main || true
-            git push
-            echo "pushed=true" >> $GITHUB_OUTPUT
+            # Retry push up to 3 times with rebase to handle concurrent pushes
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || true
+              if git push; then
+                echo "pushed=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+              echo "Push attempt $attempt failed, retrying in 10s..."
+              sleep 10
+            done
+            echo "All push attempts failed"
+            echo "pushed=false" >> $GITHUB_OUTPUT
+            exit 1
           fi
 
       - name: Notify on new post
