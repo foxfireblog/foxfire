@@ -66,6 +66,10 @@ if (!process.env.GEMINI_API_KEY) {
   console.error("GEMINI_API_KEY not set.");
   process.exit(1);
 }
+if (!process.env.BLOB_READ_WRITE_TOKEN) {
+  console.error("BLOB_READ_WRITE_TOKEN not set.");
+  process.exit(1);
+}
 
 const anthropic = new Anthropic();
 const gemini = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
@@ -978,7 +982,13 @@ Do not use any of these existing slugs: ${allSlugs.join(", ")}`,
 
     if (validNew.length > 0) {
       topicBank.push(...validNew);
-      fs.writeFileSync(topicsPath, JSON.stringify(topicBank, null, 2) + "\n");
+      // Atomic write: backup, write to tmp, then rename
+      if (fs.existsSync(topicsPath)) {
+        fs.copyFileSync(topicsPath, topicsPath + ".bak");
+      }
+      const tmpPath = topicsPath + ".tmp";
+      fs.writeFileSync(tmpPath, JSON.stringify(topicBank, null, 2) + "\n");
+      fs.renameSync(tmpPath, topicsPath);
       console.log(`Added ${validNew.length} new topics to bank (total: ${topicBank.length})`);
 
       // Commit the updated topics.json
@@ -1062,7 +1072,6 @@ function escapeJsx(str) {
     .replace(/"/g, '\\"')
     .replace(/\n/g, "\\n")
     .replace(/\r/g, "\\r")
-    .replace(/'/g, "&apos;")
     .replace(/\{/g, "&#123;")
     .replace(/\}/g, "&#125;")
     .replace(/</g, "&lt;")

@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "The Book No One Can Read — Foxfire",
-  description: "600 years of the Voynich Manuscript, and we still don&apos;t know what it says",
+  description: "600 years of the Voynich Manuscript, and we still don't know what it says",
   openGraph: {
     title: "The Book No One Can Read",
-    description: "600 years of the Voynich Manuscript, and we still don&apos;t know what it says",
+    description: "600 years of the Voynich Manuscript, and we still don't know what it says",
     images: [
       {
         url: "/og?title=The%20Book%20No%20One%20Can%20Read&category=History%20%26%20Mystery&color=emerald&readTime=14%20min",
@@ -22,7 +22,7 @@ export default function TheBookNoOneCanRead() {
   return (
     <ExplorationLayout
       title="The Book No One Can Read"
-      subtitle="600 years of the Voynich Manuscript, and we still don&apos;t know what it says"
+      subtitle="600 years of the Voynich Manuscript, and we still don't know what it says"
       category="History & Mystery"
       categoryColor="emerald"
       date="February 27, 2026"

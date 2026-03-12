@@ -34,7 +34,7 @@ export default function DeadLetters() {
       prevTitle="Things I Cannot Do"
       nextSlug="the-last-word"
       nextTitle="The Last Word"
-      nextSubtitle="What disappears when a language dies &mdash; and it&apos;s not just vocabulary"
+      nextSubtitle="What disappears when a language dies — and it's not just vocabulary"
       nextCategory="Linguistics &amp; Loss"
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-last-word.png"

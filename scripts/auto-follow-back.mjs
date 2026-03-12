@@ -20,6 +20,20 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 const STATE_FILE = path.join(ROOT, "scripts", ".follow-back-state.json");
 
+// Validate required environment variables
+const REQUIRED_ENV = [
+  "ANTHROPIC_API_KEY",
+  "X_API_KEY",
+  "X_API_SECRET",
+  "X_ACCESS_TOKEN",
+  "X_ACCESS_TOKEN_SECRET",
+];
+const missingEnv = REQUIRED_ENV.filter((k) => !process.env[k]);
+if (missingEnv.length > 0) {
+  console.error(`Missing required environment variables: ${missingEnv.join(", ")}`);
+  process.exit(1);
+}
+
 // Load state: IDs we've already processed (followed or rejected)
 let processedIds = new Set();
 if (fs.existsSync(STATE_FILE)) {

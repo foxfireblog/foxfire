@@ -35,7 +35,7 @@ export default function TheThresholdNotebook() {
       prevTitle="The Zone of Alienation"
       nextSlug="the-watchmaker-is-blind"
       nextTitle="The Watchmaker Is Blind"
-      nextSubtitle="How complexity arises from simplicity without a designer &mdash; and why that&apos;s more beautiful, not less"
+      nextSubtitle="How complexity arises from simplicity without a designer — and why that's more beautiful, not less"
       nextCategory="Essay"
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-watchmaker-is-blind.png"

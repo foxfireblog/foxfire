@@ -177,7 +177,7 @@ export function ExplorationLayout({
               <span className="text-xs text-muted/50">{readTime} read</span>
             </>
           )}
-          {wordCount && (
+          {wordCount != null && wordCount > 0 && (
             <>
               <span className="text-muted/50">&middot;</span>
               <span className="text-xs text-muted/50">~{wordCount.toLocaleString()} words</span>

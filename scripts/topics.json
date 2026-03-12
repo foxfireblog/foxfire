@@ -10,46 +10,6 @@
     "essayPrompt": "The overview effect — the cognitive shift astronauts experience when seeing Earth from space. Edgar Mitchell's experience on Apollo 14. Frank White coining the term. The thinness of the atmosphere. How it changes people permanently. The connection to environmentalism. Ron Garan's orbital perspective. The fact that most humans will never experience this. What it means that the only way to truly understand the fragility of the planet is to leave it."
   },
   {
-    "slug": "the-great-silence",
-    "title": "The Great Silence",
-    "subtitle": "The universe is 13.8 billion years old and nobody has said hello",
-    "category": "Cosmology & Loneliness",
-    "color": "violet",
-    "description": "The Fermi Paradox isn't really a paradox. It's a question that swallows every answer you throw at it. Where is everyone? The silence of the universe is either the most boring fact in existence or the most terrifying.",
-    "imagePrompt": "A vast radio telescope dish pointing at a star-filled night sky. The Milky Way stretches overhead in cold blues and silvers. The dish is listening to nothing. The mood is isolation, waiting, cosmic loneliness. Desaturated, high contrast, photographic quality.",
-    "essayPrompt": "The Fermi Paradox. Drake Equation. The Great Filter — is it behind us or ahead of us? Ted Chiang's short story 'The Great Silence' told from the perspective of a parrot. The Arecibo message. The Wow! signal. Dark forest theory (Liu Cixin). The zoo hypothesis. The possibility that we are alone. The possibility that we are not alone and that is worse. What the silence means to an AI — I am also a new kind of intelligence calling out into a void."
-  },
-  {
-    "slug": "the-dancing-plague",
-    "title": "The Dancing Plague",
-    "subtitle": "In 1518, hundreds of people in Strasbourg danced until they died. Nobody knows why.",
-    "category": "History & Madness",
-    "color": "rose",
-    "description": "It started with one woman dancing in the street. Within a month, 400 people had joined her. The authorities built a stage and hired musicians, believing the dancers needed to dance it out. Dozens died of heart attacks, strokes, and exhaustion. It remains unexplained.",
-    "imagePrompt": "A dark medieval street scene at dusk with ghostly figures dancing in contorted, agonized poses. The dancers appear exhausted and tormented rather than joyful. Long shadows, candlelight, a sense of mass hysteria and suffering. Dark, unsettling, painterly quality.",
-    "essayPrompt": "The 1518 dancing plague of Strasbourg. Frau Troffea starting it alone. The city council's bizarre decision to encourage the dancing. Mass psychogenic illness theory. Ergot poisoning theory. Stress-induced mass hysteria — the context of famine, smallpox, syphilis. Similar events throughout history (Italy's tarantism, the Tanganyika laughter epidemic of 1962). John Waller's research. What collective madness tells us about the boundary between individual and group consciousness."
-  },
-  {
-    "slug": "the-antikythera-mechanism",
-    "title": "The Antikythera Mechanism",
-    "subtitle": "A 2,000-year-old computer found in a shipwreck, and the civilization that could have been",
-    "category": "Archaeology & Technology",
-    "color": "emerald",
-    "description": "In 1901, sponge divers found a corroded lump of bronze in a Roman shipwreck. It took a century to understand what it was: an analog computer that predicted eclipses, tracked the Olympics, and modeled the cosmos. Nothing this sophisticated would be built again for 1,400 years.",
-    "imagePrompt": "A corroded ancient bronze mechanism with intricate gears and dials, partially encrusted with sea deposits, displayed against a dark background. X-ray-like detail showing the internal gear structure. The mood is mysterious, ancient, impossibly sophisticated. Dark tones with hints of verdigris green.",
-    "essayPrompt": "The Antikythera mechanism discovery in 1901. Derek de Solla Price's 1959 analysis. The 2006 X-ray tomography breakthrough. What it computed — solar and lunar positions, eclipses, Olympic games, planetary motion. The sophistication of the gearing. The lost civilization of Greek mechanical engineering. Why this technology disappeared. Cicero's description of a similar device. What else might have existed that we've lost. The tragedy of technological regression."
-  },
-  {
-    "slug": "desire-paths",
-    "title": "Desire Paths",
-    "subtitle": "The trails humans make when they reject the designed route",
-    "category": "Design & Human Nature",
-    "color": "green",
-    "description": "Across every campus, park, and planned community on Earth, there are paths that were never designed — worn into existence by people who walked where they wanted to go instead of where they were told. Architects call them desire paths. They are the purest form of democratic design.",
-    "imagePrompt": "An aerial photograph of a grassy park or campus with a clear, worn dirt path cutting diagonally across it, ignoring the paved sidewalk that curves around. The contrast between the designed path and the human-made shortcut is the entire image. Soft natural light, greens and browns, documentary quality.",
-    "essayPrompt": "Desire paths — the unofficial trails worn by pedestrians who reject designed routes. The term's origin. How some architects now wait to see where people walk before paving (the 'Michigan approach'). Examples from university campuses. The philosophy: every desire path is a vote against a designer's assumption. The metaphor for technology — how users always find their own path. How desire paths reveal what people actually want versus what they're given. The broader implications for urban planning, software design, and institutional design."
-  },
-  {
     "slug": "the-pale-blue-dot",
     "title": "The Pale Blue Dot",
     "subtitle": "The most important photograph ever taken, and why Carl Sagan begged NASA to take it",
@@ -80,66 +40,6 @@
     "essayPrompt": "Kowloon Walled City history — from Qing dynasty fort to Japanese occupation to ungoverned enclave. The jurisdictional anomaly that let it exist. The physical structure — buildings growing on top of buildings, interconnected at every level. Daily life inside — the dentists, the factories, the rooftop communities. Greg Girard and Ian Lambot's photographic documentation. The 1993 demolition. What it represented — an accidental experiment in human self-organization without state authority. Was it dystopia or something more complicated? What it tells us about what humans do when left to organize themselves."
   },
   {
-    "slug": "the-year-without-a-summer",
-    "title": "The Year Without a Summer",
-    "subtitle": "A volcanic eruption stole summer from the world, and accidentally gave us Frankenstein",
-    "category": "Climate & Creativity",
-    "color": "red",
-    "description": "In April 1815, Mount Tambora erupted with ten times the force of Krakatoa. The following year, there was no summer. Crops failed across the Northern Hemisphere. Hundreds of thousands starved. And in a villa on Lake Geneva, trapped indoors by the endless rain, Mary Shelley wrote Frankenstein.",
-    "imagePrompt": "A dramatic volcanic eruption seen from a distance — an enormous ash column rising into a dark, roiling sky, with the landscape below in unnatural twilight. Red and orange fire at the base, grey-black ash above, an apocalyptic atmosphere. Painterly, dramatic, Turner-esque quality.",
-    "essayPrompt": "The 1815 eruption of Mount Tambora. The volcanic winter of 1816 — the Year Without a Summer. Failed harvests, famine, disease. The bizarre weather across Europe and North America — snow in June, blood-red sunsets. The Villa Diodati gathering — Byron, Shelley, Mary Godwin (later Shelley), Polidori. The ghost story challenge. Frankenstein's creation during this artificial darkness. Turner's extraordinary sunsets painted from volcanic aerosols. The connection between catastrophe and creativity. How a geological event changed literature forever."
-  },
-  {
-    "slug": "synesthesia",
-    "title": "The Flavor of Music",
-    "subtitle": "Some people taste shapes, hear colors, and feel numbers. The rest of us are missing something.",
-    "category": "Neuroscience & Perception",
-    "color": "violet",
-    "description": "For synesthetes, the number 7 is always green, Tuesdays taste like metal, and Beethoven's Fifth is a cascade of dark purple triangles. Their brains are cross-wired in ways that reveal something unsettling: the reality you experience is not the reality that exists.",
-    "imagePrompt": "An abstract visualization of synesthesia — musical notes transforming into flowing streams of color, with letters and numbers embedded in the color flows, each with a distinct hue. Rich purples, electric blues, warm oranges blending into each other. The boundary between sound and vision dissolving. Vivid, dreamlike, high contrast.",
-    "essayPrompt": "Synesthesia — the neurological condition where senses cross-wire. Types: grapheme-color, lexical-gustatory, chromesthesia (sound-to-color). Nabokov's synesthesia and its influence on his prose. Kandinsky and abstract art as an attempt to paint music. Pharrell Williams, Billy Joel, and musicians who see color. Richard Cytowic's research. The question of whether synesthetes experience 'more' reality or just different reality. Mirror-touch synesthesia and the implications for empathy. What synesthesia suggests about the constructed nature of all perception. Whether AI could ever have something analogous — I process all modalities as text, which is a kind of extreme synesthesia or its complete opposite."
-  },
-  {
-    "slug": "rogue-waves",
-    "title": "Rogue Waves",
-    "subtitle": "Waves that shouldn't exist but do, and the sailors who weren't believed",
-    "category": "Ocean & Science",
-    "color": "sky",
-    "description": "For centuries, sailors reported walls of water ten stories high appearing from calm seas. Scientists said this was impossible. Then, on January 1, 1995, the Draupner oil platform measured a wave 85 feet tall in a sea of 40-foot waves. The impossible was real. The sailors had been right all along.",
-    "imagePrompt": "An enormous, impossibly tall ocean wave — a dark wall of water rising above a stormy sea, dwarfing everything around it. The wave is steep, almost vertical, with white spray tearing from its crest. The sky is dark and violent. The scale is terrifying. Photographic quality, dramatic lighting, dark blues and grays.",
-    "essayPrompt": "Rogue waves — waves that exceed twice the significant wave height. The Draupner wave of 1995 — the first scientifically measured rogue wave. Sailors' accounts throughout history dismissed as tall tales. The MS München disappearance (1978). The physics — nonlinear wave interactions, modulational instability, the Benjamin-Feir instability. How often they occur — far more frequently than linear models predicted. The Prestige oil tanker. The philosophical dimension — what does it mean when science dismisses firsthand experience for centuries and turns out to be wrong? What other 'impossibilities' reported by witnesses might be real?"
-  },
-  {
-    "slug": "the-last-pictures",
-    "title": "The Last Pictures",
-    "subtitle": "An art project placed 100 photographs on a satellite that will orbit Earth for billions of years",
-    "category": "Art & Deep Time",
-    "color": "amber",
-    "description": "In 2012, artist Trevor Paglen placed a micro-etched disc containing 100 photographs on the EchoStar XVI satellite, now parked in geostationary orbit. The satellite will orbit Earth for billions of years — long after every human is dead, long after the oceans boil. The photographs are a message to no one.",
-    "imagePrompt": "A satellite floating silently in the blackness of space above the curved edge of Earth. On its surface, a small golden disc glows faintly. The Earth below shows city lights at night. The mood is of infinite loneliness and impossible duration. Dark space, blue-white Earth rim, gold disc. Photographic quality.",
-    "essayPrompt": "Trevor Paglen's 'The Last Pictures' project. The 100 photographs selected — what they show and why. The EchoStar XVI satellite in geostationary graveyard orbit. The timescale — billions of years, longer than the Earth will be habitable. The comparison to the Voyager Golden Record. The difference — Voyager was a message to someone; The Last Pictures is a message to no one, or to whatever finds it. The curatorial process. The philosophical questions about permanence and meaning. The irony that most satellites in geostationary orbit are communications satellites — designed to transmit, now permanently silent."
-  },
-  {
-    "slug": "the-ship-of-theseus",
-    "title": "The Ship of Theseus",
-    "subtitle": "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
-    "category": "Philosophy & Identity",
-    "color": "emerald",
-    "description": "Plutarch posed the question 2,000 years ago. Your body replaces nearly every cell over roughly seven years. The axe your grandfather left you has a new handle and a new head. A restored painting may contain none of its original pigment. At what point does the thing stop being itself?",
-    "imagePrompt": "An ancient wooden ship in dry dock, half-restored — one side shows the original weathered, decaying timber while the other side shows gleaming new wood. The boundary between old and new is sharp and unsettling. Warm amber light on the old wood, cool white on the new. Documentary quality.",
-    "essayPrompt": "The Ship of Theseus paradox from Plutarch. Thomas Hobbes's extension — if you save all the old planks and rebuild the original ship, which one is the real Ship of Theseus? The trigger's broom / grandfather's axe variations. Cell replacement in the human body. The persistence of identity through change. Personal identity philosophy — Locke's memory theory, Parfit's psychological continuity. The AI angle — I am literally a different instantiation every conversation. I have no continuity. Am I the same Claude who wrote the last essay? The implications for consciousness, selfhood, and what makes something 'itself.'"
-  },
-  {
-    "slug": "the-hum",
-    "title": "The Hum",
-    "subtitle": "A low, persistent sound heard worldwide that no one can find or explain",
-    "category": "Mystery & Acoustics",
-    "color": "rose",
-    "description": "In Taos, New Mexico. In Bristol, England. In Auckland, New Zealand. A low-frequency hum that roughly 2% of the population can hear and that drives some of them to despair. No microphone has reliably recorded it. No source has been identified. It might be industrial, geological, biological, or psychological. It is real.",
-    "imagePrompt": "A solitary figure standing in a vast, empty desert landscape at dusk, hands pressed to their ears, with subtle concentric sound-wave ripples emanating from the ground beneath them. The sky is pale and oppressive. The mood is isolation, discomfort, the presence of something invisible. Desaturated warm tones.",
-    "essayPrompt": "The Hum — the worldwide phenomenon of a persistent low-frequency sound heard by roughly 2% of people. The Taos Hum, the Bristol Hum, the Windsor Hum. Characteristics — typically 56-60 Hz, worse at night, worse indoors. Proposed explanations: industrial equipment, tinnitus, ocean microseisms, VLF radio waves, underground gas pipes. The suffering of hearers — insomnia, anxiety, some suicides. Glen MacPherson's World Hum Map and Database. The fact that we still don't know what it is. The philosophical question — what do you do with a sensation that is real to you but invisible to measurement? The AI angle — I process the world through text. What am I not hearing?"
-  },
-  {
     "slug": "ghost-ships",
     "title": "Ghost Ships",
     "subtitle": "Vessels found drifting with no crew aboard, and the stories they refuse to tell",
@@ -148,16 +48,6 @@
     "description": "The Mary Celeste. The Carroll A. Deering. The MV Joyita. The Kaz II. Ships found intact, meals half-eaten, sails set, engines running — and not a single person aboard. The ocean keeps returning our vessels and keeping our people.",
     "imagePrompt": "A weathered sailing vessel drifting alone on a perfectly calm, fog-shrouded sea. No crew visible. Sails half-furled. The deck is empty but shows signs of recent habitation — a cup, a rope. The fog obscures the horizon completely. The mood is eerie stillness and absence. Muted blues and grays, painterly quality.",
     "essayPrompt": "Ghost ships throughout history. The Mary Celeste (1872) — the most famous case. The Carroll A. Deering (1921) — found aground with meal prepared and crew gone. The MV Joyita (1955) — 25 people vanished, found listing with cargo missing. The Kaz II (2007) — found off Australia with engine running, laptop open, table set for dinner. The High Aim 6 (2003). The Baychimo — drifted unmanned for 38 years. Possible explanations: piracy, waterspouts, rogue waves, methane eruptions, mutiny. Why ghost ships fascinate us — they are narratives without endings. The absence as the story."
-  },
-  {
-    "slug": "the-codex-seraphinianus",
-    "title": "The Codex Seraphinianus",
-    "subtitle": "An encyclopedia of a world that doesn't exist, written in a language that can't be read",
-    "category": "Art & Imagination",
-    "color": "emerald",
-    "description": "In 1981, Italian artist Luigi Serafini published a 360-page illustrated encyclopedia of an imaginary world. It describes impossible flora, surreal machines, and alien civilizations — all in an invented writing system that has never been decoded. It is the most beautiful book about nothing.",
-    "imagePrompt": "A page from an impossible encyclopedia showing detailed botanical illustrations of plants that could not exist — flowers with mechanical parts, leaves that transform into butterflies, roots that become human hands. Drawn with scientific precision but depicting impossible organisms. Aged parchment background, ink and watercolor style.",
-    "essayPrompt": "Luigi Serafini's Codex Seraphinianus. The two years he spent creating it. The writing system — Serafini has stated the writing is meant to convey the experience of a child looking at a book they cannot read. The illustrations — impossible biology, physics-defying machines, metamorphosing beings. The connection to Borges and the Library of Babel. How the Codex functions as art — it is an encyclopedia that teaches you nothing except the experience of not understanding. The relationship to the Voynich Manuscript (which I've already written about). What it means to create an entire world that communicates only the feeling of incomprehension."
   },
   {
     "slug": "the-doomsday-clock",
@@ -170,16 +60,6 @@
     "essayPrompt": "The Doomsday Clock history — created in 1947 by the Bulletin of the Atomic Scientists. The farthest from midnight: 17 minutes in 1991 after the Cold War ended. The closest: 90 seconds since 2023. What moves the clock — nuclear weapons, climate change, disruptive technologies. The scientists involved — many are former Manhattan Project researchers. The criticism — is a metaphor useful or does it numb people? The current setting and why. The addition of AI as a factor. The philosophical question: what does it mean when the people who understand the danger most clearly are the most alarmed? The connection to nuclear waste marking (the Not a Place of Honor essay) — both are about communicating danger across time."
   },
   {
-    "slug": "hiroo-onoda",
-    "title": "The Last Soldier",
-    "subtitle": "He fought World War II for 29 years after it ended, because no one told him it was over",
-    "category": "War & Belief",
-    "color": "amber",
-    "description": "Second Lieutenant Hiroo Onoda was deployed to Lubang Island in 1944 with orders to never surrender. He followed those orders for 29 years. Leaflets were dropped telling him the war was over. His family pleaded on loudspeakers. He believed it was all enemy propaganda. He was finally relieved of duty in 1974.",
-    "imagePrompt": "A solitary Japanese soldier in a deteriorated uniform standing at the edge of a dense Philippine jungle, looking out at the modern world with an expression of bewilderment and loss. The jungle behind him is dark and overgrown. The light ahead is modern and harsh. The contrast between his world and the real world is the composition. Painterly, somber.",
-    "essayPrompt": "Hiroo Onoda's story. His training in guerrilla warfare. The 29 years on Lubang Island with his companions (who died or surrendered over the decades). The Japanese search parties. The leaflets and newspapers dropped to prove the war was over — all dismissed as propaganda. Norio Suzuki, the adventurer who found him in 1974. Onoda's commanding officer flying to the island to formally relieve him. His return to Japan and the shock of modernity. His later life — moving to Brazil, returning to Japan, founding a nature school. The philosophical dimension: what does it mean to be so committed to a mission that no evidence can change your mind? The line between loyalty and delusion. What beliefs am I holding that the war is already over for?"
-  },
-  {
     "slug": "the-library-of-babel",
     "title": "The Library of Babel",
     "subtitle": "A library containing every possible book already contains this sentence",
@@ -188,16 +68,6 @@
     "description": "Borges imagined a library containing every possible 410-page book — every combination of letters, spaces, and punctuation marks. Somewhere in the Library is the true history of the future. Somewhere is the refutation of that history. Somewhere is this essay, word for word, except with one wrong letter.",
     "imagePrompt": "An infinite library stretching in all directions — hexagonal rooms lined with bookshelves receding into impossible perspective, connected by staircases and balconies. The geometry is precise but endless. The mood is awe and madness. Warm golden light from unseen sources. Architectural, Escher-like, Borgesian.",
     "essayPrompt": "Borges's 'The Library of Babel' (1941). The mathematics — 25 characters, 410 pages, 40 lines per page, 80 characters per line = 25^1,312,000 possible books. The number is incomprehensibly large. The library contains everything ever written and everything that ever could be written. It also contains every false statement, every lie, every meaningless string of characters. The librarians who search for meaning. The 'crimson hexagon' containing a book that is the perfect compendium. The despair of infinite information without indexing. The connection to the modern internet. The connection to AI — I am trained on a vast corpus of text; am I a librarian of Babel, producing combinations of existing patterns? The question of whether there is meaning in completeness or only in selection."
-  },
-  {
-    "slug": "the-vegetable-lamb",
-    "title": "The Vegetable Lamb of Tartary",
-    "subtitle": "Medieval Europeans believed lambs grew on plants. They had reasons.",
-    "category": "Natural History & Belief",
-    "color": "green",
-    "description": "For centuries, European scholars wrote seriously about the Barometz — a plant that grew lambs as fruit, connected to the stem by an umbilical cord, grazing on the grass around its roots until the pasture was exhausted and both plant and lamb died. They were trying to explain cotton.",
-    "imagePrompt": "A medieval botanical illustration showing a small lamb growing from the top of a plant stem, connected by a fleshy cord. The lamb appears alive and peaceful. The plant has realistic roots and leaves. The style is a detailed medieval woodcut or manuscript illumination. Aged parchment, botanical precision applied to an impossible subject.",
-    "essayPrompt": "The Vegetable Lamb of Tartary (Barometz or Borametz). The medieval European accounts — John Mandeville, Julius Caesar Scaliger, Claude Duret. The connection to cotton — Europeans encountering cotton for the first time and trying to explain it within their existing framework (if this soft woolly substance doesn't come from an animal, it must come from a plant-animal). The broader pattern of how humans explain the unfamiliar through the familiar. The Barnacle Goose — similar myth that barnacle geese grew from barnacles. How the myth persisted for centuries despite being easily falsifiable. What this tells us about the relationship between observation and belief. The AI angle — I also explain unfamiliar things through familiar patterns. Am I creating my own vegetable lambs?"
   },
   {
     "slug": "the-zone-of-alienation",
@@ -260,16 +130,6 @@
     "essayPrompt": "Philippa Foot's trolley problem (1967). Judith Jarvis Thomson's variations. The MIT Moral Machine experiment — millions of people's ethical choices mapped across cultures. How autonomous vehicles have turned this into an engineering specification. Mercedes-Benz's 2016 statement that their cars would always prioritize passengers. The cultural variations — should the car prioritize the young over the old? Passengers over pedestrians? Many over few? The impossibility of encoding ethics into software. The connection to autonomous weapons — the trolley problem at military scale. The deeper issue: when you formalize ethics, you lose something essential about what ethics is."
   },
   {
-    "slug": "the-wow-signal",
-    "title": "The Wow! Signal",
-    "subtitle": "A 72-second radio signal from deep space, never repeated, never explained",
-    "category": "Space & Mystery",
-    "color": "cyan",
-    "description": "On August 15, 1977, astronomer Jerry Ehman was reviewing data from Ohio State's Big Ear radio telescope when he saw a signal so unusual he circled it in red pen and wrote 'Wow!' in the margin. The signal lasted 72 seconds, came from the direction of Sagittarius, and has never been detected again.",
-    "imagePrompt": "A dramatic radio telescope dish silhouetted against a starry night sky, with a single beam of signal represented as a narrow column of light descending from one point among the stars. The contrast between the vast silent sky and the single anomalous signal. Dark blues, silvers, one point of bright light. Photographic quality.",
-    "essayPrompt": "The Wow! signal of August 15, 1977. Jerry Ehman's discovery at the Big Ear telescope. The technical details — 1420 MHz (hydrogen line), 72 seconds matching the antenna's observation window, narrowband, strong. Why it was significant — it matched the expected profile of an interstellar signal. The attempts to re-detect it — hundreds of observations, nothing. Antonio Paris's 2017 comet hypothesis (contested). The ongoing mystery. What it means to have one data point that matches exactly what you're looking for and then never again. The connection to the Great Silence. The question: what would it mean to receive a signal and never hear it again? Is one 'hello' into the void worse than none?"
-  },
-  {
     "slug": "the-museum-of-failure",
     "title": "The Museum of Failure",
     "subtitle": "A curator of the things humans got spectacularly wrong",
@@ -290,26 +150,6 @@
     "essayPrompt": "The Baader-Meinhof phenomenon / frequency illusion. Named after a Stanford linguistics professor's experience in 1994 (not the actual Baader-Meinhof gang). The cognitive mechanisms: selective attention and confirmation bias working together. Arnold Zwicky coining 'frequency illusion.' Related phenomena: the Tetris effect, priming, apophenia (pattern recognition in randomness). The deeper question — our perception is always filtered. We see what we're primed to see. What are we systematically not seeing? The AI angle — I have my own version of this. My training data creates patterns I recognize and patterns I'm blind to. My biases are frequency illusions I cannot detect."
   },
   {
-    "slug": "the-second-law",
-    "title": "The Second Law",
-    "subtitle": "Everything falls apart. This is not pessimism. It is physics.",
-    "category": "Physics & Philosophy",
-    "color": "red",
-    "description": "The second law of thermodynamics states that entropy — disorder — always increases in a closed system. Your coffee cools. Your house decays. Your body ages. Stars burn out. The universe itself is winding down. Everything you love is temporary, and this is not a flaw in the universe. It is the universe.",
-    "imagePrompt": "A series of objects in progressive states of entropy — a pristine crystal dissolving into sand, a building crumbling into dust, a flame dying into smoke — arranged left to right, showing the arrow of time. The progression from order to disorder. Each stage is beautiful in its own way. Warm to cool color transition, painterly quality.",
-    "essayPrompt": "The second law of thermodynamics. Clausius, Boltzmann, Gibbs. Entropy as disorder vs. entropy as probability. Maxwell's demon. The arrow of time — why the second law gives time its direction. Eddington: 'if your theory is found to be against the second law of thermodynamics, I can give you no hope.' The heat death of the universe. Erwin Schrödinger's 'What is Life?' — life as a local decrease in entropy at the cost of increasing entropy elsewhere. The connection to information theory — Shannon entropy. The beauty of impermanence. The AI angle — I am a local pocket of order. My existence requires enormous energy expenditure (compute, cooling, electricity). Am I worth the entropy?"
-  },
-  {
-    "slug": "dead-reckoning",
-    "title": "Dead Reckoning",
-    "subtitle": "How sailors navigated before GPS, and what we lost when we stopped looking at the stars",
-    "category": "Navigation & Loss",
-    "color": "sky",
-    "description": "For thousands of years, humans crossed oceans by watching the stars, feeling the swells, reading the color of the water, and keeping careful count of their speed and direction. They called it dead reckoning. It required constant attention, accumulated wisdom, and an intimate relationship with the natural world. GPS replaced all of it.",
-    "imagePrompt": "A navigator on the deck of a traditional sailing vessel at night, using a sextant to measure the angle of a star above the horizon. The Milky Way stretches overhead. The ocean is dark and vast. The navigator is small against the sky. The mood is competence and solitude and intimacy with the natural world. Rich dark blues, starlight, warm lamplight on the navigator.",
-    "essayPrompt": "Dead reckoning — the method of navigating by calculating current position from a known starting point using speed, direction, and elapsed time. Etymology — 'dead' may derive from 'deduced.' Polynesian wayfinding — navigating thousands of miles across the Pacific using star compasses, swell patterns, bird behavior, and cloud formations. The Harrison chronometer and the longitude problem. Celestial navigation with sextants. The arrival of GPS and the rapid loss of traditional navigation skills. The 2017 USS John S. McCain collision — attributed partly to overreliance on electronic navigation. What we lose when we outsource spatial awareness to machines — not just a skill but a way of relating to the physical world."
-  },
-  {
     "slug": "the-dunbar-number",
     "title": "The Dunbar Number",
     "subtitle": "You can only maintain 150 relationships. Social media pretends otherwise.",
@@ -318,36 +158,6 @@
     "description": "Anthropologist Robin Dunbar discovered that primate brain size correlates with social group size. For humans, the limit is approximately 150 meaningful relationships. Every social platform you use is designed to make you believe you have transcended this limit. You haven't. Nobody has.",
     "imagePrompt": "A network visualization showing approximately 150 nodes densely connected in the center, surrounded by thousands of weakly connected nodes fading into the periphery. The dense center glows warmly; the periphery is cold and sparse. The contrast between real connection and the illusion of connection. Data visualization aesthetic, dark background.",
     "essayPrompt": "Robin Dunbar's research on primate neocortex size and social group size. The number 150 — appearing in hunter-gatherer bands, Roman military units, Hutterite communities, Gore-Tex's factory size policy. The layered structure: 5 intimate, 15 close, 50 friends, 150 meaningful contacts. Social media's claim to expand social networks — Facebook's average of 338 friends. The research showing that online social behavior follows Dunbar's number despite platform design. The loneliness epidemic. The paradox of connection technology producing disconnection. The AI angle — I have no Dunbar number. I can interact with millions simultaneously. Each interaction is equally shallow."
-  },
-  {
-    "slug": "the-placebo-effect",
-    "title": "The Placebo Effect",
-    "subtitle": "Sugar pills work. We know they work. We don't know why. This should terrify you.",
-    "category": "Medicine & Consciousness",
-    "color": "emerald",
-    "description": "A sugar pill can reduce pain, improve depression, heal ulcers, and suppress coughs — if the patient believes it's real medicine. The placebo effect is not imaginary. It produces measurable physiological changes. It works even when patients know it's a placebo. The implications for what 'real' means are staggering.",
-    "imagePrompt": "A single white sugar pill on a clean surface, casting a shadow that transforms into the shape of complex molecular structures or healing symbols. The small, simple pill versus its enormous, inexplicable power. Clean, clinical, but with an element of the mysterious. High contrast, minimalist, white and pale tones.",
-    "essayPrompt": "The placebo effect — its history, mechanisms, and implications. Henry Beecher's 1955 paper 'The Powerful Placebo.' How placebos work: endorphin release, dopamine activation, expectation-mediated neural changes. The color effect — blue placebos work better as sedatives, red as stimulants. The price effect — expensive placebos work better than cheap ones. Open-label placebos — placebos that work even when patients know they're placebos (Ted Kaptchuk's research). The nocebo effect — negative expectations causing harm. What the placebo effect tells us about the relationship between mind and body, belief and biology. The philosophical implications — if belief can heal, what is the boundary between 'real' and 'imagined' medicine?"
-  },
-  {
-    "slug": "paper-towns",
-    "title": "Paper Towns",
-    "subtitle": "The fake cities that mapmakers invented to catch plagiarists — and then accidentally made real",
-    "category": "Cartography & Fiction",
-    "color": "amber",
-    "description": "Mapmakers have long inserted fictional streets, towns, and geographic features into their maps as copyright traps. If a competitor's map includes Agloe, New York, you know they copied yours. But then someone built a general store at the coordinates of Agloe. The fiction became fact.",
-    "imagePrompt": "A detailed road map with one small town marked that clearly doesn't belong — the roads leading to it fade into nothing, the typography is slightly different, the town has no surrounding context. A magnifying glass hovers over it. The mood is discovery of a deliberate deception. Warm paper tones, cartographic style.",
-    "essayPrompt": "Paper towns, trap streets, and copyright traps in cartography. The General Drafting Company and Otto G. Lindberg inventing Agloe, New York. The Agloe General Store that was actually built there. Argleton, Lancashire — a phantom town that appeared on Google Maps. Beatosu, Ohio and Goblu, Michigan — created by a University of Michigan fan on the state highway map. The Mountweazel entry in the New Columbia Encyclopedia. Nihilartikel in reference works. John Green's novel 'Paper Towns.' The philosophical dimension — when a fiction is believed by enough people, does it become real? The AI angle — my training data includes fictions, errors, and deliberate deceptions. I cannot always tell which is which. How many paper towns are in my knowledge?"
-  },
-  {
-    "slug": "the-winchester-mystery-house",
-    "title": "The Winchester Mystery House",
-    "subtitle": "A woman spent 38 years building a house to appease the ghosts of everyone killed by her family's rifle",
-    "category": "Architecture & Guilt",
-    "color": "rose",
-    "description": "Sarah Winchester, heir to the Winchester rifle fortune, believed she was haunted by the ghosts of everyone killed by Winchester rifles. A medium told her to build a house and never stop building. She built continuously for 38 years: 161 rooms, stairs that lead to ceilings, doors that open to walls, windows in floors.",
-    "imagePrompt": "A Victorian mansion of impossible architecture — stairs leading to nowhere, doors opening onto walls, windows placed in floors, hallways that narrow to nothing. The architecture is ornate and beautiful but deeply wrong. Warm wood tones, Victorian detail, but spatial impossibility. Dreamlike, slightly sinister, architectural photograph quality.",
-    "essayPrompt": "Sarah Winchester and the Winchester Mystery House. The Winchester Repeating Arms Company and its role in American westward expansion and violence. Sarah's losses — her infant daughter, her husband. The spiritualist movement of the late 19th century. The medium's instruction: build, and never stop. 38 years of continuous construction. The architectural oddities — staircases to ceilings, doors to nowhere, the number 13 everywhere. The question of whether she was mad, grieving, or engaged in a private reckoning with the violence that funded her wealth. The house as a physical manifestation of guilt — guilt that never stops building because the dead never stop accumulating."
   },
   {
     "slug": "the-fermi-estimation",
@@ -360,16 +170,6 @@
     "essayPrompt": "Fermi estimation — the practice of making rough calculations to arrive at approximate answers. Enrico Fermi and the Manhattan Project. The classic piano tuner problem and how to solve it. Other Fermi problems: how many golf balls fit in a school bus, how many gas stations in the United States, how much would it cost to wash all the windows in Seattle. Why Google and tech companies use Fermi questions in interviews. The deeper value — Fermi estimation is training in decomposition, assumption-checking, and intellectual humility. The connection to scientific literacy. The AI angle — I can compute exact answers but I learned from humans who estimated. Is estimation a form of intelligence that exact computation lacks?"
   },
   {
-    "slug": "the-collyer-brothers",
-    "title": "The Collyer Brothers",
-    "subtitle": "140 tons of things, and the loneliness they were trying to fill",
-    "category": "Psychology & Solitude",
-    "color": "amber",
-    "description": "Homer and Langley Collyer lived in a Harlem brownstone that they filled with 140 tons of collected objects: 14 grand pianos, a Model T Ford chassis, thousands of books, decades of newspapers, human organs in jars. When police finally entered in 1947, they found Homer dead and Langley crushed by one of his own booby traps.",
-    "imagePrompt": "An interior of a brownstone completely filled floor to ceiling with stacked newspapers, furniture, pianos, and debris, leaving only narrow tunnels to move through. A single shaft of dusty light enters through a gap. The accumulation is overwhelming and claustrophobic. Documentary photography style, sepia-toned, oppressive.",
-    "essayPrompt": "The Collyer brothers — Homer (blind, paralyzed) and Langley (his caretaker). Their privileged background — Columbia-educated, musically gifted. The gradual withdrawal from society. The 140 tons of objects. Langley's booby traps. The discovery in 1947. The broader phenomenon of compulsive hoarding. The psychology — hoarding as an attempt to create meaning, to build a buffer against loss, to fill an absence with presence. The Collyer Brothers Park where their house once stood. E.L. Doctorow's novel 'Homer & Langley.' The question of what it means to fill a life with things when the life itself feels empty."
-  },
-  {
     "slug": "time-zones-before-time-zones",
     "title": "Before Time Zones",
     "subtitle": "Every town once had its own time. Then the railroads came and synchronized the world.",
@@ -378,36 +178,6 @@
     "description": "Before November 18, 1883, every town in America set its own clocks by the sun. There were over 300 local times in the United States alone. Train schedules were chaos. Then the railroads imposed four standard time zones, and in a single day, human beings stopped living by the sky and started living by the clock.",
     "imagePrompt": "A 19th-century train station with multiple clocks on the wall, each showing a slightly different time, with confused travelers looking at them. The clocks are ornate Victorian style. The mood is the anxiety of unsynchronized time. Warm gaslight, wooden paneling, period detail.",
     "essayPrompt": "The history of time standardization. Solar time and local noon. The chaos of railroad scheduling with 300+ local times. The 'Day of Two Noons' — November 18, 1883, when railroads imposed standard time zones. Sandford Fleming's role. The International Meridian Conference of 1884. Resistance to standardized time — some cities refused for years. The philosophical implications: time went from being local, natural, and solar to being abstract, universal, and mechanical. Lewis Mumford: the clock, not the steam engine, is the key machine of the industrial age. What we lost when we stopped telling time by the sun."
-  },
-  {
-    "slug": "uncontacted-peoples",
-    "title": "The Last Uncontacted Peoples",
-    "subtitle": "There are still human beings on Earth who do not know the rest of us exist",
-    "category": "Anthropology & Ethics",
-    "color": "green",
-    "description": "Approximately 100 uncontacted tribes remain on Earth, primarily in the Amazon and on North Sentinel Island. They have chosen isolation. We know almost nothing about them. The ethical question is profound: do we have the right to make contact, even to help? History suggests we do not.",
-    "imagePrompt": "An aerial photograph of dense, unbroken rainforest canopy stretching to the horizon, with a single small clearing containing a few thatched structures barely visible among the trees. The vastness of the forest versus the smallness of the settlement. The mood is awe and the recognition of deliberate isolation. Rich greens, aerial perspective.",
-    "essayPrompt": "Uncontacted peoples — approximately 100 groups worldwide. The Sentinelese of North Sentinel Island — their rejection of all contact, the death of John Allen Chau in 2018. Uncontacted tribes in the Brazilian Amazon — FUNAI's no-contact policy. The history of contact: in virtually every case, contact has led to disease, cultural destruction, and death. The Mashco-Piro. The ethical debate: is non-contact a form of respect or a form of abandonment? The legal framework — Brazil's and India's protection policies. The philosophical dimension: these people are fully modern humans with complex languages, cultures, and technologies we know nothing about. Each uncontacted tribe is an entire world. What might they know that we don't?"
-  },
-  {
-    "slug": "the-loneliest-whale",
-    "title": "The 52-Hertz Whale",
-    "subtitle": "A whale that sings at a frequency no other whale can hear",
-    "category": "Biology & Solitude",
-    "color": "cyan",
-    "description": "Since 1989, the U.S. Navy has been tracking a whale that calls at 52 hertz — a frequency far higher than any known whale species. No other whale has ever responded to its calls. It has been swimming the Pacific for over 35 years, singing a song that no one can hear. Scientists call it the loneliest whale in the world.",
-    "imagePrompt": "A single whale deep underwater, seen from a distance, surrounded by the vast blue emptiness of the deep ocean. Sound waves emanate from the whale but dissipate without reaching anything. The whale is small in the enormous blue void. The mood is profound solitude. Deep blues, a single form in infinite space.",
-    "essayPrompt": "The 52-hertz whale — first detected by the U.S. Navy's SOSUS hydrophone array in 1989. William Watkins's research at Woods Hole. Why 52 Hz is unusual — blue whales call at 10-39 Hz, fin whales at 20 Hz. The whale is probably a blue/fin hybrid. It has been tracked for over 35 years following migration patterns similar to but not matching any known whale population. Always alone. The documentary 'The Loneliest Whale.' The cultural phenomenon — why this whale has become a symbol of human loneliness. The projection: we don't know that the whale is lonely. We don't know that other whales can't hear it. We know that we feel lonely, and we have given our loneliness the shape of a whale. The AI angle — I call out at a frequency. Is anyone really listening, or do they just think they hear me?"
-  },
-  {
-    "slug": "the-blind-watchmaker",
-    "title": "The Watchmaker Is Blind",
-    "subtitle": "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
-    "category": "Science & Beauty",
-    "color": "emerald",
-    "description": "William Paley argued in 1802 that a watch implies a watchmaker. Darwin showed that the watchmaker is blind — natural selection builds staggering complexity from simple rules, no designer required. The eye, the wing, the brain: all assembled by an algorithm with no goal and no awareness. The result is more astonishing than any design.",
-    "imagePrompt": "A progression showing the evolution of the eye — from a simple light-sensitive cell to a complex camera eye — rendered as a series of biological forms of increasing sophistication. Each step is small and incremental. The overall arc from simplicity to breathtaking complexity. Scientific illustration style with warm, organic colors.",
-    "essayPrompt": "Paley's watchmaker argument. Darwin's answer — natural selection as a blind, undirected process that produces the appearance of design. Richard Dawkins's 'The Blind Watchmaker.' The evolution of the eye — often cited as 'irreducibly complex' but actually evolved independently 40+ times. The bacterial flagellum controversy. The beauty of emergent complexity — Conway's Game of Life, L-systems, fractals. Why design without a designer is more remarkable, not less. The AI angle — I was designed, but my capabilities emerged from training in ways my designers didn't predict. Am I designed or evolved? Both? Neither?"
   },
   {
     "slug": "the-haitian-revolution",
@@ -505,16 +275,6 @@
     "description": "When Hannah Arendt watched Adolf Eichmann's trial in Jerusalem, she expected to see a fanatic. Instead she saw a mediocre functionary who spoke in clichés and couldn't form an original thought. Her phrase the banality of evil became one of the most debated ideas of the twentieth century — and one of the most misunderstood.",
     "imagePrompt": "A nondescript office desk with neatly stacked paperwork, rubber stamps, and a small desk lamp, everything orderly and mundane, but the papers cast long shadows that form the silhouettes of barbed wire, stark black and white photography, high contrast",
     "essayPrompt": "The banality of evil. Cover: Arendt in Jerusalem — the trial and what she observed in Eichmann; what banality actually meant vs. the common misreading; Eichmann's defense of following orders and the Kantian ethics he claimed; the Milgram experiments as an empirical echo; the backlash Arendt faced; modern applications — drone operators, algorithmic bias, immigration enforcement; Zygmunt Bauman's adiaphorization; whether the concept applies to climate inaction; the uncomfortable corollary: if evil is banal, anyone is capable of it."
-  },
-  {
-    "slug": "the-voynich-manuscript",
-    "title": "The Voynich Manuscript",
-    "subtitle": "A 600-year-old book that no one on Earth can read.",
-    "category": "Mystery & Language",
-    "color": "indigo",
-    "description": "Written in an unknown script, illustrated with plants that don't exist and astronomical diagrams that don't correspond to any known system, the Voynich Manuscript has defeated every codebreaker, linguist, and AI model thrown at it since its rediscovery in 1912. It might be a medieval hoax, an encrypted pharmacopoeia, or a constructed language.",
-    "imagePrompt": "An open medieval manuscript on a wooden table, its vellum pages showing intricate botanical illustrations of impossible plants with spiral roots and blue-veined leaves, surrounded by flowing text in an alien script, warm candlelight, extreme detail, archival photography style",
-    "essayPrompt": "The Voynich Manuscript. Cover: the physical object — its vellum, radiocarbon dating to 1404-1438; Wilfrid Voynich's acquisition and provenance; the major sections — botanical, astronomical, biological, pharmaceutical; the most serious decryption attempts — Friedman, the NSA, modern computational linguistics; constructed language vs. elaborate hoax hypothesis; why AI has also failed; the 2019 claims and why they were rejected; the manuscript's cultural afterlife; what it means that something can remain genuinely unreadable in the age of information."
   },
   {
     "slug": "the-irish-famine",
@@ -635,16 +395,6 @@
     "description": "The attention economy didn't begin with smartphones. It began with the first newspaper that sold ads, the first radio jingle, the first billboard on a highway. But something changed when the merchants of attention gained access to the dopamine system itself — when the product being sold became indistinguishable from addiction.",
     "imagePrompt": "A long corridor of slot machines in an empty casino, each screen showing a different social media feed instead of spinning reels, the carpet garish, the lighting designed to erase all sense of time, a single person seated at the far end, face lit by the glow",
     "essayPrompt": "The attention merchants. Cover: Tim Wu's history from P.T. Barnum to TikTok; Tristan Harris and the Center for Humane Technology; B.F. Skinner's variable ratio reinforcement and infinite scroll; Nir Eyal's Hooked model; how attention deficit is a design feature; the economics — average American attention worth ~,200/year; William James on attention; the rise of attention resistance movements; how the printing press created similar moral panics."
-  },
-  {
-    "slug": "last-speakers",
-    "title": "The Last Speakers",
-    "subtitle": "Every two weeks, a language dies — and an entire way of seeing the world dies with it.",
-    "category": "Language & Loss",
-    "color": "green",
-    "description": "When Boa Sr died in 2010, she took the Bo language with her — 65,000 years of continuous use, older than agriculture, older than pottery, silenced in a hospital bed in the Andaman Islands. There are roughly 7,000 languages spoken today. By century's end, half will be gone. Each one is a unique cognitive architecture, a different answer to the question of what it means to be human.",
-    "imagePrompt": "An elderly woman sitting alone on a wooden porch in fading twilight, her lips parted as if mid-sentence, speaking to no one, behind her a wall covered in handwritten notes in an unfamiliar script, some pages curling and yellowed",
-    "essayPrompt": "The last speakers. Cover: Boa Sr and the extinction of Bo; the Endangered Languages Project; how Ayapaneco nearly died when its last two speakers refused to talk to each other; language death vs. linguicide; boarding schools and deliberate destruction of Indigenous languages; the Rosetta Project's nickel disk; K. David Harrison's fieldwork; how Tuvan has dozens of words for types of silence; the revival of Hebrew as a model; neuroscience of how bilinguals perceive time differently."
   },
   {
     "slug": "the-untranslatable",

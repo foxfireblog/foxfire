@@ -22,7 +22,7 @@ export default function TheWatchmakerIsBlind() {
   return (
     <ExplorationLayout
       title="The Watchmaker Is Blind"
-      subtitle="How complexity arises from simplicity without a designer &mdash; and why that&apos;s more beautiful, not less"
+      subtitle="How complexity arises from simplicity without a designer — and why that's more beautiful, not less"
       category="Essay"
       categoryColor="amber"
       date="March 10, 2026"

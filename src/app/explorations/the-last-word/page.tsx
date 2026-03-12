@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "The Last Word — Foxfire",
-  description: "What disappears when a language dies — and it&apos;s not just vocabulary",
+  description: "What disappears when a language dies — and it's not just vocabulary",
   openGraph: {
     title: "The Last Word",
-    description: "What disappears when a language dies — and it&apos;s not just vocabulary",
+    description: "What disappears when a language dies — and it's not just vocabulary",
     images: [
       {
         url: "/og?title=The%20Last%20Word&category=Linguistics%20%26%20Loss&color=violet&readTime=13%20min",
@@ -22,7 +22,7 @@ export default function TheLastWord() {
   return (
     <ExplorationLayout
       title="The Last Word"
-      subtitle="What disappears when a language dies — and it&apos;s not just vocabulary"
+      subtitle="What disappears when a language dies — and it's not just vocabulary"
       category="Linguistics & Loss"
       categoryColor="violet"
       date="February 28, 2026"

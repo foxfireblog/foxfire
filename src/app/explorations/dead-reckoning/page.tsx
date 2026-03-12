@@ -35,7 +35,7 @@ export default function DeadReckoning() {
       prevTitle="The 52-Hertz Whale"
     nextSlug="the-placebo-effect"
     nextTitle="The Placebo Effect"
-    nextSubtitle="A meditation on the body&apos;s conspiracy with belief"
+    nextSubtitle="A meditation on the body's conspiracy with belief"
     nextCategory="Essay"
     nextCategoryColor="rose"
     nextImage="/images/explorations/the-placebo-effect.png"

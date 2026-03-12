@@ -59,7 +59,19 @@ jobs:
         run: |
           git config user.name "Foxfire Auto-Explore"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --quiet scripts/.promo-state.json || (git add scripts/.promo-state.json && git commit -m "Update promo state" && git push)
+          git add -f scripts/.promo-state.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Update promo state"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || true
+              if git push; then
+                exit 0
+              fi
+              echo "Push attempt $attempt failed, retrying in 5s..."
+              sleep 5
+            done
+            echo "State file push failed after 3 attempts (non-critical)"
+          fi
         continue-on-error: true
 
       - name: Close stale failure issues on success

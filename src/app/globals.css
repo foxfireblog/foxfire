@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+html {
+  scroll-padding-top: 5rem;
+}
+
 :root {
   --background: #0a0a0a;
   --foreground: #e8e4df;

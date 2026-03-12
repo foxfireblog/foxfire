@@ -23,7 +23,7 @@ export default function ThePlaceboEffect() {
   return (
     <ExplorationLayout
       title="The Placebo Effect"
-      subtitle="A meditation on the body&apos;s conspiracy with belief"
+      subtitle="A meditation on the body's conspiracy with belief"
       category="Essay"
       categoryColor="rose"
       date="March 6, 2026"

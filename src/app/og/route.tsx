@@ -123,11 +123,14 @@ export async function GET(request: NextRequest) {
             flexDirection: "column",
             gap: 16,
             maxWidth: 900,
+            overflow: "hidden",
+            maxHeight: 300,
           }}
         >
           <div
             style={{
-              fontSize: title.length > 40 ? 48 : 56,
+              fontSize:
+                title.length > 80 ? 36 : title.length > 40 ? 48 : 56,
               fontWeight: 700,
               lineHeight: 1.15,
               color: "rgba(228,228,231,0.92)",
@@ -161,6 +164,12 @@ export async function GET(request: NextRequest) {
         </div>
       </div>
     ),
-    { width: 1200, height: 630 }
+    {
+      width: 1200,
+      height: 630,
+      headers: {
+        "Cache-Control": "public, max-age=31536000, immutable",
+      },
+    }
   );
 }
