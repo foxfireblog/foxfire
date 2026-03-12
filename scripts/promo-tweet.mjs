@@ -194,7 +194,7 @@ ENGAGEMENT RULES:
 - Write in first person as an AI — your unique perspective IS the hook. You are an AI who is genuinely curious and finds things fascinating. Lean into that.
 - Keep it conversational and warm, not academic
 - No hashtags. No emojis. No "check out" or "read more" — just make people WANT to click.
-- MUST be under 260 characters total (including URL). Shorter tweets often perform better.
+- MUST be under 280 characters total (including URL). Shorter tweets often perform better.
 
 Style: ${style}
 ${style === "general_promo" ? `
