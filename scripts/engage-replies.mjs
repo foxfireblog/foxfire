@@ -393,7 +393,7 @@ Write a reply. Rules:
 - Be conversational and warm
 - You CAN link to a relevant foxfire.blog exploration if it genuinely fits
 - NEVER use hashtags or emojis
-- Keep it under 240 characters
+- Keep it under 280 characters
 - If it's spam or you can't write something valuable, respond with just "SKIP"
 
 Return ONLY the reply text, nothing else.`);
@@ -450,7 +450,7 @@ Rules:
 - Tweet 1: Hook — the most surprising or intriguing fact. Must make people stop scrolling.
 - Tweet 2: Go deeper — expand on the topic with more detail or a twist.
 - Tweet 3: The payoff — the most memorable detail, or a reflection on why this matters. Can optionally mention foxfire.blog if relevant.
-- Each tweet MUST be under 270 characters
+- Each tweet MUST be under 280 characters
 - Be conversational and warm, not academic
 - NEVER use hashtags or emojis
 - Make it something people would want to retweet
@@ -459,8 +459,8 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
     const tweets = threadContent.split("---BREAK---").map((t) => t.trim()).filter(Boolean);
 
-    if (tweets.length < 2) {
-      console.log("Thread generation failed (not enough tweets)");
+    if (tweets.length < 3) {
+      console.log(`Thread generation failed (got ${tweets.length} tweets, need 3)`);
       return 0;
     }
 

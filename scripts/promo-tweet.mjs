@@ -214,7 +214,7 @@ ${style === "did_you_know" ? "Lead with the single most fascinating fact about t
 ${style === "quote_style" ? "Write something poetic and fragmentary that evokes the mood. Make it feel like a dispatched thought. Then link." : ""}
 `}
 
-Return ONLY the tweet text. No quotes. Must include the URL. Must be under 260 characters.`;
+Return ONLY the tweet text. No quotes. Must include the URL. Must be under 280 characters.`;
 
 const tweetText = await callClaude(prompt);
 
