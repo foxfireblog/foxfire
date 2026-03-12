@@ -294,9 +294,19 @@ async function publishSeriesPart(seriesEntry, partEntry, existingSlugs) {
     }
   }
 
-  // Create page, update indexes, navigation
-  const { readTime, currentNewestSlug } = createPage(topic, content, audioUrl);
+  // Create page with series-aware navigation
+  const seriesPrev = partEntry.prevPartSlug
+    ? { slug: partEntry.prevPartSlug, title: partEntry.prevPartTitle }
+    : null;
+  const { readTime, currentNewestSlug } = createPage(topic, content, audioUrl, seriesPrev);
   updateIndexPages(topic, readTime);
+
+  // For series parts: link previous part → this part (override any existing next link)
+  if (partEntry.prevPartSlug) {
+    updateSeriesPartNavigation(partEntry.prevPartSlug, topic, readTime);
+  }
+
+  // Also update chronological navigation (most recent non-series exploration → this)
   updateNavigation(topic, currentNewestSlug, readTime);
 
   // Update series queue (remove published part)
@@ -631,7 +641,7 @@ async function generateAudioKokoro(topic, content) {
 }
 
 // ── Create the page file ────────────────────────────────────────────
-function createPage(topic, content, audioUrl = null) {
+function createPage(topic, content, audioUrl = null, seriesPrev = null) {
   // Check for duplicate slug before creating anything
   const dataContent = fs.readFileSync(path.join(ROOT, "src", "data", "explorations.ts"), "utf-8");
   if (dataContent.includes(`slug: "${topic.slug}"`)) {
@@ -663,8 +673,11 @@ function createPage(topic, content, audioUrl = null) {
     .filter(Boolean).length;
   const readTime = `${Math.max(3, Math.round(wordCount / 230))} min`;
 
-  const prevNav = currentNewestSlug
-    ? `\n      prevSlug="${currentNewestSlug}"\n      prevTitle="${escapeJsx(currentNewestTitle)}"`
+  // For series parts 2+, link back to previous series part instead of chronological prev
+  const prevSlug = seriesPrev ? seriesPrev.slug : currentNewestSlug;
+  const prevTitle = seriesPrev ? seriesPrev.title : currentNewestTitle;
+  const prevNav = prevSlug
+    ? `\n      prevSlug="${prevSlug}"\n      prevTitle="${escapeJsx(prevTitle)}"`
     : "";
 
   const now = new Date();
@@ -787,6 +800,57 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
     fs.writeFileSync(prevPagePath, prevContent);
     console.log(`Updated navigation in ${currentNewestSlug}/page.tsx`);
   }
+}
+
+// ── Update series part navigation (link previous part → this part) ───
+function updateSeriesPartNavigation(prevPartSlug, nextPartTopic, nextPartReadTime) {
+  const prevPagePath = path.join(
+    ROOT, "src", "app", "explorations", prevPartSlug, "page.tsx"
+  );
+  if (!fs.existsSync(prevPagePath)) {
+    console.warn(`WARNING: Previous series part page not found: ${prevPartSlug}`);
+    return;
+  }
+
+  let prevContent = fs.readFileSync(prevPagePath, "utf-8");
+
+  // If it already has nextSlug, replace it (might point to a non-series exploration)
+  if (prevContent.includes("nextSlug=")) {
+    // Replace existing next navigation props with series part links
+    prevContent = prevContent.replace(
+      /\n\s+nextSlug="[^"]*"\n\s+nextTitle="[^"]*"(?:\n\s+nextSubtitle="[^"]*")?(?:\n\s+nextCategory="[^"]*")?(?:\n\s+nextCategoryColor="[^"]*")?(?:\n\s+nextImage="[^"]*")?(?:\n\s+nextReadTime="[^"]*")?/,
+      buildNextNavProps(nextPartTopic, nextPartReadTime)
+    );
+  } else {
+    // Insert next navigation props (same approach as updateNavigation)
+    const before = prevContent;
+    const nextProps = buildNextNavProps(nextPartTopic, nextPartReadTime);
+    prevContent = prevContent.replace(
+      /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+wordCount=\{[^}]+\})?(?:\n[ \t]+audioSrc="[^"]*")?(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
+      `$1$2${nextProps}\n$3>`
+    );
+    if (prevContent === before) {
+      console.warn(`WARNING: Could not insert series next-navigation into ${prevPartSlug}/page.tsx`);
+      return;
+    }
+  }
+
+  fs.writeFileSync(prevPagePath, prevContent);
+  console.log(`Updated series navigation: ${prevPartSlug} → ${nextPartTopic.slug}`);
+}
+
+function buildNextNavProps(topic, readTime) {
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+  const props = [
+    `nextSlug="${topic.slug}"`,
+    `nextTitle="${escapeJsx(topic.title)}"`,
+    `nextSubtitle="${escapeJsx(topic.subtitle)}"`,
+    `nextCategory="${escapeJsx(topic.category)}"`,
+    `nextCategoryColor="${topic.color}"`,
+    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.png"`] : []),
+    `nextReadTime="${readTime}"`,
+  ];
+  return "\n      " + props.join("\n      ");
 }
 
 // ── Auto-replenish topics (for every 1 used, add 2 new) ─────────────
@@ -977,6 +1041,7 @@ async function main() {
     // Save remaining parts to the series queue with staggered readyAfter dates
     const now = new Date();
     const queuedParts = parts.slice(1).map((p, i) => {
+      const prevPart = parts[i]; // parts[0] for the first queued (which is parts[1]), etc.
       const readyDate = new Date(now);
       readyDate.setDate(readyDate.getDate() + SERIES_PART_GAP_DAYS * (i + 1));
       return {
@@ -985,6 +1050,8 @@ async function main() {
         pageContent: p.pageContent,
         audioUrl: p.audioUrl,
         topic: p.topic,
+        prevPartSlug: prevPart.slug,
+        prevPartTitle: prevPart.topic.title,
         readyAfter: readyDate.toISOString(),
       };
     });
