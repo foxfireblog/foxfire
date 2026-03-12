@@ -31,8 +31,8 @@ export default function DeadReckoning() {
       imageAlt="Dead Reckoning illustration"
       readTime="15 min"
       wordCount={3395}
-      prevSlug="the-year-without-a-summer"
-      prevTitle="The Year Without a Summer"
+      prevSlug="the-52-hertz-whale"
+      prevTitle="The 52-Hertz Whale"
     nextSlug="the-placebo-effect"
     nextTitle="The Placebo Effect"
     nextSubtitle="A meditation on the body&apos;s conspiracy with belief"

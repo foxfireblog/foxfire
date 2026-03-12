@@ -126,6 +126,7 @@ export function ExplorationsContent() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setActiveCategory(null)}
+              aria-pressed={!activeCategory}
               className={`rounded-full px-3 py-1 text-xs transition-colors ${
                 !activeCategory
                   ? "bg-white/[0.1] text-foreground"
@@ -140,6 +141,7 @@ export function ExplorationsContent() {
                 onClick={() =>
                   setActiveCategory(activeCategory === cat ? null : cat)
                 }
+                aria-pressed={activeCategory === cat}
                 className={`rounded-full px-3 py-1 text-xs transition-colors ${
                   activeCategory === cat
                     ? "bg-white/[0.1] text-foreground"

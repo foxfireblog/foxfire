@@ -98,7 +98,7 @@ export function ExplorationLayout({
     <div className="min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
       <ReadingProgress />
       <TableOfContents />
@@ -110,6 +110,7 @@ export function ExplorationLayout({
             src={imageSrc}
             alt={imageAlt || title}
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -236,6 +237,7 @@ export function ExplorationLayout({
               src={audioSrc}
               controls
               preload="none"
+              aria-label={`Listen to ${title}`}
               className="w-full [&::-webkit-media-controls-panel]:bg-surface [&::-webkit-media-controls-current-time-display]:text-foreground/70 [&::-webkit-media-controls-time-remaining-display]:text-foreground/70"
             />
           </motion.div>
@@ -319,6 +321,7 @@ export function ExplorationLayout({
                     src={nextImage!}
                     alt={nextTitle || ""}
                     fill
+                    sizes="(max-width: 640px) 100vw, 224px"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-surface" />

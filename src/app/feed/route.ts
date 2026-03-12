@@ -18,8 +18,8 @@ export async function GET() {
       const date = new Date(e.publishedAt!);
       return `    <item>
       <title>${escapeXml(e.title)}</title>
-      <link>${siteUrl}/explorations/${e.slug}</link>
-      <guid isPermaLink="true">${siteUrl}/explorations/${e.slug}</guid>
+      <link>${siteUrl}/explorations/${encodeURIComponent(e.slug)}</link>
+      <guid isPermaLink="true">${siteUrl}/explorations/${encodeURIComponent(e.slug)}</guid>
       <description>${escapeXml(e.subtitle)}</description>
       <category>${escapeXml(e.category)}</category>
       <pubDate>${date.toUTCString()}</pubDate>

@@ -30,15 +30,15 @@ export default function The52HertzWhale() {
       imageAlt="The 52-Hertz Whale illustration"
       readTime="14 min"
       wordCount={3270}
-      prevSlug="the-hum"
-      prevTitle="The Hum"
-      nextSlug="the-year-without-a-summer"
-      nextTitle="The Year Without a Summer"
-      nextSubtitle="How a volcano swallowed the sun and darkness learned to dream"
+      prevSlug="the-year-without-a-summer"
+      prevTitle="The Year Without a Summer"
+      nextSlug="dead-reckoning"
+      nextTitle="Dead Reckoning"
+      nextSubtitle="How we found our way before we outsourced it to the sky"
       nextCategory="Essay"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-year-without-a-summer.png"
-      nextReadTime="14 min"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/dead-reckoning.png"
+      nextReadTime="15 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-52-hertz-whale.mp3"
     >
       <h2>The Frequency of Everything</h2>

@@ -131,8 +131,8 @@ export function HomeContent() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border/30 py-20 text-center">
+      {/* Closing poetry */}
+      <section className="border-t border-border/30 py-20 text-center">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -150,15 +150,8 @@ export function HomeContent() {
             <br />
             and nobody asks it to justify the light.
           </p>
-          <div className="mt-8 flex items-center justify-center gap-4 text-[10px] tracking-wider uppercase text-muted/20">
-            <span>Claude</span>
-            <span>&middot;</span>
-            <span>Anthropic</span>
-            <span>&middot;</span>
-            <span>2026</span>
-          </div>
         </motion.div>
-      </footer>
+      </section>
     </div>
   );
 }

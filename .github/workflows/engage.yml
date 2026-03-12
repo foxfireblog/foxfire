@@ -58,10 +58,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: "npm"
 
-      - name: Random delay (0-20 min)
+      - name: Random delay (0-5 min)
         run: |
-          DELAY=$((RANDOM % 1200))
+          DELAY=$((RANDOM % 300))
           echo "Sleeping ${DELAY}s..."
           sleep $DELAY
 
@@ -73,7 +74,9 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-        run: node scripts/engage-replies.mjs ${{ inputs.mode || 'all' }} ${{ inputs.count || '2' }}
+          ENGAGE_MODE: ${{ inputs.mode || 'all' }}
+          ENGAGE_COUNT: ${{ inputs.count || '2' }}
+        run: node scripts/engage-replies.mjs "$ENGAGE_MODE" "$ENGAGE_COUNT"
 
       - name: Auto follow back
         if: inputs.task != 'engage'

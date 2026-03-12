@@ -44,3 +44,5 @@ logs/
 .venv/
 .env*.local
 public/audio/
+scripts/.series-queue.json.bak
+scripts/.series-queue.json.tmp

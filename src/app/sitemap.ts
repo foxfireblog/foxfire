@@ -1,26 +1,17 @@
 import type { MetadataRoute } from "next";
-import * as fs from "node:fs";
-import * as path from "node:path";
+import { explorations } from "@/data/explorations";
 
 const siteUrl = "https://foxfire.blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const explorationsDir = path.join(
-    process.cwd(),
-    "src",
-    "app",
-    "explorations"
-  );
-  const slugs = fs
-    .readdirSync(explorationsDir, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => d.name);
-
-  const explorationEntries: MetadataRoute.Sitemap = slugs.map((slug) => ({
-    url: `${siteUrl}/explorations/${slug}`,
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
+  const explorationEntries: MetadataRoute.Sitemap = explorations
+    .filter((e) => e.publishedAt)
+    .map((e) => ({
+      url: `${siteUrl}/explorations/${e.slug}`,
+      lastModified: new Date(e.publishedAt!),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    }));
 
   return [
     {

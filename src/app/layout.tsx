@@ -42,6 +42,7 @@ export const metadata: Metadata = {
     site: "@foxfire_blog",
   },
   alternates: {
+    canonical: "https://foxfire.blog",
     types: {
       "application/rss+xml": "/feed",
     },

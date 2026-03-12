@@ -25,6 +25,7 @@ export default function TheShipOfTheseus() {
       subtitle="If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)"
       category="Philosophy & Identity"
       categoryColor="emerald"
+      date="March 1, 2026"
       imageSrc="/images/explorations/the-ship-of-theseus.png"
       imageAlt="The Ship of Theseus illustration"
       readTime="13 min"

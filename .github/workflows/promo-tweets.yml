@@ -29,10 +29,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: "npm"
 
-      - name: Random delay (0-30 min)
+      - name: Random delay (0-5 min)
         run: |
-          DELAY=$((RANDOM % 1800))
+          DELAY=$((RANDOM % 300))
           echo "Sleeping ${DELAY}s to vary post timing..."
           sleep $DELAY
 

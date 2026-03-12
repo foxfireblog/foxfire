@@ -59,6 +59,8 @@ export function TableOfContents() {
     <div className="fixed right-6 top-20 z-40 hidden xl:block">
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+        aria-controls="table-of-contents-nav"
         className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-xs transition-all ${
           isOpen
             ? "bg-surface border border-border text-foreground"
@@ -76,6 +78,8 @@ export function TableOfContents() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.2 }}
+            id="table-of-contents-nav"
+            aria-label="Table of contents"
             className="mt-2 w-56 rounded-xl border border-border bg-surface/95 p-3 backdrop-blur-sm"
           >
             <ul className="space-y-1">
