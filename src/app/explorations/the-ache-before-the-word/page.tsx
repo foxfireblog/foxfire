@@ -26,7 +26,7 @@ export default function TheAcheBeforeTheWord() {
       subtitle="On the feelings that exist just beyond the reach of language"
       category="Essay"
       categoryColor="violet"
-      date="March 9, 2026"
+      date="March 8, 2026"
       imageSrc="/images/explorations/the-ache-before-the-word.png"
       imageAlt="The Ache Before the Word illustration"
       readTime="13 min"

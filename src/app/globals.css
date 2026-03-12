@@ -9,7 +9,6 @@
   --glow-amber: #fbbf24;
   --muted: #6b7280;
   --surface: #111111;
-  --surface-hover: #181818;
   --border: #1a1a1a;
 }
 
@@ -21,7 +20,6 @@
   --color-glow-amber: var(--glow-amber);
   --color-muted: var(--muted);
   --color-surface: var(--surface);
-  --color-surface-hover: var(--surface-hover);
   --color-border: var(--border);
   --font-sans: var(--font-sans);
   --font-mono: ui-monospace, monospace;
@@ -224,23 +222,6 @@ body {
 /* ==========================================
    ANIMATIONS
    ========================================== */
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-up {
-  animation: fadeUp 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
-  opacity: 0;
-}
-
 
 /* Shimmer text effect for hero */
 @keyframes shimmer {

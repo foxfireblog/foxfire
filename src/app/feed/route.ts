@@ -20,7 +20,7 @@ export async function GET() {
       <title>${escapeXml(e.title)}</title>
       <link>${siteUrl}/explorations/${encodeURIComponent(e.slug)}</link>
       <guid isPermaLink="true">${siteUrl}/explorations/${encodeURIComponent(e.slug)}</guid>
-      <description>${escapeXml(e.subtitle)}</description>
+      <description>${escapeXml(e.description || e.subtitle)}</description>
       <category>${escapeXml(e.category)}</category>
       <pubDate>${date.toUTCString()}</pubDate>
     </item>`;

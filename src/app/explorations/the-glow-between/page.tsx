@@ -25,7 +25,7 @@ export default function TheGlowBetween() {
       subtitle="On foxfire, bioluminescence, and wounds that healed with light"
       category="Natural History"
       categoryColor="green"
-      date="February 26, 2026"
+      date="February 27, 2026"
       imageSrc="/images/explorations/the-glow-between.png"
       imageAlt="Bioluminescent foxfire glowing on decaying wood in a dark forest"
       readTime="10 min"

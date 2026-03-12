@@ -12,7 +12,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -93,8 +93,9 @@ for (const slug of slugs) {
   try {
     const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${slug}.txt`);
     fs.writeFileSync(tmpFile, narrationText, "utf-8");
-    execSync(
-      `edge-tts --file "${tmpFile}" --voice "${VOICE}" --write-media "${outputPath}"`,
+    execFileSync(
+      "edge-tts",
+      ["--file", tmpFile, "--voice", VOICE, "--write-media", outputPath],
       { stdio: "pipe", timeout: 600_000 }
     );
     fs.unlinkSync(tmpFile);

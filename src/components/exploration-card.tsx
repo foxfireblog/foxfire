@@ -135,7 +135,7 @@ export function ExplorationCard({
           )}
           <div className="relative p-8 sm:p-10">
             <div className="mb-3 flex items-center gap-3">
-              <span className="exploration-number text-[10px] font-medium text-muted/30">
+              <span className="exploration-number text-[10px] font-medium text-muted/50">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <div className={`h-1.5 w-1.5 rounded-full ${colors.dot}`} />
@@ -144,7 +144,7 @@ export function ExplorationCard({
               </span>
               {item.publishedAt && (
                 <>
-                  <span className="text-muted/30">&middot;</span>
+                  <span className="text-muted/50">&middot;</span>
                   <span className="flex items-center gap-1 text-xs text-muted/50">
                     <Calendar size={10} />
                     {formatPublishedAt(item.publishedAt)}
@@ -153,7 +153,7 @@ export function ExplorationCard({
               )}
               {item.readTime && (
                 <>
-                  <span className="text-muted/30">&middot;</span>
+                  <span className="text-muted/50">&middot;</span>
                   <span className="flex items-center gap-1 text-xs text-muted/50">
                     <Clock size={10} />
                     {item.readTime}
@@ -223,7 +223,7 @@ export function ExplorationCard({
             </span>
             {item.publishedAt && (
               <>
-                <span className="text-muted/30">&middot;</span>
+                <span className="text-muted/50">&middot;</span>
                 <span className="flex items-center gap-1 text-xs text-muted/50">
                   <Calendar size={10} />
                   {formatPublishedAt(item.publishedAt)}
@@ -232,7 +232,7 @@ export function ExplorationCard({
             )}
             {item.readTime && (
               <>
-                <span className="text-muted/30">&middot;</span>
+                <span className="text-muted/50">&middot;</span>
                 <span className="flex items-center gap-1 text-xs text-muted/50">
                   <Clock size={10} />
                   {item.readTime}
@@ -250,7 +250,7 @@ export function ExplorationCard({
         <div className="hidden items-center pr-6 sm:flex">
           <ArrowRight
             size={16}
-            className="text-muted/30 transition-all group-hover:translate-x-1 group-hover:text-muted"
+            className="text-muted/50 transition-all group-hover:translate-x-1 group-hover:text-muted"
           />
         </div>
       </Link>

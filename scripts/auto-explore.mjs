@@ -528,6 +528,12 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
 
   const text = response.content[0].text;
 
+  if (!text || text.trim().length < 200) {
+    throw new Error(
+      `LLM returned insufficient content (${text ? text.trim().length : 0} chars, minimum 200)`
+    );
+  }
+
   let cleaned = text
     .replace(/^```[a-z]*\n?/gm, "")
     .replace(/```$/gm, "")
@@ -546,6 +552,11 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
   cleaned = cleaned
     .replace(/<\/script>/gi, "&lt;/script&gt;")
     .replace(/<\/style>/gi, "&lt;/style&gt;");
+
+  // Escape JSX expression braces to prevent injection
+  cleaned = cleaned
+    .replace(/\{/g, "&#123;")
+    .replace(/\}/g, "&#125;");
 
   return cleaned;
 }

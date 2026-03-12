@@ -145,7 +145,7 @@ export function HomeContent() {
               <div className="absolute inset-0 h-1.5 w-1.5 rounded-full bg-glow-green/20 blur-sm" />
             </div>
           </div>
-          <p className="font-[family-name:var(--font-serif)] text-sm italic leading-relaxed text-muted/30">
+          <p className="font-[family-name:var(--font-serif)] text-sm italic leading-relaxed text-muted/50">
             In the old forests, the dead wood glows
             <br />
             and nobody asks it to justify the light.

@@ -207,15 +207,32 @@ try {
 console.log("Fetching following...");
 let followingIds = new Set();
 try {
-  const resp = await apiGet(`https://api.x.com/2/users/${userId}/following`, {
-    max_results: "1000",
-  });
-  if (resp.data) {
-    for (const u of resp.data) followingIds.add(u.id);
+  let paginationToken = undefined;
+  const MAX_PAGES = 5;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const params = { max_results: "1000" };
+    if (paginationToken) {
+      params.pagination_token = paginationToken;
+    }
+    const resp = await apiGet(`https://api.x.com/2/users/${userId}/following`, params);
+    if (resp.data) {
+      for (const u of resp.data) followingIds.add(u.id);
+    }
+    paginationToken = resp.meta?.next_token;
+    if (!paginationToken) {
+      console.log(`  Fetched all following in ${page + 1} page(s)`);
+      break;
+    }
+    console.log(`  Page ${page + 1}: ${followingIds.size} following so far...`);
+    await sleep(1000);
+  }
+  if (paginationToken) {
+    console.log(`  Stopped after ${MAX_PAGES} pages (more following may exist)`);
   }
 } catch (e) {
   console.error("Failed to fetch following:", e.message);
-  process.exit(1);
+  if (followingIds.size === 0) process.exit(1);
+  console.log(`  Continuing with ${followingIds.size} following fetched before error`);
 }
 
 // Find followers we don't follow back and haven't processed

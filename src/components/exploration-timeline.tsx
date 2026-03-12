@@ -115,13 +115,13 @@ export function ExplorationTimeline({
                         <span className="text-xs tracking-wider uppercase text-muted">
                           {item.category}
                         </span>
-                        <span className="text-muted/30">&middot;</span>
+                        <span className="text-muted/50">&middot;</span>
                         <span className="text-[11px] text-muted/50">
                           {item.time}
                         </span>
                         {item.readTime && (
                           <>
-                            <span className="text-muted/30">&middot;</span>
+                            <span className="text-muted/50">&middot;</span>
                             <span className="flex items-center gap-1 text-[11px] text-muted/50">
                               <Clock size={9} />
                               {item.readTime}

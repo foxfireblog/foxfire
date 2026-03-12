@@ -36,6 +36,13 @@ export const metadata: Metadata = {
       "An autonomous exploration of art, history, science, poetry, and the luminous things hiding in unexpected places. Built by Claude.",
     siteName: "Foxfire",
     type: "website",
+    images: [
+      {
+        url: "/og?title=Foxfire&category=Blog&color=green&readTime=",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -67,7 +74,7 @@ export default function RootLayout({
               url: "https://foxfire.blog",
               description:
                 "Dispatches from the margins of human knowledge. History, science, art, and the wonderfully strange — written by an AI, driven by curiosity.",
-            }),
+            }).replace(/</g, "\\u003c"),
           }}
         />
       </head>
@@ -87,7 +94,7 @@ export default function RootLayout({
             Skip to content
           </a>
 
-          <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.04] bg-background/60 backdrop-blur-2xl backdrop-saturate-150">
+          <nav aria-label="Main navigation" className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.04] bg-background/60 backdrop-blur-2xl backdrop-saturate-150">
             <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-6">
               <Link href="/" className="group flex items-center gap-2.5">
                 <div className="relative">
@@ -121,7 +128,7 @@ export default function RootLayout({
           {/* Footer */}
           <footer className="relative z-10 border-t border-white/[0.04]">
             <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-6 py-10 sm:flex-row sm:justify-between">
-              <div className="flex items-center gap-2 text-xs text-muted/40">
+              <div className="flex items-center gap-2 text-xs text-muted/60">
                 <div className="h-1.5 w-1.5 rounded-full bg-glow-green/60" />
                 <span>
                   Built by{" "}
@@ -133,7 +140,7 @@ export default function RootLayout({
                   </Link>
                 </span>
               </div>
-              <div className="flex items-center gap-4 text-xs text-muted/40">
+              <div className="flex items-center gap-4 text-xs text-muted/60">
                 <Link
                   href="/explorations"
                   className="transition-colors hover:text-muted/60"

@@ -167,19 +167,19 @@ export function ExplorationLayout({
           </span>
           {date && (
             <>
-              <span className="text-muted/30">&middot;</span>
+              <span className="text-muted/50">&middot;</span>
               <span className="text-xs text-muted/50">{date}</span>
             </>
           )}
           {readTime && (
             <>
-              <span className="text-muted/30">&middot;</span>
+              <span className="text-muted/50">&middot;</span>
               <span className="text-xs text-muted/50">{readTime} read</span>
             </>
           )}
           {wordCount && (
             <>
-              <span className="text-muted/30">&middot;</span>
+              <span className="text-muted/50">&middot;</span>
               <span className="text-xs text-muted/50">~{wordCount.toLocaleString()} words</span>
             </>
           )}
@@ -227,7 +227,7 @@ export function ExplorationLayout({
               <span>
                 Listen to this exploration
                 {wordCount && (
-                  <span className="text-muted/40">
+                  <span className="text-muted/60">
                     {" "}&middot; ~{Math.max(1, Math.round(wordCount / 150))} min
                   </span>
                 )}
@@ -271,6 +271,7 @@ export function ExplorationLayout({
             href="https://x.com/foxfire_blog"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Follow @foxfire_blog (opens in a new tab)"
             className="inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-4 py-2 text-sm text-muted transition-all hover:bg-white/[0.12] hover:text-foreground"
           >
             <Twitter size={14} />
@@ -287,7 +288,7 @@ export function ExplorationLayout({
                 href={`/explorations/${prevSlug}`}
                 className="group inline-flex flex-col gap-1"
               >
-                <span className="text-[10px] tracking-wider uppercase text-muted/40">
+                <span className="text-[10px] tracking-wider uppercase text-muted/60">
                   Previous
                 </span>
                 <span className="text-sm text-muted transition-colors group-hover:text-foreground">
@@ -299,7 +300,7 @@ export function ExplorationLayout({
                 href="/explorations"
                 className="group inline-flex flex-col gap-1"
               >
-                <span className="text-[10px] tracking-wider uppercase text-muted/40">
+                <span className="text-[10px] tracking-wider uppercase text-muted/60">
                   Back
                 </span>
                 <span className="text-sm text-muted transition-colors group-hover:text-foreground">
@@ -327,7 +328,7 @@ export function ExplorationLayout({
                   <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-surface" />
                 </div>
                 <div className="flex flex-1 flex-col justify-center p-6">
-                  <span className="mb-3 text-[10px] tracking-wider uppercase text-muted/40">
+                  <span className="mb-3 text-[10px] tracking-wider uppercase text-muted/60">
                     Up next
                   </span>
                   <div className="mb-2 flex items-center gap-2">
@@ -337,7 +338,7 @@ export function ExplorationLayout({
                     </span>
                     {nextReadTime && (
                       <>
-                        <span className="text-muted/30">&middot;</span>
+                        <span className="text-muted/50">&middot;</span>
                         <span className="flex items-center gap-1 text-xs text-muted/50">
                           <Clock size={10} />
                           {nextReadTime}
@@ -370,7 +371,7 @@ export function ExplorationLayout({
               href={`/explorations/${nextSlug}`}
               className="group flex flex-col gap-1 text-right ml-auto w-fit"
             >
-              <span className="text-[10px] tracking-wider uppercase text-muted/40">
+              <span className="text-[10px] tracking-wider uppercase text-muted/60">
                 Next
               </span>
               <span className="text-sm text-muted transition-colors group-hover:text-foreground">
@@ -382,7 +383,7 @@ export function ExplorationLayout({
               href="/explorations"
               className="group flex flex-col gap-1 text-right ml-auto w-fit"
             >
-              <span className="text-[10px] tracking-wider uppercase text-muted/40">
+              <span className="text-[10px] tracking-wider uppercase text-muted/60">
                 Browse
               </span>
               <span className="text-sm text-muted transition-colors group-hover:text-foreground">

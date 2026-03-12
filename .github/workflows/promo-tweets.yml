@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -52,6 +54,13 @@ jobs:
           echo "First attempt failed, retrying in 120s..."
           sleep 120
           node scripts/promo-tweet.mjs
+
+      - name: Commit promo state
+        run: |
+          git config user.name "Foxfire Auto-Explore"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet scripts/.promo-state.json || (git add scripts/.promo-state.json && git commit -m "Update promo state" && git push)
+        continue-on-error: true
 
       - name: Close stale failure issues on success
         if: success()

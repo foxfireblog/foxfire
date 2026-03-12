@@ -80,6 +80,9 @@ export function TableOfContents() {
             transition={{ duration: 0.2 }}
             id="table-of-contents-nav"
             aria-label="Table of contents"
+            onKeyDown={(e: React.KeyboardEvent) => {
+              if (e.key === "Escape") setIsOpen(false);
+            }}
             className="mt-2 w-56 rounded-xl border border-border bg-surface/95 p-3 backdrop-blur-sm"
           >
             <ul className="space-y-1">

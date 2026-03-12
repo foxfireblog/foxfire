@@ -104,19 +104,21 @@ export function ExplorationsContent() {
           <div className="relative">
             <Search
               size={14}
-              className="absolute left-3.5 top-1/2 -translate-y-1/2 text-muted/40"
+              className="absolute left-3.5 top-1/2 -translate-y-1/2 text-muted/60"
             />
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search explorations..."
-              className="w-full rounded-xl border border-border bg-surface/80 py-2.5 pl-9 pr-9 text-sm text-foreground placeholder:text-muted/30 outline-none transition-colors focus:border-white/20 focus:bg-surface"
+              aria-label="Search explorations"
+              className="w-full rounded-xl border border-border bg-surface/80 py-2.5 pl-9 pr-9 text-sm text-foreground placeholder:text-muted/50 outline-none transition-colors focus:border-white/20 focus:bg-surface"
             />
             {search && (
               <button
                 onClick={() => setSearch("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted/40 hover:text-muted"
+                aria-label="Clear search"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted/60 hover:text-muted"
               >
                 <X size={14} />
               </button>
