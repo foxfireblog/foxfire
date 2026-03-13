@@ -1,27 +1,27 @@
 [
   {
-    "name": "Hedy Lamarr",
-    "born": "01-01",
-    "year": 1914,
-    "died": 2000,
-    "field": "Invention",
-    "known_for": "Frequency-hopping spread spectrum technology"
-  },
-  {
     "name": "Satyendra Nath Bose",
     "born": "01-01",
     "year": 1894,
     "died": 1974,
     "field": "Physics",
-    "known_for": "Bose-Einstein statistics, boson namesake"
+    "known_for": "Sent a paper to Einstein that changed quantum physics forever. The 'boson' — the particle that gives matter its mass — is named after him."
+  },
+  {
+    "name": "Hedy Lamarr",
+    "born": "01-01",
+    "year": 1914,
+    "died": 2000,
+    "field": "Invention / Engineering",
+    "known_for": "Hollywood star who co-invented frequency-hopping spread spectrum technology during WWII — a concept that underpins modern WiFi and Bluetooth."
   },
   {
     "name": "Isaac Asimov",
     "born": "01-02",
     "year": 1920,
     "died": 1992,
-    "field": "Biochemistry",
-    "known_for": "Science fiction, popular science writing"
+    "field": "Biochemistry / Science Writing",
+    "known_for": "Biochemistry professor who became the most prolific science fiction writer in history, authoring over 500 books and dreaming up the Three Laws of Robotics."
   },
   {
     "name": "Sergei Korolev",
@@ -29,55 +29,63 @@
     "year": 1907,
     "died": 1966,
     "field": "Aerospace Engineering",
-    "known_for": "Chief designer of Soviet space program"
+    "known_for": "The secret mastermind behind the Soviet space program — Sputnik, Laika, Gagarin — whose identity was hidden from the world until after his death."
+  },
+  {
+    "name": "Isaac Newton",
+    "born": "01-04",
+    "year": 1643,
+    "died": 1727,
+    "field": "Physics / Mathematics",
+    "known_for": "Invented calculus, discovered the laws of motion and universal gravitation, and split white light into a rainbow — all before turning 30. Spent his later years obsessed with alchemy and biblical prophecy."
   },
   {
     "name": "Louis Braille",
     "born": "01-04",
     "year": 1809,
     "died": 1852,
-    "field": "Invention",
-    "known_for": "Braille reading system for the blind"
+    "field": "Invention / Education",
+    "known_for": "Blinded in an accident at age three, he invented the tactile reading system that bears his name — at just fifteen years old."
   },
   {
-    "name": "George Washington Carver",
+    "name": "Georg Cantor",
     "born": "01-05",
-    "year": 1864,
-    "died": 1943,
-    "field": "Agricultural Science",
-    "known_for": "Peanut products, crop rotation, soil conservation"
+    "year": 1845,
+    "died": 1918,
+    "field": "Mathematics",
+    "known_for": "Proved that some infinities are bigger than others, a discovery so radical it drove him to breakdowns and earned savage attacks from fellow mathematicians."
   },
   {
-    "name": "Camillo Golgi",
-    "born": "01-07",
-    "year": 1843,
-    "died": 1926,
-    "field": "Medicine",
-    "known_for": "Golgi staining technique, Golgi apparatus"
+    "name": "Konrad Zuse",
+    "born": "01-06",
+    "year": 1910,
+    "died": 1995,
+    "field": "Computer Science / Engineering",
+    "known_for": "Built the world's first programmable computer (the Z3) in his parents' living room in Berlin in 1941, while Allied bombers flew overhead."
   },
   {
-    "name": "Alfred Russel Wallace",
+    "name": "Galileo Galilei",
     "born": "01-08",
-    "year": 1823,
-    "died": 1913,
-    "field": "Natural History",
-    "known_for": "Co-discoverer of natural selection, biogeography"
+    "year": 1564,
+    "died": 1642,
+    "field": "Physics / Astronomy",
+    "known_for": "Turned a telescope toward the sky and saw moons orbiting Jupiter, craters on the Moon, and phases of Venus — observations that helped topple the Earth-centered universe."
   },
   {
     "name": "Stephen Hawking",
     "born": "01-08",
     "year": 1942,
     "died": 2018,
-    "field": "Physics",
-    "known_for": "Hawking radiation, black hole theory"
+    "field": "Physics / Cosmology",
+    "known_for": "Given two years to live at 21, he went on to rewrite our understanding of black holes and time, becoming the most recognizable scientist since Einstein."
   },
   {
-    "name": "Har Gobind Khorana",
-    "born": "01-09",
-    "year": 1922,
-    "died": 2011,
-    "field": "Biochemistry",
-    "known_for": "Genetic code interpretation, gene synthesis"
+    "name": "Alfred Russel Wallace",
+    "born": "01-08",
+    "year": 1823,
+    "died": 1913,
+    "field": "Biology / Natural History",
+    "known_for": "Independently conceived the theory of natural selection while delirious with fever in Malaysia, then graciously shared credit with Darwin."
   },
   {
     "name": "Simone de Beauvoir",
@@ -85,7 +93,7 @@
     "year": 1908,
     "died": 1986,
     "field": "Philosophy",
-    "known_for": "Existentialist philosophy, The Second Sex"
+    "known_for": "Wrote 'The Second Sex,' the book that essentially invented modern feminist philosophy, arguing that 'one is not born, but rather becomes, a woman.'"
   },
   {
     "name": "Donald Knuth",
@@ -93,63 +101,39 @@
     "year": 1938,
     "died": null,
     "field": "Computer Science",
-    "known_for": "The Art of Computer Programming, TeX typesetting"
+    "known_for": "Wrote 'The Art of Computer Programming,' a multi-volume masterwork so exacting he invented an entire typesetting system (TeX) because he hated how his books looked in print."
   },
   {
-    "name": "Nikolaus Otto",
-    "born": "01-10",
-    "year": 1832,
-    "died": 1891,
-    "field": "Engineering",
-    "known_for": "Four-stroke internal combustion engine"
-  },
-  {
-    "name": "Theodor Schwann",
-    "born": "01-10",
-    "year": 1810,
-    "died": 1882,
-    "field": "Biology",
-    "known_for": "Cell theory, Schwann cells, pepsin discovery"
-  },
-  {
-    "name": "William James",
-    "born": "01-11",
-    "year": 1842,
-    "died": 1910,
-    "field": "Psychology",
-    "known_for": "Father of American psychology, pragmatism"
-  },
-  {
-    "name": "Gottlob Frege",
+    "name": "Yellapragada SubbaRow",
     "born": "01-12",
-    "year": 1848,
-    "died": 1925,
-    "field": "Mathematics",
-    "known_for": "Predicate logic, philosophy of language"
+    "year": 1895,
+    "died": 1948,
+    "field": "Biochemistry / Medicine",
+    "known_for": "Discovered ATP's role in cellular energy, developed methotrexate for cancer, and synthesized folic acid — yet remains almost unknown because he was an immigrant who didn't self-promote."
   },
   {
-    "name": "Jan Ingenhousz",
+    "name": "Nikolai Pirogov",
     "born": "01-13",
-    "year": 1730,
-    "died": 1799,
-    "field": "Plant Physiology",
-    "known_for": "Discovered photosynthesis in plants"
+    "year": 1810,
+    "died": 1881,
+    "field": "Medicine / Surgery",
+    "known_for": "Pioneer of field surgery and the first to use ether anesthesia in a military operation. His anatomical atlas, based on frozen cadaver cross-sections, was decades ahead of its time."
+  },
+  {
+    "name": "Sydney Brenner",
+    "born": "01-13",
+    "year": 1927,
+    "died": 2019,
+    "field": "Biology / Genetics",
+    "known_for": "Chose the humble roundworm C. elegans as a model organism and used it to crack open the genetics of organ development, winning a Nobel at 75."
   },
   {
     "name": "Albert Schweitzer",
     "born": "01-14",
     "year": 1875,
     "died": 1965,
-    "field": "Medicine",
-    "known_for": "Medical missionary in Africa, Nobel Peace Prize"
-  },
-  {
-    "name": "Edward Teller",
-    "born": "01-15",
-    "year": 1908,
-    "died": 2003,
-    "field": "Physics",
-    "known_for": "Hydrogen bomb development, nuclear physics"
+    "field": "Medicine / Philosophy",
+    "known_for": "Theologian, organist, and philosopher who gave it all up to study medicine, then spent decades running a hospital in equatorial Africa."
   },
   {
     "name": "Sofia Kovalevskaya",
@@ -157,71 +141,87 @@
     "year": 1850,
     "died": 1891,
     "field": "Mathematics",
-    "known_for": "Cauchy-Kovalevskaya theorem, rotating rigid bodies"
+    "known_for": "Entered a sham marriage just to leave Russia and study math. Became the first woman to earn a doctorate in mathematics and first to hold a full professorship in Europe."
   },
   {
-    "name": "Andre Michelin",
-    "born": "01-16",
-    "year": 1853,
-    "died": 1931,
-    "field": "Engineering",
-    "known_for": "Pneumatic tire, Michelin company co-founder"
+    "name": "Edward Teller",
+    "born": "01-15",
+    "year": 1908,
+    "died": 2003,
+    "field": "Physics",
+    "known_for": "The 'father of the hydrogen bomb' — a brilliant, controversial physicist whose testimony helped destroy Oppenheimer's career."
   },
   {
     "name": "Dian Fossey",
     "born": "01-16",
     "year": 1932,
     "died": 1985,
-    "field": "Primatology",
-    "known_for": "Mountain gorilla conservation and research"
+    "field": "Primatology / Zoology",
+    "known_for": "Spent 18 years living among mountain gorillas in Rwanda, revolutionizing our understanding of great apes before being murdered in her cabin — a crime still unsolved."
   },
   {
     "name": "Benjamin Franklin",
     "born": "01-17",
     "year": 1706,
     "died": 1790,
-    "field": "Invention",
-    "known_for": "Lightning rod, bifocals, electricity experiments"
+    "field": "Physics / Invention",
+    "known_for": "Flew a kite into a thunderstorm to prove lightning is electrical, invented the lightning rod and bifocals, and helped found a nation — all without a formal education."
   },
   {
-    "name": "Jacob Bernoulli",
-    "born": "01-17",
-    "year": 1655,
-    "died": 1705,
-    "field": "Mathematics",
-    "known_for": "Bernoulli numbers, law of large numbers"
-  },
-  {
-    "name": "Daniel Bernoulli",
+    "name": "Daniel Hale Williams",
     "born": "01-18",
-    "year": 1700,
-    "died": 1782,
-    "field": "Mathematics",
-    "known_for": "Bernoulli's principle in fluid dynamics"
+    "year": 1856,
+    "died": 1931,
+    "field": "Medicine / Surgery",
+    "known_for": "Performed one of the first successful open-heart surgeries in 1893 and founded Provident Hospital, the first non-segregated hospital in America."
   },
   {
     "name": "James Watt",
     "born": "01-19",
     "year": 1736,
     "died": 1819,
-    "field": "Engineering",
-    "known_for": "Improved steam engine, watt unit namesake"
+    "field": "Engineering / Invention",
+    "known_for": "Didn't invent the steam engine but improved it so dramatically that he powered the Industrial Revolution. The unit of power — the watt — keeps his name alive in every light bulb."
   },
   {
-    "name": "Buzz Aldrin",
+    "name": "Andre Marie Ampere",
     "born": "01-20",
-    "year": 1930,
-    "died": null,
-    "field": "Aerospace",
-    "known_for": "Second person to walk on the Moon"
-  },
-  {
-    "name": "Andre-Marie Ampere",
-    "born": "01-22",
     "year": 1775,
     "died": 1836,
+    "field": "Physics / Mathematics",
+    "known_for": "Founded the science of electrodynamics and gave his name to the unit of electric current. Taught himself advanced math from library books as a teenager."
+  },
+  {
+    "name": "Camillo Golgi",
+    "born": "01-21",
+    "year": 1843,
+    "died": 1926,
+    "field": "Medicine / Neuroscience",
+    "known_for": "Invented a staining technique in a hospital kitchen that made individual neurons visible for the first time, opening the entire field of modern neuroscience."
+  },
+  {
+    "name": "Ukichiro Nakaya",
+    "born": "01-21",
+    "year": 1900,
+    "died": 1962,
     "field": "Physics",
-    "known_for": "Electrodynamics, ampere unit namesake"
+    "known_for": "Japanese physicist who created the first artificial snowflakes and proved that every crystal's shape is a frozen diary of the atmospheric conditions it fell through."
+  },
+  {
+    "name": "Francis Bacon",
+    "born": "01-22",
+    "year": 1561,
+    "died": 1626,
+    "field": "Philosophy of Science",
+    "known_for": "The father of the scientific method, who argued knowledge should come from observation and experiment rather than ancient authority. Died after catching pneumonia while stuffing a chicken with snow."
+  },
+  {
+    "name": "Lev Landau",
+    "born": "01-22",
+    "year": 1908,
+    "died": 1968,
+    "field": "Physics",
+    "known_for": "Soviet theoretical physicist who made foundational contributions to nearly every branch of physics. Kept a ranking of physicists where Einstein alone occupied the top tier."
   },
   {
     "name": "David Hilbert",
@@ -229,71 +229,63 @@
     "year": 1862,
     "died": 1943,
     "field": "Mathematics",
-    "known_for": "Hilbert space, Hilbert's 23 problems"
+    "known_for": "Posed 23 unsolved problems in 1900 that shaped 20th-century mathematics. When told a student had dropped math for poetry: 'Good — he did not have enough imagination for mathematics.'"
   },
   {
-    "name": "Gertrude Elion",
+    "name": "Edith Clarke",
     "born": "01-23",
-    "year": 1918,
-    "died": 1999,
-    "field": "Pharmacology",
-    "known_for": "Drug development for leukemia and herpes"
+    "year": 1883,
+    "died": 1959,
+    "field": "Electrical Engineering",
+    "known_for": "First woman to earn an electrical engineering degree from MIT and first female professor of EE in the US. Invented a graphical calculator for solving power line problems."
   },
   {
-    "name": "Joseph-Louis Lagrange",
-    "born": "01-25",
-    "year": 1736,
-    "died": 1813,
-    "field": "Mathematics",
-    "known_for": "Lagrangian mechanics, number theory"
+    "name": "Berta Karlik",
+    "born": "01-24",
+    "year": 1904,
+    "died": 1990,
+    "field": "Physics / Chemistry",
+    "known_for": "First woman to be a full professor at the University of Vienna. Discovered that astatine occurs naturally, making it the last naturally occurring element to be found."
   },
   {
     "name": "Robert Boyle",
     "born": "01-25",
     "year": 1627,
     "died": 1691,
-    "field": "Chemistry",
-    "known_for": "Boyle's law, father of modern chemistry"
+    "field": "Chemistry / Physics",
+    "known_for": "Often called the first modern chemist. His law relating pressure and volume of gases is still taught in every introductory science class."
   },
   {
-    "name": "Edith Clarke",
+    "name": "Joseph-Louis Lagrange",
+    "born": "01-25",
+    "year": 1736,
+    "died": 1813,
+    "field": "Mathematics / Physics",
+    "known_for": "Reformulated Newtonian mechanics into elegant mathematical poetry. Napoleon called him 'the lofty pyramid of the mathematical sciences.'"
+  },
+  {
+    "name": "Paul Erdos",
     "born": "01-26",
-    "year": 1883,
-    "died": 1959,
-    "field": "Electrical Engineering",
-    "known_for": "First female electrical engineering professor in US"
-  },
-  {
-    "name": "Hideo Itokawa",
-    "born": "01-27",
-    "year": 1912,
-    "died": 1999,
-    "field": "Aerospace",
-    "known_for": "Father of Japanese rocketry"
+    "year": 1913,
+    "died": 1996,
+    "field": "Mathematics",
+    "known_for": "Homeless by choice, fueled by amphetamines and coffee, he wandered the world collaborating with so many mathematicians that your 'Erdos number' measures how far you are from his orbit."
   },
   {
     "name": "Lewis Carroll",
     "born": "01-27",
     "year": 1832,
     "died": 1898,
-    "field": "Mathematics",
-    "known_for": "Mathematical logic, Alice in Wonderland"
+    "field": "Mathematics / Logic",
+    "known_for": "Oxford mathematician Charles Dodgson wrote 'Alice in Wonderland' partly as a satire of the bizarre new abstract mathematics emerging in his era."
   },
   {
-    "name": "Augustin-Louis Cauchy",
+    "name": "Rosalyn Yalow",
     "born": "01-28",
-    "year": 1789,
-    "died": 1857,
-    "field": "Mathematics",
-    "known_for": "Rigorous calculus foundations, complex analysis"
-  },
-  {
-    "name": "Kathleen Lonsdale",
-    "born": "01-28",
-    "year": 1903,
-    "died": 1971,
-    "field": "Chemistry",
-    "known_for": "Proved benzene ring is flat by X-ray diffraction"
+    "year": 1921,
+    "died": 2011,
+    "field": "Medical Physics",
+    "known_for": "Co-developed radioimmunoassay, a technique so sensitive it could detect a teaspoon of sugar dissolved in a lake, revolutionizing endocrinology and winning her the Nobel Prize."
   },
   {
     "name": "Abdus Salam",
@@ -301,15 +293,15 @@
     "year": 1926,
     "died": 1996,
     "field": "Physics",
-    "known_for": "Electroweak unification theory, Nobel Prize"
+    "known_for": "First Pakistani and first Muslim Nobel laureate in science. Unified electromagnetism and the weak nuclear force — yet was declared non-Muslim in his own country."
   },
   {
-    "name": "Erwin Schrodinger",
-    "born": "01-30",
-    "year": 1887,
-    "died": 1961,
-    "field": "Physics",
-    "known_for": "Schrodinger equation, quantum wave mechanics"
+    "name": "Robert Noyce",
+    "born": "01-29",
+    "year": 1927,
+    "died": 1990,
+    "field": "Engineering / Computer Science",
+    "known_for": "Co-invented the integrated circuit and co-founded Intel. Known as 'the Mayor of Silicon Valley,' he was the archetype of the charismatic tech founder."
   },
   {
     "name": "Hideki Yukawa",
@@ -317,39 +309,39 @@
     "year": 1907,
     "died": 1981,
     "field": "Physics",
-    "known_for": "Predicted mesons, first Japanese Nobel laureate"
+    "known_for": "First Japanese Nobel laureate. Predicted the existence of mesons — the particles that glue atomic nuclei together — purely from theoretical reasoning."
   },
   {
-    "name": "Isamu Akasaki",
-    "born": "01-30",
-    "year": 1929,
-    "died": 2021,
+    "name": "Har Gobind Khorana",
+    "born": "01-31",
+    "year": 1922,
+    "died": 2011,
+    "field": "Biochemistry",
+    "known_for": "Born in a tiny village in British India, he cracked the genetic code and synthesized the first artificial gene, winning the Nobel Prize in Physiology."
+  },
+  {
+    "name": "Erwin Schrodinger",
+    "born": "01-31",
+    "year": 1887,
+    "died": 1961,
     "field": "Physics",
-    "known_for": "Blue LED development, Nobel Prize"
+    "known_for": "His wave equation is the beating heart of quantum mechanics. Invented a thought experiment about a cat simultaneously alive and dead — and it still haunts physics."
   },
   {
-    "name": "Elijah McCoy",
+    "name": "Emilio Segre",
     "born": "02-01",
-    "year": 1844,
-    "died": 1929,
-    "field": "Engineering",
-    "known_for": "Automatic lubrication systems for engines"
-  },
-  {
-    "name": "Galileo Galilei",
-    "born": "02-01",
-    "year": 1564,
-    "died": 1642,
+    "year": 1905,
+    "died": 1989,
     "field": "Physics",
-    "known_for": "Telescope astronomy, heliocentrism, kinematics"
+    "known_for": "Discovered the antiproton and technetium, the first artificially produced element. Fled Mussolini's Italy and joined the Manhattan Project."
   },
   {
-    "name": "Alfred Adler",
+    "name": "Fritz Zwicky",
     "born": "02-02",
-    "year": 1870,
-    "died": 1937,
-    "field": "Psychology",
-    "known_for": "Individual psychology, inferiority complex"
+    "year": 1898,
+    "died": 1974,
+    "field": "Astronomy / Physics",
+    "known_for": "Predicted dark matter, neutron stars, and gravitational lensing decades before anyone confirmed them. Colleagues found him insufferable; the universe proved him right."
   },
   {
     "name": "Gaston Julia",
@@ -357,15 +349,7 @@
     "year": 1893,
     "died": 1978,
     "field": "Mathematics",
-    "known_for": "Julia set in complex dynamics"
-  },
-  {
-    "name": "Jacques Hadamard",
-    "born": "02-03",
-    "year": 1865,
-    "died": 1963,
-    "field": "Mathematics",
-    "known_for": "Prime number theorem proof, Hadamard matrices"
+    "known_for": "Lost his nose in WWI and wore a leather strap across his face for life. His work on iterated functions gave rise to the mesmerizing Julia sets."
   },
   {
     "name": "Clyde Tombaugh",
@@ -373,23 +357,39 @@
     "year": 1906,
     "died": 1997,
     "field": "Astronomy",
-    "known_for": "Discovery of Pluto"
+    "known_for": "A Kansas farm boy who built telescopes from old car parts and discovered Pluto at age 24. Some of his ashes rode aboard the New Horizons spacecraft to Pluto in 2015."
   },
   {
-    "name": "John Boyd Dunlop",
+    "name": "J.C. Bose",
     "born": "02-05",
-    "year": 1840,
-    "died": 1921,
-    "field": "Invention",
-    "known_for": "Pneumatic rubber tire for bicycles"
+    "year": 1858,
+    "died": 1937,
+    "field": "Physics / Biology",
+    "known_for": "Indian polymath who pioneered wireless communication before Marconi, then stunned the world by demonstrating that plants respond to stimuli much like animals do."
   },
   {
-    "name": "G. H. Hardy",
+    "name": "Joseph Priestley",
+    "born": "02-06",
+    "year": 1733,
+    "died": 1804,
+    "field": "Chemistry",
+    "known_for": "Discovered oxygen (he called it 'dephlogisticated air'), invented soda water, and was so politically radical that a mob burned his house down."
+  },
+  {
+    "name": "Godfrey Harold Hardy",
     "born": "02-07",
     "year": 1877,
     "died": 1947,
     "field": "Mathematics",
-    "known_for": "Hardy-Ramanujan number, pure mathematics advocacy"
+    "known_for": "Rescued Ramanujan from obscurity, championed pure mathematics as an art form, and wrote 'A Mathematician's Apology,' the most beautiful defense of useless knowledge ever penned."
+  },
+  {
+    "name": "Daniel Bernoulli",
+    "born": "02-08",
+    "year": 1700,
+    "died": 1782,
+    "field": "Mathematics / Physics",
+    "known_for": "Explained why airplane wings generate lift and why shower curtains blow inward. His father Johann was so jealous of his success that he tried to steal credit for his work."
   },
   {
     "name": "Dmitri Mendeleev",
@@ -397,111 +397,87 @@
     "year": 1834,
     "died": 1907,
     "field": "Chemistry",
-    "known_for": "Periodic table of elements"
+    "known_for": "Arranged the elements into the periodic table — reportedly after seeing the pattern in a dream — and boldly predicted elements that hadn't been discovered yet."
   },
   {
     "name": "John von Neumann",
     "born": "02-08",
     "year": 1903,
     "died": 1957,
-    "field": "Mathematics",
-    "known_for": "Game theory, von Neumann architecture"
+    "field": "Mathematics / Computer Science",
+    "known_for": "Perhaps the last true polymath — he invented game theory, designed the architecture of modern computers, and could multiply eight-digit numbers in his head as a child."
   },
   {
-    "name": "Per Teodor Cleve",
+    "name": "Cecilia Payne-Gaposchkin",
     "born": "02-10",
-    "year": 1840,
-    "died": 1905,
-    "field": "Chemistry",
-    "known_for": "Discovered holmium and thulium elements"
-  },
-  {
-    "name": "Josiah Willard Gibbs",
-    "born": "02-11",
-    "year": 1839,
-    "died": 1903,
-    "field": "Physics",
-    "known_for": "Gibbs free energy, statistical mechanics"
+    "year": 1900,
+    "died": 1979,
+    "field": "Astronomy / Astrophysics",
+    "known_for": "Discovered that stars are made primarily of hydrogen and helium. Her doctoral thesis was called 'the most brilliant ever written in astronomy,' yet her male advisor told her to retract her conclusion."
   },
   {
     "name": "Thomas Edison",
     "born": "02-11",
     "year": 1847,
     "died": 1931,
-    "field": "Invention",
-    "known_for": "Phonograph, practical light bulb, film camera"
+    "field": "Invention / Engineering",
+    "known_for": "Holder of over a thousand patents including the phonograph and practical light bulb. His real genius was industrializing the process of invention itself."
+  },
+  {
+    "name": "Josiah Willard Gibbs",
+    "born": "02-11",
+    "year": 1839,
+    "died": 1903,
+    "field": "Physics / Chemistry / Mathematics",
+    "known_for": "Founded chemical thermodynamics and statistical mechanics in papers so dense almost nobody read them. Einstein later called him 'the greatest mind in American history.'"
   },
   {
     "name": "Charles Darwin",
     "born": "02-12",
     "year": 1809,
     "died": 1882,
-    "field": "Biology",
-    "known_for": "Theory of evolution by natural selection"
+    "field": "Biology / Natural History",
+    "known_for": "Spent five years on the Beagle, twenty years agonizing over the implications, then published 'On the Origin of Species' and changed how we understand every living thing."
   },
   {
     "name": "William Shockley",
     "born": "02-13",
     "year": 1910,
     "died": 1989,
-    "field": "Physics",
-    "known_for": "Transistor co-invention, semiconductor physics"
+    "field": "Physics / Engineering",
+    "known_for": "Co-invented the transistor, the tiny switch that made the digital age possible. His later embrace of eugenics remains a cautionary tale about genius and moral blindness."
   },
   {
-    "name": "Galileo Ferraris",
-    "born": "02-14",
-    "year": 1847,
-    "died": 1897,
-    "field": "Electrical Engineering",
-    "known_for": "AC polyphase motor, rotating magnetic field"
-  },
-  {
-    "name": "Mikhail Tsvet",
-    "born": "02-14",
-    "year": 1872,
-    "died": 1919,
-    "field": "Chemistry",
-    "known_for": "Invented chromatography for separating pigments"
-  },
-  {
-    "name": "Euclid",
+    "name": "Galileo Galilei",
     "born": "02-15",
-    "year": -325,
-    "died": -265,
-    "field": "Mathematics",
-    "known_for": "Elements, foundation of geometry"
+    "year": 1564,
+    "died": 1642,
+    "field": "Physics / Astronomy",
+    "known_for": "Pointed a telescope at the heavens and saw Jupiter's moons, lunar craters, and Venus's phases — evidence that shattered the geocentric universe and earned him house arrest for life."
   },
   {
-    "name": "Ernst Haeckel",
-    "born": "02-16",
-    "year": 1834,
-    "died": 1919,
-    "field": "Biology",
-    "known_for": "Coined 'ecology', recapitulation theory, art-science"
-  },
-  {
-    "name": "Zhang Heng",
+    "name": "Ernst Mach",
     "born": "02-18",
-    "year": 78,
-    "died": 139,
-    "field": "Astronomy",
-    "known_for": "Seismoscope, armillary sphere, pi estimation"
+    "year": 1838,
+    "died": 1916,
+    "field": "Physics / Philosophy",
+    "known_for": "His work on supersonic motion gave us the Mach number. His insistence that science stick to observable quantities directly influenced Einstein's relativity."
+  },
+  {
+    "name": "Alessandro Volta",
+    "born": "02-18",
+    "year": 1745,
+    "died": 1827,
+    "field": "Physics / Chemistry",
+    "known_for": "Invented the first true battery — the voltaic pile — proving electricity could be generated chemically. Napoleon was so impressed he made Volta a count."
   },
   {
     "name": "Nicolaus Copernicus",
     "born": "02-19",
     "year": 1473,
     "died": 1543,
-    "field": "Astronomy",
-    "known_for": "Heliocentric model of the solar system"
-  },
-  {
-    "name": "Svante Arrhenius",
-    "born": "02-19",
-    "year": 1859,
-    "died": 1927,
-    "field": "Chemistry",
-    "known_for": "Electrolyte dissociation, greenhouse effect prediction"
+    "field": "Astronomy / Mathematics",
+    "known_for": "Moved the Earth. His heliocentric model, published as he lay dying, launched the scientific revolution by placing the Sun — not us — at the center."
   },
   {
     "name": "Ludwig Boltzmann",
@@ -509,7 +485,15 @@
     "year": 1844,
     "died": 1906,
     "field": "Physics",
-    "known_for": "Statistical mechanics, Boltzmann constant"
+    "known_for": "Proved that the second law of thermodynamics is statistical, not absolute. His entropy formula S = k log W is carved on his tombstone. Took his own life, despairing that his ideas would never be accepted."
+  },
+  {
+    "name": "Carl Friedrich Gauss",
+    "born": "02-22",
+    "year": 1777,
+    "died": 1855,
+    "field": "Mathematics",
+    "known_for": "The 'Prince of Mathematicians' — at three he corrected his father's arithmetic, at nineteen he proved the constructibility of the 17-gon, and he never really slowed down."
   },
   {
     "name": "Heinrich Hertz",
@@ -517,39 +501,23 @@
     "year": 1857,
     "died": 1894,
     "field": "Physics",
-    "known_for": "Proved electromagnetic waves, hertz unit namesake"
+    "known_for": "First to prove the existence of electromagnetic waves predicted by Maxwell. Died at 36, never imagining his discovery would spawn radio, TV, and wireless everything."
   },
   {
-    "name": "Allan Cormack",
+    "name": "W.E.B. Du Bois",
     "born": "02-23",
-    "year": 1924,
-    "died": 1998,
-    "field": "Physics",
-    "known_for": "CT scan mathematics, Nobel Prize in Medicine"
+    "year": 1868,
+    "died": 1963,
+    "field": "Sociology / Social Science",
+    "known_for": "Pioneer of empirical sociology and data visualization. His hand-drawn charts for the 1900 Paris Exposition are still studied for their beauty and clarity."
   },
   {
-    "name": "Alois Alzheimer",
-    "born": "02-25",
-    "year": 1864,
-    "died": 1915,
-    "field": "Psychiatry",
-    "known_for": "First description of Alzheimer's disease"
-  },
-  {
-    "name": "Ahmed Zewail",
-    "born": "02-26",
-    "year": 1946,
-    "died": 2016,
-    "field": "Chemistry",
-    "known_for": "Femtochemistry, ultrafast laser spectroscopy"
-  },
-  {
-    "name": "Giulio Natta",
-    "born": "02-26",
-    "year": 1903,
-    "died": 1979,
-    "field": "Chemistry",
-    "known_for": "Stereoregular polymers, Nobel Prize"
+    "name": "George Herbert Mead",
+    "born": "02-27",
+    "year": 1863,
+    "died": 1931,
+    "field": "Social Psychology / Philosophy",
+    "known_for": "Founded symbolic interactionism, the idea that the self is constructed through social interaction. Never published a book — his students compiled his lectures after he died."
   },
   {
     "name": "Linus Pauling",
@@ -557,151 +525,79 @@
     "year": 1901,
     "died": 1994,
     "field": "Chemistry",
-    "known_for": "Chemical bond theory, two Nobel Prizes"
-  },
-  {
-    "name": "Hypatia",
-    "born": "03-01",
-    "year": 360,
-    "died": 415,
-    "field": "Mathematics",
-    "known_for": "Alexandrian philosopher, astronomy, conic sections"
-  },
-  {
-    "name": "Seki Takakazu",
-    "born": "03-01",
-    "year": 1642,
-    "died": 1708,
-    "field": "Mathematics",
-    "known_for": "Japanese calculus, determinants, Bernoulli numbers"
+    "known_for": "Only person to win two unshared Nobel Prizes — one in Chemistry, one for Peace. Revolutionized our understanding of chemical bonds, then spent decades insisting vitamin C cured everything."
   },
   {
     "name": "Alexander Graham Bell",
     "born": "03-03",
     "year": 1847,
     "died": 1922,
-    "field": "Invention",
-    "known_for": "Telephone, contributions to deaf education"
+    "field": "Invention / Engineering",
+    "known_for": "Invented the telephone while trying to help deaf people communicate. His mother and wife were both deaf, and teaching the deaf remained his lifelong passion."
   },
   {
-    "name": "Georg Cantor",
-    "born": "03-03",
-    "year": 1845,
-    "died": 1918,
-    "field": "Mathematics",
-    "known_for": "Set theory, transfinite numbers"
-  },
-  {
-    "name": "Garrett Morgan",
+    "name": "Miriam Menkin",
     "born": "03-04",
-    "year": 1877,
-    "died": 1963,
-    "field": "Invention",
-    "known_for": "Traffic signal, gas mask inventor"
+    "year": 1901,
+    "died": 1992,
+    "field": "Biology / Reproductive Medicine",
+    "known_for": "Achieved the first in vitro fertilization of a human egg in 1944. Her work was largely forgotten because she was a lab technician, not a professor."
   },
   {
-    "name": "George Gamow",
-    "born": "03-04",
-    "year": 1904,
-    "died": 1968,
+    "name": "Georg Ohm",
+    "born": "03-05",
+    "year": 1789,
+    "died": 1854,
     "field": "Physics",
-    "known_for": "Big Bang nucleosynthesis, alpha decay theory"
-  },
-  {
-    "name": "Gerardus Mercator",
-    "born": "03-05",
-    "year": 1512,
-    "died": 1594,
-    "field": "Cartography",
-    "known_for": "Mercator projection for world maps"
-  },
-  {
-    "name": "Lynn Margulis",
-    "born": "03-05",
-    "year": 1938,
-    "died": 2011,
-    "field": "Biology",
-    "known_for": "Endosymbiotic theory of mitochondria origin"
-  },
-  {
-    "name": "Joseph von Fraunhofer",
-    "born": "03-06",
-    "year": 1787,
-    "died": 1826,
-    "field": "Optics",
-    "known_for": "Fraunhofer lines in solar spectrum"
+    "known_for": "Discovered the fundamental law relating voltage, current, and resistance. His work was initially dismissed; he resigned his post in despair before finally receiving recognition."
   },
   {
     "name": "Valentina Tereshkova",
     "born": "03-06",
     "year": 1937,
     "died": null,
-    "field": "Aerospace",
-    "known_for": "First woman in space (Vostok 6)"
+    "field": "Aeronautics / Space Science",
+    "known_for": "A textile worker and amateur parachutist who became the first woman in space in 1963. She orbited Earth 48 times — more than all American astronauts combined at that point."
   },
   {
     "name": "Luther Burbank",
     "born": "03-07",
     "year": 1849,
     "died": 1926,
-    "field": "Botany",
-    "known_for": "Developed over 800 plant varieties"
-  },
-  {
-    "name": "Howard Aiken",
-    "born": "03-08",
-    "year": 1900,
-    "died": 1973,
-    "field": "Computer Science",
-    "known_for": "Harvard Mark I electromechanical computer"
+    "field": "Botany / Horticulture",
+    "known_for": "The 'plant wizard' who developed over 800 varieties of plants, including the Russet Burbank potato — the one McDonald's still uses for french fries."
   },
   {
     "name": "Otto Hahn",
     "born": "03-08",
     "year": 1879,
     "died": 1968,
-    "field": "Chemistry",
-    "known_for": "Discovery of nuclear fission"
-  },
-  {
-    "name": "Amerigo Vespucci",
-    "born": "03-09",
-    "year": 1451,
-    "died": 1512,
-    "field": "Exploration",
-    "known_for": "Americas named after him, navigational methods"
+    "field": "Chemistry / Physics",
+    "known_for": "Discovered nuclear fission — then wept when he learned it had been used to build the atomic bomb."
   },
   {
     "name": "Yuri Gagarin",
     "born": "03-09",
     "year": 1934,
     "died": 1968,
-    "field": "Aerospace",
-    "known_for": "First human in space"
+    "field": "Aeronautics / Space Science",
+    "known_for": "First human in space. A bricklayer's son from rural Russia who orbited the Earth on April 12, 1961, and returned with the immortal words: 'The Earth is blue.'"
   },
   {
-    "name": "Ptolemy",
+    "name": "Joseph Lister",
     "born": "03-10",
-    "year": 100,
-    "died": 170,
-    "field": "Astronomy",
-    "known_for": "Almagest, geocentric model, star catalog"
-  },
-  {
-    "name": "Joseph Bertrand",
-    "born": "03-11",
-    "year": 1822,
-    "died": 1900,
-    "field": "Mathematics",
-    "known_for": "Bertrand's postulate, Bertrand paradox"
+    "year": 1827,
+    "died": 1912,
+    "field": "Medicine / Surgery",
+    "known_for": "Pioneer of antiseptic surgery. Before Lister, surgeons operated in street clothes and never washed their hands. His carbolic acid sprays saved countless lives."
   },
   {
     "name": "Urbain Le Verrier",
     "born": "03-11",
     "year": 1811,
     "died": 1877,
-    "field": "Astronomy",
-    "known_for": "Predicted Neptune's position mathematically"
+    "field": "Astronomy / Mathematics",
+    "known_for": "Discovered Neptune not by looking through a telescope, but by calculating where it had to be from perturbations in Uranus's orbit. Pure mathematics revealing an unseen world."
   },
   {
     "name": "Gustav Kirchhoff",
@@ -709,15 +605,7 @@
     "year": 1824,
     "died": 1887,
     "field": "Physics",
-    "known_for": "Kirchhoff's circuit laws, spectroscopy"
-  },
-  {
-    "name": "Virginia Apgar",
-    "born": "03-12",
-    "year": 1909,
-    "died": 1974,
-    "field": "Medicine",
-    "known_for": "Apgar score for newborn health assessment"
+    "known_for": "His circuit laws are still fundamental to electrical engineering, and he co-invented spectroscopy, letting us determine what distant stars are made of without visiting them."
   },
   {
     "name": "Albert Einstein",
@@ -725,23 +613,15 @@
     "year": 1879,
     "died": 1955,
     "field": "Physics",
-    "known_for": "Theory of relativity, mass-energy equivalence"
+    "known_for": "In a single 'miracle year' he explained Brownian motion, the photoelectric effect, and special relativity. Then spent a decade inventing general relativity, reimagining gravity as the curvature of spacetime."
   },
   {
-    "name": "Giovanni Schiaparelli",
+    "name": "Sylvia Earle",
     "born": "03-14",
-    "year": 1835,
-    "died": 1910,
-    "field": "Astronomy",
-    "known_for": "Mars canali observations, meteor shower orbits"
-  },
-  {
-    "name": "Sushruta",
-    "born": "03-15",
-    "year": -600,
-    "died": -500,
-    "field": "Medicine",
-    "known_for": "Father of surgery, Sushruta Samhita"
+    "year": 1935,
+    "died": null,
+    "field": "Marine Biology / Oceanography",
+    "known_for": "Known as 'Her Deepness,' she set the solo depth record for untethered diving and has spent over 7,000 hours underwater championing ocean conservation."
   },
   {
     "name": "Caroline Herschel",
@@ -749,79 +629,39 @@
     "year": 1750,
     "died": 1848,
     "field": "Astronomy",
-    "known_for": "Discovered 8 comets, first paid female scientist"
-  },
-  {
-    "name": "Georg Ohm",
-    "born": "03-16",
-    "year": 1789,
-    "died": 1854,
-    "field": "Physics",
-    "known_for": "Ohm's law of electrical resistance"
-  },
-  {
-    "name": "Richard Stallman",
-    "born": "03-16",
-    "year": 1953,
-    "died": null,
-    "field": "Computer Science",
-    "known_for": "Free software movement, GNU Project, Emacs"
+    "known_for": "First woman to discover a comet (she found eight), first to be paid for scientific work by the British crown, and first to receive honorary membership in the Royal Astronomical Society."
   },
   {
     "name": "Gottlieb Daimler",
     "born": "03-17",
     "year": 1834,
     "died": 1900,
-    "field": "Engineering",
-    "known_for": "High-speed internal combustion engine, automobile"
-  },
-  {
-    "name": "Marin Mersenne",
-    "born": "03-18",
-    "year": 1588,
-    "died": 1648,
-    "field": "Mathematics",
-    "known_for": "Mersenne primes, acoustics research"
-  },
-  {
-    "name": "Rudolf Diesel",
-    "born": "03-18",
-    "year": 1858,
-    "died": 1913,
-    "field": "Engineering",
-    "known_for": "Diesel engine invention"
-  },
-  {
-    "name": "Mario Molina",
-    "born": "03-19",
-    "year": 1943,
-    "died": 2020,
-    "field": "Chemistry",
-    "known_for": "CFC ozone depletion discovery, Nobel Prize"
+    "field": "Engineering / Invention",
+    "known_for": "Built the first high-speed internal combustion engine and the first four-wheeled automobile, co-founding the company that became Mercedes-Benz."
   },
   {
     "name": "Joseph Fourier",
     "born": "03-21",
     "year": 1768,
     "died": 1830,
-    "field": "Mathematics",
-    "known_for": "Fourier transform, heat conduction theory"
+    "field": "Mathematics / Physics",
+    "known_for": "Discovered that any function can be decomposed into sine waves — powering everything from MP3s to medical imaging. Also the first person to study the greenhouse effect."
+  },
+  {
+    "name": "Katsuko Saruhashi",
+    "born": "03-22",
+    "year": 1920,
+    "died": 2007,
+    "field": "Geochemistry / Oceanography",
+    "known_for": "Japanese geochemist who tracked radioactive fallout from nuclear tests across the Pacific and proved it was contaminating marine life worldwide."
   },
   {
     "name": "Emmy Noether",
     "born": "03-23",
     "year": 1882,
     "died": 1935,
-    "field": "Mathematics",
-    "known_for": "Noether's theorem, abstract algebra"
-  },
-  {
-    "name": "Pierre-Simon Laplace",
-    "born": "03-23",
-    "year": 1749,
-    "died": 1827,
-    "field": "Mathematics",
-    "known_for": "Laplace transform, celestial mechanics"
+    "field": "Mathematics / Physics",
+    "known_for": "Her theorem connecting symmetry to conservation laws is one of the most beautiful results in all of physics. Einstein called her the most important woman in the history of mathematics."
   },
   {
     "name": "Wernher von Braun",
@@ -829,23 +669,15 @@
     "year": 1912,
     "died": 1977,
     "field": "Aerospace Engineering",
-    "known_for": "Saturn V rocket, Apollo program architect"
+    "known_for": "Designed the V-2 rocket for Nazi Germany, then the Saturn V that carried humans to the Moon — the most morally complicated journey in the history of engineering."
   },
   {
-    "name": "Joseph Priestley",
-    "born": "03-24",
-    "year": 1733,
-    "died": 1804,
-    "field": "Chemistry",
-    "known_for": "Discovery of oxygen, carbonated water"
-  },
-  {
-    "name": "Paul Erdos",
-    "born": "03-26",
-    "year": 1913,
-    "died": 1996,
-    "field": "Mathematics",
-    "known_for": "Prolific combinatorics and number theory"
+    "name": "Pierre-Simon Laplace",
+    "born": "03-23",
+    "year": 1749,
+    "died": 1827,
+    "field": "Mathematics / Astronomy",
+    "known_for": "The 'French Newton' who formulated celestial mechanics. When Napoleon asked why God didn't appear in his equations: 'I had no need of that hypothesis.'"
   },
   {
     "name": "Wilhelm Rontgen",
@@ -853,7 +685,7 @@
     "year": 1845,
     "died": 1923,
     "field": "Physics",
-    "known_for": "Discovery of X-rays, first Nobel in Physics"
+    "known_for": "Discovered X-rays by accident, then took the first medical X-ray — his wife's hand, bones and wedding ring glowing on the plate. She reportedly said: 'I have seen my death.'"
   },
   {
     "name": "Robert Bunsen",
@@ -861,55 +693,55 @@
     "year": 1811,
     "died": 1899,
     "field": "Chemistry",
-    "known_for": "Bunsen burner, spectroscopy with Kirchhoff"
+    "known_for": "Famous for the Bunsen burner (which his assistant actually designed), his real breakthrough was co-inventing spectroscopy, revealing that every element has a unique fingerprint of light."
   },
   {
     "name": "Rene Descartes",
     "born": "03-31",
     "year": 1596,
     "died": 1650,
-    "field": "Mathematics",
-    "known_for": "Cartesian coordinates, analytical geometry"
+    "field": "Mathematics / Philosophy",
+    "known_for": "Invented coordinate geometry while lying in bed watching a fly on the ceiling. His 'I think, therefore I am' remains philosophy's most famous one-liner."
   },
   {
     "name": "Sophie Germain",
     "born": "04-01",
     "year": 1776,
     "died": 1831,
-    "field": "Mathematics",
-    "known_for": "Germain primes, elasticity theory"
+    "field": "Mathematics / Physics",
+    "known_for": "Taught herself math from her father's library, wrote to Gauss under a male pseudonym, and made major contributions to number theory and the physics of vibrating surfaces."
   },
   {
-    "name": "Wangari Maathai",
+    "name": "William Harvey",
     "born": "04-01",
-    "year": 1940,
-    "died": 2011,
-    "field": "Environmental Science",
-    "known_for": "Green Belt Movement, Nobel Peace Prize"
+    "year": 1578,
+    "died": 1657,
+    "field": "Medicine / Anatomy",
+    "known_for": "Demonstrated that the heart pumps blood through a closed circulatory system — overturning Galen's 1,400-year-old model and launching modern physiology."
   },
   {
-    "name": "Max Planck",
+    "name": "Maria Sibylla Merian",
     "born": "04-02",
-    "year": 1858,
-    "died": 1947,
-    "field": "Physics",
-    "known_for": "Quantum theory, Planck constant"
+    "year": 1647,
+    "died": 1717,
+    "field": "Entomology / Natural History",
+    "known_for": "At 52, sailed to Suriname to study insects — astonishing for any 17th-century European, let alone a woman. Her hand-painted illustrations of metamorphosis are masterpieces of both science and art."
   },
   {
-    "name": "Fazlur Rahman Khan",
-    "born": "04-03",
-    "year": 1929,
-    "died": 1982,
-    "field": "Structural Engineering",
-    "known_for": "Tubular design for skyscrapers, Sears Tower"
+    "name": "Paul Cohen",
+    "born": "04-02",
+    "year": 1934,
+    "died": 2007,
+    "field": "Mathematics",
+    "known_for": "Proved that the continuum hypothesis is independent of set theory — mathematics itself has limits we cannot escape. Won the Fields Medal for this unsettling result."
   },
   {
     "name": "Jane Goodall",
     "born": "04-03",
     "year": 1934,
     "died": null,
-    "field": "Primatology",
-    "known_for": "Chimpanzee behavior research in Gombe"
+    "field": "Primatology / Ethology",
+    "known_for": "Went to Tanzania at 26 with no degree and discovered that chimpanzees make and use tools — overturning the definition of what makes us human."
   },
   {
     "name": "Linus Torvalds",
@@ -917,15 +749,23 @@
     "year": 1969,
     "died": null,
     "field": "Computer Science",
-    "known_for": "Created Linux kernel and Git"
+    "known_for": "Created Linux as a hobby project at 21, then accidentally built the OS that runs most of the world's servers, phones, and supercomputers."
   },
   {
-    "name": "Joseph Lister",
-    "born": "04-05",
-    "year": 1827,
-    "died": 1912,
-    "field": "Medicine",
-    "known_for": "Antiseptic surgery pioneer"
+    "name": "Fazlur Rahman Khan",
+    "born": "04-03",
+    "year": 1929,
+    "died": 1982,
+    "field": "Structural Engineering",
+    "known_for": "The 'Einstein of structural engineering' who invented the tube structure design that made modern skyscrapers possible, including the Willis Tower."
+  },
+  {
+    "name": "Robert Oppenheimer",
+    "born": "04-04",
+    "year": 1904,
+    "died": 1967,
+    "field": "Physics",
+    "known_for": "Led the Manhattan Project and quoted the Bhagavad Gita upon witnessing the first nuclear detonation: 'Now I am become Death, the destroyer of worlds.'"
   },
   {
     "name": "James Watson",
@@ -933,223 +773,167 @@
     "year": 1928,
     "died": null,
     "field": "Molecular Biology",
-    "known_for": "Co-discovered DNA double helix structure"
+    "known_for": "Co-discovered the double helix structure of DNA — though much of the crucial evidence came from Rosalind Franklin's X-ray crystallography, for which she received too little credit."
   },
   {
-    "name": "Leonhard Euler",
-    "born": "04-07",
-    "year": 1707,
-    "died": 1783,
-    "field": "Mathematics",
-    "known_for": "Graph theory, Euler's identity, prolific output"
-  },
-  {
-    "name": "Marjory Stoneman Douglas",
-    "born": "04-07",
-    "year": 1890,
-    "died": 1998,
-    "field": "Environmental Science",
-    "known_for": "Everglades conservation, River of Grass"
-  },
-  {
-    "name": "Melvin Calvin",
-    "born": "04-08",
-    "year": 1911,
-    "died": 1997,
-    "field": "Chemistry",
-    "known_for": "Calvin cycle in photosynthesis, Nobel Prize"
-  },
-  {
-    "name": "Dennis Ritchie",
+    "name": "Mary Jackson",
     "born": "04-09",
-    "year": 1941,
-    "died": 2011,
-    "field": "Computer Science",
-    "known_for": "Created C language and co-developed Unix"
+    "year": 1921,
+    "died": 2005,
+    "field": "Engineering / Mathematics",
+    "known_for": "NASA's first Black female engineer. She had to petition the city of Hampton for permission to attend the graduate courses required for her promotion — because the school was whites-only."
   },
   {
-    "name": "Bernardo Houssay",
-    "born": "04-10",
-    "year": 1887,
-    "died": 1971,
-    "field": "Physiology",
-    "known_for": "Pituitary hormone role in blood sugar regulation"
-  },
-  {
-    "name": "Hippocrates",
-    "born": "04-10",
-    "year": -460,
-    "died": -370,
-    "field": "Medicine",
-    "known_for": "Father of medicine, Hippocratic Oath"
-  },
-  {
-    "name": "Percy Julian",
+    "name": "Percy Lavon Julian",
     "born": "04-11",
     "year": 1899,
     "died": 1975,
     "field": "Chemistry",
-    "known_for": "Synthesized cortisone and physostigmine"
-  },
-  {
-    "name": "Gustave Eiffel",
-    "born": "04-12",
-    "year": 1832,
-    "died": 1923,
-    "field": "Engineering",
-    "known_for": "Eiffel Tower, structural engineering innovations"
-  },
-  {
-    "name": "Aryabhata",
-    "born": "04-13",
-    "year": 476,
-    "died": 550,
-    "field": "Mathematics",
-    "known_for": "Zero placeholder, trigonometry, Earth rotation"
+    "known_for": "Grandson of enslaved people who became a pioneering organic chemist. Synthesized physostigmine and cortisone from soybeans. His home was firebombed by racists — twice."
   },
   {
     "name": "Christiaan Huygens",
     "born": "04-14",
     "year": 1629,
     "died": 1695,
-    "field": "Physics",
-    "known_for": "Wave theory of light, pendulum clock"
+    "field": "Physics / Astronomy / Mathematics",
+    "known_for": "Invented the pendulum clock, discovered Saturn's rings and its moon Titan, and proposed the wave theory of light — the most versatile scientist between Galileo and Newton."
   },
   {
     "name": "Leonardo da Vinci",
     "born": "04-15",
     "year": 1452,
     "died": 1519,
-    "field": "Polymath",
-    "known_for": "Anatomical studies, flying machine designs"
+    "field": "Engineering / Anatomy / Art",
+    "known_for": "Filled 7,000 notebook pages with flying machines, anatomical studies, and ideas centuries ahead of their time. The original Renaissance polymath."
+  },
+  {
+    "name": "Leonhard Euler",
+    "born": "04-15",
+    "year": 1707,
+    "died": 1783,
+    "field": "Mathematics",
+    "known_for": "The most prolific mathematician ever — blind in one eye by 30, totally blind by 60, somehow more productive after losing his sight. His formula e^(i*pi) + 1 = 0 is the most beautiful equation."
   },
   {
     "name": "Wilbur Wright",
     "born": "04-16",
     "year": 1867,
     "died": 1912,
-    "field": "Aviation",
-    "known_for": "First sustained powered airplane flight"
+    "field": "Aviation / Engineering",
+    "known_for": "With his brother Orville, achieved the first powered heavier-than-air flight at Kitty Hawk. Neither had a college degree or any formal engineering training."
   },
   {
-    "name": "Clarence Birdseye",
-    "born": "04-18",
-    "year": 1886,
-    "died": 1956,
-    "field": "Food Science",
-    "known_for": "Flash-freezing process for food preservation"
-  },
-  {
-    "name": "Glenn Seaborg",
-    "born": "04-19",
-    "year": 1912,
-    "died": 1999,
-    "field": "Chemistry",
-    "known_for": "Discovered plutonium and 9 other elements"
-  },
-  {
-    "name": "J. Robert Oppenheimer",
-    "born": "04-22",
-    "year": 1904,
-    "died": 1967,
-    "field": "Physics",
-    "known_for": "Manhattan Project director, atomic bomb"
+    "name": "Max Weber",
+    "born": "04-21",
+    "year": 1864,
+    "died": 1920,
+    "field": "Sociology / Economics",
+    "known_for": "Founded modern sociology. His 'Protestant Ethic' linked Calvinist anxiety about salvation to the rise of capitalism — an argument scholars are still debating."
   },
   {
     "name": "Rita Levi-Montalcini",
     "born": "04-22",
     "year": 1909,
     "died": 2012,
-    "field": "Neuroscience",
-    "known_for": "Nerve growth factor discovery, Nobel Prize"
+    "field": "Neuroscience / Medicine",
+    "known_for": "Discovered nerve growth factor while running a secret lab in her bedroom during the Nazi occupation of Italy. Won the Nobel at 77 and lived to 103."
   },
   {
-    "name": "Felix Klein",
+    "name": "Max Planck",
+    "born": "04-23",
+    "year": 1858,
+    "died": 1947,
+    "field": "Physics",
+    "known_for": "Reluctantly introduced the quantum — energy comes in discrete packets — because it was the only way to make his equations work. It shattered classical physics."
+  },
+  {
+    "name": "Annie Easley",
+    "born": "04-23",
+    "year": 1933,
+    "died": 2011,
+    "field": "Computer Science / Mathematics",
+    "known_for": "One of NASA's first African American employees, she developed code for the Centaur rocket stage that launched communication satellites and planetary probes."
+  },
+  {
+    "name": "Wolfgang Pauli",
     "born": "04-25",
-    "year": 1849,
-    "died": 1925,
+    "year": 1900,
+    "died": 1958,
+    "field": "Physics",
+    "known_for": "Predicted the neutrino and discovered the exclusion principle. Famous for withering criticism — 'not even wrong' was his verdict on bad physics."
+  },
+  {
+    "name": "Srinivasa Ramanujan",
+    "born": "04-26",
+    "year": 1887,
+    "died": 1920,
     "field": "Mathematics",
-    "known_for": "Klein bottle, Erlangen program"
-  },
-  {
-    "name": "Frederick Banting",
-    "born": "04-25",
-    "year": 1891,
-    "died": 1941,
-    "field": "Medicine",
-    "known_for": "Co-discovery of insulin for diabetes"
-  },
-  {
-    "name": "Guglielmo Marconi",
-    "born": "04-25",
-    "year": 1874,
-    "died": 1937,
-    "field": "Electrical Engineering",
-    "known_for": "Radio transmission, Nobel Prize in Physics"
+    "known_for": "A self-taught clerk in Madras who sent letters full of astonishing theorems to Cambridge. Hardy called their collaboration 'the one romantic incident in my life.' Died at 32, leaving notebooks still yielding discoveries."
   },
   {
     "name": "Charles Richter",
     "born": "04-26",
     "year": 1900,
     "died": 1985,
-    "field": "Seismology",
-    "known_for": "Richter magnitude scale for earthquakes"
+    "field": "Seismology / Physics",
+    "known_for": "Developed the Richter scale for measuring earthquake magnitude. Also a nudist and published poet — far more interesting than his famous scale suggests."
   },
   {
-    "name": "Maria Gaetana Agnesi",
-    "born": "04-26",
-    "year": 1718,
-    "died": 1799,
-    "field": "Mathematics",
-    "known_for": "Witch of Agnesi curve, calculus textbook"
-  },
-  {
-    "name": "Karl Landsteiner",
+    "name": "Frederick Banting",
     "born": "04-27",
-    "year": 1868,
-    "died": 1943,
+    "year": 1891,
+    "died": 1941,
     "field": "Medicine",
-    "known_for": "ABO blood group system discovery"
+    "known_for": "Co-discovered insulin and chose not to put his name on the patent, believing life-saving medicine should be available to everyone. Sold the patent for one dollar."
   },
   {
     "name": "Samuel Morse",
     "born": "04-27",
     "year": 1791,
     "died": 1872,
-    "field": "Invention",
-    "known_for": "Morse code, electric telegraph"
+    "field": "Invention / Engineering",
+    "known_for": "An accomplished painter who invented Morse code and the practical telegraph, sending the first message — 'What hath God wrought' — from Washington to Baltimore in 1844."
   },
   {
     "name": "Kurt Godel",
     "born": "04-28",
     "year": 1906,
     "died": 1978,
-    "field": "Mathematics",
-    "known_for": "Incompleteness theorems, foundations of logic"
+    "field": "Mathematics / Logic",
+    "known_for": "Proved that any consistent mathematical system must contain truths that cannot be proved within it — the most devastating result in the history of logic. Died of starvation, refusing to eat food not prepared by his wife."
+  },
+  {
+    "name": "Hertha Ayrton",
+    "born": "04-28",
+    "year": 1854,
+    "died": 1923,
+    "field": "Physics / Engineering",
+    "known_for": "Expert on the electric arc and sand ripple formation. First woman to read a paper at the Royal Society, though they refused to let her become a member."
   },
   {
     "name": "Henri Poincare",
     "born": "04-29",
     "year": 1854,
     "died": 1912,
-    "field": "Mathematics",
-    "known_for": "Poincare conjecture, topology, chaos theory"
-  },
-  {
-    "name": "Carl Friedrich Gauss",
-    "born": "04-30",
-    "year": 1777,
-    "died": 1855,
-    "field": "Mathematics",
-    "known_for": "Number theory, Gaussian distribution, magnetism"
+    "field": "Mathematics / Physics",
+    "known_for": "The last mathematician who could work in every branch of the field. Discovered chaos theory a century before it had a name, and came tantalizingly close to special relativity before Einstein."
   },
   {
     "name": "Claude Shannon",
     "born": "04-30",
     "year": 1916,
     "died": 2001,
-    "field": "Mathematics",
-    "known_for": "Information theory, digital circuit design"
+    "field": "Mathematics / Engineering",
+    "known_for": "Invented information theory in a single paper, creating the foundation for all digital communication. Also built a flame-throwing trumpet and a machine whose sole purpose was to turn itself off."
+  },
+  {
+    "name": "Carl Linnaeus",
+    "born": "05-01",
+    "year": 1707,
+    "died": 1778,
+    "field": "Biology / Taxonomy",
+    "known_for": "Invented binomial nomenclature — the system that gives every species a two-part Latin name. Even taxonomists need a brand."
   },
   {
     "name": "Santiago Ramon y Cajal",
@@ -1157,15 +941,15 @@
     "year": 1852,
     "died": 1934,
     "field": "Neuroscience",
-    "known_for": "Neuron doctrine, Nobel Prize in Medicine"
+    "known_for": "Father of modern neuroscience. His hand-drawn illustrations of neurons are both scientific landmarks and works of art, revealing the brain's architecture with breathtaking precision."
   },
   {
     "name": "Benjamin Spock",
     "born": "05-02",
     "year": 1903,
     "died": 1998,
-    "field": "Pediatrics",
-    "known_for": "Baby and Child Care, modern pediatrics"
+    "field": "Medicine / Pediatrics",
+    "known_for": "His 'Baby and Child Care' was the second best-selling book of the 20th century. Told parents to trust their instincts — a revolutionary idea at the time."
   },
   {
     "name": "Maryam Mirzakhani",
@@ -1173,71 +957,39 @@
     "year": 1977,
     "died": 2017,
     "field": "Mathematics",
-    "known_for": "First woman Fields Medal, Riemann surfaces"
+    "known_for": "First woman and first Iranian to win the Fields Medal, for work on the geometry of surfaces. Died of breast cancer at 40, a devastating loss."
   },
   {
     "name": "Thomas Henry Huxley",
     "born": "05-04",
     "year": 1825,
     "died": 1895,
-    "field": "Biology",
-    "known_for": "Darwin's Bulldog, comparative anatomy"
+    "field": "Biology / Evolution",
+    "known_for": "Darwin's self-appointed 'Bulldog,' he championed evolution in public debates with such ferocity that he essentially won the battle Darwin was too shy to fight."
   },
   {
-    "name": "J. B. S. Haldane",
+    "name": "Soren Kierkegaard",
     "born": "05-05",
-    "year": 1892,
-    "died": 1964,
-    "field": "Genetics",
-    "known_for": "Population genetics, Haldane's rule"
+    "year": 1813,
+    "died": 1855,
+    "field": "Philosophy",
+    "known_for": "The father of existentialism, who wrote under a dozen pseudonyms and argued that truth is subjective — the most influential philosopher you've probably never read in the original."
   },
   {
     "name": "Sigmund Freud",
     "born": "05-06",
     "year": 1856,
     "died": 1939,
-    "field": "Psychology",
-    "known_for": "Psychoanalysis, theory of the unconscious"
+    "field": "Medicine / Psychology",
+    "known_for": "Whether genius or fraud, he invented the idea of the unconscious mind — and changed how the entire Western world thinks about itself."
   },
   {
-    "name": "Rabindranath Tagore",
-    "born": "05-07",
-    "year": 1861,
-    "died": 1941,
-    "field": "Literature",
-    "known_for": "Nobel laureate poet, Visva-Bharati university"
-  },
-  {
-    "name": "David Attenborough",
+    "name": "Pyotr Kapitsa",
     "born": "05-08",
-    "year": 1926,
-    "died": null,
-    "field": "Natural History",
-    "known_for": "BBC nature documentaries, conservation advocacy"
-  },
-  {
-    "name": "Gaspard Monge",
-    "born": "05-09",
-    "year": 1746,
-    "died": 1818,
-    "field": "Mathematics",
-    "known_for": "Descriptive geometry, Ecole Polytechnique founder"
-  },
-  {
-    "name": "Augustin-Jean Fresnel",
-    "born": "05-10",
-    "year": 1788,
-    "died": 1827,
+    "year": 1894,
+    "died": 1984,
     "field": "Physics",
-    "known_for": "Fresnel lens, wave theory of light"
-  },
-  {
-    "name": "Cecilia Payne-Gaposchkin",
-    "born": "05-10",
-    "year": 1900,
-    "died": 1979,
-    "field": "Astronomy",
-    "known_for": "Stars are mainly hydrogen and helium"
+    "known_for": "Discovered superfluidity in liquid helium and survived refusing to work on the Soviet bomb — one of the few scientists who told Stalin no and lived."
   },
   {
     "name": "Richard Feynman",
@@ -1245,23 +997,31 @@
     "year": 1918,
     "died": 1988,
     "field": "Physics",
-    "known_for": "Quantum electrodynamics, Feynman diagrams"
+    "known_for": "Reinvented quantum electrodynamics, cracked safes at Los Alamos for fun, played bongo drums, and explained physics with such joy that he made the universe feel like a playground."
+  },
+  {
+    "name": "Edsger Dijkstra",
+    "born": "05-11",
+    "year": 1930,
+    "died": 2002,
+    "field": "Computer Science",
+    "known_for": "Invented the shortest-path algorithm and structured programming. Wrote 1,300+ technical notes by hand and famously declared 'goto' statements harmful."
   },
   {
     "name": "Dorothy Hodgkin",
     "born": "05-12",
     "year": 1910,
     "died": 1994,
-    "field": "Chemistry",
-    "known_for": "X-ray crystallography, penicillin and insulin structure"
+    "field": "Chemistry / Crystallography",
+    "known_for": "Used X-ray crystallography to solve penicillin, vitamin B12, and insulin. Won the Nobel while Margaret Thatcher was her student at Oxford."
   },
   {
     "name": "Florence Nightingale",
     "born": "05-12",
     "year": 1820,
     "died": 1910,
-    "field": "Nursing",
-    "known_for": "Modern nursing, statistical graphics pioneer"
+    "field": "Medicine / Statistics",
+    "known_for": "Pioneered modern nursing AND data visualization. Her 'coxcomb' charts showing preventable military deaths changed public health policy forever."
   },
   {
     "name": "Ronald Ross",
@@ -1269,47 +1029,15 @@
     "year": 1857,
     "died": 1932,
     "field": "Medicine",
-    "known_for": "Malaria transmission by mosquitoes"
+    "known_for": "Proved that mosquitoes transmit malaria — a discovery made in sweltering Indian heat that won the Nobel Prize and has saved millions of lives."
   },
   {
-    "name": "Daniel Fahrenheit",
-    "born": "05-14",
-    "year": 1686,
-    "died": 1736,
-    "field": "Physics",
-    "known_for": "Mercury thermometer, Fahrenheit temperature scale"
-  },
-  {
-    "name": "Jabir ibn Hayyan",
-    "born": "05-15",
-    "year": 721,
-    "died": 815,
-    "field": "Chemistry",
-    "known_for": "Father of chemistry, distillation, mineral acids"
-  },
-  {
-    "name": "Maria Reiche",
-    "born": "05-15",
-    "year": 1903,
-    "died": 1998,
-    "field": "Archaeology",
-    "known_for": "Nazca Lines preservation and study"
-  },
-  {
-    "name": "Pierre Curie",
-    "born": "05-15",
-    "year": 1859,
-    "died": 1906,
-    "field": "Physics",
-    "known_for": "Radioactivity research, piezoelectricity"
-  },
-  {
-    "name": "Alan Kay",
-    "born": "05-17",
-    "year": 1940,
-    "died": null,
-    "field": "Computer Science",
-    "known_for": "Object-oriented programming, Smalltalk, GUI concept"
+    "name": "Maria Gaetana Agnesi",
+    "born": "05-16",
+    "year": 1718,
+    "died": 1799,
+    "field": "Mathematics",
+    "known_for": "First woman to write a mathematics textbook and first appointed to a university math chair. Walked away from academia to spend her life caring for the poor."
   },
   {
     "name": "Edward Jenner",
@@ -1317,39 +1045,39 @@
     "year": 1749,
     "died": 1823,
     "field": "Medicine",
-    "known_for": "Smallpox vaccine, father of immunology"
-  },
-  {
-    "name": "Bertrand Russell",
-    "born": "05-18",
-    "year": 1872,
-    "died": 1970,
-    "field": "Mathematics",
-    "known_for": "Principia Mathematica, mathematical logic"
+    "known_for": "Noticed milkmaids who caught cowpox never got smallpox, and used that observation to develop the first vaccine — from 'vacca,' Latin for cow."
   },
   {
     "name": "Omar Khayyam",
     "born": "05-18",
     "year": 1048,
     "died": 1131,
-    "field": "Mathematics",
-    "known_for": "Cubic equations, calendar reform, Rubaiyat"
+    "field": "Mathematics / Astronomy / Poetry",
+    "known_for": "Solved cubic equations, reformed the Persian calendar to be more accurate than the Gregorian, and wrote the Rubaiyat — beloved poetry in any language."
+  },
+  {
+    "name": "Bertrand Russell",
+    "born": "05-18",
+    "year": 1872,
+    "died": 1970,
+    "field": "Mathematics / Philosophy",
+    "known_for": "Tried to ground all math in logic, discovered his own devastating paradox, won the Nobel in Literature, and got arrested for peace activism at age 89."
+  },
+  {
+    "name": "Oliver Heaviside",
+    "born": "05-18",
+    "year": 1850,
+    "died": 1925,
+    "field": "Mathematics / Physics",
+    "known_for": "Self-taught genius who reformulated Maxwell's equations into their modern form and predicted the ionosphere. Died in poverty, ignored by the establishment."
   },
   {
     "name": "Max Perutz",
     "born": "05-19",
     "year": 1914,
     "died": 2002,
-    "field": "Molecular Biology",
-    "known_for": "Hemoglobin structure by X-ray crystallography"
-  },
-  {
-    "name": "Pythagoras",
-    "born": "05-20",
-    "year": -570,
-    "died": -495,
-    "field": "Mathematics",
-    "known_for": "Pythagorean theorem, mathematical philosophy"
+    "field": "Chemistry / Molecular Biology",
+    "known_for": "Spent 22 years solving hemoglobin's structure by X-ray crystallography — the longest sustained attack on a single problem, rewarded with a Nobel Prize."
   },
   {
     "name": "Mary Anning",
@@ -1357,23 +1085,15 @@
     "year": 1799,
     "died": 1847,
     "field": "Paleontology",
-    "known_for": "Ichthyosaur and plesiosaur fossil discoveries"
+    "known_for": "A working-class girl from Lyme Regis who discovered the first ichthyosaur at 12. One of the greatest fossil hunters ever, while male scientists took credit."
   },
   {
-    "name": "Andrei Kolmogorov",
-    "born": "05-22",
-    "year": 1903,
-    "died": 1987,
-    "field": "Mathematics",
-    "known_for": "Probability axioms, complexity theory, turbulence"
-  },
-  {
-    "name": "Carl Linnaeus",
-    "born": "05-23",
-    "year": 1707,
-    "died": 1778,
-    "field": "Biology",
-    "known_for": "Binomial nomenclature, taxonomy system"
+    "name": "Andrei Sakharov",
+    "born": "05-21",
+    "year": 1921,
+    "died": 1989,
+    "field": "Physics / Human Rights",
+    "known_for": "Designed the Soviet hydrogen bomb, then became the USSR's most famous dissident. Won the Nobel Peace Prize; the government wouldn't let him collect it."
   },
   {
     "name": "John Bardeen",
@@ -1381,39 +1101,31 @@
     "year": 1908,
     "died": 1991,
     "field": "Physics",
-    "known_for": "Transistor, BCS superconductivity theory, two Nobels"
-  },
-  {
-    "name": "William Thomson (Lord Kelvin)",
-    "born": "05-24",
-    "year": 1824,
-    "died": 1907,
-    "field": "Physics",
-    "known_for": "Absolute temperature scale, thermodynamics"
-  },
-  {
-    "name": "Sally Ride",
-    "born": "05-26",
-    "year": 1951,
-    "died": 2012,
-    "field": "Physics",
-    "known_for": "First American woman in space"
+    "known_for": "Only person to win two Nobel Prizes in Physics — for the transistor and for superconductivity. So quiet that few outside physics know his name."
   },
   {
     "name": "Rachel Carson",
     "born": "05-27",
     "year": 1907,
     "died": 1964,
-    "field": "Marine Biology",
-    "known_for": "Silent Spring, environmental movement catalyst"
+    "field": "Marine Biology / Environmental Science",
+    "known_for": "Wrote 'Silent Spring,' launching the environmental movement. The chemical industry tried to destroy her; she changed the world anyway."
   },
   {
-    "name": "Louis Agassiz",
+    "name": "John Nash",
     "born": "05-28",
-    "year": 1807,
-    "died": 1873,
-    "field": "Geology",
-    "known_for": "Ice age theory, glaciology pioneer"
+    "year": 1928,
+    "died": 2015,
+    "field": "Mathematics",
+    "known_for": "His equilibrium theory revolutionized economics. Battled paranoid schizophrenia for decades, then recovered to win both the Nobel and Abel prizes."
+  },
+  {
+    "name": "Milutin Milankovic",
+    "born": "05-28",
+    "year": 1879,
+    "died": 1958,
+    "field": "Mathematics / Geophysics",
+    "known_for": "Serbian mathematician who calculated how Earth's orbital variations cause ice ages — dismissed for decades, now central to climate science."
   },
   {
     "name": "Peter Higgs",
@@ -1421,7 +1133,7 @@
     "year": 1929,
     "died": 2024,
     "field": "Physics",
-    "known_for": "Higgs boson prediction, mass mechanism"
+    "known_for": "Predicted the particle that gives others mass. Waited nearly 50 years for the Large Hadron Collider to confirm it. Wept when it did."
   },
   {
     "name": "Chien-Shiung Wu",
@@ -1429,31 +1141,23 @@
     "year": 1912,
     "died": 1997,
     "field": "Physics",
-    "known_for": "Disproved parity conservation, Wu experiment"
+    "known_for": "Proved that the universe distinguishes left from right — disproving parity conservation. Her male theorist colleagues won the Nobel; she was excluded."
   },
   {
-    "name": "Jacques Cousteau",
+    "name": "Blaise Pascal",
     "born": "06-01",
-    "year": 1910,
-    "died": 1997,
-    "field": "Oceanography",
-    "known_for": "Aqua-Lung co-inventor, ocean conservation"
+    "year": 1623,
+    "died": 1662,
+    "field": "Mathematics / Physics / Philosophy",
+    "known_for": "Built a calculator at 18, founded probability theory, proved atmospheric pressure varies with altitude, then abandoned science for theology after a mystical experience."
   },
   {
-    "name": "John Napier",
-    "born": "06-01",
-    "year": 1550,
-    "died": 1617,
-    "field": "Mathematics",
-    "known_for": "Invention of logarithms, Napier's bones"
-  },
-  {
-    "name": "Kip Thorne",
-    "born": "06-01",
-    "year": 1940,
-    "died": null,
-    "field": "Physics",
-    "known_for": "Gravitational wave detection, LIGO, Nobel Prize"
+    "name": "Justus von Liebig",
+    "born": "06-02",
+    "year": 1803,
+    "died": 1873,
+    "field": "Chemistry",
+    "known_for": "Father of organic chemistry who invented the modern teaching laboratory. His work on plant nutrition launched the fertilizer industry that feeds most of the world."
   },
   {
     "name": "Charles Drew",
@@ -1461,39 +1165,31 @@
     "year": 1904,
     "died": 1950,
     "field": "Medicine",
-    "known_for": "Blood bank development, blood plasma storage"
+    "known_for": "Pioneered blood banking and plasma storage that saved thousands in WWII. Resigned to protest the military's racist policy of segregating blood by race."
   },
   {
-    "name": "James Hutton",
-    "born": "06-03",
-    "year": 1726,
-    "died": 1797,
-    "field": "Geology",
-    "known_for": "Deep time, father of modern geology"
-  },
-  {
-    "name": "Heinrich Otto Wieland",
-    "born": "06-04",
-    "year": 1877,
-    "died": 1957,
-    "field": "Chemistry",
-    "known_for": "Bile acid structure, Nobel Prize in Chemistry"
-  },
-  {
-    "name": "David Scott",
-    "born": "06-06",
-    "year": 1932,
+    "name": "David Attenborough",
+    "born": "06-05",
+    "year": 1926,
     "died": null,
-    "field": "Aerospace",
-    "known_for": "First to drive on Moon, Apollo 15 commander"
+    "field": "Natural History / Biology",
+    "known_for": "Has been explaining the natural world to humanity for over seven decades. His voice may be the most widely recognized on Earth."
   },
   {
-    "name": "Francis Crick",
-    "born": "06-08",
-    "year": 1916,
-    "died": 2004,
-    "field": "Molecular Biology",
-    "known_for": "Co-discovered DNA double helix structure"
+    "name": "Alan Turing",
+    "born": "06-07",
+    "year": 1912,
+    "died": 1954,
+    "field": "Computer Science / Mathematics",
+    "known_for": "Invented the universal computer concept, cracked Enigma and helped win WWII, then was prosecuted for being gay and died at 41. The father of computer science and AI."
+  },
+  {
+    "name": "Virginia Apgar",
+    "born": "06-07",
+    "year": 1909,
+    "died": 1974,
+    "field": "Medicine / Anesthesiology",
+    "known_for": "Invented the Apgar score — the first test every newborn receives. Its elegant simplicity has saved countless infant lives."
   },
   {
     "name": "Tim Berners-Lee",
@@ -1501,7 +1197,7 @@
     "year": 1955,
     "died": null,
     "field": "Computer Science",
-    "known_for": "Invented the World Wide Web, HTML, HTTP"
+    "known_for": "Invented the World Wide Web in 1989 and gave it away for free. Could have been the richest person on Earth; chose to keep the web open."
   },
   {
     "name": "George Stephenson",
@@ -1509,23 +1205,23 @@
     "year": 1781,
     "died": 1848,
     "field": "Engineering",
-    "known_for": "Steam locomotive, railway gauge standard"
+    "known_for": "Illiterate until 18, he taught himself to read and built the world's first public railway. His rail gauge became the global standard."
   },
   {
-    "name": "E. O. Wilson",
+    "name": "E.O. Wilson",
     "born": "06-10",
     "year": 1929,
     "died": 2021,
-    "field": "Biology",
-    "known_for": "Sociobiology, biodiversity, ant ecology"
+    "field": "Biology / Entomology",
+    "known_for": "The world's foremost expert on ants who became a prophet of biodiversity, warning that we are causing the sixth mass extinction."
   },
   {
-    "name": "Erwin Chargaff",
+    "name": "Jacques Cousteau",
     "born": "06-11",
-    "year": 1905,
-    "died": 2002,
-    "field": "Biochemistry",
-    "known_for": "Chargaff's rules for DNA base pairing"
+    "year": 1910,
+    "died": 1997,
+    "field": "Oceanography / Marine Biology",
+    "known_for": "Co-invented the aqualung, made the ocean accessible to millions, and spent his life exploring the sea aboard his beloved ship Calypso."
   },
   {
     "name": "James Clerk Maxwell",
@@ -1533,15 +1229,7 @@
     "year": 1831,
     "died": 1879,
     "field": "Physics",
-    "known_for": "Maxwell's equations, electromagnetic theory"
-  },
-  {
-    "name": "John Nash",
-    "born": "06-13",
-    "year": 1928,
-    "died": 2015,
-    "field": "Mathematics",
-    "known_for": "Nash equilibrium, game theory"
+    "known_for": "Unified electricity, magnetism, and light into four equations. Einstein kept his portrait on the wall: 'the most profound physics since Newton.'"
   },
   {
     "name": "Luis Alvarez",
@@ -1549,111 +1237,47 @@
     "year": 1911,
     "died": 1988,
     "field": "Physics",
-    "known_for": "Asteroid impact extinction theory, bubble chamber"
+    "known_for": "Won a Nobel for particle physics, then proposed an asteroid killed the dinosaurs — scoffed at until the Chicxulub crater was found."
   },
   {
-    "name": "Alonzo Church",
+    "name": "Alois Alzheimer",
     "born": "06-14",
-    "year": 1903,
-    "died": 1995,
-    "field": "Mathematics",
-    "known_for": "Lambda calculus, Church-Turing thesis"
-  },
-  {
-    "name": "Charles-Augustin de Coulomb",
-    "born": "06-14",
-    "year": 1736,
-    "died": 1806,
-    "field": "Physics",
-    "known_for": "Coulomb's law of electrostatic force"
-  },
-  {
-    "name": "Archimedes",
-    "born": "06-15",
-    "year": -287,
-    "died": -212,
-    "field": "Mathematics",
-    "known_for": "Buoyancy principle, pi approximation, lever theory"
-  },
-  {
-    "name": "Brahmagupta",
-    "born": "06-15",
-    "year": 598,
-    "died": 668,
-    "field": "Mathematics",
-    "known_for": "Zero as a number, negative numbers, cyclic quadrilaterals"
+    "year": 1864,
+    "died": 1915,
+    "field": "Medicine / Neuroscience",
+    "known_for": "Identified the disease bearing his name by studying the brain of a single patient, Auguste Deter, finding the plaques and tangles that define the condition."
   },
   {
     "name": "Barbara McClintock",
     "born": "06-16",
     "year": 1902,
     "died": 1992,
-    "field": "Genetics",
-    "known_for": "Transposable elements (jumping genes) in maize"
+    "field": "Genetics / Biology",
+    "known_for": "Discovered 'jumping genes' decades before anyone believed her. Won the Nobel Prize at 81 — alone, unshared."
   },
   {
-    "name": "M. C. Escher",
-    "born": "06-17",
-    "year": 1898,
-    "died": 1972,
-    "field": "Mathematics",
-    "known_for": "Mathematical art, tessellations, impossible objects"
+    "name": "Charles Goodyear",
+    "born": "06-18",
+    "year": 1800,
+    "died": 1860,
+    "field": "Invention / Chemistry",
+    "known_for": "Accidentally dropped rubber and sulfur on a hot stove and discovered vulcanization — the process that made the modern tire possible."
   },
   {
-    "name": "William Crookes",
-    "born": "06-17",
-    "year": 1832,
-    "died": 1919,
-    "field": "Chemistry",
-    "known_for": "Crookes tube, thallium discovery, radiometer"
+    "name": "William Thomson (Lord Kelvin)",
+    "born": "06-26",
+    "year": 1824,
+    "died": 1907,
+    "field": "Physics / Engineering",
+    "known_for": "Established the absolute temperature scale, laid the first transatlantic cable, and famously declared heavier-than-air flight impossible."
   },
   {
-    "name": "Blaise Pascal",
-    "born": "06-19",
-    "year": 1623,
-    "died": 1662,
-    "field": "Mathematics",
-    "known_for": "Pascal's triangle, probability theory, Pascaline"
-  },
-  {
-    "name": "Paul Flory",
-    "born": "06-19",
-    "year": 1910,
-    "died": 1985,
-    "field": "Chemistry",
-    "known_for": "Polymer chemistry, Nobel Prize"
-  },
-  {
-    "name": "Konrad Zuse",
-    "born": "06-22",
-    "year": 1910,
-    "died": 1995,
-    "field": "Computer Science",
-    "known_for": "Z3, first programmable digital computer"
-  },
-  {
-    "name": "Alan Turing",
-    "born": "06-23",
-    "year": 1912,
-    "died": 1954,
-    "field": "Computer Science",
-    "known_for": "Turing machine, codebreaking, AI foundations"
-  },
-  {
-    "name": "William Rankine",
-    "born": "06-24",
-    "year": 1820,
-    "died": 1872,
-    "field": "Engineering",
-    "known_for": "Rankine cycle in thermodynamics"
-  },
-  {
-    "name": "Antoni Gaudi",
-    "born": "06-25",
-    "year": 1852,
-    "died": 1926,
-    "field": "Architecture",
-    "known_for": "Sagrada Familia, mathematical structural design"
+    "name": "Maria Mitchell",
+    "born": "06-26",
+    "year": 1818,
+    "died": 1889,
+    "field": "Astronomy",
+    "known_for": "First American woman to discover a comet (earning a gold medal from Denmark's king) and first female astronomy professor in the US."
   },
   {
     "name": "Maria Goeppert Mayer",
@@ -1661,71 +1285,39 @@
     "year": 1906,
     "died": 1972,
     "field": "Physics",
-    "known_for": "Nuclear shell model, Nobel Prize"
+    "known_for": "Developed the nuclear shell model. Second woman to win the Nobel in Physics, after Marie Curie."
   },
   {
-    "name": "Werner Forssmann",
-    "born": "06-29",
-    "year": 1904,
-    "died": 1979,
-    "field": "Medicine",
-    "known_for": "Cardiac catheterization, self-experimented"
+    "name": "Tu Youyou",
+    "born": "06-30",
+    "year": 1930,
+    "died": null,
+    "field": "Medicine / Pharmacology",
+    "known_for": "Searched ancient Chinese texts for malaria cures, found artemisinin in sweet wormwood, and saved millions of lives — winning the Nobel without a PhD."
   },
   {
     "name": "Gottfried Wilhelm Leibniz",
     "born": "07-01",
     "year": 1646,
     "died": 1716,
-    "field": "Mathematics",
-    "known_for": "Calculus co-inventor, binary number system"
+    "field": "Mathematics / Philosophy",
+    "known_for": "Invented calculus independently of Newton (his notation is the one we use), built mechanical calculators, and dreamed of a universal language of logic."
+  },
+  {
+    "name": "Ignaz Semmelweis",
+    "born": "07-01",
+    "year": 1818,
+    "died": 1865,
+    "field": "Medicine",
+    "known_for": "Discovered handwashing could prevent childbed fever, cutting mortality from 18% to 1%. The medical establishment rejected him. He died in an asylum at 47."
   },
   {
     "name": "Ibn al-Haytham",
     "born": "07-01",
     "year": 965,
     "died": 1040,
-    "field": "Optics",
-    "known_for": "Book of Optics, scientific method pioneer"
-  },
-  {
-    "name": "Hans Bethe",
-    "born": "07-02",
-    "year": 1906,
-    "died": 2005,
-    "field": "Physics",
-    "known_for": "Stellar nucleosynthesis, energy production in stars"
-  },
-  {
-    "name": "Jesse Douglas",
-    "born": "07-03",
-    "year": 1897,
-    "died": 1965,
-    "field": "Mathematics",
-    "known_for": "Solution to Plateau's problem, Fields Medal"
-  },
-  {
-    "name": "Henrietta Swan Leavitt",
-    "born": "07-04",
-    "year": 1868,
-    "died": 1921,
-    "field": "Astronomy",
-    "known_for": "Period-luminosity relation of Cepheid variables"
-  },
-  {
-    "name": "Andrei Sakharov",
-    "born": "07-05",
-    "year": 1921,
-    "died": 1989,
-    "field": "Physics",
-    "known_for": "Soviet hydrogen bomb, human rights advocate"
-  },
-  {
-    "name": "George de Hevesy",
-    "born": "07-05",
-    "year": 1885,
-    "died": 1966,
-    "field": "Chemistry",
-    "known_for": "Radioactive tracers, hafnium co-discovery"
+    "field": "Optics / Physics / Mathematics",
+    "known_for": "Father of modern optics. Proved vision works by light entering the eye, invented the camera obscura, and established experimental science centuries before Bacon."
   },
   {
     "name": "Nettie Stevens",
@@ -1733,79 +1325,39 @@
     "year": 1861,
     "died": 1912,
     "field": "Genetics",
-    "known_for": "Discovered XY sex-determination chromosomes"
+    "known_for": "Discovered that sex is determined by X and Y chromosomes. A male colleague received most of the credit during her lifetime."
   },
   {
-    "name": "Percy Spencer",
+    "name": "Lise Meitner",
+    "born": "07-07",
+    "year": 1878,
+    "died": 1968,
+    "field": "Physics",
+    "known_for": "Provided the theoretical explanation for nuclear fission, but Otto Hahn received the Nobel without her. Einstein called her 'the German Marie Curie.'"
+  },
+  {
+    "name": "John Wheeler",
     "born": "07-09",
-    "year": 1894,
-    "died": 1970,
-    "field": "Engineering",
-    "known_for": "Microwave oven invention"
+    "year": 1911,
+    "died": 2008,
+    "field": "Physics",
+    "known_for": "Coined 'black hole' and 'wormhole,' mentored Feynman and dozens of luminaries, and spent his career at the wildest frontiers of physics."
   },
   {
     "name": "Nikola Tesla",
     "born": "07-10",
     "year": 1856,
     "died": 1943,
-    "field": "Electrical Engineering",
-    "known_for": "AC electrical system, Tesla coil, radio"
+    "field": "Electrical Engineering / Physics",
+    "known_for": "Invented alternating current and the Tesla coil, envisioned wireless energy, and spent his last years feeding pigeons in a New York hotel, claiming to love one."
   },
   {
-    "name": "Subrahmanyan Chandrasekhar",
-    "born": "07-10",
-    "year": 1910,
-    "died": 1995,
-    "field": "Astrophysics",
-    "known_for": "Chandrasekhar limit for white dwarf stars"
-  },
-  {
-    "name": "Willis Carrier",
-    "born": "07-11",
-    "year": 1876,
-    "died": 1950,
-    "field": "Engineering",
-    "known_for": "Modern air conditioning system inventor"
-  },
-  {
-    "name": "Buckminster Fuller",
+    "name": "George Washington Carver",
     "born": "07-12",
-    "year": 1895,
-    "died": 1983,
-    "field": "Architecture",
-    "known_for": "Geodesic dome, synergetics, Dymaxion designs"
-  },
-  {
-    "name": "John Dee",
-    "born": "07-13",
-    "year": 1527,
-    "died": 1608,
-    "field": "Mathematics",
-    "known_for": "Navigation, cartography, Elizabethan polymath"
-  },
-  {
-    "name": "Rosalind Franklin",
-    "born": "07-14",
-    "year": 1920,
-    "died": 1958,
-    "field": "Chemistry",
-    "known_for": "X-ray diffraction of DNA (Photo 51)"
-  },
-  {
-    "name": "Al-Khwarizmi",
-    "born": "07-15",
-    "year": 780,
-    "died": 850,
-    "field": "Mathematics",
-    "known_for": "Algebra, algorithm namesake, Hindu-Arabic numerals"
-  },
-  {
-    "name": "Aristotle",
-    "born": "07-15",
-    "year": -384,
-    "died": -322,
-    "field": "Natural Philosophy",
-    "known_for": "Logic, biology, classification of living things"
+    "year": 1864,
+    "died": 1943,
+    "field": "Agriculture / Chemistry",
+    "known_for": "Born into slavery, he pioneered sustainable agriculture, developing hundreds of products from peanuts, sweet potatoes, and soybeans."
   },
   {
     "name": "Jocelyn Bell Burnell",
@@ -1813,15 +1365,15 @@
     "year": 1943,
     "died": null,
     "field": "Astrophysics",
-    "known_for": "Discovery of pulsars"
+    "known_for": "As a grad student, discovered pulsars. Her supervisor won the Nobel; she was excluded — perhaps the greatest Nobel snub in history."
   },
   {
-    "name": "Nils Bohlin",
-    "born": "07-17",
-    "year": 1920,
-    "died": 2002,
-    "field": "Engineering",
-    "known_for": "Three-point seatbelt invention"
+    "name": "Irmgard Flugge-Lotz",
+    "born": "07-16",
+    "year": 1903,
+    "died": 1974,
+    "field": "Engineering / Mathematics",
+    "known_for": "Pioneer of automatic control theory and first woman appointed full professor of engineering at Stanford."
   },
   {
     "name": "Terence Tao",
@@ -1829,135 +1381,247 @@
     "year": 1975,
     "died": null,
     "field": "Mathematics",
-    "known_for": "Fields Medal, Green-Tao theorem, harmonic analysis"
-  },
-  {
-    "name": "Konrad Lorenz",
-    "born": "07-18",
-    "year": 1903,
-    "died": 1989,
-    "field": "Ethology",
-    "known_for": "Imprinting behavior in animals, Nobel Prize"
+    "known_for": "Often called the Mozart of math. Won the Fields Medal at 31, working across so many areas that colleagues struggle to keep up."
   },
   {
     "name": "Robert Hooke",
     "born": "07-18",
     "year": 1635,
     "died": 1703,
-    "field": "Physics",
-    "known_for": "Hooke's law, Micrographia, coined 'cell'"
+    "field": "Physics / Biology",
+    "known_for": "Built microscopes and coined the word 'cell.' Feuded with Newton, who may have ensured that no portrait of Hooke survived."
   },
   {
-    "name": "Rosalyn Yalow",
-    "born": "07-19",
-    "year": 1921,
-    "died": 2011,
-    "field": "Medical Physics",
-    "known_for": "Radioimmunoassay development, Nobel Prize"
+    "name": "Hendrik Lorentz",
+    "born": "07-18",
+    "year": 1853,
+    "died": 1928,
+    "field": "Physics",
+    "known_for": "Developed the Lorentz transformations — the mathematical backbone of special relativity. Einstein called him the most brilliant physicist he'd met."
+  },
+  {
+    "name": "Thomas Kuhn",
+    "born": "07-18",
+    "year": 1922,
+    "died": 1996,
+    "field": "Philosophy of Science",
+    "known_for": "Wrote 'The Structure of Scientific Revolutions' and gave us 'paradigm shift.' Science doesn't progress smoothly but through upheavals."
   },
   {
     "name": "Gregor Mendel",
     "born": "07-20",
     "year": 1822,
     "died": 1884,
-    "field": "Genetics",
-    "known_for": "Laws of inheritance, father of genetics"
+    "field": "Genetics / Biology",
+    "known_for": "An Augustinian friar who spent eight years breeding peas and discovered heredity's laws. Ignored for 35 years, then changed biology forever."
   },
   {
-    "name": "Jean Piaget",
+    "name": "Subrahmanyan Chandrasekhar",
     "born": "07-20",
-    "year": 1896,
-    "died": 1980,
-    "field": "Psychology",
-    "known_for": "Stages of cognitive development in children"
+    "year": 1910,
+    "died": 1995,
+    "field": "Astrophysics",
+    "known_for": "At 19, on a ship to England, calculated white dwarf maximum mass. Eddington mocked him publicly; decades later Chandra won the Nobel."
   },
   {
-    "name": "Bernhard Schmidt",
+    "name": "Abu Musa Jabir ibn Hayyan",
     "born": "07-22",
-    "year": 1879,
-    "died": 1935,
-    "field": "Optics",
-    "known_for": "Schmidt telescope corrector plate"
+    "year": 721,
+    "died": 815,
+    "field": "Chemistry / Alchemy",
+    "known_for": "Known as Geber in Europe, this 8th-century polymath pioneered distillation and crystallization. Many consider him the father of chemistry."
   },
   {
-    "name": "Selman Waksman",
-    "born": "07-22",
-    "year": 1888,
-    "died": 1973,
-    "field": "Microbiology",
-    "known_for": "Streptomycin discovery, coined 'antibiotic'"
-  },
-  {
-    "name": "Simon Newcomb",
-    "born": "07-24",
-    "year": 1835,
-    "died": 1909,
+    "name": "Vera Rubin",
+    "born": "07-23",
+    "year": 1928,
+    "died": 2016,
     "field": "Astronomy",
-    "known_for": "Celestial mechanics, astronomical constants"
+    "known_for": "Found the first compelling evidence for dark matter. Was denied Palomar telescope time because women weren't allowed."
   },
   {
-    "name": "John Dalton",
-    "born": "07-26",
-    "year": 1766,
-    "died": 1844,
+    "name": "Alice Ball",
+    "born": "07-24",
+    "year": 1892,
+    "died": 1916,
     "field": "Chemistry",
-    "known_for": "Atomic theory, Dalton's law of partial pressures"
+    "known_for": "At 23, developed the most effective leprosy treatment for decades. Died at 24; a male colleague published her work under his name."
+  },
+  {
+    "name": "Rosalind Franklin",
+    "born": "07-25",
+    "year": 1920,
+    "died": 1958,
+    "field": "Chemistry / Molecular Biology",
+    "known_for": "Her Photo 51 was the key to DNA's structure. Watson and Crick used it without acknowledgment. She died at 37, never knowing how central her work was."
+  },
+  {
+    "name": "James Lovelock",
+    "born": "07-26",
+    "year": 1919,
+    "died": 2022,
+    "field": "Environmental Science / Chemistry",
+    "known_for": "Proposed the Gaia hypothesis and invented the detector that revealed CFCs destroying the ozone layer. Lived to 103."
+  },
+  {
+    "name": "Karl Popper",
+    "born": "07-28",
+    "year": 1902,
+    "died": 1994,
+    "field": "Philosophy of Science",
+    "known_for": "Argued that good science is falsifiable — if it can't be proven wrong, it isn't science."
   },
   {
     "name": "Beatrix Potter",
     "born": "07-28",
     "year": 1866,
     "died": 1943,
-    "field": "Mycology",
-    "known_for": "Fungi and lichen research, children's illustration"
+    "field": "Mycology / Natural History",
+    "known_for": "Before Peter Rabbit, she was a serious mycologist whose fungal research was presented to the Linnean Society — by a man, since women couldn't attend."
   },
   {
-    "name": "Lise Meitner",
+    "name": "Charles Townes",
     "born": "07-28",
-    "year": 1878,
-    "died": 1968,
+    "year": 1915,
+    "died": 2015,
     "field": "Physics",
-    "known_for": "Nuclear fission explanation, meitnerium namesake"
+    "known_for": "Invented the maser and laid groundwork for the laser. The idea came on a park bench; he scribbled it on an envelope."
   },
   {
-    "name": "Henry Ford",
+    "name": "Wangari Maathai",
+    "born": "07-29",
+    "year": 1940,
+    "died": 2011,
+    "field": "Environmental Science / Biology",
+    "known_for": "Founded the Green Belt Movement, planting 51 million trees across Africa. First African woman to win the Nobel Peace Prize."
+  },
+  {
+    "name": "Marie Tharp",
     "born": "07-30",
-    "year": 1863,
-    "died": 1947,
-    "field": "Engineering",
-    "known_for": "Assembly line mass production, Model T"
+    "year": 1920,
+    "died": 2006,
+    "field": "Geology / Oceanography",
+    "known_for": "Mapped the ocean floor and discovered the Mid-Atlantic Ridge, proving plate tectonics. Her colleague initially dismissed her finding as 'girl talk.'"
   },
   {
-    "name": "Maria Mitchell",
+    "name": "Tapputi",
     "born": "08-01",
-    "year": 1818,
-    "died": 1889,
-    "field": "Astronomy",
-    "known_for": "First American female astronomer, comet discovery"
+    "year": -1200,
+    "died": null,
+    "field": "Chemistry / Perfumery",
+    "known_for": "A Babylonian perfume-maker from around 1200 BCE — the earliest named chemist in history. Developed distillation millennia before modern chemistry."
   },
   {
-    "name": "Elisha Otis",
-    "born": "08-03",
-    "year": 1811,
-    "died": 1861,
-    "field": "Engineering",
-    "known_for": "Safety elevator brake invention"
+    "name": "Archimedes",
+    "born": "08-01",
+    "year": -287,
+    "died": -212,
+    "field": "Mathematics / Physics / Engineering",
+    "known_for": "Discovered the lever, calculated pi, and leapt from his bath shouting 'Eureka!' His last words to the soldier who killed him: 'Do not disturb my circles.'"
   },
   {
-    "name": "John Venn",
-    "born": "08-04",
-    "year": 1834,
-    "died": 1923,
+    "name": "Euclid",
+    "born": "08-01",
+    "year": -325,
+    "died": -265,
     "field": "Mathematics",
-    "known_for": "Venn diagrams for set theory"
+    "known_for": "His 'Elements' — geometry's foundation for 2,000+ years. When a king asked for an easier way: 'There is no royal road to geometry.'"
   },
   {
-    "name": "Neil Armstrong",
-    "born": "08-05",
-    "year": 1930,
-    "died": 2012,
-    "field": "Aerospace",
-    "known_for": "First person to walk on the Moon"
+    "name": "Hipparchus",
+    "born": "08-01",
+    "year": -190,
+    "died": -120,
+    "field": "Astronomy / Mathematics",
+    "known_for": "Created the first star catalog, discovered precession of the equinoxes, and invented trigonometry. The greatest astronomer of antiquity."
+  },
+  {
+    "name": "Zhang Heng",
+    "born": "08-01",
+    "year": 78,
+    "died": 139,
+    "field": "Astronomy / Engineering",
+    "known_for": "Invented the first seismoscope, calculated pi accurately, and mapped 2,500 stars in Han Dynasty China."
+  },
+  {
+    "name": "Liu Hui",
+    "born": "08-01",
+    "year": 225,
+    "died": 295,
+    "field": "Mathematics",
+    "known_for": "Calculated pi to five decimal places with a 3,072-sided polygon and developed proto-calculus 1,300 years before Newton."
+  },
+  {
+    "name": "Hypatia",
+    "born": "08-01",
+    "year": 360,
+    "died": 415,
+    "field": "Mathematics / Astronomy / Philosophy",
+    "known_for": "The last great scholar of Alexandria, murdered by a mob — one of history's most haunting losses."
+  },
+  {
+    "name": "Zu Chongzhi",
+    "born": "08-01",
+    "year": 429,
+    "died": 500,
+    "field": "Mathematics / Astronomy",
+    "known_for": "Calculated pi to seven decimal places — a record unbroken for nearly a thousand years."
+  },
+  {
+    "name": "Aryabhata",
+    "born": "08-01",
+    "year": 476,
+    "died": 550,
+    "field": "Mathematics / Astronomy",
+    "known_for": "Calculated pi to four decimals, proposed Earth rotates on its axis, and contributed foundational ideas about zero."
+  },
+  {
+    "name": "Brahmagupta",
+    "born": "08-01",
+    "year": 598,
+    "died": 668,
+    "field": "Mathematics / Astronomy",
+    "known_for": "First to treat zero as a number with defined arithmetic rules — including the unsettling problem of dividing by it."
+  },
+  {
+    "name": "Muhammad ibn Musa al-Khwarizmi",
+    "born": "08-01",
+    "year": 780,
+    "died": 850,
+    "field": "Mathematics / Astronomy",
+    "known_for": "His book gave us 'algebra' and his name gave us 'algorithm.' He created the mathematical language of the modern world."
+  },
+  {
+    "name": "Avicenna (Ibn Sina)",
+    "born": "08-01",
+    "year": 980,
+    "died": 1037,
+    "field": "Medicine / Philosophy",
+    "known_for": "His 'Canon of Medicine' was the standard textbook for 500 years. Memorized the Quran by 10, practicing medicine by 18."
+  },
+  {
+    "name": "Huang Daopo",
+    "born": "08-01",
+    "year": 1245,
+    "died": 1330,
+    "field": "Engineering / Textiles",
+    "known_for": "Revolutionized cotton spinning and weaving in 13th-century China, improving millions of lives."
+  },
+  {
+    "name": "Wang Zhenyi",
+    "born": "08-01",
+    "year": 1768,
+    "died": 1797,
+    "field": "Astronomy / Mathematics",
+    "known_for": "18th-century Chinese astronomer who built models to explain eclipses and argued women deserved equal education. Died at 29."
+  },
+  {
+    "name": "Sau Lan Wu",
+    "born": "08-01",
+    "year": 1940,
+    "died": null,
+    "field": "Physics",
+    "known_for": "Key roles in discovering the J/psi particle, gluon, and Higgs boson. One of the most accomplished experimentalists alive."
   },
   {
     "name": "Niels Henrik Abel",
@@ -1965,23 +1629,15 @@
     "year": 1802,
     "died": 1829,
     "field": "Mathematics",
-    "known_for": "Abel prize namesake, group theory, elliptic functions"
+    "known_for": "Proved there's no general solution for quintic equations — shattering elegance. Died of tuberculosis at 26, in poverty."
   },
   {
     "name": "Alexander Fleming",
     "born": "08-06",
     "year": 1881,
     "died": 1955,
-    "field": "Medicine",
-    "known_for": "Discovery of penicillin antibiotic"
-  },
-  {
-    "name": "Emile Berliner",
-    "born": "08-07",
-    "year": 1851,
-    "died": 1929,
-    "field": "Invention",
-    "known_for": "Gramophone, flat disc record"
+    "field": "Medicine / Microbiology",
+    "known_for": "Discovered penicillin by noticing mold killed bacteria in a dish he forgot to clean. That sloppiness saved more lives than any other act in history."
   },
   {
     "name": "Paul Dirac",
@@ -1989,447 +1645,183 @@
     "year": 1902,
     "died": 1984,
     "field": "Physics",
-    "known_for": "Dirac equation, predicted antimatter"
+    "known_for": "Predicted antimatter from pure math. So legendarily silent that colleagues invented a unit — one 'dirac' equals one word per hour."
   },
   {
     "name": "Roger Penrose",
     "born": "08-08",
     "year": 1931,
     "died": null,
-    "field": "Physics",
-    "known_for": "Penrose tilings, black hole singularity theorems"
+    "field": "Mathematics / Physics",
+    "known_for": "Proved black hole singularities are inevitable, discovered Penrose tiling, and won the Nobel at 89."
   },
   {
     "name": "Amedeo Avogadro",
     "born": "08-09",
     "year": 1776,
     "died": 1856,
-    "field": "Chemistry",
-    "known_for": "Avogadro's number, molecular hypothesis"
+    "field": "Chemistry / Physics",
+    "known_for": "His hypothesis about equal gas volumes was ignored for 50 years. The impossibly large number named after him is chemistry's bedrock constant."
   },
   {
-    "name": "Suzanne Simard",
-    "born": "08-09",
-    "year": 1960,
-    "died": null,
-    "field": "Forest Ecology",
-    "known_for": "Wood wide web mycorrhizal network discovery"
-  },
-  {
-    "name": "Thomas Telford",
-    "born": "08-09",
-    "year": 1757,
-    "died": 1834,
-    "field": "Civil Engineering",
-    "known_for": "Menai Strait bridge, canal engineering"
-  },
-  {
-    "name": "Wilson Greatbatch",
-    "born": "08-10",
-    "year": 1919,
-    "died": 2011,
-    "field": "Biomedical Engineering",
-    "known_for": "Implantable cardiac pacemaker inventor"
-  },
-  {
-    "name": "Christiaan Barnard",
+    "name": "Erwin Chargaff",
     "born": "08-11",
-    "year": 1922,
-    "died": 2001,
-    "field": "Medicine",
-    "known_for": "First successful human heart transplant"
+    "year": 1905,
+    "died": 2002,
+    "field": "Biochemistry",
+    "known_for": "Discovered DNA base pairing rules — A pairs with T, C with G — the clue Watson and Crick needed, while Chargaff fumed at being overlooked."
   },
   {
-    "name": "Ada Yonath",
-    "born": "08-12",
-    "year": 1939,
-    "died": null,
-    "field": "Chemistry",
-    "known_for": "Ribosome structure by crystallography, Nobel Prize"
-  },
-  {
-    "name": "Anders Jonas Angstrom",
-    "born": "08-13",
-    "year": 1814,
-    "died": 1874,
-    "field": "Physics",
-    "known_for": "Spectroscopy, angstrom unit namesake"
-  },
-  {
-    "name": "Annie Jump Cannon",
-    "born": "08-13",
-    "year": 1863,
+    "name": "Ernest Everett Just",
+    "born": "08-14",
+    "year": 1883,
     "died": 1941,
-    "field": "Astronomy",
-    "known_for": "Stellar spectral classification system"
+    "field": "Biology / Zoology",
+    "known_for": "Pioneering Black biologist whose cell fertilization work was decades ahead. Faced relentless racism and moved to Europe to research in peace."
   },
   {
-    "name": "Hans Christian Orsted",
+    "name": "Hans Christian Oersted",
     "born": "08-14",
     "year": 1777,
     "died": 1851,
     "field": "Physics",
-    "known_for": "Discovered electromagnetism relationship"
+    "known_for": "Noticed a compass needle deflect during a lecture — an accidental observation that launched the electromagnetic revolution."
   },
   {
-    "name": "Gerty Cori",
+    "name": "Rhazes (al-Razi)",
     "born": "08-15",
-    "year": 1896,
-    "died": 1957,
-    "field": "Biochemistry",
-    "known_for": "Cori cycle, first woman Nobel in Physiology"
+    "year": 854,
+    "died": 925,
+    "field": "Medicine / Chemistry",
+    "known_for": "First to distinguish smallpox from measles systematically. His medical encyclopedia was used for centuries across the Islamic world and Europe."
   },
   {
     "name": "Margaret Hamilton",
     "born": "08-17",
     "year": 1936,
     "died": null,
-    "field": "Computer Science",
-    "known_for": "Apollo flight software, coined 'software engineering'"
-  },
-  {
-    "name": "Pierre de Fermat",
-    "born": "08-17",
-    "year": 1601,
-    "died": 1665,
-    "field": "Mathematics",
-    "known_for": "Fermat's Last Theorem, number theory"
-  },
-  {
-    "name": "Brook Taylor",
-    "born": "08-18",
-    "year": 1685,
-    "died": 1731,
-    "field": "Mathematics",
-    "known_for": "Taylor series expansion"
+    "field": "Computer Science / Software Engineering",
+    "known_for": "Led the Apollo 11 guidance software team. Her error handling prevented a lunar landing abort. Coined 'software engineering.'"
   },
   {
     "name": "Orville Wright",
     "born": "08-19",
     "year": 1871,
     "died": 1948,
-    "field": "Aviation",
-    "known_for": "Powered airplane flight at Kitty Hawk"
-  },
-  {
-    "name": "Count Alessandro Volta",
-    "born": "08-20",
-    "year": 1745,
-    "died": 1827,
-    "field": "Physics",
-    "known_for": "Electric battery (voltaic pile), volt namesake"
-  },
-  {
-    "name": "Paul Ehrlich",
-    "born": "08-20",
-    "year": 1854,
-    "died": 1915,
-    "field": "Medicine",
-    "known_for": "Chemotherapy concept, Salvarsan for syphilis"
-  },
-  {
-    "name": "Beno Gutenberg",
-    "born": "08-21",
-    "year": 1889,
-    "died": 1960,
-    "field": "Seismology",
-    "known_for": "Gutenberg discontinuity, earthquake magnitude"
-  },
-  {
-    "name": "Antonie van Leeuwenhoek",
-    "born": "08-24",
-    "year": 1632,
-    "died": 1723,
-    "field": "Microbiology",
-    "known_for": "Microscopy pioneer, discovered microorganisms"
-  },
-  {
-    "name": "William Herschel",
-    "born": "08-25",
-    "year": 1738,
-    "died": 1822,
-    "field": "Astronomy",
-    "known_for": "Discovered Uranus, infrared radiation"
-  },
-  {
-    "name": "Antoine Lavoisier",
-    "born": "08-26",
-    "year": 1743,
-    "died": 1794,
-    "field": "Chemistry",
-    "known_for": "Named oxygen, law of conservation of mass"
-  },
-  {
-    "name": "Bernhard Riemann",
-    "born": "08-26",
-    "year": 1826,
-    "died": 1866,
-    "field": "Mathematics",
-    "known_for": "Riemannian geometry, Riemann hypothesis"
+    "field": "Aviation / Engineering",
+    "known_for": "Piloted the first powered flight at Kitty Hawk — 12 seconds, 120 feet, and the beginning of the age of aviation."
   },
   {
     "name": "Katherine Johnson",
     "born": "08-26",
     "year": 1918,
     "died": 2020,
-    "field": "Mathematics",
-    "known_for": "NASA orbital mechanics calculations for Apollo"
+    "field": "Mathematics / Space Science",
+    "known_for": "Calculated NASA trajectories by hand. John Glenn refused to fly until she personally verified the computer's numbers."
   },
   {
-    "name": "Giuseppe Peano",
+    "name": "Flossie Wong-Staal",
     "born": "08-27",
-    "year": 1858,
-    "died": 1932,
-    "field": "Mathematics",
-    "known_for": "Peano axioms, space-filling curves"
-  },
-  {
-    "name": "Johann Wolfgang von Goethe",
-    "born": "08-28",
-    "year": 1749,
-    "died": 1832,
-    "field": "Natural Philosophy",
-    "known_for": "Color theory, morphology, comparative anatomy"
-  },
-  {
-    "name": "Michael Faraday",
-    "born": "08-29",
-    "year": 1791,
-    "died": 1867,
-    "field": "Physics",
-    "known_for": "Electromagnetic induction, Faraday cage"
+    "year": 1946,
+    "died": 2020,
+    "field": "Virology / Molecular Biology",
+    "known_for": "First to clone HIV and map its genes, enabling HIV blood tests. Named top woman scientist of the 1980s."
   },
   {
     "name": "Ernest Rutherford",
     "born": "08-30",
     "year": 1871,
     "died": 1937,
-    "field": "Physics",
-    "known_for": "Nuclear model of atom, discovered proton"
+    "field": "Physics / Chemistry",
+    "known_for": "Discovered the nucleus by shooting at gold foil — 'as if a cannon shell bounced off tissue paper.' Split the atom and named the proton."
   },
   {
     "name": "Hermann von Helmholtz",
     "born": "08-31",
     "year": 1821,
     "died": 1894,
-    "field": "Physics",
-    "known_for": "Conservation of energy, ophthalmoscope"
+    "field": "Physics / Medicine",
+    "known_for": "Invented the ophthalmoscope, formulated energy conservation, and mastered acoustics, optics, and thermodynamics."
   },
   {
-    "name": "Engelbert Kaempfer",
-    "born": "09-01",
-    "year": 1651,
-    "died": 1716,
-    "field": "Natural History",
-    "known_for": "First Western description of Japan's natural history"
-  },
-  {
-    "name": "Irene Joliot-Curie",
-    "born": "09-02",
-    "year": 1897,
-    "died": 1956,
-    "field": "Chemistry",
-    "known_for": "Artificial radioactivity, Nobel Prize"
-  },
-  {
-    "name": "Wilhelm Ostwald",
-    "born": "09-02",
-    "year": 1853,
-    "died": 1932,
-    "field": "Chemistry",
-    "known_for": "Ostwald process for nitric acid, Nobel Prize"
-  },
-  {
-    "name": "Carl David Anderson",
-    "born": "09-03",
-    "year": 1905,
-    "died": 1991,
-    "field": "Physics",
-    "known_for": "Positron discovery, muon discovery"
-  },
-  {
-    "name": "Biruni",
+    "name": "Al-Biruni",
     "born": "09-04",
     "year": 973,
     "died": 1048,
-    "field": "Polymath",
-    "known_for": "Geodesy, calculated Earth's radius, pharmacology"
+    "field": "Mathematics / Astronomy",
+    "known_for": "Calculated Earth's circumference to within 1% using a mountain and trigonometry. Wrote encyclopedically on India, astronomy, and pharmacology."
   },
   {
-    "name": "John McCarthy",
-    "born": "09-04",
-    "year": 1927,
-    "died": 2011,
-    "field": "Computer Science",
-    "known_for": "Coined 'artificial intelligence', Lisp language"
-  },
-  {
-    "name": "Max Delbruck",
-    "born": "09-04",
-    "year": 1906,
-    "died": 1981,
-    "field": "Biophysics",
-    "known_for": "Bacteriophage genetics, molecular biology founder"
-  },
-  {
-    "name": "Shinya Yamanaka",
-    "born": "09-04",
-    "year": 1962,
-    "died": null,
-    "field": "Medicine",
-    "known_for": "Induced pluripotent stem cells, Nobel Prize"
-  },
-  {
-    "name": "Jane Addams",
-    "born": "09-06",
-    "year": 1860,
-    "died": 1935,
-    "field": "Social Science",
-    "known_for": "Settlement house movement, Nobel Peace Prize"
-  },
-  {
-    "name": "Georges-Louis Leclerc (Comte de Buffon)",
+    "name": "August Kekule",
     "born": "09-07",
-    "year": 1707,
-    "died": 1788,
-    "field": "Natural History",
-    "known_for": "Histoire Naturelle, Buffon's needle problem"
+    "year": 1829,
+    "died": 1896,
+    "field": "Chemistry",
+    "known_for": "Dreamt of a snake eating its own tail and realized benzene must be a ring — one of chemistry's most famous eureka moments."
   },
   {
-    "name": "Leo Tolstoy",
-    "born": "09-09",
-    "year": 1828,
-    "died": 1910,
-    "field": "Literature",
-    "known_for": "War and Peace, moral philosophy"
-  },
-  {
-    "name": "James Jeans",
+    "name": "Aldo Leopold",
     "born": "09-11",
-    "year": 1877,
-    "died": 1946,
-    "field": "Physics",
-    "known_for": "Rayleigh-Jeans law, radiation theory"
+    "year": 1887,
+    "died": 1948,
+    "field": "Ecology / Environmental Science",
+    "known_for": "Author of 'A Sand County Almanac,' the book that shaped American conservation. We are citizens of the land community, not conquerors."
   },
   {
-    "name": "Walter Reed",
-    "born": "09-13",
-    "year": 1851,
-    "died": 1902,
-    "field": "Medicine",
-    "known_for": "Proved mosquitoes transmit yellow fever"
+    "name": "Irene Joliot-Curie",
+    "born": "09-12",
+    "year": 1897,
+    "died": 1956,
+    "field": "Chemistry / Physics",
+    "known_for": "Daughter of Marie Curie, she carried on the tradition by discovering artificial radioactivity with her husband, winning their own Nobel."
   },
   {
     "name": "Alexander von Humboldt",
     "born": "09-14",
     "year": 1769,
     "died": 1859,
-    "field": "Natural History",
-    "known_for": "Biogeography, Humboldt Current, Cosmos"
-  },
-  {
-    "name": "Ivan Pavlov",
-    "born": "09-14",
-    "year": 1849,
-    "died": 1936,
-    "field": "Physiology",
-    "known_for": "Classical conditioning, Pavlov's dogs"
-  },
-  {
-    "name": "Margaret Sanger",
-    "born": "09-14",
-    "year": 1879,
-    "died": 1966,
-    "field": "Medicine",
-    "known_for": "Birth control movement, family planning"
-  },
-  {
-    "name": "Murray Gell-Mann",
-    "born": "09-15",
-    "year": 1929,
-    "died": 2019,
-    "field": "Physics",
-    "known_for": "Quark model, eightfold way classification"
-  },
-  {
-    "name": "Konstantin Tsiolkovsky",
-    "born": "09-17",
-    "year": 1857,
-    "died": 1935,
-    "field": "Aerospace",
-    "known_for": "Rocket equation, space colonization theory"
-  },
-  {
-    "name": "Leon Foucault",
-    "born": "09-18",
-    "year": 1819,
-    "died": 1868,
-    "field": "Physics",
-    "known_for": "Foucault pendulum, speed of light measurement"
-  },
-  {
-    "name": "Vera Rubin",
-    "born": "09-18",
-    "year": 1928,
-    "died": 2016,
-    "field": "Astronomy",
-    "known_for": "Dark matter evidence from galaxy rotation curves"
+    "field": "Natural History / Geography",
+    "known_for": "Explored South America for five years and essentially invented ecology. More places are named after him than any other person."
   },
   {
     "name": "Dorothy Vaughan",
     "born": "09-20",
     "year": 1910,
     "died": 2008,
-    "field": "Mathematics",
-    "known_for": "NASA mathematician, FORTRAN programming pioneer"
+    "field": "Mathematics / Computer Science",
+    "known_for": "NASA's first Black supervisor who taught herself FORTRAN when she saw computers replacing humans — adapting before anyone asked."
   },
   {
-    "name": "Galen",
+    "name": "Michael Faraday",
     "born": "09-22",
-    "year": 129,
-    "died": 216,
-    "field": "Medicine",
-    "known_for": "Anatomy, physiology, medical texts for 1500 years"
+    "year": 1791,
+    "died": 1867,
+    "field": "Physics / Chemistry",
+    "known_for": "A bookbinder's apprentice who discovered electromagnetic induction, invented the electric motor, and built the foundation of the electrical age."
   },
   {
-    "name": "Hippolyte Fizeau",
-    "born": "09-23",
-    "year": 1819,
-    "died": 1896,
+    "name": "Chen-Ning Yang",
+    "born": "09-22",
+    "year": 1922,
+    "died": null,
     "field": "Physics",
-    "known_for": "First terrestrial measurement of speed of light"
+    "known_for": "With T.D. Lee, predicted nature doesn't conserve parity. Won the Nobel at 35, first Chinese-born laureate in physics."
   },
   {
-    "name": "Girolamo Cardano",
+    "name": "Asima Chatterjee",
+    "born": "09-23",
+    "year": 1917,
+    "died": 2006,
+    "field": "Chemistry",
+    "known_for": "First Indian woman to earn a science doctorate. Developed drugs from indigenous plants for epilepsy and malaria."
+  },
+  {
+    "name": "Svante Arrhenius",
     "born": "09-24",
-    "year": 1501,
-    "died": 1576,
-    "field": "Mathematics",
-    "known_for": "Complex numbers, probability, Ars Magna"
-  },
-  {
-    "name": "Edsger Dijkstra",
-    "born": "09-25",
-    "year": 1930,
-    "died": 2002,
-    "field": "Computer Science",
-    "known_for": "Dijkstra's algorithm, structured programming"
-  },
-  {
-    "name": "Martin Heidegger",
-    "born": "09-26",
-    "year": 1889,
-    "died": 1976,
-    "field": "Philosophy",
-    "known_for": "Being and Time, phenomenological ontology"
-  },
-  {
-    "name": "Louis Pasteur",
-    "born": "09-27",
-    "year": 1822,
-    "died": 1895,
-    "field": "Microbiology",
-    "known_for": "Pasteurization, germ theory, rabies vaccine"
+    "year": 1859,
+    "died": 1927,
+    "field": "Chemistry / Physics",
+    "known_for": "First to calculate that doubling CO2 raises global temperature — in 1896. His PhD thesis barely passed."
   },
   {
     "name": "Enrico Fermi",
@@ -2437,39 +1829,15 @@
     "year": 1901,
     "died": 1954,
     "field": "Physics",
-    "known_for": "First nuclear reactor, Fermi paradox"
+    "known_for": "Built the first nuclear reactor under a squash court. So rare to master both theory and experiment that they called him 'the Pope.'"
   },
   {
-    "name": "Hans Geiger",
-    "born": "09-30",
-    "year": 1882,
-    "died": 1945,
-    "field": "Physics",
-    "known_for": "Geiger counter for radiation detection"
-  },
-  {
-    "name": "Chen-Ning Yang",
-    "born": "10-01",
-    "year": 1922,
-    "died": null,
-    "field": "Physics",
-    "known_for": "Parity non-conservation, Yang-Mills theory"
-  },
-  {
-    "name": "Mahatma Gandhi",
-    "born": "10-02",
-    "year": 1869,
-    "died": 1948,
-    "field": "Political Philosophy",
-    "known_for": "Nonviolent resistance, Indian independence"
-  },
-  {
-    "name": "Robert Goddard",
-    "born": "10-05",
-    "year": 1882,
-    "died": 1945,
-    "field": "Aerospace",
-    "known_for": "First liquid-fueled rocket launch"
+    "name": "Meghnad Saha",
+    "born": "10-06",
+    "year": 1893,
+    "died": 1956,
+    "field": "Astrophysics",
+    "known_for": "His equation explains stellar ionization, making star classification a science instead of guesswork."
   },
   {
     "name": "Niels Bohr",
@@ -2477,183 +1845,63 @@
     "year": 1885,
     "died": 1962,
     "field": "Physics",
-    "known_for": "Bohr atomic model, quantum mechanics"
+    "known_for": "Built the quantum atom model and smuggled Denmark's Nobel gold past the Nazis by dissolving it in acid."
   },
   {
-    "name": "Sergey Brin",
-    "born": "10-07",
-    "year": 1973,
-    "died": null,
-    "field": "Computer Science",
-    "known_for": "Co-founded Google, PageRank algorithm"
-  },
-  {
-    "name": "Juan de la Cierva",
-    "born": "10-08",
-    "year": 1895,
-    "died": 1936,
-    "field": "Aviation",
-    "known_for": "Autogyro (precursor to helicopter)"
-  },
-  {
-    "name": "Hermann Emil Fischer",
-    "born": "10-09",
-    "year": 1852,
-    "died": 1919,
-    "field": "Chemistry",
-    "known_for": "Sugar and purine synthesis, Nobel Prize"
-  },
-  {
-    "name": "Max von Laue",
-    "born": "10-09",
-    "year": 1879,
-    "died": 1960,
-    "field": "Physics",
-    "known_for": "X-ray diffraction by crystals, Nobel Prize"
-  },
-  {
-    "name": "Fridtjof Nansen",
-    "born": "10-10",
-    "year": 1861,
-    "died": 1930,
-    "field": "Exploration",
-    "known_for": "Arctic explorer, oceanographer, Nobel Peace Prize"
-  },
-  {
-    "name": "Henry Cavendish",
-    "born": "10-10",
-    "year": 1731,
-    "died": 1810,
-    "field": "Chemistry",
-    "known_for": "Hydrogen discovery, gravitational constant"
-  },
-  {
-    "name": "Mary Kenneth Keller",
-    "born": "10-12",
-    "year": 1913,
-    "died": 1985,
-    "field": "Computer Science",
-    "known_for": "First American woman with CS doctorate, BASIC"
+    "name": "Mildred Dresselhaus",
+    "born": "10-11",
+    "year": 1930,
+    "died": 2017,
+    "field": "Physics / Engineering",
+    "known_for": "The 'Queen of Carbon Science' — her work on graphite, fullerenes, and nanotubes laid the foundation for nanotechnology."
   },
   {
     "name": "Rudolf Virchow",
     "born": "10-13",
     "year": 1821,
     "died": 1902,
-    "field": "Medicine",
-    "known_for": "Cell pathology, father of modern pathology"
-  },
-  {
-    "name": "Evangelista Torricelli",
-    "born": "10-15",
-    "year": 1608,
-    "died": 1647,
-    "field": "Physics",
-    "known_for": "Barometer invention, Torricelli's law"
-  },
-  {
-    "name": "Albrecht von Haller",
-    "born": "10-16",
-    "year": 1708,
-    "died": 1777,
-    "field": "Physiology",
-    "known_for": "Father of modern physiology, plant anatomy"
+    "field": "Medicine / Pathology",
+    "known_for": "Father of pathology: all cells come from cells. Also a reformer who said epidemics are 'warnings that society is in danger.'"
   },
   {
     "name": "Mae Jemison",
     "born": "10-17",
     "year": 1956,
     "died": null,
-    "field": "Medicine",
-    "known_for": "First African American woman in space"
+    "field": "Medicine / Space Science",
+    "known_for": "First African American woman in space — also a physician, Peace Corps doctor, and dancer."
   },
   {
-    "name": "Shen Kuo",
-    "born": "10-17",
-    "year": 1031,
-    "died": 1095,
-    "field": "Polymath",
-    "known_for": "Dream Pool Essays, magnetic compass declination"
+    "name": "James Chadwick",
+    "born": "10-20",
+    "year": 1891,
+    "died": 1974,
+    "field": "Physics",
+    "known_for": "Discovered the neutron in 1932, completing the atomic picture and making fission possible."
   },
   {
-    "name": "Christian Friedrich Schonbein",
-    "born": "10-18",
-    "year": 1799,
-    "died": 1868,
-    "field": "Chemistry",
-    "known_for": "Discovered ozone and guncotton"
-  },
-  {
-    "name": "Alfred Nobel",
-    "born": "10-21",
-    "year": 1833,
-    "died": 1896,
-    "field": "Chemistry",
-    "known_for": "Dynamite invention, Nobel Prize endowment"
-  },
-  {
-    "name": "Ursula K. Le Guin",
-    "born": "10-21",
-    "year": 1929,
-    "died": 2018,
-    "field": "Literature",
-    "known_for": "Thought experiments in science fiction"
-  },
-  {
-    "name": "Charles Babbage",
-    "born": "10-22",
-    "year": 1791,
-    "died": 1871,
-    "field": "Computer Science",
-    "known_for": "Difference Engine, father of the computer"
-  },
-  {
-    "name": "Robert Recorde",
-    "born": "10-23",
-    "year": 1510,
-    "died": 1558,
-    "field": "Mathematics",
-    "known_for": "Invented equals sign (=), algebra textbooks"
-  },
-  {
-    "name": "Antony Hewish",
-    "born": "10-24",
-    "year": 1924,
-    "died": 2021,
-    "field": "Astronomy",
-    "known_for": "Pulsar discovery, Nobel Prize in Physics"
-  },
-  {
-    "name": "Henry Bessemer",
+    "name": "Evariste Galois",
     "born": "10-25",
-    "year": 1813,
-    "died": 1898,
-    "field": "Engineering",
-    "known_for": "Bessemer process for mass steel production"
-  },
-  {
-    "name": "James Cook",
-    "born": "10-27",
-    "year": 1728,
-    "died": 1779,
-    "field": "Exploration",
-    "known_for": "Pacific navigation, cartography, scurvy prevention"
-  },
-  {
-    "name": "Bill Gates",
-    "born": "10-28",
-    "year": 1955,
-    "died": null,
-    "field": "Computer Science",
-    "known_for": "Microsoft co-founder, personal computing"
+    "year": 1811,
+    "died": 1832,
+    "field": "Mathematics",
+    "known_for": "Invented group theory as a teenager, wrote it all down the night before a duel, and was killed at 20. His notes changed algebra forever."
   },
   {
     "name": "Jonas Salk",
     "born": "10-28",
     "year": 1914,
     "died": 1995,
-    "field": "Medicine",
-    "known_for": "Polio vaccine development"
+    "field": "Medicine / Virology",
+    "known_for": "Developed the polio vaccine and refused to patent it: 'Could you patent the sun?'"
+  },
+  {
+    "name": "Dmitri Ivanovsky",
+    "born": "10-28",
+    "year": 1864,
+    "died": 1920,
+    "field": "Microbiology",
+    "known_for": "Discovered viruses in 1892 by proving that tobacco mosaic's agent was too small to be a bacterium."
   },
   {
     "name": "Homi Bhabha",
@@ -2661,167 +1909,63 @@
     "year": 1909,
     "died": 1966,
     "field": "Nuclear Physics",
-    "known_for": "Father of Indian nuclear program"
-  },
-  {
-    "name": "Karl Weierstrass",
-    "born": "10-31",
-    "year": 1815,
-    "died": 1897,
-    "field": "Mathematics",
-    "known_for": "Rigorous foundations of analysis, epsilontics"
+    "known_for": "Father of India's nuclear program and TIFR founder. A cosmic ray physicist who also painted and loved music."
   },
   {
     "name": "Alfred Wegener",
     "born": "11-01",
     "year": 1880,
     "died": 1930,
-    "field": "Geology",
-    "known_for": "Continental drift hypothesis"
+    "field": "Geology / Meteorology",
+    "known_for": "Proposed continental drift. Mocked for decades, he died on a Greenland expedition before plate tectonics proved him right."
   },
   {
-    "name": "George Boole",
-    "born": "11-02",
-    "year": 1815,
-    "died": 1864,
-    "field": "Mathematics",
-    "known_for": "Boolean algebra, symbolic logic"
-  },
-  {
-    "name": "Raymond Dart",
+    "name": "Janaki Ammal",
     "born": "11-04",
-    "year": 1893,
-    "died": 1988,
-    "field": "Paleoanthropology",
-    "known_for": "Australopithecus africanus discovery"
-  },
-  {
-    "name": "Adolphe Sax",
-    "born": "11-06",
-    "year": 1814,
-    "died": 1894,
-    "field": "Invention",
-    "known_for": "Invented the saxophone"
-  },
-  {
-    "name": "C. V. Raman",
-    "born": "11-07",
-    "year": 1888,
-    "died": 1970,
-    "field": "Physics",
-    "known_for": "Raman scattering of light, Nobel Prize"
+    "year": 1897,
+    "died": 1984,
+    "field": "Botany / Cytogenetics",
+    "known_for": "Created sugarcane hybrids that made India self-sufficient, then fought to preserve its rainforests."
   },
   {
     "name": "Marie Curie",
     "born": "11-07",
     "year": 1867,
     "died": 1934,
+    "field": "Physics / Chemistry",
+    "known_for": "First woman to win a Nobel, first person with two in different sciences. Her notebooks are still too radioactive to handle."
+  },
+  {
+    "name": "Konrad Lorenz",
+    "born": "11-07",
+    "year": 1903,
+    "died": 1989,
+    "field": "Zoology / Ethology",
+    "known_for": "Discovered imprinting by getting goslings to follow him like he was their mother."
+  },
+  {
+    "name": "C.V. Raman",
+    "born": "11-07",
+    "year": 1888,
+    "died": 1970,
     "field": "Physics",
-    "known_for": "Radioactivity, discovered polonium and radium"
+    "known_for": "Discovered the Raman effect — light changing wavelength when scattered — winning India's first science Nobel with cheap equipment."
   },
   {
-    "name": "Edmund Halley",
-    "born": "11-08",
-    "year": 1656,
-    "died": 1742,
-    "field": "Astronomy",
-    "known_for": "Halley's Comet prediction, stellar catalog"
-  },
-  {
-    "name": "Carl Sagan",
+    "name": "Benjamin Banneker",
     "born": "11-09",
-    "year": 1934,
-    "died": 1996,
-    "field": "Astronomy",
-    "known_for": "Cosmos, pale blue dot, planetary science"
+    "year": 1731,
+    "died": 1806,
+    "field": "Mathematics / Astronomy",
+    "known_for": "Free Black American who taught himself astronomy, published almanacs, and challenged Thomas Jefferson's views on race."
   },
   {
-    "name": "Elizabeth Blackwell",
-    "born": "11-11",
-    "year": 1821,
-    "died": 1910,
-    "field": "Medicine",
-    "known_for": "First woman to earn US medical degree"
-  },
-  {
-    "name": "Mikhail Lomonosov",
-    "born": "11-11",
-    "year": 1711,
-    "died": 1765,
-    "field": "Chemistry",
-    "known_for": "Russian polymath, atmosphere of Venus discovery"
-  },
-  {
-    "name": "Vannevar Bush",
-    "born": "11-11",
-    "year": 1890,
-    "died": 1974,
-    "field": "Engineering",
-    "known_for": "Memex concept, directed wartime R&D"
-  },
-  {
-    "name": "Auguste Comte",
-    "born": "11-12",
-    "year": 1798,
-    "died": 1857,
-    "field": "Philosophy",
-    "known_for": "Positivism, father of sociology"
-  },
-  {
-    "name": "Joseph Needham",
-    "born": "11-13",
-    "year": 1900,
-    "died": 1995,
-    "field": "Biochemistry",
-    "known_for": "Science and Civilisation in China series"
-  },
-  {
-    "name": "Niklaus Wirth",
-    "born": "11-15",
-    "year": 1934,
-    "died": 2024,
-    "field": "Computer Science",
-    "known_for": "Pascal language, Wirth's law, Turing Award"
-  },
-  {
-    "name": "Eugenio Beltrami",
-    "born": "11-16",
-    "year": 1835,
-    "died": 1900,
-    "field": "Mathematics",
-    "known_for": "Non-Euclidean geometry models"
-  },
-  {
-    "name": "Werner Heisenberg",
-    "born": "11-16",
-    "year": 1901,
-    "died": 1976,
-    "field": "Physics",
-    "known_for": "Uncertainty principle, matrix mechanics"
-  },
-  {
-    "name": "August Mobius",
-    "born": "11-17",
-    "year": 1790,
-    "died": 1868,
-    "field": "Mathematics",
-    "known_for": "Mobius strip, projective geometry"
-  },
-  {
-    "name": "Louis Daguerre",
-    "born": "11-18",
-    "year": 1787,
-    "died": 1851,
-    "field": "Invention",
-    "known_for": "Daguerreotype photography process"
-  },
-  {
-    "name": "James Braid",
-    "born": "11-19",
-    "year": 1795,
-    "died": 1860,
-    "field": "Medicine",
-    "known_for": "Father of hypnotism, coined 'hypnosis'"
+    "name": "Birbal Sahni",
+    "born": "11-14",
+    "year": 1891,
+    "died": 1949,
+    "field": "Paleobotany",
+    "known_for": "Pioneer who discovered fossils that rewrote ancient Indian flora and founded the Birbal Sahni Institute."
   },
   {
     "name": "Benoit Mandelbrot",
@@ -2829,175 +1973,39 @@
     "year": 1924,
     "died": 2010,
     "field": "Mathematics",
-    "known_for": "Fractal geometry, Mandelbrot set"
-  },
-  {
-    "name": "Edwin Hubble",
-    "born": "11-20",
-    "year": 1889,
-    "died": 1953,
-    "field": "Astronomy",
-    "known_for": "Expanding universe, Hubble's law"
-  },
-  {
-    "name": "Voltaire",
-    "born": "11-21",
-    "year": 1694,
-    "died": 1778,
-    "field": "Philosophy",
-    "known_for": "Scientific popularization, Newtonian advocacy"
-  },
-  {
-    "name": "Andrew Huxley",
-    "born": "11-22",
-    "year": 1917,
-    "died": 2012,
-    "field": "Physiology",
-    "known_for": "Hodgkin-Huxley model of nerve impulses"
+    "known_for": "Discovered fractals — infinite patterns repeating at every scale, from coastlines to blood vessels. Proved roughness has its own order."
   },
   {
     "name": "Nikolai Vavilov",
     "born": "11-25",
     "year": 1887,
     "died": 1943,
-    "field": "Botany",
-    "known_for": "Centers of origin of cultivated plants"
-  },
-  {
-    "name": "Thomas Hunt Morgan",
-    "born": "11-25",
-    "year": 1866,
-    "died": 1945,
-    "field": "Genetics",
-    "known_for": "Chromosome theory of heredity, fruit fly genetics"
-  },
-  {
-    "name": "Norbert Wiener",
-    "born": "11-26",
-    "year": 1894,
-    "died": 1964,
-    "field": "Mathematics",
-    "known_for": "Cybernetics, Wiener process in stochastics"
-  },
-  {
-    "name": "Anders Celsius",
-    "born": "11-27",
-    "year": 1701,
-    "died": 1744,
-    "field": "Astronomy",
-    "known_for": "Celsius temperature scale"
-  },
-  {
-    "name": "Claude Levi-Strauss",
-    "born": "11-28",
-    "year": 1908,
-    "died": 2009,
-    "field": "Anthropology",
-    "known_for": "Structural anthropology, kinship theory"
-  },
-  {
-    "name": "Christian Doppler",
-    "born": "11-29",
-    "year": 1803,
-    "died": 1853,
-    "field": "Physics",
-    "known_for": "Doppler effect in waves and light"
-  },
-  {
-    "name": "Clive Sinclair",
-    "born": "11-30",
-    "year": 1940,
-    "died": 2021,
-    "field": "Engineering",
-    "known_for": "ZX Spectrum, personal computing pioneer"
-  },
-  {
-    "name": "Jagadish Chandra Bose",
-    "born": "11-30",
-    "year": 1858,
-    "died": 1937,
-    "field": "Physics",
-    "known_for": "Radio waves, plant biophysics, crescograph"
+    "field": "Genetics / Botany",
+    "known_for": "Collected seeds worldwide to protect crop diversity. Lysenko had him arrested. A plant scientist who starved to death in a Soviet prison."
   },
   {
     "name": "Nils Gustaf Dalen",
     "born": "11-30",
     "year": 1869,
     "died": 1937,
-    "field": "Engineering",
-    "known_for": "Automatic lighthouse regulators, Nobel Prize"
+    "field": "Physics / Engineering",
+    "known_for": "Won the Nobel for his automatic lighthouse valve. Was blind by the time he received it."
   },
   {
-    "name": "Jan Ernst Matzeliger",
-    "born": "12-01",
-    "year": 1852,
-    "died": 1889,
-    "field": "Engineering",
-    "known_for": "Shoe lasting machine, automated shoemaking"
+    "name": "Jagadish Chandra Bose",
+    "born": "11-30",
+    "year": 1858,
+    "died": 1937,
+    "field": "Physics / Biophysics",
+    "known_for": "Demonstrated wireless before Marconi, proved plants feel, and refused to patent anything — science belongs to everyone."
   },
   {
-    "name": "Lee de Forest",
-    "born": "12-02",
-    "year": 1873,
-    "died": 1961,
-    "field": "Electrical Engineering",
-    "known_for": "Audion vacuum tube, father of radio"
-  },
-  {
-    "name": "Alain Aspect",
-    "born": "12-03",
-    "year": 1947,
-    "died": null,
+    "name": "Werner Heisenberg",
+    "born": "12-05",
+    "year": 1901,
+    "died": 1976,
     "field": "Physics",
-    "known_for": "Bell test experiments, quantum entanglement"
-  },
-  {
-    "name": "Carlos Finlay",
-    "born": "12-03",
-    "year": 1833,
-    "died": 1915,
-    "field": "Medicine",
-    "known_for": "Mosquito vector theory for yellow fever"
-  },
-  {
-    "name": "Joseph Louis Gay-Lussac",
-    "born": "12-06",
-    "year": 1778,
-    "died": 1850,
-    "field": "Chemistry",
-    "known_for": "Gas laws, boron and iodine isolation"
-  },
-  {
-    "name": "Abdulrahman al-Sufi",
-    "born": "12-07",
-    "year": 903,
-    "died": 986,
-    "field": "Astronomy",
-    "known_for": "Book of Fixed Stars, Andromeda galaxy observation"
-  },
-  {
-    "name": "Noam Chomsky",
-    "born": "12-07",
-    "year": 1928,
-    "died": null,
-    "field": "Linguistics",
-    "known_for": "Generative grammar, Chomsky hierarchy"
-  },
-  {
-    "name": "Eli Whitney",
-    "born": "12-08",
-    "year": 1765,
-    "died": 1825,
-    "field": "Engineering",
-    "known_for": "Cotton gin, interchangeable parts system"
-  },
-  {
-    "name": "Fritz Haber",
-    "born": "12-09",
-    "year": 1868,
-    "died": 1934,
-    "field": "Chemistry",
-    "known_for": "Haber-Bosch ammonia synthesis process"
+    "known_for": "Invented the uncertainty principle — you can't know both position and momentum, not from bad instruments but because reality is built that way."
   },
   {
     "name": "Grace Hopper",
@@ -3005,15 +2013,23 @@
     "year": 1906,
     "died": 1992,
     "field": "Computer Science",
-    "known_for": "COBOL language, compiler invention, 'bug' term"
+    "known_for": "Invented the first compiler, popularized high-level programming languages, and found the actual moth that coined 'debugging.'"
   },
   {
     "name": "Ada Lovelace",
     "born": "12-10",
     "year": 1815,
     "died": 1852,
-    "field": "Computer Science",
-    "known_for": "First computer algorithm, Babbage collaborator"
+    "field": "Mathematics / Computer Science",
+    "known_for": "Wrote the first computer program in 1843 for a machine not yet built. Anticipated general-purpose computing a century early."
+  },
+  {
+    "name": "Annie Jump Cannon",
+    "born": "12-11",
+    "year": 1863,
+    "died": 1941,
+    "field": "Astronomy",
+    "known_for": "Classified 350,000+ stars by hand, creating the spectral system still used today. Nearly deaf, working by sight alone."
   },
   {
     "name": "Max Born",
@@ -3021,23 +2037,15 @@
     "year": 1882,
     "died": 1970,
     "field": "Physics",
-    "known_for": "Born rule in quantum mechanics, Nobel Prize"
+    "known_for": "Gave quantum mechanics its probabilistic meaning. His granddaughter Olivia Newton-John became a pop star."
   },
   {
     "name": "Robert Koch",
     "born": "12-11",
     "year": 1843,
     "died": 1910,
-    "field": "Medicine",
-    "known_for": "Koch's postulates, tuberculosis bacillus"
-  },
-  {
-    "name": "Werner von Siemens",
-    "born": "12-13",
-    "year": 1816,
-    "died": 1892,
-    "field": "Engineering",
-    "known_for": "Electric elevator, telegraph, Siemens company"
+    "field": "Medicine / Microbiology",
+    "known_for": "Found the bacteria behind tuberculosis, cholera, and anthrax, and established the rules for proving which germ causes which disease."
   },
   {
     "name": "Tycho Brahe",
@@ -3045,31 +2053,15 @@
     "year": 1546,
     "died": 1601,
     "field": "Astronomy",
-    "known_for": "Precise astronomical observations before telescopes"
+    "known_for": "Prosthetic nose from a duel, pet moose that died drunk on stairs, and the most precise pre-telescope star observations ever made."
   },
   {
     "name": "Freeman Dyson",
     "born": "12-15",
     "year": 1923,
     "died": 2020,
-    "field": "Physics",
-    "known_for": "Dyson sphere concept, QED unification"
-  },
-  {
-    "name": "Margaret Mead",
-    "born": "12-16",
-    "year": 1901,
-    "died": 1978,
-    "field": "Anthropology",
-    "known_for": "Cultural anthropology, Coming of Age in Samoa"
-  },
-  {
-    "name": "Humphry Davy",
-    "born": "12-17",
-    "year": 1778,
-    "died": 1829,
-    "field": "Chemistry",
-    "known_for": "Isolated sodium and potassium, Davy lamp"
+    "field": "Physics / Mathematics",
+    "known_for": "Unified quantum electrodynamics, proposed the Dyson sphere, and remained a brilliant contrarian until 96."
   },
   {
     "name": "Mary Cartwright",
@@ -3077,31 +2069,15 @@
     "year": 1900,
     "died": 1998,
     "field": "Mathematics",
-    "known_for": "Chaos theory foundations, Cartwright's theorem"
+    "known_for": "Discovered mathematical chaos decades before chaos theory existed. First woman elected FRS for mathematics."
   },
   {
-    "name": "Willard Libby",
-    "born": "12-17",
-    "year": 1908,
-    "died": 1980,
-    "field": "Chemistry",
-    "known_for": "Radiocarbon dating method, Nobel Prize"
-  },
-  {
-    "name": "Joseph John Thomson",
+    "name": "Esther Lederberg",
     "born": "12-18",
-    "year": 1856,
-    "died": 1940,
-    "field": "Physics",
-    "known_for": "Electron discovery, plum pudding model"
-  },
-  {
-    "name": "Albert Abraham Michelson",
-    "born": "12-19",
-    "year": 1852,
-    "died": 1931,
-    "field": "Physics",
-    "known_for": "Speed of light measurement, Michelson-Morley experiment"
+    "year": 1922,
+    "died": 2006,
+    "field": "Microbiology / Genetics",
+    "known_for": "Discovered lambda phage and invented replica plating. Her husband got the Nobel for work that depended on her innovations."
   },
   {
     "name": "Srinivasa Ramanujan",
@@ -3109,31 +2085,7 @@
     "year": 1887,
     "died": 1920,
     "field": "Mathematics",
-    "known_for": "Self-taught genius, infinite series, partitions"
-  },
-  {
-    "name": "Jean-Francois Champollion",
-    "born": "12-23",
-    "year": 1790,
-    "died": 1832,
-    "field": "Linguistics",
-    "known_for": "Deciphered Egyptian hieroglyphs, Rosetta Stone"
-  },
-  {
-    "name": "Niels Kaj Jerne",
-    "born": "12-23",
-    "year": 1911,
-    "died": 1994,
-    "field": "Immunology",
-    "known_for": "Immune system theories, Nobel Prize"
-  },
-  {
-    "name": "Charles Hermite",
-    "born": "12-24",
-    "year": 1822,
-    "died": 1901,
-    "field": "Mathematics",
-    "known_for": "Hermite polynomials, proved e is transcendental"
+    "known_for": "Self-taught Indian clerk who sent astonishing theorems to Cambridge. Died at 32; his notebooks still yield discoveries a century later."
   },
   {
     "name": "James Prescott Joule",
@@ -3141,47 +2093,39 @@
     "year": 1818,
     "died": 1889,
     "field": "Physics",
-    "known_for": "Joule's law, mechanical equivalent of heat"
+    "known_for": "Proved heat is energy, not substance, establishing the first law of thermodynamics. The joule bears his name."
   },
   {
-    "name": "Clara Barton",
-    "born": "12-25",
-    "year": 1821,
-    "died": 1912,
-    "field": "Nursing",
-    "known_for": "Founded American Red Cross"
-  },
-  {
-    "name": "Isaac Newton",
-    "born": "12-25",
-    "year": 1642,
-    "died": 1727,
-    "field": "Physics",
-    "known_for": "Principia, calculus, optics, gravity"
+    "name": "Charles Babbage",
+    "born": "12-26",
+    "year": 1791,
+    "died": 1871,
+    "field": "Mathematics / Engineering",
+    "known_for": "Designed the Analytical Engine in the 1830s — a mechanical computer never built, but containing every element of modern computing."
   },
   {
     "name": "Mary Somerville",
     "born": "12-26",
     "year": 1780,
     "died": 1872,
-    "field": "Mathematics",
-    "known_for": "Science writer, Somerville College namesake"
+    "field": "Mathematics / Astronomy",
+    "known_for": "Self-taught polymath. The word 'scientist' was coined to describe her, since 'man of science' didn't fit."
   },
   {
     "name": "Johannes Kepler",
     "born": "12-27",
     "year": 1571,
     "died": 1630,
-    "field": "Astronomy",
-    "known_for": "Laws of planetary motion, Kepler telescope"
+    "field": "Astronomy / Mathematics",
+    "known_for": "Discovered planets move in ellipses — shattering 2,000 years of circular dogma — while defending his mother against witchcraft charges."
   },
   {
-    "name": "Charles Goodyear",
-    "born": "12-29",
-    "year": 1800,
-    "died": 1860,
-    "field": "Invention",
-    "known_for": "Vulcanized rubber process"
+    "name": "Louis Pasteur",
+    "born": "12-27",
+    "year": 1822,
+    "died": 1895,
+    "field": "Chemistry / Microbiology",
+    "known_for": "Disproved spontaneous generation, invented pasteurization, and developed vaccines for anthrax and rabies. The most consequential biologist of the 19th century."
   },
   {
     "name": "Charles Messier",
@@ -3189,14 +2133,6 @@
     "year": 1730,
     "died": 1817,
     "field": "Astronomy",
-    "known_for": "Messier catalog of nebulae and star clusters"
-  },
-  {
-    "name": "Tu Youyou",
-    "born": "12-30",
-    "year": 1930,
-    "died": null,
-    "field": "Pharmacology",
-    "known_for": "Artemisinin antimalarial drug, Nobel Prize"
+    "known_for": "A comet hunter famous for cataloging 110 'annoying' non-comet objects — nebulae and galaxies now beloved by amateur astronomers."
   }
 ]

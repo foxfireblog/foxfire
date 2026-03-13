@@ -651,6 +651,7 @@ async function generateAudio(topic, content) {
       access: "public",
       contentType: "audio/mpeg",
       addRandomSuffix: false,
+      allowOverwrite: true,
     });
     fs.unlinkSync(tmpOutput);
 
