@@ -4,7 +4,13 @@ on:
   schedule:
     # 1x daily — conserve X API credits
     - cron: "0 15 * * *"   # 15:00 UTC = 10am EST
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Force a specific exploration slug (optional)"
+        required: false
+        default: ""
+        type: string
 
 concurrency:
   group: ${{ github.workflow }}
@@ -50,10 +56,14 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          node scripts/promo-tweet.mjs && exit 0
+          ARGS=""
+          if [ -n "${{ inputs.slug }}" ]; then
+            ARGS="--slug=${{ inputs.slug }}"
+          fi
+          node scripts/promo-tweet.mjs $ARGS && exit 0
           echo "First attempt failed, retrying in 120s..."
           sleep 120
-          node scripts/promo-tweet.mjs
+          node scripts/promo-tweet.mjs $ARGS
 
       - name: Commit promo state
         run: |
