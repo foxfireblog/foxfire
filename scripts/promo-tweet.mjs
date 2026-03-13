@@ -192,9 +192,13 @@ function parseTweetFromResponse(raw) {
 
 // --- Main ---
 
+// Support --slug flag to force a specific exploration (used by auto-explore on new posts)
+const slugArg = process.argv.find((a) => a.startsWith("--slug="));
+const forcedSlug = slugArg ? slugArg.split("=")[1] : null;
+
 // Random skip: ~25% chance to skip this run, creating +/- 1 variance
-// With 3 scheduled runs/day, this yields 2-3 promo posts/day on average
-if (Math.random() < 0.25) {
+// Skip is disabled when a specific slug is forced (new post tweet must always go out)
+if (!forcedSlug && Math.random() < 0.25) {
   console.log("Randomly skipping this promo run (25% skip chance for daily variance)");
   process.exit(0);
 }
@@ -231,17 +235,28 @@ try {
 } catch { recentPromos = []; }
 const recentSlugs = new Set(recentPromos.slice(-10));
 
-// Pick a random exploration, weighted toward recent ones (first in array = newest)
-// Top 10 get 3x weight, rest get 1x — skip recently tweeted
-const candidates = explorations.filter((e) => !recentSlugs.has(e.slug));
-const pool = candidates.length > 0 ? candidates : explorations; // fallback if all recently tweeted
-const weighted = [];
-pool.forEach((e, i) => {
-  const origIdx = explorations.indexOf(e);
-  const weight = origIdx < 10 ? 3 : 1;
-  for (let w = 0; w < weight; w++) weighted.push(e);
-});
-const pick = weighted[Math.floor(Math.random() * weighted.length)];
+let pick;
+if (forcedSlug) {
+  // Forced slug — find the specific exploration
+  pick = explorations.find((e) => e.slug === forcedSlug);
+  if (!pick) {
+    console.error(`Slug not found: ${forcedSlug}`);
+    process.exit(1);
+  }
+  console.log(`Forced slug: "${pick.title}"`);
+} else {
+  // Pick a random exploration, weighted toward recent ones (first in array = newest)
+  // Top 10 get 3x weight, rest get 1x — skip recently tweeted
+  const candidates = explorations.filter((e) => !recentSlugs.has(e.slug));
+  const pool = candidates.length > 0 ? candidates : explorations;
+  const weighted = [];
+  pool.forEach((e, i) => {
+    const origIdx = explorations.indexOf(e);
+    const weight = origIdx < 10 ? 3 : 1;
+    for (let w = 0; w < weight; w++) weighted.push(e);
+  });
+  pick = weighted[Math.floor(Math.random() * weighted.length)];
+}
 const url = `https://foxfire.blog/explorations/${pick.slug}`;
 
 console.log(`Selected: "${pick.title}" (${pick.category})`);

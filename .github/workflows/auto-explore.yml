@@ -114,16 +114,14 @@ jobs:
       - name: Tweet new post
         if: steps.push.outputs.pushed == 'true'
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          TITLE=$(git log -1 --pretty=%s | sed 's/Add exploration: //')
           SLUG=$(git diff-tree --no-commit-id --name-only -r HEAD | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
-          URL="https://foxfire.blog/explorations/${SLUG}"
-          TWEET_TEXT=$(printf "%s\n\n%s" "${TITLE}" "${URL}")
-          node scripts/tweet.mjs "${TWEET_TEXT}"
+          node scripts/promo-tweet.mjs --slug="${SLUG}"
 
       - name: Close stale failure issues on success
         if: success()
