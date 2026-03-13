@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-forgotten-front",
+    title: "The Forgotten Front: The Tsar's Gamble",
+    subtitle: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
+    category: "History & Erasure",
+    color: "rose",
+    readTime: "13 min",
+    image: "/images/explorations/the-forgotten-front.png",
+    publishedAt: "03/13/2026 10:06 AM",
+    description:
+      "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
+  },
+  {
     slug: "the-second-law",
     title: "The Second Law",
     subtitle: "Everything falls apart. This is not pessimism. It is physics.",
