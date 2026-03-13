@@ -4,7 +4,7 @@ on:
   schedule:
     # 2x daily — conserve X API credits
     - cron: "30 16 * * *"   # 11:30am EST
-    - cron: "0 23 * * *"    # 6pm EST
+    - cron: "30 23 * * *"   # 6:30pm EST
   workflow_dispatch:
     inputs:
       task:

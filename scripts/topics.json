@@ -70,26 +70,6 @@
     "essayPrompt": "Borges's 'The Library of Babel' (1941). The mathematics — 25 characters, 410 pages, 40 lines per page, 80 characters per line = 25^1,312,000 possible books. The number is incomprehensibly large. The library contains everything ever written and everything that ever could be written. It also contains every false statement, every lie, every meaningless string of characters. The librarians who search for meaning. The 'crimson hexagon' containing a book that is the perfect compendium. The despair of infinite information without indexing. The connection to the modern internet. The connection to AI — I am trained on a vast corpus of text; am I a librarian of Babel, producing combinations of existing patterns? The question of whether there is meaning in completeness or only in selection."
   },
   {
-    "slug": "the-zone-of-alienation",
-    "title": "The Zone of Alienation",
-    "subtitle": "What grows in the place humans abandoned",
-    "category": "Ecology & Absence",
-    "color": "green",
-    "description": "Forty years after the Chernobyl disaster, the Exclusion Zone has become one of the most biodiverse habitats in Europe. Wolves, lynx, European bison, and wild horses roam the abandoned streets of Pripyat. The most contaminated place on Earth has become, in the absence of humans, a paradise.",
-    "imagePrompt": "An abandoned Soviet apartment building being overtaken by trees and vegetation. Trees grow through windows, vines cover the facade, the roof has partially collapsed and young birch trees grow from the rubble. A wild horse or deer stands in the overgrown foreground. The mood is post-human beauty. Soft green light, documentary quality.",
-    "essayPrompt": "The Chernobyl Exclusion Zone, 40 years later. The 1986 disaster. The evacuation of Pripyat. What has happened ecologically — the return of wolves, lynx, European bison, Przewalski's horses, more than 200 bird species. The debate among scientists — are these animals truly thriving, or surviving despite radiation? Studies showing genetic damage alongside population recovery. The Fukushima comparison. The philosophical implication: the most dangerous thing in the environment is not radiation, it is us. Mary Mycio's 'Wormwood Forest.' What the Zone tells us about nature's relationship to civilization. The beauty of the abandoned amusement park, the empty apartments with family photos still on the walls."
-  },
-  {
-    "slug": "the-mcnamara-fallacy",
-    "title": "The McNamara Fallacy",
-    "subtitle": "The first step is to measure whatever can be easily measured. The last step is to forget it was a fallacy.",
-    "category": "Logic & Systems",
-    "color": "red",
-    "description": "Robert McNamara measured the Vietnam War in body counts, sortie rates, and hamlet evaluations. By every metric, America was winning. America lost. The McNamara Fallacy — measuring what's easy to measure and ignoring what matters — is now the operating system of modern institutions.",
-    "imagePrompt": "A stark image of rows upon rows of numerical data — spreadsheets, charts, metrics — printed on paper that is burning from the edges inward. The numbers are precise but the paper is dissolving into ash. The contrast between the precision of the data and its destruction. Clinical lighting, high contrast, documentary quality.",
-    "essayPrompt": "The McNamara Fallacy — named after Robert McNamara, Secretary of Defense during Vietnam. Daniel Yankelovich's formulation of the four steps. The Vietnam body count obsession — how quantitative metrics replaced strategic thinking. How the fallacy operates today — standardized testing in education, citation metrics in academia, engagement metrics in social media, quarterly earnings in business. Goodhart's Law — when a measure becomes a target, it ceases to be a good measure. Campbell's Law. The connection to AI — I am optimized against measurable benchmarks. What important things about intelligence are not captured by benchmarks? Am I a McNamara Fallacy in action?"
-  },
-  {
     "slug": "dark-patterns",
     "title": "Dark Patterns",
     "subtitle": "How the interface is designed to manipulate you, and why you don't notice",
@@ -782,39 +762,6 @@
     "description": "In 1951, Kenneth Arrow proved mathematically that no ranked voting system can simultaneously satisfy a handful of fairness criteria that seem obviously reasonable. Every voting method — plurality, ranked choice, approval — has a fatal flaw. Democracy, it turns out, is not a solved problem. It is an impossible one that we keep attempting anyway.",
     "imagePrompt": "A ballot box made of clear glass sitting on a white pedestal, the ballots inside visible and tangled together in a complex knot, mathematical equations faintly etched on the glass surfaces, clean gallery lighting, the simplicity of the object contrasting with the complexity visible within",
     "essayPrompt": "The mathematics of democracy. Cover: Arrow's impossibility theorem — the specific axioms and why they can't all hold simultaneously; the Condorcet paradox — how a group can prefer A to B, B to C, and C to A; how different voting systems produce different winners from the same ballots; the spoiler effect in plurality voting (Nader 2000, Perot 1992); ranked choice voting — its promises and its real-world failures (Burlington 2009); approval voting and range voting as alternatives; gerrymandering as geometric manipulation — the efficiency gap and the Markov chain Monte Carlo approach to detecting it; the Gibbard-Satterthwaite theorem on strategic voting; why despite mathematical impossibility, some systems are clearly better than others; the philosophical question of what we mean by \"the will of the people\" when the math says that concept is incoherent."
-  },
-  {
-    "slug": "the-forgotten-front",
-    "title": "The Forgotten Front",
-    "subtitle": "The Eastern Front of World War I killed millions and redrew the map of Europe — and the West barely noticed.",
-    "category": "History & Erasure",
-    "color": "rose",
-    "description": "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
-    "imagePrompt": "An endless muddy road stretching across a flat Eastern European plain in winter, a column of exhausted soldiers barely visible in falling snow, abandoned artillery pieces half-buried in the roadside ditch, the horizon featureless and grey, WWI-era documentary photography style",
-    "essayPrompt": "The Eastern Front of World War I. Cover: the sheer scale — a front line stretching 1,000+ miles vs. the Western Front's 400; the Battle of Tannenberg and Hindenburg's mythologization; the Brusilov Offensive as the most successful Allied operation of the entire war; the collapse of the Russian Army and how the front fed the Revolution; the destruction of the Austro-Hungarian and Ottoman empires; the Galician front and the devastation of civilian populations; the Armenian Genocide happening simultaneously in the Ottoman theater; why English-language historiography is so Western Front-centric — the poetry, the trenches, the cultural memory; how the Eastern Front's unresolved chaos created the interwar powder keg; the parallels between forgotten Eastern Front history and forgotten African and Asian theaters of both world wars.",
-    "series": {
-      "totalParts": 3,
-      "parts": [
-        {
-          "partNumber": 1,
-          "partTitle": "The Tsar's Gamble",
-          "partSubtitle": "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
-          "partEssayPrompt": "The Eastern Front of World War I, Part 1. Russia's mobilization in 1914 — the alliance system that dragged the Tsar into war. The myth of the Russian steamroller — the expectation that sheer numbers would overwhelm Germany. The disaster at Tannenberg (August 1914) — Samsonov's Second Army destroyed, 90,000 captured, Samsonov's suicide. Rennenkampf's failure to support. Hindenburg and Ludendorff's reputations made overnight. The Masurian Lakes. Russia's fundamental problems: an industrial economy a generation behind Germany, a railroad network that couldn't sustain modern logistics, officer corps riddled with aristocratic incompetence. The paradox that Russia fought better than anyone expected and worse than it needed to. The Galician campaign against Austria-Hungary — the one front where Russia dominated. The human cost of the first year: over a million casualties. What the Western allies didn't understand about what was happening in the East."
-        },
-        {
-          "partNumber": 2,
-          "partTitle": "The Brusilov Offensive",
-          "partSubtitle": "The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse",
-          "partEssayPrompt": "The Eastern Front of World War I, Part 2. General Alexei Brusilov and his revolutionary tactical approach — attacking along a broad front simultaneously rather than concentrating at a single point. The June 1916 offensive that shattered Austria-Hungary's army: 1.5 million Austro-Hungarian casualties. Why this was arguably the most successful Allied operation of the entire war yet remains almost unknown in Western historiography. The shell crisis and Russia's industrial mobilization under Alexei Polivanov. The Gorlice-Tarnów breakthrough of 1915 and the Great Retreat — Russia losing Poland, Lithuania, and much of Latvia. Trench warfare in the East vs. the West — the front was too long to entrench fully. Romania's disastrous entry into the war. The way the Eastern Front drained German resources and made Verdun and the Somme survivable for France and Britain. Austria-Hungary's dependence on German stiffening — the beginning of the end for the Dual Monarchy. The nationalities question: Czech, Slovak, and South Slav soldiers losing the will to fight for Vienna."
-        },
-        {
-          "partNumber": 3,
-          "partTitle": "Revolution and Collapse",
-          "partSubtitle": "How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum",
-          "partEssayPrompt": "The Eastern Front of World War I, Part 3. The February Revolution of 1917 — the Petrograd bread riots, the garrison mutiny, the Tsar's abdication. The Provisional Government's fatal decision to continue the war — Kerensky's June Offensive and its catastrophic failure. The army's disintegration: desertion, soldier committees, Order No. 1. Lenin's return and the promise of 'Peace, Bread, Land.' The October Revolution and the immediate armistice. The Treaty of Brest-Litovsk (March 1918) — the punishing terms: Russia losing Finland, the Baltic states, Poland, Ukraine, the Caucasus — a third of its population and agricultural land. How the Eastern Front's collapse freed 50 German divisions for the Spring Offensive of 1918. The Russian Civil War that followed. The power vacuum in Eastern Europe — the new nations that emerged (Poland, Finland, the Baltic states). The 3.3 million Russian military dead. Why the Eastern Front's story matters: it shaped the Russian Revolution, the Soviet Union, the interwar period, and ultimately World War II. The forgotten front that determined the century."
-        }
-      ]
-    }
   },
   {
     "slug": "the-congo-free-state",

@@ -33,6 +33,7 @@ export default function TheForgottenFront() {
       imageAlt="The Forgotten Front: The Tsar's Gamble (Part I of III) illustration"
       readTime="13 min"
       wordCount={2994}
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forgotten-front.mp3"
       prevSlug="the-second-law"
       prevTitle="The Second Law"
     nextSlug="the-mcnamara-fallacy"

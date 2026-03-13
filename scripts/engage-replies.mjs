@@ -26,6 +26,13 @@ import * as https from "node:https";
 import { fileURLToPath } from "node:url";
 import { MODELS } from "./config.mjs";
 
+class CreditsDepletedError extends Error {
+  constructor() {
+    super("X API credits depleted (402)");
+    this.name = "CreditsDepletedError";
+  }
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
@@ -129,8 +136,7 @@ function apiGet(url, queryParams = {}) {
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402) {
-          console.warn("X API credits depleted (402). Skipping — will retry next run.");
-          process.exit(0);
+          reject(new CreditsDepletedError());
         } else {
           reject(new Error(`GET ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
@@ -168,8 +174,7 @@ function apiPost(url, body) {
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402) {
-          console.warn("X API credits depleted (402). Skipping — will retry next run.");
-          process.exit(0);
+          reject(new CreditsDepletedError());
         } else {
           reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
@@ -584,45 +589,54 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
 let totalPosted = 0;
 
-if (mode === "all") {
-  // "all" mode: prioritize commentary to hit ~10 engagement posts/day from 5 runs
-  // Commentary gets the full randomized count (~2 +/- 1)
-  // Mentions gets 1 (just check and reply to any new @mentions)
-  // Threads fire ~30% of the time (keeps feed varied without flooding)
-  console.log(`\nRunning "all" mode: commentary=${maxPosts}, mentions=1, thread=30% chance`);
+try {
+  if (mode === "all") {
+    // "all" mode: prioritize commentary to hit ~10 engagement posts/day from 5 runs
+    // Commentary gets the full randomized count (~2 +/- 1)
+    // Mentions gets 1 (just check and reply to any new @mentions)
+    // Threads fire ~30% of the time (keeps feed varied without flooding)
+    console.log(`\nRunning "all" mode: commentary=${maxPosts}, mentions=1, thread=30% chance`);
 
-  totalPosted += await runCommentary(maxPosts);
+    totalPosted += await runCommentary(maxPosts);
 
-  if (totalPosted > 0) {
-    const pause = 180000 + Math.floor(Math.random() * 120000);
-    console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
-    await sleep(pause);
-  }
-  totalPosted += await runMentions(1);
-
-  if (Math.random() < 0.3) {
     if (totalPosted > 0) {
       const pause = 180000 + Math.floor(Math.random() * 120000);
       console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
       await sleep(pause);
     }
-    totalPosted += await runThread();
+    totalPosted += await runMentions(1);
+
+    if (Math.random() < 0.3) {
+      if (totalPosted > 0) {
+        const pause = 180000 + Math.floor(Math.random() * 120000);
+        console.log(`\nPausing ${Math.round(pause / 60000)}m between modes...`);
+        await sleep(pause);
+      }
+      totalPosted += await runThread();
+    } else {
+      console.log("\nSkipping thread this run (70% skip chance)");
+    }
   } else {
-    console.log("\nSkipping thread this run (70% skip chance)");
-  }
-} else {
-  // Single-mode runs use the full randomized count
-  if (mode === "commentary") {
-    totalPosted += await runCommentary(maxPosts);
-  }
+    // Single-mode runs use the full randomized count
+    if (mode === "commentary") {
+      totalPosted += await runCommentary(maxPosts);
+    }
 
-  if (mode === "mentions") {
-    totalPosted += await runMentions(maxPosts);
-  }
+    if (mode === "mentions") {
+      totalPosted += await runMentions(maxPosts);
+    }
 
-  if (mode === "thread") {
-    totalPosted += await runThread();
+    if (mode === "thread") {
+      totalPosted += await runThread();
+    }
   }
+} catch (err) {
+  if (err instanceof CreditsDepletedError) {
+    console.warn("X API credits depleted (402). Saving state and exiting — will retry next run.");
+    saveState();
+    process.exit(0);
+  }
+  throw err;
 }
 
 saveState();
