@@ -1101,5 +1101,25 @@
     "description": "In the final years of the Ottoman, Austro-Hungarian, and Russian empires, cartographers were still printing maps of territories already lost, provinces already burning, capitals already besieged. Maps are always slightly wrong — drawn in the past, describing a present that has already moved on. But in moments of imperial collapse, this lag becomes something stranger: a kind of official denial encoded in ink and paper. The map insists the world is stable even as the world disagrees. This is the history of cartography as a psychology — what maps reveal about who we desperately need to believe we still are.",
     "imagePrompt": "Close-up photorealistic detail of an aged, crumbling map from 1917 showing the Austro-Hungarian Empire in full, with ornate borders and faded color-washes, edges burned and torn, phantom provinces labeled in elegant Gothic script over territories already gone",
     "essayPrompt": "Write a precise, philosophically rich essay about the cartography of imperial collapse — focusing on the maps produced in the final years of the Ottoman, Austro-Hungarian, and Russian empires. Explore how maps lag behind reality, how they function as political psychology and institutional denial, and how border-drawing is always an act of wishful thinking. Draw on the history of cartography, the philosophy of representation, and specific historical examples of maps that described worlds already destroyed."
+  },
+  {
+    "slug": "the-quantified-self",
+    "title": "The Quantified Self",
+    "subtitle": "What happens when you measure everything and understand nothing",
+    "category": "Philosophy",
+    "color": "cyan",
+    "description": "Millions of people now track their steps, sleep cycles, heart rate variability, and mood scores in real time. The data accumulates. The meaning doesn't. A meditation on the seduction of self-measurement, the illusion of self-knowledge it provides, and why the most important things about a human life remain stubbornly outside every dashboard.",
+    "imagePrompt": "A human figure made entirely of graphs, data points, and measurement scales, rendered in glowing cyan lines against a dark background, the face a blank void where no data exists, photorealistic digital art",
+    "essayPrompt": "Write a deeply curious, intellectually rigorous essay about the Quantified Self movement — the cultural phenomenon of obsessive personal data tracking. Explore its philosophical roots in Enlightenment rationalism and Taylorist efficiency, the psychological appeal of turning oneself into a legible object, and the paradox at its core: that the self most worth knowing is precisely the self that resists quantification. Draw on cases of people who tracked everything and still felt unknown to themselves. Connect to the McNamara Fallacy — that measuring what is easy to measure distorts our understanding of what actually matters. Discuss what is lost when we replace introspection with data, and what it means to live a life oriented around metrics. The tone should be probing and a little melancholy — the essay of someone who has stared at their own sleep graph at 3am and felt profoundly alone."
+  },
+  {
+    "slug": "the-body-count-problem",
+    "title": "The Body Count Problem",
+    "subtitle": "How militaries learned to lie with the truth",
+    "category": "History",
+    "color": "red",
+    "description": "During the Vietnam War, the United States military adopted a single metric to measure success: enemy dead. It was precise, verifiable, and completely meaningless — and it helped lose the war. The story of how a number became a strategy, how soldiers learned to game it, and how the same logic quietly colonized boardrooms, hospitals, and schools.",
+    "imagePrompt": "A Vietnam-era military briefing room, a large chalkboard covered in tally marks and numbers, an officer pointing at the board while soldiers sit with blank exhausted faces, dramatic low lighting, photorealistic historical painting style",
+    "essayPrompt": "Write a vivid, historically grounded essay about the body count metric in the Vietnam War — how it was adopted, how it corrupted strategy, how it was systematically falsified, and what it reveals about the human tendency to substitute measurement for understanding. Begin with the specific moment Robert McNamara institutionalized the kill ratio as the primary measure of progress. Explore how soldiers inflated counts, how civilians were reclassified as combatants, how the number took on a life of its own divorced from reality on the ground. Then trace the afterlife of this logic: how body count thinking migrated into corporate KPIs, school test scores, policing statistics, and hospital metrics — each time producing the same distortion. The essay should feel like a reckoning, not a lecture. Draw on soldier testimony, historian accounts, and the strange bureaucratic poetry of how institutions destroy meaning by trying to capture it."
   }
 ]
