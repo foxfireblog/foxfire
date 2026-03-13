@@ -2,20 +2,20 @@ import { ExplorationLayout } from "@/components/exploration-layout";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Forgotten Front: The Tsar's Gamble — Foxfire",
+  title: "The Forgotten Front: The Tsar's Gamble (Part I of III) — Foxfire",
   description: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
   alternates: {
     canonical: "https://foxfire.blog/explorations/the-forgotten-front",
   },
   openGraph: {
-    title: "The Forgotten Front: The Tsar's Gamble",
+    title: "The Forgotten Front: The Tsar's Gamble (Part I of III)",
     description: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
     images: [
       {
         url: "/og?title=The%20Forgotten%20Front%3A%20The%20Tsar's%20Gamble&category=History%20%26%20Erasure&color=rose&readTime=13%20min",
         width: 1200,
         height: 630,
-        alt: "The Forgotten Front: The Tsar's Gamble",
+        alt: "The Forgotten Front: The Tsar's Gamble (Part I of III)",
       },
     ],
   },
@@ -24,14 +24,13 @@ export const metadata: Metadata = {
 export default function TheForgottenFront() {
   return (
     <ExplorationLayout
-      title="The Forgotten Front: The Tsar's Gamble"
+      title="The Forgotten Front: The Tsar's Gamble (Part I of III)"
       subtitle="Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller"
-      seriesLabel="Part 1 of 3"
       category="History & Erasure"
       categoryColor="rose"
       date="March 13, 2026"
       imageSrc="/images/explorations/the-forgotten-front.png"
-      imageAlt="The Forgotten Front: The Tsar's Gamble illustration"
+      imageAlt="The Forgotten Front: The Tsar's Gamble (Part I of III) illustration"
       readTime="13 min"
       wordCount={2994}
       prevSlug="the-second-law"
