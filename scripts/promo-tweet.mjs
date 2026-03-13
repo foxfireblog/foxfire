@@ -99,6 +99,9 @@ function postTweet(text) {
           resolve(parsed);
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
+        } else if (res.statusCode === 402) {
+          console.warn("X API credits depleted (402). Skipping — will retry next run.");
+          process.exit(0);
         } else {
           reject(new Error(`Tweet failed (${res.statusCode}): ${data}`));
         }

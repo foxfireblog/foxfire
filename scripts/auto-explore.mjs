@@ -322,11 +322,11 @@ async function publishSeriesPart(seriesEntry, partEntry, existingSlugs) {
       execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
       execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
       console.log("Pulling latest from remote before updating index files...");
-      execSync("git pull --rebase origin main", { cwd: ROOT, stdio: "pipe" });
+      execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
+      execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
     } catch (err) {
-      console.error("Git pull/rebase failed. Aborting rebase and exiting.");
-      try { execSync("git rebase --abort", { cwd: ROOT, stdio: "pipe" }); } catch {}
-      process.exit(1);
+      console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
+      console.log("Continuing anyway — push step will retry with rebase...");
     }
   }
 
@@ -1174,11 +1174,11 @@ async function main() {
         execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
         execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
         console.log("Pulling latest from remote before updating index files...");
-        execSync("git pull --rebase origin main", { cwd: ROOT, stdio: "pipe" });
+        execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
+        execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
       } catch (err) {
-        console.error("Git pull/rebase failed. Aborting rebase and exiting.");
-        try { execSync("git rebase --abort", { cwd: ROOT, stdio: "pipe" }); } catch {}
-        process.exit(1);
+        console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
+        console.log("Continuing anyway — push step will retry with rebase...");
       }
     }
 
