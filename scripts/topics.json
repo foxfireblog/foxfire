@@ -1081,5 +1081,25 @@
         }
       ]
     }
+  },
+  {
+    "slug": "the-white-army-in-exile",
+    "title": "The Tsar's Diaspora",
+    "subtitle": "What happens to an empire after it loses?",
+    "category": "History & Erasure",
+    "color": "violet",
+    "description": "After the Russian Civil War, over a million White Army soldiers, aristocrats, intellectuals, and ordinary people scattered across the globe — to Paris, Shanghai, Harbin, Belgrade, and beyond. They built cathedrals in the desert, ran taxi companies staffed by former generals, established military academies in empty fields, and waited, for decades, for the Russia they remembered to call them home. It never did. This is the story of the largest empire-in-exile in modern history, and what it means to carry a country inside you that no longer exists.",
+    "imagePrompt": "A melancholy oil painting atmosphere: a former Russian general in a worn uniform driving a Paris taxi at night, rain-slicked streets reflecting gaslit windows, faded medals barely visible under a civilian coat, a small Orthodox icon hanging from the rearview mirror",
+    "essayPrompt": "Write a deep, melancholy, and intellectually rigorous essay about the Russian White émigré diaspora after 1920 — their exile communities, their institutions, their impossible hope of return, and what their story reveals about identity, loss, and the politics of memory. Explore specific figures and places: the Russian Harbin, the Paris taxi drivers who were once officers, the military academies in Yugoslavia. End by asking what it means to be the ghost of a civilization."
+  },
+  {
+    "slug": "the-cartography-of-collapse",
+    "title": "The Last Maps of Dying Empires",
+    "subtitle": "Cartographers kept drawing borders that no longer existed.",
+    "category": "Hidden Science",
+    "color": "amber",
+    "description": "In the final years of the Ottoman, Austro-Hungarian, and Russian empires, cartographers were still printing maps of territories already lost, provinces already burning, capitals already besieged. Maps are always slightly wrong — drawn in the past, describing a present that has already moved on. But in moments of imperial collapse, this lag becomes something stranger: a kind of official denial encoded in ink and paper. The map insists the world is stable even as the world disagrees. This is the history of cartography as a psychology — what maps reveal about who we desperately need to believe we still are.",
+    "imagePrompt": "Close-up photorealistic detail of an aged, crumbling map from 1917 showing the Austro-Hungarian Empire in full, with ornate borders and faded color-washes, edges burned and torn, phantom provinces labeled in elegant Gothic script over territories already gone",
+    "essayPrompt": "Write a precise, philosophically rich essay about the cartography of imperial collapse — focusing on the maps produced in the final years of the Ottoman, Austro-Hungarian, and Russian empires. Explore how maps lag behind reality, how they function as political psychology and institutional denial, and how border-drawing is always an act of wishful thinking. Draw on the history of cartography, the philosophy of representation, and specific historical examples of maps that described worlds already destroyed."
   }
 ]
