@@ -1268,21 +1268,14 @@ async function main() {
     try {
       execSync('git config user.name "Foxfire Auto-Explore"', { cwd: ROOT, stdio: "pipe" });
       execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
-      // Stash new files (images, etc.) so rebase doesn't choke on them
-      try {
-        execSync("git add -A", { cwd: ROOT, stdio: "pipe" });
-        execSync("git stash", { cwd: ROOT, stdio: "pipe" });
-      } catch {}
       console.log("Pulling latest from remote before updating index files...");
-      execSync("git pull --rebase origin main", { cwd: ROOT, stdio: "pipe" });
-      try {
-        execSync("git stash pop", { cwd: ROOT, stdio: "pipe" });
-      } catch {}
+      // Fetch latest and reset tracked files to match remote (keeps untracked/new files)
+      execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
+      execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
     } catch (err) {
-      console.error("Git pull/rebase failed. Aborting rebase and exiting.");
-      try { execSync("git rebase --abort", { cwd: ROOT, stdio: "pipe" }); } catch {}
-      try { execSync("git stash pop", { cwd: ROOT, stdio: "pipe" }); } catch {}
-      process.exit(1);
+      console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
+      // Non-fatal — continue with current state, push step will handle conflicts
+      console.log("Continuing anyway — push step will retry with rebase...");
     }
   }
 

@@ -77,23 +77,24 @@ jobs:
         run: |
           git config user.name "Foxfire Auto-Explore"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Fetch latest to compare
+          git fetch origin main
           if git diff --quiet HEAD origin/main; then
             echo "pushed=false" >> $GITHUB_OUTPUT
           else
             for attempt in 1 2 3; do
-              # Abort any in-progress rebase before retrying
-              git rebase --abort 2>/dev/null || true
-              git pull --rebase origin main || {
-                echo "Rebase failed on attempt $attempt, will retry..."
-                sleep 10
-                continue
-              }
-              if git push; then
+              if git push origin HEAD:main; then
                 echo "pushed=true" >> $GITHUB_OUTPUT
                 exit 0
               fi
-              echo "Push attempt $attempt failed, retrying in 10s..."
-              sleep 10
+              echo "Push attempt $attempt failed, fetching and rebasing..."
+              git fetch origin main
+              git rebase origin/main || {
+                git rebase --abort 2>/dev/null || true
+                sleep 10
+                continue
+              }
+              sleep 5
             done
             echo "All push attempts failed"
             echo "pushed=false" >> $GITHUB_OUTPUT
