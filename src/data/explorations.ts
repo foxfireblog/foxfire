@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mcnamara-fallacy",
+    title: "The McNamara Fallacy",
+    subtitle: "Or, how we learned to count everything and understand nothing",
+    category: "Essay",
+    color: "red",
+    readTime: "15 min",
+    image: "/images/explorations/the-mcnamara-fallacy.png",
+    publishedAt: "03/13/2026 10:35 AM",
+    description:
+      "The seductive logic of measuring what's easy to measure — and the catastrophic habit of discarding everything that isn't.",
+  },
+  {
     slug: "the-forgotten-front",
     title: "The Forgotten Front: The Tsar's Gamble",
     subtitle: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",

@@ -35,6 +35,13 @@ export default function TheForgottenFront() {
       wordCount={2994}
       prevSlug="the-second-law"
       prevTitle="The Second Law"
+    nextSlug="the-mcnamara-fallacy"
+    nextTitle="The McNamara Fallacy"
+    nextSubtitle="Or, how we learned to count everything and understand nothing"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-mcnamara-fallacy.png"
+    nextReadTime="15 min"
     >
       <h2>The Body in the Forest</h2>
 
