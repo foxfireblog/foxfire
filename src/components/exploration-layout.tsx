@@ -31,6 +31,7 @@ interface ExplorationLayoutProps {
   nextImage?: string;
   nextReadTime?: string;
   audioSrc?: string;
+  seriesLabel?: string;
 }
 
 const dotColors: Record<string, string> = {
@@ -67,6 +68,7 @@ export function ExplorationLayout({
   nextImage,
   nextReadTime,
   audioSrc,
+  seriesLabel,
 }: ExplorationLayoutProps) {
   const pathname = usePathname();
   const slug = pathname.split("/").pop() || "";
@@ -181,6 +183,12 @@ export function ExplorationLayout({
             <>
               <span className="text-muted/50">&middot;</span>
               <span className="text-xs text-muted/50">~{wordCount.toLocaleString()} words</span>
+            </>
+          )}
+          {seriesLabel && (
+            <>
+              <span className="text-muted/50">&middot;</span>
+              <span className="rounded-full bg-white/[0.08] px-2.5 py-0.5 text-xs font-medium text-muted">{seriesLabel}</span>
             </>
           )}
         </motion.div>

@@ -26,6 +26,7 @@ export default function TheForgottenFront() {
     <ExplorationLayout
       title="The Forgotten Front: The Tsar's Gamble"
       subtitle="Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller"
+      seriesLabel="Part 1 of 3"
       category="History & Erasure"
       categoryColor="rose"
       date="March 13, 2026"

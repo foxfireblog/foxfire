@@ -16,7 +16,7 @@ export const explorations: Exploration[] = [
   {
     slug: "the-forgotten-front",
     title: "The Forgotten Front: The Tsar's Gamble",
-    subtitle: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
+    subtitle: "Part 1 of 3 — Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
     category: "History & Erasure",
     color: "rose",
     readTime: "13 min",
