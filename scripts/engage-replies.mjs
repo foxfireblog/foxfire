@@ -27,8 +27,8 @@ import { fileURLToPath } from "node:url";
 import { MODELS } from "./config.mjs";
 
 class CreditsDepletedError extends Error {
-  constructor() {
-    super("X API credits depleted (402)");
+  constructor(statusCode = 402) {
+    super(`X API credits/spend cap hit (${statusCode})`);
     this.name = "CreditsDepletedError";
   }
 }
@@ -136,7 +136,7 @@ function apiGet(url, queryParams = {}) {
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402 || res.statusCode === 403) {
-          reject(new CreditsDepletedError());
+          reject(new CreditsDepletedError(res.statusCode));
         } else {
           reject(new Error(`GET ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
@@ -174,7 +174,7 @@ function apiPost(url, body) {
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402 || res.statusCode === 403) {
-          reject(new CreditsDepletedError());
+          reject(new CreditsDepletedError(res.statusCode));
         } else {
           reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
         }
