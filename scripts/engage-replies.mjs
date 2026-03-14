@@ -645,7 +645,7 @@ try {
   }
 } catch (err) {
   if (err instanceof CreditsDepletedError) {
-    console.warn("X API credits depleted (402). Saving state and exiting — will retry next run.");
+    console.warn(`${err.message}. Saving state and exiting — will retry next run.`);
     saveState();
     process.exit(0);
   }
