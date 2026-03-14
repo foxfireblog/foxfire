@@ -36,6 +36,13 @@ export default function BeforeTimeZones() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/before-time-zones.mp3"
       prevSlug="the-mcnamara-fallacy"
       prevTitle="The McNamara Fallacy"
+    nextSlug="the-throats-of-the-world"
+    nextTitle="The Throats of the World"
+    nextSubtitle="Civilization has always been one narrow passage from collapse"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-throats-of-the-world.png"
+    nextReadTime="12 min"
     >
       <h2>The Town Clock</h2>
 

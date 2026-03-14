@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-throats-of-the-world",
+    title: "The Throats of the World",
+    subtitle: "Civilization has always been one narrow passage from collapse",
+    category: "Essay",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-throats-of-the-world.png",
+    publishedAt: "03/14/2026 05:36 AM",
+    description:
+      "The handful of narrow waterways through which all of human civilization has been forced to flow — and what happens when they close.",
+  },
+  {
     slug: "before-time-zones",
     title: "Before Time Zones",
     subtitle: "Every town once kept its own time. Then the railroads came, and the sun stopped mattering.",
