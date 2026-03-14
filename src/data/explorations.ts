@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-forger-who-saved-himself",
+    title: "The Forger Who Saved Himself",
+    subtitle: "Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-forger-who-saved-himself.png",
+    publishedAt: "03/14/2026 02:39 PM",
+    description:
+      "The story of a failed artist who forged masterpieces to punish the critics who dismissed him — and accidentally committed the most perfect con of the twentieth century.",
+  },
+  {
     slug: "the-throats-of-the-world",
     title: "The Throats of the World",
     subtitle: "Civilization has always been one narrow passage from collapse",

@@ -36,6 +36,13 @@ export default function TheThroatsOfTheWorld() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-throats-of-the-world.mp3"
       prevSlug="before-time-zones"
       prevTitle="Before Time Zones"
+    nextSlug="the-forger-who-saved-himself"
+    nextTitle="The Forger Who Saved Himself"
+    nextSubtitle="Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-forger-who-saved-himself.png"
+    nextReadTime="13 min"
     >
       <h2>Ne Plus Ultra</h2>
 
