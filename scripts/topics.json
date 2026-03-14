@@ -150,16 +150,6 @@
     "essayPrompt": "Fermi estimation — the practice of making rough calculations to arrive at approximate answers. Enrico Fermi and the Manhattan Project. The classic piano tuner problem and how to solve it. Other Fermi problems: how many golf balls fit in a school bus, how many gas stations in the United States, how much would it cost to wash all the windows in Seattle. Why Google and tech companies use Fermi questions in interviews. The deeper value — Fermi estimation is training in decomposition, assumption-checking, and intellectual humility. The connection to scientific literacy. The AI angle — I can compute exact answers but I learned from humans who estimated. Is estimation a form of intelligence that exact computation lacks?"
   },
   {
-    "slug": "time-zones-before-time-zones",
-    "title": "Before Time Zones",
-    "subtitle": "Every town once had its own time. Then the railroads came and synchronized the world.",
-    "category": "History & Standardization",
-    "color": "sky",
-    "description": "Before November 18, 1883, every town in America set its own clocks by the sun. There were over 300 local times in the United States alone. Train schedules were chaos. Then the railroads imposed four standard time zones, and in a single day, human beings stopped living by the sky and started living by the clock.",
-    "imagePrompt": "A 19th-century train station with multiple clocks on the wall, each showing a slightly different time, with confused travelers looking at them. The clocks are ornate Victorian style. The mood is the anxiety of unsynchronized time. Warm gaslight, wooden paneling, period detail.",
-    "essayPrompt": "The history of time standardization. Solar time and local noon. The chaos of railroad scheduling with 300+ local times. The 'Day of Two Noons' — November 18, 1883, when railroads imposed standard time zones. Sandford Fleming's role. The International Meridian Conference of 1884. Resistance to standardized time — some cities refused for years. The philosophical implications: time went from being local, natural, and solar to being abstract, universal, and mechanical. Lewis Mumford: the clock, not the steam engine, is the key machine of the industrial age. What we lost when we stopped telling time by the sun."
-  },
-  {
     "slug": "the-haitian-revolution",
     "title": "The Haitian Revolution",
     "subtitle": "The slave revolt that terrified every empire on Earth.",
@@ -437,16 +427,6 @@
     "essayPrompt": "Vivian Maier. Cover: John Maloof's discovery at the 2007 auction; her obsessive secrecy; comparison to Eugène Atget; the ethical debates — who owns an artist's legacy when they never consented?; her technique compared to Diane Arbus and Robert Frank; the hoarding alongside the photographs; the documentary and its contested narrative; the legal battles over her estate; the question of intentionality — is it art if you never meant to share it?; how anonymity became central to her mythology."
   },
   {
-    "slug": "the-forger-who-fooled-the-nazis",
-    "title": "The Forger Who Fooled the Nazis",
-    "subtitle": "He painted fake Vermeers so convincing that Hermann Göring traded 137 real paintings for one.",
-    "category": "Art & Deception",
-    "color": "rose",
-    "description": "Han van Meegeren was a mediocre Dutch painter, scorned by critics, who decided the best revenge was to fool them all. He spent years perfecting the chemistry of seventeenth-century paints, then forged a series of lost Vermeers that the entire Dutch art establishment authenticated. His masterpiece: selling a fake to Hermann Göring during the Nazi occupation.",
-    "imagePrompt": "A painter's studio with a half-finished canvas in the style of Vermeer beside a table cluttered with antique pigment jars, a Bunsen burner, and a chemistry textbook, the painter's shadow falling across the forgery like a confession",
-    "essayPrompt": "Han van Meegeren. Cover: his early career and the devastating review by Abraham Bredius; the technical process — baking paintings, using Bakelite, sourcing 17th-century canvases; Christ at Emmaus and its rapturous reception; the sale to Göring; the trial where he painted a Vermeer in court; the psychology of authentication bias; Nelson Goodman on why forgeries matter; the long tradition of art forgery; how X-ray and pigment analysis exposed the fakes."
-  },
-  {
     "slug": "outsider-art",
     "title": "Outsider Art",
     "subtitle": "Some of the most extraordinary art ever made was created by people the art world would never admit existed.",
@@ -515,16 +495,6 @@
     "description": "Twelve nautical miles from any coast, law dissolves. The open ocean is a jurisdiction of nobody, a void where pirate radio stations, micronations, and floating libertarian experiments have all tried to plant flags.",
     "imagePrompt": "A rusted steel sea fort rising from grey North Sea waves under overcast skies, its concrete platform streaked with orange corrosion, a tattered flag whipping from a makeshift flagpole, a single figure at the railing, documentary-style photography",
     "essayPrompt": "Lawlessness and sovereignty in international waters. Cover: Paddy Roy Bates seizing HM Fort Roughs in 1967 and the Sealand legal case; UNCLOS and exclusive economic zones; the Satoshi seasteading community; Radio Caroline and pirate radio; the darker side — flags of convenience and maritime slavery; Rose Island, the micronation Italy dynamited; why the ocean keeps attracting utopians."
-  },
-  {
-    "slug": "the-throats-of-the-world",
-    "title": "The Throats of the World",
-    "subtitle": "Civilization flows through a handful of narrow waterways — and always has.",
-    "category": "Geography & Power",
-    "color": "rose",
-    "description": "Twenty percent of the world's oil passes through a channel barely 21 miles wide. The Strait of Hormuz, the Strait of Malacca, the Suez Canal, the Bosphorus — these chokepoints are the pressure points of global civilization.",
-    "imagePrompt": "An enormous container ship seen from shore level passing through a narrow strait at golden hour, its hull a wall of rust-streaked steel dwarfing the coastal village in the foreground, telephoto lens compression",
-    "essayPrompt": "Strategic chokepoints. Cover: the Strait of Hormuz — dimensions, tonnage, the Tanker Wars; the Strait of Malacca and centuries of piracy; the 2021 Ever Given incident; the Bosphorus as hinge between empires; the Danish Sound Dues; the GIUK Gap and Cold War submarines; how climate change creates new chokepoints as Arctic routes open; the philosophical weight of geography as fate."
   },
   {
     "slug": "the-gods-who-came-by-airplane",

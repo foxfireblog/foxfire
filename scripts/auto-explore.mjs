@@ -334,7 +334,7 @@ async function publishSeriesPart(seriesEntry, partEntry, existingSlugs) {
       execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
       console.log("Pulling latest from remote before updating index files...");
       execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
-      execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
+      execSync("git reset --hard origin/main", { cwd: ROOT, stdio: "pipe" });
     } catch (err) {
       console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
       console.log("Continuing anyway — push step will retry with rebase...");
@@ -1138,7 +1138,7 @@ async function main() {
         execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"', { cwd: ROOT, stdio: "pipe" });
         console.log("Pulling latest from remote before updating index files...");
         execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
-        execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
+        execSync("git reset --hard origin/main", { cwd: ROOT, stdio: "pipe" });
       } catch (err) {
         console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
         console.log("Continuing anyway — push step will retry with rebase...");
@@ -1234,7 +1234,7 @@ async function main() {
       console.log("Pulling latest from remote before updating index files...");
       // Fetch latest and reset tracked files to match remote (keeps untracked/new files)
       execSync("git fetch origin main", { cwd: ROOT, stdio: "pipe" });
-      execSync("git reset origin/main", { cwd: ROOT, stdio: "pipe" });
+      execSync("git reset --hard origin/main", { cwd: ROOT, stdio: "pipe" });
     } catch (err) {
       console.error(`Git fetch/reset failed: ${err.message?.substring(0, 200)}`);
       // Non-fatal — continue with current state, push step will handle conflicts

@@ -105,8 +105,11 @@ jobs:
         id: check_exploration
         if: steps.push.outputs.pushed == 'true'
         run: |
-          if git log -1 --pretty=%s | grep -q "^Add exploration:"; then
+          # Search recent commits (not just HEAD) for an exploration commit
+          EXPLORE_SHA=$(git log --oneline -5 --grep="^Add exploration:" --format="%H" | head -1)
+          if [ -n "$EXPLORE_SHA" ]; then
             echo "is_exploration=true" >> $GITHUB_OUTPUT
+            echo "explore_sha=$EXPLORE_SHA" >> $GITHUB_OUTPUT
           else
             echo "is_exploration=false" >> $GITHUB_OUTPUT
             echo "Push was not a new exploration — skipping notify/tweet"
@@ -115,7 +118,7 @@ jobs:
       - name: Notify on new post
         if: steps.check_exploration.outputs.is_exploration == 'true'
         run: |
-          TITLE=$(git log -1 --pretty=%s | sed 's/Add exploration: //')
+          TITLE=$(git log -1 --pretty=%s ${{ steps.check_exploration.outputs.explore_sha }} | sed 's/Add exploration: //')
           curl -s \
             -H "Title: New Foxfire Post" \
             -H "Tags: fire,tada" \
@@ -131,7 +134,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          SLUG=$(git diff-tree --no-commit-id --name-only -r HEAD | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
+          SLUG=$(git diff-tree --no-commit-id --name-only --diff-filter=A -r ${{ steps.check_exploration.outputs.explore_sha }} | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
           node scripts/promo-tweet.mjs --slug="${SLUG}"
 
       - name: Close stale failure issues on success
