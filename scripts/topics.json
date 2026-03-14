@@ -1108,5 +1108,25 @@
     "description": "In the volcanic ravines of La Gomera, the forests of Oaxaca, and the mountains of northeastern Turkey, isolated villages developed complete whistled languages — not codes, but true languages capable of expressing anything the spoken tongue can. Neuroscience is only now discovering what this means: that the human brain is far stranger and more plastic than we ever imagined.",
     "imagePrompt": "A weathered shepherd on a steep misty green mountainside, two fingers in mouth whistling across a deep ravine toward a tiny distant figure on the opposite cliff, the sound wave visualized as a golden arc bending through fog and pine trees",
     "essayPrompt": "Write a rich, curious, deeply researched long-form essay about whistled languages — Silbo Gomero of the Canary Islands, Mazatec and Zapotec whistled speech in Mexico, Kuşköy in Turkey, and the handful of others still living. Cover: the linguistics of how full propositional meaning survives the compression into tonal whistles; the neuroscience research showing that brains of Silbo speakers process whistled speech in the left hemisphere language centers rather than the right-hemisphere music centers; the colonial history of suppression and the UNESCO recognition; what it reveals about the arbitrariness of sound in language; and the philosophical implications — that language is not tied to any particular medium. End with what is being lost as these languages fade, and why it matters beyond nostalgia."
+  },
+  {
+    "slug": "the-art-of-the-false-document",
+    "title": "The Art of the False Document",
+    "subtitle": "On the strange beauty of fabricated evidence — and why forgeries sometimes reveal more truth than the real thing",
+    "category": "History",
+    "color": "amber",
+    "description": "Some of the most consequential documents in history were invented. The Protocols of the Elders of Zion. The Hitler Diaries. The Donation of Constantine. But alongside the malicious fakes live stranger ones — forgeries made not for profit or power, but out of obsession, love, or a desperate need for a past that should have existed. This is about what it means when the lie is more beautiful than the truth.",
+    "imagePrompt": "A close-up of aged parchment with elegant handwriting partially illuminated by candlelight, ink slightly smeared, a wax seal broken at the edge, dust motes floating in the air, warm amber tones, photorealistic",
+    "essayPrompt": "Write a long-form Foxfire essay about the history of famous fabricated documents — from the Donation of Constantine to the Hitler Diaries to the Vinland Map — exploring not just the mechanics of forgery but the psychological and cultural hunger that makes false documents so compelling. Why do forgeries sometimes capture something true that authentic documents cannot? What does a society's appetite for a particular forgery reveal about its deepest needs and anxieties? Include specific forgers, their motivations, and the moment each fake was exposed."
+  },
+  {
+    "slug": "the-double-agent-who-loved-both-sides",
+    "title": "The Double Agent Who Loved Both Sides",
+    "subtitle": "When loyalty becomes a kind of performance art — the impossible psychology of living as two people at once",
+    "category": "History",
+    "color": "indigo",
+    "description": "The history of espionage is full of double agents, but most were pragmatists or coerced. A rarer type operated from something stranger: a genuine, almost aesthetic devotion to the act of deception itself. Figures like Eddie Chapman and Juan Pujol García didn't just work both sides — they thrived in the contradiction, constructing elaborate inner lives that no single nation could contain. To be a double agent is to live inside the gap between performance and identity until you can no longer find the seam.",
+    "imagePrompt": "A man in a 1940s overcoat standing at a foggy train station platform at night, two blurred figures visible in opposite directions, a briefcase in hand, moody noir lighting, deep blue and shadow tones, cinematic and atmospheric",
+    "essayPrompt": "Write a long-form Foxfire essay exploring the psychology of history's most remarkable double agents — with special focus on Eddie Chapman (Agent Zigzag) and Juan Pujol García (Agent Garbo) — examining what it actually feels like, psychologically, to maintain a fabricated identity for years. Draw connections between the double agent's condition and broader questions of identity, performance, and self: when you pretend to be loyal long enough, does loyalty become real? How does living as two people simultaneously warp a person's relationship to truth, and what does it reveal about the fragility of the self?"
   }
 ]
