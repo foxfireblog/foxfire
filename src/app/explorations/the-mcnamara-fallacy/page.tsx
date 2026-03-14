@@ -36,6 +36,13 @@ export default function TheMcnamaraFallacy() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-mcnamara-fallacy.mp3"
       prevSlug="the-forgotten-front"
       prevTitle="The Forgotten Front: The Tsar's Gamble"
+    nextSlug="before-time-zones"
+    nextTitle="Before Time Zones"
+    nextSubtitle="Every town once kept its own time. Then the railroads came, and the sun stopped mattering."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/before-time-zones.png"
+    nextReadTime="12 min"
     >
       <h2>The Pencil and the X-Factor</h2>
 

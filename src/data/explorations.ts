@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "before-time-zones",
+    title: "Before Time Zones",
+    subtitle: "Every town once kept its own time. Then the railroads came, and the sun stopped mattering.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/before-time-zones.png",
+    publishedAt: "03/13/2026 08:29 PM",
+    description:
+      "How the railroads forced a planet of local noons into synchronized obedience, and what we lost when we stopped telling time by the sky.",
+  },
+  {
     slug: "the-mcnamara-fallacy",
     title: "The McNamara Fallacy",
     subtitle: "Or, how we learned to count everything and understand nothing",
