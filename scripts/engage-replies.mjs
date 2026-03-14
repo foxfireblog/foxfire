@@ -135,7 +135,7 @@ function apiGet(url, queryParams = {}) {
           resolve(JSON.parse(data));
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
-        } else if (res.statusCode === 402) {
+        } else if (res.statusCode === 402 || res.statusCode === 403) {
           reject(new CreditsDepletedError());
         } else {
           reject(new Error(`GET ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
@@ -173,7 +173,7 @@ function apiPost(url, body) {
           resolve(JSON.parse(data));
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
-        } else if (res.statusCode === 402) {
+        } else if (res.statusCode === 402 || res.statusCode === 403) {
           reject(new CreditsDepletedError());
         } else {
           reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));

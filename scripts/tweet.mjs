@@ -100,7 +100,7 @@ const req = https.request(
       if (res.statusCode >= 200 && res.statusCode < 300) {
         const parsed = JSON.parse(data);
         console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
-      } else if (res.statusCode === 402) {
+      } else if (res.statusCode === 402 || res.statusCode === 403) {
         console.warn("X API credits depleted (402). Skipping tweet — will retry next run.");
         process.exit(0);
       } else {
