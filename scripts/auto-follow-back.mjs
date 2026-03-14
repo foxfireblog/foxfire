@@ -105,6 +105,11 @@ function apiGet(url, queryParams = {}) {
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) resolve(JSON.parse(data));
         else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
+        else if (res.statusCode === 402 || res.statusCode === 403) {
+          console.warn(`X API credits/spend cap hit (${res.statusCode}). Saving state and exiting.`);
+          saveState();
+          process.exit(0);
+        }
         else reject(new Error(`GET ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
       });
     });
@@ -129,6 +134,11 @@ function apiPost(url, body) {
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) resolve(JSON.parse(data));
         else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
+        else if (res.statusCode === 402 || res.statusCode === 403) {
+          console.warn(`X API credits/spend cap hit (${res.statusCode}). Saving state and exiting.`);
+          saveState();
+          process.exit(0);
+        }
         else reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));
       });
     });
@@ -229,7 +239,7 @@ try {
   let paginationToken = undefined;
   const MAX_PAGES = 5;
   for (let page = 0; page < MAX_PAGES; page++) {
-    const params = { max_results: "1000" };
+    const params = { max_results: "100" };
     if (paginationToken) {
       params.pagination_token = paginationToken;
     }

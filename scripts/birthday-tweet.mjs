@@ -132,7 +132,7 @@ function apiPost(url, body) {
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402 || res.statusCode === 403) {
-          console.warn("X API credits depleted (402). Skipping — will retry next run.");
+          console.warn(`X API credits/spend cap hit (${res.statusCode}). Skipping — will retry next run.`);
           process.exit(0);
         } else {
           reject(new Error(`POST ${url} (${res.statusCode}): ${data.substring(0, 300)}`));

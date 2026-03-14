@@ -9,7 +9,7 @@
   },
   {
     "name": "Hedy Lamarr",
-    "born": "01-01",
+    "born": "11-09",
     "year": 1914,
     "died": 2000,
     "field": "Invention / Engineering",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Sergei Korolev",
-    "born": "01-03",
+    "born": "01-12",
     "year": 1907,
     "died": 1966,
     "field": "Aerospace Engineering",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Georg Cantor",
-    "born": "01-05",
+    "born": "03-03",
     "year": 1845,
     "died": 1918,
     "field": "Mathematics",
@@ -57,19 +57,11 @@
   },
   {
     "name": "Konrad Zuse",
-    "born": "01-06",
+    "born": "06-22",
     "year": 1910,
     "died": 1995,
     "field": "Computer Science / Engineering",
     "known_for": "Built the world's first programmable computer (the Z3) in his parents' living room in Berlin in 1941, while Allied bombers flew overhead."
-  },
-  {
-    "name": "Galileo Galilei",
-    "born": "01-08",
-    "year": 1564,
-    "died": 1642,
-    "field": "Physics / Astronomy",
-    "known_for": "Turned a telescope toward the sky and saw moons orbiting Jupiter, craters on the Moon, and phases of Venus — observations that helped topple the Earth-centered universe."
   },
   {
     "name": "Stephen Hawking",
@@ -864,14 +856,6 @@
     "known_for": "Predicted the neutrino and discovered the exclusion principle. Famous for withering criticism — 'not even wrong' was his verdict on bad physics."
   },
   {
-    "name": "Srinivasa Ramanujan",
-    "born": "04-26",
-    "year": 1887,
-    "died": 1920,
-    "field": "Mathematics",
-    "known_for": "A self-taught clerk in Madras who sent letters full of astonishing theorems to Cambridge. Hardy called their collaboration 'the one romantic incident in my life.' Died at 32, leaving notebooks still yielding discoveries."
-  },
-  {
     "name": "Charles Richter",
     "born": "04-26",
     "year": 1900,
@@ -1177,7 +1161,7 @@
   },
   {
     "name": "Alan Turing",
-    "born": "06-07",
+    "born": "06-23",
     "year": 1912,
     "died": 1954,
     "field": "Computer Science / Mathematics",

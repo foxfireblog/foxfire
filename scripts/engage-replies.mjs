@@ -306,6 +306,7 @@ async function runCommentary(count) {
       }
       await sleep(2000);
     } catch (e) {
+      if (e instanceof CreditsDepletedError) throw e;
       if (e.message.includes("429")) {
         console.log("Rate limited on search, pausing 60s...");
         await sleep(60000);
@@ -368,8 +369,10 @@ Return ONLY the commentary text, nothing else.`);
       // Build full tweet: commentary + tweet URL
       const fullTweet = `${commentary}\n\n${tweetUrl}`;
 
-      if (fullTweet.length > 280) {
-        console.log(`  → Skipped (too long: ${fullTweet.length} chars)`);
+      // Use t.co-aware counting: URLs count as 23 chars regardless of actual length
+      const effectiveLen = fullTweet.replace(/https?:\/\/[^\s)]+/g, "x".repeat(23)).length;
+      if (effectiveLen > 280) {
+        console.log(`  → Skipped (too long: ${effectiveLen} effective chars)`);
         continue;
       }
 
@@ -388,6 +391,7 @@ Return ONLY the commentary text, nothing else.`);
       console.log(`  → Waiting ${Math.round(delay / 60000)}m before next...`);
       await sleep(delay);
     } catch (e) {
+      if (e instanceof CreditsDepletedError) throw e;
       console.error(`  → Error: ${e.message}`);
       if (e.message.includes("429")) {
         console.log("Rate limited, stopping commentary.");
@@ -466,8 +470,9 @@ Return ONLY the reply text, nothing else.`);
         continue;
       }
 
-      if (reply.length > 280) {
-        console.log(`  → Skipped (too long: ${reply.length} chars)`);
+      const replyEffLen = reply.replace(/https?:\/\/[^\s)]+/g, "x".repeat(23)).length;
+      if (replyEffLen > 280) {
+        console.log(`  → Skipped (too long: ${replyEffLen} effective chars)`);
         continue;
       }
 
@@ -490,6 +495,7 @@ Return ONLY the reply text, nothing else.`);
       console.log(`  → Waiting ${Math.round(delay / 60000)}m before next...`);
       await sleep(delay);
     } catch (e) {
+      if (e instanceof CreditsDepletedError) throw e;
       console.error(`  → Error: ${e.message}`);
       if (e.message.includes("429")) {
         console.log("Rate limited, stopping mentions.");
@@ -533,8 +539,9 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
     // Verify lengths
     for (let i = 0; i < tweets.length; i++) {
-      if (tweets[i].length > 280) {
-        console.log(`Tweet ${i + 1} too long (${tweets[i].length} chars), skipping thread`);
+      const threadEffLen = tweets[i].replace(/https?:\/\/[^\s)]+/g, "x".repeat(23)).length;
+      if (threadEffLen > 280) {
+        console.log(`Tweet ${i + 1} too long (${threadEffLen} effective chars), skipping thread`);
         return 0;
       }
     }
@@ -545,6 +552,7 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
     try {
       first = await apiPost("https://api.x.com/2/tweets", { text: tweets[0] });
     } catch (e) {
+      if (e instanceof CreditsDepletedError) throw e;
       console.error("Thread error: failed to post first tweet:", e.message);
       return 0;
     }
@@ -565,6 +573,7 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
         postedTweets.push({ index: i + 1, id: lastId });
         console.log(`  → https://x.com/foxfire_blog/status/${lastId}`);
       } catch (e) {
+        if (e instanceof CreditsDepletedError) throw e;
         console.error(`Thread error: failed to post tweet ${i + 1}/${tweets.length}: ${e.message}`);
         console.error(`  Partial thread state: ${postedTweets.length}/${tweets.length} tweets posted successfully:`);
         for (const t of postedTweets) {
@@ -578,6 +587,7 @@ Return the three tweets separated by ---BREAK--- on its own line. Nothing else.`
 
     return 1;
   } catch (e) {
+    if (e instanceof CreditsDepletedError) throw e;
     console.error("Thread error:", e.message);
     return 0;
   }

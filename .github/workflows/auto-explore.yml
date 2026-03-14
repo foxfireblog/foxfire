@@ -106,7 +106,7 @@ jobs:
         if: steps.push.outputs.pushed == 'true'
         run: |
           # Search recent commits (not just HEAD) for an exploration commit
-          EXPLORE_SHA=$(git log --oneline -5 --grep="^Add exploration:" --format="%H" | head -1)
+          EXPLORE_SHA=$(git log -5 --grep="^Add exploration:" --format="%H" | head -1)
           if [ -n "$EXPLORE_SHA" ]; then
             echo "is_exploration=true" >> $GITHUB_OUTPUT
             echo "explore_sha=$EXPLORE_SHA" >> $GITHUB_OUTPUT
@@ -135,6 +135,10 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
           SLUG=$(git diff-tree --no-commit-id --name-only --diff-filter=A -r ${{ steps.check_exploration.outputs.explore_sha }} | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
+          if [ -z "$SLUG" ]; then
+            echo "No slug found in commit, skipping tweet"
+            exit 0
+          fi
           node scripts/promo-tweet.mjs --slug="${SLUG}"
 
       - name: Close stale failure issues on success
