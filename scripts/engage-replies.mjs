@@ -238,6 +238,7 @@ async function likeTweet(tweetId) {
     await apiPost(`https://api.x.com/2/users/${userId}/likes`, { tweet_id: tweetId });
     console.log(`  → Liked`);
   } catch (e) {
+    if (e instanceof CreditsDepletedError) throw e;
     // Non-fatal — liking can fail (already liked, rate limited) without affecting the main flow
     console.log(`  → Like failed (non-fatal): ${e.message.substring(0, 100)}`);
   }
@@ -270,6 +271,7 @@ async function runCommentary(count) {
     });
     following = resp.data || [];
   } catch (e) {
+    if (e instanceof CreditsDepletedError) throw e;
     console.error("Failed to fetch following:", e.message);
     return 0;
   }
@@ -430,6 +432,7 @@ async function runMentions(count) {
       displayName: users[t.author_id]?.name || "Someone",
     }));
   } catch (e) {
+    if (e instanceof CreditsDepletedError) throw e;
     console.error("Failed to fetch mentions:", e.message);
     return 0;
   }

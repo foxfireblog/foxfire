@@ -97,7 +97,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update engagement state files"
             for attempt in 1 2 3; do
-              git pull --rebase origin main || true
+              git pull --rebase origin main || { git rebase --abort 2>/dev/null || true; sleep 5; continue; }
               if git push; then
                 exit 0
               fi

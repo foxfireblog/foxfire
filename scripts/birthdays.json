@@ -105,7 +105,7 @@
   },
   {
     "name": "Nikolai Pirogov",
-    "born": "01-13",
+    "born": "11-25",
     "year": 1810,
     "died": 1881,
     "field": "Medicine / Surgery",
@@ -185,7 +185,7 @@
   },
   {
     "name": "Camillo Golgi",
-    "born": "01-21",
+    "born": "07-07",
     "year": 1843,
     "died": 1926,
     "field": "Medicine / Neuroscience",
@@ -193,7 +193,7 @@
   },
   {
     "name": "Ukichiro Nakaya",
-    "born": "01-21",
+    "born": "07-04",
     "year": 1900,
     "died": 1962,
     "field": "Physics",
@@ -225,7 +225,7 @@
   },
   {
     "name": "Edith Clarke",
-    "born": "01-23",
+    "born": "02-10",
     "year": 1883,
     "died": 1959,
     "field": "Electrical Engineering",
@@ -257,7 +257,7 @@
   },
   {
     "name": "Paul Erdos",
-    "born": "01-26",
+    "born": "03-26",
     "year": 1913,
     "died": 1996,
     "field": "Mathematics",
@@ -273,7 +273,7 @@
   },
   {
     "name": "Rosalyn Yalow",
-    "born": "01-28",
+    "born": "07-19",
     "year": 1921,
     "died": 2011,
     "field": "Medical Physics",
@@ -289,7 +289,7 @@
   },
   {
     "name": "Robert Noyce",
-    "born": "01-29",
+    "born": "12-12",
     "year": 1927,
     "died": 1990,
     "field": "Engineering / Computer Science",
@@ -297,7 +297,7 @@
   },
   {
     "name": "Hideki Yukawa",
-    "born": "01-30",
+    "born": "01-23",
     "year": 1907,
     "died": 1981,
     "field": "Physics",
@@ -305,7 +305,7 @@
   },
   {
     "name": "Har Gobind Khorana",
-    "born": "01-31",
+    "born": "01-09",
     "year": 1922,
     "died": 2011,
     "field": "Biochemistry",
@@ -313,7 +313,7 @@
   },
   {
     "name": "Erwin Schrodinger",
-    "born": "01-31",
+    "born": "08-12",
     "year": 1887,
     "died": 1961,
     "field": "Physics",
@@ -329,7 +329,7 @@
   },
   {
     "name": "Fritz Zwicky",
-    "born": "02-02",
+    "born": "02-14",
     "year": 1898,
     "died": 1974,
     "field": "Astronomy / Physics",
@@ -352,16 +352,8 @@
     "known_for": "A Kansas farm boy who built telescopes from old car parts and discovered Pluto at age 24. Some of his ashes rode aboard the New Horizons spacecraft to Pluto in 2015."
   },
   {
-    "name": "J.C. Bose",
-    "born": "02-05",
-    "year": 1858,
-    "died": 1937,
-    "field": "Physics / Biology",
-    "known_for": "Indian polymath who pioneered wireless communication before Marconi, then stunned the world by demonstrating that plants respond to stimuli much like animals do."
-  },
-  {
     "name": "Joseph Priestley",
-    "born": "02-06",
+    "born": "03-24",
     "year": 1733,
     "died": 1804,
     "field": "Chemistry",
@@ -393,7 +385,7 @@
   },
   {
     "name": "John von Neumann",
-    "born": "02-08",
+    "born": "12-28",
     "year": 1903,
     "died": 1957,
     "field": "Mathematics / Computer Science",
@@ -401,7 +393,7 @@
   },
   {
     "name": "Cecilia Payne-Gaposchkin",
-    "born": "02-10",
+    "born": "05-10",
     "year": 1900,
     "died": 1979,
     "field": "Astronomy / Astrophysics",
@@ -481,7 +473,7 @@
   },
   {
     "name": "Carl Friedrich Gauss",
-    "born": "02-22",
+    "born": "04-30",
     "year": 1777,
     "died": 1855,
     "field": "Mathematics",
@@ -529,7 +521,7 @@
   },
   {
     "name": "Miriam Menkin",
-    "born": "03-04",
+    "born": "08-08",
     "year": 1901,
     "died": 1992,
     "field": "Biology / Reproductive Medicine",
@@ -537,7 +529,7 @@
   },
   {
     "name": "Georg Ohm",
-    "born": "03-05",
+    "born": "03-16",
     "year": 1789,
     "died": 1854,
     "field": "Physics",
@@ -609,7 +601,7 @@
   },
   {
     "name": "Sylvia Earle",
-    "born": "03-14",
+    "born": "08-30",
     "year": 1935,
     "died": null,
     "field": "Marine Biology / Oceanography",
@@ -681,7 +673,7 @@
   },
   {
     "name": "Robert Bunsen",
-    "born": "03-30",
+    "born": "03-31",
     "year": 1811,
     "died": 1899,
     "field": "Chemistry",
@@ -737,7 +729,7 @@
   },
   {
     "name": "Linus Torvalds",
-    "born": "04-03",
+    "born": "12-28",
     "year": 1969,
     "died": null,
     "field": "Computer Science",
@@ -753,7 +745,7 @@
   },
   {
     "name": "Robert Oppenheimer",
-    "born": "04-04",
+    "born": "04-22",
     "year": 1904,
     "died": 1967,
     "field": "Physics",
@@ -865,7 +857,7 @@
   },
   {
     "name": "Frederick Banting",
-    "born": "04-27",
+    "born": "11-14",
     "year": 1891,
     "died": 1941,
     "field": "Medicine",
@@ -913,7 +905,7 @@
   },
   {
     "name": "Carl Linnaeus",
-    "born": "05-01",
+    "born": "05-23",
     "year": 1707,
     "died": 1778,
     "field": "Biology / Taxonomy",
@@ -937,7 +929,7 @@
   },
   {
     "name": "Maryam Mirzakhani",
-    "born": "05-03",
+    "born": "05-12",
     "year": 1977,
     "died": 2017,
     "field": "Mathematics",
@@ -969,7 +961,7 @@
   },
   {
     "name": "Pyotr Kapitsa",
-    "born": "05-08",
+    "born": "07-09",
     "year": 1894,
     "died": 1984,
     "field": "Physics",
@@ -1097,7 +1089,7 @@
   },
   {
     "name": "John Nash",
-    "born": "05-28",
+    "born": "06-13",
     "year": 1928,
     "died": 2015,
     "field": "Mathematics",
@@ -1129,7 +1121,7 @@
   },
   {
     "name": "Blaise Pascal",
-    "born": "06-01",
+    "born": "06-19",
     "year": 1623,
     "died": 1662,
     "field": "Mathematics / Physics / Philosophy",
@@ -1137,7 +1129,7 @@
   },
   {
     "name": "Justus von Liebig",
-    "born": "06-02",
+    "born": "05-12",
     "year": 1803,
     "died": 1873,
     "field": "Chemistry",
@@ -1153,7 +1145,7 @@
   },
   {
     "name": "David Attenborough",
-    "born": "06-05",
+    "born": "05-08",
     "year": 1926,
     "died": null,
     "field": "Natural History / Biology",
@@ -1241,7 +1233,7 @@
   },
   {
     "name": "Charles Goodyear",
-    "born": "06-18",
+    "born": "12-29",
     "year": 1800,
     "died": 1860,
     "field": "Invention / Chemistry",
@@ -1257,7 +1249,7 @@
   },
   {
     "name": "Maria Mitchell",
-    "born": "06-26",
+    "born": "08-01",
     "year": 1818,
     "died": 1889,
     "field": "Astronomy",
@@ -1273,7 +1265,7 @@
   },
   {
     "name": "Tu Youyou",
-    "born": "06-30",
+    "born": "12-30",
     "year": 1930,
     "died": null,
     "field": "Medicine / Pharmacology",
@@ -1313,7 +1305,7 @@
   },
   {
     "name": "Lise Meitner",
-    "born": "07-07",
+    "born": "11-07",
     "year": 1878,
     "died": 1968,
     "field": "Physics",
@@ -1401,7 +1393,7 @@
   },
   {
     "name": "Subrahmanyan Chandrasekhar",
-    "born": "07-20",
+    "born": "10-19",
     "year": 1910,
     "died": 1995,
     "field": "Astrophysics",
@@ -1473,7 +1465,7 @@
   },
   {
     "name": "Wangari Maathai",
-    "born": "07-29",
+    "born": "04-01",
     "year": 1940,
     "died": 2011,
     "field": "Environmental Science / Biology",
@@ -1745,7 +1737,7 @@
   },
   {
     "name": "Aldo Leopold",
-    "born": "09-11",
+    "born": "01-11",
     "year": 1887,
     "died": 1948,
     "field": "Ecology / Environmental Science",
@@ -1801,7 +1793,7 @@
   },
   {
     "name": "Svante Arrhenius",
-    "born": "09-24",
+    "born": "02-19",
     "year": 1859,
     "died": 1927,
     "field": "Chemistry / Physics",
@@ -1833,7 +1825,7 @@
   },
   {
     "name": "Mildred Dresselhaus",
-    "born": "10-11",
+    "born": "11-11",
     "year": 1930,
     "died": 2017,
     "field": "Physics / Engineering",
@@ -2113,7 +2105,7 @@
   },
   {
     "name": "Charles Messier",
-    "born": "12-30",
+    "born": "06-26",
     "year": 1730,
     "died": 1817,
     "field": "Astronomy",
