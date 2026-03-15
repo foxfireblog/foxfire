@@ -561,12 +561,19 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
     .replace(/<\/ExplorationLayout>/g, "")
     .trim();
 
-  // Sanitize content to prevent JSX breakage:
-  // - Escape stray { } that aren't part of JSX expressions (e.g., in prose about code)
+  // Sanitize content to prevent XSS and JSX breakage:
+  // - Strip dangerous HTML tags and event handlers
   // - Escape </script> and </style> sequences
   cleaned = cleaned
+    .replace(/<script[\s>]/gi, "&lt;script ")
     .replace(/<\/script>/gi, "&lt;/script&gt;")
-    .replace(/<\/style>/gi, "&lt;/style&gt;");
+    .replace(/<style[\s>]/gi, "&lt;style ")
+    .replace(/<\/style>/gi, "&lt;/style&gt;")
+    .replace(/<iframe[\s>]/gi, "&lt;iframe ")
+    .replace(/<object[\s>]/gi, "&lt;object ")
+    .replace(/<embed[\s>]/gi, "&lt;embed ")
+    .replace(/<form[\s>]/gi, "&lt;form ")
+    .replace(/\son\w+\s*=/gi, " data-removed=");
 
   // Escape JSX expression braces to prevent injection
   cleaned = cleaned
