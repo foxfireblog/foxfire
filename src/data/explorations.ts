@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "microchimerism",
+    title: "Microchimerism",
+    subtitle: "You are not entirely yourself, and you never were",
+    category: "Natural History",
+    color: "rose",
+    readTime: "11 min",
+    image: "/images/explorations/microchimerism.png",
+    publishedAt: "03/15/2026 01:52 PM",
+    description:
+      "Every mother carries living cells from her children — and every child carries cells from their mother — creating biological ghosts that blur the boundaries of where one person ends and another begins.",
+  },
+  {
     slug: "kowloon-walled-city",
     title: "Kowloon Walled City",
     subtitle: "The city that built itself",
