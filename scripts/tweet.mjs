@@ -98,8 +98,14 @@ const req = https.request(
     res.on("data", (chunk) => (data += chunk));
     res.on("end", () => {
       if (res.statusCode >= 200 && res.statusCode < 300) {
-        const parsed = JSON.parse(data);
-        console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
+        try {
+          const parsed = JSON.parse(data);
+          console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
+        } catch (e) {
+          console.error(`Failed to parse X API response: ${e.message}`);
+          console.error(`Raw response: ${data.substring(0, 500)}`);
+          process.exit(1);
+        }
       } else if (res.statusCode === 402 || res.statusCode === 403) {
         console.warn(`X API credits/spend cap hit (${res.statusCode}). Skipping tweet — will retry next run.`);
         process.exit(0);

@@ -581,6 +581,7 @@ async function generateImage(topic) {
   console.log(`Generating image for "${topic.title}"...`);
 
   const outputDir = path.join(ROOT, "public", "images", "explorations");
+  fs.mkdirSync(outputDir, { recursive: true });
   const outputPath = path.join(outputDir, `${topic.slug}.png`);
 
   if (fs.existsSync(outputPath)) {

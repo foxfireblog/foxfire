@@ -103,8 +103,9 @@ function apiGet(url, queryParams = {}) {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {
-        if (res.statusCode >= 200 && res.statusCode < 300) resolve(JSON.parse(data));
-        else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          try { resolve(JSON.parse(data)); } catch (e) { reject(new Error(`Failed to parse GET response: ${e.message}. Raw: ${data.substring(0, 200)}`)); }
+        } else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         else if (res.statusCode === 402 || res.statusCode === 403) {
           console.warn(`X API credits/spend cap hit (${res.statusCode}). Saving state and exiting.`);
           saveState();
@@ -132,8 +133,9 @@ function apiPost(url, body) {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {
-        if (res.statusCode >= 200 && res.statusCode < 300) resolve(JSON.parse(data));
-        else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          try { resolve(JSON.parse(data)); } catch (e) { reject(new Error(`Failed to parse POST response: ${e.message}. Raw: ${data.substring(0, 200)}`)); }
+        } else if (res.statusCode === 429) reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         else if (res.statusCode === 402 || res.statusCode === 403) {
           console.warn(`X API credits/spend cap hit (${res.statusCode}). Saving state and exiting.`);
           saveState();
@@ -170,7 +172,8 @@ function callClaude(prompt) {
       res.on("data", (c) => (data += c));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          const parsed = JSON.parse(data);
+          let parsed;
+          try { parsed = JSON.parse(data); } catch (e) { reject(new Error(`Failed to parse Claude response: ${e.message}. Raw: ${data.substring(0, 200)}`)); return; }
           const text = parsed?.content?.[0]?.text;
           if (typeof text !== "string") {
             reject(new Error(`Unexpected Claude response shape: ${data.substring(0, 200)}`));

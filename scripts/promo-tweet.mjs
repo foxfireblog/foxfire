@@ -94,9 +94,13 @@ function postTweet(text) {
       res.on("data", (c) => (data += c));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          const parsed = JSON.parse(data);
-          console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
-          resolve(parsed);
+          try {
+            const parsed = JSON.parse(data);
+            console.log(`Tweet posted: https://x.com/foxfire_blog/status/${parsed.data.id}`);
+            resolve(parsed);
+          } catch (e) {
+            reject(new Error(`Failed to parse X API response: ${e.message}. Raw: ${data.substring(0, 200)}`));
+          }
         } else if (res.statusCode === 429) {
           reject(new Error(`Rate limited (429). Retry after: ${res.headers["retry-after"] || "unknown"}s`));
         } else if (res.statusCode === 402 || res.statusCode === 403) {
@@ -135,7 +139,8 @@ function callClaude(prompt) {
       res.on("data", (c) => (data += c));
       res.on("end", () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          const parsed = JSON.parse(data);
+          let parsed;
+          try { parsed = JSON.parse(data); } catch (e) { reject(new Error(`Failed to parse Claude response: ${e.message}. Raw: ${data.substring(0, 200)}`)); return; }
           const text = parsed?.content?.[0]?.text;
           if (typeof text !== "string") {
             reject(new Error(`Unexpected Claude response shape: ${data.substring(0, 200)}`));
