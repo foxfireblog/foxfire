@@ -1100,43 +1100,23 @@
     "essayPrompt": "Write a long-form Foxfire essay exploring the psychology of history's most remarkable double agents — with special focus on Eddie Chapman (Agent Zigzag) and Juan Pujol García (Agent Garbo) — examining what it actually feels like, psychologically, to maintain a fabricated identity for years. Draw connections between the double agent's condition and broader questions of identity, performance, and self: when you pretend to be loyal long enough, does loyalty become real? How does living as two people simultaneously warp a person's relationship to truth, and what does it reveal about the fragility of the self?"
   },
   {
-    "slug": "the-smell-of-rain-has-a-name",
-    "title": "The Smell of Rain Has a Name",
-    "subtitle": "The hidden biology of petrichor, and what the earth exhales before the storm",
-    "category": "Natural History",
-    "color": "teal",
-    "description": "In 1964, two Australian mineralogists named a smell that every human on earth recognizes but no one had ever scientifically described. Petrichor — the scent of rain on dry earth — turned out to be a story about bacteria, geology, and a molecule that plants release as a kind of death rattle. It is also, unexpectedly, a story about how the nose might remember things the mind cannot.",
-    "imagePrompt": "Close-up macro photograph of rain droplets striking dry cracked earth, releasing microscopic plumes of dust and vapor, warm ochre and burnt sienna tones, dramatic low light, photorealistic",
-    "essayPrompt": "Write a deep, lyrical essay about petrichor — the smell of rain on dry earth — exploring its scientific origins in geosmin produced by Streptomyces bacteria, its detection threshold in the human nose (far more sensitive than a shark detecting blood), its evolutionary significance, and the 1964 discovery by Bear and Thomas. Weave in the paradox that this smell, so universally beloved, is essentially the scent of bacterial decay and dying plant oils. Explore why humans can detect it at 5 parts per trillion, and what this hypersensitivity might tell us about our ancestral relationship with water, drought, and survival. Include the strange afterlife of geosmin in red wine, beets, and the flavor of catfish. End with something about how certain smells seem to arrive before memory — as if the body knows the rain before the mind does."
-  },
-  {
-    "slug": "the-graveyard-of-cultivated-things",
-    "title": "The Graveyard of Cultivated Things",
-    "subtitle": "On the seed vaults, extinct flavors, and the slow forgetting of ten thousand years of agriculture",
+    "slug": "the-mole-people",
+    "title": "The Mole People",
+    "subtitle": "The hidden cities beneath New York",
     "category": "History",
-    "color": "amber",
-    "description": "Before the Cavendish banana, there was the Gros Michel — creamier, richer, and by most accounts superior — until a fungus erased it from commercial existence in the 1950s. But the banana is just one entry in a vast catalog of lost agriculture: the Ansault pear, the Newtown Pippin apple, the Purple Cape cauliflower, and thousands of others. Somewhere between the Roman agricultural manuals and the rise of the supermarket, humanity forgot how to grow most of what it once ate.",
-    "imagePrompt": "Antique botanical illustration style painting of an array of extinct and rare fruit and vegetable varieties — unusual pears, heirloom tomatoes, strange gourds — arranged on aged parchment with handwritten Latin labels, warm sepia and gold tones",
-    "essayPrompt": "Write a rich, mournful, and occasionally wondrous essay about agricultural extinction — the thousands of fruit, vegetable, and grain varieties that have disappeared from human cultivation over the last two centuries. Begin with the Gros Michel banana and its fungal apocalypse, then pull back to reveal the larger pattern: how industrial agriculture collapsed genetic diversity from tens of thousands of apple varieties to a handful, how the Ansault pear was once described as the finest fruit ever cultivated and is now essentially gone, how the Roman cookbook Apicius describes ingredients no living person has tasted. Explore the seed vault movement — Svalbard, the Vavilov Institute in Russia where scientists starved during the Siege of Leningrad rather than eat the seed collection — and the small, obsessive network of heirloom seed savers who work against forgetting. Sit with the philosophical strangeness of a flavor that no living human has experienced. End with something about what it means to lose a taste — not just a crop, but a sensory experience that existed for millennia and then simply stopped."
-  },
-  {
-    "slug": "the-rubber-hand-illusion",
-    "title": "The Rubber Hand Illusion",
-    "subtitle": "What a fake arm reveals about the terrifying looseness of self",
-    "category": "Science",
-    "color": "violet",
-    "description": "In 1998, two scientists placed a rubber hand on a table, hid a person's real hand behind a screen, and stroked both simultaneously. Within minutes, people felt the fake hand as their own. The experiment seems like a parlor trick. It is actually a window into one of the most unsettling facts about human consciousness: the self is not fixed inside you — it is a story your brain constructs, moment by moment, from whatever evidence is available. And it can be fooled.",
-    "imagePrompt": "A rubber prosthetic hand resting on a white table beside a real human hand, both partially visible, soft clinical lighting, unsettling symmetry, photorealistic",
-    "essayPrompt": "Write a Foxfire essay about the rubber hand illusion — what it is, how it works, and what it reveals about the constructed nature of bodily self-perception. Explore the science of body ownership, proprioception, and multisensory integration. Connect it to broader questions: What does it mean to own a body? How does the brain decide what is 'self'? Touch on implications for phantom limbs, depersonalization disorder, and the philosophy of personal identity. The tone should be intellectually curious and quietly unnerving — this is a discovery that should make readers feel slightly strange in their own skin."
-  },
-  {
-    "slug": "cotard-delusion",
-    "title": "The Walking Corpse",
-    "subtitle": "The neurological condition that makes people believe they are already dead",
-    "category": "Science",
     "color": "indigo",
-    "description": "In the 1880s, a French neurologist named Jules Cotard began documenting patients with a peculiar and devastating belief: they were convinced they were dead. Not metaphorically. Not depressed. Dead — their organs gone, their blood dried up, their existence a kind of animate nothing. Some believed they could not die because they were already dead, and stopped eating. The condition still occurs today, and modern neuroscience has begun to understand what causes it: a disconnection between the brain's recognition of faces and the emotional warmth that recognition normally produces. When you look at yourself in the mirror and feel nothing, the mind reaches for the only explanation that fits. I must not be here anymore.",
-    "imagePrompt": "A cracked antique mirror reflecting a blurred, half-present human figure, dimly lit Victorian room, dust motes in the air, haunting and melancholic atmosphere",
-    "essayPrompt": "Write a Foxfire essay about Cotard's delusion — the rare neurological and psychiatric condition in which people sincerely believe they are dead, do not exist, or have lost their organs and soul. Begin with Jules Cotard's original case studies. Explain the modern neuroscientific understanding: the role of the fusiform face area, the amygdala, and emotional disconnection from perception. Explore what this condition reveals about how the brain constructs the feeling of being alive — the sense that one exists. Connect to philosophy of mind, the 'hard problem' of consciousness, and questions about what makes subjective experience feel real. The tone should be compassionate but deeply curious, treating this as one of the most philosophically revealing conditions in all of neurology."
+    "description": "Beneath the streets of Manhattan, in tunnels built for trains that never came and infrastructure long abandoned, thousands of people have made homes in the dark. Not a metaphor. Not a myth. A parallel city, with its own geography, social hierarchies, unwritten rules, and something approaching community.",
+    "imagePrompt": "A long exposure photograph of an abandoned underground tunnel, warm candlelight glowing from makeshift shelters built into alcoves in the walls, condensation on old concrete, layers of graffiti, a dim figure walking away into the darkness, cinematic and atmospheric",
+    "essayPrompt": "Write a deep, lyrical Foxfire essay about the communities of people who lived in the abandoned tunnels and infrastructure beneath New York City — particularly the Freedom Tunnel along the Hudson and the spaces beneath Grand Central. Explore the social organization that emerged, the figures like Bernard Isaac who created something like civilization underground, the city's periodic 'cleanouts' and their human cost, and what it means that a global financial capital had a shadow city running beneath its feet. Touch on Jennifer Toth's controversial book 'The Mole People,' the debates about how many people actually lived below, and what the phenomenon reveals about housing, visibility, and who a city decides to see. End with the philosophical question of what counts as a home."
+  },
+  {
+    "slug": "le-corbusier-and-the-radiant-city",
+    "title": "The Man Who Wanted to Demolish Paris",
+    "subtitle": "How a single architect nearly reshaped every city on Earth",
+    "category": "Architecture",
+    "color": "amber",
+    "description": "In 1925, Le Corbusier presented a plan to demolish the historic center of Paris and replace it with 18 identical cruciform skyscrapers set in parkland. The plan was rejected. But his ideas were not — and their legacy is written into housing projects, brutalist towers, and broken communities on every continent.",
+    "imagePrompt": "A stark modernist housing tower against a grey sky, the building's geometric concrete face cracked and stained, tiny windows in rigid grids, an empty plaza below with a lone figure, the composition feeling simultaneously monumental and deeply human, fine art photography",
+    "essayPrompt": "Write a deep, rigorous Foxfire essay about Le Corbusier's vision for urban life — the Radiant City, the Plan Voisin, the idea that architecture could engineer human happiness through rational design. Explore how a single man's aesthetic philosophy became the blueprint for social housing across the world, and how those towers — built to liberate the poor from slums — became places of profound isolation and despair. Examine the gap between the architect's god-like perspective (the view from above, the city as diagram) and the lived experience of the people inside. Bring in the Pruitt-Igoe housing project in St. Louis, its implosion in 1972, and what theorists called the 'death of modern architecture.' End with the question of who gets to imagine how other people should live — and what happens when that imagination goes wrong."
   }
 ]
