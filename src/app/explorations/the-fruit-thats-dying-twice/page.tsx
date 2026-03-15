@@ -36,6 +36,13 @@ export default function TheFruitThatsDyingTwice() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fruit-thats-dying-twice.mp3"
       prevSlug="the-forger-who-saved-himself"
       prevTitle="The Forger Who Saved Himself"
+    nextSlug="the-phantom-limb"
+    nextTitle="The Phantom Limb"
+    nextSubtitle="The brain keeps writing letters to a body part that no longer has an address"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-phantom-limb.png"
+    nextReadTime="13 min"
     >
       <h2>The Ghost in the Candy</h2>
 

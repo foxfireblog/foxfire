@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-phantom-limb",
+    title: "The Phantom Limb",
+    subtitle: "The brain keeps writing letters to a body part that no longer has an address",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-phantom-limb.png",
+    publishedAt: "03/15/2026 11:46 AM",
+    description:
+      "On phantom limbs, mirror boxes, and the brain's stubborn refusal to let go of what the body has already lost.",
+  },
+  {
     slug: "the-fruit-thats-dying-twice",
     title: "The Fruit That's Dying Twice",
     subtitle: "How a monoculture's sweetest creation keeps writing the same tragedy",
