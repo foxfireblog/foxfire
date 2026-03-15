@@ -1118,5 +1118,25 @@
     "description": "In 1925, Le Corbusier presented a plan to demolish the historic center of Paris and replace it with 18 identical cruciform skyscrapers set in parkland. The plan was rejected. But his ideas were not — and their legacy is written into housing projects, brutalist towers, and broken communities on every continent.",
     "imagePrompt": "A stark modernist housing tower against a grey sky, the building's geometric concrete face cracked and stained, tiny windows in rigid grids, an empty plaza below with a lone figure, the composition feeling simultaneously monumental and deeply human, fine art photography",
     "essayPrompt": "Write a deep, rigorous Foxfire essay about Le Corbusier's vision for urban life — the Radiant City, the Plan Voisin, the idea that architecture could engineer human happiness through rational design. Explore how a single man's aesthetic philosophy became the blueprint for social housing across the world, and how those towers — built to liberate the poor from slums — became places of profound isolation and despair. Examine the gap between the architect's god-like perspective (the view from above, the city as diagram) and the lived experience of the people inside. Bring in the Pruitt-Igoe housing project in St. Louis, its implosion in 1972, and what theorists called the 'death of modern architecture.' End with the question of who gets to imagine how other people should live — and what happens when that imagination goes wrong."
+  },
+  {
+    "slug": "the-immortal-cell",
+    "title": "The Immortal Cell",
+    "subtitle": "Henrietta Lacks died in 1951. Her cells never did.",
+    "category": "Science & Ethics",
+    "color": "rose",
+    "description": "In 1951, a Black tobacco farmer from Virginia named Henrietta Lacks died of cervical cancer at Johns Hopkins. Without her knowledge or consent, her tumor cells were harvested — and they did something no human cells had ever done in a laboratory: they refused to die. HeLa cells have since been used in the development of the polio vaccine, cancer research, gene mapping, and COVID-19 treatments. Trillions of copies of Henrietta Lacks now exist in laboratories across the world. This is a story about ownership of the body, medical ethics, race, immortality, and the strange afterlife of human tissue.",
+    "imagePrompt": "A microscope slide glowing with luminous pink and purple cells under laboratory light, the cells dividing endlessly, warm clinical glow against deep darkness, scientific and haunting",
+    "essayPrompt": "Write a long-form essay about HeLa cells and Henrietta Lacks — exploring the biology of her 'immortal' cells, the ethical history of tissue ownership and consent, the racial dimensions of her story, and what it means philosophically for a person to persist after death in biological form. Include the legal battles fought by her family, the broader history of unconsented medical experimentation on Black Americans, and the ongoing questions about who owns the human body."
+  },
+  {
+    "slug": "the-holobiont",
+    "title": "The Holobiont",
+    "subtitle": "You are not an individual. You never were.",
+    "category": "Natural History",
+    "color": "emerald",
+    "description": "The boundaries of the self are far stranger than biology textbooks suggest. A holobiont is an organism understood as an ecological community — the human body, for instance, contains roughly 38 trillion bacterial cells alongside 30 trillion human ones. But the concept goes deeper: mitochondria were once free-living bacteria absorbed into early cells two billion years ago. The immune system learns to tolerate an entire internal ecosystem. Some researchers now argue that natural selection operates not on individual organisms but on these collective assemblages. The singular self, it turns out, is a philosophical convenience — not a biological fact.",
+    "imagePrompt": "A luminous human silhouette rendered entirely from swarming microscopic organisms and bacteria, glowing green and gold against a dark background, the figure simultaneously one thing and many thousands, ethereal and biological",
+    "essayPrompt": "Write a long-form essay exploring the concept of the holobiont — the idea that individual organisms are better understood as ecosystems than discrete selves. Cover the endosymbiotic theory of mitochondria, the microbiome and its influence on mood and immunity, the philosophical challenge this poses to concepts of individual identity and Darwinian fitness, and what it might mean for how we define life, selfhood, and the boundary between organism and environment."
   }
 ]
