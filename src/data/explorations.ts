@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-fruit-thats-dying-twice",
+    title: "The Fruit That's Dying Twice",
+    subtitle: "How a monoculture's sweetest creation keeps writing the same tragedy",
+    category: "Natural History",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-fruit-thats-dying-twice.png",
+    publishedAt: "03/15/2026 02:13 AM",
+    description:
+      "We engineered the perfect banana, then watched a fungus erase it from the earth — and now we're doing it all over again.",
+  },
+  {
     slug: "the-forger-who-saved-himself",
     title: "The Forger Who Saved Himself",
     subtitle: "Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud",
