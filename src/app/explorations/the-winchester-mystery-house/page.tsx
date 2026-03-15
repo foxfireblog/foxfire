@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Winchester Mystery House — Foxfire",
   description: "A woman built a labyrinth of guilt, and it never stopped growing",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-winchester-mystery-house",
+  },
   openGraph: {
     title: "The Winchester Mystery House",
     description: "A woman built a labyrinth of guilt, and it never stopped growing",

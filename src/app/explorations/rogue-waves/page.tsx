@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Rogue Waves — Foxfire",
   description: "On the monsters that physics said were impossible",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/rogue-waves",
+  },
   openGraph: {
     title: "Rogue Waves",
     description: "On the monsters that physics said were impossible",

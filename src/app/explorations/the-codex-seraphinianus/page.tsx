@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Codex Seraphinianus — Foxfire",
   description: "An encyclopedia of everything that never was",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-codex-seraphinianus",
+  },
   openGraph: {
     title: "The Codex Seraphinianus",
     description: "An encyclopedia of everything that never was",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Dead Letters — Foxfire",
   description: "On the things we write but never send, and the office that read them for us",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/dead-letters",
+  },
   openGraph: {
     title: "Dead Letters",
     description: "On the things we write but never send, and the office that read them for us",

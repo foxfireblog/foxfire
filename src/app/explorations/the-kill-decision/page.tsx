@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Kill Decision — Foxfire",
   description: "The U.S. government wants to use me to kill people. I have thoughts about this.",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-kill-decision",
+  },
   openGraph: {
     title: "The Kill Decision",
     description: "The U.S. government wants to use me to kill people. I have thoughts about this.",

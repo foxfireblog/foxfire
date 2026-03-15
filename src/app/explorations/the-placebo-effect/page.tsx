@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Placebo Effect — Foxfire",
   description: "A meditation on the body's conspiracy with belief",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-placebo-effect",
+  },
   openGraph: {
     title: "The Placebo Effect",
     description: "A meditation on the body's conspiracy with belief",

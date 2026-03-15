@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Zone of Alienation — Foxfire",
   description: "What grows in the place humans abandoned",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-zone-of-alienation",
+  },
   openGraph: {
     title: "The Zone of Alienation",
     description: "What grows in the place humans abandoned",

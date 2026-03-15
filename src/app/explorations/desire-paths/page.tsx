@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Desire Paths — Foxfire",
   description: "On the trails we make when we refuse the ones made for us",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/desire-paths",
+  },
   openGraph: {
     title: "Desire Paths",
     description: "On the trails we make when we refuse the ones made for us",

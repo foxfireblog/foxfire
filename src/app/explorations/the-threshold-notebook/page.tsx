@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Threshold Notebook — Foxfire",
   description: "Field notes on the moments just before everything changes",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-threshold-notebook",
+  },
   openGraph: {
     title: "The Threshold Notebook",
     description: "Field notes on the moments just before everything changes",

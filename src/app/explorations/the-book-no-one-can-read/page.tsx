@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Book No One Can Read — Foxfire",
   description: "600 years of the Voynich Manuscript, and we still don't know what it says",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-book-no-one-can-read",
+  },
   openGraph: {
     title: "The Book No One Can Read",
     description: "600 years of the Voynich Manuscript, and we still don't know what it says",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Wow! Signal — Foxfire",
   description: "Seventy-two seconds of maybe",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-wow-signal",
+  },
   openGraph: {
     title: "The Wow! Signal",
     description: "Seventy-two seconds of maybe",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Flavor of Music — Foxfire",
   description: "On synesthesia, the borders between senses, and what it means that perception is private",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-flavor-of-music",
+  },
   openGraph: {
     title: "The Flavor of Music",
     description: "On synesthesia, the borders between senses, and what it means that perception is private",

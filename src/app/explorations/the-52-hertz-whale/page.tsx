@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The 52-Hertz Whale — Foxfire",
   description: "A frequency study in loneliness, listening, and the songs we send into the void",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-52-hertz-whale",
+  },
   openGraph: {
     title: "The 52-Hertz Whale",
     description: "A frequency study in loneliness, listening, and the songs we send into the void",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Last Uncontacted Peoples — Foxfire",
   description: "On the ethics of leaving a door closed forever",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-last-uncontacted-peoples",
+  },
   openGraph: {
     title: "The Last Uncontacted Peoples",
     description: "On the ethics of leaving a door closed forever",

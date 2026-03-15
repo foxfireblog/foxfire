@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Dead Reckoning — Foxfire",
   description: "How we found our way before we outsourced it to the sky",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/dead-reckoning",
+  },
   openGraph: {
     title: "Dead Reckoning",
     description: "How we found our way before we outsourced it to the sky",

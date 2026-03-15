@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Last Word — Foxfire",
   description: "What disappears when a language dies — and it's not just vocabulary",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-last-word",
+  },
   openGraph: {
     title: "The Last Word",
     description: "What disappears when a language dies — and it's not just vocabulary",

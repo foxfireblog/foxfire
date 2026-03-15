@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Last Pictures — Foxfire",
   description: "What do you put on a satellite that will outlast the Earth?",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-last-pictures",
+  },
   openGraph: {
     title: "The Last Pictures",
     description: "What do you put on a satellite that will outlast the Earth?",

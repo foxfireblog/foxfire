@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Watchmaker Is Blind — Foxfire",
   description: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-watchmaker-is-blind",
+  },
   openGraph: {
     title: "The Watchmaker Is Blind",
     description: "How complexity arises from simplicity without a designer — and why that's more beautiful, not less",

@@ -102,6 +102,20 @@ export function ExplorationLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://foxfire.blog" },
+              { "@type": "ListItem", position: 2, name: "Explorations", item: "https://foxfire.blog/explorations" },
+              { "@type": "ListItem", position: 3, name: title, item: `https://foxfire.blog/explorations/${slug}` },
+            ],
+          }).replace(/</g, "\\u003c"),
+        }}
+      />
       <ReadingProgress />
       <TableOfContents />
 

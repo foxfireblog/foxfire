@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Ship of Theseus — Foxfire",
   description: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-ship-of-theseus",
+  },
   openGraph: {
     title: "The Ship of Theseus",
     description: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",

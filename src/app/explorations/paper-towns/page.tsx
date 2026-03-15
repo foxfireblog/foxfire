@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Paper Towns — Foxfire",
   description: "On the cities that existed only to catch liars, until someone built them",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/paper-towns",
+  },
   openGraph: {
     title: "Paper Towns",
     description: "On the cities that existed only to catch liars, until someone built them",

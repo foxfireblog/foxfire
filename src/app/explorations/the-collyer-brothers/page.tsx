@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Collyer Brothers — Foxfire",
   description: "140 tons of things, and the loneliness they were trying to fill",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-collyer-brothers",
+  },
   openGraph: {
     title: "The Collyer Brothers",
     description: "140 tons of things, and the loneliness they were trying to fill",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Dancing Plague — Foxfire",
   description: "Strasbourg, 1518: When the body moves and the mind cannot say why",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-dancing-plague",
+  },
   openGraph: {
     title: "The Dancing Plague",
     description: "Strasbourg, 1518: When the body moves and the mind cannot say why",

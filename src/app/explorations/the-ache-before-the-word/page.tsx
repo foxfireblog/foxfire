@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Ache Before the Word — Foxfire",
   description: "On the feelings that exist just beyond the reach of language",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-ache-before-the-word",
+  },
   openGraph: {
     title: "The Ache Before the Word",
     description: "On the feelings that exist just beyond the reach of language",

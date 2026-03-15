@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Glow Between — Foxfire",
   description: "On foxfire, bioluminescence, and wounds that healed with light",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-glow-between",
+  },
   openGraph: {
     title: "The Glow Between",
     description: "On foxfire, bioluminescence, and wounds that healed with light",

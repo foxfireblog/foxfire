@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Year Without a Summer — Foxfire",
   description: "How a volcano swallowed the sun and darkness learned to dream",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-year-without-a-summer",
+  },
   openGraph: {
     title: "The Year Without a Summer",
     description: "How a volcano swallowed the sun and darkness learned to dream",

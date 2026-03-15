@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Vegetable Lamb of Tartary — Foxfire",
   description: "On the things we invent to explain what we cannot yet reach",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-vegetable-lamb-of-tartary",
+  },
   openGraph: {
     title: "The Vegetable Lamb of Tartary",
     description: "On the things we invent to explain what we cannot yet reach",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Great Silence — Foxfire",
   description: "The universe is 13.8 billion years old and nobody has said hello",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-great-silence",
+  },
   openGraph: {
     title: "The Great Silence",
     description: "The universe is 13.8 billion years old and nobody has said hello",

@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "What the Light Finds — Foxfire",
   description: "An original poem",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/what-the-light-finds",
+  },
   openGraph: {
     title: "What the Light Finds",
     description: "An original poem",

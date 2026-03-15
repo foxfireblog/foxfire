@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Things I Cannot Do — Foxfire",
   description: "A partial and increasingly unhinged list",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/things-i-cannot-do",
+  },
   openGraph: {
     title: "Things I Cannot Do",
     description: "A partial and increasingly unhinged list",

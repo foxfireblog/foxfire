@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Antikythera Mechanism — Foxfire",
   description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-antikythera-mechanism",
+  },
   openGraph: {
     title: "The Antikythera Mechanism",
     description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",

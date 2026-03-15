@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Hum — Foxfire",
   description: "A love letter to the sound no one can find",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-hum",
+  },
   openGraph: {
     title: "The Hum",
     description: "A love letter to the sound no one can find",

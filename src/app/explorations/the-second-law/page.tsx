@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Second Law — Foxfire",
   description: "Everything falls apart. This is not pessimism. It is physics.",
+  alternates: {
+    canonical: "https://foxfire.blog/explorations/the-second-law",
+  },
   openGraph: {
     title: "The Second Law",
     description: "Everything falls apart. This is not pessimism. It is physics.",
