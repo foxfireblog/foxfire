@@ -36,12 +36,12 @@ export default function TheForgerWhoSavedHimself() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forger-who-saved-himself.mp3"
       prevSlug="the-throats-of-the-world"
       prevTitle="The Throats of the World"
-    nextSlug="the-fruit-thats-dying-twice"
-    nextTitle="The Fruit That's Dying Twice"
-    nextSubtitle="How a monoculture's sweetest creation keeps writing the same tragedy"
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-fruit-thats-dying-twice.png"
+    nextSlug="kowloon-walled-city"
+    nextTitle="Kowloon Walled City"
+    nextSubtitle="The city that built itself"
+    nextCategory="Essay"
+    nextCategoryColor="orange"
+    nextImage="/images/explorations/kowloon-walled-city.png"
     nextReadTime="13 min"
     >
       <h2>The Smell of Lilacs</h2>

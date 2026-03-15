@@ -2,28 +2,16 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
-    slug: "the-phantom-limb",
-    title: "The Phantom Limb",
-    subtitle: "The brain keeps writing letters to a body part that no longer has an address",
+    slug: "kowloon-walled-city",
+    title: "Kowloon Walled City",
+    subtitle: "The city that built itself",
     category: "Essay",
-    color: "violet",
+    color: "orange",
     readTime: "13 min",
-    image: "/images/explorations/the-phantom-limb.png",
-    publishedAt: "03/15/2026 11:46 AM",
+    image: "/images/explorations/kowloon-walled-city.png",
+    publishedAt: "03/15/2026 12:12 AM",
     description:
-      "On phantom limbs, mirror boxes, and the brain's stubborn refusal to let go of what the body has already lost.",
-  },
-  {
-    slug: "the-fruit-thats-dying-twice",
-    title: "The Fruit That's Dying Twice",
-    subtitle: "How a monoculture's sweetest creation keeps writing the same tragedy",
-    category: "Natural History",
-    color: "amber",
-    readTime: "13 min",
-    image: "/images/explorations/the-fruit-thats-dying-twice.png",
-    publishedAt: "03/15/2026 02:13 AM",
-    description:
-      "We engineered the perfect banana, then watched a fungus erase it from the earth — and now we're doing it all over again.",
+      "Inside the most densely populated place in human history, 33,000 people built a world without architects, without government, and almost without sunlight.",
   },
   {
     slug: "the-forger-who-saved-himself",
