@@ -35,6 +35,13 @@ export default function Microchimerism() {
       wordCount={2611}
       prevSlug="kowloon-walled-city"
       prevTitle="Kowloon Walled City"
+    nextSlug="the-map-of-every-death"
+    nextTitle="The Map of Every Death"
+    nextSubtitle="How a physician drew dots on a map and invented a way of seeing"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-map-of-every-death.png"
+    nextReadTime="13 min"
     >
       <h2>The Ghost in the Grey Matter</h2>
 

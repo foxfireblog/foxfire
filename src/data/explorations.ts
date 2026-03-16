@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-map-of-every-death",
+    title: "The Map of Every Death",
+    subtitle: "How a physician drew dots on a map and invented a way of seeing",
+    category: "Essay",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-map-of-every-death.png",
+    publishedAt: "03/16/2026 03:22 AM",
+    description:
+      "In 1854, John Snow didn't cure cholera with medicine — he cured it with a dot on a map, inventing epidemiology and proving that seeing data in space could save thousands of lives.",
+  },
+  {
     slug: "microchimerism",
     title: "Microchimerism",
     subtitle: "You are not entirely yourself, and you never were",
