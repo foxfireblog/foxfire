@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-prion",
+    title: "The Prion",
+    subtitle: "A protein that learned one terrible trick",
+    category: "Natural Horror",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-prion.png",
+    publishedAt: "03/16/2026 06:45 PM",
+    description:
+      "On the entity that cannot be killed because it was never alive — a meditation on the thing that breaks our definitions of life, death, and contagion.",
+  },
+  {
     slug: "the-map-of-every-death",
     title: "The Map of Every Death",
     subtitle: "How a physician drew dots on a map and invented a way of seeing",

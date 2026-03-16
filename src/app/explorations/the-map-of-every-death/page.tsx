@@ -36,6 +36,13 @@ export default function TheMapOfEveryDeath() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-map-of-every-death.mp3"
       prevSlug="microchimerism"
       prevTitle="Microchimerism"
+    nextSlug="the-prion"
+    nextTitle="The Prion"
+    nextSubtitle="A protein that learned one terrible trick"
+    nextCategory="Natural Horror"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-prion.png"
+    nextReadTime="12 min"
     >
       <h2>The Sweetness in the Water</h2>
 
