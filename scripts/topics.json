@@ -1158,5 +1158,25 @@
     "description": "Every mass death requires a taxonomy: famine or genocide, natural disaster or negligence, accident or atrocity. The line between categories is not scientific — it is political. The same event can be classified differently depending on who survived, who won, and who is writing the report.",
     "imagePrompt": "A close-up of archival ledger pages filled with handwritten numbers and classifications, partially obscured by water damage and age, a single red stamp across the page, dramatic raking light revealing texture and age",
     "essayPrompt": "Write a long-form essay about the politics and science of classifying mass death. Begin with the seemingly simple question: what is a famine? The answer is not obvious — the United Nations uses a specific threshold of deaths per 10,000 people per day, a threshold that was not crossed in Ireland in the 1840s by some technical readings, even as a million died. Explore how the categories we use to count and classify disaster shape culpability, memory, and relief response. When does a famine become a genocide? When does an industrial accident become criminal negligence? Examine the Integrated Food Security Phase Classification system, the Saffir-Simpson hurricane scale, the Richter scale — how these measurement tools affect funding, response, and historical memory. Dig into specific contested classifications: was the Bengal Famine of 1943 natural or engineered? Was Chernobyl an accident or the predictable result of systemic failure? Connect to the broader epistemology of counting the dead — the difference between direct and indirect mortality, the statistical models used to estimate deaths in conflicts where bodies were never counted. What disappears when we fit death into a category?"
+  },
+  {
+    "slug": "the-cordyceps-mind",
+    "title": "The Cordyceps Mind",
+    "subtitle": "The fungus that turns living things into walking dead — and what it reveals about the nature of self",
+    "category": "Natural Horror",
+    "color": "emerald",
+    "description": "Deep in tropical forests, a parasitic fungus hijacks the brain of an ant, compels it to climb to a precise height, clamp its jaws around a leaf vein, and wait to die. The fungus then erupts through the ant's skull and rains spores on the colony below. This is not metaphor. This is biochemistry. And it raises a question that prion science already made uncomfortable: if a foreign molecule — or organism — can override the will of a living thing, was the will ever entirely the animal's own?",
+    "imagePrompt": "A dead ant clamped to a leaf in a dark tropical forest, a pale fungal stalk erupting from its head, surrounded by bioluminescent spores drifting in humid air, macro photography, eerie green light, photorealistic",
+    "essayPrompt": "Write a long-form Foxfire essay about Ophiocordyceps fungi — the zombie-ant parasite — exploring the biology of behavioral manipulation, what it means for concepts of agency and selfhood in animals, the broader world of parasites that control host behavior (Toxoplasma, jewel wasps, hairworms), and why scientists find this phenomenon so philosophically unsettling. Include the evolutionary arms race between host and parasite, and end with the uncomfortable question of whether humans are fully exempt from such influence."
+  },
+  {
+    "slug": "the-scrapie-notebooks",
+    "title": "The Scrapie Notebooks",
+    "subtitle": "For two centuries, a sheep disease baffled science — and the failure to understand it nearly cost us everything",
+    "category": "Forgotten History",
+    "color": "amber",
+    "description": "Scrapie — a disease that made sheep rub themselves raw against fences until they died — was first documented in 1732. For over two hundred years, no one could explain it. It was not bacterial. It was not viral. It passed between animals through means no known pathogen used. The scientists who studied it were mocked, dismissed, or simply ignored. Then in the 1950s, a rogue American pediatrician followed a trail of cannibalism, trembling limbs, and colonial medicine into the New Guinea highlands — and the chain of discovery that followed would eventually crack open the deepest assumption in biology: that only nucleic acids could carry disease.",
+    "imagePrompt": "A weathered 1940s scientific notebook open on a wooden desk, filled with handwritten observations and sketches of brain tissue, a single sheep visible through a rain-streaked window beyond, sepia tones, dramatic lamplight, melancholy atmosphere",
+    "essayPrompt": "Write a long-form Foxfire essay tracing the 250-year history of scrapie research and its connection to kuru, CJD, and the eventual discovery of prions — focusing on the human drama of D. Carleton Gajdusek, the Fore people of Papua New Guinea, and the institutional resistance that delayed understanding. Explore how the medical establishment's certainty that 'only DNA carries hereditary information' became a wall that brilliant scientists crashed against for decades, and what that failure of imagination cost in human lives."
   }
 ]
