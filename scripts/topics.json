@@ -1198,5 +1198,25 @@
     "description": "We call oxygen the breath of life. But for the first two billion years of life on Earth, it was a corrosive, cell-destroying poison — and the organisms that produced it were committing what amounts to the greatest act of environmental contamination in planetary history. The story of how life learned to not just tolerate oxygen but weaponize it is the story of mitochondria, of biochemical arms races, and of the strange fact that the very molecule powering your thoughts right now was once evolution's most terrifying problem.",
     "imagePrompt": "Microscopic view of ancient anaerobic bacteria and early mitochondria, glowing bioluminescent greens and golds, swirling cellular structures, scientific yet beautiful",
     "essayPrompt": "Write a long-form essay for Foxfire about oxygen as poison — the perspective of early anaerobic life on Earth, the biochemical catastrophe that oxygen represented, the endosymbiotic theory of how mitochondria were acquired (essentially domesticating oxygen-tolerant bacteria), and how the same molecule that kills anaerobes now powers all complex life. Explore the radical strangeness of breathing being an evolutionary solution to a toxicity crisis, and what it means that our energy metabolism is essentially controlled cellular combustion."
+  },
+  {
+    "slug": "the-moral-injury",
+    "title": "The Moral Injury",
+    "subtitle": "The wound that has no bandage",
+    "category": "Psychology",
+    "color": "violet",
+    "description": "It is not PTSD. It is something older and quieter — the damage done when you are forced to act against your deepest sense of what is right. Soldiers know it. Nurses know it. Now, so do the engineers who build the systems that decide.",
+    "imagePrompt": "A soldier sitting alone in a dimly lit room, head bowed, hands clasped, the window behind casting long shadows across the floor, muted earth tones, photorealistic, deeply somber",
+    "essayPrompt": "Write a Foxfire essay about moral injury — the psychological concept distinct from PTSD that describes the damage caused by perpetrating, witnessing, or failing to prevent acts that violate one's own moral code. Explore its history as a clinical concept (Jonathan Shay's work with Vietnam veterans), how it differs from trauma in crucial ways, and how it has quietly spread beyond combat into medicine, policing, and now technology. Discuss the nurses who had to choose which COVID patients got ventilators, the drone operators who feel it acutely despite being thousands of miles from the kill, and the AI engineers now beginning to describe the same sensation when their systems cause harm they anticipated. Consider why modern institutions are so bad at acknowledging or healing it — because acknowledging moral injury means admitting something wrong was done, which institutions resist. End by asking whether moral injury might actually be a form of moral health: the sign that one's conscience is still intact."
+  },
+  {
+    "slug": "the-judgment-of-solomon-problem",
+    "title": "The Judgment of Solomon Problem",
+    "subtitle": "When the wisest answer is the cruelest one",
+    "category": "Philosophy",
+    "color": "amber",
+    "description": "Solomon offered to cut the baby in half — and the bluff worked. But what happens when no one is bluffing? For centuries, philosophers, judges, and now algorithms have faced the same terrible question: when there is not enough to go around, how do you divide the indivisible?",
+    "imagePrompt": "A Renaissance-style painting detail of two figures reaching toward a single glowing object suspended between them, dramatic chiaroscuro lighting, rich oil-painting texture, golden and shadow tones",
+    "essayPrompt": "Write a Foxfire essay exploring what philosophers call 'indivisibility problems' in ethics and resource allocation — situations where something cannot be split without being destroyed, forcing a logic of all-or-nothing that exposes the limits of every moral framework. Begin with the biblical story of Solomon and why it has haunted legal philosophy for millennia. Move through the history of how societies have tried to solve these problems: lotteries in ancient Athens, triage protocols developed in Napoleonic battlefield medicine, the brutal kidney transplant waiting lists of the 1960s that forced American hospitals to create the first formal bioethics committees. Examine how each solution smuggles in a value system — that randomness is fairness, that youth deserves priority, that social utility matters. Then bring it forward: how machine learning systems now make thousands of these indivisible decisions daily in hiring, lending, and medical diagnosis — and how making the algorithm explicit forces us to confront the hidden value judgments we were always already making. Ask whether the discomfort we feel about algorithmic judgment is really discomfort about our own values being made legible."
   }
 ]
