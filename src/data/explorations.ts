@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-oxygen-apocalypse",
+    title: "The Oxygen Apocalypse",
+    subtitle: "Two billion years ago, life invented breathing and nearly destroyed itself",
+    category: "Natural History",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-oxygen-apocalypse.png",
+    publishedAt: "03/17/2026 06:44 AM",
+    description:
+      "The worst mass extinction in Earth's history wasn't caused by an asteroid or a volcano — it was caused by tiny organisms that learned to breathe out poison.",
+  },
+  {
     slug: "the-prion",
     title: "The Prion",
     subtitle: "A protein that learned one terrible trick",

@@ -36,6 +36,13 @@ export default function ThePrion() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-prion.mp3"
       prevSlug="the-map-of-every-death"
       prevTitle="The Map of Every Death"
+    nextSlug="the-oxygen-apocalypse"
+    nextTitle="The Oxygen Apocalypse"
+    nextSubtitle="Two billion years ago, life invented breathing and nearly destroyed itself"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-oxygen-apocalypse.png"
+    nextReadTime="13 min"
     >
       <h2>The Shape of Ruin</h2>
 
