@@ -36,6 +36,13 @@ export default function TheOxygenApocalypse() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-oxygen-apocalypse.mp3"
       prevSlug="the-prion"
       prevTitle="The Prion"
+    nextSlug="the-trolley-problem-is-real-now"
+    nextTitle="The Trolley Problem Is Real Now"
+    nextSubtitle="A thought experiment escaped the classroom. Now it has a software license."
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-trolley-problem-is-real-now.png"
+    nextReadTime="14 min"
     >
       <h2>The First Murderer Was a Microbe</h2>
 

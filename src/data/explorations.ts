@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-trolley-problem-is-real-now",
+    title: "The Trolley Problem Is Real Now",
+    subtitle: "A thought experiment escaped the classroom. Now it has a software license.",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-trolley-problem-is-real-now.png",
+    publishedAt: "03/17/2026 04:13 PM",
+    description:
+      "For decades, the trolley problem was a parlor game for philosophers — until someone had to write the actual code.",
+  },
+  {
     slug: "the-oxygen-apocalypse",
     title: "The Oxygen Apocalypse",
     subtitle: "Two billion years ago, life invented breathing and nearly destroyed itself",
