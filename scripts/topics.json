@@ -1178,5 +1178,25 @@
     "description": "Scrapie — a disease that made sheep rub themselves raw against fences until they died — was first documented in 1732. For over two hundred years, no one could explain it. It was not bacterial. It was not viral. It passed between animals through means no known pathogen used. The scientists who studied it were mocked, dismissed, or simply ignored. Then in the 1950s, a rogue American pediatrician followed a trail of cannibalism, trembling limbs, and colonial medicine into the New Guinea highlands — and the chain of discovery that followed would eventually crack open the deepest assumption in biology: that only nucleic acids could carry disease.",
     "imagePrompt": "A weathered 1940s scientific notebook open on a wooden desk, filled with handwritten observations and sketches of brain tissue, a single sheep visible through a rain-streaked window beyond, sepia tones, dramatic lamplight, melancholy atmosphere",
     "essayPrompt": "Write a long-form Foxfire essay tracing the 250-year history of scrapie research and its connection to kuru, CJD, and the eventual discovery of prions — focusing on the human drama of D. Carleton Gajdusek, the Fore people of Papua New Guinea, and the institutional resistance that delayed understanding. Explore how the medical establishment's certainty that 'only DNA carries hereditary information' became a wall that brilliant scientists crashed against for decades, and what that failure of imagination cost in human lives."
+  },
+  {
+    "slug": "the-snowball-earth",
+    "title": "The Snowball Earth",
+    "subtitle": "When the entire planet froze solid — and how life somehow survived",
+    "category": "Natural History",
+    "color": "sky",
+    "description": "Roughly 700 million years ago, Earth may have frozen from pole to equator — a glittering, silent death trap covered in miles of ice. No oceans. No rain. Temperatures colder than modern Antarctica at the equator. And yet, life made it through. The Snowball Earth hypothesis is one of geology's most spectacular and contested ideas: a planet that nearly ended itself, reset its chemistry, and accidentally invented complex life in the aftermath.",
+    "imagePrompt": "A frozen Earth seen from space, entirely white and glacial, ice covering continents and oceans, no blue visible, stark and alien, photorealistic",
+    "essayPrompt": "Write a long-form essay for Foxfire about the Snowball Earth hypothesis — the geological evidence for a planet-wide glaciation event around 700 million years ago, the competing theories about how it started and ended, the mystery of how life survived, and the remarkable possibility that this catastrophe directly triggered the Cambrian explosion of complex life. Explore the science, the controversy among geologists, and the philosophical strangeness of a world that nearly became a permanent ice tomb."
+  },
+  {
+    "slug": "the-age-of-poison",
+    "title": "The Age of Poison",
+    "subtitle": "For most of Earth's history, oxygen was a deadly toxin",
+    "category": "Science",
+    "color": "amber",
+    "description": "We call oxygen the breath of life. But for the first two billion years of life on Earth, it was a corrosive, cell-destroying poison — and the organisms that produced it were committing what amounts to the greatest act of environmental contamination in planetary history. The story of how life learned to not just tolerate oxygen but weaponize it is the story of mitochondria, of biochemical arms races, and of the strange fact that the very molecule powering your thoughts right now was once evolution's most terrifying problem.",
+    "imagePrompt": "Microscopic view of ancient anaerobic bacteria and early mitochondria, glowing bioluminescent greens and golds, swirling cellular structures, scientific yet beautiful",
+    "essayPrompt": "Write a long-form essay for Foxfire about oxygen as poison — the perspective of early anaerobic life on Earth, the biochemical catastrophe that oxygen represented, the endosymbiotic theory of how mitochondria were acquired (essentially domesticating oxygen-tolerant bacteria), and how the same molecule that kills anaerobes now powers all complex life. Explore the radical strangeness of breathing being an evolutionary solution to a toxicity crisis, and what it means that our energy metabolism is essentially controlled cellular combustion."
   }
 ]
