@@ -1238,5 +1238,25 @@
     "description": "Before railways and telegraphs, every town kept its own local time — noon was when the sun stood highest above you, personally, in your place. The imposition of standard time zones in the 19th century wasn't just administrative convenience. It was a philosophical rupture: the moment human beings agreed to live in an abstraction rather than a reality. We have never fully recovered.",
     "imagePrompt": "A Victorian railway station with multiple clocks showing different times, sunlight streaming through iron and glass roof, passengers frozen in motion, dreamlike golden haze, photorealistic with painterly atmosphere",
     "essayPrompt": "Write a deep, curious philosophical essay about the transition from local solar time to standardized time zones in the 19th century — the role of railways, the telegraph, and capitalism in forcing synchronization, the resistance from cities and communities who saw it as an assault on local identity, the philosophical difference between 'sun time' and 'clock time,' what phenomenologists like Husserl and Heidegger later said about lived time versus measured time, and what we actually lost when we agreed that noon could be a lie. Consider what it means that our subjective experience of 'now' is now officially wrong by design."
+  },
+  {
+    "slug": "the-white-feather-campaign",
+    "title": "The White Feather Campaign",
+    "subtitle": "How a symbol of cowardice became a weapon of social terror — and destroyed innocent lives",
+    "category": "History & Erasure",
+    "color": "amber",
+    "description": "In August 1914, Admiral Charles Fitzgerald founded the Order of the White Feather, enlisting women to hand white feathers — symbols of cowardice — to any man not in uniform. What followed was a grassroots campaign of public humiliation that swept Britain, targeting shell-shocked veterans, munitions workers in protected occupations, the medically unfit, and men on secret government missions they could not explain. The campaign reveals something disturbing about how societies manage the gap between the ideal of heroism and the reality of industrial slaughter.",
+    "imagePrompt": "A single white feather resting on worn Victorian cobblestone, soft morning light, photorealistic, muted golden tones, extreme close-up, shallow depth of field, melancholy atmosphere",
+    "essayPrompt": "Write a deep, nuanced Foxfire essay about the British White Feather Campaign of World War I. Explore its origins in Admiral Fitzgerald and suffragette Emmeline Pankhurst's unlikely alliance, the psychology of civilian guilt and projection, the documented cases of decorated veterans and wounded soldiers being publicly shamed, and what the campaign reveals about how wartime societies displace their anxieties onto visible bodies. Consider the paradox that some of the most vocal distributors of white feathers were women who had no legal ability to enlist themselves. End by reflecting on what it means when the cruelest enforcers of a war's logic are those the war officially excludes."
+  },
+  {
+    "slug": "the-soldiers-who-refused-to-stop",
+    "title": "The Soldiers Who Refused to Stop",
+    "subtitle": "After the armistice, some armies kept fighting — and no one knew how to make them stop",
+    "category": "History & Power",
+    "color": "indigo",
+    "description": "When the guns fell silent in November 1918, the war did not end — not everywhere, and not for everyone. In the Baltic, in Poland, in the ruins of three collapsed empires, irregular armies called Freikorps continued fighting wars that had no official name for years afterward. These were men who had been shaped entirely by combat, who had no civilian identity to return to, and who found in the chaos of collapsed states a landscape where their particular skills still had value. They are the prototype of a figure who would haunt the twentieth century: the soldier who outlasts his war.",
+    "imagePrompt": "A lone soldier in ragged WWI-era uniform walking through a desolate winter forest, bare birch trees, pale grey sky, photorealistic, desaturated cold tones, fog at ground level, deeply atmospheric and melancholy",
+    "essayPrompt": "Write a deep, immersive Foxfire essay about the post-WWI Freikorps and the phenomenon of soldiers who continued fighting after the armistice — in the Baltic states, Poland, and the ruins of the German, Austro-Hungarian, and Russian empires. Explore the psychological profile of men for whom peace was more disorienting than war, the political vacuum that gave their violence utility, and how these post-war irregular conflicts directly seeded the ideology and personnel of fascism. Draw a through-line from the trenches to the political street violence of the 1920s and 30s. Reflect on the deeper question: what does a society owe the soldiers it shaped into instruments of violence, and what happens when it cannot or will not answer that debt?"
   }
 ]
