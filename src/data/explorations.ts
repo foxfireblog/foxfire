@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-forgotten-front-part-2",
+    title: "The Forgotten Front: The Brusilov Offensive (Part II of III)",
+    subtitle: "The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse",
+    category: "History & Erasure",
+    color: "rose",
+    readTime: "14 min",
+    image: "/images/explorations/the-forgotten-front-part-2.png",
+    publishedAt: "03/18/2026 11:26 AM",
+    description:
+      "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
+  },
+  {
     slug: "the-decimal-clock",
     title: "The Decimal Clock",
     subtitle: "When revolutionaries tried to remake time itself",

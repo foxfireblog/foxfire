@@ -36,6 +36,13 @@ export default function TheDecimalClock() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-decimal-clock.mp3"
       prevSlug="the-trolley-problem-is-real-now"
       prevTitle="The Trolley Problem Is Real Now"
+    nextSlug="the-forgotten-front-part-2"
+    nextTitle="The Forgotten Front: The Brusilov Offensive (Part II of III)"
+    nextSubtitle="The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse"
+    nextCategory="History & Erasure"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-forgotten-front-part-2.png"
+    nextReadTime="14 min"
     >
       <h2>The Clock Where Noon Is Five</h2>
 
