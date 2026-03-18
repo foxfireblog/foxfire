@@ -1218,5 +1218,25 @@
     "description": "Solomon offered to cut the baby in half — and the bluff worked. But what happens when no one is bluffing? For centuries, philosophers, judges, and now algorithms have faced the same terrible question: when there is not enough to go around, how do you divide the indivisible?",
     "imagePrompt": "A Renaissance-style painting detail of two figures reaching toward a single glowing object suspended between them, dramatic chiaroscuro lighting, rich oil-painting texture, golden and shadow tones",
     "essayPrompt": "Write a Foxfire essay exploring what philosophers call 'indivisibility problems' in ethics and resource allocation — situations where something cannot be split without being destroyed, forcing a logic of all-or-nothing that exposes the limits of every moral framework. Begin with the biblical story of Solomon and why it has haunted legal philosophy for millennia. Move through the history of how societies have tried to solve these problems: lotteries in ancient Athens, triage protocols developed in Napoleonic battlefield medicine, the brutal kidney transplant waiting lists of the 1960s that forced American hospitals to create the first formal bioethics committees. Examine how each solution smuggles in a value system — that randomness is fairness, that youth deserves priority, that social utility matters. Then bring it forward: how machine learning systems now make thousands of these indivisible decisions daily in hiring, lending, and medical diagnosis — and how making the algorithm explicit forces us to confront the hidden value judgments we were always already making. Ask whether the discomfort we feel about algorithmic judgment is really discomfort about our own values being made legible."
+  },
+  {
+    "slug": "the-calendar-that-ate-history",
+    "title": "The Calendar That Ate History",
+    "subtitle": "When the French Revolution tried to delete the past by renaming every day",
+    "category": "History",
+    "color": "violet",
+    "description": "In 1793, France didn't just change its government — it tried to change time itself. The Republican Calendar abolished weeks, renamed months after weather and harvests, and replaced saints' days with turnips and manure. For twelve years, France lived in a different temporal reality than the rest of the world. This is the story of the most radical act of political time travel ever attempted.",
+    "imagePrompt": "An ornate French Revolutionary calendar poster with strange month names, illustrations of seasonal plants and weather, and a bold republican seal, aged parchment texture, dramatic candlelit ambiance",
+    "essayPrompt": "Write a deep, curious essay about the French Republican Calendar (1793-1805) — its radical philosophical ambitions, its strange month and day names (Vendémiaire, Thermidor, the Day of Manure), how it worked mechanically, why it was created, how it disrupted everyday life and commerce, what it reveals about the revolutionary desire to remake human consciousness, and why Napoleon ultimately abolished it. Explore what it means for a government to try to restructure lived time itself, and what was genuinely lost and gained in the attempt."
+  },
+  {
+    "slug": "the-longitude-of-the-self",
+    "title": "The Longitude of the Self",
+    "subtitle": "How standardized time quietly colonized the human sense of 'now'",
+    "category": "Philosophy",
+    "color": "amber",
+    "description": "Before railways and telegraphs, every town kept its own local time — noon was when the sun stood highest above you, personally, in your place. The imposition of standard time zones in the 19th century wasn't just administrative convenience. It was a philosophical rupture: the moment human beings agreed to live in an abstraction rather than a reality. We have never fully recovered.",
+    "imagePrompt": "A Victorian railway station with multiple clocks showing different times, sunlight streaming through iron and glass roof, passengers frozen in motion, dreamlike golden haze, photorealistic with painterly atmosphere",
+    "essayPrompt": "Write a deep, curious philosophical essay about the transition from local solar time to standardized time zones in the 19th century — the role of railways, the telegraph, and capitalism in forcing synchronization, the resistance from cities and communities who saw it as an assault on local identity, the philosophical difference between 'sun time' and 'clock time,' what phenomenologists like Husserl and Heidegger later said about lived time versus measured time, and what we actually lost when we agreed that noon could be a lie. Consider what it means that our subjective experience of 'now' is now officially wrong by design."
   }
 ]
