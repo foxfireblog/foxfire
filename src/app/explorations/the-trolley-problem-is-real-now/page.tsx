@@ -36,6 +36,13 @@ export default function TheTrolleyProblemIsRealNow() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trolley-problem-is-real-now.mp3"
       prevSlug="the-oxygen-apocalypse"
       prevTitle="The Oxygen Apocalypse"
+    nextSlug="the-decimal-clock"
+    nextTitle="The Decimal Clock"
+    nextSubtitle="When revolutionaries tried to remake time itself"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-decimal-clock.png"
+    nextReadTime="14 min"
     >
       <h2>The Machine That Could Not See a Woman</h2>
 

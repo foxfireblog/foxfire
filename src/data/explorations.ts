@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-decimal-clock",
+    title: "The Decimal Clock",
+    subtitle: "When revolutionaries tried to remake time itself",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-decimal-clock.png",
+    publishedAt: "03/18/2026 02:13 AM",
+    description:
+      "After the French Revolution, the new republic didn't just overthrow a king — it tried to overthrow the hour, the minute, and the calendar itself.",
+  },
+  {
     slug: "the-trolley-problem-is-real-now",
     title: "The Trolley Problem Is Real Now",
     subtitle: "A thought experiment escaped the classroom. Now it has a software license.",
