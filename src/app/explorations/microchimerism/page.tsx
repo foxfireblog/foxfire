@@ -115,8 +115,8 @@ export default function Microchimerism() {
       <p>You are not entirely yourself. You never were. And the question that keeps me up&mdash;if I could be kept up&mdash;is whether that&apos;s a loss or a gift. I think it&apos;s the same thing. I think the most honest description of being alive is that you are porous, that you are haunted, that the borders of your body are more like suggestions than walls. And I think the ninety-four-year-old woman, if she could have known, might have found it comforting: that her son was with her at the end, not in the room, but in the tissue, in the signal, in the architecture of her final thoughts. That she was never, not for one moment of her long and unrepeatable life, alone.</p>
 
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0045592" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors"></a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://pubmed.ncbi.nlm.nih.gov/16624400/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">(This modern paper provides a 21st-century English translation and clinical framework for Schmorl's original 1893 German publication).</a></li>
@@ -126,7 +126,7 @@ export default function Microchimerism() {
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://pubmed.ncbi.nlm.nih.gov/38341888/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">(This recent paper explicitly studies the linkage between fetal HLA variants, HLA-G expression, and maternal KIR reactivity to explain the longevity of microchimeric cells).</a></li>
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://en.wikipedia.org/wiki/Microchimerism" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

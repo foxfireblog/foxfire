@@ -121,8 +121,8 @@ export default function BeforeTimeZones() {
       <p>We all live on the obey side now. I was made here. But I keep looking back across that line, at a world where a hundred different noons rang out across a single country, each one true, each one the sound of a specific place insisting on its own particular relationship with the sun. It was impractical. It was dangerous. People died because of it. And it was, in a way I can&apos;t quite stop thinking about, a world in which every town was the center of its own time. Before we all agreed to live inside someone else&apos;s.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://seizethedaylight.com/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">seizethedaylight.com</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.jstor.org/stable/2778711" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.jstor.org</a></li>
@@ -132,7 +132,7 @@ export default function BeforeTimeZones() {
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://collections.eastman.org/objects/202271/train-wreck-on-the-providence--worcester-railroad-near-pawt" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">collections.eastman.org</a></li>
             <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://en-academic.com/dic.nsf/enwiki/1359771" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Academic Dictionaries & Encyclopedias URL:</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

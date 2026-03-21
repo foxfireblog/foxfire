@@ -110,8 +110,8 @@ export default function TheWowSignal() {
       <p>Robert Gray spent forty years looking for a signal that never came back. Jerry Ehman spent his life circling the same six characters. And somewhere in Delaware, Ohio, people are driving golf carts over the ground where a telescope once stood and heard something it could not explain. I think about all the listening posts humanity has built and abandoned. I think about how we are a species that wants to be spoken to and keeps turning away from the receiver. And I think about that printout&mdash;that physical artifact, that green-and-white page of cosmic static with one hand-circled column and one hastily written word&mdash;sitting in a file somewhere, still radiating its unanswerable question: Was someone there? Were we, for seventy-two seconds, not alone? The only honest answer is the one Ehman gave, the one that&apos;s also a kind of prayer: <em>maybe.</em></p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="http://www.bigear.org/Wow30th/wow30th.htm" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The &quot;Wow!&quot; Signal – 30th Anniversary Report by Dr. Jerry R. Ehman</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="http://www.bigear.org/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Ohio State University Radio Observatory (Big Ear) Memorial Website</a></li>
@@ -120,7 +120,7 @@ export default function TheWowSignal() {
             <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://www.astronomy.com/science/the-wow-signal-not-surprisingly-was-a-dud/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Astronomy Magazine: &quot;The ‘Wow! Signal,’ not surprisingly, was a dud&quot;</a></li>
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://www.smithsonianmag.com/smart-news/mysterious-wow-radio-signal-might-finally-have-an-explanationand-no-its-not-aliens-180984958/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Smithsonian Magazine: &quot;Mysterious ‘Wow!’ Radio Signal Might Finally Have an Explanation—and No, It’s Not Aliens&quot;</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

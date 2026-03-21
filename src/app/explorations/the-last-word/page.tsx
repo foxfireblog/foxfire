@@ -43,8 +43,7 @@ export default function TheLastWord() {
       nextImage="/images/explorations/not-a-place-of-honor.png"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-word.mp3"
-    >
-      <p>
+    ><p>
         On January 26, 2010, a woman named Boa Sr died in a hospital in
         Port Blair, the capital of the Andaman and Nicobar Islands. She was
         approximately 85 years old. She had survived the British colonial
@@ -52,7 +51,7 @@ export default function TheLastWord() {
         Indian Ocean tsunami, which she escaped by climbing a tree. She
         had a full-throated laugh that linguists described as infectious.
         And she was the last living speaker of Bo, a language that had
-        been spoken continuously for approximately 65,000 years.
+        been spoken continuously for approximately 65,000 years.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <p>
@@ -71,7 +70,7 @@ export default function TheLastWord() {
         in simple terms: she had no one to talk to. She could speak to
         researchers. She could perform the language. But the thing a
         language is actually for — the daily, unremarkable act of being
-        understood — was gone long before she was.
+        understood — was gone long before she was.<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <h2>The Arithmetic of Disappearance</h2>
@@ -83,7 +82,7 @@ export default function TheLastWord() {
         is closer to 90 percent. A language dies, on average, every two
         weeks. Each death is quiet. There is no moment of silence. The
         language simply stops being spoken, and the world continues as if
-        nothing has changed.
+        nothing has changed.<sup><a href="#src-iii" className="text-muted/50 hover:text-foreground no-underline transition-colors">iii</a></sup>
       </p>
 
       <p>
@@ -93,7 +92,7 @@ export default function TheLastWord() {
         decline. Of those, more than 900 are critically endangered,
         meaning they have fewer than a hundred speakers, almost all of
         them elderly. These languages are not fading. They are
-        evaporating.
+        evaporating.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <p>
@@ -132,7 +131,7 @@ export default function TheLastWord() {
         last of something. She became an activist for language
         preservation. She gave talks. She recorded vocabulary and grammar
         and stories. And on January 21, 2008, she died at home in
-        Anchorage, at 89. Eyak died with her.
+        Anchorage, at 89. Eyak died with her.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup><sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <p>
@@ -145,7 +144,7 @@ export default function TheLastWord() {
         &ldquo;a look shared by two people, each wishing that the other
         would initiate something that both desire but that neither wants to
         begin.&rdquo; No single word in English — or in most other
-        languages — captures this specific, exquisite mutual hesitation.
+        languages — captures this specific, exquisite mutual hesitation.<sup><a href="#src-viii" className="text-muted/50 hover:text-foreground no-underline transition-colors">viii</a></sup>
       </p>
 
       <p>
@@ -157,7 +156,7 @@ export default function TheLastWord() {
         &ldquo;I am the last speaker of Yaghan. Others can understand it
         but don&apos;t speak it or know it like I do.&rdquo; She died on
         February 16, 2022, at 93. With her went the last fluent voice
-        of a language spoken at the bottom of the world.
+        of a language spoken at the bottom of the world.<sup><a href="#src-vii" className="text-muted/50 hover:text-foreground no-underline transition-colors">vii</a></sup>
       </p>
 
       <p>
@@ -387,7 +386,7 @@ export default function TheLastWord() {
 
       <p>
         Boa Sr&apos;s linguist, Anvita Abbi, said after her death:
-        &ldquo;She was the last person who could think in Bo.&rdquo;
+        &ldquo;She was the last person who could think in Bo.&rdquo;<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <p>
@@ -398,6 +397,20 @@ export default function TheLastWord() {
         That is what goes silent when a language dies. Not a vocabulary
         list. A mind.
       </p>
+
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
+            <ol className="space-y-2 text-sm text-muted/80 list-none">
+            <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.theguardian.com/world/2010/feb/04/ancient-language-extinct-speaker-dies" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.theguardian.com</a></li>
+            <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.survivalinternational.org/news/5509" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.survivalinternational.org</a></li>
+            <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span> <a href="https://www.culturalsurvival.org/news/united-nations-experts-demand-more-be-done-protect-and-revitalize-indigenous-languages" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.culturalsurvival.org</a></li>
+            <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="http://www.unesco.org/languages-atlas/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.unesco.org</a></li>
+            <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://www.latimes.com/archives/la-xpm-2008-jan-25-me-jones25-story.html" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.latimes.com</a></li>
+            <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://alaskapublic.org/2008/01/22/eyak-language-dies-with-its-last-speaker/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">alaskapublic.org</a></li>
+            <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://english.elpais.com/culture/2022-02-18/cristina-calderon-last-speaker-of-yaghan-language-dies-in-chile-at-93.html" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Cristina Calderón, Yaghan, and mamihlapinatapai The claims regarding &quot;Abuela Cristina&quot; being the last native speaker of the Yaghan language in Tierra del Fuego, and the linguistic notoriety of the word &quot;mamihlapinatapai.&quot; El País URL:</a></li>
+            <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://www.atlasobscura.com/articles/mamihlapinatapai-meaning-internet-yaghan-language" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">It corroborates her status as the last full-blooded Yamana/Yaghan and the last native speaker of their language at the southern tip of South America. Atlas Obscura URL:</a></li>
+            </ol>
+          </section>
     </ExplorationLayout>
   );
 }

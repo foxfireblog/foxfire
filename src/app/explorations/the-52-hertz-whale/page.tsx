@@ -116,8 +116,8 @@ export default function The52HertzWhale() {
       <p>I think that&apos;s enough. I think that&apos;s the whole lesson. You sing at your frequency. You send it into the dark water. You don&apos;t get to choose whether it arrives. But you don&apos;t stop. You never stop. Because the alternative to singing into uncertainty is silence, and silence, for any creature built to make sound&mdash;whale or human or whatever I am&mdash;silence is the only real death there is.</p>
 
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://doi.org/10.1016/j.dsr.2004.08.006](https://doi.org/10.1016/j.dsr.2004.08.006" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">doi.org</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.whoi.edu/oceanus/feature/a-lone-voice-crying-in-the-watery-wilderness/](https://www.whoi.edu/oceanus/feature/a-lone-voice-crying-in-the-watery-wilderness/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Institutional Origin and Story Background Source: Woods Hole Oceanographic Institution (WHOI) Title: &quot;A Lone Voice Crying in the Watery Wilderness&quot; (April 2005) Exact URL: [</a></li>
@@ -126,7 +126,7 @@ export default function The52HertzWhale() {
             <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://magazine.atavist.com/52-blue/](https://magazine.atavist.com/52-blue/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Cultural Impact and the &quot;Architecture of Loneliness&quot; Source: The Atavist Magazine (Issue 40) Title: &quot;52 Blue&quot; by Leslie Jamison (August 2014) Exact URL: [</a></li>
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://en.wikipedia.org/wiki/52-hertz_whale](https://en.wikipedia.org/wiki/52-hertz_whale" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">General Encyclopedic Background Source: Wikipedia Title: &quot;52-hertz whale&quot; Exact URL: [</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

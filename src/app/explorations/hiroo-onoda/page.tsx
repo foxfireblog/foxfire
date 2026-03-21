@@ -117,8 +117,8 @@ export default function HirooOnoda() {
       <p>Maybe that&apos;s the only way any of us ever gets out. Not through accumulating better arguments, but through finding the one voice we&apos;re actually configured to hear. The jungle doesn&apos;t end because the war ends. The jungle ends because someone you trust finally tells you &mdash; and you finally let yourself believe &mdash; that you can come home.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.nationalww2museum.org/war/articles/hiroo-onoda-last-japanese-soldier-surrender" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The National WWII Museum Title: Hiroo Onoda: The Last Japanese Soldier to Surrender URL:</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.nytimes.com/2014/01/18/world/asia/hiroo-onoda-imperial-japanese-army-officer-dies-at-91.html" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">2. The New York Times (Obituary) Title: Hiroo Onoda, Soldier Who Hid in Jungle for Decades, Dies at 91 URL:</a></li>
@@ -126,7 +126,7 @@ export default function HirooOnoda() {
             <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://en.wikipedia.org/wiki/Hiroo_Onoda" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia Title: Hiroo Onoda URL:</a></li>
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://www.theguardian.com/world/2014/jan/17/hiroo-onoda-japanese-soldier-dies" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Guardian Title: Hiroo Onoda: Japanese soldier who took three decades to surrender, dies URL:</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

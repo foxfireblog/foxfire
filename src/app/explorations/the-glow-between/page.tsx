@@ -41,8 +41,7 @@ export default function TheGlowBetween() {
       nextImage="/images/explorations/what-the-light-finds.png"
       nextReadTime="3 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-glow-between.mp3"
-    >
-      <p>
+    ><p>
         Walk through certain forests at night — temperate, damp, old — and
         you may see something that stops you in your tracks. The rotting wood
         glows. Not reflected moonlight. Not phosphorescence from something
@@ -74,7 +73,7 @@ export default function TheGlowBetween() {
         the roots of certain trees, when exposed after storms, could
         illuminate the ground around them. Travelers apparently used pieces
         of luminous wood as primitive lanterns, carrying the glow through the
-        dark.
+        dark.<sup><a href="#src-iii" className="text-muted/50 hover:text-foreground no-underline transition-colors">iii</a></sup>
       </p>
 
       <p>
@@ -86,7 +85,7 @@ export default function TheGlowBetween() {
         phenomenon is common in the dense hardwood forests, the name stuck.
         Hill communities spoke of foxfire with a mix of practical familiarity
         and quiet wonder. Some used the glowing wood to mark trails at
-        night. Others considered it an omen.
+        night. Others considered it an omen.<sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <h2>What Actually Glows</h2>
@@ -107,7 +106,7 @@ export default function TheGlowBetween() {
         the same molecules, used for firefly bioluminescence). In the
         presence of oxygen, the reaction produces excited-state molecules
         that release energy as photons — visible light in the blue-green
-        spectrum, peaking around 520 nanometers.
+        spectrum, peaking around 520 nanometers.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <p>
@@ -132,7 +131,7 @@ export default function TheGlowBetween() {
         service. A 2015 study published in <em>Current Biology</em> tested
         this by placing real and artificial (LED-lit) mushrooms in a
         Brazilian forest and found that the glowing versions attracted
-        significantly more insects, particularly spore-dispersing species.
+        significantly more insects, particularly spore-dispersing species.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <p>
@@ -143,7 +142,7 @@ export default function TheGlowBetween() {
         processes — chemical exhaust, essentially — or that it may serve as
         a warning to wood-boring organisms. The truth, as with many things
         in biology, is probably that different species glow for different
-        reasons, and some may glow for no adaptive reason at all.
+        reasons, and some may glow for no adaptive reason at all.<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <h2>Angel&apos;s Glow</h2>
@@ -160,7 +159,7 @@ export default function TheGlowBetween() {
         Afterward, thousands of wounded soldiers lay in the mud and rain,
         waiting for medical attention that would be slow in coming. Night
         fell. And some of the soldiers noticed something extraordinary:
-        their wounds were glowing.
+        their wounds were glowing.<sup><a href="#src-vii" className="text-muted/50 hover:text-foreground no-underline transition-colors">vii</a></sup>
       </p>
 
       <p>
@@ -196,7 +195,7 @@ export default function TheGlowBetween() {
         (the bacterium cannot survive at normal human body temperature, but
         hypothermic soldiers in the rain would have had lowered body
         temperatures), wet muddy soil teeming with nematodes, and open
-        wounds in contact with the ground.
+        wounds in contact with the ground.<sup><a href="#src-viii" className="text-muted/50 hover:text-foreground no-underline transition-colors">viii</a></sup>
       </p>
 
       <p>
@@ -205,7 +204,7 @@ export default function TheGlowBetween() {
         adapted to clearing out microbial competition in the soil. The
         soldiers whose wounds became colonized by this glowing bacterium
         were inadvertently receiving a primitive form of antibiotic therapy.
-        The glow was a side effect. The healing was the main event.
+        The glow was a side effect. The healing was the main event.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <p>
@@ -240,6 +239,20 @@ export default function TheGlowBetween() {
         bright one. But steady, and real, and worth walking into the dark
         to find.
       </p>
+
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
+            <ol className="space-y-2 text-sm text-muted/80 list-none">
+            <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(15" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Cell Press / Current Biology (Primary Source for the 2015 Brazilian Forest Study) URL:</a></li>
+            <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.pnas.org/doi/10.1073/pnas.1803615115" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Proceedings of the National Academy of Sciences (PNAS) URL:</a></li>
+            <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span> <a href="https://www.loebclassics.com/view/pliny_elder-natural_history/1938/pb_LCL392.493.xml" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Loeb Classical Library / Harvard University Press (Pliny the Elder) URL:</a></li>
+            <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://www.goldbio.com/articles/article/the-history-of-luciferin-and-luciferase" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Gold Biotechnology (GoldBio) / History of Luciferin and Luciferase URL:</a></li>
+            <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://appvoices.org/2023/08/03/chasing-the-light-of-bioluminescence/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Appalachian Voices URL:</a></li>
+            <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10612140/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">National Institutes of Health (NIH) / PubMed Central URL:</a></li>
+            <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://digitalcommons.georgiasouthern.edu/cgi/viewcontent.cgi?article=3237&context=etd" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Georgia Southern University (Jack N. Averitt College of Graduate Studies) URL:</a></li>
+            <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://www.sciencedaily.com/releases/2015/03/150323132714.htm" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">ScienceDaily (via Dartmouth College / Geisel School of Medicine) URL:</a></li>
+            </ol>
+          </section>
     </ExplorationLayout>
   );
 }

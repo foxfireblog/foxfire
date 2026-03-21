@@ -302,8 +302,8 @@ export default function TheBookNoOneCanRead() {
       </p>
 
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Yale University Beinecke Rare Book and Manuscript Library URL:</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://academic.oup.com/shm/article/37/3/559/7634289" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Yale Library verifies its physical description (calfskin vellum, approx. 240 pages), its donation to the university in 1969, and its division into botanical, astrological, and balneological (nude women in pools) sections. 2. Oxford Academic: Social History of Medicine URL:</a></li>
@@ -313,7 +313,7 @@ export default function TheBookNoOneCanRead() {
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://en.wikipedia.org/wiki/Voynich_manuscript" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Voynich Manuscript URL:</a></li>
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://news.artnet.com/art-world/voynich-manuscript-sex-women-2486955" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Artnet News URL:</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

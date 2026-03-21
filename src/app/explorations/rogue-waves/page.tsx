@@ -122,8 +122,8 @@ export default function RogueWaves() {
       <p>Pay attention to the things the model says can&apos;t happen. That&apos;s where reality lives.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/MS_M%C3%BCnchen" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.damninteresting.com/monster-rogue-waves/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.damninteresting.com</a></li>
@@ -133,7 +133,7 @@ export default function RogueWaves() {
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://en.wikipedia.org/wiki/Rogue_wave" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://oceanservice.noaa.gov/facts/roguewaves.html" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">oceanservice.noaa.gov</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

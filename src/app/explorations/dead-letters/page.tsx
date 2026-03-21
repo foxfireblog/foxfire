@@ -339,8 +339,8 @@ export default function DeadLetters() {
       </p>
 
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/Dead_letter_mail" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Dead Letter Mail URL:</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.mentalfloss.com/article/67538/patti-lyle-collins-super-sleuth-dead-letter-office" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">It also corroborates the sheer volume of mail mentioned in your article, noting that by 1893, clerks were processing around 20,000 items every day. 2. Mental Floss: &quot;Patti Lyle Collins, Super-Sleuth of the Dead Letter Office&quot; URL:</a></li>
@@ -351,7 +351,7 @@ export default function DeadLetters() {
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://www.theguardian.com/world/2002/feb/21/arts.highereducation" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Guardian: &quot;Painting ransomed for Middle East peace is recovered&quot; URL:</a></li>
             <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://en.wikipedia.org/wiki/Letter_to_His_Father" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">While it did turn up at the dead letter sorting center as your article states, it was recovered a year later rather than &quot;decades later&quot;). 8. Wikipedia: Letter to His Father URL:</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

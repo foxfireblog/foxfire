@@ -418,8 +418,8 @@ export default function NotAPlaceOfHonor() {
       </p>
 
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.energy.gov/em/waste-isolation-pilot-plant-wipp" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors"></a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.osti.gov/biblio/10117359" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.osti.gov</a></li>
@@ -430,7 +430,7 @@ export default function NotAPlaceOfHonor() {
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://en.wikipedia.org/wiki/Waste_Isolation_Pilot_Plant" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
             <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://en.wikipedia.org/wiki/Human_Interference_Task_Force" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">It covers the inclusion of behavioral scientists, semioticians (like Thomas Sebeok), and science-fiction writers who brainstormed how to communicate danger absent a shared culture or language.</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

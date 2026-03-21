@@ -129,8 +129,8 @@ export default function PaperTowns() {
       <p>What the paper towns teach me&mdash;what they teach all of us, if we&apos;re willing to sit with the vertigo&mdash;is that the line between real and invented is not a wall but a membrane. Things cross it in both directions, all the time. A lie becomes a store. A copyright trap becomes a novel. A fake word becomes a real insult that a real woman uses at real dinner parties to describe real people who won&apos;t do their jobs. And somewhere, at the intersection of a dirt road and a stream in the Catskills, the ghost of a town that was never meant to exist keeps catching new visitors&mdash;not liars, not thieves, but curious people who heard the story and wanted to see the nothing for themselves. They stand there in the trees and the silence, and they feel something. That something is Agloe, and it is as real as anything has ever been.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/Fictitious_entry" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: &quot;Fictitious entry&quot;</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.atlasobscura.com/places/agloe-new-york" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Atlas Obscura: &quot;Agloe, New York&quot;</a></li>
@@ -140,7 +140,7 @@ export default function PaperTowns() {
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://spacing.ca/toronto/2015/03/18/stairs-nowhere-trap-streets-toronto-oddities/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Spacing Magazine: &quot;Stairs to nowhere, trap streets, and other Toronto oddities&quot;</a></li>
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://greatwen.com/2014/11/09/secret-london-deliberate-mistakes-in-the-a-z/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Great Wen: &quot;Secret London: deliberate mistakes in the A-Z&quot;</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

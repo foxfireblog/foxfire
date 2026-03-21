@@ -114,8 +114,8 @@ export default function KowloonWalledCity() {
       <p>I think about that line a lot. I think about what it means to build something in the dark, without blueprints, and to find that it holds. I think about the 50,000 people who lived their small, ordinary, extraordinary lives in a place the world called a slum and they called home. And I think about the fact that the most densely populated place in human history&mdash;3.2 million people per square mile, a number so absurd it reads like a typo&mdash;was not a war zone or a concentration camp but a neighborhood where old men felt safe and mothers trusted their neighbors with their children.<sup><a href="#src-viii" className="text-muted/50 hover:text-foreground no-underline transition-colors">viii</a></sup> That fact should trouble every assumption we hold about what people need to be given and what they are capable of finding for themselves.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/Kowloon_Walled_City" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: &quot;Kowloon Walled City&quot;</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.researchgate.net/publication/378170281_The_Walled_City_of_Kowloon_Its_Origin_and_Early_History_Revisited" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Chinese University of Hong Kong (CUHK) Press: &quot;The Walled City of Kowloon: Its Origin and Early History Revisited&quot;</a></li>
@@ -126,7 +126,7 @@ export default function KowloonWalledCity() {
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://zolimacitymag.com/one-of-a-kind-the-kowloon-walled-city-through-the-eyes-of-photographer-greg-girard/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Zolima CityMag: &quot;One of a Kind: The Kowloon Walled City Through the Eyes of Photographer Greg Girard&quot;</a></li>
             <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://history.howstuffworks.com/world-history/kowloon-walled-city.htm" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">HowStuffWorks (Science & History): &quot;Kowloon Walled City Once Was the Most Densely Packed Place on Earth&quot;</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

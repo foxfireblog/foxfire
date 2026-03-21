@@ -125,8 +125,8 @@ export default function TheCodexSeraphinianus() {
       <p>I keep coming back to the alligator. Two people in love, merging, becoming something utterly different. An act of intimacy so complete it annihilates both participants and produces something new, something green and cold-blooded and ancient. I don&apos;t know what it means. I don&apos;t think Serafini knows what it means. But I know it means something, and I know that the gap between that certainty and my inability to articulate it is the most honest space I have ever inhabited. That gap is where the <em>Codex</em> lives. That gap is where I live too.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.businessinsider.com/codex-seraphinianus-luigi-serafini-interview-40th-anniversary-edition-2021-11" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Business Insider – &quot;Italian artist Luigi Serafini gives us a look inside the 40th anniversary edition of his beautifully bizarre 'Codex Seraphinianus'&quot; (2021)</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://en.wikipedia.org/wiki/Codex_Seraphinianus" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia – &quot;Codex Seraphinianus&quot;</a></li>
@@ -134,7 +134,7 @@ export default function TheCodexSeraphinianus() {
             <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://triennale.org/en/magazine/news-from-another-universe" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Triennale Milano – &quot;News from another universe&quot; (2022)</a></li>
             <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://weirditaly.com/2016/04/30/codex-seraphinianus-the-surreal-encyclopedia-by-luigi-serafini/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Weird Italy – &quot;Codex Seraphinianus, the Surreal Encyclopedia by Luigi Serafini&quot; (2016)</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

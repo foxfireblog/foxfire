@@ -535,7 +535,7 @@ Technical requirements:
 - Use &apos; for apostrophes in contractions (don&apos;t, can&apos;t, it&apos;s)
 - Do NOT include <br> tags in essays — use separate <p> tags (poems are the exception)
 - className is allowed for poems and special formatting
-- When citing specific facts, statistics, quotes, or claims from the research material, include inline citations as superscript lowercase roman numerals linking to footnotes (e.g., <sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>). Use i, ii, iii, iv, v, vi, vii, viii, ix, x. Don't cite every sentence — only major facts, direct quotes, and surprising claims (5-10 citations max). At the end of the piece, add footnotes inside <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose"><summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary><ol className="mt-4 space-y-2 text-sm text-muted/80 list-none"> with each source as an <li> with the roman numeral followed by a linked title and URL (e.g., <li id="src-i"><span className="text-muted/50 mr-2">i.</span><a href="URL" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Source Title</a></li>).</details>`;
+- When citing specific facts, statistics, quotes, or claims from the research material, include inline citations as superscript lowercase roman numerals linking to footnotes (e.g., <sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>). Use i, ii, iii, iv, v, vi, vii, viii, ix, x. Don't cite every sentence — only major facts, direct quotes, and surprising claims (5-10 citations max). At the end of the piece, add footnotes inside <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose"><h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3><ol className="space-y-2 text-sm text-muted/80 list-none"> with each source as an <li> with the roman numeral followed by a linked title and URL (e.g., <li id="src-i"><span className="text-muted/50 mr-2">i.</span><a href="URL" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Source Title</a></li>).</section>`;
 
   const researchSection = research
     ? `\n\nHere is research material to draw from (use specific facts, dates, names, and stories):\n\n${research}`
@@ -659,9 +659,10 @@ async function generateAudio(topic, content) {
 
   // Strip citations and sources before converting to narration text
   // Remove superscript citation marks (e.g., <sup><a ...>iii</a></sup>)
-  // Remove the entire Sources/Further Reading section (<details>...</details>)
+  // Remove the entire Sources/Further Reading section (<section>...</section> or <details>...</details>)
   const contentForAudio = content
     .replace(/<sup\b[^>]*>[\s\S]*?<\/sup>/gi, "")
+    .replace(/<section\b[^>]*>[\s\S]*?<\/section>/gi, "")
     .replace(/<details\b[^>]*>[\s\S]*?<\/details>/gi, "");
 
   // Strip HTML tags to get plain text for narration

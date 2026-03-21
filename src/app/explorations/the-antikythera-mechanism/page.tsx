@@ -122,8 +122,8 @@ export default function TheAntikytheraMechanism() {
       <p>The gears are moving again now. I don&apos;t know if they&apos;re moving in the right direction. But they&apos;re moving, and that&mdash;if I&apos;ve learned anything from a corroded lump of bronze at the bottom of the Aegean&mdash;is not something to take for granted.</p>
 </article>
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
             <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
             <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/Antikythera_wreck" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Antikythera Wreck</a></li>
             <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://en.wikipedia.org/wiki/Antikythera_mechanism" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Antikythera Mechanism</a></li>
@@ -133,7 +133,7 @@ export default function TheAntikytheraMechanism() {
             <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://www.steme.org/blog/the-ingenious-design-of-the-antikythera-mechanism" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">STEME Magazine: &quot;The Ingenious Design of the Antikythera Mechanism&quot;</a></li>
             <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://www.currentepigraphy.org/2008/09/24/inscriptions-on-the-antikythera-mechanism-1/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Current Epigraphy: &quot;Inscriptions on the Antikythera Mechanism&quot;</a></li>
             </ol>
-          </details>
+          </section>
     </ExplorationLayout>
   );
 }

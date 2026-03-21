@@ -73,7 +73,7 @@ async function main() {
     const content = fs.readFileSync(pagePath, "utf-8");
 
     // Skip if already has sources
-    if (content.includes("src-i") || (content.includes("Sources") && content.includes("<details"))) {
+    if (content.includes("src-i") || (content.includes("Sources") && (content.includes("<details") || content.includes("<section")))) {
       console.log(`  [skip] ${slug} — already has citations`);
       skipped++;
       continue;
@@ -123,15 +123,21 @@ async function main() {
 
 ${plainText}
 
-Please find the most relevant and authoritative sources for the key facts, claims, and stories mentioned in this article. For each source, provide the exact URL. Focus on primary sources, reputable publications, Wikipedia for background, and academic or institutional sources. Return 5-10 sources.`;
+Please find the most relevant and authoritative sources for the key facts, claims, and stories mentioned in this article. For each source, provide the exact URL. Focus on primary sources, reputable publications, and academic or institutional sources. If a source is from Wikipedia, cite the underlying source that Wikipedia itself cites instead. Return 5-10 sources.`;
 
-      const response = await gemini.models.generateContent({
-        model: MODELS.geminiResearch,
-        contents: researchPrompt,
-        config: {
-          tools: [{ googleSearch: {} }],
-        },
-      });
+      const geminiTimeout = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Gemini API timeout (120s)")), 120000)
+      );
+      const response = await Promise.race([
+        gemini.models.generateContent({
+          model: MODELS.geminiResearch,
+          contents: researchPrompt,
+          config: {
+            tools: [{ googleSearch: {} }],
+          },
+        }),
+        geminiTimeout,
+      ]);
 
       // Extract sources primarily from the text response (Gemini includes
       // proper URLs and titles there). Grounding chunks use redirect URLs.
@@ -210,12 +216,18 @@ Your task:
 
 Return ONLY the modified article body JSX with the inline citations inserted. No explanation, no markdown fences.`;
 
-      const claudeResponse = await anthropic.messages.create({
-        model: MODELS.fast,
-        max_tokens: 16000,
-        messages: [{ role: "user", content: claudePrompt }],
-        system: "You are a precise editor. You only insert citation marks into existing text. You never modify the original text. Return only the modified JSX.",
-      });
+      const claudeTimeout = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Claude API timeout (180s)")), 180000)
+      );
+      const claudeResponse = await Promise.race([
+        anthropic.messages.create({
+          model: MODELS.fast,
+          max_tokens: 16000,
+          messages: [{ role: "user", content: claudePrompt }],
+          system: "You are a precise editor. You only insert citation marks into existing text. You never modify the original text. Return only the modified JSX.",
+        }),
+        claudeTimeout,
+      ]);
 
       let citedBody = claudeResponse.content[0].text
         .replace(/^```[a-z]*\n?/gm, "")
@@ -260,12 +272,12 @@ Return ONLY the modified article body JSX with the inline citations inserted. No
 
       const footnotesSection = `
 
-          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
-            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
-            <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
+          <section className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
+            <ol className="space-y-2 text-sm text-muted/80 list-none">
 ${footnoteItems}
             </ol>
-          </details>`;
+          </section>`;
 
       // Reconstruct the full file
       const newContent = beforeBody + citedBody + footnotesSection + afterBody;
