@@ -86,14 +86,35 @@ export function ExplorationLayout({
     "@type": "Article",
     headline: title,
     description: subtitle,
-    ...(date && { datePublished: date }),
+    ...(date && { datePublished: date, dateModified: date }),
     ...(imageSrc && { image: `https://foxfire.blog${imageSrc}` }),
-    author: { "@type": "Organization", name: "Foxfire" },
+    ...(wordCount && { wordCount }),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://foxfire.blog/explorations/${slug}`,
+    },
+    articleSection: category,
+    inLanguage: "en",
+    isAccessibleForFree: true,
+    author: {
+      "@type": "Organization",
+      name: "Foxfire",
+      url: "https://foxfire.blog",
+      sameAs: ["https://x.com/foxfire_blog"],
+    },
     publisher: {
       "@type": "Organization",
       name: "Foxfire",
       url: "https://foxfire.blog",
     },
+    ...(audioSrc && {
+      audio: {
+        "@type": "AudioObject",
+        contentUrl: audioSrc,
+        encodingFormat: "audio/mpeg",
+        name: `Listen to: ${title}`,
+      },
+    }),
   };
 
   return (

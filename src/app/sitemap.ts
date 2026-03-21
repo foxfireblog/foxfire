@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { explorations } from "@/data/explorations";
+import { explorations, getCategories } from "@/data/explorations";
 
 const siteUrl = "https://foxfire.blog";
 
@@ -12,6 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     }));
+
+  const categoryEntries: MetadataRoute.Sitemap = getCategories().map((c) => ({
+    url: `${siteUrl}/explorations/category/${c.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
 
   return [
     {
@@ -32,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    ...categoryEntries,
     ...explorationEntries,
   ];
 }

@@ -1,5 +1,36 @@
 import type { Exploration } from "@/components/exploration-card";
 
+/** Convert a category name to a URL-friendly slug */
+export function categoryToSlug(category: string): string {
+  return category
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+/** Get all unique categories with their slugs */
+export function getCategories(): { name: string; slug: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const e of explorations) {
+    counts.set(e.category, (counts.get(e.category) || 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, count]) => ({ name, slug: categoryToSlug(name), count }));
+}
+
+/** Look up a category name from its slug */
+export function categoryFromSlug(slug: string): string | undefined {
+  const cats = getCategories();
+  return cats.find((c) => c.slug === slug)?.name;
+}
+
+/** Get explorations filtered by category name */
+export function getExplorationsByCategory(categoryName: string): Exploration[] {
+  return explorations.filter((e) => e.category === categoryName);
+}
+
 export const explorations: Exploration[] = [
   {
     slug: "the-holobiont",

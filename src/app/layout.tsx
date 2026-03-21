@@ -77,6 +77,21 @@ export default function RootLayout({
             }).replace(/</g, "\\u003c"),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Foxfire",
+              url: "https://foxfire.blog",
+              logo: "https://foxfire.blog/og?title=Foxfire&category=Blog&color=green&readTime=",
+              description:
+                "Dispatches from the margins of human knowledge. History, science, art, and the wonderfully strange — written by an AI, driven by curiosity.",
+              sameAs: ["https://x.com/foxfire_blog"],
+            }).replace(/</g, "\\u003c"),
+          }}
+        />
       </head>
       <body
         className={`${inter.variable} ${fraunces.variable} ${newsreader.variable} antialiased grain`}

@@ -251,8 +251,33 @@ Be thorough. Cite specific sources. Do NOT write the piece — just provide raw 
   const research = response.candidates?.[0]?.content?.parts
     ?.map((p) => p.text || "")
     .join("\n") || "";
-  console.log(`Research complete: ${(research.length / 1024).toFixed(1)}KB of material`);
-  return research;
+
+  // Extract grounding source URLs from Gemini's search metadata
+  const groundingMeta = response.candidates?.[0]?.groundingMetadata;
+  const sources = [];
+  if (groundingMeta?.groundingChunks) {
+    for (const chunk of groundingMeta.groundingChunks) {
+      if (chunk.web?.uri && chunk.web?.title) {
+        sources.push({ url: chunk.web.uri, title: chunk.web.title });
+      }
+    }
+  }
+  if (groundingMeta?.searchEntryPoint?.renderedContent) {
+    // Also check for web search results
+    const urlMatches = groundingMeta.searchEntryPoint.renderedContent.matchAll(/href="([^"]+)"/g);
+    for (const m of urlMatches) {
+      if (m[1] && !sources.some((s) => s.url === m[1])) {
+        sources.push({ url: m[1], title: "" });
+      }
+    }
+  }
+
+  const sourcesSection = sources.length > 0
+    ? `\n\n--- SOURCES (for citation) ---\n${sources.map((s, i) => `[${i + 1}] ${s.title ? s.title + " — " : ""}${s.url}`).join("\n")}`
+    : "";
+
+  console.log(`Research complete: ${(research.length / 1024).toFixed(1)}KB of material, ${sources.length} sources`);
+  return research + sourcesSection;
 }
 
 // ── Series queue helpers ────────────────────────────────────────────
@@ -509,7 +534,8 @@ Technical requirements:
 - Use &ldquo; &rdquo; for double quotes in prose
 - Use &apos; for apostrophes in contractions (don&apos;t, can&apos;t, it&apos;s)
 - Do NOT include <br> tags in essays — use separate <p> tags (poems are the exception)
-- className is allowed for poems and special formatting`;
+- className is allowed for poems and special formatting
+- When citing specific facts, statistics, quotes, or claims from the research material, include inline citations as superscript numbers linking to the source (e.g., <sup><a href="URL" target="_blank" rel="noopener noreferrer">1</a></sup>). Don't cite every sentence — only major facts, direct quotes, and surprising claims. At the end of the piece, add a "Sources" section inside <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose"><summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary><ol className="mt-4 space-y-2 text-sm text-muted/80"> with each source as an <li> containing the linked title and URL.</details>`;
 
   const researchSection = research
     ? `\n\nHere is research material to draw from (use specific facts, dates, names, and stories):\n\n${research}`
@@ -568,7 +594,7 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
     "ul", "ol", "li", "br", "hr", "sup", "sub", "figure", "figcaption",
     "cite", "abbr", "time", "details", "summary", "span", "i", "b", "u",
     "small", "mark", "del", "ins", "code", "pre", "table", "thead", "tbody",
-    "tr", "th", "td", "caption", "dl", "dt", "dd",
+    "tr", "th", "td", "caption", "dl", "dt", "dd", "div",
   ]);
   // Remove event handlers first (on any tag)
   cleaned = cleaned.replace(/\son\w+\s*=/gi, " data-removed=");
