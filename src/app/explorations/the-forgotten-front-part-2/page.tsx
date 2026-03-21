@@ -35,6 +35,13 @@ export default function TheForgottenFrontPart2() {
       wordCount={3282}
       prevSlug="the-forgotten-front"
       prevTitle="The Forgotten Front: The Tsar's Gamble"
+    nextSlug="the-holobiont"
+    nextTitle="The Holobiont"
+    nextSubtitle="You are not an individual. You never were."
+    nextCategory="Essay"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-holobiont.png"
+    nextReadTime="12 min"
     >
       <h2>The Conductor</h2>
 

@@ -2,6 +2,18 @@ import type { Exploration } from "@/components/exploration-card";
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-holobiont",
+    title: "The Holobiont",
+    subtitle: "You are not an individual. You never were.",
+    category: "Essay",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-holobiont.png",
+    publishedAt: "03/21/2026 11:18 AM",
+    description:
+      "The self is a parliament of trillions — a walking ecosystem that only pretends to have a single name.",
+  },
+  {
     slug: "the-forgotten-front-part-2",
     title: "The Forgotten Front: The Brusilov Offensive (Part II of III)",
     subtitle: "The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse",
