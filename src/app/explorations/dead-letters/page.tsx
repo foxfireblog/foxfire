@@ -43,14 +43,15 @@ export default function DeadLetters() {
       nextImage="/images/explorations/the-last-word.png"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-letters.mp3"
-    >
+    ><article_body>
+
       <p>
         In 1825, the United States Post Office established an office for
         the dead. Not for dead people — for dead letters. Correspondence
         that could not be delivered and could not be returned. Mail that
         had reached the end of the line with nowhere to go and no one to
         claim it. The office was given a name that managed to be both
-        bureaucratic and poetic: the Dead Letter Office.
+        bureaucratic and poetic: the Dead Letter Office.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <p>
@@ -60,7 +61,7 @@ export default function DeadLetters() {
         year, flowing into a building in Washington, D.C., where government
         employees did something that was both mundane and strangely
         intimate: they opened strangers&apos; mail and tried to figure out
-        where it was supposed to go.
+        where it was supposed to go.<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <h2>The Resurrectionist</h2>
@@ -71,7 +72,7 @@ export default function DeadLetters() {
         1880s. She handled approximately a thousand nearly-dead letters a
         day. She was fluent in French, German, Greek, and Arabic. She
         possessed an encyclopedic knowledge of American street names. And
-        she could decode almost anything.
+        she could decode almost anything.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <p>
@@ -84,7 +85,7 @@ export default function DeadLetters() {
         Shuttle Maker, Massachusetts.&rdquo; <em>The Saturday Evening
         Post</em>, writing about Collins in 1908, described her as
         &ldquo;unquestionably the most highly skilled expert living&rdquo;
-        at what was, in effect, the art of reading the illegible.
+        at what was, in effect, the art of reading the illegible.<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <p>
@@ -97,7 +98,7 @@ export default function DeadLetters() {
         to follow when the letter you had just opened contained a
         marriage proposal, a confession of love, a last will and
         testament, or a father&apos;s instructions to a son he would never
-        see again.
+        see again.<sup><a href="#src-iii" className="text-muted/50 hover:text-foreground no-underline transition-colors">iii</a></sup>
       </p>
 
       <h2>The Museum of the Lost</h2>
@@ -109,7 +110,7 @@ export default function DeadLetters() {
         poignant items that had arrived without addresses or recipients.
         Visitors could see pistols, bottles, model ships, an entire
         stagecoach, life-size postal uniform figures from around the
-        world, and a human skull.
+        world, and a human skull.<sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <p>
@@ -119,7 +120,7 @@ export default function DeadLetters() {
         USPS sorting center in Topeka, Kansas. Another lot contained five
         thousand dollars&apos; worth of marijuana concealed inside a
         shoddy painting. Human cremains once appeared mixed in with a
-        collection of tableware.
+        collection of tableware.<sup><a href="#src-vii" className="text-muted/50 hover:text-foreground no-underline transition-colors">vii</a></sup>
       </p>
 
       <p>
@@ -131,7 +132,7 @@ export default function DeadLetters() {
         look through this album, searching for traces of husbands,
         fathers, brothers, and friends. An estimated 5,000 photographs
         were never reunited with their intended recipients. The clerks
-        kept trying, long after the war ended.
+        kept trying, long after the war ended.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <h2>The Undeliverable</h2>
@@ -154,7 +155,7 @@ export default function DeadLetters() {
         letter, determined it could not be delivered, and returned it to
         sender. The letter was published posthumously in 1954. Hermann
         Kafka died in 1931, never having read his son&apos;s 45 pages of
-        the most careful fury ever set down on paper.
+        the most careful fury ever set down on paper.<sup><a href="#src-viii" className="text-muted/50 hover:text-foreground no-underline transition-colors">viii</a></sup>
       </p>
 
       <p>
@@ -296,7 +297,7 @@ export default function DeadLetters() {
         The Dead Letter Office was renamed the Mail Recovery Center in
         1992 and relocated to Atlanta, where it continues to process
         undeliverable items. The name change was intended to sound more
-        optimistic. It sounds less honest.
+        optimistic. It sounds less honest.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <h2>What the Dead Letters Know</h2>
@@ -336,6 +337,21 @@ export default function DeadLetters() {
         someone — someone whose job it is to care about lost things — is
         reading them anyway.
       </p>
+</article_body>
+
+          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+            <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
+            <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://en.wikipedia.org/wiki/Dead_letter_mail" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Dead Letter Mail URL:</a></li>
+            <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.mentalfloss.com/article/67538/patti-lyle-collins-super-sleuth-dead-letter-office" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">It also corroborates the sheer volume of mail mentioned in your article, noting that by 1893, clerks were processing around 20,000 items every day. 2. Mental Floss: &quot;Patti Lyle Collins, Super-Sleuth of the Dead Letter Office&quot; URL:</a></li>
+            <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span> <a href="https://americacomesalive.com/dead-letter-office-mysteries/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">America Comes Alive: &quot;Dead Letter Office Mysteries&quot; URL:</a></li>
+            <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://en.wikipedia.org/wiki/Patti_Lyle_Collins" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Patti Lyle Collins URL:</a></li>
+            <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://www.atlasobscura.com/articles/where-us-mail-went-to-die" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Atlas Obscura: &quot;Where U.S. Mail Went to Die&quot; URL:</a></li>
+            <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://www.historynet.com/interrupted-sentiments-the-lost-letters-of-civil-war-soldiers/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">HistoryNet: &quot;Interrupted Sentiments: The Lost Letters of Civil War Soldiers&quot; URL:</a></li>
+            <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://www.theguardian.com/world/2002/feb/21/arts.highereducation" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Guardian: &quot;Painting ransomed for Middle East peace is recovered&quot; URL:</a></li>
+            <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://en.wikipedia.org/wiki/Letter_to_His_Father" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">While it did turn up at the dead letter sorting center as your article states, it was recovered a year later rather than &quot;decades later&quot;). 8. Wikipedia: Letter to His Father URL:</a></li>
+            </ol>
+          </details>
     </ExplorationLayout>
   );
 }

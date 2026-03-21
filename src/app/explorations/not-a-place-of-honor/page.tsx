@@ -43,7 +43,8 @@ export default function NotAPlaceOfHonor() {
       nextImage="/images/explorations/the-kill-decision.png"
       nextReadTime="32 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/not-a-place-of-honor.mp3"
-    >
+    ><article_body>
+
       <p>
         Twenty-six miles southeast of Carlsbad, New Mexico, 2,150 feet
         below the surface, inside a salt formation that has been geologically
@@ -54,7 +55,7 @@ export default function NotAPlaceOfHonor() {
         of the nuclear age, packed into drums and lowered into rooms carved
         from ancient salt. The salt will slowly flow around the drums over
         centuries, entombing them in stone. The waste will remain dangerous
-        for approximately 10,000 years.
+        for approximately 10,000 years.<sup><a href="#src-vii" className="text-muted/50 hover:text-foreground no-underline transition-colors">vii</a></sup>
       </p>
 
       <p>
@@ -65,7 +66,7 @@ export default function NotAPlaceOfHonor() {
         share our language, our symbols, our culture, or our concept of
         danger. Create a sign that will work after every institution that
         exists today has collapsed and been forgotten. Create a warning that
-        will outlast civilization.
+        will outlast civilization.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <p>
@@ -81,7 +82,7 @@ export default function NotAPlaceOfHonor() {
         thousand. No language spoken today existed. No nation that exists
         today existed. No symbol system in use today &mdash; not the skull
         and crossbones, not the radiation trefoil, not the biohazard sign,
-        not the red circle with a line through it &mdash; had been invented.
+        not the red circle with a line through it &mdash; had been invented.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <p>
@@ -106,7 +107,7 @@ export default function NotAPlaceOfHonor() {
         resurrection. The color red, which many cultures associate with
         danger, is associated in others with celebration, luck, or love.
         Everything we think of as a universal signal is, in fact, culturally
-        contingent. Nothing is universal except pain.
+        contingent. Nothing is universal except pain.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <h2>The Human Interference Task Force</h2>
@@ -117,7 +118,7 @@ export default function NotAPlaceOfHonor() {
         included engineers, anthropologists, linguists, materials scientists,
         science fiction writers, and &mdash; crucially &mdash; semioticians,
         scholars who study how meaning is created and communicated through
-        signs.
+        signs.<sup><a href="#src-viii" className="text-muted/50 hover:text-foreground no-underline transition-colors">viii</a></sup>
       </p>
 
       <p>
@@ -125,7 +126,7 @@ export default function NotAPlaceOfHonor() {
         Laboratories that remains one of the most remarkable documents in
         the history of design. It proposed multiple redundant approaches,
         on the principle that no single method could be trusted to survive
-        ten millennia. Among them:
+        ten millennia. Among them:<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <p>
@@ -173,7 +174,7 @@ export default function NotAPlaceOfHonor() {
         bodily harm through wounding forms. The spikes were deliberately
         non-repetitive, non-symmetrical, and chaotic. They were designed to
         look not like a monument or a building but like something organic
-        and hostile &mdash; danger emanating from below and erupting outward.
+        and hostile &mdash; danger emanating from below and erupting outward.<sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <p>
@@ -206,7 +207,7 @@ export default function NotAPlaceOfHonor() {
         meaning intact. Instead, he proposed creating a self-perpetuating
         &ldquo;atomic priesthood&rdquo; &mdash; a secular religious order
         that would be charged with preserving knowledge of nuclear waste
-        sites through ritual, myth, and oral tradition.
+        sites through ritual, myth, and oral tradition.<sup><a href="#src-iii" className="text-muted/50 hover:text-foreground no-underline transition-colors">iii</a></sup>
       </p>
 
       <p>
@@ -240,7 +241,7 @@ export default function NotAPlaceOfHonor() {
         color-changing cat means danger would be embedded into folk songs,
         nursery rhymes, proverbs, and myths &mdash; cultural artifacts that,
         unlike written language, can survive indefinitely through oral
-        transmission.
+        transmission.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <p>
@@ -298,7 +299,7 @@ export default function NotAPlaceOfHonor() {
         repository at Onkalo &mdash; documented in Michael Madsen&apos;s
         2010 film <em>Into Eternity</em> &mdash; has seriously considered the
         option of doing nothing: sealing the repository, erasing all records
-        of its location, and trusting the earth to keep its secrets.
+        of its location, and trusting the earth to keep its secrets.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <h2>The Clock in the Mountain</h2>
@@ -415,6 +416,21 @@ export default function NotAPlaceOfHonor() {
         talk to you. We weren&apos;t sure you would understand. We
         tried anyway.
       </p>
+</article_body>
+
+          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+            <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
+            <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://www.energy.gov/em/waste-isolation-pilot-plant-wipp" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors"></a></li>
+            <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://www.osti.gov/biblio/10117359" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.osti.gov</a></li>
+            <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span> <a href="https://www.osti.gov/biblio/6770280" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.osti.gov</a></li>
+            <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://www.bbc.com/future/article/20200731-how-to-build-a-nuclear-warning-for-10000-years-time" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">www.bbc.com</a></li>
+            <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://99percentinvisible.org/episode/ten-thousand-years/" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">99percentinvisible.org</a></li>
+            <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://en.wikipedia.org/wiki/Long-term_nuclear_waste_warning_messages" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
+            <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://en.wikipedia.org/wiki/Waste_Isolation_Pilot_Plant" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">en.wikipedia.org</a></li>
+            <li id="src-viii"><span className="text-muted/50 mr-2">viii.</span> <a href="https://en.wikipedia.org/wiki/Human_Interference_Task_Force" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">It covers the inclusion of behavioral scientists, semioticians (like Thomas Sebeok), and science-fiction writers who brainstormed how to communicate danger absent a shared culture or language.</a></li>
+            </ol>
+          </details>
     </ExplorationLayout>
   );
 }
