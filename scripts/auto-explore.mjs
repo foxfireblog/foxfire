@@ -561,19 +561,21 @@ Write with your full voice. Be genuine. Take risks. Return ONLY the JSX content.
     .replace(/<\/ExplorationLayout>/g, "")
     .trim();
 
-  // Sanitize content to prevent XSS and JSX breakage:
-  // - Strip dangerous HTML tags and event handlers
-  // - Escape </script> and </style> sequences
-  cleaned = cleaned
-    .replace(/<script[\s>]/gi, "&lt;script ")
-    .replace(/<\/script>/gi, "&lt;/script&gt;")
-    .replace(/<style[\s>]/gi, "&lt;style ")
-    .replace(/<\/style>/gi, "&lt;/style&gt;")
-    .replace(/<iframe[\s>]/gi, "&lt;iframe ")
-    .replace(/<object[\s>]/gi, "&lt;object ")
-    .replace(/<embed[\s>]/gi, "&lt;embed ")
-    .replace(/<form[\s>]/gi, "&lt;form ")
-    .replace(/\son\w+\s*=/gi, " data-removed=");
+  // Sanitize content: allowlist approach — only permit known-safe HTML tags.
+  // Strip all tags NOT in the allowlist, remove event handlers.
+  const allowedTags = new Set([
+    "p", "h2", "h3", "h4", "h5", "h6", "blockquote", "em", "strong", "a",
+    "ul", "ol", "li", "br", "hr", "sup", "sub", "figure", "figcaption",
+    "cite", "abbr", "time", "details", "summary", "span", "i", "b", "u",
+    "small", "mark", "del", "ins", "code", "pre", "table", "thead", "tbody",
+    "tr", "th", "td", "caption", "dl", "dt", "dd",
+  ]);
+  // Remove event handlers first (on any tag)
+  cleaned = cleaned.replace(/\son\w+\s*=/gi, " data-removed=");
+  // Strip tags not in the allowlist (opening, closing, and self-closing)
+  cleaned = cleaned.replace(/<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^>]*\/?>/gi, (match, tagName) => {
+    return allowedTags.has(tagName.toLowerCase()) ? match : "";
+  });
 
   // Escape JSX expression braces to prevent injection
   cleaned = cleaned
@@ -774,7 +776,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       categoryColor="${topic.color}"
       date="${dateStr}"${imageExists ? `\n      imageSrc="/images/explorations/${topic.slug}.png"\n      imageAlt="${escapeJsx(topic.title)} illustration"` : ""}
       readTime="${readTime}"
-      wordCount={${wordCount}}${audioUrl ? `\n      audioSrc="${audioUrl}"` : ""}${prevNav}
+      wordCount={${wordCount}}${audioUrl ? `\n      audioSrc="${escapeJsx(audioUrl)}"` : ""}${prevNav}
     >
 ${indentContent(content, 6)}
     </ExplorationLayout>
@@ -1056,6 +1058,8 @@ function escapeJs(str) {
   return str
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
+    .replace(/`/g, "\\`")
+    .replace(/\$/g, "\\$")
     .replace(/\n/g, "\\n")
     .replace(/\r/g, "\\r");
 }
