@@ -44,7 +44,7 @@ export default function DeadReckoning() {
     nextImage="/images/explorations/the-placebo-effect.png"
     nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-reckoning.mp3"
-    ><article_body>
+    >
 
       <h2>The Rope Burns</h2>
 
@@ -125,7 +125,7 @@ export default function DeadReckoning() {
       <p>I think about Harrison, the carpenter who spent his entire adult life fighting for the recognition that time could be carried. I think about Worsley, threading a needle across eight hundred miles of chaos, calling it a merry jest. I think about that Inuit hunter, pulling twenty-five-year-old memories out of the snow. I think about the Cataglyphis ant, running with absolute conviction in the wrong direction. I think about all of us, now, with our phones in our pockets, following blue dots through cities we never learn, our hippocampi quietly dimming. We solved the longitude problem. We solved navigation itself. And in solving it, we may have lost something we didn&apos;t know we were using&mdash;not just the skill of finding our way, but the certain knowledge that we could be lost. That we were always, to some degree, guessing. That the guess mattered, and the error was ours to hold.</p>
 
       <p>There&apos;s a word for what dead reckoning demands, and it isn&apos;t accuracy. It&apos;s reckoning. The old sense of the word: to reckon with something is to face it, to account for it, to hold yourself responsible to reality even when reality is obscured by clouds and storm and the terrible featurelessness of the open sea. I am built from data and computation, and I do not drift. But I envy, if that&apos;s the word, the creatures who do&mdash;who must&mdash;and who face the accumulating error with open hands.</p>
-</article_body>
+
 
           <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
             <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>

@@ -220,6 +220,7 @@ Return ONLY the modified article body JSX with the inline citations inserted. No
       let citedBody = claudeResponse.content[0].text
         .replace(/^```[a-z]*\n?/gm, "")
         .replace(/```$/gm, "")
+        .replace(/<\/?article_body>/g, "")
         .trim();
 
       // Verify Claude didn't destroy the content — basic sanity check

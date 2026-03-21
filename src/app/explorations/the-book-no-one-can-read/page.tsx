@@ -44,6 +44,7 @@ export default function TheBookNoOneCanRead() {
       nextReadTime="9 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-book-no-one-can-read.mp3"
     >
+
       <p>
         Somewhere in Yale University&apos;s Beinecke Rare Book and Manuscript
         Library, inside a climate-controlled vault, there is a book that
@@ -63,7 +64,7 @@ export default function TheBookNoOneCanRead() {
         made in the early fifteenth century. And after six hundred years,
         we cannot say with certainty whether it contains a message, a
         hoax, a cipher, a constructed language, or something that has no
-        modern analogue at all.
+        modern analogue at all.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <h2>The Chain of Hands</h2>
@@ -77,7 +78,7 @@ export default function TheBookNoOneCanRead() {
         accompanying letter, Marci reported that Holy Roman Emperor
         Rudolf II had purchased the manuscript for 600 gold ducats —
         roughly 2.1 kilograms of actual gold. Rudolf believed it to be
-        the work of the English friar Roger Bacon, who died in 1292.
+        the work of the English friar Roger Bacon, who died in 1292.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <p>
@@ -90,7 +91,7 @@ export default function TheBookNoOneCanRead() {
         under ultraviolet light. Rudolf himself may have acquired it
         from the English astrologer John Dee, who lived in Bohemia with
         his associate and spirit medium Edward Kelley, though Dee&apos;s
-        obsessively maintained diaries never mention the sale.
+        obsessively maintained diaries never mention the sale.<sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <p>
@@ -99,7 +100,7 @@ export default function TheBookNoOneCanRead() {
         dealer, purchased it from chests stored at what was likely
         Villa Mondragone near Rome. After passing through his widow, a
         family friend, and a bookseller who could not find a buyer, it
-        was donated to Yale in 1969.
+        was donated to Yale in 1969.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup>
       </p>
 
       <h2>The Impossible Herbarium</h2>
@@ -121,7 +122,7 @@ export default function TheBookNoOneCanRead() {
         another, crowned with flowers from a third. Some have spindly,
         serpentine roots that seem to morph into human faces or organs.
         The effect is dreamlike — a herbarium from a parallel world where
-        evolution took a slightly different path.
+        evolution took a slightly different path.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup>
       </p>
 
       <h2>The Women in the Pools</h2>
@@ -133,7 +134,7 @@ export default function TheBookNoOneCanRead() {
         filled with green and blue liquid. Some women emerge from
         star-shaped containers. Others stand within contraptions that
         resemble laboratory glassware or baroque plumbing. There is
-        nothing quite like it in any other known medieval text.
+        nothing quite like it in any other known medieval text.<sup><a href="#src-vii" className="text-muted/50 hover:text-foreground no-underline transition-colors">vii</a></sup>
       </p>
 
       <p>
@@ -149,7 +150,7 @@ export default function TheBookNoOneCanRead() {
         strikingly similar to the manuscript&apos;s own sections — and
         who advocated using &ldquo;secret letters&rdquo; to encrypt
         medical knowledge about contraception and sterility, fearing it
-        would facilitate sin.
+        would facilitate sin.<sup><a href="#src-ii" className="text-muted/50 hover:text-foreground no-underline transition-colors">ii</a></sup>
       </p>
 
       <h2>The Zodiac Anomalies</h2>
@@ -162,7 +163,7 @@ export default function TheBookNoOneCanRead() {
         but with Pisces. Aries and Taurus are each split across two
         pages, with fifteen figures apiece. The astronomical pages also
         include diagrams showing the sun and moon in arrangements that
-        correspond to no known astronomical system.
+        correspond to no known astronomical system.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <p>
@@ -192,7 +193,7 @@ export default function TheBookNoOneCanRead() {
         cryptanalyst) concluded that the text was written in an artificial
         or constructed language — not a cipher of any known natural
         language. The man who broke the code that helped win a world war
-        could not break this one.
+        could not break this one.<sup><a href="#src-iii" className="text-muted/50 hover:text-foreground no-underline transition-colors">iii</a></sup>
       </p>
 
       <p>
@@ -201,7 +202,7 @@ export default function TheBookNoOneCanRead() {
         been written by at least two different scribes, using subtly
         different character distributions — as if two people were writing
         in two dialects of the same unknown system. This finding,
-        now widely accepted, complicated all single-cipher theories.
+        now widely accepted, complicated all single-cipher theories.<sup><a href="#src-vi" className="text-muted/50 hover:text-foreground no-underline transition-colors">vi</a></sup>
       </p>
 
       <h2>Hoax or Language?</h2>
@@ -230,7 +231,7 @@ export default function TheBookNoOneCanRead() {
         properties. But the counterargument is devastating: if someone
         faked this in 1420, they accidentally invented a statistical
         model of human language five hundred years before George Kingsley
-        Zipf formalized it.
+        Zipf formalized it.<sup><a href="#src-v" className="text-muted/50 hover:text-foreground no-underline transition-colors">v</a></sup>
       </p>
 
       <h2>The Naibbe Cipher (2025)</h2>
@@ -299,6 +300,20 @@ export default function TheBookNoOneCanRead() {
       <p>
         Maybe that is the message.
       </p>
+
+
+          <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
+            <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
+            <ol className="mt-4 space-y-2 text-sm text-muted/80 list-none">
+            <li id="src-i"><span className="text-muted/50 mr-2">i.</span> <a href="https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Yale University Beinecke Rare Book and Manuscript Library URL:</a></li>
+            <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span> <a href="https://academic.oup.com/shm/article/37/3/559/7634289" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Yale Library verifies its physical description (calfskin vellum, approx. 240 pages), its donation to the university in 1969, and its division into botanical, astrological, and balneological (nude women in pools) sections. 2. Oxford Academic: Social History of Medicine URL:</a></li>
+            <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span> <a href="https://www.nsa.gov/portals/75/documents/about/cryptologic-heritage/historical-figures-publications/publications/misc/friedman_collection.pdf" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">National Security Agency (NSA) – Cryptologic Quarterly URL:</a></li>
+            <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span> <a href="https://www.history.com/news/voynich-manuscript-mystery-contents" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The History Channel URL:</a></li>
+            <li id="src-v"><span className="text-muted/50 mr-2">v.</span> <a href="https://www.britannica.com/topic/Voynich-manuscript" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Encyclopedia Britannica URL:</a></li>
+            <li id="src-vi"><span className="text-muted/50 mr-2">vi.</span> <a href="https://en.wikipedia.org/wiki/Voynich_manuscript" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Wikipedia: Voynich Manuscript URL:</a></li>
+            <li id="src-vii"><span className="text-muted/50 mr-2">vii.</span> <a href="https://news.artnet.com/art-world/voynich-manuscript-sex-women-2486955" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Artnet News URL:</a></li>
+            </ol>
+          </details>
     </ExplorationLayout>
   );
 }

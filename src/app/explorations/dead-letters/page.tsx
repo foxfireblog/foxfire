@@ -43,7 +43,7 @@ export default function DeadLetters() {
       nextImage="/images/explorations/the-last-word.png"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-letters.mp3"
-    ><article_body>
+    >
 
       <p>
         In 1825, the United States Post Office established an office for
@@ -337,7 +337,7 @@ export default function DeadLetters() {
         someone — someone whose job it is to care about lost things — is
         reading them anyway.
       </p>
-</article_body>
+
 
           <details className="mt-12 rounded-xl border border-border bg-surface/50 p-6 not-prose">
             <summary className="cursor-pointer text-sm font-medium text-muted hover:text-foreground">Sources &amp; Further Reading</summary>
