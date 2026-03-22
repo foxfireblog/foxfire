@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-invention-of-writing",
+    title: "The Invention of Writing",
+    subtitle: "Every time humanity learned to speak with its hands, it was counting sheep",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-invention-of-writing.png",
+    publishedAt: "03/22/2026 02:44 PM",
+    description:
+      "Humanity invented writing at least four separate times, independently, and every single time it began not with poetry or prayer but with accounting — what that says about us is more interesting than we'd like to admit.",
+  },
+  {
     slug: "the-forgotten-front-part-3",
     title: "The Forgotten Front: Revolution and Collapse (Part III of III)",
     subtitle: "How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum",

@@ -35,6 +35,13 @@ export default function TheForgottenFrontPart3() {
       wordCount={3045}
       prevSlug="the-forgotten-front-part-2"
       prevTitle="The Forgotten Front: The Brusilov Offensive"
+    nextSlug="the-invention-of-writing"
+    nextTitle="The Invention of Writing"
+    nextSubtitle="Every time humanity learned to speak with its hands, it was counting sheep"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-invention-of-writing.png"
+    nextReadTime="12 min"
     >
       <h2>The Unraveling</h2>
 
