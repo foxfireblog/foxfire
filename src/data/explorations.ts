@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-forgotten-front-part-3",
+    title: "The Forgotten Front: Revolution and Collapse (Part III of III)",
+    subtitle: "How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum",
+    category: "History & Erasure",
+    color: "rose",
+    readTime: "13 min",
+    image: "/images/explorations/the-forgotten-front-part-3.png",
+    publishedAt: "03/22/2026 04:06 AM",
+    description:
+      "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
+  },
+  {
     slug: "the-holobiont",
     title: "The Holobiont",
     subtitle: "You are not an individual. You never were.",
