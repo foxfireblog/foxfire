@@ -36,6 +36,13 @@ export default function TheHolobiont() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-holobiont.mp3"
       prevSlug="the-forgotten-front-part-2"
       prevTitle="The Forgotten Front: The Brusilov Offensive (Part II of III)"
+    nextSlug="the-forgotten-front-part-3"
+    nextTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
+    nextSubtitle="How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum"
+    nextCategory="History & Erasure"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-forgotten-front-part-3.png"
+    nextReadTime="13 min"
     ><article>
       <h2>The Stranger Inside</h2>
 

@@ -35,13 +35,13 @@ export default function TheForgottenFrontPart2() {
       wordCount={3282}
       prevSlug="the-forgotten-front"
       prevTitle="The Forgotten Front: The Tsar's Gamble"
-    nextSlug="the-holobiont"
-    nextTitle="The Holobiont"
-    nextSubtitle="You are not an individual. You never were."
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-holobiont.png"
-    nextReadTime="12 min"
+      nextSlug="the-forgotten-front-part-3"
+      nextTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
+      nextSubtitle="How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum"
+      nextCategory="History & Erasure"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-forgotten-front-part-3.png"
+      nextReadTime="13 min"
     ><h2>The Conductor</h2>
 
       <p>Here is something that doesn&apos;t fit the story we tell about the Eastern Front: by early 1916, Russia was winning.</p>
