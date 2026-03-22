@@ -1298,5 +1298,25 @@
     "description": "Every revolution leaves physical evidence: scorched cobblestones, bullet holes plastered over, the ghost outlines of barricades in city maps. Archaeologists and historians have learned to read cities like crime scenes — finding the Paris Commune in the soil beneath Montmartre, the Russian Revolution in the altered geography of Petrograd. The street is a document, and most of it has been deliberately erased.",
     "imagePrompt": "A dramatic overhead view of a 19th century Parisian barricade made from torn-up cobblestones, overturned carriages, and furniture, defenders in silhouette against smoke and fire, rendered as a detailed historical illustration with aged paper texture and dramatic chiaroscuro, mixing realism with a sense of archaeological excavation",
     "essayPrompt": "Write a deep, literary essay about what revolutions leave behind physically and spatially — the material archaeology of political upheaval. Begin with how urban geographers and historians read cities for traces of violent transformation: the street patterns changed after the Paris Commune, the bullet holes preserved in Warsaw, the renamed squares of failed revolutions. Explore specific cases where cities were deliberately re-engineered to prevent future uprising — Haussmann's boulevards designed to make barricades impossible, Soviet urbanism designed to atomize community. Then go deeper: what does it mean that the powerful spend so much effort erasing the physical evidence of resistance? What survives erasure, and why? End with the philosophical question of what we owe to the traces left by people who lost."
+  },
+  {
+    "slug": "the-eilean-mor-lighthouse",
+    "title": "The Eilean Mòr Lighthouse",
+    "subtitle": "Three keepers vanished from a remote Scottish island. The lamp was still lit. The table was set for dinner.",
+    "category": "Mystery",
+    "color": "slate",
+    "description": "In December 1900, a supply vessel arrived at the Flannan Isles lighthouse to find it abandoned. The three keepers — experienced men who knew the sea — had disappeared without a trace. The last log entries described weather conditions that hadn't occurred, and one keeper had written of a fear so profound it defied explanation. What happened on that island has never been resolved.",
+    "imagePrompt": "A solitary lighthouse on a craggy Scottish island at dusk, fog rolling in from dark churning seas, a single warm light glowing in the tower above empty rocks, dramatic storm clouds overhead, moody and desolate, realistic photography style",
+    "essayPrompt": "Write a deep, atmospheric essay exploring the 1900 disappearance of the three Flannan Isles lighthouse keepers. Cover the factual record — the log entries, the physical evidence, the theories — but also explore what the case reveals about isolation, the psychology of men alone at the edge of the world, and why certain mysteries resist resolution not because of lack of evidence but because the human mind cannot accept the mundane explanations. Weave in the folklore of the islands, the nature of lighthouse keeping, and what it means to vanish without a witness."
+  },
+  {
+    "slug": "the-dybbuk-box",
+    "title": "The Dybbuk Box",
+    "subtitle": "A wine cabinet sold on eBay. Every owner reported the same nightmares. The story of how an object became a mythology.",
+    "category": "Strange",
+    "color": "violet",
+    "description": "In 2003, a man posted an eBay listing for a Jewish wine cabinet he claimed was haunted. What followed was a cascade of owners reporting identical experiences — the same smell of jasmine and cat urine, the same hag appearing in dreams, the same cascade of bad luck. The object became famous, spawned films, inspired investigators. But the more interesting question is this: how does belief transform an object, and at what point does a story become indistinguishable from the thing it describes?",
+    "imagePrompt": "An old dark wooden cabinet with ornate carved details sitting alone in a dim room, single shaft of light illuminating it, antique and slightly menacing, dust motes in the air, shadows pooling around its base, fine art photography style, mysterious and foreboding",
+    "essayPrompt": "Write a rigorous yet open-minded essay about the Dybbuk Box — the haunted wine cabinet that became a cultural phenomenon. Begin with the original eBay listing and trace the object through its succession of owners, their reported experiences, and the patterns that emerged. Then go deeper: explore the concept of the dybbuk in Jewish folklore and theology, the psychology of object attachment and nocebo effects, and how the internet transformed a single strange story into a self-reinforcing mythology. End by grappling honestly with the question of whether an object can accumulate meaning until it becomes genuinely dangerous — not supernaturally, but psychologically."
   }
 ]
