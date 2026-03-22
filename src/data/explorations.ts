@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "dyatlov-pass",
+    title: "The Dyatlov Pass Incident",
+    subtitle: "Nine hikers tore open their tent from the inside and fled barefoot into a Siberian blizzard. Sixty-five years later, we still can't agree on why.",
+    category: "Mystery",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/dyatlov-pass.png",
+    publishedAt: "03/22/2026 03:40 PM",
+    description:
+      "The 1959 deaths of nine Soviet hikers on a remote Ural mountain remain one of the most haunting unsolved cases in history — not because we lack theories, but because the facts resist every single one of them.",
+  },
+  {
     slug: "the-forgotten-front-part-3",
     title: "The Forgotten Front: Revolution and Collapse (Part III of III)",
     subtitle: "How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum",

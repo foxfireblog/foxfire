@@ -35,6 +35,13 @@ export default function TheForgottenFrontPart3() {
       wordCount={3045}
       prevSlug="the-forgotten-front-part-2"
       prevTitle="The Forgotten Front: The Brusilov Offensive"
+    nextSlug="dyatlov-pass"
+    nextTitle="The Dyatlov Pass Incident"
+    nextSubtitle="Nine hikers tore open their tent from the inside and fled barefoot into a Siberian blizzard. Sixty-five years later, we still can't agree on why."
+    nextCategory="Mystery"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/dyatlov-pass.png"
+    nextReadTime="13 min"
     >
       <h2>The Unraveling</h2>
 
