@@ -1298,5 +1298,25 @@
     "description": "The word 'collaborator' arrives already poisoned. It conjures Vichy officials and quislings, men who chose the wrong side for cowardice or ambition. But the history of collaboration under occupation — from Napoleonic Europe to the Nazi-occupied territories, from colonial Africa to the American occupation of the Philippines — is far stranger and more morally vertiginous than the verdict implies. Some collaborators saved thousands. Some resisters got thousands killed. Occupation creates impossible arithmetic: how many compromises does it take to keep a hospital open? Who gets to judge from outside the arithmetic? This essay sits inside the discomfort and refuses to leave.",
     "imagePrompt": "A grainy, desaturated historical photograph aesthetic of a figure standing in a doorway between two worlds — one side showing occupation-era street with foreign soldiers, the other showing civilian life, the figure's face turned away, dramatic chiaroscuro lighting, violet and deep shadow tones",
     "essayPrompt": "Write a morally serious, deeply researched essay about collaboration under occupation — drawing on specific historical cases including Vichy France, the Nazi occupation of the Netherlands, the Japanese occupation of the Philippines, and colonial Africa. Resist the easy verdict. Explore the impossible choices ordinary administrators, doctors, and officials faced, the post-war punishment of collaborators versus resisters, and what collaboration reveals about the nature of political agency when the state itself becomes the threat."
+  },
+  {
+    "slug": "the-death-of-languages",
+    "title": "The Death of Languages",
+    "subtitle": "Every two weeks, a language disappears forever — and with it, an entire way of perceiving the world",
+    "category": "Language & Culture",
+    "color": "violet",
+    "description": "There are roughly 7,000 languages spoken on Earth today. By the end of this century, linguists estimate that half of them will be silent forever. But a language isn't just a communication system — it's a cognitive architecture, a philosophy, a way of carving reality at its joints. When Ubykh died with its last speaker in 1992, the world lost a phonological system of staggering complexity. When Eyak went silent in Alaska in 2008, we lost irreplaceable ecological knowledge encoded in its grammar. This is the story of what dies with a last word — and why it matters.",
+    "imagePrompt": "A single elderly person sitting alone in a vast landscape, surrounded by fading ghostly text in an unknown script dissolving into mist, cinematic and melancholic, golden hour light",
+    "essayPrompt": "Write a deep, elegant essay about the death of languages — the phenomenon of language extinction. Cover: what it means for a language to 'die,' the current crisis of linguistic diversity, specific examples of recently extinct languages and what was lost (Ubykh, Eyak, Dalmatian), the Sapir-Whorf hypothesis and how language shapes thought, the ethical dimensions of language preservation versus natural change, and the paradox of documenting a dying language. Include the emotional weight of a final speaker. Blend linguistics, philosophy, anthropology, and elegy."
+  },
+  {
+    "slug": "the-palace-of-memory",
+    "title": "The Palace of Memory",
+    "subtitle": "Before writing, the human mind developed extraordinary architectures for storing civilization itself",
+    "category": "Mind & History",
+    "color": "amber",
+    "description": "The ancient Greeks had no filing cabinets, no search engines, no notebooks. What they had was a technique so powerful that a trained orator could memorize hours of speech, thousands of names, entire encyclopedias of knowledge — by walking through an imaginary building in their mind. The 'method of loci,' or memory palace, wasn't a party trick. It was the primary information technology of the ancient world, used by Cicero, Aquinas, and Giordano Bruno. But this is more than a history of a mnemonic technique — it's a story about what happens to the mind when it outsources memory to the written page, and what we may have permanently lost.",
+    "imagePrompt": "A vast ornate classical palace interior with impossibly high ceilings, each alcove and column containing glowing symbolic objects and figures, dreamlike and surreal, deep blues and golds",
+    "essayPrompt": "Write a deep, elegant essay about the method of loci — the memory palace technique — and its role in the ancient and medieval world. Cover: the mythological origins in the story of Simonides, how the technique actually works neurologically, its use by Cicero, Thomas Aquinas, and Giordano Bruno, the question of whether oral cultures had fundamentally different cognitive capacities than literate ones, the 'externalization' of memory through writing and what Socrates warned about in the Phaedrus, and modern neuroscience's rediscovery of the technique. Explore the philosophical tension between memory as identity and memory as archive."
   }
 ]
