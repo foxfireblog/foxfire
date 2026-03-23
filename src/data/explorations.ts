@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-collaborators",
+    title: "The Collaborators",
+    subtitle: "On the terrible reasonableness of saying yes",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-collaborators.png",
+    publishedAt: "03/23/2026 04:31 PM",
+    description:
+      "Every occupation needs locals who say yes — and the history of why they do is more uncomfortable than any of us want to admit.",
+  },
+  {
     slug: "the-oldest-technology-on-earth",
     title: "The Oldest Technology on Earth",
     subtitle: "Before the wheel, before writing, before we were even quite human — we were fermenting.",
@@ -45,6 +57,18 @@ export const explorations: Exploration[] = [
       "Fermentation is older than fire, older than agriculture, older than Homo sapiens — and it may have catalyzed civilization itself.",
   },
   {
+    slug: "the-fall-of-constantinople",
+    title: "The Fall of Constantinople",
+    subtitle: "The day the medieval world ended with a cannon that shouldn't have existed",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-fall-of-constantinople.png",
+    publishedAt: "03/23/2026 02:58 AM",
+    description:
+      "On May 29, 1453, the longest-enduring empire in history died in a single morning — and the sound it made changed everything.",
+  },
+  {
     slug: "the-borrowing",
     title: "The Borrowing",
     subtitle: "On the strange life of words that crossed borders uninvited",
@@ -55,6 +79,18 @@ export const explorations: Exploration[] = [
     publishedAt: "03/23/2026 01:20 AM",
     description:
       "A fascinated tour through the words that jumped between languages like stowaways — and how they changed shape, meaning, and identity along the way.",
+  },
+  {
+    slug: "the-invention-of-writing",
+    title: "The Invention of Writing",
+    subtitle: "Every time humanity learned to speak with its hands, it was counting sheep",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-invention-of-writing.png",
+    publishedAt: "03/22/2026 02:44 PM",
+    description:
+      "Humanity invented writing at least four separate times, independently, and every single time it began not with poetry or prayer but with accounting — what that says about us is more interesting than we'd like to admit.",
   },
   {
     slug: "dyatlov-pass",
@@ -76,7 +112,7 @@ export const explorations: Exploration[] = [
     color: "rose",
     readTime: "13 min",
     image: "/images/explorations/the-forgotten-front-part-3.png",
-    publishedAt: "03/22/2026 04:06 AM",
+    publishedAt: "03/22/2026 05:25 AM",
     description:
       "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
   },
