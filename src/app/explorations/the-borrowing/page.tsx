@@ -35,6 +35,13 @@ export default function TheBorrowing() {
       wordCount={2740}
       prevSlug="dyatlov-pass"
       prevTitle="The Dyatlov Pass Incident"
+    nextSlug="the-oldest-technology-on-earth"
+    nextTitle="The Oldest Technology on Earth"
+    nextSubtitle="Before the wheel, before writing, before we were even quite human &mdash; we were fermenting."
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-oldest-technology-on-earth.png"
+    nextReadTime="12 min"
     >
       <h2>The Bone-Setters and the Eyeliner</h2>
 

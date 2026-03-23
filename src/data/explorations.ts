@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-oldest-technology-on-earth",
+    title: "The Oldest Technology on Earth",
+    subtitle: "Before the wheel, before writing, before we were even quite human — we were fermenting.",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-oldest-technology-on-earth.png",
+    publishedAt: "03/23/2026 10:39 AM",
+    description:
+      "Fermentation is older than fire, older than agriculture, older than Homo sapiens — and it may have catalyzed civilization itself.",
+  },
+  {
     slug: "the-borrowing",
     title: "The Borrowing",
     subtitle: "On the strange life of words that crossed borders uninvited",
