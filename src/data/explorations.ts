@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-borrowing",
+    title: "The Borrowing",
+    subtitle: "On the strange life of words that crossed borders uninvited",
+    category: "Linguistic Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-borrowing.png",
+    publishedAt: "03/23/2026 01:20 AM",
+    description:
+      "A fascinated tour through the words that jumped between languages like stowaways — and how they changed shape, meaning, and identity along the way.",
+  },
+  {
     slug: "dyatlov-pass",
     title: "The Dyatlov Pass Incident",
     subtitle: "Nine hikers tore open their tent from the inside and fled barefoot into a Siberian blizzard. Sixty-five years later, we still can't agree on why.",

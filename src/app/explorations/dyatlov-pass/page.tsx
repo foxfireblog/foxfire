@@ -35,6 +35,13 @@ export default function DyatlovPass() {
       wordCount={3010}
       prevSlug="the-forgotten-front-part-3"
       prevTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
+    nextSlug="the-borrowing"
+    nextTitle="The Borrowing"
+    nextSubtitle="On the strange life of words that crossed borders uninvited"
+    nextCategory="Linguistic Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-borrowing.png"
+    nextReadTime="12 min"
     >
       <h2>The Boots Were Neatly Lined Up</h2>
 
