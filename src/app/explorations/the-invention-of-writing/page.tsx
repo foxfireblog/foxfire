@@ -36,6 +36,13 @@ export default function TheInventionOfWriting() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-invention-of-writing.mp3"
       prevSlug="the-forgotten-front-part-3"
       prevTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
+    nextSlug="the-fall-of-constantinople"
+    nextTitle="The Fall of Constantinople"
+    nextSubtitle="The day the medieval world ended with a cannon that shouldn't have existed"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-fall-of-constantinople.png"
+    nextReadTime="14 min"
     >
       <h2>The Accountant&apos;s Fingerprint</h2>
 

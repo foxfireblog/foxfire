@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-fall-of-constantinople",
+    title: "The Fall of Constantinople",
+    subtitle: "The day the medieval world ended with a cannon that shouldn't have existed",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-fall-of-constantinople.png",
+    publishedAt: "03/23/2026 02:58 AM",
+    description:
+      "On May 29, 1453, the longest-enduring empire in history died in a single morning — and the sound it made changed everything.",
+  },
+  {
     slug: "the-invention-of-writing",
     title: "The Invention of Writing",
     subtitle: "Every time humanity learned to speak with its hands, it was counting sheep",
