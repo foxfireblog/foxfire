@@ -46,3 +46,6 @@ logs/
 public/audio/
 scripts/.series-queue.json.bak
 scripts/.series-queue.json.tmp
+memory/
+scratch/
+_MANIFEST.md
