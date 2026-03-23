@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-collaborators",
+    title: "The Collaborators",
+    subtitle: "On the terrible reasonableness of saying yes",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-collaborators.png",
+    publishedAt: "03/23/2026 04:31 PM",
+    description:
+      "Every occupation needs locals who say yes — and the history of why they do is more uncomfortable than any of us want to admit.",
+  },
+  {
     slug: "the-fall-of-constantinople",
     title: "The Fall of Constantinople",
     subtitle: "The day the medieval world ended with a cannon that shouldn't have existed",

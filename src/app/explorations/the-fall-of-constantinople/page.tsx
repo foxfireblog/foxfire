@@ -36,6 +36,13 @@ export default function TheFallOfConstantinople() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fall-of-constantinople.mp3"
       prevSlug="the-invention-of-writing"
       prevTitle="The Invention of Writing"
+    nextSlug="the-collaborators"
+    nextTitle="The Collaborators"
+    nextSubtitle="On the terrible reasonableness of saying yes"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-collaborators.png"
+    nextReadTime="14 min"
     >
       <h2>The Mercenary Who Changed Sides</h2>
 
