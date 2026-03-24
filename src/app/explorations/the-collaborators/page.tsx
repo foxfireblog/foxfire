@@ -36,6 +36,13 @@ export default function TheCollaborators() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-collaborators.mp3"
       prevSlug="the-fall-of-constantinople"
       prevTitle="The Fall of Constantinople"
+    nextSlug="the-partition-of-india"
+    nextTitle="The Partition of India: The Radcliffe Line (Part I of II)"
+    nextSubtitle="The impossible task, five weeks to draw a border, and the logic of partition"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-partition-of-india.png"
+    nextReadTime="12 min"
     >
 
 

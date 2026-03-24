@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-partition-of-india",
+    title: "The Partition of India: The Radcliffe Line (Part I of II)",
+    subtitle: "The impossible task, five weeks to draw a border, and the logic of partition",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-partition-of-india.png",
+    publishedAt: "03/24/2026 02:13 AM",
+    description:
+      "How a British lawyer who had never been to India drew a line through it in seventy-two days, displacing fifteen million people and killing over a million more.",
+  },
+  {
     slug: "the-collaborators",
     title: "The Collaborators",
     subtitle: "On the terrible reasonableness of saying yes",
