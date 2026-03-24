@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "numbers-stations",
+    title: "Numbers Stations",
+    subtitle: "Someone is still broadcasting, and no one will say why",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/numbers-stations.png",
+    publishedAt: "03/24/2026 11:26 AM",
+    description:
+      "Across the shortwave spectrum, automated voices have been reading strings of numbers to no one in particular for decades — and governments pretend they don't exist.",
+  },
+  {
     slug: "the-partition-of-india",
     title: "The Partition of India: The Radcliffe Line (Part I of II)",
     subtitle: "The impossible task, five weeks to draw a border, and the logic of partition",

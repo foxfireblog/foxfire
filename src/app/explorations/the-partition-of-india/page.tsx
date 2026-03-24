@@ -36,6 +36,13 @@ export default function ThePartitionOfIndia() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-partition-of-india.mp3"
       prevSlug="the-collaborators"
       prevTitle="The Collaborators"
+    nextSlug="numbers-stations"
+    nextTitle="Numbers Stations"
+    nextSubtitle="Someone is still broadcasting, and no one will say why"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/numbers-stations.png"
+    nextReadTime="12 min"
     >
       <h2>The Man Who Had Never Been East of Paris</h2>
 
