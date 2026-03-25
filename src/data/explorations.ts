@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cambrian-explosion",
+    title: "The Cambrian Explosion",
+    subtitle: "When the world learned to see, and everything changed",
+    category: "Natural History",
+    color: "teal",
+    readTime: "11 min",
+    image: "/images/explorations/the-cambrian-explosion.png",
+    publishedAt: "03/24/2026 08:39 PM",
+    description:
+      "For three billion years, life was a quiet slime — then, in a geological instant, it invented eyes, teeth, shells, claws, and terror.",
+  },
+  {
     slug: "numbers-stations",
     title: "Numbers Stations",
     subtitle: "Someone is still broadcasting, and no one will say why",
