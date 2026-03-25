@@ -1438,5 +1438,25 @@
     "description": "For centuries, naturalists didn't just discover animals — they invented them. The platypus was called a hoax. The okapi was dismissed as legend. But the darker history runs the other way: respected scientists who described, named, and published elaborate accounts of creatures that were entirely fabricated — sometimes for money, sometimes for glory, sometimes because they genuinely believed. From the 18th-century physician who described mermaids in peer-reviewed detail to the palaeontologist who reconstructed entire species from a single fake tooth, this is the history of scientific monsters.",
     "imagePrompt": "A vintage natural history illustration aesthetic showing fantastical hybrid creatures drawn in careful taxonomic style — part fish, part mammal, part reptile — rendered in aged sepia and ink on yellowed parchment, beautiful and unsettling",
     "essayPrompt": "Write a deep, curious essay about the history of fabricated or mistaken creatures in natural history — scientists who invented, misidentified, or were deceived into publishing accounts of animals that didn't exist. Include specific cases: the Cardiff Giant, Beringer's Lying Stones, Hesperopithecus (Nebraska Man reconstructed from a pig's tooth), the Fiji Mermaid's scientific defenders, and others. Explore what psychological and institutional pressures led serious scientists to these errors or frauds. Connect this to the Bone Wars tradition of competitive paleontology and ask what it means for the boundary between discovery and invention in science. The tone should be curious, generous, and slightly ominous."
+  },
+  {
+    "slug": "the-victorian-internet",
+    "title": "The Victorian Internet",
+    "subtitle": "How the telegraph rewired the human mind — and then we forgot it happened",
+    "category": "History",
+    "color": "amber",
+    "description": "Before email, before the telephone, before radio — there was the telegraph. In the 1850s and 60s, messages crossed continents in seconds for the first time in human history. People fell in love over the wires. Criminals were caught mid-flight. Stock markets became nervous systems. And then the telephone arrived and everyone pretended the telegraph had never changed anything at all.",
+    "imagePrompt": "Victorian telegraph office interior, warm gaslight glow, operators at long wooden desks with clicking Morse instruments, spools of ticker tape curling onto the floor, fog visible through tall windows, sepia and amber tones, detailed illustration style",
+    "essayPrompt": "Write a deep, curious essay about the telegraph as the first version of the internet — focusing on how it changed human perception of time, distance, and intimacy, the subcultures that formed around it (telegraph romance, operator slang, the community of isolated linemen), and why we consistently fail to remember that previous technologies once felt exactly as revolutionary as the ones we have now. Explore what the telegraph's rise and obsolescence teaches us about the nature of technological wonder and forgetting."
+  },
+  {
+    "slug": "the-hafnium-bomb",
+    "title": "The Hafnium Bomb",
+    "subtitle": "A decade-long scientific controversy over a weapon that may not exist — and the people who refused to let it die",
+    "category": "Science",
+    "color": "indigo",
+    "description": "In 1998, a physicist claimed to have triggered a nuclear-like release of energy from hafnium-178m2 — a metastable isomer — using nothing but dental X-rays. The Pentagon poured millions into the research. Other scientists called it fraud. Careers were destroyed. Reputations collapsed. The hafnium bomb saga is the story of how badly humans want to believe in a miracle weapon, and what happens to science when desire overpowers doubt.",
+    "imagePrompt": "Abstract scientific imagery, a small glowing metallic sample suspended in a dark laboratory chamber, X-ray beams visible as faint blue lines, reflection in glass instruments, cold clinical lighting with one warm anomalous glow at center, highly detailed digital art",
+    "essayPrompt": "Write a deep, curious essay about the hafnium isomer controversy — the original 1998 claim, the Pentagon's DARPA-funded pursuit of a triggered gamma-ray weapon, the scientists who dedicated years to replication and found nothing, and the sociology of why institutions continue funding research long after the scientific community has moved on. Use this story to explore the psychology of miracle weapons, the difference between scientific fraud and sincere self-deception, and what the hafnium episode reveals about the gap between military desire and physical reality."
   }
 ]
