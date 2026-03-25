@@ -36,6 +36,13 @@ export default function TheBoneWars() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bone-wars.mp3"
       prevSlug="the-cambrian-explosion"
       prevTitle="The Cambrian Explosion"
+    nextSlug="the-centennial-light"
+    nextTitle="The Centennial Light"
+    nextSubtitle="On a light bulb that refuses to die and an economy that requires it to"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-centennial-light.png"
+    nextReadTime="11 min"
     >
       <h2>The Head on the Wrong End</h2>
 

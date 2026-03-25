@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-centennial-light",
+    title: "The Centennial Light",
+    subtitle: "On a light bulb that refuses to die and an economy that requires it to",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-centennial-light.png",
+    publishedAt: "03/25/2026 04:05 PM",
+    description:
+      "A light bulb has been burning since 1901 in a Livermore fire station — and the conspiracy to make sure you could never buy one like it is not actually a conspiracy at all.",
+  },
+  {
     slug: "the-bone-wars",
     title: "The Bone Wars",
     subtitle: "Two men who hated each other dug up prehistoric America — and buried the truth along the way",
