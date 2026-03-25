@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-bone-wars",
+    title: "The Bone Wars",
+    subtitle: "Two men who hated each other dug up prehistoric America — and buried the truth along the way",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-bone-wars.png",
+    publishedAt: "03/25/2026 07:22 AM",
+    description:
+      "The spectacular, petty, scientifically catastrophic feud between two paleontologists who raced to own deep time itself.",
+  },
+  {
     slug: "the-cambrian-explosion",
     title: "The Cambrian Explosion",
     subtitle: "When the world learned to see, and everything changed",
