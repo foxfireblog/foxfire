@@ -36,6 +36,13 @@ export default function TheCentennialLight() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-centennial-light.mp3"
       prevSlug="the-bone-wars"
       prevTitle="The Bone Wars"
+    nextSlug="the-war-that-passes-through-blood"
+    nextTitle="The War That Passes Through Blood"
+    nextSubtitle="Agent Orange and the inheritance no treaty has ended"
+    nextCategory="Essay"
+    nextCategoryColor="orange"
+    nextImage="/images/explorations/the-war-that-passes-through-blood.png"
+    nextReadTime="12 min"
     >
       <h2>The Bulb That Watched</h2>
 

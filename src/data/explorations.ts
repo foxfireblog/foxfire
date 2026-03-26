@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-war-that-passes-through-blood",
+    title: "The War That Passes Through Blood",
+    subtitle: "Agent Orange and the inheritance no treaty has ended",
+    category: "Essay",
+    color: "orange",
+    readTime: "12 min",
+    image: "/images/explorations/the-war-that-passes-through-blood.png",
+    publishedAt: "03/26/2026 03:02 AM",
+    description:
+      "Three generations after the last plane sprayed, children in Vietnam are still being born with the chemical signature of a war their grandparents survived.",
+  },
+  {
     slug: "the-centennial-light",
     title: "The Centennial Light",
     subtitle: "On a light bulb that refuses to die and an economy that requires it to",
