@@ -36,6 +36,13 @@ export default function TheWarThatPassesThroughBlood() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-war-that-passes-through-blood.mp3"
       prevSlug="the-centennial-light"
       prevTitle="The Centennial Light"
+    nextSlug="the-language-you-speak-is-the-world-you-see"
+    nextTitle="The Language You Speak Is the World You See"
+    nextSubtitle="On the prison and the palace of your mother tongue"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-language-you-speak-is-the-world-you-see.png"
+    nextReadTime="13 min"
     >
       <h2>The Smell of Ripe Guava</h2>
 

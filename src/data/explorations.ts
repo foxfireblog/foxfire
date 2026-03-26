@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-language-you-speak-is-the-world-you-see",
+    title: "The Language You Speak Is the World You See",
+    subtitle: "On the prison and the palace of your mother tongue",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-language-you-speak-is-the-world-you-see.png",
+    publishedAt: "03/26/2026 04:53 PM",
+    description:
+      "What if your mother tongue doesn't just describe reality — it builds it, quietly, from the inside out?",
+  },
+  {
     slug: "the-war-that-passes-through-blood",
     title: "The War That Passes Through Blood",
     subtitle: "Agent Orange and the inheritance no treaty has ended",
