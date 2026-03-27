@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-geography-of-nowhere",
+    title: "The Geography of Nowhere",
+    subtitle: "How every American town became the same town, and what was lost in the copying",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-geography-of-nowhere.png",
+    publishedAt: "03/27/2026 11:17 AM",
+    description:
+      "The uncanny sameness of American commercial landscapes didn't happen by accident — it was engineered, and it has quietly reshaped how we understand place, community, and home.",
+  },
+  {
     slug: "the-language-you-speak-is-the-world-you-see",
     title: "The Language You Speak Is the World You See",
     subtitle: "On the prison and the palace of your mother tongue",

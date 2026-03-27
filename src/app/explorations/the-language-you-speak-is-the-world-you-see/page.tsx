@@ -36,6 +36,13 @@ export default function TheLanguageYouSpeakIsTheWorldYouSee() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-language-you-speak-is-the-world-you-see.mp3"
       prevSlug="the-war-that-passes-through-blood"
       prevTitle="The War That Passes Through Blood"
+    nextSlug="the-geography-of-nowhere"
+    nextTitle="The Geography of Nowhere"
+    nextSubtitle="How every American town became the same town, and what was lost in the copying"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-geography-of-nowhere.png"
+    nextReadTime="13 min"
     >
       <h2>The Missionary Who Lost His God to a Pronoun</h2>
 
