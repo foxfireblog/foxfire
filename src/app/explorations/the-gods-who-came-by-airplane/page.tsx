@@ -36,6 +36,13 @@ export default function TheGodsWhoCameByAirplane() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-gods-who-came-by-airplane.mp3"
       prevSlug="the-middle-passage"
       prevTitle="The Middle Passage: The Crossing (Part I of II)"
+    nextSlug="the-uncanny-valley"
+    nextTitle="The Uncanny Valley"
+    nextSubtitle="Why the almost-human is more terrifying than the inhuman"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-uncanny-valley.png"
+    nextReadTime="13 min"
     >
       <h2>The Coconut Headphones</h2>
 

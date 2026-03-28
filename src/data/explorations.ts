@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-uncanny-valley",
+    title: "The Uncanny Valley",
+    subtitle: "Why the almost-human is more terrifying than the inhuman",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-uncanny-valley.png",
+    publishedAt: "03/28/2026 05:21 PM",
+    description:
+      "The closer something looks to human without being human, the harder your brain screams — and the reason why might be older and stranger than you think.",
+  },
+  {
     slug: "the-gods-who-came-by-airplane",
     title: "The Gods Who Came by Airplane",
     subtitle: "Cargo cults, divine runways, and the terrifying logic of pattern recognition",
