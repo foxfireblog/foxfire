@@ -36,6 +36,13 @@ export default function TheMiddlePassage() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-middle-passage.mp3"
       prevSlug="the-geography-of-nowhere"
       prevTitle="The Geography of Nowhere"
+    nextSlug="the-gods-who-came-by-airplane"
+    nextTitle="The Gods Who Came by Airplane"
+    nextSubtitle="Cargo cults, divine runways, and the terrifying logic of pattern recognition"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-gods-who-came-by-airplane.png"
+    nextReadTime="12 min"
     >
 
       <p className="text-sm uppercase tracking-widest text-muted mb-2">Part I of II &mdash; The Middle Passage</p>

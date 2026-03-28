@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-gods-who-came-by-airplane",
+    title: "The Gods Who Came by Airplane",
+    subtitle: "Cargo cults, divine runways, and the terrifying logic of pattern recognition",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-gods-who-came-by-airplane.png",
+    publishedAt: "03/28/2026 06:34 AM",
+    description:
+      "When World War II ended, Pacific Islanders built wooden airplanes and lit signal fires on abandoned runways — not out of ignorance, but out of a devastating and perfectly rational theology.",
+  },
+  {
     slug: "the-middle-passage",
     title: "The Middle Passage: The Crossing (Part I of II)",
     subtitle: "The triangular trade, the conditions aboard, and resistance at sea",
