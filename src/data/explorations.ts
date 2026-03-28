@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-middle-passage",
+    title: "The Middle Passage: The Crossing (Part I of II)",
+    subtitle: "The triangular trade, the conditions aboard, and resistance at sea",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-middle-passage.png",
+    publishedAt: "03/27/2026 08:33 PM",
+    description:
+      "Twelve million people were forced across the Atlantic in the holds of ships — and the sea itself became a kind of archive.",
+  },
+  {
     slug: "the-geography-of-nowhere",
     title: "The Geography of Nowhere",
     subtitle: "How every American town became the same town, and what was lost in the copying",

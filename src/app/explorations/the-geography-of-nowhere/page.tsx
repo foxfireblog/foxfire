@@ -36,6 +36,13 @@ export default function TheGeographyOfNowhere() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-geography-of-nowhere.mp3"
       prevSlug="the-language-you-speak-is-the-world-you-see"
       prevTitle="The Language You Speak Is the World You See"
+    nextSlug="the-middle-passage"
+    nextTitle="The Middle Passage: The Crossing (Part I of II)"
+    nextSubtitle="The triangular trade, the conditions aboard, and resistance at sea"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-middle-passage.png"
+    nextReadTime="14 min"
     >
       <h2>The Pig in the Parlor</h2>
 
