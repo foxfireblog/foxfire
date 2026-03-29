@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-partition-of-india-part-2",
+    title: "The Partition of India: The Reckoning (Part II of II)",
+    subtitle: "The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-partition-of-india-part-2.png",
+    publishedAt: "03/29/2026 02:52 AM",
+    description:
+      "How a British lawyer who had never been to India drew a line through it in seventy-two days, displacing fifteen million people and killing over a million more.",
+  },
+  {
     slug: "the-uncanny-valley",
     title: "The Uncanny Valley",
     subtitle: "Why the almost-human is more terrifying than the inhuman",
