@@ -36,6 +36,13 @@ export default function ThePartitionOfIndiaPart2() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-partition-of-india-part-2.mp3"
       prevSlug="the-partition-of-india"
       prevTitle="The Partition of India: The Radcliffe Line (Part I of II)"
+    nextSlug="the-architecture-of-control"
+    nextTitle="The Architecture of Control"
+    nextSubtitle="Every hostile bench is a sentence written in concrete"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-architecture-of-control.png"
+    nextReadTime="12 min"
     >
       <h2>The Trains</h2>
 

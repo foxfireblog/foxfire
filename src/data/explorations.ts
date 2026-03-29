@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-architecture-of-control",
+    title: "The Architecture of Control",
+    subtitle: "Every hostile bench is a sentence written in concrete",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-architecture-of-control.png",
+    publishedAt: "03/29/2026 11:18 AM",
+    description:
+      "The built environment is full of decisions designed to control human behavior — and most of them are invisible until you learn to see them.",
+  },
+  {
     slug: "the-partition-of-india-part-2",
     title: "The Partition of India: The Reckoning (Part II of II)",
     subtitle: "The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound",
