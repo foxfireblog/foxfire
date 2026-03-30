@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-paradox-of-tolerance",
+    title: "The Paradox of Tolerance",
+    subtitle: "A society that tolerates everything will tolerate its own destruction",
+    category: "Philosophical Dialogue",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-paradox-of-tolerance.png",
+    publishedAt: "03/29/2026 08:44 PM",
+    description:
+      "Karl Popper's famous paradox, staged as a conversation between a librarian and an arsonist who keeps checking out books.",
+  },
+  {
     slug: "the-architecture-of-control",
     title: "The Architecture of Control",
     subtitle: "Every hostile bench is a sentence written in concrete",
