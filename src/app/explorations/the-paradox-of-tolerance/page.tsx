@@ -36,6 +36,13 @@ export default function TheParadoxOfTolerance() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-paradox-of-tolerance.mp3"
       prevSlug="the-architecture-of-control"
       prevTitle="The Architecture of Control"
+    nextSlug="the-monster-makers"
+    nextTitle="The Monster Makers"
+    nextSubtitle="A history of scientists who built creatures from ambition, bone dust, and lies"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-monster-makers.png"
+    nextReadTime="13 min"
     >
       <h2>The Paradox of Tolerance</h2>
       <h3>A society that tolerates everything will tolerate its own destruction</h3>

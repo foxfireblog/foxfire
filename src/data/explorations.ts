@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-monster-makers",
+    title: "The Monster Makers",
+    subtitle: "A history of scientists who built creatures from ambition, bone dust, and lies",
+    category: "Natural History",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-monster-makers.png",
+    publishedAt: "03/30/2026 08:13 AM",
+    description:
+      "The long, strange history of scientists who fabricated creatures that never existed — and how their fictions reshaped our understanding of what's real.",
+  },
+  {
     slug: "the-paradox-of-tolerance",
     title: "The Paradox of Tolerance",
     subtitle: "A society that tolerates everything will tolerate its own destruction",
