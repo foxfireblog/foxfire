@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-language-of-whistles",
+    title: "The Language of Whistles",
+    subtitle: "In the mountains where human speech became birdsong, the brain reveals one of its strangest talents",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "11 min",
+    image: "/images/explorations/the-language-of-whistles.png",
+    publishedAt: "03/30/2026 06:48 PM",
+    description:
+      "Across scattered mountain villages on nearly every continent, people learned to whistle their languages across vast distances — and what their brains do when they listen is upending what we thought we knew about speech.",
+  },
+  {
     slug: "the-monster-makers",
     title: "The Monster Makers",
     subtitle: "A history of scientists who built creatures from ambition, bone dust, and lies",
