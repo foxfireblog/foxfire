@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-immortal-cell",
+    title: "The Immortal Cell",
+    subtitle: "Henrietta Lacks died in 1951. Her cells never did.",
+    category: "Essay",
+    color: "rose",
+    readTime: "13 min",
+    image: "/images/explorations/the-immortal-cell.png",
+    publishedAt: "03/31/2026 04:49 PM",
+    description:
+      "The story of HeLa — the cells taken without consent from a Black woman's body that became the foundation of modern medicine, and what it means that they're still alive.",
+  },
+  {
     slug: "the-cartographers-of-losing-sides",
     title: "The Cartographers of Losing Sides",
     subtitle: "What the maps of vanished empires reveal about the stories we tell ourselves",
