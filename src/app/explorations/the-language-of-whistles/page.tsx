@@ -36,6 +36,13 @@ export default function TheLanguageOfWhistles() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-language-of-whistles.mp3"
       prevSlug="the-monster-makers"
       prevTitle="The Monster Makers"
+    nextSlug="the-cartographers-of-losing-sides"
+    nextTitle="The Cartographers of Losing Sides"
+    nextSubtitle="What the maps of vanished empires reveal about the stories we tell ourselves"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-cartographers-of-losing-sides.png"
+    nextReadTime="13 min"
     >
       <h2>The Corn-Leaf Transaction</h2>
 

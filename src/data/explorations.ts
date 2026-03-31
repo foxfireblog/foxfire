@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cartographers-of-losing-sides",
+    title: "The Cartographers of Losing Sides",
+    subtitle: "What the maps of vanished empires reveal about the stories we tell ourselves",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-cartographers-of-losing-sides.png",
+    publishedAt: "03/31/2026 07:57 AM",
+    description:
+      "The maps drawn by empires that no longer exist reveal something that the maps of victors never could.",
+  },
+  {
     slug: "the-language-of-whistles",
     title: "The Language of Whistles",
     subtitle: "In the mountains where human speech became birdsong, the brain reveals one of its strangest talents",
