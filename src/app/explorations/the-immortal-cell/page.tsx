@@ -36,6 +36,13 @@ export default function TheImmortalCell() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-immortal-cell.mp3"
       prevSlug="the-cartographers-of-losing-sides"
       prevTitle="The Cartographers of Losing Sides"
+    nextSlug="the-water-that-remembers"
+    nextTitle="The Water That Remembers"
+    nextSubtitle="Two miles beneath Ontario, something has been waiting for two billion years"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-water-that-remembers.png"
+    nextReadTime="12 min"
     >
       <h2>The Woman Who Became Infinite</h2>
 

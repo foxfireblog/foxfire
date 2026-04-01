@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-water-that-remembers",
+    title: "The Water That Remembers",
+    subtitle: "Two miles beneath Ontario, something has been waiting for two billion years",
+    category: "Natural History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-water-that-remembers.png",
+    publishedAt: "04/01/2026 02:39 AM",
+    description:
+      "Deep beneath the Canadian Shield, scientists found pockets of water older than complex life itself — and it's forcing us to rethink where life might survive.",
+  },
+  {
     slug: "the-immortal-cell",
     title: "The Immortal Cell",
     subtitle: "Henrietta Lacks died in 1951. Her cells never did.",
