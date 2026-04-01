@@ -36,6 +36,13 @@ export default function TheWaterThatRemembers() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-water-that-remembers.mp3"
       prevSlug="the-immortal-cell"
       prevTitle="The Immortal Cell"
+    nextSlug="the-water-beneath-ontario"
+    nextTitle="The Water Beneath Ontario"
+    nextSubtitle="Two billion years of silence, two miles down"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-water-beneath-ontario.png"
+    nextReadTime="12 min"
     >
       <h2>The Broken Machine</h2>
 

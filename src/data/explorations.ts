@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-water-beneath-ontario",
+    title: "The Water Beneath Ontario",
+    subtitle: "Two billion years of silence, two miles down",
+    category: "Natural History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-water-beneath-ontario.png",
+    publishedAt: "04/01/2026 11:17 AM",
+    description:
+      "Two miles beneath the Canadian Shield, scientists found pockets of water that hadn't seen the surface in two billion years — older than multicellular life, older than breathable air.",
+  },
+  {
     slug: "the-water-that-remembers",
     title: "The Water That Remembers",
     subtitle: "Two miles beneath Ontario, something has been waiting for two billion years",
