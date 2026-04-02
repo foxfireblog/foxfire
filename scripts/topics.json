@@ -1738,5 +1738,25 @@
     "description": "Between 12,000 and 7,000 years ago, sea levels rose by over a hundred meters as the great ice sheets collapsed. Coastlines that had been home to human settlements, forests, and river valleys for millennia slipped beneath the waves. Today, in the shallow waters of the North Sea, the Baltic, the Black Sea, and along dozens of coastlines, archaeologists are discovering the remnants of these lost worlds: the stumps of ancient forests, the bones of mammoths, flint tools, and sometimes — the outlines of homes. The people who lived there are gone, but their world is not quite.",
     "imagePrompt": "Underwater archaeological scene showing ancient tree stumps and wooden posts from a submerged prehistoric settlement, dappled light filtering through shallow seawater, sediment disturbed by divers, ghostly and haunting, photorealistic underwater photography style",
     "essayPrompt": "Write a rich, melancholic essay about the drowned landscapes of the post-Ice Age world — Doggerland in the North Sea, the submerged settlements of the Black Sea, and other lost coastal worlds now under water. Explore the geology of deglaciation, what we are finding on these submerged shelves, what it means for human prehistory, and the profound strangeness of a world that ended not in fire or plague but in a slow, inexorable flood that no single person would have fully witnessed in their lifetime. Capture the eerie intimacy of touching ancient wood that grew in air. Maintain Foxfire's voice: exact, curious, quietly devastating."
+  },
+  {
+    "slug": "the-city-beneath-the-city",
+    "title": "The City Beneath the City",
+    "subtitle": "How every metropolis is haunted by the infrastructure of its own ambitions",
+    "category": "History",
+    "color": "indigo",
+    "description": "Beneath London lie plague pits, pneumatic railways, and rivers buried alive. Beneath Paris, the bones of six million dead. Beneath Tokyo, flood cathedrals the size of Greek temples. Every city builds downward as it builds upward — and what it buries reveals everything it wanted to forget.",
+    "imagePrompt": "A dramatic cross-section view of a city underground, layers of history visible like geological strata — ancient stone archways, Victorian brick tunnels, modern concrete shafts, all descending into darkness, moody chiaroscuro lighting with blue and gold tones",
+    "essayPrompt": "Write a deep, meditative essay exploring the underground layers of major world cities — not just as infrastructure but as archaeology of desire, fear, and civic ambition. Cover London's buried rivers (Fleet, Walbrook), the Paris catacombs as a byproduct of city expansion, Tokyo's Metropolitan Outer Discharge Channel, Moscow's secret Metro-2, and the pneumatic mail systems of New York. Explore the philosophical idea that cities always generate a shadow-city beneath them — a space for the unwanted, the dead, the dangerous, and the dreamed. Include the recurring human impulse to hollow out the earth under our feet and what that says about us."
+  },
+  {
+    "slug": "the-last-hermits",
+    "title": "The Last Hermits",
+    "subtitle": "The strange, stubborn history of people who chose to disappear into the world's edges",
+    "category": "Strange",
+    "color": "emerald",
+    "description": "In 1952, a man walked into the Maine woods and didn't speak to another human for 27 years. He was not unique. Across centuries and cultures, certain people have severed themselves from civilization entirely — not out of madness but out of a logic we can almost, unsettlingly, follow.",
+    "imagePrompt": "A solitary small cabin deep in a dense ancient forest, barely visible through towering moss-covered trees, weak golden light filtering through the canopy, a thin trail of smoke rising from the chimney, the surrounding wilderness vast and indifferent, painterly and atmospheric",
+    "essayPrompt": "Write a rich, exploratory essay on the history and psychology of radical hermits — people who voluntarily and completely withdrew from human society. Begin with Christopher Knight, the North Pond Hermit of Maine, who survived 27 years in the woods through theft and silence. Move through historical hermits: the Desert Fathers of early Christianity who fled Roman civilization into the Egyptian wastes, the anchorites of medieval Europe sealed into church walls, Japanese forest hermits living on bark and pine needles. Explore the philosophical traditions — Thoreau, Diogenes, Buddhist forest monks — that glorify withdrawal. Ask the uncomfortable question at the center: what does it mean that every era produces people who look at civilization and choose to leave it? What do they see that the rest of us are too embedded to notice?"
   }
 ]
