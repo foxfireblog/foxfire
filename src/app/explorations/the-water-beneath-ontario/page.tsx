@@ -36,6 +36,13 @@ export default function TheWaterBeneathOntario() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-water-beneath-ontario.mp3"
       prevSlug="the-water-that-remembers"
       prevTitle="The Water That Remembers"
+    nextSlug="the-mole-people"
+    nextTitle="The Mole People"
+    nextSubtitle="On the civilizations beneath the civilizations"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-mole-people.png"
+    nextReadTime="12 min"
     >
       <h2>The Broken Machine</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mole-people",
+    title: "The Mole People",
+    subtitle: "On the civilizations beneath the civilizations",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-mole-people.png",
+    publishedAt: "04/01/2026 08:09 PM",
+    description:
+      "Beneath New York City, thousands of people built lives in the dark — with electricity, rules, and something that looked a lot like hope.",
+  },
+  {
     slug: "the-water-beneath-ontario",
     title: "The Water Beneath Ontario",
     subtitle: "Two billion years of silence, two miles down",
