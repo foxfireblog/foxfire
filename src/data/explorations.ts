@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ransom-for-freedom",
+    title: "The Ransom for Freedom",
+    subtitle: "Haiti won its revolution. Then it spent 122 years paying France for the privilege of having done so.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-ransom-for-freedom.png",
+    publishedAt: "04/02/2026 02:32 PM",
+    description:
+      "The story of how France forced the first free Black republic to pay for its own liberation — and how the debt shaped everything that followed.",
+  },
+  {
     slug: "the-middle-passage-part-2",
     title: "The Middle Passage: The Afterlife (Part II of II)",
     subtitle: "The wealth it built, the institutions that profited, and the ongoing reckoning",

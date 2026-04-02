@@ -36,6 +36,13 @@ export default function TheMiddlePassagePart2() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-middle-passage-part-2.mp3"
       prevSlug="the-middle-passage"
       prevTitle="The Middle Passage: The Crossing (Part I of II)"
+    nextSlug="the-ransom-for-freedom"
+    nextTitle="The Ransom for Freedom"
+    nextSubtitle="Haiti won its revolution. Then it spent 122 years paying France for the privilege of having done so."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-ransom-for-freedom.png"
+    nextReadTime="12 min"
     >
       <h2>I. The Debt That Was Paid in 2015</h2>
 
