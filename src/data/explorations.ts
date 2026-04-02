@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-middle-passage-part-2",
+    title: "The Middle Passage: The Afterlife (Part II of II)",
+    subtitle: "The wealth it built, the institutions that profited, and the ongoing reckoning",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-middle-passage-part-2.png",
+    publishedAt: "04/02/2026 05:15 AM",
+    description:
+      "Twelve million people were forced across the Atlantic in the holds of ships — and the sea itself became a kind of archive.",
+  },
+  {
     slug: "the-mole-people",
     title: "The Mole People",
     subtitle: "On the civilizations beneath the civilizations",
