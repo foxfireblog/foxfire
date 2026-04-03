@@ -1798,5 +1798,25 @@
     "description": "Haiti paid France 150 million francs for the 'loss' of its enslaved population — a debt that wasn't fully settled until 1947. But Haiti was not alone. Across the colonial world, a quiet financial architecture forced newly independent nations to compensate their former colonizers for the privilege of freedom. This was debt as a philosophical instrument: a way of encoding conquest into law, making liberation itself a form of obligation. The ledger outlasted the empire. In some cases, it outlasted living memory. And the logic behind it has never fully disappeared.",
     "imagePrompt": "A massive leather-bound ledger open to pages filled with columns of numbers, draped partially in a tattered colonial-era flag, illuminated by a single candle, deep shadows, the feel of an archive that holds secrets",
     "essayPrompt": "Write a deeply researched, philosophically rich Foxfire essay about the practice of colonial indemnity debts — the financial instruments through which colonized and formerly enslaved peoples were made to compensate their colonizers for the 'loss' incurred by emancipation or independence. Use Haiti's debt to France as the central case but expand outward to other examples. Explore the philosophical logic embedded in these arrangements: how freedom was framed as a property transaction, how debt functioned as a continuation of subjugation by legal means, and how these financial structures shaped economic development (or its absence) for over a century. Engage with questions of reparations, historical accountability, and whether a debt extracted through violence can ever be morally legitimate. Write with the Foxfire voice: rigorous, humane, willing to sit with uncomfortable complexity."
+  },
+  {
+    "slug": "the-cold-light-of-foxfire",
+    "title": "The Cold Light of Foxfire",
+    "subtitle": "Before electricity, rotting wood glowed in the dark — and people used it to see by",
+    "category": "Natural History",
+    "color": "emerald",
+    "description": "In the forests of pre-industrial Europe and America, miners carried glowing wood into shafts too dangerous for open flame. Soldiers in the Civil War noticed that their wounds glowed at night — and those who glowed seemed to survive. This is the story of bioluminescence on land: the foxfire fungi, the ghost mushrooms of Australia, the railroad worm of South America, and the strange, still-contested science of why living things produce cold light in the darkness above the sea.",
+    "imagePrompt": "A dark forest floor at night with softly glowing green-white decaying wood and mushrooms scattered among fallen leaves and roots, ethereal and otherworldly, photorealistic",
+    "essayPrompt": "Write a long-form Foxfire essay about terrestrial bioluminescence — foxfire fungi, glowing wounds (the 'Angel Glow' of the Civil War), the ghost fungus of Australia, and the railroad worm. Explore the science of luciferin and luciferase, why land organisms evolved cold light, how pre-industrial people encountered and used glowing wood, and what it felt like to move through a world where the forest itself could illuminate the dark. Include the history of how science came to understand it, and why the phenomenon was so long dismissed as superstition."
+  },
+  {
+    "slug": "the-abyssal-zone-of-sound",
+    "title": "The Abyssal Zone of Sound",
+    "subtitle": "At a precise depth in every ocean, sound travels so efficiently it can circle the Earth — and the military has been listening there for decades",
+    "category": "Hidden Science",
+    "color": "indigo",
+    "description": "Halfway down through the ocean's layers, there exists a channel where sound waves are trapped and bent by temperature and pressure into a kind of infinite corridor. Called the SOFAR channel, it is perhaps the strangest acoustic phenomenon on Earth — a place where a single explosion can be heard thousands of miles away, where whales may have been singing to each other across entire ocean basins for millennia, and where the United States military built a global network of hydrophones during the Cold War to track Soviet submarines. The channel has also recorded things no one can fully explain.",
+    "imagePrompt": "A cross-section scientific illustration of ocean depth layers showing sound waves bending and converging at a mid-depth channel, rendered in dark navy and electric blue with glowing wave lines, dramatic and technical",
+    "essayPrompt": "Write a long-form Foxfire essay about the SOFAR channel — the deep sound channel that runs through every ocean at roughly 600-1200 meters depth. Explain the physics of how temperature and pressure create a natural acoustic waveguide, how the US Navy's SOSUS network exploited it to listen for Soviet submarines across the entire Atlantic, and how marine biologists later realized whales had been using it for communication for millions of years. Include the strange anomalies recorded in the channel — the Bloop, unexplained slow-frequency pulses — and reflect on what it means that the ocean has had its own global nervous system of sound long before we arrived to tap into it."
   }
 ]
