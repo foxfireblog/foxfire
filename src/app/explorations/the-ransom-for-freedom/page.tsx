@@ -36,6 +36,13 @@ export default function TheRansomForFreedom() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ransom-for-freedom.mp3"
       prevSlug="the-middle-passage-part-2"
       prevTitle="The Middle Passage: The Afterlife (Part II of II)"
+    nextSlug="the-ocean-invented-stars"
+    nextTitle="Deep Ocean Bioluminescence"
+    nextSubtitle="Below the sunlight, the ocean invented its own stars"
+    nextCategory="Natural History"
+    nextCategoryColor="cyan"
+    nextImage="/images/explorations/the-ocean-invented-stars.png"
+    nextReadTime="13 min"
     >
       <h2>The Invoice</h2>
 

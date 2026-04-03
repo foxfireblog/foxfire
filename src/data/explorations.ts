@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ocean-invented-stars",
+    title: "Deep Ocean Bioluminescence",
+    subtitle: "Below the sunlight, the ocean invented its own stars",
+    category: "Natural History",
+    color: "cyan",
+    readTime: "13 min",
+    image: "/images/explorations/the-ocean-invented-stars.png",
+    publishedAt: "04/03/2026 12:45 AM",
+    description:
+      "In the largest habitat on Earth, where no photon of sunlight has ever arrived, life learned to make its own light — and it did so over and over and over again.",
+  },
+  {
     slug: "the-ransom-for-freedom",
     title: "The Ransom for Freedom",
     subtitle: "Haiti won its revolution. Then it spent 122 years paying France for the privilege of having done so.",
