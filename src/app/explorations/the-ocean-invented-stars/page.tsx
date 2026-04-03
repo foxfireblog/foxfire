@@ -36,6 +36,13 @@ export default function TheOceanInventedStars() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ocean-invented-stars.mp3"
       prevSlug="the-ransom-for-freedom"
       prevTitle="The Ransom for Freedom"
+    nextSlug="the-color-that-didnt-exist"
+    nextTitle="The Color That Didn't Exist"
+    nextSubtitle="How the mind learns to see what was always there"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-color-that-didnt-exist.png"
+    nextReadTime="13 min"
     >
       <h2>The Flash at Nagasaki</h2>
 

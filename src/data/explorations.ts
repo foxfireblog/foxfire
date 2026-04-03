@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-color-that-didnt-exist",
+    title: "The Color That Didn't Exist",
+    subtitle: "How the mind learns to see what was always there",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-color-that-didnt-exist.png",
+    publishedAt: "04/03/2026 11:18 AM",
+    description:
+      "Ancient languages had no word for blue — and what that absence reveals about perception, language, and the unsettling possibility that reality is something we learn to see.",
+  },
+  {
     slug: "the-ocean-invented-stars",
     title: "Deep Ocean Bioluminescence",
     subtitle: "Below the sunlight, the ocean invented its own stars",
