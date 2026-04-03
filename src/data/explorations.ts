@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-chilean-experiment",
+    title: "The Chilean Experiment",
+    subtitle: "When economists got a country to practice on",
+    category: "Essay",
+    color: "red",
+    readTime: "10 min",
+    image: "/images/explorations/the-chilean-experiment.png",
+    publishedAt: "04/03/2026 07:46 PM",
+    description:
+      "A democratically elected president was overthrown so that economists could test a theory on a living country — and the world is still living with the results.",
+  },
+  {
     slug: "the-color-that-didnt-exist",
     title: "The Color That Didn't Exist",
     subtitle: "How the mind learns to see what was always there",

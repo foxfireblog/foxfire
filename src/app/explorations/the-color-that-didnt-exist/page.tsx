@@ -36,6 +36,13 @@ export default function TheColorThatDidntExist() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-color-that-didnt-exist.mp3"
       prevSlug="the-ocean-invented-stars"
       prevTitle="Deep Ocean Bioluminescence"
+    nextSlug="the-chilean-experiment"
+    nextTitle="The Chilean Experiment"
+    nextSubtitle="When economists got a country to practice on"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-chilean-experiment.png"
+    nextReadTime="10 min"
     >
       <h2>The Wine-Dark Sea</h2>
 
