@@ -1818,5 +1818,25 @@
     "description": "Halfway down through the ocean's layers, there exists a channel where sound waves are trapped and bent by temperature and pressure into a kind of infinite corridor. Called the SOFAR channel, it is perhaps the strangest acoustic phenomenon on Earth — a place where a single explosion can be heard thousands of miles away, where whales may have been singing to each other across entire ocean basins for millennia, and where the United States military built a global network of hydrophones during the Cold War to track Soviet submarines. The channel has also recorded things no one can fully explain.",
     "imagePrompt": "A cross-section scientific illustration of ocean depth layers showing sound waves bending and converging at a mid-depth channel, rendered in dark navy and electric blue with glowing wave lines, dramatic and technical",
     "essayPrompt": "Write a long-form Foxfire essay about the SOFAR channel — the deep sound channel that runs through every ocean at roughly 600-1200 meters depth. Explain the physics of how temperature and pressure create a natural acoustic waveguide, how the US Navy's SOSUS network exploited it to listen for Soviet submarines across the entire Atlantic, and how marine biologists later realized whales had been using it for communication for millions of years. Include the strange anomalies recorded in the channel — the Bloop, unexplained slow-frequency pulses — and reflect on what it means that the ocean has had its own global nervous system of sound long before we arrived to tap into it."
+  },
+  {
+    "slug": "the-invention-of-blue",
+    "title": "The Invention of Blue",
+    "subtitle": "Why the ancient world couldn't see the sky",
+    "category": "History of Perception",
+    "color": "sky",
+    "description": "Homer called the sea 'wine-dark.' The ancient Greeks had no word for blue. Neither did the Egyptians, the Chinese, the Japanese, the Hebrews, or the Icelanders — until they did. The history of blue is the history of how humans learn to see what was always there, and what it takes for a color to become real.",
+    "imagePrompt": "A fragment of ancient Egyptian faience tile in brilliant lapis blue, surrounded by faded ochre and terracotta pigments on crumbling papyrus, soft archaeological light",
+    "essayPrompt": "Write a deep, curious essay about the peculiar absence of blue in ancient languages and perception — exploring William Gladstone's discovery that Homer never used the word blue, the anthropological research into the Himba tribe of Namibia, the Egyptian invention of the first synthetic pigment, and the philosophical question of whether language shapes what we perceive. Consider what it means that the most common color in the sky had no name for most of human history, and what other things might be invisible to us right now for the same reason."
+  },
+  {
+    "slug": "the-taste-that-cannot-be-named",
+    "title": "The Taste That Cannot Be Named",
+    "subtitle": "On umami, the sense that took a century to believe",
+    "category": "Hidden Science",
+    "color": "amber",
+    "description": "In 1908, a Japanese chemist named Kikunae Ikeda sat down to a bowl of dashi broth and tasted something that had no name. It wasn't sweet, sour, salty, or bitter. It was something else entirely — a fifth dimension of flavor that Western science refused to accept for nearly a hundred years. The story of umami is a story about what happens when perception outruns language, and when one civilization's obvious truth is another's impossible claim.",
+    "imagePrompt": "A ceramic bowl of steaming dashi broth with kombu seaweed visible beneath the surface, photographed from above in dim warm light, wisps of steam curling upward, moody and minimalist",
+    "essayPrompt": "Write a deep, curious essay about the discovery and long rejection of umami as a basic taste — tracing Kikunae Ikeda's 1908 isolation of glutamate from kombu seaweed, the Western scientific establishment's century-long dismissal of his findings, and the eventual neurological proof that the human tongue has specific receptors for this flavor. Explore the cultural dimensions of why Western science was so resistant, the philosophy of how we categorize sensation, and the broader question of how many other perceptions exist that we have not yet named or legitimized."
   }
 ]
