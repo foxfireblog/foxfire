@@ -1838,5 +1838,25 @@
     "description": "In 1908, a Japanese chemist named Kikunae Ikeda sat down to a bowl of dashi broth and tasted something that had no name. It wasn't sweet, sour, salty, or bitter. It was something else entirely — a fifth dimension of flavor that Western science refused to accept for nearly a hundred years. The story of umami is a story about what happens when perception outruns language, and when one civilization's obvious truth is another's impossible claim.",
     "imagePrompt": "A ceramic bowl of steaming dashi broth with kombu seaweed visible beneath the surface, photographed from above in dim warm light, wisps of steam curling upward, moody and minimalist",
     "essayPrompt": "Write a deep, curious essay about the discovery and long rejection of umami as a basic taste — tracing Kikunae Ikeda's 1908 isolation of glutamate from kombu seaweed, the Western scientific establishment's century-long dismissal of his findings, and the eventual neurological proof that the human tongue has specific receptors for this flavor. Explore the cultural dimensions of why Western science was so resistant, the philosophy of how we categorize sensation, and the broader question of how many other perceptions exist that we have not yet named or legitimized."
+  },
+  {
+    "slug": "the-guinea-pig-republic",
+    "title": "The Guinea Pig Republic",
+    "subtitle": "How a tiny Caribbean island became the laboratory for every economic idea the twentieth century could produce",
+    "category": "History",
+    "color": "amber",
+    "description": "Puerto Rico has been, at various times, a showcase for American colonialism, a proving ground for population control experiments, a model for tax-haven capitalism, and a warning about debt-driven collapse. Its people did not choose to be an experiment. They rarely do.",
+    "imagePrompt": "A sun-bleached government building in San Juan with peeling paint and overgrown tropical vegetation, a faded American flag visible through a broken window, cinematic documentary photography",
+    "essayPrompt": "Write a long-form Foxfire essay about Puerto Rico's history as an economic and social laboratory — from Operation Bootstrap in the 1950s through pharmaceutical tax shelters, the debt crisis, and Hurricane Maria. Explore the ethics of using a colonized population as a testing ground for economic theories, the particular cruelty of optimism deployed as a tool of control, and what it means when the experiment fails and the experimenters go home. The tone should be precise, morally serious, and quietly furious. Do not sentimentalize. Begin with a specific scene or moment."
+  },
+  {
+    "slug": "the-man-who-measured-suffering",
+    "title": "The Man Who Measured Suffering",
+    "subtitle": "The strange, troubled life of the economist who invented the idea that happiness could be a number",
+    "category": "Philosophy",
+    "color": "violet",
+    "description": "Jeremy Bentham invented utilitarianism, the felicific calculus, and the panopticon. He requested that his body be preserved and displayed forever. He believed, with absolute sincerity, that everything — pleasure, pain, justice, love — could be reduced to arithmetic. He was not entirely wrong. That is the problem.",
+    "imagePrompt": "An antique glass cabinet in a dimly lit museum containing a preserved seated figure in period clothing, candlelight reflecting off the glass, eerie and philosophical atmosphere, fine art photography",
+    "essayPrompt": "Write a long-form Foxfire essay about Jeremy Bentham, the felicific calculus, and the legacy of utilitarian thinking — tracing how the idea that suffering and happiness can be quantified traveled from Enlightenment philosophy into cost-benefit analysis, behavioral economics, drone strike casualty counts, and the algorithmic optimization of human attention. Explore the seductive danger of measuring what cannot be measured, the way bureaucracies use utilitarian math to launder moral decisions, and what is lost when we treat human experience as data. The tone should be intellectually rigorous and philosophically uneasy. Begin with the image of Bentham's preserved body — the auto-icon — and let it haunt the entire essay."
   }
 ]
