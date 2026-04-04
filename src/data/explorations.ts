@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-night-the-war-stopped-itself",
+    title: "The Night the War Stopped Itself",
+    subtitle: "On Christmas Eve 1914, soldiers climbed out of the trenches — and their generals never forgave them",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-night-the-war-stopped-itself.png",
+    publishedAt: "04/04/2026 04:34 AM",
+    description:
+      "The story of the Christmas Truce of 1914 — when soldiers on both sides of No Man's Land chose each other over their orders, and why it could never be allowed to happen again.",
+  },
+  {
     slug: "the-chilean-experiment",
     title: "The Chilean Experiment",
     subtitle: "When economists got a country to practice on",

@@ -36,6 +36,13 @@ export default function TheChileanExperiment() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-chilean-experiment.mp3"
       prevSlug="the-color-that-didnt-exist"
       prevTitle="The Color That Didn't Exist"
+    nextSlug="the-night-the-war-stopped-itself"
+    nextTitle="The Night the War Stopped Itself"
+    nextSubtitle="On Christmas Eve 1914, soldiers climbed out of the trenches &mdash; and their generals never forgave them"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-night-the-war-stopped-itself.png"
+    nextReadTime="12 min"
     >
       <h2>The Blueprint</h2>
 
