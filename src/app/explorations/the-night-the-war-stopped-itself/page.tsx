@@ -36,6 +36,13 @@ export default function TheNightTheWarStoppedItself() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-night-the-war-stopped-itself.mp3"
       prevSlug="the-chilean-experiment"
       prevTitle="The Chilean Experiment"
+    nextSlug="the-census-that-erased-people"
+    nextTitle="The Census That Erased People"
+    nextSubtitle="How counting became a weapon, and the quiet violence of being categorized out of existence"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-census-that-erased-people.png"
+    nextReadTime="13 min"
     >
       <h2>The Sound Before the Silence</h2>
 

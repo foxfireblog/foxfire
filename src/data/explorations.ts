@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-census-that-erased-people",
+    title: "The Census That Erased People",
+    subtitle: "How counting became a weapon, and the quiet violence of being categorized out of existence",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-census-that-erased-people.png",
+    publishedAt: "04/04/2026 01:38 PM",
+    description:
+      "The census was supposed to count everyone — but what happens when the categories themselves become tools of erasure, ethnic engineering, and slow bureaucratic annihilation?",
+  },
+  {
     slug: "the-night-the-war-stopped-itself",
     title: "The Night the War Stopped Itself",
     subtitle: "On Christmas Eve 1914, soldiers climbed out of the trenches — and their generals never forgave them",
