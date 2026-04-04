@@ -1878,5 +1878,25 @@
     "description": "Throughout history, soldiers have risked their lives — and their commanders' fury — to give enemy dead a proper burial. These acts, small and enormous at once, reveal something unsettling about the psychology of war: the closer you get to killing, the harder it becomes to deny the humanity of the killed.",
     "imagePrompt": "A haunting twilight scene of two soldiers from opposing armies digging a grave together in no-man's land, their uniforms identifiable as enemies, both exhausted and without weapons in hand, the scarred earth around them, a single wooden cross already planted nearby, rendered in the style of a somber First World War memorial painting, deep blues and grays with a pale horizon",
     "essayPrompt": "Write a long-form essay for Foxfire on the history of soldiers honoring enemy dead — from the Greek tradition of allowing enemies to collect their fallen under a flag of truce, to Union soldiers burying Confederates, to the remarkable documented cases in both World Wars of men crossing lines under fire to bury those they had just killed. The essay should wrestle with the philosophical tension at the heart of this act: it is simultaneously an acknowledgment of shared humanity and an extension of the violence that created the corpse. Draw on anthropology, moral philosophy, and specific vivid historical episodes. Explore what these moments tell us about conscience operating beneath ideology — the thing that persists in people even when systems demand otherwise. End with a meditation on burial as the oldest form of the recognition of personhood, and what it means to extend that recognition to someone your nation has defined as an enemy."
+  },
+  {
+    "slug": "the-passport-that-never-existed",
+    "title": "The Passport That Never Existed",
+    "subtitle": "How a single document decided who was human enough to cross a border",
+    "category": "History",
+    "color": "indigo",
+    "description": "In the aftermath of World War I, millions of people found themselves stateless — erased not by a census but by the collapse of empires and the sudden hardening of borders. The Nansen Passport was invented to give them a name. But naming a stateless person is a philosophical paradox: a document issued by no country, recognized by countries that didn't have to, carrying people who technically didn't exist. This is the story of how bureaucratic imagination became the difference between life and death.",
+    "imagePrompt": "A worn, aged passport document with stamps from multiple countries, lying on a wooden table next to a map of post-WWI Europe, dramatic side lighting, muted blues and sepias, documentary photography style",
+    "essayPrompt": "Write a long-form Foxfire essay about the Nansen Passport — the internationally recognized travel document created for stateless refugees after WWI by Fridtjof Nansen. Explore the philosophical paradox of a document that granted legal existence to people no state claimed. Discuss the millions of White Russians, Armenians, and others who carried it; the countries that grudgingly accepted it; and what it reveals about how modern states use paperwork to define who belongs to the human community. Connect to contemporary statelessness — the Rohingya, the Bidoon — and the terrifying power of bureaucratic recognition."
+  },
+  {
+    "slug": "the-anthropometry-of-empire",
+    "title": "The Anthropometry of Empire",
+    "subtitle": "When scientists measured skulls to prove what politicians had already decided",
+    "category": "Science",
+    "color": "amber",
+    "description": "Before the census erased people with categories, a man named Samuel Morton filled a room with skulls. He measured them with mustard seeds, then lead shot, producing tables of numbers that seemed to prove a racial hierarchy of intelligence. His data was wrong — selectively gathered, unconsciously manipulated — but it gave the 19th century something it desperately wanted: the appearance of objectivity. This is the story of how science became the language of domination, and why bad data outlasts the men who fabricated it.",
+    "imagePrompt": "A Victorian-era scientific illustration showing a collection of human skulls arranged on shelves with measurement tools and handwritten data tables, candlelight atmosphere, sepia and amber tones, engraving style",
+    "essayPrompt": "Write a long-form Foxfire essay about Samuel Morton and the history of scientific racism — specifically craniometry and anthropometry, the pseudoscientific measurement of human skulls and bodies to establish racial hierarchies. Explore how Morton's Crania Americana (1839) was later exposed by Stephen Jay Gould as unconsciously manipulated. Examine how this connects to the census, colonial classification, and the deeper problem of motivated reasoning in science. Ask the hard question: if the data feels like it proves what everyone already believes, how do you know when you're doing science and when you're doing politics dressed as science?"
   }
 ]
