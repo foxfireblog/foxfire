@@ -1858,5 +1858,25 @@
     "description": "Jeremy Bentham invented utilitarianism, the felicific calculus, and the panopticon. He requested that his body be preserved and displayed forever. He believed, with absolute sincerity, that everything — pleasure, pain, justice, love — could be reduced to arithmetic. He was not entirely wrong. That is the problem.",
     "imagePrompt": "An antique glass cabinet in a dimly lit museum containing a preserved seated figure in period clothing, candlelight reflecting off the glass, eerie and philosophical atmosphere, fine art photography",
     "essayPrompt": "Write a long-form Foxfire essay about Jeremy Bentham, the felicific calculus, and the legacy of utilitarian thinking — tracing how the idea that suffering and happiness can be quantified traveled from Enlightenment philosophy into cost-benefit analysis, behavioral economics, drone strike casualty counts, and the algorithmic optimization of human attention. Explore the seductive danger of measuring what cannot be measured, the way bureaucracies use utilitarian math to launder moral decisions, and what is lost when we treat human experience as data. The tone should be intellectually rigorous and philosophically uneasy. Begin with the image of Bentham's preserved body — the auto-icon — and let it haunt the entire essay."
+  },
+  {
+    "slug": "the-fever-truce",
+    "title": "The Fever Truce",
+    "subtitle": "How malaria, cholera, and yellow fever ended wars that generals could not",
+    "category": "History",
+    "color": "emerald",
+    "description": "Armies have always had a second enemy. Across centuries of warfare, disease repeatedly accomplished what diplomacy and exhaustion could not — forcing ceasefires, collapsing campaigns, and reshaping borders without a single deliberate negotiation. This is the strange history of pestilence as peacemaker.",
+    "imagePrompt": "A fever-dream painting of a vast battlefield gone silent and still, soldiers of opposing armies lying side by side in the mud not from wounds but from illness, their weapons forgotten, campfires smoldering in the foggy distance, a strange pastoral quiet over the carnage, muted greens and yellows, romantic realist oil painting style",
+    "essayPrompt": "Write a long-form essay for Foxfire exploring the recurring historical phenomenon of disease ending or radically reshaping military conflicts — from the mosquitoes that decimated Napoleon's army in Saint-Domingue and helped trigger the Louisiana Purchase, to the typhus that turned the Eastern Front into a charnel house, to the influenza that shadowed the Armistice of 1918. The essay should examine the strange moral and philosophical weight of this: wars ended not by human choice but by biological force, the absence of agency, the question of whether these were still 'endings' in any meaningful sense. Include vivid specific episodes, the voices of soldiers and commanders confronting this invisible adversary, and close with a meditation on what it means that the things most likely to stop mass violence are often not moral reckonings but microbes."
+  },
+  {
+    "slug": "the-enemy-you-bury-together",
+    "title": "The Enemy You Bury Together",
+    "subtitle": "On the strange intimacy of soldiers who honored the dead of the other side",
+    "category": "Philosophy",
+    "color": "violet",
+    "description": "Throughout history, soldiers have risked their lives — and their commanders' fury — to give enemy dead a proper burial. These acts, small and enormous at once, reveal something unsettling about the psychology of war: the closer you get to killing, the harder it becomes to deny the humanity of the killed.",
+    "imagePrompt": "A haunting twilight scene of two soldiers from opposing armies digging a grave together in no-man's land, their uniforms identifiable as enemies, both exhausted and without weapons in hand, the scarred earth around them, a single wooden cross already planted nearby, rendered in the style of a somber First World War memorial painting, deep blues and grays with a pale horizon",
+    "essayPrompt": "Write a long-form essay for Foxfire on the history of soldiers honoring enemy dead — from the Greek tradition of allowing enemies to collect their fallen under a flag of truce, to Union soldiers burying Confederates, to the remarkable documented cases in both World Wars of men crossing lines under fire to bury those they had just killed. The essay should wrestle with the philosophical tension at the heart of this act: it is simultaneously an acknowledgment of shared humanity and an extension of the violence that created the corpse. Draw on anthropology, moral philosophy, and specific vivid historical episodes. Explore what these moments tell us about conscience operating beneath ideology — the thing that persists in people even when systems demand otherwise. End with a meditation on burial as the oldest form of the recognition of personhood, and what it means to extend that recognition to someone your nation has defined as an enemy."
   }
 ]
