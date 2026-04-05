@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cordyceps-mind",
+    title: "The Cordyceps Mind",
+    subtitle: "The fungus that hijacks the living — and the question it leaves rotting in the brain",
+    category: "Natural Horror",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-cordyceps-mind.png",
+    publishedAt: "04/05/2026 11:09 AM",
+    description:
+      "A fungus that turns insects into puppets forces us to ask: where does the self end and the parasite begin?",
+  },
+  {
     slug: "ghost-ships",
     title: "Ghost Ships",
     subtitle: "Vessels found drifting with no crew aboard, and the stories they refuse to tell",

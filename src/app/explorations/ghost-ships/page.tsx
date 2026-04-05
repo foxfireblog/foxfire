@@ -36,6 +36,13 @@ export default function GhostShips() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/ghost-ships.mp3"
       prevSlug="the-census-that-erased-people"
       prevTitle="The Census That Erased People"
+    nextSlug="the-cordyceps-mind"
+    nextTitle="The Cordyceps Mind"
+    nextSubtitle="The fungus that hijacks the living &mdash; and the question it leaves rotting in the brain"
+    nextCategory="Natural Horror"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-cordyceps-mind.png"
+    nextReadTime="14 min"
     >
       <h2>The Ship That Kept Going</h2>
 
