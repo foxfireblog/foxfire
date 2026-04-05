@@ -36,6 +36,13 @@ export default function TheCensusThatErasedPeople() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-census-that-erased-people.mp3"
       prevSlug="the-night-the-war-stopped-itself"
       prevTitle="The Night the War Stopped Itself"
+    nextSlug="ghost-ships"
+    nextTitle="Ghost Ships"
+    nextSubtitle="Vessels found drifting with no crew aboard, and the stories they refuse to tell"
+    nextCategory="Maritime History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/ghost-ships.png"
+    nextReadTime="12 min"
     >
       <h2>The Purification Ritual</h2>
 

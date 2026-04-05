@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "ghost-ships",
+    title: "Ghost Ships",
+    subtitle: "Vessels found drifting with no crew aboard, and the stories they refuse to tell",
+    category: "Maritime History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/ghost-ships.png",
+    publishedAt: "04/05/2026 01:11 AM",
+    description:
+      "From the Mary Celeste to the MV Jian Seng, the ocean keeps returning our ships — emptied of everyone who sailed them.",
+  },
+  {
     slug: "the-census-that-erased-people",
     title: "The Census That Erased People",
     subtitle: "How counting became a weapon, and the quiet violence of being categorized out of existence",
