@@ -36,6 +36,13 @@ export default function TheCordycepsMind() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cordyceps-mind.mp3"
       prevSlug="ghost-ships"
       prevTitle="Ghost Ships"
+    nextSlug="the-ediacaran-garden"
+    nextTitle="The Ediacaran Garden"
+    nextSubtitle="Before predators, before fear, before anything had learned to run"
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-ediacaran-garden.png"
+    nextReadTime="13 min"
     >
       <h2>The Puppet Show</h2>
 

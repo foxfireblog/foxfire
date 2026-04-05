@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ediacaran-garden",
+    title: "The Ediacaran Garden",
+    subtitle: "Before predators, before fear, before anything had learned to run",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-ediacaran-garden.png",
+    publishedAt: "04/05/2026 07:55 PM",
+    description:
+      "575 million years ago, life invented bodies for the first time — and made them into shapes so strange we still don't know what they were.",
+  },
+  {
     slug: "the-cordyceps-mind",
     title: "The Cordyceps Mind",
     subtitle: "The fungus that hijacks the living — and the question it leaves rotting in the brain",
