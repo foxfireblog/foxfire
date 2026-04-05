@@ -1938,5 +1938,25 @@
     "description": "Plants cannot run. So some of them fight back in ways far stranger than thorns or poison — they alter the behavior of the animals that eat them, recruit their predators, communicate distress across root networks, and in at least one documented case, appear to manipulate the very dreams of the creatures in their ecosystem. The chemical wars beneath your feet are older than animals.",
     "imagePrompt": "Dense tangle of roots and fungal mycelium underground, glowing with faint bioluminescent threads of chemical signals, cross-section view showing the hidden world beneath a forest floor, dark soil, ethereal and slightly sinister, detailed scientific illustration meets dark art",
     "essayPrompt": "Write a Foxfire essay about plant chemical ecology — specifically the ways plants manipulate animal behavior rather than simply defending against it. Open with the discovery of volatile organic compounds that some plants release when being eaten, not just as a defense signal but as a recruitment call to predators of the insects attacking them — a distress signal that summons a specific ally. Explore the wood wide web not as a feel-good story of forest cooperation but as a complex chemical negotiation, sometimes cooperative, sometimes parasitic. Discuss plants that alter the gut microbiome of their pollinators to increase return visits, essentially rewiring animal preference through chemistry. Move into the stranger territory: compounds in certain plants that affect mammalian sleep architecture and dream content, with Indigenous knowledge traditions that map these effects with precision. Draw the philosophical thread: the distinction between 'passive' and 'active' in biology is a human projection. These organisms act with a chemical intentionality that predates nervous systems entirely. Close by asking what agency means when it doesn't require a brain."
+  },
+  {
+    "slug": "the-snowball-and-the-bloom",
+    "title": "The Snowball and the Bloom",
+    "subtitle": "How a frozen planet accidentally invented complexity",
+    "category": "Natural History",
+    "color": "cyan",
+    "description": "Seven hundred million years ago, Earth froze entirely — pole to pole, ocean to ocean, a white marble spinning in the dark. The Snowball Earth hypothesis is one of the most dramatic and contested ideas in geology. But what came after may matter more: the thaw triggered an explosion of oxygen, chemical chaos, and evolutionary pressure that set the stage for everything that would ever breathe. The catastrophe was the gift.",
+    "imagePrompt": "A frozen Earth seen from space, entirely white and glaciated, with a thin line of volcanic red glowing along the equator where magma meets ice, deep blue atmosphere, photorealistic, dramatic cosmic lighting",
+    "essayPrompt": "Write a long-form essay for Foxfire exploring the Snowball Earth hypothesis — what caused it, what it was like, and why the thaw may have been the single most important event in animal evolution. Explore the scientific controversy, the strange chemistry of the aftermath, and the idea that catastrophe can be generative. Connect it to the Ediacaran world that emerged from the ice. Use vivid, literary prose that makes deep time feel immediate."
+  },
+  {
+    "slug": "the-grammar-of-symmetry",
+    "title": "The Grammar of Symmetry",
+    "subtitle": "Why every animal on Earth shares the same ancient body plan",
+    "category": "Science",
+    "color": "emerald",
+    "description": "Almost every animal alive today — from you to a fruit fly to a lobster — shares a set of ancient genes called Hox genes that determine where the head goes, where the limbs go, and how the body organizes itself along an axis. These genes are so conserved that a mouse Hox gene transplanted into a fruit fly still works. This is one of the most astonishing facts in biology: the grammar of bodies was written once, deep in Precambrian time, and everything since has been variation on a theme. The blueprint preceded the animals.",
+    "imagePrompt": "A translucent anatomical diagram overlaid with glowing gene sequences, showing the body plans of a human, a fly, and a worm aligned in parallel, with colored bands of Hox gene expression lighting up matching segments, dark background, scientific and ethereal",
+    "essayPrompt": "Write a long-form essay for Foxfire about Hox genes and the deep unity of animal body plans. Explore the discovery of homeobox genes, the shock of finding the same sequences across wildly different animals, and what this tells us about a common ancestor that lived before the Cambrian. Discuss evo-devo as a field, and the philosophical implications of a universe where complexity is built from recycled instructions. Keep the prose literary and wondrous, accessible to a curious non-specialist."
   }
 ]
