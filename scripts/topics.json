@@ -1978,5 +1978,25 @@
     "description": "Phantom limbs are well documented — the ghost of an amputated arm that still aches, still reaches for a glass. But the phenomenon goes stranger and deeper than that. Some people born without limbs feel phantoms of the missing parts. Some people who have never been amputated feel an alien limb that belongs to someone else. And in Body Integrity Identity Disorder, people feel a limb they have as the phantom — an intrusion, something that should not be there. The brain, it turns out, builds the body from expectation, not experience.",
     "imagePrompt": "A single human arm rendered in soft graphite strokes fading into nothing at the elbow, the continuation of the arm suggested only by faint ghost lines in empty space, on a warm cream background, meditative and haunting",
     "essayPrompt": "Write a deeply researched, lyrical long-form essay exploring the full strange spectrum of phantom body phenomena — from classic phantom limb pain after amputation to congenital phantoms felt by people born without limbs (which suggests the brain has an innate body map not derived from experience), to supernumerary phantom limbs reported after certain strokes, to Body Integrity Identity Disorder (BIID), in which people feel a present limb as profoundly alien and wrong. Include the work of V.S. Ramachandran and his mirror box therapy, the neuroscience of the cortical homunculus, and what congenital phantoms reveal about whether the body schema is learned or hardwired. Discuss BIID with care and nuance — the philosophical and ethical debates around it, and what it tells us about the gap between the brain's body map and the physical body. Connect to the rubber hand illusion's insight that body ownership is a construction, not a given. The essay should be compassionate, scientifically rigorous, and philosophically alive — ending with the unsettling and beautiful conclusion that the body you inhabit is partly a story your brain tells about itself."
+  },
+  {
+    "slug": "the-art-of-dying-unrecognized",
+    "title": "The Art of Dying Unrecognized",
+    "subtitle": "The strange history of genius discovered too late",
+    "category": "History & Art",
+    "color": "violet",
+    "description": "From Franz Kafka begging Max Brod to burn his manuscripts, to Emily Dickinson hiding 1,800 poems in a locked box, to Henry Darger filling his apartment with 15,000 pages of illustrated fantasy — some of the most astonishing creative work in history was made in total secrecy, discovered only after death. What drives a person to make art that no one will ever see? And what does it mean to 'discover' someone who chose to be hidden?",
+    "imagePrompt": "A single candle illuminating a vast archive of handwritten manuscripts and rolled paintings stacked floor to ceiling in a dusty, cramped apartment at night, ink still gleaming on an open notebook, a pair of reading glasses resting on the page as if someone just stepped away",
+    "essayPrompt": "Explore the phenomenon of posthumously discovered artists and writers — Kafka, Dickinson, Henry Darger, Anna Kavan, and others. Examine the psychology of secret creation: the question of whether making art *for* an audience changes what art is, the ethics of publishing what someone wanted burned, and the uncomfortable possibility that the act of discovery is also an act of violation. Weave in the philosophy of creativity as private ritual versus public communication."
+  },
+  {
+    "slug": "the-street-as-archive",
+    "title": "The Street as Archive",
+    "subtitle": "How cities accidentally record everything",
+    "category": "Art & Philosophy",
+    "color": "amber",
+    "description": "Every city is an unintentional photograph of its own past. Sidewalks bear the ghost-marks of removed fire hydrants. Walls hold the shadows of demolished buildings, bleached into the brick. Street widths remember the turning radius of horses. The city doesn't mean to remember — it simply cannot forget. Urban archaeologists and psychogeographers have developed an entire practice around reading these accidental inscriptions, treating the built environment as the world's longest-running documentary project.",
+    "imagePrompt": "A close-up of a weathered urban wall revealing ghost signs, faded painted advertisements, shadow outlines of a demolished adjacent building, and layers of posters and paint peeling back through decades, golden afternoon light raking across the textured surface to reveal every scar and inscription",
+    "essayPrompt": "Write about the city as an involuntary archive — the concept of 'ghost signs,' shadow facades, palimpsest streets, and the archaeology of everyday urban surfaces. Draw on psychogeography (Debord, Benjamin's Arcades Project), urban archaeology, and the work of photographers and writers who read cities like texts. Connect to the broader idea that the most honest documents of a civilization are the ones it never intended to make — the accidental records, the overlooked surfaces, the margins of the built world."
   }
 ]
