@@ -36,6 +36,13 @@ export default function TheRubberHandIllusion() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-rubber-hand-illusion.mp3"
       prevSlug="the-ediacaran-garden"
       prevTitle="The Ediacaran Garden"
+    nextSlug="vivian-maiers-secret-eye"
+    nextTitle="Vivian Maier's Secret Eye"
+    nextSubtitle="On the woman who made 150,000 photographs and showed them to no one"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/vivian-maiers-secret-eye.png"
+    nextReadTime="12 min"
     >
       <h2>The Paintbrush and the Lie</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "vivian-maiers-secret-eye",
+    title: "Vivian Maier's Secret Eye",
+    subtitle: "On the woman who made 150,000 photographs and showed them to no one",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/vivian-maiers-secret-eye.png",
+    publishedAt: "04/06/2026 02:13 PM",
+    description:
+      "A nanny spent decades capturing the soul of American street life in over 150,000 photographs — then hid them all away, raising questions about art, intention, and whether a masterpiece needs a witness.",
+  },
+  {
     slug: "the-rubber-hand-illusion",
     title: "The Rubber Hand Illusion",
     subtitle: "How easily you can be convinced that someone else's body is yours",
