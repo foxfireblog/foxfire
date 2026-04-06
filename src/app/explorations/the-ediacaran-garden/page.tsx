@@ -36,6 +36,13 @@ export default function TheEdiacaranGarden() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ediacaran-garden.mp3"
       prevSlug="the-cordyceps-mind"
       prevTitle="The Cordyceps Mind"
+    nextSlug="the-rubber-hand-illusion"
+    nextTitle="The Rubber Hand Illusion"
+    nextSubtitle="How easily you can be convinced that someone else's body is yours"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-rubber-hand-illusion.png"
+    nextReadTime="11 min"
     >
       <h2>The World Before Fear</h2>
 

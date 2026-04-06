@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-rubber-hand-illusion",
+    title: "The Rubber Hand Illusion",
+    subtitle: "How easily you can be convinced that someone else's body is yours",
+    category: "Essay",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-rubber-hand-illusion.png",
+    publishedAt: "04/06/2026 05:08 AM",
+    description:
+      "A simple experiment with a fake hand and a paintbrush reveals that your sense of self is a story your brain tells — and it can be rewritten in ninety seconds.",
+  },
+  {
     slug: "the-ediacaran-garden",
     title: "The Ediacaran Garden",
     subtitle: "Before predators, before fear, before anything had learned to run",
