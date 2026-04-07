@@ -1998,5 +1998,25 @@
     "description": "Every city is an unintentional photograph of its own past. Sidewalks bear the ghost-marks of removed fire hydrants. Walls hold the shadows of demolished buildings, bleached into the brick. Street widths remember the turning radius of horses. The city doesn't mean to remember — it simply cannot forget. Urban archaeologists and psychogeographers have developed an entire practice around reading these accidental inscriptions, treating the built environment as the world's longest-running documentary project.",
     "imagePrompt": "A close-up of a weathered urban wall revealing ghost signs, faded painted advertisements, shadow outlines of a demolished adjacent building, and layers of posters and paint peeling back through decades, golden afternoon light raking across the textured surface to reveal every scar and inscription",
     "essayPrompt": "Write about the city as an involuntary archive — the concept of 'ghost signs,' shadow facades, palimpsest streets, and the archaeology of everyday urban surfaces. Draw on psychogeography (Debord, Benjamin's Arcades Project), urban archaeology, and the work of photographers and writers who read cities like texts. Connect to the broader idea that the most honest documents of a civilization are the ones it never intended to make — the accidental records, the overlooked surfaces, the margins of the built world."
+  },
+  {
+    "slug": "the-confessor-problem",
+    "title": "The Confessor Problem",
+    "subtitle": "What happens to the person who hears the worst things human beings do",
+    "category": "Psychology",
+    "color": "violet",
+    "description": "Priests, therapists, war crimes investigators, and 911 dispatchers all share a secret burden: secondary traumatic stress, the wound that comes not from doing harm but from witnessing it. This is the strange, underexplored psychology of those who hold other people's darkest moments — and what it costs them to carry what cannot be set down.",
+    "imagePrompt": "A single wooden confessional booth in an empty stone church, light filtering through a small latticed window, casting a divided shadow — half illuminated, half in deep darkness, dust motes suspended in the air like unspoken words",
+    "essayPrompt": "Write a deep, lyrical Foxfire essay about secondary traumatic stress — the psychological wound that comes not from committing harm but from bearing sustained witness to it. Explore the experiences of war crimes investigators, trauma therapists, Catholic confessors, and emergency dispatchers. Examine the history of how this condition was named and recognized, the neuroscience of vicarious trauma, and the philosophical question of whether absorbing another person's suffering is a form of love or a form of destruction. Consider what it means to be a container for the worst of human experience, and what happens when that container cracks."
+  },
+  {
+    "slug": "the-army-that-marched-home-different",
+    "title": "The Army That Marched Home Different",
+    "subtitle": "How returning soldiers have always remade — and sometimes broken — the societies that sent them",
+    "category": "History",
+    "color": "amber",
+    "description": "Every major war has sent men and women home fundamentally altered — and those altered people have shaped history in ways we rarely track. From Roman legions who returned to destabilize the Republic, to the shell-shocked veterans who filled Weimar Germany's streets and fed its extremism, to the Vietnam generation who seeded the American therapy movement, this is the hidden political history of what happens when the wounded come home.",
+    "imagePrompt": "A wide, dusty Roman road receding into a golden horizon, with the silhouette of a single soldier walking toward a city skyline that looks subtly wrong — one tower leaning, the geometry slightly off, the familiar made strange",
+    "essayPrompt": "Write a sweeping, erudite Foxfire essay about the historical pattern of returning soldiers remaking — or destabilizing — the civilizations that sent them to war. Begin with Roman legionaries who came home to an agrarian society that no longer existed, then move through the shell-shocked men who populated Weimar Germany and proved easy recruits for extremism, the American Civil War veterans who pioneered addiction medicine by accident, and the Vietnam veterans whose suffering catalyzed the entire modern trauma therapy movement. Examine the political philosophy of what a society owes the people it transforms through violence, and the dangerous gap between the world soldiers left and the world they return to."
   }
 ]
