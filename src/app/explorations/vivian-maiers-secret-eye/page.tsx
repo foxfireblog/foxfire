@@ -36,6 +36,13 @@ export default function VivianMaiersSecretEye() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/vivian-maiers-secret-eye.mp3"
       prevSlug="the-rubber-hand-illusion"
       prevTitle="The Rubber Hand Illusion"
+    nextSlug="the-moral-injury"
+    nextTitle="The Moral Injury"
+    nextSubtitle="The wound that has no bandage"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-moral-injury.png"
+    nextReadTime="12 min"
     >
       <h2>The Box at the Auction House</h2>
 

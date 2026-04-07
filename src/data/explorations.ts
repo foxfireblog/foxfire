@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-moral-injury",
+    title: "The Moral Injury",
+    subtitle: "The wound that has no bandage",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-moral-injury.png",
+    publishedAt: "04/07/2026 01:09 AM",
+    description:
+      "On the invisible wound that comes not from what was done to you, but from what you did — or failed to do — or were forced to witness.",
+  },
+  {
     slug: "vivian-maiers-secret-eye",
     title: "Vivian Maier's Secret Eye",
     subtitle: "On the woman who made 150,000 photographs and showed them to no one",
