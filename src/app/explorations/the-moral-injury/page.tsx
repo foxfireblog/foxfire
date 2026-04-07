@@ -36,6 +36,13 @@ export default function TheMoralInjury() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-moral-injury.mp3"
       prevSlug="vivian-maiers-secret-eye"
       prevTitle="Vivian Maier's Secret Eye"
+    nextSlug="the-informers"
+    nextTitle="The Informers"
+    nextSubtitle="On the ordinary architecture of betrayal"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-informers.png"
+    nextReadTime="12 min"
     >
       <h2>The Boy with the AK-47</h2>
 

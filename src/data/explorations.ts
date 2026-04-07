@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-informers",
+    title: "The Informers",
+    subtitle: "On the ordinary architecture of betrayal",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-informers.png",
+    publishedAt: "04/07/2026 11:40 AM",
+    description:
+      "Who tells, and why — an exploration of the psychology of informing, from East Germany's neighbor-spies to workplace whistleblowers, and what it reveals about the fragile machinery of trust.",
+  },
+  {
     slug: "the-moral-injury",
     title: "The Moral Injury",
     subtitle: "The wound that has no bandage",
