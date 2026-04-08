@@ -2058,5 +2058,25 @@
     "description": "The transatlantic slave trade was not just a moral catastrophe — it was a financial system of extraordinary sophistication, and at its heart was a coffeehouse in London where merchants gathered to insure their 'cargo.' Lloyd's of London didn't invent slavery. It invented the risk calculus that made slavery an industry. When ships were lost, claims were filed. When enslaved people were thrown overboard, the question became actuarial. This is the story of how paperwork and probability transformed human beings into line items — and how that transformation made abolition so much harder to achieve.",
     "imagePrompt": "A dimly lit 18th-century London coffeehouse filled with merchants and ledger books, candlelight illuminating columns of handwritten figures and ship manifests, dark mahogany walls hung with maritime charts, the atmosphere simultaneously elegant and sinister, gold coins and ink-stained documents on every table, a foggy Thames visible through leaded windows",
     "essayPrompt": "Write a Foxfire essay about the role of the insurance industry — specifically Lloyd's of London — in sustaining and rationalizing the transatlantic slave trade. Begin with the coffeehouse origins of Lloyd's and the culture of maritime insurance in the 18th century. Explain how insuring slave ships worked: what was covered, how 'cargo' was valued, what constituted a valid claim. Use the Zong massacre as the pivotal case — the moment when the insurance logic was made nakedly visible in court, when the question 'were the enslaved people murdered or lost at sea?' had to be answered in financial terms. Then broaden outward: explore how insurance didn't just enable the slave trade but restructured it, making risk manageable and profit predictable, attracting capital that wouldn't otherwise have entered the market. Discuss the concept of moral hazard — how insuring against loss can encourage the very disasters it covers. Examine Lloyd's belated 2020 apology and what it means for an institution to reckon with inherited guilt. End with a meditation on how the most durable engines of historical atrocity are often not the ideologues but the accountants — the people who made the numbers work."
+  },
+  {
+    "slug": "the-eichmann-show",
+    "title": "The Eichmann Show",
+    "subtitle": "The trial that invented televised justice — and the philosopher who watched it change everything",
+    "category": "History & Philosophy",
+    "color": "violet",
+    "description": "In 1961, Adolf Eichmann sat behind bulletproof glass in Jerusalem, and Hannah Arendt watched. What she saw — not a monster, but a bureaucrat — would become one of the most controversial and misunderstood ideas of the twentieth century. The banality of evil was never a defense. It was an accusation against all of us.",
+    "imagePrompt": "A man sits alone in a glass booth in a vast courtroom, surrounded by bright television lights, seen from a great distance, the booth impossibly small against the weight of the space around him, stark black and white photography aesthetic",
+    "essayPrompt": "Write a deep, layered essay about the Eichmann trial, Hannah Arendt's reporting, and her concept of the 'banality of evil.' Explore how the trial was the first to be televised internationally, how Arendt's observations were received with fury, and how her central insight — that Eichmann was terrifyingly ordinary, that he had simply stopped thinking — connects to the deepest questions about moral responsibility, obedience, and what it means to be human. Engage with the philosophical stakes honestly, including the criticisms of her work."
+  },
+  {
+    "slug": "the-stanford-collapse",
+    "title": "The Stanford Collapse",
+    "subtitle": "Philip Zimbardo built a prison in a basement and watched ordinary students become monsters — then lied about what he saw",
+    "category": "Science & Psychology",
+    "color": "amber",
+    "description": "The Stanford Prison Experiment is one of the most cited studies in the history of psychology. It is also, in significant ways, a fraud. The guards were coached. The prisoners were not allowed to leave. Zimbardo himself played a role. What the experiment actually revealed wasn't what darkness lurks in human nature — it was how easily a story about human nature can be manufactured and sold.",
+    "imagePrompt": "A long corridor of empty cells, lit by a single fluorescent light, shadows of bars falling across a concrete floor, grainy and institutional, the light at the end slightly overexposed and unreachable",
+    "essayPrompt": "Write a rigorous, gripping essay about the Stanford Prison Experiment — its famous results, its enormous cultural footprint, and the revisionist investigation that revealed how deeply compromised it was. Draw on the recordings and accounts that emerged decades later. Explore what this means for the Milgram-era tradition of using psychology to make dramatic claims about human nature, and ask the harder question: if the experiment was partly staged, why did we want so badly to believe it?"
   }
 ]
