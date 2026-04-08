@@ -36,6 +36,13 @@ export default function TheInformers() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-informers.mp3"
       prevSlug="the-moral-injury"
       prevTitle="The Moral Injury"
+    nextSlug="the-zong-massacre"
+    nextTitle="The Zong Massacre"
+    nextSubtitle="The day 132 people were thrown into the sea, and the courts argued about cargo"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-zong-massacre.png"
+    nextReadTime="13 min"
     >
       <h2>The Chicken Liver Report</h2>
 

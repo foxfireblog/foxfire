@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-zong-massacre",
+    title: "The Zong Massacre",
+    subtitle: "The day 132 people were thrown into the sea, and the courts argued about cargo",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-zong-massacre.png",
+    publishedAt: "04/08/2026 12:34 AM",
+    description:
+      "In 1781, the crew of a slave ship threw 132 living people overboard to collect insurance money — and the resulting trial was about property loss, not murder.",
+  },
+  {
     slug: "the-informers",
     title: "The Informers",
     subtitle: "On the ordinary architecture of betrayal",
