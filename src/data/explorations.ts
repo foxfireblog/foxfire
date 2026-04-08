@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-milgram-trap",
+    title: "The Milgram Trap",
+    subtitle: "The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you.",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-milgram-trap.png",
+    publishedAt: "04/08/2026 02:31 PM",
+    description:
+      "Stanley Milgram's obedience experiments revealed something about human nature that we've spent sixty years trying to explain away — and failing.",
+  },
+  {
     slug: "the-zong-massacre",
     title: "The Zong Massacre",
     subtitle: "The day 132 people were thrown into the sea, and the courts argued about cargo",
