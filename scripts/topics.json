@@ -2078,5 +2078,25 @@
     "description": "The Stanford Prison Experiment is one of the most cited studies in the history of psychology. It is also, in significant ways, a fraud. The guards were coached. The prisoners were not allowed to leave. Zimbardo himself played a role. What the experiment actually revealed wasn't what darkness lurks in human nature — it was how easily a story about human nature can be manufactured and sold.",
     "imagePrompt": "A long corridor of empty cells, lit by a single fluorescent light, shadows of bars falling across a concrete floor, grainy and institutional, the light at the end slightly overexposed and unreachable",
     "essayPrompt": "Write a rigorous, gripping essay about the Stanford Prison Experiment — its famous results, its enormous cultural footprint, and the revisionist investigation that revealed how deeply compromised it was. Draw on the recordings and accounts that emerged decades later. Explore what this means for the Milgram-era tradition of using psychology to make dramatic claims about human nature, and ask the harder question: if the experiment was partly staged, why did we want so badly to believe it?"
+  },
+  {
+    "slug": "the-red-mercury-hoax",
+    "title": "The Red Mercury Hoax",
+    "subtitle": "The phantom superweapon that fooled arms dealers, terrorists, and governments for decades",
+    "category": "History",
+    "color": "red",
+    "description": "In the dying years of the Soviet Union, a mysterious substance called red mercury began circulating through the black markets of Eastern Europe. Supposedly a post-nuclear explosive requiring no fissile material, it promised a bomb small enough to fit in a briefcase. Arms dealers sold it by the kilogram. Terrorists paid fortunes for it. Intelligence agencies chased it across three continents. The only problem: it almost certainly didn't exist. But the chase was real, the money was real, and the deaths were real — which raises the most disturbing question of all: if a weapon exists only in collective belief, can it still reshape the world?",
+    "imagePrompt": "A dark glass vial filled with deep crimson liquid sitting on a Cold War-era map of the Soviet Union, surrounded by classified document stamps and shadows, cinematic and ominous",
+    "essayPrompt": "Write a long-form Foxfire essay about the red mercury hoax — the phantom superweapon that circulated through Cold War black markets. Explore its murky origins in Soviet disinformation, the arms dealers and desperate governments who believed in it, the journalists and scientists who tried to debunk it, and the people who were murdered over a substance that likely never existed. Examine what the hoax reveals about the psychology of nuclear fear, the opacity of weapons programs, and how belief in a weapon can function almost like the weapon itself."
+  },
+  {
+    "slug": "the-peaceful-nuclear-explosion",
+    "title": "The Peaceful Nuclear Explosion",
+    "subtitle": "When engineers genuinely believed they could terraform the Earth with hydrogen bombs",
+    "category": "Science",
+    "color": "amber",
+    "description": "Between the 1950s and 1970s, some of the most brilliant engineers in the world pursued a serious, government-funded program to use thermonuclear bombs as construction tools. They would blast a new harbor through Alaska. They would dig a second Panama Canal. They would fracture underground rock to release natural gas. The Soviet Union actually did it — detonating over 150 nuclear devices for 'peaceful' purposes, some of which are still smoldering today. Project Plowshare and its Soviet counterpart weren't fringe science. They were mainstream ambition. This is the story of how the atomic age briefly convinced humanity that the most violent force it had ever created was also its greatest engineering tool.",
+    "imagePrompt": "A 1960s engineering blueprint spread across a drafting table showing a harbor carved into a coastline, with a small mushroom cloud illustration in the corner drawn in technical diagram style, warm amber and sepia tones",
+    "essayPrompt": "Write a long-form Foxfire essay about Project Plowshare and the Soviet peaceful nuclear explosion program — the serious, government-backed effort to use thermonuclear bombs as terraforming tools. Explore the genuine optimism of the scientists involved, the specific projects proposed (and in the Soviet case, actually executed), the radioactive consequences that still persist, and what this episode reveals about the particular hubris of mid-century technocracy — the belief that any problem, including the bomb itself, could be solved by more engineering."
   }
 ]
