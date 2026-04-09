@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-free-republic-of-palmares",
+    title: "The Free Republic of Palmares",
+    subtitle: "For nearly a century, escaped slaves built a nation inside Brazil — and the Portuguese couldn't destroy it",
+    category: "History",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-free-republic-of-palmares.png",
+    publishedAt: "04/09/2026 11:44 AM",
+    description:
+      "The story of the largest and longest-lasting maroon settlement in the Americas — a fugitive nation that held off colonial armies for ninety years and whose destruction required the kind of force usually reserved for sovereign states.",
+  },
+  {
     slug: "the-hafnium-bomb",
     title: "The Hafnium Bomb",
     subtitle: "A decade of chasing a weapon that physics itself refused to confirm",

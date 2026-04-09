@@ -36,6 +36,13 @@ export default function TheHafniumBomb() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-hafnium-bomb.mp3"
       prevSlug="the-milgram-trap"
       prevTitle="The Milgram Trap"
+    nextSlug="the-free-republic-of-palmares"
+    nextTitle="The Free Republic of Palmares"
+    nextSubtitle="For nearly a century, escaped slaves built a nation inside Brazil &mdash; and the Portuguese couldn't destroy it"
+    nextCategory="History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-free-republic-of-palmares.png"
+    nextReadTime="12 min"
     >
       <h2>The Coffee Cup and the End of the World</h2>
 
