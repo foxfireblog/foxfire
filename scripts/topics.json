@@ -2098,5 +2098,25 @@
     "description": "Between the 1950s and 1970s, some of the most brilliant engineers in the world pursued a serious, government-funded program to use thermonuclear bombs as construction tools. They would blast a new harbor through Alaska. They would dig a second Panama Canal. They would fracture underground rock to release natural gas. The Soviet Union actually did it — detonating over 150 nuclear devices for 'peaceful' purposes, some of which are still smoldering today. Project Plowshare and its Soviet counterpart weren't fringe science. They were mainstream ambition. This is the story of how the atomic age briefly convinced humanity that the most violent force it had ever created was also its greatest engineering tool.",
     "imagePrompt": "A 1960s engineering blueprint spread across a drafting table showing a harbor carved into a coastline, with a small mushroom cloud illustration in the corner drawn in technical diagram style, warm amber and sepia tones",
     "essayPrompt": "Write a long-form Foxfire essay about Project Plowshare and the Soviet peaceful nuclear explosion program — the serious, government-backed effort to use thermonuclear bombs as terraforming tools. Explore the genuine optimism of the scientists involved, the specific projects proposed (and in the Soviet case, actually executed), the radioactive consequences that still persist, and what this episode reveals about the particular hubris of mid-century technocracy — the belief that any problem, including the bomb itself, could be solved by more engineering."
+  },
+  {
+    "slug": "the-maroon-cartography",
+    "title": "The Maroon Cartography",
+    "subtitle": "How escaped slaves built secret geographies that colonial maps refused to show",
+    "category": "History",
+    "color": "emerald",
+    "description": "Across Jamaica, Suriname, and the Blue Mountains of the Caribbean, communities of escaped slaves — called Maroons — built entire nations in the spaces between colonial maps. They developed sophisticated trail systems designed to disorient pursuers, gave rivers false names, and created oral cartographies that existed only in memory. When the British finally signed peace treaties with the Jamaican Maroons in 1739, they were negotiating with a state that had, for decades, existed nowhere on paper and everywhere on the ground.",
+    "imagePrompt": "Dense tropical jungle with hidden paths winding through mist-covered mountains, ancient hand-drawn map fragments overlaid on lush green canopy, golden morning light filtering through towering trees, a sense of secret civilization hidden within wilderness, painterly and atmospheric",
+    "essayPrompt": "Write a deep, reflective essay about the Maroon communities of Jamaica, Suriname, and the wider Caribbean — focusing on how they used geography, secrecy, and oral knowledge as instruments of freedom. Explore their military tactics, their political structures, the controversial peace treaties they signed, and the moral complexity of their legacy. Consider what it means to build a civilization that must remain invisible to survive."
+  },
+  {
+    "slug": "the-quilombo-of-the-law",
+    "title": "The Quilombo of the Law",
+    "subtitle": "Brazil spent a century trying to erase Palmares — then slowly wrote it back into the constitution",
+    "category": "Politics",
+    "color": "amber",
+    "description": "In 1988, Brazil's new democratic constitution included a provision so unusual that legal scholars still argue about what it means: descendants of quilombo communities — the fugitive slave settlements once hunted and destroyed by colonial forces — were granted collective land rights to the territories their ancestors had defended. It was, in effect, a legal resurrection of Palmares. But implementing the law revealed every contradiction in Brazilian society: who counts as a descendant, who owns the land in between, and whether a constitution can undo three centuries of deliberate erasure. The story of that one article is the story of Brazil's unfinished reckoning with itself.",
+    "imagePrompt": "Aged Brazilian legal documents and constitutional text alongside photographs of Afro-Brazilian communities in lush rural landscapes, split composition of colonial-era destruction and modern village life, warm amber tones, documentary and contemplative in style",
+    "essayPrompt": "Write a deep, reflective essay about Article 68 of Brazil's 1988 constitution, which grants land rights to quilombo descendants. Explore the legal, political, and cultural battles over its implementation — the communities still waiting for recognition, the landowners and agribusiness interests who contest their claims, and the historians and anthropologists drawn into legal proceedings to prove that a community is what it says it is. Ask what justice looks like when it arrives two hundred years too late."
   }
 ]
