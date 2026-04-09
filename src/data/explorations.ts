@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-hafnium-bomb",
+    title: "The Hafnium Bomb",
+    subtitle: "A decade of chasing a weapon that physics itself refused to confirm",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-hafnium-bomb.png",
+    publishedAt: "04/09/2026 12:52 AM",
+    description:
+      "The strange, obsessive quest to build a nuclear weapon from a dental X-ray — and the scientists who couldn't let it go.",
+  },
+  {
     slug: "the-milgram-trap",
     title: "The Milgram Trap",
     subtitle: "The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you.",

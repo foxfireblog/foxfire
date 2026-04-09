@@ -36,6 +36,13 @@ export default function TheMilgramTrap() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-milgram-trap.mp3"
       prevSlug="the-zong-massacre"
       prevTitle="The Zong Massacre"
+    nextSlug="the-hafnium-bomb"
+    nextTitle="The Hafnium Bomb"
+    nextSubtitle="A decade of chasing a weapon that physics itself refused to confirm"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-hafnium-bomb.png"
+    nextReadTime="12 min"
     >
       <h2>The Switch</h2>
 
