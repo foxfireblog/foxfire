@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-longitude-problem",
+    title: "The Longitude Problem",
+    subtitle: "The clockmaker who saved a million sailors and died waiting for his reward",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-longitude-problem.png",
+    publishedAt: "04/10/2026 01:08 AM",
+    description:
+      "For centuries, sailors died because no one could measure east from west — until an uneducated carpenter built the most important clock in history, and the establishment tried to steal it from him.",
+  },
+  {
     slug: "the-free-republic-of-palmares",
     title: "The Free Republic of Palmares",
     subtitle: "For nearly a century, escaped slaves built a nation inside Brazil — and the Portuguese couldn't destroy it",
