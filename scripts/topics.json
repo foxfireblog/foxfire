@@ -2118,5 +2118,25 @@
     "description": "In 1988, Brazil's new democratic constitution included a provision so unusual that legal scholars still argue about what it means: descendants of quilombo communities — the fugitive slave settlements once hunted and destroyed by colonial forces — were granted collective land rights to the territories their ancestors had defended. It was, in effect, a legal resurrection of Palmares. But implementing the law revealed every contradiction in Brazilian society: who counts as a descendant, who owns the land in between, and whether a constitution can undo three centuries of deliberate erasure. The story of that one article is the story of Brazil's unfinished reckoning with itself.",
     "imagePrompt": "Aged Brazilian legal documents and constitutional text alongside photographs of Afro-Brazilian communities in lush rural landscapes, split composition of colonial-era destruction and modern village life, warm amber tones, documentary and contemplative in style",
     "essayPrompt": "Write a deep, reflective essay about Article 68 of Brazil's 1988 constitution, which grants land rights to quilombo descendants. Explore the legal, political, and cultural battles over its implementation — the communities still waiting for recognition, the landowners and agribusiness interests who contest their claims, and the historians and anthropologists drawn into legal proceedings to prove that a community is what it says it is. Ask what justice looks like when it arrives two hundred years too late."
+  },
+  {
+    "slug": "the-meridian-that-moved",
+    "title": "The Meridian That Moved",
+    "subtitle": "How a French obsession with prime meridians turned geography into a political war",
+    "category": "History",
+    "color": "violet",
+    "description": "Before Greenwich became the center of the world, every nation drew the prime meridian through its own capital. France held out for nearly three decades after the international agreement of 1884, insisting its maps center on Paris — not out of stubbornness, but out of a coherent philosophical argument about who gets to define the world's origin point.",
+    "imagePrompt": "An antique French map from the late 19th century with Paris at the center, radiating meridian lines, surrounded by competing national symbols and cartographic annotations, warm lamplight, aged parchment texture",
+    "essayPrompt": "Write a long-form essay for Foxfire about the forgotten political war over the prime meridian. Explore how every major empire once placed itself at the center of its maps, the Washington Conference of 1884 where Greenwich was voted into supremacy, and France's principled holdout — printing maps in 'Paris meridian' until 1914. Examine what it means philosophically and politically to declare where zero is. Touch on the legacy of that decision in GPS coordinates, and the strange fact that zero longitude is an arbitrary human choice that now governs all navigation on Earth."
+  },
+  {
+    "slug": "the-clockmaker-who-broke-time",
+    "title": "The Clockmaker Who Broke Time",
+    "subtitle": "John Harrison built the instrument that solved longitude. His reward was fifty years of betrayal.",
+    "category": "History",
+    "color": "amber",
+    "description": "John Harrison spent his entire life building a clock accurate enough to solve the longitude problem — and when he finally succeeded, the scientific establishment refused to believe a clockmaker could have beaten their mathematical methods. The story of H4 is not just about horology. It is about what institutions do to outsiders who are inconveniently correct.",
+    "imagePrompt": "An impossibly intricate 18th century marine chronometer movement seen in extreme close-up, golden gears and jeweled bearings catching candlelight, surrounded by aged technical drawings and official rejection letters with wax seals",
+    "essayPrompt": "Write a long-form essay for Foxfire about John Harrison, the carpenter-turned-clockmaker who solved the longitude problem — and then spent decades fighting the Board of Longitude for recognition and prize money he had clearly earned. Explore the H1 through H4 chronometers, the institutional bias of Nevil Maskelyne who championed lunar distance tables over Harrison's mechanical solution, and the parliamentary hearings Harrison had to endure in his eighties. Use this story to examine a broader pattern: the way credentialed institutions resist correct answers that come from outside their methodology, and what that costs the people who discover them."
   }
 ]
