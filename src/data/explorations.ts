@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-world-ending-on-schedule",
+    title: "The World Ending on Schedule",
+    subtitle: "Every generation names the date. Every generation sells everything.",
+    category: "Essay",
+    color: "amber",
+    readTime: "15 min",
+    image: "/images/explorations/the-world-ending-on-schedule.png",
+    publishedAt: "04/10/2026 07:49 PM",
+    description:
+      "A history of the humans who knew exactly when the world would end — and what happened the morning after.",
+  },
+  {
     slug: "the-overview-effect",
     title: "The Overview Effect",
     subtitle: "What happens when you finally see where you live",
