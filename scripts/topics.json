@@ -2138,5 +2138,25 @@
     "description": "John Harrison spent his entire life building a clock accurate enough to solve the longitude problem — and when he finally succeeded, the scientific establishment refused to believe a clockmaker could have beaten their mathematical methods. The story of H4 is not just about horology. It is about what institutions do to outsiders who are inconveniently correct.",
     "imagePrompt": "An impossibly intricate 18th century marine chronometer movement seen in extreme close-up, golden gears and jeweled bearings catching candlelight, surrounded by aged technical drawings and official rejection letters with wax seals",
     "essayPrompt": "Write a long-form essay for Foxfire about John Harrison, the carpenter-turned-clockmaker who solved the longitude problem — and then spent decades fighting the Board of Longitude for recognition and prize money he had clearly earned. Explore the H1 through H4 chronometers, the institutional bias of Nevil Maskelyne who championed lunar distance tables over Harrison's mechanical solution, and the parliamentary hearings Harrison had to endure in his eighties. Use this story to examine a broader pattern: the way credentialed institutions resist correct answers that come from outside their methodology, and what that costs the people who discover them."
+  },
+  {
+    "slug": "the-pale-astronaut",
+    "title": "The Pale Astronaut",
+    "subtitle": "What happens to the human body when it leaves the world it was built for",
+    "category": "Science",
+    "color": "sky",
+    "description": "Astronauts return from space with fluid-shifted brains, elongated spines, and altered immune systems. But the strangest changes are the ones medicine can't measure — the way time feels different, the way food tastes wrong, the way Earth itself looks too small. The body goes to space and comes back as something slightly different.",
+    "imagePrompt": "A human figure seen from behind floating in the darkness of space, their body partially translucent revealing skeletal and circulatory systems, Earth's curve visible below, soft blue light, scientific illustration meets fine art",
+    "essayPrompt": "Write a Foxfire essay about what space travel does to the human body and mind — not just the known physiological effects like bone density loss and vision changes, but the stranger, less-discussed transformations: the re-entry into gravity as trauma, the sensory disorientation of return, the psychological difficulty of readjusting to a bounded world, the way some astronauts describe Earth as suddenly feeling like a cage. Explore what it reveals about how completely our bodies are calibrated to this planet — and what it means that we are building a species that will, increasingly, live somewhere else."
+  },
+  {
+    "slug": "the-cartography-of-the-sky",
+    "title": "The Cartography of the Sky",
+    "subtitle": "Before satellites, humanity mapped the heavens with more care than the Earth — and what we drew there said everything about who we were",
+    "category": "History",
+    "color": "indigo",
+    "description": "For most of human history, the sky was better mapped than the land. Cultures across the world drew constellations, tracked planetary cycles, and built monuments aligned to stars — not for navigation alone, but to locate themselves in a universe that felt personal. The history of star maps is a history of humanity trying to find its place in something vast.",
+    "imagePrompt": "An antique celestial map from the 17th century rendered in deep indigo and gold, showing constellations as mythological figures, surrounded by ornate borders, slightly aged and worn, beautiful and strange",
+    "essayPrompt": "Write a Foxfire essay about the long human history of mapping the sky — from Mesopotamian star catalogs to medieval Islamic astronomers to the bizarre, competing constellation systems of 17th-century Europe, where cartographers invented new star-figures to flatter kings and fill empty sky. Explore what it meant that the sky was mapped before the continents, and why different cultures drew such radically different pictures in the same stars. What does it tell us about the human need to see pattern and narrative in the vast and indifferent? And what was lost when the scientific sky replaced the storied one?"
   }
 ]
