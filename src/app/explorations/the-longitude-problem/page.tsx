@@ -36,6 +36,13 @@ export default function TheLongitudeProblem() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-longitude-problem.mp3"
       prevSlug="the-free-republic-of-palmares"
       prevTitle="The Free Republic of Palmares"
+    nextSlug="the-overview-effect"
+    nextTitle="The Overview Effect"
+    nextSubtitle="What happens when you finally see where you live"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-overview-effect.png"
+    nextReadTime="13 min"
     >
       <h2>The Night Two Thousand Men Drowned in the Dark</h2>
 

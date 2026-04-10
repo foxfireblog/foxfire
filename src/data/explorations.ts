@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-overview-effect",
+    title: "The Overview Effect",
+    subtitle: "What happens when you finally see where you live",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-overview-effect.png",
+    publishedAt: "04/10/2026 11:00 AM",
+    description:
+      "Astronauts keep coming home with the same impossible feeling — that they finally understood something about Earth that language can barely hold.",
+  },
+  {
     slug: "the-longitude-problem",
     title: "The Longitude Problem",
     subtitle: "The clockmaker who saved a million sailors and died waiting for his reward",
