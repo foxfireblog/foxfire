@@ -36,6 +36,13 @@ export default function TheLibraryOfBurnedBooks() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-library-of-burned-books.mp3"
       prevSlug="the-world-ending-on-schedule"
       prevTitle="The World Ending on Schedule"
+    nextSlug="the-lighthouse-keepers-last-watch"
+    nextTitle="The Lighthouse Keepers' Last Watch"
+    nextSubtitle="Three men vanished from Eilean Mòr in December 1900. The sea kept no minutes."
+    nextCategory="Mystery"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-lighthouse-keepers-last-watch.png"
+    nextReadTime="11 min"
     >
       <h2>The Prelude</h2>
 

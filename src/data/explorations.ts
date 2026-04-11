@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-lighthouse-keepers-last-watch",
+    title: "The Lighthouse Keepers' Last Watch",
+    subtitle: "Three men vanished from Eilean Mòr in December 1900. The sea kept no minutes.",
+    category: "Mystery",
+    color: "sky",
+    readTime: "11 min",
+    image: "/images/explorations/the-lighthouse-keepers-last-watch.png",
+    publishedAt: "04/11/2026 02:13 PM",
+    description:
+      "Three lighthouse keepers disappeared from a remote Scottish island in 1900, leaving behind a stopped clock, an untouched meal, and a mystery that has never been solved.",
+  },
+  {
     slug: "the-library-of-burned-books",
     title: "The Library of Burned Books",
     subtitle: "Every civilization that burned books eventually burned people",
