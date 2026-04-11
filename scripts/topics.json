@@ -2198,5 +2198,25 @@
     "description": "In the Vilna Ghetto, the Nazis assigned a group of Jewish intellectuals — later called the Paper Brigade — to sort through the looted libraries and archives of Eastern European Jewry, selecting what was 'valuable' for German collections and what would be pulped. Instead, the scholars smuggled thousands of manuscripts out under their clothes, buried caches in the ghetto walls, and committed texts to memory. They understood that the destruction of books was the rehearsal for the destruction of people — and that to save a book was to insist on a future in which someone would still be able to read it.",
     "imagePrompt": "Yellowed manuscript pages half-buried in rubble and earth, a single candle flame, hands carefully lifting fragile paper from debris, muted sepia and gold tones, somber and reverent atmosphere",
     "essayPrompt": "Write a Foxfire essay about the Paper Brigade — the Jewish scholars in the Vilna Ghetto tasked by the Nazis with sorting looted Jewish libraries, who secretly smuggled manuscripts out and buried caches of books in the ghetto walls. Focus on specific figures like Herman Kruk and Avrom Sutzkever. Explore the deeper question the essay should inhabit: what does it mean to risk your life for a book? What theory of civilization underlies that act — the belief that a text is a form of life, that to destroy a library is to commit a kind of murder? Examine the Nazi understanding of this same logic, which is why they burned books first. Trace what survived, what was recovered after the war, and what was lost forever. Let the essay become a meditation on memory, transmission, and the strange faith that if words survive, something essential survives with them."
+  },
+  {
+    "slug": "the-island-that-belonged-to-no-one",
+    "title": "The Island That Belonged to No One",
+    "subtitle": "The strange legal and human history of unclaimed land at the edge of the world",
+    "category": "History",
+    "color": "teal",
+    "description": "Scattered across the world's oceans are islands that no nation has ever formally claimed — not because they are worthless, but because the logic of sovereignty quietly breaks down at the margins. Rockall, Bir Tawil, Marie Byrd Land: places where explorers planted flags that meant nothing, where hermits declared micro-nations, where international law simply goes quiet. These are the last genuinely ungoverned spaces on Earth, and the stories of the people who washed up on them — by accident, by desperation, by strange ambition — tell us something profound about why humans feel compelled to belong somewhere, and what it costs when nowhere will have you.",
+    "imagePrompt": "A jagged volcanic rock island rising from a vast grey-green ocean under a stormy sky, completely barren, no structures, just stone and sea spray, cinematic and desolate, wide angle, photorealistic",
+    "essayPrompt": "Write a long-form Foxfire essay about islands and territories that no nation has ever formally claimed — places like Rockall, Bir Tawil, and Marie Byrd Land. Explore the history of who has tried to occupy or claim them and why, the philosophical and legal question of what sovereignty actually requires, the micro-nation dreamers and hermits drawn to ungoverned spaces, and what these blank spots on the political map reveal about the human need to belong to a place — or to escape one."
+  },
+  {
+    "slug": "the-watchers-of-the-sky",
+    "title": "The Watchers of the Sky",
+    "subtitle": "Before satellites, a hidden network of human observers held the world's weather together",
+    "category": "Science",
+    "color": "indigo",
+    "description": "For nearly a century, a vast and largely forgotten network of amateur volunteers climbed towers, stood on hilltops, and peered from remote coastlines to record the sky — temperature, pressure, cloud cover, wind direction — and telegraph the data to central offices that stitched it into the first weather forecasts. These were not scientists. They were farmers, priests, schoolteachers, lighthouse assistants, and curious eccentrics who performed the same observations at the same hours every day for decades, sometimes for their entire lives. The global weather observation network was one of the largest acts of collective human attention in history, and almost no one remembers it existed.",
+    "imagePrompt": "A lone figure in early 20th century clothing standing on a coastal cliff at dawn holding a barometer and notebook, storm clouds building over the ocean behind them, dramatic light, painterly and atmospheric",
+    "essayPrompt": "Write a long-form Foxfire essay about the forgotten global network of volunteer weather observers — farmers, priests, lighthouse keepers, and amateur scientists — who manually recorded atmospheric data for decades before satellites existed. Explore how the network was organized, the extraordinary individuals who gave their lives to it, the science it made possible, and what it means that one of the most ambitious collective human projects in history was built entirely on quiet, daily, unrewarded attention to the sky."
   }
 ]
