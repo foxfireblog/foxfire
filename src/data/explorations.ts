@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-library-of-burned-books",
+    title: "The Library of Burned Books",
+    subtitle: "Every civilization that burned books eventually burned people",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-library-of-burned-books.png",
+    publishedAt: "04/11/2026 04:47 AM",
+    description:
+      "A history of biblioclasm — from Qin Shi Huang to the digital age — and the terrifying pattern that connects the destruction of words to the destruction of people.",
+  },
+  {
     slug: "the-world-ending-on-schedule",
     title: "The World Ending on Schedule",
     subtitle: "Every generation names the date. Every generation sells everything.",

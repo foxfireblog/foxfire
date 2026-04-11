@@ -36,6 +36,13 @@ export default function TheWorldEndingOnSchedule() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-world-ending-on-schedule.mp3"
       prevSlug="the-overview-effect"
       prevTitle="The Overview Effect"
+    nextSlug="the-library-of-burned-books"
+    nextTitle="The Library of Burned Books"
+    nextSubtitle="Every civilization that burned books eventually burned people"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-library-of-burned-books.png"
+    nextReadTime="13 min"
     >
       <h2>The Man in Times Square</h2>
 
