@@ -36,6 +36,13 @@ export default function TheMemoryPalace() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-memory-palace.mp3"
       prevSlug="the-iron-harvest"
       prevTitle="The Iron Harvest"
+    nextSlug="the-price-of-flavor"
+    nextTitle="The Price of Flavor"
+    nextSubtitle="How the pursuit of nutmeg turned paradise into a graveyard"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-price-of-flavor.png"
+    nextReadTime="11 min"
     >
       <h2>The Collapse</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-price-of-flavor",
+    title: "The Price of Flavor",
+    subtitle: "How the pursuit of nutmeg turned paradise into a graveyard",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-price-of-flavor.png",
+    publishedAt: "04/12/2026 07:52 PM",
+    description:
+      "Nutmeg was once worth more than gold — and the pursuit of it depopulated entire islands, redrew the map of empires, and traded Manhattan for a volcanic speck most people have never heard of.",
+  },
+  {
     slug: "the-memory-palace",
     title: "The Memory Palace",
     subtitle: "The ancient art of remembering everything, and what we lost when we outsourced memory to machines",
