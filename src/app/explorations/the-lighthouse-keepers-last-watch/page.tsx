@@ -36,6 +36,13 @@ export default function TheLighthouseKeepersLastWatch() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-lighthouse-keepers-last-watch.mp3"
       prevSlug="the-library-of-burned-books"
       prevTitle="The Library of Burned Books"
+    nextSlug="the-iron-harvest"
+    nextTitle="The Iron Harvest"
+    nextSubtitle="A century later, the Western Front is still killing people"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-iron-harvest.png"
+    nextReadTime="11 min"
     >
       <h2>The Silence at the Top of the Stairs</h2>
 

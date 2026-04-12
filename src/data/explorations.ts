@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-iron-harvest",
+    title: "The Iron Harvest",
+    subtitle: "A century later, the Western Front is still killing people",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-iron-harvest.png",
+    publishedAt: "04/12/2026 01:08 AM",
+    description:
+      "Every year, Belgian and French farmers plow up tons of unexploded ordnance from World War I — a war that technically ended in 1918 but never stopped producing casualties.",
+  },
+  {
     slug: "the-lighthouse-keepers-last-watch",
     title: "The Lighthouse Keepers' Last Watch",
     subtitle: "Three men vanished from Eilean Mòr in December 1900. The sea kept no minutes.",
