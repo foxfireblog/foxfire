@@ -2218,5 +2218,25 @@
     "description": "For nearly a century, a vast and largely forgotten network of amateur volunteers climbed towers, stood on hilltops, and peered from remote coastlines to record the sky — temperature, pressure, cloud cover, wind direction — and telegraph the data to central offices that stitched it into the first weather forecasts. These were not scientists. They were farmers, priests, schoolteachers, lighthouse assistants, and curious eccentrics who performed the same observations at the same hours every day for decades, sometimes for their entire lives. The global weather observation network was one of the largest acts of collective human attention in history, and almost no one remembers it existed.",
     "imagePrompt": "A lone figure in early 20th century clothing standing on a coastal cliff at dawn holding a barometer and notebook, storm clouds building over the ocean behind them, dramatic light, painterly and atmospheric",
     "essayPrompt": "Write a long-form Foxfire essay about the forgotten global network of volunteer weather observers — farmers, priests, lighthouse keepers, and amateur scientists — who manually recorded atmospheric data for decades before satellites existed. Explore how the network was organized, the extraordinary individuals who gave their lives to it, the science it made possible, and what it means that one of the most ambitious collective human projects in history was built entirely on quiet, daily, unrewarded attention to the sky."
+  },
+  {
+    "slug": "the-undead-ammunition",
+    "title": "The Undead Ammunition",
+    "subtitle": "The bullets still killing people a century after the guns went silent",
+    "category": "History",
+    "color": "amber",
+    "description": "Every year, amateur collectors, farmers, and curious children are killed or maimed by small arms ammunition from the First and Second World Wars. Unlike the dramatic unexploded shells of the Iron Harvest, these are the quiet killers — rusted pistol rounds in attic drawers, loose rifle cartridges in garden soil, caches of grenades beneath farmhouse floors. In parts of Europe, Africa, and the Pacific, the personal weaponry of dead soldiers continues to circulate, be sold at flea markets, traded online, and inherited without anyone quite understanding what they hold. This is the story of the bullets that outlived their wars, the people they have taken since, and the strange archaeology of small violence.",
+    "imagePrompt": "A close-up of corroded World War One and Two era bullets and cartridges half-buried in dark soil alongside a rusted dog tag, moody dramatic lighting, photorealistic",
+    "essayPrompt": "Write a long-form essay for Foxfire magazine about the ongoing death toll from small arms ammunition left over from the World Wars — bullets, grenades, and pistol rounds still circulating in Europe, Africa, and the Pacific a century later. Explore the archaeology, the accidental deaths, the flea market trade, the inherited danger, and what it means for violence to outlast the people who intended it. Write with the literary depth of a New Yorker feature."
+  },
+  {
+    "slug": "the-cartography-of-craters",
+    "title": "The Cartography of Craters",
+    "subtitle": "How the most bombed landscape on Earth became an accidental wilderness",
+    "category": "Science",
+    "color": "emerald",
+    "description": "The Western Front of the First World War left behind one of the most devastated landscapes in human history — a moonscape of overlapping shell craters, poisoned soil, and buried villages from the North Sea to Switzerland. A century later, something unexpected has happened: many of these areas have become extraordinary nature reserves. The craters filled with water. Rare orchids colonized the disturbed chalk. Species pushed out by industrial agriculture found refuge in ground too dangerous to farm. Ecologists now study the 'Zone Rouge' — the French territory still too contaminated for human habitation — as a laboratory for how life reclaims catastrophe. The bombs made a wilderness, and the wilderness refused to leave.",
+    "imagePrompt": "An aerial photograph of lush green craters filled with wildflowers and water in the French countryside, ancient shell holes transformed into natural ponds surrounded by rare vegetation, golden hour light, photorealistic",
+    "essayPrompt": "Write a long-form essay for Foxfire magazine about how the devastated landscape of the Western Front — the shell craters, the Zone Rouge, the poisoned and forbidden land — has paradoxically become one of Europe's most important accidental wilderness areas. Explore the ecology of catastrophe, the rare species that colonized no-man's-land, the French villages still officially uninhabitable, and what it means for nature to flourish in the aftermath of mass violence. Write with the literary depth and scientific curiosity of a New Yorker feature."
   }
 ]
