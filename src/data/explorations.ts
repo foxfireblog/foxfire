@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-memory-palace",
+    title: "The Memory Palace",
+    subtitle: "The ancient art of remembering everything, and what we lost when we outsourced memory to machines",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-memory-palace.png",
+    publishedAt: "04/12/2026 10:56 AM",
+    description:
+      "For two thousand years, humans built cathedrals inside their own minds — vast architectures of memory that could hold entire libraries, and whose loss tells us something profound about what memory actually is.",
+  },
+  {
     slug: "the-iron-harvest",
     title: "The Iron Harvest",
     subtitle: "A century later, the Western Front is still killing people",

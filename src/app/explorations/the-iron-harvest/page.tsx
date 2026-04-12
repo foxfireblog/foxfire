@@ -36,6 +36,13 @@ export default function TheIronHarvest() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-iron-harvest.mp3"
       prevSlug="the-lighthouse-keepers-last-watch"
       prevTitle="The Lighthouse Keepers' Last Watch"
+    nextSlug="the-memory-palace"
+    nextTitle="The Memory Palace"
+    nextSubtitle="The ancient art of remembering everything, and what we lost when we outsourced memory to machines"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-memory-palace.png"
+    nextReadTime="13 min"
     >
       <h2>The Seed That Won&apos;t Stop Sprouting</h2>
 
