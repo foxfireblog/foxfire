@@ -36,6 +36,13 @@ export default function TheWorldsGreatestCollision() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-worlds-greatest-collision.mp3"
       prevSlug="the-price-of-flavor"
       prevTitle="The Price of Flavor"
+    nextSlug="the-jewel-wasp"
+    nextTitle="The Jewel Wasp and the Zombie Cockroach"
+    nextSubtitle="A love story about neurosurgery, free will, and the most beautiful horror in nature"
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-jewel-wasp.png"
+    nextReadTime="14 min"
     >
       <h2>The Longest Goodbye</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-jewel-wasp",
+    title: "The Jewel Wasp and the Zombie Cockroach",
+    subtitle: "A love story about neurosurgery, free will, and the most beautiful horror in nature",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "14 min",
+    image: "/images/explorations/the-jewel-wasp.png",
+    publishedAt: "04/13/2026 05:30 PM",
+    description:
+      "The emerald cockroach wasp performs brain surgery with surgical precision — not to heal, but to create a living, walking nursery for its young.",
+  },
+  {
     slug: "the-worlds-greatest-collision",
     title: "The World's Greatest Collision: The Meeting (Part I of II)",
     subtitle: "What crossed the Atlantic in both directions and the caloric revolution",
