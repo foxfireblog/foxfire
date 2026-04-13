@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-worlds-greatest-collision",
+    title: "The World's Greatest Collision: The Meeting (Part I of II)",
+    subtitle: "What crossed the Atlantic in both directions and the caloric revolution",
+    category: "Natural History",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-worlds-greatest-collision.png",
+    publishedAt: "04/13/2026 06:16 AM",
+    description:
+      "The Columbian Exchange wasn't just a meeting of cultures — it was the collision of two biospheres that had been evolving separately for millions of years, and the consequences reshaped every living thing on Earth.",
+  },
+  {
     slug: "the-price-of-flavor",
     title: "The Price of Flavor",
     subtitle: "How the pursuit of nutmeg turned paradise into a graveyard",
