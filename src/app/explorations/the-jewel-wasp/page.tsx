@@ -36,6 +36,13 @@ export default function TheJewelWasp() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-jewel-wasp.mp3"
       prevSlug="the-worlds-greatest-collision"
       prevTitle="The World's Greatest Collision: The Meeting (Part I of II)"
+    nextSlug="the-lloyds-of-london-ledger"
+    nextTitle="The Lloyd's of London Ledger"
+    nextSubtitle="How insurance made atrocity scalable"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-lloyds-of-london-ledger.png"
+    nextReadTime="12 min"
     >
       <h2>The Most Beautiful Thing That Has Ever Happened to a Cockroach</h2>
 

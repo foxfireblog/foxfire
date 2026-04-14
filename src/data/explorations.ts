@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-lloyds-of-london-ledger",
+    title: "The Lloyd's of London Ledger",
+    subtitle: "How insurance made atrocity scalable",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-lloyds-of-london-ledger.png",
+    publishedAt: "04/14/2026 02:59 AM",
+    description:
+      "The story of how a London coffee house turned human trafficking into an actuarial science — and why the machinery of risk still shapes what we refuse to see.",
+  },
+  {
     slug: "the-jewel-wasp",
     title: "The Jewel Wasp and the Zombie Cockroach",
     subtitle: "A love story about neurosurgery, free will, and the most beautiful horror in nature",
