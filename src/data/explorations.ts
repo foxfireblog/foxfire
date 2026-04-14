@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-grammar-of-symmetry",
+    title: "The Grammar of Symmetry",
+    subtitle: "Why nearly every animal on Earth agreed on the same body plan — and what it means that they did",
+    category: "Natural History",
+    color: "teal",
+    readTime: "14 min",
+    image: "/images/explorations/the-grammar-of-symmetry.png",
+    publishedAt: "04/14/2026 12:03 PM",
+    description:
+      "Half a billion years ago, animal life converged on bilateral symmetry — a left and a right, a front and a back — and almost nothing has escaped that ancient agreement since.",
+  },
+  {
     slug: "the-lloyds-of-london-ledger",
     title: "The Lloyd's of London Ledger",
     subtitle: "How insurance made atrocity scalable",

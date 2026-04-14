@@ -36,6 +36,13 @@ export default function TheLloydsOfLondonLedger() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-lloyds-of-london-ledger.mp3"
       prevSlug="the-jewel-wasp"
       prevTitle="The Jewel Wasp and the Zombie Cockroach"
+    nextSlug="the-grammar-of-symmetry"
+    nextTitle="The Grammar of Symmetry"
+    nextSubtitle="Why nearly every animal on Earth agreed on the same body plan &mdash; and what it means that they did"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-grammar-of-symmetry.png"
+    nextReadTime="14 min"
     >
       <h2>The Pulpit</h2>
 
