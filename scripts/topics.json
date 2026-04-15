@@ -2378,5 +2378,25 @@
     "description": "In the heart of some of history's most brutal conflicts, certain places were declared simply off-limits to violence — hospitals, temples, towns, entire mountains. The concept of neutral ground is older than civilization and stranger than it sounds: a collective agreement, enforced by nothing but shared belief, that some spaces belong to everyone and therefore to no one. When it held, it was a miracle. When it broke, it was a catastrophe.",
     "imagePrompt": "A lone white building with a red cross painted on its roof standing in the middle of a scorched landscape, smoke on the horizon on both sides, the building eerily pristine and intact, dramatic lighting with a sense of fragile protection, photorealistic and haunting",
     "essayPrompt": "Write a Foxfire essay about the history and philosophy of neutral ground in warfare — the designated spaces, cities, and institutions that opposing sides agreed to leave untouched. Trace the concept from the sacred groves of ancient Greece through medieval sanctuary laws, the founding of the Red Cross, the neutrality of Switzerland, and the hospital ships of World War II. Examine the cases where neutrality held against all odds and the devastating moments when it collapsed — Guernica, the bombing of Dresden, the siege of Sarajevo's hospitals. Explore the philosophical question at the core: what gives a place the power to be protected, and what happens to a society when it loses the capacity to recognize anything as sacred? Write in the deep, exploratory voice of Foxfire — historically rich, philosophically searching, quietly urgent."
+  },
+  {
+    "slug": "the-keening-women",
+    "title": "The Keening Women",
+    "subtitle": "The professional mourners who carried grief so others could survive it",
+    "category": "History",
+    "color": "violet",
+    "description": "For centuries across Ireland, the Middle East, and the Mediterranean, women were hired to wail at funerals — not as performance, but as a sacred technology of sorrow. The keeners knew something we have forgotten: that grief is labor, and that some losses are too large for the bereaved to carry alone. This is the story of what happened when we stopped hiring people to cry for us.",
+    "imagePrompt": "A group of women in dark robes at the edge of a misty Irish hillside, mouths open in silent keening, hair loose, hands raised, the sea visible below them, painted in the style of a somber Pre-Raphaelite tableau",
+    "essayPrompt": "Write a deep, literary essay about the history and anthropology of professional mourning — the keeners of Ireland, the myrrhophores of ancient Greece, the neniæ singers of Rome, the naïhas of the Arab world. Explore the idea that communal grief-work was a genuine social technology that protected survivors from psychological collapse. Discuss what the suppression of public mourning by the Catholic Church and later by modern medicalized grief culture has cost us. Draw on specific historical accounts, including the last recorded keening at an Irish funeral. Consider what it means that we now face death more privately and more alone than any human culture in history. End with something that feels both elegiac and true."
+  },
+  {
+    "slug": "the-cartography-of-falling",
+    "title": "The Cartography of Falling",
+    "subtitle": "How the places where people vanish reveal the hidden shape of a city's pain",
+    "category": "Science",
+    "color": "indigo",
+    "description": "Urban researchers and suicide prevention specialists have quietly mapped the geography of crisis for decades — and the maps reveal something unsettling: despair has a spatial logic. Certain bridges, certain corners, certain rooms in certain buildings accumulate tragedy with a statistical certainty that cannot be explained by randomness alone. This is the science of what place does to the mind at its most fragile.",
+    "imagePrompt": "A bird's-eye view of a city at night rendered as a topographic map with luminous contour lines, certain streets and bridges glowing a deep melancholic blue against the dark grid, raindrops visible on what appears to be glass, the aesthetic of a scientific illustration crossed with a noir photograph",
+    "essayPrompt": "Write a rigorous and compassionate essay about the spatial epidemiology of suicide and mental health crisis — how certain places accumulate tragedy, and what researchers, architects, and city planners have learned from studying these maps. Explore the history of the Golden Gate Bridge as a cultural phenomenon and what happened when a barrier was finally installed. Discuss Kevin Lynch's concept of imageability and how environments can amplify or dampen psychological crisis. Examine the research on 'means restriction' as public health intervention. Raise the deeper philosophical question: does place shape suffering, or does suffering shape how we see place? Include the story of a specific built intervention — a phone on a bridge, a light at the end of a tunnel — that demonstrably changed outcomes. Write it as science that does not forget that every data point was a person."
   }
 ]
