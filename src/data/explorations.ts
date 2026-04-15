@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-fever-truce",
+    title: "The Fever Truce",
+    subtitle: "How disease ended wars that generals could not",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-fever-truce.png",
+    publishedAt: "04/15/2026 01:27 AM",
+    description:
+      "Throughout history, epidemics have forced ceasefires, redrawn borders, and humbled armies that no human opponent could defeat — and the truces they imposed reveal something unsettling about the limits of human will.",
+  },
+  {
     slug: "the-grammar-of-symmetry",
     title: "The Grammar of Symmetry",
     subtitle: "Why nearly every animal on Earth agreed on the same body plan — and what it means that they did",
