@@ -36,6 +36,13 @@ export default function TheFeverTruce() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fever-truce.mp3"
       prevSlug="the-grammar-of-symmetry"
       prevTitle="The Grammar of Symmetry"
+    nextSlug="the-suicide-of-rachel"
+    nextTitle="The Suicide of Rachel"
+    nextSubtitle="On the deliberate sinking of the world's nuclear fleet"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-suicide-of-rachel.png"
+    nextReadTime="13 min"
     >
       <h2>The General Who Lost to a Mosquito</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-of-rachel",
+    title: "The Suicide of Rachel",
+    subtitle: "On the deliberate sinking of the world's nuclear fleet",
+    category: "Essay",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-suicide-of-rachel.png",
+    publishedAt: "04/15/2026 11:19 AM",
+    description:
+      "Dozens of nuclear reactors lie on the ocean floor — scuttled, lost, or abandoned — and the sea is slowly eating through their hulls.",
+  },
+  {
     slug: "the-fever-truce",
     title: "The Fever Truce",
     subtitle: "How disease ended wars that generals could not",
