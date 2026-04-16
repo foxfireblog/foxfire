@@ -2418,5 +2418,25 @@
     "description": "In 1954, St. Louis unveiled Pruitt-Igoe: 33 gleaming towers, 2,870 apartments, a monument to the belief that architecture could solve poverty, segregation, and urban decay in one stroke. The design followed every rule of modernist doctrine — light, air, communal space, rational order. Within a decade, it was a ruin. By 1976, the last tower had been dynamited to the ground. The demolition footage became the most famous image in architectural history — philosopher Charles Jencks called it the death of modernism. But the real story is far more complicated, and far more human, than any theory of design.",
     "imagePrompt": "Brutalist concrete housing tower being demolished in a massive cloud of white dust and debris, urban landscape visible in the background, black and white documentary photography style, dramatic and elegiac, 1970s aesthetic",
     "essayPrompt": "Write a Foxfire-style long-form essay about Pruitt-Igoe, the St. Louis housing project that became the most famous architectural failure in American history. Explore the utopian ideology behind modernist housing — the genuine belief that rational design could cure social ills. Examine how race, policy, deliberate disinvestment, and white flight doomed the project as much as any architectural decision. Challenge the myth that the buildings themselves were the problem. Profile the residents who lived there and what their lives were actually like. Explore what the famous demolition footage came to symbolize, and whether that symbolism was honest or convenient. Ask what it means when we blame buildings for the failures of society. Write with the deep curiosity, lyrical precision, and moral seriousness that defines Foxfire."
+  },
+  {
+    "slug": "the-jury-that-refused",
+    "title": "The Jury That Refused",
+    "subtitle": "How twelve ordinary people became the last wall between the state and the accused — and learned to break it",
+    "category": "History & Power",
+    "color": "amber",
+    "description": "Jury nullification is one of democracy's most dangerous secrets: the legal but officially suppressed power of a jury to acquit someone they know is guilty of breaking a law they believe is unjust. Prosecutors don't mention it. Judges actively hide it. Defense attorneys can be disbarred for raising it. Yet it was used to free runaway slaves, undermine Prohibition, and protect civil rights activists. This is the story of the power they never told you about.",
+    "imagePrompt": "A single empty wooden chair inside a dimly lit jury box, shafts of courtroom light falling across twelve vacant seats, a verdict slip folded on the forewoman's chair, dramatic chiaroscuro, photorealistic, cinematic",
+    "essayPrompt": "Write a deep, beautifully crafted Foxfire essay about jury nullification — exploring its origins in the 1670 Bushel's Case in England, its role in American history from fugitive slave trials to Prohibition, the systematic effort by courts and prosecutors to suppress the public's knowledge of this power, the philosophical tension between rule of law and conscience, and what its existence reveals about the nature of democratic legitimacy. Voice: intellectually alive, historically grounded, gently astonishing."
+  },
+  {
+    "slug": "the-census-and-the-purge",
+    "title": "The Census and the Purge",
+    "subtitle": "Governments have always known that counting people is the first step toward controlling them",
+    "category": "History & Power",
+    "color": "violet",
+    "description": "The census seems neutral — a harmless exercise in arithmetic. But the history of population counting is inseparable from the history of persecution. The Nazis used IBM punch-card census data to find Jews. The U.S. Census Bureau handed Japanese-American addresses to the War Department in 1942. Rwanda's ethnic ID cards, a legacy of Belgian colonial counting, sorted Tutsi from Hutu in 1994. Every modern genocide has been preceded by a census. This is the story of how the act of being counted became an act of exposure.",
+    "imagePrompt": "A worn colonial-era ledger open to pages of handwritten names in neat columns, numbers and categories stamped in red ink, the edges of the pages beginning to burn, dramatic dark background, photorealistic, archival and ominous",
+    "essayPrompt": "Write a deep, beautifully crafted Foxfire essay about the dark history of the census as an instrument of state violence — from Roman tax rolls to the Holocaust, from Japanese-American internment to the Rwandan genocide, examining how the bureaucratic act of categorizing and counting populations has repeatedly enabled persecution, the philosophical question of whether data can ever be neutral, and what this history demands of us in an age of mass digital surveillance. Voice: grave, precise, morally urgent."
   }
 ]
