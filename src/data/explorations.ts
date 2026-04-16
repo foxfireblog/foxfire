@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-wanted-to-demolish-paris",
+    title: "The Man Who Wanted to Demolish Paris",
+    subtitle: "Le Corbusier's Plan Voisin and the city that almost died so cities could live",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-man-who-wanted-to-demolish-paris.png",
+    publishedAt: "04/15/2026 08:10 PM",
+    description:
+      "In 1925, an architect proposed leveling central Paris and replacing it with identical glass towers — and the world said yes.",
+  },
+  {
     slug: "the-suicide-of-rachel",
     title: "The Suicide of Rachel",
     subtitle: "On the deliberate sinking of the world's nuclear fleet",
