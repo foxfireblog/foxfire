@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-secret-ballot-was-radical",
+    title: "The Secret Ballot Was Radical",
+    subtitle: "Before privacy, every vote was a performance — and the men who wanted to change that were called cowards",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-secret-ballot-was-radical.png",
+    publishedAt: "04/16/2026 05:51 AM",
+    description:
+      "The hidden history of how voting became private — and why it took centuries of bloodshed, bribery, and philosophical warfare to convince the world that democracy required secrecy.",
+  },
+  {
     slug: "the-man-who-wanted-to-demolish-paris",
     title: "The Man Who Wanted to Demolish Paris",
     subtitle: "Le Corbusier's Plan Voisin and the city that almost died so cities could live",
