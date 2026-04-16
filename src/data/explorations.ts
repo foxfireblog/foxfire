@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mathematics-of-democracy",
+    title: "The Mathematics of Democracy",
+    subtitle: "Arrow's impossibility theorem and the beautiful stubbornness of voting anyway",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-mathematics-of-democracy.png",
+    publishedAt: "04/16/2026 02:18 PM",
+    description:
+      "In 1951, a mathematician proved that no voting system can be perfectly fair — and accidentally revealed something profound about the nature of collective choice.",
+  },
+  {
     slug: "the-secret-ballot-was-radical",
     title: "The Secret Ballot Was Radical",
     subtitle: "Before privacy, every vote was a performance — and the men who wanted to change that were called cowards",

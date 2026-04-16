@@ -36,6 +36,13 @@ export default function TheSecretBallotWasRadical() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-secret-ballot-was-radical.mp3"
       prevSlug="the-man-who-wanted-to-demolish-paris"
       prevTitle="The Man Who Wanted to Demolish Paris"
+    nextSlug="the-mathematics-of-democracy"
+    nextTitle="The Mathematics of Democracy"
+    nextSubtitle="Arrow's impossibility theorem and the beautiful stubbornness of voting anyway"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-mathematics-of-democracy.png"
+    nextReadTime="12 min"
     >
       <h2>The Poet in the Gutter</h2>
 
