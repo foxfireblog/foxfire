@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-index-librorum-prohibitorum",
+    title: "The Index Librorum Prohibitorum",
+    subtitle: "The Catholic Church spent four centuries curating history's greatest reading list",
+    category: "Essay",
+    color: "red",
+    readTime: "11 min",
+    image: "/images/explorations/the-index-librorum-prohibitorum.png",
+    publishedAt: "04/17/2026 11:03 AM",
+    description:
+      "For four hundred years, the Catholic Church maintained a list of books too dangerous to read — and in doing so, created the most compelling catalogue of essential human thought ever assembled.",
+  },
+  {
     slug: "the-burning-of-black-wall-street",
     title: "The Tulsa Race Massacre",
     subtitle: "The burning of Black Wall Street and the century of silence that followed",
