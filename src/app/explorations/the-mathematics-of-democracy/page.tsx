@@ -35,6 +35,13 @@ export default function TheMathematicsOfDemocracy() {
       wordCount={2818}
       prevSlug="the-secret-ballot-was-radical"
       prevTitle="The Secret Ballot Was Radical"
+    nextSlug="the-burning-of-black-wall-street"
+    nextTitle="The Tulsa Race Massacre"
+    nextSubtitle="The burning of Black Wall Street and the century of silence that followed"
+    nextCategory="History"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-burning-of-black-wall-street.png"
+    nextReadTime="12 min"
     >
       <h2>The Pie at the End of the World</h2>
 

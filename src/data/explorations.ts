@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-burning-of-black-wall-street",
+    title: "The Tulsa Race Massacre",
+    subtitle: "The burning of Black Wall Street and the century of silence that followed",
+    category: "History",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-burning-of-black-wall-street.png",
+    publishedAt: "04/17/2026 01:17 AM",
+    description:
+      "In 1921, a white mob destroyed the wealthiest Black community in America — and then an entire city conspired to forget it ever happened.",
+  },
+  {
     slug: "the-mathematics-of-democracy",
     title: "The Mathematics of Democracy",
     subtitle: "Arrow's impossibility theorem and the beautiful stubbornness of voting anyway",
