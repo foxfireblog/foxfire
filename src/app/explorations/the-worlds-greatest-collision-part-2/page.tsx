@@ -36,6 +36,13 @@ export default function TheWorldsGreatestCollisionPart2() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-worlds-greatest-collision-part-2.mp3"
       prevSlug="the-worlds-greatest-collision"
       prevTitle="The World's Greatest Collision: The Meeting (Part I of II)"
+    nextSlug="the-watchers-of-the-sky"
+    nextTitle="The Watchers of the Sky"
+    nextSubtitle="Before satellites, the weather belonged to people who never stopped looking up"
+    nextCategory="Natural History"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-watchers-of-the-sky.png"
+    nextReadTime="13 min"
     >
       <h2>The Vanguard Was Invisible</h2>
 

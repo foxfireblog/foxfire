@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-watchers-of-the-sky",
+    title: "The Watchers of the Sky",
+    subtitle: "Before satellites, the weather belonged to people who never stopped looking up",
+    category: "Natural History",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-watchers-of-the-sky.png",
+    publishedAt: "04/18/2026 04:56 PM",
+    description:
+      "The forgotten global network of human observers who held the world's weather together through nothing but patience, discipline, and an unbroken chain of looking up.",
+  },
+  {
     slug: "the-worlds-greatest-collision-part-2",
     title: "The World's Greatest Collision: The Catastrophe (Part II of II)",
     subtitle: "Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange",
