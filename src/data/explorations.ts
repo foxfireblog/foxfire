@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-congo-free-state",
+    title: "The Congo Free State: The King's Private Country (Part I of III)",
+    subtitle: "Leopold's Berlin Conference coup, the initial exploitation system, and the ivory trade",
+    category: "Essay",
+    color: "red",
+    readTime: "11 min",
+    image: "/images/explorations/the-congo-free-state.png",
+    publishedAt: "04/17/2026 08:45 PM",
+    description:
+      "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
+  },
+  {
     slug: "the-index-librorum-prohibitorum",
     title: "The Index Librorum Prohibitorum",
     subtitle: "The Catholic Church spent four centuries curating history's greatest reading list",
