@@ -36,6 +36,13 @@ export default function TheCongoFreeState() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-congo-free-state.mp3"
       prevSlug="the-index-librorum-prohibitorum"
       prevTitle="The Index Librorum Prohibitorum"
+    nextSlug="the-worlds-greatest-collision-part-2"
+    nextTitle="The World's Greatest Collision: The Catastrophe (Part II of II)"
+    nextSubtitle="Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-worlds-greatest-collision-part-2.png"
+    nextReadTime="12 min"
     >
       <h2>The Man Who Bought a Country</h2>
 

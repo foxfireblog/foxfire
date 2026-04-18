@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-worlds-greatest-collision-part-2",
+    title: "The World's Greatest Collision: The Catastrophe (Part II of II)",
+    subtitle: "Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-worlds-greatest-collision-part-2.png",
+    publishedAt: "04/18/2026 07:44 AM",
+    description:
+      "The Columbian Exchange wasn't just a meeting of cultures — it was the collision of two biospheres that had been evolving separately for millions of years, and the consequences reshaped every living thing on Earth.",
+  },
+  {
     slug: "the-congo-free-state",
     title: "The Congo Free State: The King's Private Country (Part I of III)",
     subtitle: "Leopold's Berlin Conference coup, the initial exploitation system, and the ivory trade",
