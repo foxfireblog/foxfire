@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-river-that-screamed",
+    title: "The River That Screamed",
+    subtitle: "The Amazon rubber terror that mirrored the Congo — and vanished from memory",
+    category: "History",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-river-that-screamed.png",
+    publishedAt: "04/19/2026 02:55 AM",
+    description:
+      "While the world eventually condemned Leopold's Congo, an almost identical regime of torture, enslavement, and genocide was unfolding in the Peruvian Amazon — and it has been nearly erased from history.",
+  },
+  {
     slug: "the-watchers-of-the-sky",
     title: "The Watchers of the Sky",
     subtitle: "Before satellites, the weather belonged to people who never stopped looking up",
