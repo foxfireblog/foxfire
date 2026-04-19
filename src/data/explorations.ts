@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-pale-blue-dot",
+    title: "The Pale Blue Dot",
+    subtitle: "On the most important photograph no one needed to take",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-pale-blue-dot.png",
+    publishedAt: "04/19/2026 02:08 PM",
+    description:
+      "The story of how Carl Sagan convinced NASA to turn a spacecraft around for one last look at home — and why that single pixel changed everything.",
+  },
+  {
     slug: "the-river-that-screamed",
     title: "The River That Screamed",
     subtitle: "The Amazon rubber terror that mirrored the Congo — and vanished from memory",

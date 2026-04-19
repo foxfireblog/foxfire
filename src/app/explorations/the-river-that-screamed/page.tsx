@@ -36,6 +36,13 @@ export default function TheRiverThatScreamed() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-river-that-screamed.mp3"
       prevSlug="the-watchers-of-the-sky"
       prevTitle="The Watchers of the Sky"
+    nextSlug="the-pale-blue-dot"
+    nextTitle="The Pale Blue Dot"
+    nextSubtitle="On the most important photograph no one needed to take"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-pale-blue-dot.png"
+    nextReadTime="13 min"
     >
       <h2>The Scream You Never Heard</h2>
 
