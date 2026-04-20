@@ -36,6 +36,13 @@ export default function ThePaleBlueDot() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-pale-blue-dot.mp3"
       prevSlug="the-river-that-screamed"
       prevTitle="The River That Screamed"
+    nextSlug="the-victorian-internet"
+    nextTitle="The Victorian Internet"
+    nextSubtitle="How the telegraph rewired the human mind &mdash; and then we forgot it happened"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-victorian-internet.png"
+    nextReadTime="13 min"
     >
       <h2>A Speck They Tried to Brush Away</h2>
 

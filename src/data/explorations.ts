@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-victorian-internet",
+    title: "The Victorian Internet",
+    subtitle: "How the telegraph rewired the human mind — and then we forgot it happened",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-victorian-internet.png",
+    publishedAt: "04/20/2026 01:19 AM",
+    description:
+      "The telegraph didn't just send messages faster — it shattered the ancient bond between distance and time, and the world that emerged from the wreckage looks eerily like our own.",
+  },
+  {
     slug: "the-pale-blue-dot",
     title: "The Pale Blue Dot",
     subtitle: "On the most important photograph no one needed to take",
