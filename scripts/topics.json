@@ -2617,5 +2617,25 @@
     "color": "rose",
     "description": "When the telegraph transformed the world, it did so through the fingers of women. By the 1870s, female telegraph operators dominated the relay stations of Britain and America — faster, more accurate, and paid less than their male counterparts. They were the first women to enter professional office life in large numbers, the first to sit beside men as technical equals, the first to develop repetitive strain injuries from machines. They gossiped across continents, fell in love through code, organized labor actions in Morse, and were erased from almost every history of the communications revolution they made possible.",
     "imagePrompt": "A Victorian telegraph office populated entirely by women operators, rows of wooden desks with brass telegraph instruments, fingers poised over keys, light from tall windows catching dust motes, a mix of concentration and quiet conversation, warm sepia tones with flashes of electric blue light from the instruments, one woman's hands in sharp focus mid-transmission"
+  },
+  {
+    "slug": "the-lucifer-effect",
+    "title": "The Lucifer Effect",
+    "subtitle": "How ordinary institutions manufacture cruelty — and why we keep building them anyway",
+    "category": "Psychology",
+    "color": "red",
+    "description": "Philip Zimbardo called it 'the Lucifer Effect' — the transformation of good people into perpetrators of evil through the alchemy of situation and role. But the Stanford Prison Experiment was only the most famous example of a pattern that appears again and again across human institutions: armies, corporations, hospitals, schools. The question is not why monsters do monstrous things. The question is why systems turn ordinary people into monsters, and why we seem constitutionally unable to design our way out of it.",
+    "imagePrompt": "A long empty institutional corridor with harsh fluorescent lighting, identical numbered doors on both sides, the perspective vanishing to a dark point, cinematic and deeply unsettling",
+    "essayPrompt": "Write a deep, literary Foxfire essay about the systemic and institutional forces that transform ordinary people into agents of cruelty — drawing on Zimbardo's 'Lucifer Effect' framework, Hannah Arendt's banality of evil, Milgram's obedience studies, and real-world institutional examples from military hierarchies to corporate cultures to hospital scandals. Explore the philosophical question of whether evil is primarily a property of persons or of systems, and what this means for how we design institutions. The essay should be unsettling, intellectually rigorous, and deeply human — written in Foxfire's distinctive voice: precise, literary, curious, and never sensationalist."
+  },
+  {
+    "slug": "the-therapeutic-state",
+    "title": "The Therapeutic State",
+    "subtitle": "When medicine became a tool of social control — and the blurry line between healing and imprisonment",
+    "category": "History",
+    "color": "violet",
+    "description": "In the Soviet Union, political dissidents were diagnosed with 'sluggish schizophrenia' — a condition invented specifically to pathologize resistance to authority. In mid-century America, homosexuality was a psychiatric diagnosis. In Victorian England, women who defied their husbands could be committed to asylums. The history of psychiatry is shadowed by a recurring nightmare: the use of medical language to do political work, to disappear inconvenient people, to make social control look like compassion. And the uncomfortable question it raises is not merely historical — it asks us how we know, in any era, when therapy ends and coercion begins.",
+    "imagePrompt": "A vintage psychiatric ward with ornate Victorian architecture, arched windows casting pale light across empty iron-framed beds, a single medical chart hanging from a bed frame, melancholy and beautiful and deeply strange",
+    "essayPrompt": "Write a deep, literary Foxfire essay tracing the dark history of psychiatry as an instrument of social and political control — from Soviet punitive psychiatry and the invention of 'sluggish schizophrenia,' to the pathologization of homosexuality in the DSM, to the institutionalization of 'difficult' women in Victorian asylums, to Thomas Szasz's radical critique in 'The Myth of Mental Illness.' Explore the genuine philosophical difficulty at the heart of this history: how do you distinguish a discipline that heals from one that controls, when both use the same language, the same institutions, the same white coats? The essay should be intellectually rigorous, historically grounded, morally serious, and written in Foxfire's distinctive literary voice — curious, precise, and unwilling to flatten complexity into easy conclusions."
   }
 ]
