@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-stanford-collapse",
+    title: "The Stanford Collapse",
+    subtitle: "How a fake prison became a real lie",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-stanford-collapse.png",
+    publishedAt: "04/20/2026 11:47 AM",
+    description:
+      "Philip Zimbardo built a prison in a basement and watched what happened — then spent fifty years lying about what he saw.",
+  },
+  {
     slug: "the-victorian-internet",
     title: "The Victorian Internet",
     subtitle: "How the telegraph rewired the human mind — and then we forgot it happened",

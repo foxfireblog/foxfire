@@ -36,6 +36,13 @@ export default function TheVictorianInternet() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-victorian-internet.mp3"
       prevSlug="the-pale-blue-dot"
       prevTitle="The Pale Blue Dot"
+    nextSlug="the-stanford-collapse"
+    nextTitle="The Stanford Collapse"
+    nextSubtitle="How a fake prison became a real lie"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-stanford-collapse.png"
+    nextReadTime="12 min"
     >
       <h2>The Murder That Proved Everything</h2>
 
