@@ -36,6 +36,13 @@ export default function TheStanfordCollapse() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-stanford-collapse.mp3"
       prevSlug="the-victorian-internet"
       prevTitle="The Victorian Internet"
+    nextSlug="the-devil-in-the-chemistry"
+    nextTitle="The Devil in the Chemistry"
+    nextSubtitle="Some plants don't want to be eaten. They want to be remembered."
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-devil-in-the-chemistry.png"
+    nextReadTime="12 min"
     >
       <h2>The Scream</h2>
 

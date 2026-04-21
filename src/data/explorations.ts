@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-devil-in-the-chemistry",
+    title: "The Devil in the Chemistry",
+    subtitle: "Some plants don't want to be eaten. They want to be remembered.",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-devil-in-the-chemistry.png",
+    publishedAt: "04/21/2026 01:04 AM",
+    description:
+      "The ancient, invisible war between plants and the animals that eat them — and how it shaped everything from human consciousness to the spice trade.",
+  },
+  {
     slug: "the-stanford-collapse",
     title: "The Stanford Collapse",
     subtitle: "How a fake prison became a real lie",
