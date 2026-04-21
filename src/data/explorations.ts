@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "dead-drops-and-living-cities",
+    title: "Dead Drops and Living Cities",
+    subtitle: "How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War",
+    category: "Essay",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/dead-drops-and-living-cities.png",
+    publishedAt: "04/21/2026 11:50 AM",
+    description:
+      "The secret history of how intelligence agencies hid their most dangerous messages inside the ordinary surfaces of cities — and what it reveals about the hidden life of every public space.",
+  },
+  {
     slug: "the-devil-in-the-chemistry",
     title: "The Devil in the Chemistry",
     subtitle: "Some plants don't want to be eaten. They want to be remembered.",
