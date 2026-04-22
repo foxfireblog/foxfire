@@ -36,6 +36,13 @@ export default function DeadDropsAndLivingCities() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-drops-and-living-cities.mp3"
       prevSlug="the-devil-in-the-chemistry"
       prevTitle="The Devil in the Chemistry"
+    nextSlug="the-bilateral-animal"
+    nextTitle="The Bilateral Animal"
+    nextSubtitle="Why almost every creature with a face is a mirror of itself"
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-bilateral-animal.png"
+    nextReadTime="11 min"
     >
       <h2>The Nickel That Told a Story</h2>
 

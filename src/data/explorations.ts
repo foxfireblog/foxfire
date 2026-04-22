@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-bilateral-animal",
+    title: "The Bilateral Animal",
+    subtitle: "Why almost every creature with a face is a mirror of itself",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "11 min",
+    image: "/images/explorations/the-bilateral-animal.png",
+    publishedAt: "04/22/2026 03:00 AM",
+    description:
+      "Almost every animal on Earth has two sides that mirror each other — and the reason why reaches back to a single moment in evolutionary history that changed the meaning of being alive.",
+  },
+  {
     slug: "dead-drops-and-living-cities",
     title: "Dead Drops and Living Cities",
     subtitle: "How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War",
