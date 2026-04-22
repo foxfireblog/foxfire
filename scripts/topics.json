@@ -2677,5 +2677,25 @@
     "description": "In 1852, an electrical pulse fired from the Greenwich Observatory and set every clock in London ticking in unison for the first time. It was not just a technical achievement — it was a political act. Synchronized time reorganized who owned the hours, who could be late, who was always on time by definition. The story of standard time is the story of how cities were rewired from the inside.",
     "imagePrompt": "Victorian-era city street corner with elaborate ornate public clock tower, telegraph wires stretching to the horizon, fog-softened gaslight, dozens of pocket watches laid out in a grid on cobblestones, long exposure photography aesthetic",
     "essayPrompt": "Write a long-form essay for Foxfire about the invention and politics of synchronized time. Begin with the electric time ball at Greenwich and the telegraph network that first unified a city's clocks. Explore how railway companies — not governments — first imposed standard time zones on resistant populations, how indigenous and agrarian communities experienced the imposition of clock-time as a form of colonial control, and how the very concept of being 'on time' restructured power in industrial cities. Include the holdouts: the towns that refused, the countries that kept fractional offsets, the people for whom synchronized time was always someone else's convenience. Connect it to how cities still encode temporal power — who waits, who doesn't."
+  },
+  {
+    "slug": "the-left-hand-of-the-universe",
+    "title": "The Left Hand of the Universe",
+    "subtitle": "Why life chose one direction and never looked back",
+    "category": "Science",
+    "color": "violet",
+    "description": "Every amino acid in every living thing on Earth twists to the left. Every sugar spirals to the right. This is called chirality — molecular handedness — and no one fully understands why life picked a side. The choice was made perhaps four billion years ago, in some warm pond or hydrothermal vent, and has been locked in ever since. Mirror-image life, if it exists somewhere, would be chemically invisible to us. We could not digest it. It would not poison us. We would simply pass through each other like ghosts.",
+    "imagePrompt": "Two identical spiral molecules facing each other like mirror images, one glowing warm gold and one cool silver-blue, against a deep black background with faint star-like particles, photorealistic macro chemistry visualization",
+    "essayPrompt": "Write a deep, curious essay about molecular chirality — why all life on Earth uses left-handed amino acids and right-handed sugars, the mystery of how this asymmetry was established, theories involving polarized light from neutron stars or chance events in early chemistry, and the haunting concept of mirror-life that would be biochemically invisible to us. Explore what this tells us about the contingency of life's deepest rules."
+  },
+  {
+    "slug": "the-body-that-grew-a-second-brain",
+    "title": "The Body That Grew a Second Brain",
+    "subtitle": "The enteric nervous system and the mind hiding in your gut",
+    "category": "Science",
+    "color": "amber",
+    "description": "Wrapped around your intestines is a nervous system so complex and autonomous that scientists call it the second brain. The enteric nervous system contains roughly 500 million neurons — more than the spinal cord — and can function entirely without instructions from the brain in your skull. It produces 95% of the body's serotonin. It has its own reflexes, its own memory, its own moods. It evolved before the central nervous system, in creatures that were little more than tubes. The brain you think with may, in an evolutionary sense, be the newcomer.",
+    "imagePrompt": "A luminous network of neurons glowing amber and gold, winding in organic spirals that suggest both intestinal anatomy and a cosmic web, against a deep warm dark background, ethereal bioluminescent scientific illustration style",
+    "essayPrompt": "Write a deep, curious essay about the enteric nervous system — the vast neural network embedded in the gut that functions as a second brain. Cover its evolutionary antiquity, its staggering neuron count, its production of serotonin, and the bidirectional gut-brain axis. Explore what it means for our concept of mind and self when cognition turns out to be distributed through the body, and how ancient tube-shaped animals may have 'thought' with their guts long before skulls existed."
   }
 ]
