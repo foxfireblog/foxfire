@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-nansen-passport",
+    title: "The Nansen Passport",
+    subtitle: "When the world decided you didn't exist, one man invented a piece of paper that said you did",
+    category: "Essay",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-nansen-passport.png",
+    publishedAt: "04/22/2026 11:47 AM",
+    description:
+      "How a polar explorer created an identity document for the stateless — and briefly made the world remember that papers don't make people, people make papers.",
+  },
+  {
     slug: "the-bilateral-animal",
     title: "The Bilateral Animal",
     subtitle: "Why almost every creature with a face is a mirror of itself",
