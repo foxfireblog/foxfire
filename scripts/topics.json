@@ -2737,5 +2737,25 @@
     "description": "The Berlin Conference of 1884–85 is one of the most consequential meetings in human history, yet almost no one can name who attended it or what was actually argued. Bismarck hosted. No African was present. The delegates debated whether a river gave you rights to a hinterland, whether occupation had to be real or merely declared, and how to prevent the great powers from going to war over land none of them actually controlled. They called it a humanitarian project — they were, they said, opening Africa to free trade and ending the Arab slave trade. They produced a document that partitioned a continent inhabited by hundreds of distinct peoples into geometrical shapes that suited European maps. This is the story of what was actually said in that room, and what the lines drawn there set in motion.",
     "imagePrompt": "A grand nineteenth-century European diplomatic hall, a massive table covered in maps of Africa, chandeliers overhead, men in formal dress leaning over documents, one large map of Africa with rough pencil lines being drawn across it, rendered in the style of a historical oil painting, dramatic lighting",
     "essayPrompt": "Write a long-form essay for Foxfire about the Berlin Conference of 1884–85. Go beyond the familiar summary and excavate: what was actually debated and by whom, the specific legal fictions invented (the doctrine of effective occupation, the principle of free navigation, the humanitarian mandate), how the conference related to and legitimized Leopold's Congo Free State, which borders were drawn in ways that deliberately separated ethnic groups or lumped enemies together, and how the diplomats understood — or refused to understand — what they were doing. Draw on the specific language of the conference documents. End with the long twentieth-century aftermath: how Berlin's lines produced conflicts that still define the continent, and why the conference is simultaneously the most important event most educated people cannot describe."
+  },
+  {
+    "slug": "the-felt-sense-of-time",
+    "title": "The Felt Sense of Time",
+    "subtitle": "Why your body keeps a clock your mind can't read",
+    "category": "Science",
+    "color": "violet",
+    "description": "You don't experience time through thought alone — you feel it in your gut, your heartbeat, your muscle tension. Neuroscientists are discovering that the body has its own temporal sense, entirely separate from conscious awareness, and that our deepest distortions of time — in trauma, in flow, in illness — are fundamentally physical, not mental.",
+    "imagePrompt": "A close-up of a human hand with a faint clock face visible beneath the skin like an x-ray, soft violet light, ethereal and anatomical",
+    "essayPrompt": "Write a deeply curious, lyrical essay exploring the science of bodily time perception — interoception, circadian rhythms embedded in individual cells, the way trauma stretches or collapses duration. Draw on research from chronobiology, neuroscience of interoception, and phenomenology. Explore how the body's clock differs from clock time, how illness distorts temporal felt sense, and what it means that time is something we physically inhabit rather than merely measure. Approximately 1800 words. Begin with a specific, visceral physical moment — a held breath, a waiting room, a near-miss — before expanding outward."
+  },
+  {
+    "slug": "the-ghost-in-the-mirror",
+    "title": "The Ghost in the Mirror",
+    "subtitle": "The strange disorder that makes you a stranger to your own reflection",
+    "category": "Science",
+    "color": "teal",
+    "description": "Depersonalization disorder affects millions of people who live in a state of permanent estrangement from their own bodies — watching themselves from a distance, unable to feel ownership of their hands, their voice, their face. It is among the least understood and most philosophically unsettling conditions in psychiatry, sitting at the exact border between neuroscience and the oldest questions about selfhood.",
+    "imagePrompt": "A person standing before a foggy mirror in dim teal light, their reflection slightly out of sync — turned a different direction, delayed, ghostly and disconnected",
+    "essayPrompt": "Write a deeply curious, humanistic essay about depersonalization and derealization — the neurological and psychological condition in which people feel permanently detached from their own bodies and sense of self. Draw on patient testimonies, the history of psychiatric attempts to classify it, and current neuroscience exploring the default mode network and predictive processing. Connect to philosophical traditions around personal identity — Hume's bundle theory, Metzinger's 'no-self' model — and explore what this condition reveals about how fragile the feeling of being a self actually is. Approximately 1800 words. Begin with a first-person-style phenomenological description of what the condition feels like before pulling back into history and science."
   }
 ]
