@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-proprioceptive-self",
+    title: "The Proprioceptive Self",
+    subtitle: "You have a secret sense that tells you where your body ends. It can be stolen.",
+    category: "Essay",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-proprioceptive-self.png",
+    publishedAt: "04/23/2026 12:00 PM",
+    description:
+      "The invisible sense that builds your body in the dark — and what happens when it comes undone.",
+  },
+  {
     slug: "the-congo-free-state-part-2",
     title: "The Congo Free State: The Rubber Terror (Part II of III)",
     subtitle: "The quota system, the severed hands, the Force Publique, and the demographic catastrophe",
