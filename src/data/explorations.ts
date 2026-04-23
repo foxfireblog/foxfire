@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-congo-free-state-part-2",
+    title: "The Congo Free State: The Rubber Terror (Part II of III)",
+    subtitle: "The quota system, the severed hands, the Force Publique, and the demographic catastrophe",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-congo-free-state-part-2.png",
+    publishedAt: "04/23/2026 01:14 AM",
+    description:
+      "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
+  },
+  {
     slug: "the-nansen-passport",
     title: "The Nansen Passport",
     subtitle: "When the world decided you didn't exist, one man invented a piece of paper that said you did",
