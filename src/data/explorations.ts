@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-double-agent-who-loved-both-sides",
+    title: "The Double Agent Who Loved Both Sides",
+    subtitle: "On the impossible psychology of living as two people at once",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-double-agent-who-loved-both-sides.png",
+    publishedAt: "04/24/2026 01:15 AM",
+    description:
+      "Espionage history reveals something unsettling: the most effective double agents weren't pretending — they meant it, every time, to everyone.",
+  },
+  {
     slug: "the-proprioceptive-self",
     title: "The Proprioceptive Self",
     subtitle: "You have a secret sense that tells you where your body ends. It can be stolen.",
