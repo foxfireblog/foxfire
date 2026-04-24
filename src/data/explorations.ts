@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-trials-of-the-dead",
+    title: "The Trials of the Dead",
+    subtitle: "When history puts corpses in the dock",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-trials-of-the-dead.png",
+    publishedAt: "04/24/2026 07:51 PM",
+    description:
+      "From medieval popes to modern dictators, the strange and revealing history of putting dead people on trial.",
+  },
+  {
     slug: "the-invention-of-blue",
     title: "The Invention of Blue",
     subtitle: "Why Homer's sea was wine-dark, and what that tells us about the eye, the mind, and the world",

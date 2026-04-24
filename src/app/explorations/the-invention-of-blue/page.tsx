@@ -36,6 +36,13 @@ export default function TheInventionOfBlue() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-invention-of-blue.mp3"
       prevSlug="the-double-agent-who-loved-both-sides"
       prevTitle="The Double Agent Who Loved Both Sides"
+    nextSlug="the-trials-of-the-dead"
+    nextTitle="The Trials of the Dead"
+    nextSubtitle="When history puts corpses in the dock"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-trials-of-the-dead.png"
+    nextReadTime="12 min"
     >
       <h2>The Missing Color</h2>
 
