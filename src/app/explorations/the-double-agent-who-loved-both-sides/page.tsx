@@ -36,6 +36,13 @@ export default function TheDoubleAgentWhoLovedBothSides() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-double-agent-who-loved-both-sides.mp3"
       prevSlug="the-proprioceptive-self"
       prevTitle="The Proprioceptive Self"
+    nextSlug="the-invention-of-blue"
+    nextTitle="The Invention of Blue"
+    nextSubtitle="Why Homer's sea was wine-dark, and what that tells us about the eye, the mind, and the world"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-invention-of-blue.png"
+    nextReadTime="13 min"
     >
       <h2>The Man Who Wept for Cricket</h2>
 

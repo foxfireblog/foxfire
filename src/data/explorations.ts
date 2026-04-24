@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-invention-of-blue",
+    title: "The Invention of Blue",
+    subtitle: "Why Homer's sea was wine-dark, and what that tells us about the eye, the mind, and the world",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-invention-of-blue.png",
+    publishedAt: "04/24/2026 11:26 AM",
+    description:
+      "Ancient languages had no word for blue — not because they couldn't see the sky, but because color is something we learn to carve out of the continuous spectrum of light, and what we cannot name, we struggle to notice.",
+  },
+  {
     slug: "the-double-agent-who-loved-both-sides",
     title: "The Double Agent Who Loved Both Sides",
     subtitle: "On the impossible psychology of living as two people at once",
