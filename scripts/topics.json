@@ -2777,5 +2777,25 @@
     "description": "During the worst episodes of state violence in the 20th century, small webs of ordinary people — shopkeepers, nuns, farmers, bureaucrats — quietly constructed shadow systems of rescue. They forged documents, hid fugitives, bribed guards, and lied to neighbors they had known for decades. Psychologists have spent years trying to understand what separated them from everyone else. The answer is stranger and more hopeful than anyone expected.",
     "imagePrompt": "A dimly lit cellar or hidden room, a single candle on a wooden table with forged identity papers, stamps, and ink spread across it, hands working carefully in the near-darkness, stone walls close, the atmosphere of absolute secrecy and moral weight",
     "essayPrompt": "Write a deeply researched Foxfire essay about the hidden rescue networks that formed during the Holocaust, the Armenian genocide, and other episodes of state-organized persecution — focusing not on the famous heroes but on the anonymous, ordinary people who created elaborate underground systems of survival. Draw on the landmark psychological research of Samuel and Pearl Oliner, who interviewed hundreds of rescuers and bystanders to find what distinguished them. Explore the moral sociology of courage — the role of childhood attachment, religious identity, proximity to victims, and the sociology of commitment escalation. Examine specific networks: the Dutch Westerweel Group, the Danish fishing boats, the rescue operation in Le Chambon-sur-Lignon. End with a reckoning of what this research tells us about ordinary moral heroism and why it remains so rare."
+  },
+  {
+    "slug": "the-purple-that-ruled-the-world",
+    "title": "The Purple That Ruled the World",
+    "subtitle": "How a rotting snail built an empire of color",
+    "category": "History",
+    "color": "violet",
+    "description": "For a thousand years, the most powerful color on earth came from a gland in a dying sea snail. Tyrian purple — the color of Roman emperors, Byzantine royalty, and Catholic cardinals — required crushing tens of thousands of Murex mollusks to produce a single ounce of dye. The smell was catastrophic. The cost was astronomical. And yet civilization organized itself around the right to wear it.",
+    "imagePrompt": "A Byzantine emperor's robe in deep Tyrian purple, photorealistic, the fabric richly textured, surrounded by ancient Mediterranean light, fragments of crushed sea snails visible in shadow",
+    "essayPrompt": "Write a long-form Foxfire essay about Tyrian purple — its origins in Phoenician dye works, the extraordinary labor and stench involved in its production, and how a single color became legally encoded into Roman imperial identity. Explore how the word 'porphyry' (born in the purple) determined succession to the Byzantine throne, how the color nearly vanished from European culture for centuries after the fall of Constantinople, and how its eventual recreation in the 19th century using chemistry echoed the accidental discovery of mauveine by William Perkin. Use the color itself as a lens on power, scarcity, and how humans have always used what is hardest to obtain to signal who is permitted to command."
+  },
+  {
+    "slug": "the-man-who-heard-color",
+    "title": "The Man Who Heard Color",
+    "subtitle": "What synesthesia reveals about the mind constructing reality",
+    "category": "Science",
+    "color": "emerald",
+    "description": "For some people, the number five is always yellow. The key of D minor smells faintly of wood smoke. The word 'Tuesday' sits slightly to the left and above 'Monday' in a space that exists nowhere but in the mind. Synesthesia — the crossing of senses — was dismissed as madness, then metaphor, then finally, reluctantly, accepted as a real neurological phenomenon. What it reveals about how all of us construct the experience of color, sound, and time is stranger than the condition itself.",
+    "imagePrompt": "An abstract visualization of synesthetic perception — musical notes dissolving into colors, numbers glowing with distinct hues, a human silhouette at the center where all senses converge, dreamlike and scientifically precise",
+    "essayPrompt": "Write a long-form Foxfire essay about synesthesia — beginning with the 19th century scientists who documented it only to have it dismissed by behaviorists for most of the 20th century, and tracing its rehabilitation through the neurological work of Richard Cytowic and later Vilayanur Ramachandran. Explore the major varieties: grapheme-color, chromesthesia, spatial sequence, and mirror-touch. Use synesthesia as a doorway into the deeper question of what color actually is — not a property of objects but a construction of minds — and what it means that every human being is, in a sense, hallucinating a consistent shared world from fundamentally private sensory data. End with what synesthesia suggests about the nature of creativity, and why so many artists, composers, and writers have reported some form of it."
   }
 ]
