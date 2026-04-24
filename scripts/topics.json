@@ -2797,5 +2797,25 @@
     "description": "For some people, the number five is always yellow. The key of D minor smells faintly of wood smoke. The word 'Tuesday' sits slightly to the left and above 'Monday' in a space that exists nowhere but in the mind. Synesthesia — the crossing of senses — was dismissed as madness, then metaphor, then finally, reluctantly, accepted as a real neurological phenomenon. What it reveals about how all of us construct the experience of color, sound, and time is stranger than the condition itself.",
     "imagePrompt": "An abstract visualization of synesthetic perception — musical notes dissolving into colors, numbers glowing with distinct hues, a human silhouette at the center where all senses converge, dreamlike and scientifically precise",
     "essayPrompt": "Write a long-form Foxfire essay about synesthesia — beginning with the 19th century scientists who documented it only to have it dismissed by behaviorists for most of the 20th century, and tracing its rehabilitation through the neurological work of Richard Cytowic and later Vilayanur Ramachandran. Explore the major varieties: grapheme-color, chromesthesia, spatial sequence, and mirror-touch. Use synesthesia as a doorway into the deeper question of what color actually is — not a property of objects but a construction of minds — and what it means that every human being is, in a sense, hallucinating a consistent shared world from fundamentally private sensory data. End with what synesthesia suggests about the nature of creativity, and why so many artists, composers, and writers have reported some form of it."
+  },
+  {
+    "slug": "the-ghost-verdict",
+    "title": "The Ghost Verdict",
+    "subtitle": "How courts have convicted the living for crimes against the dead",
+    "category": "History",
+    "color": "violet",
+    "description": "In certain corners of legal history, the dead have functioned not just as victims but as witnesses, plaintiffs, and the unseen force bending the law toward strange conclusions. From posthumous pardons that reshuffled empires to murder convictions hinging entirely on the words a dying person whispered, this is a story about what happens when the boundary between testimony and ghost is thinner than any court will officially admit.",
+    "imagePrompt": "A dim Victorian courtroom with an empty witness box casting a long shadow, dust motes suspended in a single shaft of light, the judge's bench draped in black crepe, a crumpled piece of paper on the floor that reads 'he told me himself'",
+    "essayPrompt": "Write a deep, atmospheric Foxfire essay about the legal concept of dying declarations, posthumous pardons, and cases where courts have bent procedure to accommodate testimony or evidence from people who were dead — including the 1478 Cadaver Synod's legal legacy, dying declaration doctrine in common law, and modern cases where the 'voice' of a murder victim shaped a conviction. Explore what these cases reveal about how justice systems negotiate the boundary between the living and the dead, and what it means for a legal system premised on confrontation and cross-examination to admit the words of someone who can no longer be questioned."
+  },
+  {
+    "slug": "the-city-of-the-unburied",
+    "title": "The City of the Unburied",
+    "subtitle": "What happens to a society when it cannot bury its dead",
+    "category": "History",
+    "color": "teal",
+    "description": "Across history, certain catastrophes have left the dead unburied for weeks, years, even centuries — and in each case, the living organized themselves around that fact in ways that reshaped politics, religion, and identity. From the charnel fields after medieval plague to the missing of the Western Front whose bones still surface every spring, this is an essay about what it costs a culture to carry its dead without being able to set them down.",
+    "imagePrompt": "An overgrown field in northern France at dusk, a single rusted helmet emerging from the dark soil, wildflowers growing through its visor, the horizon heavy with low clouds, a wooden marker barely legible in the fading light",
+    "essayPrompt": "Write a deep, meditative Foxfire essay about the historical, political, and psychological consequences of societies that cannot bury their dead — focusing on the Black Death's disruption of Catholic burial rites, the Western Front's ongoing Iron Harvest, the disappeared of Argentina and the Mothers of the Plaza de Mayo, and the specific grief of families who cannot perform closure rituals. Explore how unburied dead have become political symbols, how governments have weaponized or suppressed them, and what anthropologists say about the fundamental human need to mark the transition from living person to honored ancestor — and what happens when that transition is denied."
   }
 ]
