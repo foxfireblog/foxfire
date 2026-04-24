@@ -2757,5 +2757,25 @@
     "description": "Depersonalization disorder affects millions of people who live in a state of permanent estrangement from their own bodies — watching themselves from a distance, unable to feel ownership of their hands, their voice, their face. It is among the least understood and most philosophically unsettling conditions in psychiatry, sitting at the exact border between neuroscience and the oldest questions about selfhood.",
     "imagePrompt": "A person standing before a foggy mirror in dim teal light, their reflection slightly out of sync — turned a different direction, delayed, ghostly and disconnected",
     "essayPrompt": "Write a deeply curious, humanistic essay about depersonalization and derealization — the neurological and psychological condition in which people feel permanently detached from their own bodies and sense of self. Draw on patient testimonies, the history of psychiatric attempts to classify it, and current neuroscience exploring the default mode network and predictive processing. Connect to philosophical traditions around personal identity — Hume's bundle theory, Metzinger's 'no-self' model — and explore what this condition reveals about how fragile the feeling of being a self actually is. Approximately 1800 words. Begin with a first-person-style phenomenological description of what the condition feels like before pulling back into history and science."
+  },
+  {
+    "slug": "the-man-who-became-his-own-legend",
+    "title": "The Man Who Became His Own Legend",
+    "subtitle": "How Wilfred Thesiger, T.E. Lawrence, and the great explorer-impostors didn't just invent stories — they invented selves",
+    "category": "History",
+    "color": "amber",
+    "description": "There is a particular kind of person who goes so deep into a role that the original self dissolves entirely. The great explorer-impostors of the 19th and 20th centuries didn't falsify their adventures from the outside — they lived them so completely that the question of authenticity became meaningless. This is the story of identity as performance, and performance as transformation.",
+    "imagePrompt": "A weathered man in desert robes sitting before a campfire in a vast empty landscape, his shadow cast enormous behind him against ancient stone, a European pocket watch barely visible in his hand, the light ambiguous and cinematic",
+    "essayPrompt": "Write a deeply researched Foxfire essay about the phenomenon of explorers and adventurers — particularly T.E. Lawrence, Wilfred Thesiger, and figures like them — who so thoroughly constructed public personas that the boundary between fabrication and lived identity collapsed. Explore the psychology of self-mythologization, the colonial context that made 'going native' a form of power rather than surrender, and what it means when a person becomes indistinguishable from their own legend. Draw on scholarship about performance theory, the psychology of identity, and the specific historical moment that made such transformations possible. End with a meditation on whether any self is more 'real' than a carefully chosen one."
+  },
+  {
+    "slug": "the-network-of-rescue",
+    "title": "The Network of Rescue",
+    "subtitle": "The extraordinary moral underground of ordinary people who built secret systems to save strangers — and what it cost them to care",
+    "category": "History",
+    "color": "teal",
+    "description": "During the worst episodes of state violence in the 20th century, small webs of ordinary people — shopkeepers, nuns, farmers, bureaucrats — quietly constructed shadow systems of rescue. They forged documents, hid fugitives, bribed guards, and lied to neighbors they had known for decades. Psychologists have spent years trying to understand what separated them from everyone else. The answer is stranger and more hopeful than anyone expected.",
+    "imagePrompt": "A dimly lit cellar or hidden room, a single candle on a wooden table with forged identity papers, stamps, and ink spread across it, hands working carefully in the near-darkness, stone walls close, the atmosphere of absolute secrecy and moral weight",
+    "essayPrompt": "Write a deeply researched Foxfire essay about the hidden rescue networks that formed during the Holocaust, the Armenian genocide, and other episodes of state-organized persecution — focusing not on the famous heroes but on the anonymous, ordinary people who created elaborate underground systems of survival. Draw on the landmark psychological research of Samuel and Pearl Oliner, who interviewed hundreds of rescuers and bystanders to find what distinguished them. Explore the moral sociology of courage — the role of childhood attachment, religious identity, proximity to victims, and the sociology of commitment escalation. Examine specific networks: the Dutch Westerweel Group, the Danish fishing boats, the rescue operation in Le Chambon-sur-Lignon. End with a reckoning of what this research tells us about ordinary moral heroism and why it remains so rare."
   }
 ]
