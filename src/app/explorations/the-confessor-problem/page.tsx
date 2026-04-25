@@ -36,6 +36,13 @@ export default function TheConfessorProblem() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-confessor-problem.mp3"
       prevSlug="the-trials-of-the-dead"
       prevTitle="The Trials of the Dead"
+    nextSlug="the-great-filter"
+    nextTitle="The Great Filter"
+    nextSubtitle="Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead."
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-great-filter.png"
+    nextReadTime="13 min"
     >
       <h2>The Meal on the Dead Man&apos;s Chest</h2>
 

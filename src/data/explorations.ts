@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-great-filter",
+    title: "The Great Filter",
+    subtitle: "Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead.",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-great-filter.png",
+    publishedAt: "04/25/2026 02:03 PM",
+    description:
+      "The universe should be teeming with civilizations — but it's silent, and the possible explanations range from hopeful to existential.",
+  },
+  {
     slug: "the-confessor-problem",
     title: "The Confessor Problem",
     subtitle: "What happens to the person who holds the worst things human beings do",
