@@ -36,6 +36,13 @@ export default function TheTrialsOfTheDead() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trials-of-the-dead.mp3"
       prevSlug="the-invention-of-blue"
       prevTitle="The Invention of Blue"
+    nextSlug="the-confessor-problem"
+    nextTitle="The Confessor Problem"
+    nextSubtitle="What happens to the person who holds the worst things human beings do"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-confessor-problem.png"
+    nextReadTime="13 min"
     >
 
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-confessor-problem",
+    title: "The Confessor Problem",
+    subtitle: "What happens to the person who holds the worst things human beings do",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-confessor-problem.png",
+    publishedAt: "04/25/2026 05:21 AM",
+    description:
+      "An exploration of the people whose job it is to absorb the darkest human confessions — priests, therapists, interrogators, truth commission witnesses — and what that weight does to the container.",
+  },
+  {
     slug: "the-trials-of-the-dead",
     title: "The Trials of the Dead",
     subtitle: "When history puts corpses in the dock",
