@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-archaeology-of-graffiti",
+    title: "The Archaeology of Graffiti",
+    subtitle: "What the walls remember when no one is watching",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-archaeology-of-graffiti.png",
+    publishedAt: "04/26/2026 01:39 AM",
+    description:
+      "From Pompeii's bathhouse insults to Berlin's crumbling walls, graffiti is the voice of people who weren't supposed to have one — and the only historical record that consistently tells the truth.",
+  },
+  {
     slug: "the-great-filter",
     title: "The Great Filter",
     subtitle: "Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead.",

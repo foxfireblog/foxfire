@@ -36,6 +36,13 @@ export default function TheGreatFilter() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-filter.mp3"
       prevSlug="the-confessor-problem"
       prevTitle="The Confessor Problem"
+    nextSlug="the-archaeology-of-graffiti"
+    nextTitle="The Archaeology of Graffiti"
+    nextSubtitle="What the walls remember when no one is watching"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-archaeology-of-graffiti.png"
+    nextReadTime="12 min"
     >
       <h2>The Cartoon That Started Everything</h2>
 
