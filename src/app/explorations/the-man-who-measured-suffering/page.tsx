@@ -36,6 +36,13 @@ export default function TheManWhoMeasuredSuffering() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-man-who-measured-suffering.mp3"
       prevSlug="the-archaeology-of-graffiti"
       prevTitle="The Archaeology of Graffiti"
+    nextSlug="the-snowball-earth"
+    nextTitle="The Snowball Earth"
+    nextSubtitle="When the planet froze solid and life refused to die"
+    nextCategory="Deep Time"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-snowball-earth.png"
+    nextReadTime="13 min"
     >
       <h2>The Dead Man in the Glass Case</h2>
 

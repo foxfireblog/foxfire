@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-snowball-earth",
+    title: "The Snowball Earth",
+    subtitle: "When the planet froze solid and life refused to die",
+    category: "Deep Time",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-snowball-earth.png",
+    publishedAt: "04/26/2026 08:20 PM",
+    description:
+      "Seven hundred million years ago, the entire Earth froze from pole to pole — and the catastrophe that followed may have made complex life possible.",
+  },
+  {
     slug: "the-man-who-measured-suffering",
     title: "The Man Who Measured Suffering",
     subtitle: "Jeremy Bentham, the felicific calculus, and the dream that won't die",
