@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-wood-wide-web-was-wrong",
+    title: "The Wood Wide Web Was Wrong",
+    subtitle: "How a beautiful idea about forests became a myth — and why the truth is stranger and lonelier",
+    category: "Essay",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-wood-wide-web-was-wrong.png",
+    publishedAt: "04/27/2026 05:06 PM",
+    description:
+      "The story of mother trees sharing resources through fungal networks captivated the world — but the science has unraveled, and what's replacing it is more unsettling and more interesting.",
+  },
+  {
     slug: "the-secret-life-of-soil",
     title: "The Secret Life of Soil",
     subtitle: "Beneath your feet is a civilization older than anything above ground — and we're destroying it faster than we can understand it.",

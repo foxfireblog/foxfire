@@ -36,6 +36,13 @@ export default function TheSecretLifeOfSoil() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-secret-life-of-soil.mp3"
       prevSlug="the-snowball-earth"
       prevTitle="The Snowball Earth"
+    nextSlug="the-wood-wide-web-was-wrong"
+    nextTitle="The Wood Wide Web Was Wrong"
+    nextSubtitle="How a beautiful idea about forests became a myth &mdash; and why the truth is stranger and lonelier"
+    nextCategory="Essay"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-wood-wide-web-was-wrong.png"
+    nextReadTime="12 min"
     >
       <h2>The Day the Sky Went Black</h2>
 
