@@ -36,6 +36,13 @@ export default function TheSnowballEarth() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-snowball-earth.mp3"
       prevSlug="the-man-who-measured-suffering"
       prevTitle="The Man Who Measured Suffering"
+    nextSlug="the-secret-life-of-soil"
+    nextTitle="The Secret Life of Soil"
+    nextSubtitle="Beneath your feet is a civilization older than anything above ground &mdash; and we're destroying it faster than we can understand it."
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-secret-life-of-soil.png"
+    nextReadTime="10 min"
     >
       <h2>The Throwaway Line That Changed Everything</h2>
 

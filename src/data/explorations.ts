@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-secret-life-of-soil",
+    title: "The Secret Life of Soil",
+    subtitle: "Beneath your feet is a civilization older than anything above ground — and we're destroying it faster than we can understand it.",
+    category: "Natural History",
+    color: "amber",
+    readTime: "10 min",
+    image: "/images/explorations/the-secret-life-of-soil.png",
+    publishedAt: "04/27/2026 06:47 AM",
+    description:
+      "A handful of earth contains more organisms than there are humans on the planet — and most of them have never been named.",
+  },
+  {
     slug: "the-snowball-earth",
     title: "The Snowball Earth",
     subtitle: "When the planet froze solid and life refused to die",
