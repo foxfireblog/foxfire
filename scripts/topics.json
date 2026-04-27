@@ -2917,5 +2917,25 @@
     "description": "In 1905, a young physicist named Ernest Rutherford walked into a lecture hall and told an audience that included the aged Lord Kelvin — who had calculated the Earth to be perhaps 100 million years old — that he had found proof the planet was billions of years old. The method was radioactive decay: atoms inside rock, ticking like perfect clocks since the moment they formed. What followed was not just a scientific revolution but a philosophical one. Deep time collapsed the whole human story into a single invisible afternoon. This is the history of how we learned to read the clocks hidden inside stone, and what it cost us to understand what they said.",
     "imagePrompt": "A dramatic close-up of ancient rock strata glowing faintly with inner light, suggesting radioactive luminescence, dark cave surroundings, scientific instruments barely visible at the edges, moody and mysterious",
     "essayPrompt": "Write a long-form essay for Foxfire about the history of radiometric dating and the discovery of deep time. Begin with the 19th-century debate over the Earth's age — Kelvin versus the geologists — and the crisis this caused for Darwin's theory. Move through Becquerel's discovery of radioactivity and Rutherford's breakthrough calculation. Explore the philosophical vertigo that resulted when humans first truly confronted billions of years: how it changed theology, biology, and the human sense of self. Include the story of Clair Patterson, who used lead isotopes to date the Earth and accidentally discovered that industrial lead was poisoning everyone. End with a meditation on what it means to hold deep time in your mind."
+  },
+  {
+    "slug": "the-wood-wide-web-was-wrong",
+    "title": "The Wood Wide Web Was Wrong",
+    "subtitle": "How a beautiful idea about forests talking to each other became a myth — and what the truth is stranger still",
+    "category": "Science",
+    "color": "emerald",
+    "description": "For two decades, popular science celebrated the 'wood wide web' — the idea that trees share resources and communicate through fungal networks, that mother trees nurse their young, that forests are cooperative societies. It was a gorgeous story. It was also, in significant part, not true. The researchers who built the myth are now dismantling it, and what's emerging from the wreckage is something more interesting: a story about how science gets romanticized, how we project human values onto ecosystems, and what mycorrhizal networks actually do — which turns out to be far weirder than sharing.",
+    "imagePrompt": "Cross-section view underground showing intricate fungal mycelium networks threading between tree roots, bioluminescent threads in darkness, scientific diagram aesthetic meets natural wonder, deep forest floor textures",
+    "essayPrompt": "Write a Foxfire-style essay about how the 'wood wide web' narrative captured the public imagination, the scientific pushback from researchers like Toby Kiers and others, what mycorrhizal networks actually do (including parasitism, competition, and fungal self-interest), and what our desire to see forests as cooperative societies says about us. Explore the broader problem of romanticism in popular ecology."
+  },
+  {
+    "slug": "the-man-who-ate-everything",
+    "title": "The Man Who Ate Everything",
+    "subtitle": "William Buckland was a Victorian geologist who tasted fossils, dined on mole, and accidentally discovered deep time through his stomach",
+    "category": "History",
+    "color": "amber",
+    "description": "William Buckland was the first person to scientifically describe a dinosaur, a Fellow of the Royal Society, and a man who made it his personal mission to eat every animal on Earth. His dinner parties featured mice on toast, roasted hedgehog, and bluebottle flies. He licked a floor in Italy to confirm it was stained with martyrs' blood — and declared it bat urine. He kept a hyena in his home. He was also one of the foundational figures of modern geology and paleontology, a man whose sensory obsession with the physical world — tasting, touching, smelling rock and bone — shaped how science learned to read the Earth. This is a story about eccentric genius, the Victorian hunger to understand nature, and how the line between scientific curiosity and madness was never very clear.",
+    "imagePrompt": "Victorian-era naturalist's study filled with fossils, bones, geological specimens, and taxidermied animals, candlelit, warm amber tones, slightly chaotic and wonderful, antique illustration style",
+    "essayPrompt": "Write a Foxfire-style essay about William Buckland — his geological discoveries including Megalosaurus, his extraordinary eating habits, his method of using taste and smell as scientific instruments, his family (his wife was also a serious scientist), and what his life reveals about the Victorian scientific mind. Explore how his sensory approach to the natural world connects to the broader history of how humans learned to read deep time."
   }
 ]
