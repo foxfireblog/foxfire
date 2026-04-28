@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-luddites-were-right",
+    title: "The Luddites Were Right",
+    subtitle: "The most misunderstood protest movement in history had a point we still haven't reckoned with",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-luddites-were-right.png",
+    publishedAt: "04/28/2026 12:23 PM",
+    description:
+      "The Luddites weren't afraid of technology — they were afraid of what happens when machines serve capital instead of people, and two centuries later their question remains unanswered.",
+  },
+  {
     slug: "the-congo-free-state-part-3",
     title: "The Congo Free State: The First Human Rights Campaign (Part III of III)",
     subtitle: "E.D. Morel, Roger Casement, the Kodak camera, and the aftermath",

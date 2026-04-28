@@ -35,6 +35,13 @@ export default function TheCongoFreeStatePart3() {
       wordCount={2894}
       prevSlug="the-congo-free-state-part-2"
       prevTitle="The Congo Free State: The Rubber Terror (Part II of III)"
+    nextSlug="the-luddites-were-right"
+    nextTitle="The Luddites Were Right"
+    nextSubtitle="The most misunderstood protest movement in history had a point we still haven't reckoned with"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-luddites-were-right.png"
+    nextReadTime="12 min"
     >
       <h2>The Shipping Clerk Who Saw Everything</h2>
 
