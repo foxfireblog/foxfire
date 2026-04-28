@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-congo-free-state-part-3",
+    title: "The Congo Free State: The First Human Rights Campaign (Part III of III)",
+    subtitle: "E.D. Morel, Roger Casement, the Kodak camera, and the aftermath",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-congo-free-state-part-3.png",
+    publishedAt: "04/28/2026 01:36 AM",
+    description:
+      "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
+  },
+  {
     slug: "the-wood-wide-web-was-wrong",
     title: "The Wood Wide Web Was Wrong",
     subtitle: "How a beautiful idea about forests became a myth — and why the truth is stranger and lonelier",

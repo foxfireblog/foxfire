@@ -36,13 +36,13 @@ export default function TheCongoFreeStatePart2() {
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-congo-free-state-part-2.mp3"
       prevSlug="the-congo-free-state"
       prevTitle="The Congo Free State: The King's Private Country (Part I of III)"
-    nextSlug="the-proprioceptive-self"
-    nextTitle="The Proprioceptive Self"
-    nextSubtitle="You have a secret sense that tells you where your body ends. It can be stolen."
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-proprioceptive-self.png"
-    nextReadTime="11 min"
+      nextSlug="the-congo-free-state-part-3"
+      nextTitle="The Congo Free State: The First Human Rights Campaign (Part III of III)"
+      nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-congo-free-state-part-3.png"
+      nextReadTime="13 min"
     >
       <h2>The Bullet Ledger</h2>
 
