@@ -3017,5 +3017,25 @@
     "description": "Vision has wavelengths. Hearing has frequencies. But smell has no agreed-upon physical dimension — we cannot say what property of a molecule makes it smell like roses or rot. One radical theory proposes that the nose is detecting the quantum vibrations of molecular bonds, that what you call a scent is actually the shape of a molecule's hum. The debate has never been settled, and the answer, when it comes, may rewrite what we understand about perception itself.",
     "imagePrompt": "An ethereal visualization of airborne molecules rendered as luminous geometric lattices dissolving into color and light, muted greens and golds against a deep forest background, dreamlike and scientific simultaneously",
     "essayPrompt": "Write a deep, curious essay about the unsolved science of olfaction — why smell remains the least understood of the senses, the competing theories of how molecules become perception (shape theory vs. vibrational theory), the controversial experiments of Luca Turin, and what the mystery of smell reveals about consciousness, chemistry, and the strangeness of the body as a sensing machine. Include the deep evolutionary antiquity of smell and its peculiar intimacy with memory."
+  },
+  {
+    "slug": "the-geology-of-forgetting",
+    "title": "The Geology of Forgetting",
+    "subtitle": "How the Earth erases its own catastrophes — and what survives anyway",
+    "category": "Science",
+    "color": "teal",
+    "description": "Plate tectonics is the most powerful eraser in the solar system. In a few hundred million years, almost every scar on Earth's surface — every crater, every fault line, every mass grave of species — will be swallowed, subducted, melted back into the mantle. Mars keeps its wounds for billions of years. Earth heals them. This essay explores what it means to live on a planet that actively forgets, and the rare, strange places where memory survives: ancient cratons, the Kaapvaal Shield, the Pilbara — rocks so old they predate complex life. It asks a philosophical question dressed as geology: is a world that forgets its catastrophes safer to live in, or just better at hiding what it's survived?",
+    "imagePrompt": "Ancient eroded rock formation in extreme close-up, billions of years old, banded iron and amber stone, teal and rust tones, geological time made visible in layers, cinematic and melancholic",
+    "essayPrompt": "Write a long-form Foxfire essay titled 'The Geology of Forgetting' exploring how Earth's active geology erases impact craters, extinctions, and catastrophes that other planets preserve for billions of years. Move between the science of plate tectonics and subduction, the specific ancient cratons where memory survives (Pilbara, Kaapvaal Shield), and the philosophical dimension of living on a planet engineered by its own processes to forget. Contrast Earth with Mars and the Moon as archives versus living systems. End somewhere unexpected — perhaps on what it means that we are the first species on this planet capable of remembering on geological timescales."
+  },
+  {
+    "slug": "the-people-who-named-the-moon",
+    "title": "The People Who Named the Moon",
+    "subtitle": "The forgotten cartographers who gave craters to dead men — and what they chose to forget",
+    "category": "History",
+    "color": "indigo",
+    "description": "Every crater on the Moon has a name. Most were given by a single Jesuit astronomer in 1651 — Giovanni Battista Riccioli — who, working with a telescope and a conscience troubled by Galileo's condemnation, systematically named the lunar landscape after scientists, philosophers, and astronomers. His choices were political acts disguised as cartography. He gave Galileo a small, obscure crater. He gave Copernicus a magnificent one, perhaps as a quiet rebellion. He named seas that don't exist: the Sea of Tranquility, the Sea of Serenity, the Ocean of Storms. This essay traces the hidden politics inside the most famous map humanity never had to fight over — and asks who gets to name the places no one has ever touched.",
+    "imagePrompt": "Antique telescopic drawing of the moon's surface rendered in ink and sepia, Baroque-era cartographic style, craters labeled in Latin script, candlelight quality, beautiful and precise",
+    "essayPrompt": "Write a long-form Foxfire essay titled 'The People Who Named the Moon' about Giovanni Battista Riccioli's 1651 lunar map Almagestum Novum and the deeply political act of naming craters after scientists in the wake of Galileo's condemnation. Explore how his nomenclature system — still largely in use today — embedded 17th century power struggles, theological anxieties, and quiet acts of intellectual defiance into the landscape of another world. Trace the story forward: how the system was extended, who was added and who omitted, the controversies over naming rights after Apollo, and what it reveals about how humans colonize places with language before they ever arrive. End with the philosophical weight of the fact that the first map of another world was drawn entirely by people who would never go there."
   }
 ]
