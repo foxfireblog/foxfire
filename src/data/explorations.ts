@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cartography-of-craters",
+    title: "The Cartography of Craters",
+    subtitle: "How the most bombed landscape on Earth became an accidental wilderness",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-cartography-of-craters.png",
+    publishedAt: "04/29/2026 12:30 PM",
+    description:
+      "Laos absorbed more bombs than any country in history — and the scarred earth responded by becoming something no one planned.",
+  },
+  {
     slug: "the-music-of-protein-folding",
     title: "The Music of Protein Folding",
     subtitle: "When scientists turned the language of life into sound, they discovered it was already singing",
