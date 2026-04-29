@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-music-of-protein-folding",
+    title: "The Music of Protein Folding",
+    subtitle: "When scientists turned the language of life into sound, they discovered it was already singing",
+    category: "Natural Philosophy",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-music-of-protein-folding.png",
+    publishedAt: "04/29/2026 01:32 AM",
+    description:
+      "Scientists assigned notes to amino acids and discovered that the fundamental machinery of life, when translated into sound, produces music of strange and genuine beauty.",
+  },
+  {
     slug: "the-luddites-were-right",
     title: "The Luddites Were Right",
     subtitle: "The most misunderstood protest movement in history had a point we still haven't reckoned with",
