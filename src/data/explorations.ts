@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scramble-for-africa",
+    title: "The Scramble for Africa: Lines on a Map (Part I of III)",
+    subtitle: "The Berlin Conference, the rules of the game, and how borders were drawn",
+    category: "Essay",
+    color: "amber",
+    readTime: "10 min",
+    image: "/images/explorations/the-scramble-for-africa.png",
+    publishedAt: "04/30/2026 02:23 AM",
+    description:
+      "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
+  },
+  {
     slug: "the-cartography-of-craters",
     title: "The Cartography of Craters",
     subtitle: "How the most bombed landscape on Earth became an accidental wilderness",

@@ -35,6 +35,13 @@ export default function TheCartographyOfCraters() {
       wordCount={2914}
       prevSlug="the-music-of-protein-folding"
       prevTitle="The Music of Protein Folding"
+    nextSlug="the-scramble-for-africa"
+    nextTitle="The Scramble for Africa: Lines on a Map (Part I of III)"
+    nextSubtitle="The Berlin Conference, the rules of the game, and how borders were drawn"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-scramble-for-africa.png"
+    nextReadTime="10 min"
     >
       <h2>The Planes Needed Somewhere to Go</h2>
 
