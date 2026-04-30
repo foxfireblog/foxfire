@@ -3037,5 +3037,25 @@
     "description": "Every crater on the Moon has a name. Most were given by a single Jesuit astronomer in 1651 — Giovanni Battista Riccioli — who, working with a telescope and a conscience troubled by Galileo's condemnation, systematically named the lunar landscape after scientists, philosophers, and astronomers. His choices were political acts disguised as cartography. He gave Galileo a small, obscure crater. He gave Copernicus a magnificent one, perhaps as a quiet rebellion. He named seas that don't exist: the Sea of Tranquility, the Sea of Serenity, the Ocean of Storms. This essay traces the hidden politics inside the most famous map humanity never had to fight over — and asks who gets to name the places no one has ever touched.",
     "imagePrompt": "Antique telescopic drawing of the moon's surface rendered in ink and sepia, Baroque-era cartographic style, craters labeled in Latin script, candlelight quality, beautiful and precise",
     "essayPrompt": "Write a long-form Foxfire essay titled 'The People Who Named the Moon' about Giovanni Battista Riccioli's 1651 lunar map Almagestum Novum and the deeply political act of naming craters after scientists in the wake of Galileo's condemnation. Explore how his nomenclature system — still largely in use today — embedded 17th century power struggles, theological anxieties, and quiet acts of intellectual defiance into the landscape of another world. Trace the story forward: how the system was extended, who was added and who omitted, the controversies over naming rights after Apollo, and what it reveals about how humans colonize places with language before they ever arrive. End with the philosophical weight of the fact that the first map of another world was drawn entirely by people who would never go there."
+  },
+  {
+    "slug": "the-berlin-conference-menu",
+    "title": "What They Ate While Dividing a Continent",
+    "subtitle": "The banquet tables of the Berlin Conference, 1884",
+    "category": "history",
+    "color": "amber",
+    "description": "In the winter of 1884, fourteen nations gathered in Otto von Bismarck's Berlin residence to carve up Africa over the course of fourteen weeks. Between the treaty sessions, they ate extraordinarily well. This is a history of empire told through the food, wine, toasts, and table arrangements of the men who never once invited an African into the room — and what the gap between their civility and their violence reveals about how power disguises itself.",
+    "imagePrompt": "A grand 19th century European banquet table set with elaborate silverware, crystal glasses, and rich food, warm candlelight casting long shadows, formal portraits on dark walls, an atmosphere of opulent indifference, oil painting style",
+    "essayPrompt": "Write a long-form essay for Foxfire exploring the Berlin Conference of 1884–85 through the lens of its social rituals — the banquets, the protocols, the careful politeness — as a way of understanding how European powers normalized the act of partitioning an entire continent. Examine the architecture of civility that made atrocity feel like diplomacy, the deliberate exclusion of African voices, and what the gap between the conference's refined manners and its catastrophic consequences tells us about how empire has always dressed itself in the language of order and reason."
+  },
+  {
+    "slug": "the-cartographers-who-drew-from-rumor",
+    "title": "The Cartographers Who Drew from Rumor",
+    "subtitle": "How European mapmakers invented an Africa that didn't exist",
+    "category": "science",
+    "color": "teal",
+    "description": "Before the Scramble, European maps of Africa were filled with mountains that weren't there, rivers that ran the wrong direction, and kingdoms assembled from traveler's gossip and outright fabrication. The blank spaces weren't blank at all — they were filled with invention. And those invented maps, wrong in almost every particular, were the documents that empires used to justify conquest. The map preceded the territory. The fiction became the legal basis for seizure.",
+    "imagePrompt": "An aged antique map of Africa with ornate illustrations, sea monsters, imagined mountain ranges, flowing script labels in Latin, warm sepia and gold tones, partially unfurled on a dark wood table, candlelight, fragments of coastline accurate and interior wildly speculative",
+    "essayPrompt": "Write a long-form essay for Foxfire on the pre-colonial European cartography of Africa — how mapmakers constructed an imaginary continent from rumor, classical sources, traveler's tales, and deliberate fabrication, and how those deeply flawed maps became the intellectual infrastructure of colonial conquest. Explore the paradox that the 'blank spaces' on maps were simultaneously an admission of ignorance and an assertion of ownership, that emptiness on a European map erased the political and geographic knowledge of millions of people, and that the act of naming — even naming wrongly — was itself a form of possession."
   }
 ]
