@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-parliament-inside-you",
+    title: "The Parliament Inside You",
+    subtitle: "On the 38 trillion citizens of your inner republic",
+    category: "Essay",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-parliament-inside-you.png",
+    publishedAt: "04/30/2026 12:37 PM",
+    description:
+      "Your body is not a single organism but a vast, fractious democracy of 38 trillion microbes — and the question of who's really in charge has no comfortable answer.",
+  },
+  {
     slug: "the-scramble-for-africa",
     title: "The Scramble for Africa: Lines on a Map (Part I of III)",
     subtitle: "The Berlin Conference, the rules of the game, and how borders were drawn",

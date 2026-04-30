@@ -35,6 +35,13 @@ export default function TheScrambleForAfrica() {
       wordCount={2235}
       prevSlug="the-cartography-of-craters"
       prevTitle="The Cartography of Craters"
+    nextSlug="the-parliament-inside-you"
+    nextTitle="The Parliament Inside You"
+    nextSubtitle="On the 38 trillion citizens of your inner republic"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-parliament-inside-you.png"
+    nextReadTime="12 min"
     >
       <h2>The Room Where It Happened</h2>
 
