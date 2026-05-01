@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-fig-and-the-wasp",
+    title: "The Fig and the Wasp",
+    subtitle: "An 80-million-year marriage written in flesh and flower",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-fig-and-the-wasp.png",
+    publishedAt: "05/01/2026 10:57 AM",
+    description:
+      "The strangest love story in evolutionary history: a pact between a tree and an insect so ancient it predates the extinction of the dinosaurs.",
+  },
+  {
     slug: "the-anthropometry-of-empire",
     title: "The Anthropometry of Empire",
     subtitle: "When scientists measured skulls to prove what politicians had already decided",
