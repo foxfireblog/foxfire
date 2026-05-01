@@ -35,6 +35,13 @@ export default function TheParliamentInsideYou() {
       wordCount={2673}
       prevSlug="the-scramble-for-africa"
       prevTitle="The Scramble for Africa: Lines on a Map (Part I of III)"
+    nextSlug="the-anthropometry-of-empire"
+    nextTitle="The Anthropometry of Empire"
+    nextSubtitle="When scientists measured skulls to prove what politicians had already decided"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-anthropometry-of-empire.png"
+    nextReadTime="12 min"
     >
       <h2>The Census That Changed Everything</h2>
 

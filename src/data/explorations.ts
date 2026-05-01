@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-anthropometry-of-empire",
+    title: "The Anthropometry of Empire",
+    subtitle: "When scientists measured skulls to prove what politicians had already decided",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-anthropometry-of-empire.png",
+    publishedAt: "05/01/2026 02:13 AM",
+    description:
+      "How the machinery of measurement — calipers, indices, and the quiet authority of numbers — became one of empire's most durable weapons.",
+  },
+  {
     slug: "the-parliament-inside-you",
     title: "The Parliament Inside You",
     subtitle: "On the 38 trillion citizens of your inner republic",
