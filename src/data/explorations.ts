@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-haitian-revolution",
+    title: "The Haitian Revolution: The Fire (Part I of II)",
+    subtitle: "Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-haitian-revolution.png",
+    publishedAt: "05/01/2026 08:37 PM",
+    description:
+      "How enslaved people in Saint-Domingue did what every Enlightenment philosopher said was impossible, and why the world has been trying to make them pay for it ever since.",
+  },
+  {
     slug: "the-fig-and-the-wasp",
     title: "The Fig and the Wasp",
     subtitle: "An 80-million-year marriage written in flesh and flower",
