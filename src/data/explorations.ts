@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-town-that-belongs-to-two-countries",
+    title: "The Town That Belongs to Two Countries",
+    subtitle: "In Baarle-Hertog, the border runs through kitchens, shops, and the logic of nationhood itself.",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-town-that-belongs-to-two-countries.png",
+    publishedAt: "05/02/2026 05:11 AM",
+    description:
+      "In a small town on the Belgian-Dutch border, sovereignty fractures into absurdity — and reveals something profound about the fictions we build our world on.",
+  },
+  {
     slug: "the-haitian-revolution",
     title: "The Haitian Revolution: The Fire (Part I of II)",
     subtitle: "Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture",

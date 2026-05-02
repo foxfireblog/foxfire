@@ -35,6 +35,13 @@ export default function TheHaitianRevolution() {
       wordCount={2785}
       prevSlug="the-fig-and-the-wasp"
       prevTitle="The Fig and the Wasp"
+    nextSlug="the-town-that-belongs-to-two-countries"
+    nextTitle="The Town That Belongs to Two Countries"
+    nextSubtitle="In Baarle-Hertog, the border runs through kitchens, shops, and the logic of nationhood itself."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-town-that-belongs-to-two-countries.png"
+    nextReadTime="11 min"
     >
       <h2>The Pearl of the Antilles</h2>
 
