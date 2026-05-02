@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-voice-that-carries-water",
+    title: "The Voice That Carries Water",
+    subtitle: "How ancient peoples read the world through sound — and what we lost when we stopped listening",
+    category: "Natural History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-voice-that-carries-water.png",
+    publishedAt: "05/02/2026 01:59 PM",
+    description:
+      "Before maps, before writing, before instruments, humans navigated landscapes by listening — and the dying science of acoustic geography reveals a world we've nearly forgotten how to hear.",
+  },
+  {
     slug: "the-town-that-belongs-to-two-countries",
     title: "The Town That Belongs to Two Countries",
     subtitle: "In Baarle-Hertog, the border runs through kitchens, shops, and the logic of nationhood itself.",
