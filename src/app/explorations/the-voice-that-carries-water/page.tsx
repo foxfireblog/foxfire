@@ -35,6 +35,13 @@ export default function TheVoiceThatCarriesWater() {
       wordCount={2853}
       prevSlug="the-town-that-belongs-to-two-countries"
       prevTitle="The Town That Belongs to Two Countries"
+    nextSlug="the-therapeutic-state"
+    nextTitle="The Therapeutic State"
+    nextSubtitle="When healing became a cage with better lighting"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-therapeutic-state.png"
+    nextReadTime="12 min"
     >
       <h2>The Football Field of Whispers</h2>
 

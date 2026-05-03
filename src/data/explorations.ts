@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-therapeutic-state",
+    title: "The Therapeutic State",
+    subtitle: "When healing became a cage with better lighting",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-therapeutic-state.png",
+    publishedAt: "05/03/2026 01:54 AM",
+    description:
+      "The blurry, shifting border between medicine and social control — and why the most dangerous power is the one that claims to be helping you.",
+  },
+  {
     slug: "the-voice-that-carries-water",
     title: "The Voice That Carries Water",
     subtitle: "How ancient peoples read the world through sound — and what we lost when we stopped listening",
