@@ -3197,5 +3197,24 @@
     "description": "Since at least the thirteenth century, the Belgian town of Gheel has housed the mentally ill — not in wards or cells, but in ordinary family homes, at ordinary dinner tables, in ordinary fields and streets. Pilgrims arrived seeking the healing of Saint Dymphna and never left. Families took them in. Generations passed. The town built an entire civic culture around the integration of madness. Psychiatrists who discovered Gheel in the nineteenth century couldn't decide if it was a miracle or an embarrassment — because it worked.",
     "imagePrompt": "A quiet Belgian village street at golden hour, cobblestones and brick row houses with window boxes of flowers, soft warm light, a figure seated peacefully on a bench, painterly and serene, photorealistic",
     "essayPrompt": "Write a deep, intellectually rigorous Foxfire essay about Gheel, Belgium — the 'mad village' that for eight centuries practiced what would now be called community-based mental health care, long before such a concept existed in psychiatry. Explore the origin in the legend of Saint Dymphna, the gradual evolution of the 'boarding-out' system, and what it meant that ordinary Flemish farmers simply absorbed the mentally ill into daily life across generations. Examine the reaction of nineteenth-century asylum reformers who visited Gheel: some were inspired, others deeply unsettled by the absence of professional control. Ask what Gheel reveals about the assumptions buried inside institutional psychiatry — that madness requires containment, expertise, and separation from ordinary life. Connect to contemporary debates about deinstitutionalization and what communities can hold that hospitals cannot. The essay should feel like a meditation on what 'care' actually means."
+  },
+  {
+    "slug": "the-city-that-breathed",
+    "title": "The City That Breathed",
+    "subtitle": "How Victorian engineers dreamed of pumping air itself through cities — and nearly built a world run on wind",
+    "category": "Hidden Science",
+    "color": "cyan",
+    "description": "Before electricity won the war of currents, a rival vision held sway: compressed air as the universal medium of power. In the 1870s and 80s, engineers proposed threading cities with iron pipes that would carry pressurized air to run clocks, drills, lifts, printing presses, and sewing machines — a distributed nervous system of breathable force. Paris actually built one. Birmingham nearly did. This is the story of pneumatic urbanism, the engineers who believed cities could be powered like lungs, and why the dream collapsed not from failure but from being too slow for a world falling in love with speed.",
+    "imagePrompt": "Cross-section illustration of a Victorian city beneath the streets, vast iron pipes carrying compressed air, workers in tunnels, pressure gauges glowing amber, surface level showing elegant gas-lit boulevards, technical blueprint aesthetic with watercolor washes, deep cyan and brass tones",
+    "essayPrompt": "Write a deep, essayistic exploration of the pneumatic city — the real historical attempts to power urban infrastructure through compressed air networks, particularly Paris's réseau d'air comprimé, the engineers behind it, the industrial philosophy that made it seem inevitable, and why it was ultimately displaced. Explore what it meant philosophically to imagine a city as a breathing organism, what we lost when electricity's instantaneity won, and what the pneumatic dream reveals about how we imagine infrastructure, power, and the body of the city."
+  },
+  {
+    "slug": "the-last-mail-coach",
+    "title": "The Last Mail Coach",
+    "subtitle": "On the night the railway killed the fastest thing in the world — and the men who wept on the road",
+    "category": "Forgotten History",
+    "color": "amber",
+    "description": "For forty years, the Royal Mail coach was the fastest object most people had ever seen: a lacquered red-and-black machine thundering through the dark at twelve miles an hour, arriving to the second, carrying the nation's words. Coachmen memorized every rut of hundreds of miles of road. Ostlers slept ready to swap horses in under a minute. An entire civilization of speed grew up around it — the inns, the guards with their yard-long horns, the timetables, the passengers who knew the names of every horse. Then the railway arrived. This is the story of what it felt like when the fastest thing in the world became, overnight, the slowest — and the people who had organized their lives around a velocity that no longer mattered.",
+    "imagePrompt": "A Royal Mail coach racing through a moonlit English landscape, horses at full gallop, guard blowing his horn, motion blur suggesting impossible speed, in the far distance a single railway locomotive's lamp glowing like a new star, oil painting style with dramatic chiaroscuro, amber and midnight blue palette"
   }
 ]
