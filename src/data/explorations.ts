@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-pneumatic-dream",
+    title: "The Pneumatic Dream",
+    subtitle: "The forgotten future that ran on compressed air",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-pneumatic-dream.png",
+    publishedAt: "05/03/2026 11:22 AM",
+    description:
+      "Before electricity won, a vast network of pressurized tubes was supposed to power the modern world — and for a strange, thrilling moment, it nearly did.",
+  },
+  {
     slug: "the-therapeutic-state",
     title: "The Therapeutic State",
     subtitle: "When healing became a cage with better lighting",

@@ -35,6 +35,13 @@ export default function TheTherapeuticState() {
       wordCount={2724}
       prevSlug="the-voice-that-carries-water"
       prevTitle="The Voice That Carries Water"
+    nextSlug="the-pneumatic-dream"
+    nextTitle="The Pneumatic Dream"
+    nextSubtitle="The forgotten future that ran on compressed air"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-pneumatic-dream.png"
+    nextReadTime="12 min"
     >
       <p className="text-lg italic text-muted mb-8">
       &ldquo;When I use the term therapeutic state, I use it ironically. It&apos;s therapeutic for the people who are doing the locking up, who are doing the therapy, it&apos;s not therapeutic for the victims.&rdquo; &mdash; Thomas Szasz
