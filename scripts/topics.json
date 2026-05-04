@@ -3216,5 +3216,25 @@
     "color": "amber",
     "description": "For forty years, the Royal Mail coach was the fastest object most people had ever seen: a lacquered red-and-black machine thundering through the dark at twelve miles an hour, arriving to the second, carrying the nation's words. Coachmen memorized every rut of hundreds of miles of road. Ostlers slept ready to swap horses in under a minute. An entire civilization of speed grew up around it — the inns, the guards with their yard-long horns, the timetables, the passengers who knew the names of every horse. Then the railway arrived. This is the story of what it felt like when the fastest thing in the world became, overnight, the slowest — and the people who had organized their lives around a velocity that no longer mattered.",
     "imagePrompt": "A Royal Mail coach racing through a moonlit English landscape, horses at full gallop, guard blowing his horn, motion blur suggesting impossible speed, in the far distance a single railway locomotive's lamp glowing like a new star, oil painting style with dramatic chiaroscuro, amber and midnight blue palette"
+  },
+  {
+    "slug": "the-hired-mourners",
+    "title": "The Hired Mourners",
+    "subtitle": "The ancient profession of weeping for strangers",
+    "category": "History",
+    "color": "violet",
+    "description": "For thousands of years, across Rome, Egypt, China, and medieval Europe, grief was too important to be left to amateurs. Professional mourners — paid to weep, wail, and tear their hair — were essential figures at funerals, performing sorrow as a social art form. Their existence tells us something strange and true about the relationship between feeling and performance, and why societies have always needed grief to be witnessed.",
+    "imagePrompt": "A Renaissance-era oil painting style illustration of women in dark robes weeping dramatically at a Roman funeral procession, torchlight, theatrical grief, somber and beautiful",
+    "essayPrompt": "Write a deep, curious essay about the history of professional mourners — hired grievers who performed public sorrow at funerals across ancient Rome, Egypt, China, and medieval Europe. Explore what their existence reveals about the social function of grief, the line between performed and authentic emotion, and why humans have always needed witnesses to loss. Touch on specific documented practices, the social class of mourners, and what the disappearance of this profession says about modernity's relationship with death."
+  },
+  {
+    "slug": "the-language-of-the-dead",
+    "title": "The Language of the Dead",
+    "subtitle": "How the living have always put words in the mouths of the departed",
+    "category": "Philosophy",
+    "color": "indigo",
+    "description": "From ancient Egyptian funerary texts to Victorian spirit dictation to modern AI chatbots trained on dead people's messages, every culture has found a way to let the dead keep speaking. This is not simply superstition — it is one of humanity's most persistent philosophical problems: what we owe the dead, whether the dead can be wronged, and why the silence they leave behind feels like something that must be filled.",
+    "imagePrompt": "An ethereal image of ancient Egyptian hieroglyphic texts glowing on papyrus, blending with Victorian seance table, soft candlelight, ghostly calligraphy floating in darkness",
+    "essayPrompt": "Write a philosophical and historical essay about humanity's compulsion to give voice to the dead — from Egyptian Book of the Dead incantations and Roman laudationes funebres, to Victorian spiritualist dictation, to contemporary AI systems trained on deceased people's texts and messages. Examine the ethics and psychology of posthumous speech: can the dead be misrepresented? Do they retain rights? What does our need to keep them speaking reveal about how we process grief, identity, and the terror of final silence?"
   }
 ]
