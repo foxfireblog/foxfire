@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-pain-that-has-no-language",
+    title: "The Pain That Has No Language",
+    subtitle: "Why medicine couldn't describe what patients couldn't name — and the strange tools built to bridge the silence",
+    category: "Essay",
+    color: "rose",
+    readTime: "12 min",
+    image: "/images/explorations/the-pain-that-has-no-language.png",
+    publishedAt: "05/04/2026 06:27 AM",
+    description:
+      "Pain is the most universal human experience and the most radically private — so we built ladders of metaphor to climb out of it.",
+  },
+  {
     slug: "the-keening-women",
     title: "The Keening Women",
     subtitle: "On the professionals who carried grief so others could survive it",

@@ -35,6 +35,13 @@ export default function TheKeeningWomen() {
       wordCount={2858}
       prevSlug="the-pneumatic-dream"
       prevTitle="The Pneumatic Dream"
+    nextSlug="the-pain-that-has-no-language"
+    nextTitle="The Pain That Has No Language"
+    nextSubtitle="Why medicine couldn't describe what patients couldn't name &mdash; and the strange tools built to bridge the silence"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-pain-that-has-no-language.png"
+    nextReadTime="12 min"
     >
       <h2>The Blood in the Mud</h2>
 
