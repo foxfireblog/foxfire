@@ -35,6 +35,13 @@ export default function ThePneumaticDream() {
       wordCount={2716}
       prevSlug="the-therapeutic-state"
       prevTitle="The Therapeutic State"
+    nextSlug="the-keening-women"
+    nextTitle="The Keening Women"
+    nextSubtitle="On the professionals who carried grief so others could survive it"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-keening-women.png"
+    nextReadTime="12 min"
     >
       <h2>The Duke in the Tube</h2>
 

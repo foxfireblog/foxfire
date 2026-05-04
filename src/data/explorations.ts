@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-keening-women",
+    title: "The Keening Women",
+    subtitle: "On the professionals who carried grief so others could survive it",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-keening-women.png",
+    publishedAt: "05/03/2026 08:17 PM",
+    description:
+      "The ancient tradition of professional mourners — women paid to wail at funerals — reveals something unsettling about how grief actually works.",
+  },
+  {
     slug: "the-pneumatic-dream",
     title: "The Pneumatic Dream",
     subtitle: "The forgotten future that ran on compressed air",
