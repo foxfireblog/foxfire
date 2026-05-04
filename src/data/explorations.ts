@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-armenian-forgetting",
+    title: "The Armenian Forgetting",
+    subtitle: "The twentieth century's first genocide was also its first lesson in how to make a genocide disappear",
+    category: "Essay",
+    color: "red",
+    readTime: "11 min",
+    image: "/images/explorations/the-armenian-forgetting.png",
+    publishedAt: "05/04/2026 05:18 PM",
+    description:
+      "How the systematic destruction of 1.5 million Armenians became not just a crime but a template — for denial, for forgetting, and for doing it again.",
+  },
+  {
     slug: "the-pain-that-has-no-language",
     title: "The Pain That Has No Language",
     subtitle: "Why medicine couldn't describe what patients couldn't name — and the strange tools built to bridge the silence",

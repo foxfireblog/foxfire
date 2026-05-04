@@ -35,6 +35,13 @@ export default function ThePainThatHasNoLanguage() {
       wordCount={2815}
       prevSlug="the-keening-women"
       prevTitle="The Keening Women"
+    nextSlug="the-armenian-forgetting"
+    nextTitle="The Armenian Forgetting"
+    nextSubtitle="The twentieth century's first genocide was also its first lesson in how to make a genocide disappear"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-armenian-forgetting.png"
+    nextReadTime="11 min"
     >
       <h2>The Scale of One to Ten</h2>
 
