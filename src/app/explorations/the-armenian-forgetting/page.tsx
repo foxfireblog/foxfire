@@ -35,6 +35,13 @@ export default function TheArmenianForgetting() {
       wordCount={2611}
       prevSlug="the-pain-that-has-no-language"
       prevTitle="The Pain That Has No Language"
+    nextSlug="the-scramble-for-africa-part-2"
+    nextTitle="The Scramble for Africa: The Violence of Conquest (Part II of III)"
+    nextSubtitle="The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-scramble-for-africa-part-2.png"
+    nextReadTime="12 min"
     >
       <h2>The Insurance Claim</h2>
 

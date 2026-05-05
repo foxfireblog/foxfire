@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scramble-for-africa-part-2",
+    title: "The Scramble for Africa: The Violence of Conquest (Part II of III)",
+    subtitle: "The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-scramble-for-africa-part-2.png",
+    publishedAt: "05/05/2026 03:19 AM",
+    description:
+      "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
+  },
+  {
     slug: "the-armenian-forgetting",
     title: "The Armenian Forgetting",
     subtitle: "The twentieth century's first genocide was also its first lesson in how to make a genocide disappear",

@@ -35,13 +35,13 @@ export default function TheScrambleForAfrica() {
       wordCount={2235}
       prevSlug="the-cartography-of-craters"
       prevTitle="The Cartography of Craters"
-    nextSlug="the-parliament-inside-you"
-    nextTitle="The Parliament Inside You"
-    nextSubtitle="On the 38 trillion citizens of your inner republic"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-parliament-inside-you.png"
-    nextReadTime="12 min"
+      nextSlug="the-scramble-for-africa-part-2"
+      nextTitle="The Scramble for Africa: The Violence of Conquest (Part II of III)"
+      nextSubtitle="The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-scramble-for-africa-part-2.png"
+      nextReadTime="12 min"
     >
       <h2>The Room Where It Happened</h2>
 
