@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-overton-window",
+    title: "The Overton Window",
+    subtitle: "The invisible frame around every idea you're allowed to have",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-overton-window.png",
+    publishedAt: "05/05/2026 11:44 AM",
+    description:
+      "How the boundaries of acceptable thought shift beneath our feet — and who's doing the shifting.",
+  },
+  {
     slug: "the-scramble-for-africa-part-2",
     title: "The Scramble for Africa: The Violence of Conquest (Part II of III)",
     subtitle: "The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria",

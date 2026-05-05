@@ -35,6 +35,13 @@ export default function TheScrambleForAfricaPart2() {
       wordCount={2795}
       prevSlug="the-scramble-for-africa"
       prevTitle="The Scramble for Africa: Lines on a Map (Part I of III)"
+    nextSlug="the-overton-window"
+    nextTitle="The Overton Window"
+    nextSubtitle="The invisible frame around every idea you're allowed to have"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-overton-window.png"
+    nextReadTime="12 min"
     >
       <h2>The Extermination Order</h2>
 
