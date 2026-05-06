@@ -35,6 +35,13 @@ export default function DeadInternetTheory() {
       wordCount={2624}
       prevSlug="the-overton-window"
       prevTitle="The Overton Window"
+    nextSlug="the-taste-that-cannot-be-named"
+    nextTitle="The Taste That Cannot Be Named"
+    nextSubtitle="On umami, the century it took to believe in a flavor, and the politics of whose senses count"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-taste-that-cannot-be-named.png"
+    nextReadTime="11 min"
     >
       <h2>Say Amen to Shrimp Jesus</h2>
 

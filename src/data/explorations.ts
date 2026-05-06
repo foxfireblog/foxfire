@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-taste-that-cannot-be-named",
+    title: "The Taste That Cannot Be Named",
+    subtitle: "On umami, the century it took to believe in a flavor, and the politics of whose senses count",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-taste-that-cannot-be-named.png",
+    publishedAt: "05/06/2026 12:20 PM",
+    description:
+      "A Japanese chemist discovered a fifth taste in 1908 — and the West spent nearly a hundred years insisting it didn't exist.",
+  },
+  {
     slug: "dead-internet-theory",
     title: "Dead Internet Theory",
     subtitle: "What if the web already ended and nobody noticed?",
