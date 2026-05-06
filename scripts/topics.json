@@ -3336,5 +3336,25 @@
     "description": "In 1770, a chess-playing automaton toured the courts of Europe, defeating Napoleon and Benjamin Franklin. Inside it was a man. Today, millions of invisible workers train AI systems, label images, and generate 'automated' responses for pennies per task — hidden inside machines that are supposed to have replaced them. This is the history of the human inside the algorithm, from Wolfgang von Kempelen's fraud to Amazon's Mechanical Turk, and what it reveals about our desperate need to believe in machine intelligence.",
     "imagePrompt": "A dramatic oil painting in the style of 18th century portraiture showing an ornate wooden cabinet shaped like a turbaned chess player automaton, but the cabinet doors are slightly ajar revealing hundreds of tiny glowing screens inside, each showing a different human face, illuminated in warm candlelight against darkness",
     "essayPrompt": "Write a deep, atmospheric Foxfire essay tracing the strange history of humans hidden inside machines — from the original Mechanical Turk chess automaton of 1770 through the ghost-writing mills of the early internet to Amazon's Mechanical Turk platform and modern AI training labor. Explore the philosophy of what we want to believe about machine intelligence, the economics of invisible digital labor, and the recursive horror of humans training AI to replace humans. Include specific, vivid historical details and lesser-known examples of 'automated' systems that were secretly human."
+  },
+  {
+    "slug": "the-smell-that-preceded-electricity",
+    "title": "The Smell That Preceded Electricity",
+    "subtitle": "On petrichor, ozone, and the scents that arrive before the world changes",
+    "category": "Science & Perception",
+    "color": "teal",
+    "description": "Before lightning strikes, the air smells of something ancient and electric. Before rain, the earth exhales a compound that has no culinary name, no perfume category, only a scientific one coined in 1964. This is an essay about the olfactory signals that precede transformation — the way our noses evolved to detect change before our eyes could see it — and what it means that we built entire civilizations without ever being able to name what we were smelling.",
+    "imagePrompt": "Close-up of cracked dry earth with the first drops of rain hitting it, releasing visible mist, dramatic low-angle light, storm clouds in background, photorealistic",
+    "essayPrompt": "Write a long-form Foxfire essay about the science and cultural history of anticipatory smells — petrichor, ozone before a storm, the smell of snow before it falls. Explore the neuroscience of olfactory warning systems, the 1964 discovery and naming of petrichor by Australian scientists, the geosmin compound produced by soil bacteria, and what it reveals that humans detected these smells for 300,000 years before anyone thought to name them. Weave in the philosophy of unnamed sensation, the way indigenous cultures often had rich vocabulary for these smells that Western science ignored, and the strange intimacy of a sense that bypasses conscious thought entirely."
+  },
+  {
+    "slug": "the-color-at-the-edge-of-language",
+    "title": "The Color at the Edge of Language",
+    "subtitle": "How the ancient world saw a sky with no word for blue — and what they saw instead",
+    "category": "Language & Mind",
+    "color": "indigo",
+    "description": "Homer called the sea 'wine-dark.' The ancient Greeks had no word for blue. Neither did the ancient Hebrews, Chinese, or Japanese — not until they had a reason to name it. Linguist William Gladstone noticed this in the 1850s and proposed something that still unsettles us: that without a word for a color, you may not fully see it. This is an essay about the edges of human perception, where language ends and sensation begins — and what might be waiting just past the boundary of what we can say.",
+    "imagePrompt": "Ancient Greek amphora painting style showing the Aegean sea rendered in deep wine-red and ochre tones, stylized waves, surrounded by modern photographs of brilliant blue sky, artistic collage, dramatic contrast",
+    "essayPrompt": "Write a long-form Foxfire essay about the linguistic relativity of color perception, anchored in the strange historical fact that ancient languages — Greek, Hebrew, Sanskrit, Chinese — had no word for blue despite living under blue skies. Cover William Gladstone's 1858 study of Homer, Jules Davidoff's 2006 experiments with the Himba people of Namibia who could not distinguish blue from green but could distinguish dozens of greens invisible to Western eyes, and the Pirahã language's radical limitations. Connect this to the broader Sapir-Whorf debate, then pivot to the philosophical question: if an experience has no name, does it have a different quality? End with the haunting implication — what are we not seeing right now, simply because no one has given us the word?"
   }
 ]
