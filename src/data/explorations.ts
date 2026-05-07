@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-samizdat-machine",
+    title: "The Samizdat Machine",
+    subtitle: "How forbidden words survived on carbon paper and nerve",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-samizdat-machine.png",
+    publishedAt: "05/07/2026 12:47 PM",
+    description:
+      "Behind the Iron Curtain, an underground network of typists, couriers, and readers kept forbidden literature alive — one smudged carbon copy at a time.",
+  },
+  {
     slug: "the-haitian-revolution-part-2",
     title: "The Haitian Revolution: The Price of Freedom (Part II of II)",
     subtitle: "Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences",

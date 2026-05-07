@@ -35,6 +35,13 @@ export default function TheHaitianRevolutionPart2() {
       wordCount={3097}
       prevSlug="the-haitian-revolution"
       prevTitle="The Haitian Revolution: The Fire (Part I of II)"
+    nextSlug="the-samizdat-machine"
+    nextTitle="The Samizdat Machine"
+    nextSubtitle="How forbidden words survived on carbon paper and nerve"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-samizdat-machine.png"
+    nextReadTime="12 min"
     >
       <h2>The Trunk of the Tree</h2>
 
