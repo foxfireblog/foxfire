@@ -35,6 +35,13 @@ export default function TheTasteThatCannotBeNamed() {
       wordCount={2502}
       prevSlug="dead-internet-theory"
       prevTitle="Dead Internet Theory"
+    nextSlug="the-haitian-revolution-part-2"
+    nextTitle="The Haitian Revolution: The Price of Freedom (Part II of II)"
+    nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-haitian-revolution-part-2.png"
+    nextReadTime="13 min"
     >
       <h2>The Flavor Hiding in Plain Sight</h2>
 

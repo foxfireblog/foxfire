@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-haitian-revolution-part-2",
+    title: "The Haitian Revolution: The Price of Freedom (Part II of II)",
+    subtitle: "Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-haitian-revolution-part-2.png",
+    publishedAt: "05/07/2026 01:29 AM",
+    description:
+      "How enslaved people in Saint-Domingue did what every Enlightenment philosopher said was impossible, and why the world has been trying to make them pay for it ever since.",
+  },
+  {
     slug: "the-taste-that-cannot-be-named",
     title: "The Taste That Cannot Be Named",
     subtitle: "On umami, the century it took to believe in a flavor, and the politics of whose senses count",
