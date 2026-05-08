@@ -35,6 +35,13 @@ export default function TheSamizdatMachine() {
       wordCount={2805}
       prevSlug="the-haitian-revolution-part-2"
       prevTitle="The Haitian Revolution: The Price of Freedom (Part II of II)"
+    nextSlug="the-geologists-of-the-future"
+    nextTitle="The Geologists of the Future"
+    nextSubtitle="What the rocks we are making right now will tell the civilizations that come after us &mdash; if any do"
+    nextCategory="Deep Time"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-geologists-of-the-future.png"
+    nextReadTime="13 min"
     >
       <h2>The Ashtray and the Poem</h2>
 

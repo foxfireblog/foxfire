@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-geologists-of-the-future",
+    title: "The Geologists of the Future",
+    subtitle: "What the rocks we are making right now will tell the civilizations that come after us — if any do",
+    category: "Deep Time",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-geologists-of-the-future.png",
+    publishedAt: "05/08/2026 01:09 AM",
+    description:
+      "The sedimentary layer we're depositing right now — plastic, concrete, radioactive fallout, chicken bones — will be readable for hundreds of millions of years, whether or not anyone is left to read it.",
+  },
+  {
     slug: "the-samizdat-machine",
     title: "The Samizdat Machine",
     subtitle: "How forbidden words survived on carbon paper and nerve",
