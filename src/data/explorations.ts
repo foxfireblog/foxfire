@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cold-light-of-foxfire",
+    title: "The Cold Light of Foxfire",
+    subtitle: "Before electricity, rotting wood glowed in the dark — and people used it to see by",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "11 min",
+    image: "/images/explorations/the-cold-light-of-foxfire.png",
+    publishedAt: "05/08/2026 12:05 PM",
+    description:
+      "The strange bioluminescence of decaying wood — called foxfire — illuminated mines, battlefields, and the human imagination for centuries before anyone understood what made it glow.",
+  },
+  {
     slug: "the-geologists-of-the-future",
     title: "The Geologists of the Future",
     subtitle: "What the rocks we are making right now will tell the civilizations that come after us — if any do",
