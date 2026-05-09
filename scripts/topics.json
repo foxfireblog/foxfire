@@ -3455,5 +3455,25 @@
     "description": "Race feels ancient, but it is a modern technology — assembled in the 17th and 18th centuries from theology, commerce, law, and natural philosophy. This essay traces the precise historical moment when fluid categories of religion, lineage, and climate hardened into heritable biological types, who built those categories, and why the machinery proved so durable that even its critics often reinforce its architecture.",
     "imagePrompt": "An 18th-century engraving style illustration of a taxonomic chart of human figures rendered in deep indigo ink, surrounded by botanical and anatomical diagrams, compass roses, and Latin annotations, on aged yellowed parchment with visible foxing at the edges",
     "essayPrompt": "Write a long-form essay on the historical construction of race as a category. Begin before race: how did medieval and early modern Europeans understand human difference — through religion, climate theory, lineage, estate? Then trace the transformation: the role of the Atlantic slave trade in creating legal categories of heritable status, the contribution of Linnaean taxonomy, the theological debates about monogenism versus polygenism, and how figures like Bernier, Buffon, and later Blumenbach formalized race into a biological system. Examine the paradox that Enlightenment universalism and racial categorization developed simultaneously and from the same intellectual tradition. End with the contemporary problem: because race was invented through specific institutions, dismantling it requires understanding those institutions — but the categories have become so socially real that denying their reality is its own form of violence."
+  },
+  {
+    "slug": "the-physicists-who-said-no",
+    "title": "The Physicists Who Said No",
+    "subtitle": "The scientists who built the bomb — and then tried to stop it",
+    "category": "History",
+    "color": "violet",
+    "description": "Leo Szilard conceived the nuclear chain reaction on a London street corner in 1933 and immediately recognized it as a weapon. He spent the rest of his life trying to contain what he'd imagined. This is the story of the scientists who helped create the most destructive weapon in history and then petitioned, lobbied, leaked, and argued against its use — the Franck Report, the Szilard petition, the conscience revolt that history almost buried.",
+    "imagePrompt": "A single sheet of paper covered in handwritten signatures, lying on a desk next to an open physics textbook and a glowing lamp, dramatic noir lighting, documentary photograph aesthetic",
+    "essayPrompt": "Write a long-form essay about the scientists who contributed to the Manhattan Project but opposed the use of atomic weapons against Japan — focusing on Leo Szilard, James Franck, and the Franck Report. Explore the moral psychology of their position: the strange guilt of the creator, the limits of expert dissent inside a military-industrial apparatus, and what it means to try to un-ring a bell you yourself rang. Include the fate of the Szilard petition, how it was suppressed, and what these men did with their guilt for the rest of their lives."
+  },
+  {
+    "slug": "the-town-that-disappeared-from-maps",
+    "title": "The Town That Disappeared from Maps",
+    "subtitle": "Oak Ridge, Los Alamos, Hanford — the secret cities that built the atomic age",
+    "category": "History",
+    "color": "amber",
+    "description": "In 1942, the United States built three entire cities that did not officially exist. Oak Ridge, Tennessee had 75,000 residents, its own bus system, and grocery stores — and appeared on no map. Workers enriched uranium without knowing what uranium was. Mothers raised children behind fences they could not explain. This is the story of the secret infrastructure of apocalypse: the towns built from nothing, the workers kept deliberately ignorant, and what it costs a community to be the place where the world changed.",
+    "imagePrompt": "A 1940s American small town street scene — diners, buses, families walking — but surrounded by chain-link fences and guard towers in the distant background, warm sepia tones, cinematic wide shot",
+    "essayPrompt": "Write a long-form essay about the secret cities built to support the Manhattan Project — Oak Ridge, Los Alamos, and Hanford — with particular focus on Oak Ridge as a sociological phenomenon. Explore the deliberate compartmentalization of knowledge: workers who operated machinery without understanding its purpose, the surreal normalcy of daily life inside a classified weapons program, the role of gender and race in who was trusted with what information, and the psychological aftermath for the communities who learned, all at once on August 6th 1945, what they had been building."
   }
 ]
