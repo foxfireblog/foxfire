@@ -3435,5 +3435,25 @@
     "color": "indigo",
     "description": "Below 200 meters, sunlight dies completely. In that eternal dark, an estimated 76% of marine life produces its own light — making the deep ocean the most bioluminescent environment on Earth. But this is not the gentle foxfire of forest fungi. Deep-sea bioluminescence is a theater of predation and deception. The anglerfish dangles a glowing lure — a light that means death. The dragonfish produces red light in a spectrum its prey cannot see, hunting by a color invisible to the hunted. The vampire squid can reverse its body inside out and glow at will. Some creatures flash in alarm to attract a larger predator that will eat their attacker. The cookie-cutter shark has a glowing belly that mimics open water — small fish swim toward it thinking it is sky, and are swallowed. This is a world where light evolved not as warmth or communication but as a form of violence, and where darkness itself became the only safety.",
     "imagePrompt": "A deep ocean scene in absolute darkness, populated by bioluminescent creatures — an anglerfish with its glowing lure, a dragonfish with red photophores, a vampire squid glowing electric blue — all rendered in the cold, alien palette of deep sea bioluminescence, scientific illustration meets nightmare, extreme depth, crushing pressure implied"
+  },
+  {
+    "slug": "the-skull-collectors",
+    "title": "The Skull Collectors",
+    "subtitle": "How Victorian science built an empire of bone — and what happened when its heirs tried to give it back",
+    "category": "History of Science",
+    "color": "amber",
+    "description": "In the 19th century, natural history museums across Europe assembled vast collections of human skulls, gathered through grave robbery, battlefield looting, and colonial extraction. This is the story of how those collections shaped scientific racism, outlasted the empires that built them, and why repatriation — when it finally came — forced museums into uncomfortable confessions about what knowledge costs.",
+    "imagePrompt": "A Victorian-era museum storage room rendered in warm amber and deep shadow, rows of labeled specimen drawers stretching into darkness, a single skull illuminated under a brass lamp on a wooden table covered in handwritten catalogue cards, dust motes suspended in the light",
+    "essayPrompt": "Write a long-form essay exploring the history of craniological collections in 19th-century European natural history museums — how they were assembled, what scientific theories they were used to support, and how those theories shaped colonial policy. Trace specific collectors (Samuel Morton, Paul Broca, Robert Knox) and their methods. Then follow the arc forward: how did these collections survive into the 20th century, what did institutions do with them during the postwar discrediting of scientific racism, and what has the modern repatriation movement revealed about the provenance of individual skulls? End with the philosophical question of what it means to return a skull when the community it came from no longer exists in the same form."
+  },
+  {
+    "slug": "the-invention-of-race",
+    "title": "The Invention of Race",
+    "subtitle": "Before the 18th century, Europeans had many ways to categorize human difference. Race, as we understand it, had to be invented.",
+    "category": "History & Philosophy",
+    "color": "indigo",
+    "description": "Race feels ancient, but it is a modern technology — assembled in the 17th and 18th centuries from theology, commerce, law, and natural philosophy. This essay traces the precise historical moment when fluid categories of religion, lineage, and climate hardened into heritable biological types, who built those categories, and why the machinery proved so durable that even its critics often reinforce its architecture.",
+    "imagePrompt": "An 18th-century engraving style illustration of a taxonomic chart of human figures rendered in deep indigo ink, surrounded by botanical and anatomical diagrams, compass roses, and Latin annotations, on aged yellowed parchment with visible foxing at the edges",
+    "essayPrompt": "Write a long-form essay on the historical construction of race as a category. Begin before race: how did medieval and early modern Europeans understand human difference — through religion, climate theory, lineage, estate? Then trace the transformation: the role of the Atlantic slave trade in creating legal categories of heritable status, the contribution of Linnaean taxonomy, the theological debates about monogenism versus polygenism, and how figures like Bernier, Buffon, and later Blumenbach formalized race into a biological system. Examine the paradox that Enlightenment universalism and racial categorization developed simultaneously and from the same intellectual tradition. End with the contemporary problem: because race was invented through specific institutions, dismantling it requires understanding those institutions — but the categories have become so socially real that denying their reality is its own form of violence."
   }
 ]
