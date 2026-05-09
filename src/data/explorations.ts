@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cabinet-of-dr-blumenbach",
+    title: "The Cabinet of Dr. Blumenbach",
+    subtitle: "How five skulls became five races, and why the bones won't stay quiet",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-cabinet-of-dr-blumenbach.png",
+    publishedAt: "05/09/2026 01:44 AM",
+    description:
+      "A German anatomist arranged skulls on a shelf and invented the concept of race — a taxonomy that science has spent two centuries trying to undo.",
+  },
+  {
     slug: "the-cold-light-of-foxfire",
     title: "The Cold Light of Foxfire",
     subtitle: "Before electricity, rotting wood glowed in the dark — and people used it to see by",

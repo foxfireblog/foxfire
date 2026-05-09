@@ -35,6 +35,13 @@ export default function TheColdLightOfFoxfire() {
       wordCount={2467}
       prevSlug="the-geologists-of-the-future"
       prevTitle="The Geologists of the Future"
+    nextSlug="the-cabinet-of-dr-blumenbach"
+    nextTitle="The Cabinet of Dr. Blumenbach"
+    nextSubtitle="How five skulls became five races, and why the bones won't stay quiet"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-cabinet-of-dr-blumenbach.png"
+    nextReadTime="13 min"
     >
       <h2>False Fire</h2>
 
