@@ -35,6 +35,13 @@ export default function TheCabinetOfDrBlumenbach() {
       wordCount={2884}
       prevSlug="the-cold-light-of-foxfire"
       prevTitle="The Cold Light of Foxfire"
+    nextSlug="the-manhattan-project"
+    nextTitle="The Manhattan Project: The Physics of Desperation (Part I of IV)"
+    nextSubtitle="Einstein's letter, the fear of a German bomb, and the gathering at Los Alamos"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-manhattan-project.png"
+    nextReadTime="14 min"
     >
       <h2>The Skull That Launched a Thousand Categories</h2>
 

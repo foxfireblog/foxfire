@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-manhattan-project",
+    title: "The Manhattan Project: The Physics of Desperation (Part I of IV)",
+    subtitle: "Einstein's letter, the fear of a German bomb, and the gathering at Los Alamos",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-manhattan-project.png",
+    publishedAt: "05/09/2026 11:52 AM",
+    description:
+      "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
+  },
+  {
     slug: "the-cabinet-of-dr-blumenbach",
     title: "The Cabinet of Dr. Blumenbach",
     subtitle: "How five skulls became five races, and why the bones won't stay quiet",
