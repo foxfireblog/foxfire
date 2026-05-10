@@ -3475,5 +3475,25 @@
     "description": "In 1942, the United States built three entire cities that did not officially exist. Oak Ridge, Tennessee had 75,000 residents, its own bus system, and grocery stores — and appeared on no map. Workers enriched uranium without knowing what uranium was. Mothers raised children behind fences they could not explain. This is the story of the secret infrastructure of apocalypse: the towns built from nothing, the workers kept deliberately ignorant, and what it costs a community to be the place where the world changed.",
     "imagePrompt": "A 1940s American small town street scene — diners, buses, families walking — but surrounded by chain-link fences and guard towers in the distant background, warm sepia tones, cinematic wide shot",
     "essayPrompt": "Write a long-form essay about the secret cities built to support the Manhattan Project — Oak Ridge, Los Alamos, and Hanford — with particular focus on Oak Ridge as a sociological phenomenon. Explore the deliberate compartmentalization of knowledge: workers who operated machinery without understanding its purpose, the surreal normalcy of daily life inside a classified weapons program, the role of gender and race in who was trusted with what information, and the psychological aftermath for the communities who learned, all at once on August 6th 1945, what they had been building."
+  },
+  {
+    "slug": "the-census-as-weapon",
+    "title": "The Census as Weapon",
+    "subtitle": "How counting people became a tool of erasure, power, and empire",
+    "category": "Politics & Power",
+    "color": "amber",
+    "description": "The census looks like arithmetic. But throughout history, the decision of who to count, how to count them, and what categories to force them into has determined who gets representation, who loses land, who gets rounded up, and who gets to exist politically at all. From the racial classifications of colonial censuses to the undercounting of cities in modern America, the census is never just data — it is a map of who matters.",
+    "imagePrompt": "A vast ledger book open on a wooden table, columns of names and numbers, some entries crossed out in red ink, a bureaucrat's hand hovering with a quill, shadows of people standing behind the page as if pressed into the paper, sepia and amber tones",
+    "essayPrompt": "Write a deep, vivid Foxfire essay about the census as an instrument of political power. Explore: the colonial censuses that invented racial categories (British India, apartheid South Africa), how the US census determines congressional apportionment and thus shapes elections, the deliberate undercounting of cities and minorities, the controversy over adding a citizenship question, the Armenian and Jewish populations erased from counts before genocide, and the philosophical question of whether being counted is the same as being recognized. What does it mean to be unmeasurable by the state?"
+  },
+  {
+    "slug": "the-straight-lines-that-broke-the-world",
+    "title": "The Straight Lines That Broke the World",
+    "subtitle": "What happens when borders ignore everything that makes a place real",
+    "category": "History & Geography",
+    "color": "violet",
+    "description": "Most of the world's worst conflicts follow a ruler. The straight-line borders drawn by colonial powers across Africa, the Middle East, and Central Asia sliced through tribes, watersheds, trade routes, and mountain passes that had organized human life for millennia. These weren't cartographic errors — they were acts of deliberate abstraction, imposing the fantasy of the blank map onto living territory. The consequences are still bleeding.",
+    "imagePrompt": "A colonial-era map of Africa with bold straight lines drawn in red ink across it, beneath the lines ghostly images of villages, river systems, migration routes, and tribal territories visible as if the paper is transparent, a ruler lying across the map casting a long shadow, deep violet and gold tones",
+    "essayPrompt": "Write a deep, vivid Foxfire essay about the violence encoded in straight-line colonial borders. Explore: the Berlin Conference of 1884-85 and how Africa was divided without a single African in the room, the Sykes-Picot Agreement and the invented nations of the Middle East, the Durand Line separating Afghanistan and Pakistan along a meaningless meridian, the specific communities and peoples torn in half by these lines, and the geographic theory behind why natural borders (rivers, mountains) persist while artificial ones become permanent war zones. Ask the larger question: can a line on paper ever be neutral?"
   }
 ]
