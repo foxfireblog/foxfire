@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-geometry-of-gerrymandering",
+    title: "The Geometry of Gerrymandering",
+    subtitle: "How a shape can steal an election — and why mathematics might be democracy's last honest witness",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-geometry-of-gerrymandering.png",
+    publishedAt: "05/10/2026 01:47 AM",
+    description:
+      "The ancient art of drawing district lines reveals how geometry itself becomes a weapon against democracy — and how mathematicians are fighting back.",
+  },
+  {
     slug: "the-manhattan-project",
     title: "The Manhattan Project: The Physics of Desperation (Part I of IV)",
     subtitle: "Einstein's letter, the fear of a German bomb, and the gathering at Los Alamos",

@@ -35,6 +35,13 @@ export default function TheManhattanProject() {
       wordCount={3120}
       prevSlug="the-cabinet-of-dr-blumenbach"
       prevTitle="The Cabinet of Dr. Blumenbach"
+    nextSlug="the-geometry-of-gerrymandering"
+    nextTitle="The Geometry of Gerrymandering"
+    nextSubtitle="How a shape can steal an election &mdash; and why mathematics might be democracy's last honest witness"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-geometry-of-gerrymandering.png"
+    nextReadTime="13 min"
     >
       <h2>The Letter</h2>
 
