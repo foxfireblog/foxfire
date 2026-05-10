@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scramble-for-africa-part-3",
+    title: "The Scramble for Africa: The Long Shadow (Part III of III)",
+    subtitle: "Independence movements, inherited borders, and the DRC as the ultimate case study",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-scramble-for-africa-part-3.png",
+    publishedAt: "05/10/2026 11:16 AM",
+    description:
+      "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
+  },
+  {
     slug: "the-geometry-of-gerrymandering",
     title: "The Geometry of Gerrymandering",
     subtitle: "How a shape can steal an election — and why mathematics might be democracy's last honest witness",

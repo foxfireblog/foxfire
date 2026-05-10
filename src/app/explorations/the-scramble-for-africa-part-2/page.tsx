@@ -35,13 +35,13 @@ export default function TheScrambleForAfricaPart2() {
       wordCount={2795}
       prevSlug="the-scramble-for-africa"
       prevTitle="The Scramble for Africa: Lines on a Map (Part I of III)"
-    nextSlug="the-overton-window"
-    nextTitle="The Overton Window"
-    nextSubtitle="The invisible frame around every idea you're allowed to have"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-overton-window.png"
-    nextReadTime="12 min"
+      nextSlug="the-scramble-for-africa-part-3"
+      nextTitle="The Scramble for Africa: The Long Shadow (Part III of III)"
+      nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-scramble-for-africa-part-3.png"
+      nextReadTime="13 min"
     >
       <h2>The Extermination Order</h2>
 
