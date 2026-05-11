@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-shape-of-a-smell",
+    title: "The Shape of a Smell",
+    subtitle: "Why your nose might be reading molecular geometry like sheet music",
+    category: "Natural Philosophy",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-shape-of-a-smell.png",
+    publishedAt: "05/11/2026 05:39 PM",
+    description:
+      "We still don't fully understand how smell works — and the competing theories reveal a strange, beautiful argument about whether you're detecting shape or vibration.",
+  },
+  {
     slug: "the-purple-that-ruled-the-world",
     title: "The Purple That Ruled the World",
     subtitle: "How a rotting snail built an empire of color",
