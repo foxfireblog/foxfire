@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-purple-that-ruled-the-world",
+    title: "The Purple That Ruled the World",
+    subtitle: "How a rotting snail built an empire of color",
+    category: "Natural History",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-purple-that-ruled-the-world.png",
+    publishedAt: "05/11/2026 07:44 AM",
+    description:
+      "The story of Tyrian purple — a color extracted from thousands of crushed sea snails that smelled like death and became the most coveted substance in the ancient world.",
+  },
+  {
     slug: "the-suicide-of-the-aral-sea",
     title: "The Suicide of the Aral Sea",
     subtitle: "How to kill the fourth-largest lake on Earth in a single generation",
