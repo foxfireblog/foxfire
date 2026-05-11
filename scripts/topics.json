@@ -3515,5 +3515,25 @@
     "description": "Between 1880 and 1900, European agents fanned across Africa carrying printed treaty forms and sometimes bottles of gin, returning with the signatures or marks of chiefs who had — supposedly — ceded sovereignty over their lands in perpetuity. Some chiefs believed they were signing trade agreements. Some were shown documents only after the fact. Some signatures were forged entirely. These treaties became the legal architecture of colonialism, cited in European courts for decades, and their contested legitimacy haunts land rights and sovereignty disputes to this day. This is the story of a paper empire built on a fraud.",
     "imagePrompt": "A weathered, yellowed treaty document with European copperplate text and a single stark X marked in dark ink, surrounded by the faint impressions of a wax seal, resting on a surface of red African laterite soil with a quill beside it",
     "essayPrompt": "Write a meticulous, morally serious essay about the treaty system used to legitimize European colonization of Africa — the blank forms shipped in bulk from London and Brussels, the translation failures and deliberate mistranslations, the chiefs who believed they were agreeing to friendship or trade, the forgeries, the coercion, and the subsequent use of these documents in European courts as binding legal instruments. Examine specific cases: the treaties of the Royal Niger Company, Cecil Rhodes's agents in Matabeleland, Leopold's Congo. Then ask the question legal scholars still argue over: can a document obtained under conditions of radical inequality, linguistic deception, and power asymmetry ever constitute consent? And who gets to answer that question now?"
+  },
+  {
+    "slug": "the-rivers-that-were-told-to-move",
+    "title": "The Rivers That Were Told to Move",
+    "subtitle": "How Soviet engineers tried to reverse the flow of Siberian rivers — and what it would have done to the planet",
+    "category": "History & Environment",
+    "color": "cyan",
+    "description": "In the 1970s and 80s, Soviet planners conceived one of the most audacious engineering projects in history: diverting vast Siberian rivers southward to irrigate Central Asia. The same ideology that drained the Aral Sea nearly attempted something even more catastrophic — the reversal of rivers that drain into the Arctic Ocean. Scientists warned it could shift the Gulf Stream. Poets and nationalists called it a crime against God. Mikhail Gorbachev killed the project in 1986. This is the story of the disaster that almost happened, and what it reveals about the dream of mastering nature at any cost.",
+    "imagePrompt": "An aerial photograph of a massive Soviet-era canal cutting through dry steppe landscape, abandoned construction machinery rusting beside an empty waterway, dramatic clouds overhead, muted ochre and grey tones",
+    "essayPrompt": "Write a long-form essay for Foxfire about the Soviet project to reverse Siberian rivers — its origins in Marxist ideology, the engineers who designed it, the scientists who warned against it, the cultural backlash from Russian nationalist writers, and Gorbachev's last-minute cancellation. Use the Aral Sea disaster as a prologue and foil. Explore what the project reveals about the human compulsion to bend geography to political will, and what 'almost-disasters' teach us that actual disasters cannot."
+  },
+  {
+    "slug": "the-towns-at-the-bottom-of-reservoirs",
+    "title": "The Towns at the Bottom of Reservoirs",
+    "subtitle": "What it means to drown an inhabited place — and the people who never forgave the water",
+    "category": "History & Memory",
+    "color": "indigo",
+    "description": "When a dam rises, a town disappears. Across the twentieth century, hundreds of inhabited places were deliberately flooded for hydroelectric power and irrigation — in Wales, in Brazil, in China, in India, in the American South. The residents were compensated, relocated, told this was progress. Some refused to leave. Others left and spent the rest of their lives returning to the shoreline when drought made the steeples visible again. This is about what it means to lose a place not to war or fire but to a bureaucratic decision — and how communities carry a geography that no longer exists.",
+    "imagePrompt": "The ruins of a stone church steeple emerging from the still surface of a reservoir at low water, mist over the water, surrounding hills reflected in the glassy surface, melancholy and strange",
+    "essayPrompt": "Write a long-form essay for Foxfire about the deliberate flooding of towns for reservoirs and dams throughout the twentieth century — drawing on specific cases including Capel Celyn in Wales, the Three Gorges displacement in China, Fordlândia-adjacent dam projects in Brazil, and flooded Appalachian communities. Explore the psychology of place-grief, the politics of who gets sacrificed for whose electricity, and the eerie phenomenon of drowned towns reappearing during droughts. Ask what it does to a person — and a culture — to have their geography deleted by decision rather than disaster."
   }
 ]
