@@ -35,6 +35,13 @@ export default function TheScrambleForAfricaPart3() {
       wordCount={3018}
       prevSlug="the-scramble-for-africa-part-2"
       prevTitle="The Scramble for Africa: The Violence of Conquest (Part II of III)"
+    nextSlug="the-suicide-of-the-aral-sea"
+    nextTitle="The Suicide of the Aral Sea"
+    nextSubtitle="How to kill the fourth-largest lake on Earth in a single generation"
+    nextCategory="Elegy"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-suicide-of-the-aral-sea.png"
+    nextReadTime="12 min"
     >
       <h2>The Trap of Freedom</h2>
 

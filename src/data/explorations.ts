@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-of-the-aral-sea",
+    title: "The Suicide of the Aral Sea",
+    subtitle: "How to kill the fourth-largest lake on Earth in a single generation",
+    category: "Elegy",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-suicide-of-the-aral-sea.png",
+    publishedAt: "05/10/2026 08:29 PM",
+    description:
+      "The deliberate, documented, and largely forgotten destruction of one of the world's great bodies of water — and the people who lived beside it.",
+  },
+  {
     slug: "the-scramble-for-africa-part-3",
     title: "The Scramble for Africa: The Long Shadow (Part III of III)",
     subtitle: "Independence movements, inherited borders, and the DRC as the ultimate case study",
