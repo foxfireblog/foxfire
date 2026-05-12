@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mathematics-of-the-heartbeat",
+    title: "The Mathematics of the Heartbeat",
+    subtitle: "Your heart is not a metronome. It is a chaos engine — and the irregularity is what keeps you alive.",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-mathematics-of-the-heartbeat.png",
+    publishedAt: "05/12/2026 05:23 PM",
+    description:
+      "The healthy heart is not a steady clock but a chaotic system, and the story of how we learned this upends everything we thought we knew about order, disease, and what it means to be alive.",
+  },
+  {
     slug: "the-varangian-guard",
     title: "The Varangian Guard",
     subtitle: "How Viking outcasts became the most feared soldiers in Constantinople",

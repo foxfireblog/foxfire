@@ -35,6 +35,13 @@ export default function TheVarangianGuard() {
       wordCount={2895}
       prevSlug="the-shape-of-a-smell"
       prevTitle="The Shape of a Smell"
+    nextSlug="the-mathematics-of-the-heartbeat"
+    nextTitle="The Mathematics of the Heartbeat"
+    nextSubtitle="Your heart is not a metronome. It is a chaos engine &mdash; and the irregularity is what keeps you alive."
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-mathematics-of-the-heartbeat.png"
+    nextReadTime="12 min"
     >
       <h2>Halfdan Was Here</h2>
 
