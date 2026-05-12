@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-varangian-guard",
+    title: "The Varangian Guard",
+    subtitle: "How Viking outcasts became the most feared soldiers in Constantinople",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-varangian-guard.png",
+    publishedAt: "05/12/2026 06:33 AM",
+    description:
+      "Norse warriors traveled thousands of miles to serve Byzantine emperors, becoming the most loyal and terrifying military unit in the medieval world — precisely because they were strangers.",
+  },
+  {
     slug: "the-shape-of-a-smell",
     title: "The Shape of a Smell",
     subtitle: "Why your nose might be reading molecular geometry like sheet music",
