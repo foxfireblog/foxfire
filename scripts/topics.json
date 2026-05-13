@@ -3615,5 +3615,25 @@
     "description": "Before the stethoscope, before the EKG, before imaging of any kind, the pulse was the only window physicians had into the living interior of the body. And they learned to read it with extraordinary subtlety. Chinese physicians identified twenty-eight distinct pulse qualities — 'slippery,' 'wiry,' 'scattered,' 'knotted' — each mapped to different organs, seasons, and moral states. Greek physicians built entire systems of prognosis on its rhythms. For two millennia, the art of pulse-taking was medicine's most sophisticated technology. This is its strange, forgotten history.",
     "imagePrompt": "A pair of aged hands, one resting on the other's wrist, rendered in warm amber tones against a background of ancient Chinese and Greek medical manuscripts, the veins of the wrist visible and glowing, intricate diagrams of pulse waveforms from different eras floating around the hands like a halo of forgotten knowledge",
     "essayPrompt": "Write a rich historical essay about the art of pulse diagnosis across cultures — the elaborate pulse taxonomies of ancient Chinese medicine, Galen's theories of the pulse in the Roman world, Ibn Sina's systematic pulse doctrine in Islamic medicine, and the moment when the stethoscope began to displace the finger from the wrist. Explore what it meant to build an entire epistemology of the body's interior from a single rhythmic signal at the surface of the skin. What did these physicians actually know, and what were they projecting? How did different cultures encode their cosmologies — ideas about seasons, elements, emotions, moral character — into their reading of the pulse? And what was lost when the pulse ceased to be medicine's primary text?"
+  },
+  {
+    "slug": "the-widow-who-owned-everything",
+    "title": "The Widow Who Owned Everything",
+    "subtitle": "How medieval women briefly inherited the world — and how the law took it back",
+    "category": "History",
+    "color": "violet",
+    "description": "After the Black Death, so many men died so fast that European widows suddenly controlled vast portions of land, debt, and trade. For one strange generation, women ran estates, commanded ships, and sat at negotiating tables. Then the lawyers arrived.",
+    "imagePrompt": "A medieval illuminated manuscript style painting of a lone woman in dark widow's robes standing at the center of a large empty hall, keys hanging from her belt, account books open on a stone table, light falling through narrow windows, rich jewel-toned colors, gold leaf details",
+    "essayPrompt": "Write a deeply researched, narratively rich essay for Foxfire about the unexpected inheritance revolution that followed the Black Death — how catastrophic male mortality briefly upended the legal architecture that kept women from property, the remarkable documented cases of widows who became merchants, moneylenders, and landowners of extraordinary scale, and the systematic legal backlash of the 15th century that rewrote inheritance law precisely to close these gaps. Explore specific women, specific laws, and what this moment reveals about how crisis temporarily unlocks what order has locked shut."
+  },
+  {
+    "slug": "the-body-that-remembered-the-famine",
+    "title": "The Body That Remembered the Famine",
+    "subtitle": "What epigenetics found when it looked at the children of the starving",
+    "category": "Science",
+    "color": "amber",
+    "description": "When researchers studied the descendants of Dutch Hunger Winter survivors and Irish Famine orphans, they found something no one expected: the trauma of starvation had been written into the genome itself, passed down not as memory but as biology. Inheritance, it turns out, is not only legal.",
+    "imagePrompt": "A close-up scientific illustration blending two visual registers: on one side, a faded sepia photograph of gaunt famine survivors, on the other, a luminous double helix unraveling into organic shapes like roots and branches, the two images bleeding into each other at the center, deep amber and gold tones",
+    "essayPrompt": "Write a deeply researched, narratively rich essay for Foxfire about epigenetic inheritance and what the study of famine survivors' descendants has revealed about transgenerational trauma encoded in biology. Cover the Dutch Hunger Winter cohort studies, research on Irish Famine descendants, and the emerging science of how extreme deprivation rewrites gene expression in ways that persist for two or three generations. Grapple with the philosophical implications: if starvation is inherited biologically, what does that mean for how we understand poverty, resilience, and the very concept of a self that begins at birth?"
   }
 ]
