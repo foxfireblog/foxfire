@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-plague-that-changed-inheritance",
+    title: "The Plague That Changed Inheritance",
+    subtitle: "How the Black Death rewrote who owns land, who holds power, and what a life is worth",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-plague-that-changed-inheritance.png",
+    publishedAt: "05/13/2026 02:12 AM",
+    description:
+      "When a third of Europe died, the survivors discovered something terrifying: they had leverage.",
+  },
+  {
     slug: "the-mathematics-of-the-heartbeat",
     title: "The Mathematics of the Heartbeat",
     subtitle: "Your heart is not a metronome. It is a chaos engine — and the irregularity is what keeps you alive.",
