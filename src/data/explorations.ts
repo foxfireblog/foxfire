@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-grammar-of-time",
+    title: "The Grammar of Time",
+    subtitle: "Some languages have no future tense. Their speakers live differently because of it.",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-grammar-of-time.png",
+    publishedAt: "05/13/2026 12:39 PM",
+    description:
+      "How the structure of a language shapes whether its speakers save money, wear seatbelts, and experience tomorrow as real.",
+  },
+  {
     slug: "the-plague-that-changed-inheritance",
     title: "The Plague That Changed Inheritance",
     subtitle: "How the Black Death rewrote who owns land, who holds power, and what a life is worth",
