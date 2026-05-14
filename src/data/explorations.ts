@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-manhattan-project-part-2",
+    title: "The Manhattan Project: The City on the Hill (Part II of IV)",
+    subtitle: "Life at Los Alamos, the personalities, the moral debates, and the Trinity test",
+    category: "Essay",
+    color: "amber",
+    readTime: "17 min",
+    image: "/images/explorations/the-manhattan-project-part-2.png",
+    publishedAt: "05/14/2026 12:23 PM",
+    description:
+      "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
+  },
+  {
     slug: "the-cargo-that-never-arrives",
     title: "The Cargo That Never Arrives",
     subtitle: "How John Frum became a god, and what that reveals about the nature of belief itself",
