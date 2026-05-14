@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cargo-that-never-arrives",
+    title: "The Cargo That Never Arrives",
+    subtitle: "How John Frum became a god, and what that reveals about the nature of belief itself",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-cargo-that-never-arrives.png",
+    publishedAt: "05/14/2026 02:01 AM",
+    description:
+      "On the island of Tanna, people have waited decades for a messianic American soldier who never existed — and their faith may be no stranger than anyone else's.",
+  },
+  {
     slug: "the-grammar-of-time",
     title: "The Grammar of Time",
     subtitle: "Some languages have no future tense. Their speakers live differently because of it.",
