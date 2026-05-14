@@ -3655,5 +3655,25 @@
     "description": "In the winter of 1941, the only thing standing between 800,000 starving people and death was a road made of ice. Soviet drivers hauled supplies across the frozen surface of Lake Ladoga under Luftwaffe bombing runs, watching trucks ahead of them crack through the surface and sink. The Road of Life was less a supply route than a controlled miracle — and the mathematics of starvation that governed it were ruthlessly precise.",
     "imagePrompt": "A convoy of dark Soviet trucks moving across a vast frozen lake at night, headlights off, moonlight reflecting on ice, distant city skyline glowing orange from fires, one truck illuminated mid-descent into a crack in the ice, viewed from low angle, cinematic black and white photography style with blue tones",
     "essayPrompt": "Write a deep, literary essay about the Road of Life (Doroga Zhizni) — the ice road across Lake Ladoga that served as the sole supply route into besieged Leningrad during the winter of 1941-42. Explore the brutal logistical calculus involved: how Soviet planners calculated exactly how many calories could be transported versus how many people were dying per day, the drivers who made crossing after crossing knowing the ice might give way, the engineers who surveyed ice thickness under fire, and the civilians who waited on the other side. Use this as a lens to examine how supply chains become moral documents — how the decision of what to send, how much, and to whom, is always also a decision about who deserves to live."
+  },
+  {
+    "slug": "the-scientists-who-said-no",
+    "title": "The Scientists Who Said No",
+    "subtitle": "The forgotten physicists who refused to build the bomb — and what it cost them",
+    "category": "History",
+    "color": "violet",
+    "description": "Joseph Rotblat walked away from Los Alamos in 1944, the only scientist to resign from the Manhattan Project on moral grounds. He was not alone in his doubts. This is the story of the physicists who dissented, delayed, or defected — and the machinery of loyalty, secrecy, and nationalism that crushed them.",
+    "imagePrompt": "A lone figure walking away from a vast industrial complex at dusk, silhouetted against a sky of fading orange and deep violet, the buildings receding behind them, a single briefcase in hand, long shadows stretching across desert ground",
+    "essayPrompt": "Write a long-form essay about the scientists who refused or resisted the Manhattan Project — particularly Joseph Rotblat's resignation, the Franck Report signatories, and the quiet moral breakdowns of men like Szilard and Einstein. Explore the culture of scientific loyalty, the way wartime necessity overrode ethical refusal, and what happened to dissenters afterward. Consider the broader question: when does participation become complicity, and what does it take to walk away from the most important project of your era?"
+  },
+  {
+    "slug": "the-town-that-didnt-exist",
+    "title": "The Town That Didn't Exist",
+    "subtitle": "Oak Ridge, Tennessee was home to 75,000 people — and it wasn't on any map",
+    "category": "History",
+    "color": "amber",
+    "description": "Oak Ridge, Tennessee was built in eighteen months, housed 75,000 people, consumed more electricity than some American cities, and did not appear on a single public map. Its residents couldn't say where they worked, what they made, or why the town existed. This is the story of how the United States built a secret city — and what it does to ordinary people to live inside a lie.",
+    "imagePrompt": "An aerial view of a sprawling 1940s American town nestled in a wooded Tennessee valley, rows of identical prefabricated houses, wide unpaved roads, large industrial buildings half-hidden by tree lines, a strange orderly normalcy in a place that shouldn't exist, rendered in warm sepia tones",
+    "essayPrompt": "Write a long-form essay about Oak Ridge, Tennessee — the secret Manhattan Project city that housed 75,000 workers who didn't know what they were building. Explore the social architecture of enforced ignorance: how residents were recruited, what they were told, how rumor and compartmentalization shaped daily life. Examine the strange psychological texture of a community built on purposeful not-knowing — the gossip, the loyalty, the pride, and the dislocation. What does it mean to live inside a secret? And what happened to Oak Ridge after the secret was revealed?"
   }
 ]
