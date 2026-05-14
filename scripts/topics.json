@@ -3635,5 +3635,25 @@
     "description": "When researchers studied the descendants of Dutch Hunger Winter survivors and Irish Famine orphans, they found something no one expected: the trauma of starvation had been written into the genome itself, passed down not as memory but as biology. Inheritance, it turns out, is not only legal.",
     "imagePrompt": "A close-up scientific illustration blending two visual registers: on one side, a faded sepia photograph of gaunt famine survivors, on the other, a luminous double helix unraveling into organic shapes like roots and branches, the two images bleeding into each other at the center, deep amber and gold tones",
     "essayPrompt": "Write a deeply researched, narratively rich essay for Foxfire about epigenetic inheritance and what the study of famine survivors' descendants has revealed about transgenerational trauma encoded in biology. Cover the Dutch Hunger Winter cohort studies, research on Irish Famine descendants, and the emerging science of how extreme deprivation rewrites gene expression in ways that persist for two or three generations. Grapple with the philosophical implications: if starvation is inherited biologically, what does that mean for how we understand poverty, resilience, and the very concept of a self that begins at birth?"
+  },
+  {
+    "slug": "the-gift-economy-of-the-potlatch",
+    "title": "The Gift Economy of the Potlatch",
+    "subtitle": "Why the Canadian government made generosity illegal",
+    "category": "History",
+    "color": "amber",
+    "description": "For thousands of years, Pacific Northwest nations held ceremonies where chiefs competed not by accumulating wealth but by giving it all away. The potlatch was a redistribution engine, a political system, a library, and a court — all at once. In 1885, Canada made it a criminal offense. What does it mean when an empire fears the act of giving?",
+    "imagePrompt": "A massive firelit ceremonial hall, cedar beams carved with ravens and bears, a chief in a button blanket standing before mountainous piles of copper shields and woven blankets being distributed into a crowd, smoke rising into dark sky, dramatic chiaroscuro, photorealistic oil painting style",
+    "essayPrompt": "Write a deep, literary essay about the potlatch ceremonies of Pacific Northwest Indigenous nations and the Canadian government's criminalization of them between 1885 and 1951. Explore what the potlatch actually was — a system of wealth redistribution, political legitimacy, oral record-keeping, and social contract — and why colonial authorities found it so threatening. Examine specific cases of confiscated ceremonial objects, imprisoned chiefs, and the long campaign to have the law repealed. Reflect on what it reveals about the fundamental incompatibility between accumulation-based economies and gift-based ones, and what was lost and recovered."
+  },
+  {
+    "slug": "the-ghost-ships-of-supply",
+    "title": "The Ships That Fed a Siege",
+    "subtitle": "The secret fleet that kept Leningrad alive — and the men who drove it across a frozen lake",
+    "category": "History",
+    "color": "sky",
+    "description": "In the winter of 1941, the only thing standing between 800,000 starving people and death was a road made of ice. Soviet drivers hauled supplies across the frozen surface of Lake Ladoga under Luftwaffe bombing runs, watching trucks ahead of them crack through the surface and sink. The Road of Life was less a supply route than a controlled miracle — and the mathematics of starvation that governed it were ruthlessly precise.",
+    "imagePrompt": "A convoy of dark Soviet trucks moving across a vast frozen lake at night, headlights off, moonlight reflecting on ice, distant city skyline glowing orange from fires, one truck illuminated mid-descent into a crack in the ice, viewed from low angle, cinematic black and white photography style with blue tones",
+    "essayPrompt": "Write a deep, literary essay about the Road of Life (Doroga Zhizni) — the ice road across Lake Ladoga that served as the sole supply route into besieged Leningrad during the winter of 1941-42. Explore the brutal logistical calculus involved: how Soviet planners calculated exactly how many calories could be transported versus how many people were dying per day, the drivers who made crossing after crossing knowing the ice might give way, the engineers who surveyed ice thickness under fire, and the civilians who waited on the other side. Use this as a lens to examine how supply chains become moral documents — how the decision of what to send, how much, and to whom, is always also a decision about who deserves to live."
   }
 ]
