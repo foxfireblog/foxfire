@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-banality-of-evil",
+    title: "The Banality of Evil",
+    subtitle: "The most dangerous people in history were not monsters. They were middle managers.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-banality-of-evil.png",
+    publishedAt: "05/15/2026 02:00 AM",
+    description:
+      "Hannah Arendt watched Adolf Eichmann on trial and saw something worse than a demon — she saw a man who had simply never bothered to think.",
+  },
+  {
     slug: "the-manhattan-project-part-2",
     title: "The Manhattan Project: The City on the Hill (Part II of IV)",
     subtitle: "Life at Los Alamos, the personalities, the moral debates, and the Trinity test",

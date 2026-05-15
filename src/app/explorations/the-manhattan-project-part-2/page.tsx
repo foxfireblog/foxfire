@@ -35,6 +35,13 @@ export default function TheManhattanProjectPart2() {
       wordCount={3973}
       prevSlug="the-manhattan-project"
       prevTitle="The Manhattan Project: The Physics of Desperation (Part I of IV)"
+    nextSlug="the-banality-of-evil"
+    nextTitle="The Banality of Evil"
+    nextSubtitle="The most dangerous people in history were not monsters. They were middle managers."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-banality-of-evil.png"
+    nextReadTime="12 min"
     >
       <h2>The Secret City</h2>
 
