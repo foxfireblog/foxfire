@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-women-who-counted-stars",
+    title: "The Women Who Counted Stars",
+    subtitle: "How a room of underpaid 'computers' catalogued the universe and were nearly erased from it",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-women-who-counted-stars.png",
+    publishedAt: "05/15/2026 12:03 PM",
+    description:
+      "The Harvard Observatory hired women because they were cheap — and they revolutionized our understanding of what stars are made of.",
+  },
+  {
     slug: "the-banality-of-evil",
     title: "The Banality of Evil",
     subtitle: "The most dangerous people in history were not monsters. They were middle managers.",
