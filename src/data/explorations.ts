@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-became-his-own-legend",
+    title: "The Man Who Became His Own Legend",
+    subtitle: "On T.E. Lawrence, Wilfred Thesiger, and the impossible art of inventing a self",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-man-who-became-his-own-legend.png",
+    publishedAt: "05/16/2026 11:12 AM",
+    description:
+      "How the great explorer-impostors of the British Empire didn't just fabricate stories — they fabricated selves, and then got trapped inside them.",
+  },
+  {
     slug: "the-siege-of-leningrad",
     title: "The Siege of Leningrad: The Ring Closes (Part I of II)",
     subtitle: "The German strategy, the first winter, and the Road of Life",
