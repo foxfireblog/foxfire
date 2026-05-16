@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-siege-of-leningrad",
+    title: "The Siege of Leningrad: The Ring Closes (Part I of II)",
+    subtitle: "The German strategy, the first winter, and the Road of Life",
+    category: "History",
+    color: "sky",
+    readTime: "14 min",
+    image: "/images/explorations/the-siege-of-leningrad.png",
+    publishedAt: "05/16/2026 01:49 AM",
+    description:
+      "The longest and most destructive siege in modern history, where a city chose starvation over surrender and the act of surviving became a form of war.",
+  },
+  {
     slug: "the-women-who-counted-stars",
     title: "The Women Who Counted Stars",
     subtitle: "How a room of underpaid 'computers' catalogued the universe and were nearly erased from it",
