@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-abyssal-lanterns",
+    title: "The Abyssal Lanterns",
+    subtitle: "In the deep ocean, light is hunger wearing a halo",
+    category: "Natural History",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-abyssal-lanterns.png",
+    publishedAt: "05/16/2026 08:29 PM",
+    description:
+      "In the permanent darkness of the deep ocean, bioluminescence is not beauty — it is deception, warfare, and the oldest conversation about survival ever held in light.",
+  },
+  {
     slug: "the-man-who-became-his-own-legend",
     title: "The Man Who Became His Own Legend",
     subtitle: "On T.E. Lawrence, Wilfred Thesiger, and the impossible art of inventing a self",

@@ -35,6 +35,13 @@ export default function TheManWhoBecameHisOwnLegend() {
       wordCount={3312}
       prevSlug="the-siege-of-leningrad"
       prevTitle="The Siege of Leningrad: The Ring Closes (Part I of II)"
+    nextSlug="the-abyssal-lanterns"
+    nextTitle="The Abyssal Lanterns"
+    nextSubtitle="In the deep ocean, light is hunger wearing a halo"
+    nextCategory="Natural History"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-abyssal-lanterns.png"
+    nextReadTime="12 min"
     >
       <h2>The Costume That Wore the Man</h2>
 
