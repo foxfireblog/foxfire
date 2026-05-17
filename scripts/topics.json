@@ -3754,5 +3754,25 @@
     "color": "violet",
     "description": "In 1704, a young European man arrived in London claiming to be the first native of Formosa ever seen in the West. He had a name no one could pronounce, a diet of raw meat, a calendar, a language, a religion, and a complete account of Formosan civilization — all of it entirely fabricated. George Psalmanazar (not his real name, which he never revealed) became the sensation of London society, was examined by the Royal Society, wrote a bestselling book, and fooled almost everyone for years. Then, decades later, he confessed — and became one of the most beloved and trusted figures in London letters. His story is about the strange alchemy of performed identity, the way a lie sustained long enough begins to feel like a kind of truth, and what it means to spend a life in someone else's invention.",
     "imagePrompt": "An 18th century London gentleman in an ornate coat sitting at a writing desk covered in papers, his face half in shadow and half in candlelight, with an open illustrated book of exotic fake ceremonial drawings beside him, mezzotint engraving style, deep chiaroscuro"
+  },
+  {
+    "slug": "the-light-that-fools-the-eye",
+    "title": "The Light That Fools the Eye",
+    "subtitle": "The long, strange history of will-o'-the-wisps — and the science that finally caught them",
+    "category": "Science & Strange History",
+    "color": "emerald",
+    "description": "For centuries, travelers reported ghostly lights hovering over marshes and bogs at night — pale, wandering flames that led the unwary to their deaths. Folklore filled the void with demons, fairies, and the souls of the unbaptized. The lights were real. The explanations were not. This is the story of how scientists slowly, painstakingly decoded one of nature's most theatrical illusions — from spontaneous phosphine combustion to luminescent bacteria to quantum biology — and what the pursuit revealed about the boundary between superstition and inquiry.",
+    "imagePrompt": "Eerie greenish-white ghost lights floating low over a dark foggy marsh at night, reflected in still black water, surrounded by skeletal reeds and mist, photorealistic atmospheric lighting",
+    "essayPrompt": "Write a deep, curious essay about the scientific and cultural history of will-o'-the-wisps and similar mysterious marsh lights — covering the genuine phenomenon, the centuries of folklore and fear they inspired across cultures, and the long scientific debate over their true cause. Explore what the story reveals about how humans negotiate between wonder and explanation, and why some mysteries resist resolution even after science arrives."
+  },
+  {
+    "slug": "the-creatures-that-invented-glass",
+    "title": "The Creatures That Invented Glass",
+    "subtitle": "How ancient sea sponges built cathedrals of silica — and what they taught us about materials science",
+    "category": "Natural History",
+    "color": "sky",
+    "description": "Hundreds of meters beneath the surface of the ocean, glass sponges have been constructing elaborate fiber-optic skeletons for over half a billion years. Their silica spicules transmit light more efficiently than human-engineered optical fibers, their latticed frames resist fracture better than anything our engineers have designed, and they do it all at room temperature with no industrial equipment. This is the story of what happens when biologists and materials scientists look at the deep ocean's most ancient architects — and realize the future of technology might be written in a creature that has no brain, no eyes, and has barely changed since the Cambrian.",
+    "imagePrompt": "Close-up macro photograph of a glass sponge skeleton, intricate latticed silica structure glowing with transmitted light, deep sea blue-black background, otherworldly geometric beauty, scientific photography style",
+    "essayPrompt": "Write a deep, curious essay about glass sponges — their biology, their extraordinary structural engineering, their half-billion-year history, and what modern materials scientists and engineers have learned from studying them. Explore the concept of biomimicry through this specific lens, and reflect on what it means that evolution solved problems in the deep ocean that human technology is only now beginning to approach."
   }
 ]
