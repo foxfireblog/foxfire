@@ -35,6 +35,13 @@ export default function TheAsylumAtTheEdgeOfTheWorld() {
       wordCount={2671}
       prevSlug="the-abyssal-lanterns"
       prevTitle="The Abyssal Lanterns"
+    nextSlug="the-nowhere-men-of-sealand"
+    nextTitle="The Nowhere Men of Sealand"
+    nextSubtitle="A rusting sea fort, a homemade flag, and the stubbornest country on Earth"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-nowhere-men-of-sealand.png"
+    nextReadTime="14 min"
     >
       <h2>The Woman Who Chased Lions</h2>
 

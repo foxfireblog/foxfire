@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-nowhere-men-of-sealand",
+    title: "The Nowhere Men of Sealand",
+    subtitle: "A rusting sea fort, a homemade flag, and the stubbornest country on Earth",
+    category: "Essay",
+    color: "sky",
+    readTime: "14 min",
+    image: "/images/explorations/the-nowhere-men-of-sealand.png",
+    publishedAt: "05/17/2026 02:06 PM",
+    description:
+      "The absurd, violent, and strangely moving history of a concrete platform in the North Sea that declared itself a sovereign nation — and what it reveals about the fiction of statehood itself.",
+  },
+  {
     slug: "the-asylum-at-the-edge-of-the-world",
     title: "The Asylum at the Edge of the World",
     subtitle: "How a small Belgian town spent eight centuries treating madness with something radical: ordinary life",
