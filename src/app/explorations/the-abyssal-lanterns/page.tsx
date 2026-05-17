@@ -35,6 +35,13 @@ export default function TheAbyssalLanterns() {
       wordCount={2701}
       prevSlug="the-man-who-became-his-own-legend"
       prevTitle="The Man Who Became His Own Legend"
+    nextSlug="the-asylum-at-the-edge-of-the-world"
+    nextTitle="The Asylum at the Edge of the World"
+    nextSubtitle="How a small Belgian town spent eight centuries treating madness with something radical: ordinary life"
+    nextCategory="Essay"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-asylum-at-the-edge-of-the-world.png"
+    nextReadTime="12 min"
     >
       <h2>The Oldest Trick</h2>
 

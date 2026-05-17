@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-asylum-at-the-edge-of-the-world",
+    title: "The Asylum at the Edge of the World",
+    subtitle: "How a small Belgian town spent eight centuries treating madness with something radical: ordinary life",
+    category: "Essay",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-asylum-at-the-edge-of-the-world.png",
+    publishedAt: "05/17/2026 05:38 AM",
+    description:
+      "For over 700 years, the people of Gheel, Belgium have taken the mentally ill into their homes — not as patients, but as boarders, neighbors, family.",
+  },
+  {
     slug: "the-abyssal-lanterns",
     title: "The Abyssal Lanterns",
     subtitle: "In the deep ocean, light is hunger wearing a halo",
