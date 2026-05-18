@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-vanilla-conspiracy",
+    title: "The Vanilla Conspiracy",
+    subtitle: "How a single orchid remade an island, a labor system, and the global meaning of 'plain'",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-vanilla-conspiracy.png",
+    publishedAt: "05/18/2026 12:55 PM",
+    description:
+      "The story of how vanilla — the world's most labor-intensive spice — went from sacred Mesoamerican ritual to synonym for boring, and the twelve-year-old enslaved boy who made it all possible.",
+  },
+  {
     slug: "the-library-of-babel",
     title: "The Library of Babel",
     subtitle: "A library containing every possible book already contains this sentence",

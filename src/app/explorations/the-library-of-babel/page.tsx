@@ -35,6 +35,13 @@ export default function TheLibraryOfBabel() {
       wordCount={2847}
       prevSlug="the-nowhere-men-of-sealand"
       prevTitle="The Nowhere Men of Sealand"
+    nextSlug="the-vanilla-conspiracy"
+    nextTitle="The Vanilla Conspiracy"
+    nextSubtitle="How a single orchid remade an island, a labor system, and the global meaning of 'plain'"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-vanilla-conspiracy.png"
+    nextReadTime="12 min"
     >
       <h2>The Blind Man&apos;s Infinite Shelf</h2>
 
