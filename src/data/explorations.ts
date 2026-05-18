@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-library-of-babel",
+    title: "The Library of Babel",
+    subtitle: "A library containing every possible book already contains this sentence",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-library-of-babel.png",
+    publishedAt: "05/18/2026 02:20 AM",
+    description:
+      "Borges imagined a library containing every possible 410-page book — and accidentally described the internet, the genome, and the terrifying mathematics of completeness.",
+  },
+  {
     slug: "the-nowhere-men-of-sealand",
     title: "The Nowhere Men of Sealand",
     subtitle: "A rusting sea fort, a homemade flag, and the stubbornest country on Earth",
