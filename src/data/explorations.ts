@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-manhattan-project-part-3",
+    title: "The Manhattan Project: The Decision (Part III of IV)",
+    subtitle: "Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-manhattan-project-part-3.png",
+    publishedAt: "05/19/2026 01:09 PM",
+    description:
+      "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
+  },
+  {
     slug: "how-many-piano-tuners-are-in-chicago",
     title: "How Many Piano Tuners Are in Chicago?",
     subtitle: "The art of answering impossible questions with nothing but logic",

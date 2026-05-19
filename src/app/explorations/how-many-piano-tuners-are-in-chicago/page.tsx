@@ -35,6 +35,13 @@ export default function HowManyPianoTunersAreInChicago() {
       wordCount={2963}
       prevSlug="the-vanilla-conspiracy"
       prevTitle="The Vanilla Conspiracy"
+    nextSlug="the-manhattan-project-part-3"
+    nextTitle="The Manhattan Project: The Decision (Part III of IV)"
+    nextSubtitle="Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-manhattan-project-part-3.png"
+    nextReadTime="14 min"
     >
       <h2>Confetti in the Desert</h2>
 
