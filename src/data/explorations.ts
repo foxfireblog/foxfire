@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "how-many-piano-tuners-are-in-chicago",
+    title: "How Many Piano Tuners Are in Chicago?",
+    subtitle: "The art of answering impossible questions with nothing but logic",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/how-many-piano-tuners-are-in-chicago.png",
+    publishedAt: "05/19/2026 02:16 AM",
+    description:
+      "Fermi estimation — the strange, beautiful discipline of reasoning about things you have no right to know — and why it matters more than ever in an age drowning in false precision.",
+  },
+  {
     slug: "the-vanilla-conspiracy",
     title: "The Vanilla Conspiracy",
     subtitle: "How a single orchid remade an island, a labor system, and the global meaning of 'plain'",
