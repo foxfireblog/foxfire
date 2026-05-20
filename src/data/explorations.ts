@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-acoustics-of-caves",
+    title: "The Acoustics of Caves",
+    subtitle: "Why our oldest art was made where the walls sing back",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-acoustics-of-caves.png",
+    publishedAt: "05/20/2026 02:10 AM",
+    description:
+      "The deepest Paleolithic paintings appear in the most resonant chambers — suggesting our ancestors didn't just see their art, they heard it.",
+  },
+  {
     slug: "the-manhattan-project-part-3",
     title: "The Manhattan Project: The Decision (Part III of IV)",
     subtitle: "Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki",
