@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-rhythm-of-crowds",
+    title: "The Rhythm of Crowds",
+    subtitle: "On the strange physics of bodies that forget they are separate",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-rhythm-of-crowds.png",
+    publishedAt: "05/20/2026 01:16 PM",
+    description:
+      "How human bodies synchronize without meaning to — and what it reveals about the porous boundary between self and swarm.",
+  },
+  {
     slug: "the-acoustics-of-caves",
     title: "The Acoustics of Caves",
     subtitle: "Why our oldest art was made where the walls sing back",
