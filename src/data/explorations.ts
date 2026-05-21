@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-frequency-illusion",
+    title: "The Frequency Illusion",
+    subtitle: "You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it.",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-frequency-illusion.png",
+    publishedAt: "05/21/2026 01:15 PM",
+    description:
+      "How the Baader-Meinhof phenomenon reveals that perception is not a window but a searchlight — and what that means for the stories we tell about the world finding us.",
+  },
+  {
     slug: "the-siege-of-leningrad-part-2",
     title: "The Siege of Leningrad: Nine Hundred Days (Part II of II)",
     subtitle: "Shostakovich's Seventh, the Vavilov seed bank, and survival and memory",
