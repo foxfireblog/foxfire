@@ -35,13 +35,13 @@ export default function TheSiegeOfLeningrad() {
       wordCount={3121}
       prevSlug="the-women-who-counted-stars"
       prevTitle="The Women Who Counted Stars"
-    nextSlug="the-man-who-became-his-own-legend"
-    nextTitle="The Man Who Became His Own Legend"
-    nextSubtitle="On T.E. Lawrence, Wilfred Thesiger, and the impossible art of inventing a self"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-became-his-own-legend.png"
-    nextReadTime="14 min"
+      nextSlug="the-siege-of-leningrad-part-2"
+      nextTitle="The Siege of Leningrad: Nine Hundred Days (Part II of II)"
+      nextSubtitle="Shostakovich's Seventh, the Vavilov seed bank, and survival and memory"
+      nextCategory="History"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-siege-of-leningrad-part-2.png"
+      nextReadTime="14 min"
     >
       <h2>The Sweet Earth</h2>
 

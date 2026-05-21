@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-siege-of-leningrad-part-2",
+    title: "The Siege of Leningrad: Nine Hundred Days (Part II of II)",
+    subtitle: "Shostakovich's Seventh, the Vavilov seed bank, and survival and memory",
+    category: "History",
+    color: "sky",
+    readTime: "14 min",
+    image: "/images/explorations/the-siege-of-leningrad-part-2.png",
+    publishedAt: "05/21/2026 02:23 AM",
+    description:
+      "The longest and most destructive siege in modern history, where a city chose starvation over surrender and the act of surviving became a form of war.",
+  },
+  {
     slug: "the-rhythm-of-crowds",
     title: "The Rhythm of Crowds",
     subtitle: "On the strange physics of bodies that forget they are separate",
