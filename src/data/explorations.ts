@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-enclosure-of-everything",
+    title: "The Enclosure of Everything",
+    subtitle: "They fenced the land first. Then they fenced the rest of human experience.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-enclosure-of-everything.png",
+    publishedAt: "05/22/2026 12:25 PM",
+    description:
+      "How a 500-year-old process of fencing common land became the template for enclosing knowledge, culture, attention, and even the self.",
+  },
+  {
     slug: "the-ones-who-walk-away-from-the-algorithm",
     title: "The Ones Who Walk Away from the Algorithm",
     subtitle: "On choosing to be unfindable",

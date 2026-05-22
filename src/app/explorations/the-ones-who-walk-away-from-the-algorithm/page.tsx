@@ -35,6 +35,13 @@ export default function TheOnesWhoWalkAwayFromTheAlgorithm() {
       wordCount={2814}
       prevSlug="the-frequency-illusion"
       prevTitle="The Frequency Illusion"
+    nextSlug="the-enclosure-of-everything"
+    nextTitle="The Enclosure of Everything"
+    nextSubtitle="They fenced the land first. Then they fenced the rest of human experience."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-enclosure-of-everything.png"
+    nextReadTime="12 min"
     >
       <h2>The Child in the Basement</h2>
 
