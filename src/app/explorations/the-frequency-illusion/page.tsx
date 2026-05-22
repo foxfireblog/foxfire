@@ -35,6 +35,13 @@ export default function TheFrequencyIllusion() {
       wordCount={3014}
       prevSlug="the-siege-of-leningrad-part-2"
       prevTitle="The Siege of Leningrad: Nine Hundred Days (Part II of II)"
+    nextSlug="the-ones-who-walk-away-from-the-algorithm"
+    nextTitle="The Ones Who Walk Away from the Algorithm"
+    nextSubtitle="On choosing to be unfindable"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-ones-who-walk-away-from-the-algorithm.png"
+    nextReadTime="12 min"
     >
       <h2>The Word That Was Already There</h2>
 

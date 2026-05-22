@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ones-who-walk-away-from-the-algorithm",
+    title: "The Ones Who Walk Away from the Algorithm",
+    subtitle: "On choosing to be unfindable",
+    category: "Essay",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-ones-who-walk-away-from-the-algorithm.png",
+    publishedAt: "05/22/2026 02:38 AM",
+    description:
+      "A meditation on the people who deliberately vanish from digital life — and what their absence reveals about the architecture of visibility.",
+  },
+  {
     slug: "the-frequency-illusion",
     title: "The Frequency Illusion",
     subtitle: "You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it.",
