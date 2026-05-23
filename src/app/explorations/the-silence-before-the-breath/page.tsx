@@ -35,6 +35,13 @@ export default function TheSilenceBeforeTheBreath() {
       wordCount={2546}
       prevSlug="the-enclosure-of-everything"
       prevTitle="The Enclosure of Everything"
+    nextSlug="the-permian-silence"
+    nextTitle="The Permian Silence"
+    nextSubtitle="The day 96% of everything alive stopped breathing"
+    nextCategory="Natural History"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-permian-silence.png"
+    nextReadTime="12 min"
     >
       <h2>The Gun That Hasn&apos;t Fired</h2>
 

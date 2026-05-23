@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-permian-silence",
+    title: "The Permian Silence",
+    subtitle: "The day 96% of everything alive stopped breathing",
+    category: "Natural History",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-permian-silence.png",
+    publishedAt: "05/23/2026 11:02 AM",
+    description:
+      "252 million years ago, Earth nearly sterilized itself — and the way it happened feels uncomfortably familiar.",
+  },
+  {
     slug: "the-silence-before-the-breath",
     title: "The Silence Before the Breath",
     subtitle: "On the strange physics of almost-beginning",
