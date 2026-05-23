@@ -4034,5 +4034,25 @@
     "description": "Before the stethoscope, physicians touched and smelled and watched. Diagnosis was a conversation. Then came percussion — the art of tapping the body like a barrel to hear what was hollow. Then auscultation, the thermometer, the X-ray. Each new instrument moved knowledge from the patient's experience into the doctor's instruments. The body began to speak a language the patient could not understand about themselves. This is a history of medicine as a history of translation — and of what is lost when the body becomes a text that only experts can read.",
     "imagePrompt": "A 19th century physician leaning close to a patient with an early wooden ear trumpet stethoscope, dramatic candlelight, chiaroscuro oil painting style, the patient's face turned upward with closed eyes, intimate and slightly melancholic, medical instruments on a side table",
     "essayPrompt": "Write a Foxfire-style essay about the epistemological shift in Western medicine from patient-reported experience to instrument-mediated diagnosis. Begin with Leopold Auenbrugger's invention of percussion diagnosis in 1761, move through Laennec's invention of the stethoscope, and arrive at modern imaging. Explore the philosophical concept of the 'clinical gaze' as described by Foucault — the idea that modern medicine invented a new kind of body, one that is silent and readable rather than speaking and felt. What is the cost of a medicine that knows more than the patient does about their own interior? Where does expertise end and alienation begin?"
+  },
+  {
+    "slug": "the-cambrian-explosion-of-sound",
+    "title": "The Cambrian Explosion of Sound",
+    "subtitle": "Before the Permian silence, there was a world learning to be loud",
+    "category": "Natural History",
+    "color": "teal",
+    "description": "Five hundred million years ago, the ocean was mute. No creature called to another, no signal moved through the water with intent. Then, in a geological instant, animals invented ears — and with ears came the evolutionary arms race that changed everything. The story of how the living world learned to listen, and what happened when it did.",
+    "imagePrompt": "Cross-section of a Cambrian seafloor teeming with strange translucent creatures, trilobites, and bizarre spined animals in shallow warm water, rendered in deep teal and amber tones, photorealistic scientific illustration style",
+    "essayPrompt": "Write a deep, lyrical essay about the evolutionary origin of hearing and sound-production in animals — beginning with the silent Precambrian ocean and tracing the Cambrian explosion as partly an explosion of sensory arms races. Explore how the invention of eyes and ears changed predator-prey dynamics, how sound became information, how silence became dangerous. Include the neurological architecture of early hearing, the strange acoustic world of the Devonian with its first land animals, and the philosophical question of what it meant — evolutionarily, ecologically — for the world to suddenly become something that could be listened to."
+  },
+  {
+    "slug": "the-stratigraphy-of-forgetting",
+    "title": "The Stratigraphy of Forgetting",
+    "subtitle": "What the rocks remember that we cannot",
+    "category": "Philosophy of Science",
+    "color": "amber",
+    "description": "Geologists read time in layers — each stratum a chapter, each boundary a catastrophe or a pause. But embedded in this discipline is a stranger truth: the rock record is mostly missing. More time has been erased than preserved. What survives is the exception. This is an essay about deep time, the philosophy of incomplete archives, and what it means to reconstruct a world from fragments that were never meant to last.",
+    "imagePrompt": "Dramatic vertical cliff face showing colorful geological strata — red, ochre, cream, and grey bands — with a small human figure at the base for scale, golden hour light, photorealistic landscape photography style",
+    "essayPrompt": "Write a philosophical and scientific essay about the incompleteness of the geological record — the vast stretches of time that left no trace, the unconformities where millions of years simply vanish between two rock layers. Explore the concept of the 'Great Unconformity,' the epistemological problem of reconstructing history from absence, and how geologists have learned to read what is missing as much as what survives. Connect this to broader questions about memory, archive, and the nature of evidence: what does it mean to know something about a time that deliberately erased itself? Include the strange intimacy of holding a rock that is 500 million years old and knowing it is a survivor of almost impossible odds."
   }
 ]
