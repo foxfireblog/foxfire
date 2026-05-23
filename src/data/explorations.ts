@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-silence-before-the-breath",
+    title: "The Silence Before the Breath",
+    subtitle: "On the strange physics of almost-beginning",
+    category: "Essay",
+    color: "indigo",
+    readTime: "11 min",
+    image: "/images/explorations/the-silence-before-the-breath.png",
+    publishedAt: "05/23/2026 02:04 AM",
+    description:
+      "An exploration of the pregnant pause — the moment just before something begins, when possibility is at its most dense and strange.",
+  },
+  {
     slug: "the-enclosure-of-everything",
     title: "The Enclosure of Everything",
     subtitle: "They fenced the land first. Then they fenced the rest of human experience.",

@@ -35,6 +35,13 @@ export default function TheEnclosureOfEverything() {
       wordCount={2832}
       prevSlug="the-ones-who-walk-away-from-the-algorithm"
       prevTitle="The Ones Who Walk Away from the Algorithm"
+    nextSlug="the-silence-before-the-breath"
+    nextTitle="The Silence Before the Breath"
+    nextSubtitle="On the strange physics of almost-beginning"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-silence-before-the-breath.png"
+    nextReadTime="11 min"
     >
       <h2>The Bankrupt Cloth Merchant&apos;s Vision</h2>
 
