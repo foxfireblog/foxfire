@@ -35,6 +35,13 @@ export default function TheDemocracyOfSlime() {
       wordCount={2852}
       prevSlug="the-permian-silence"
       prevTitle="The Permian Silence"
+    nextSlug="the-spiral-of-silence"
+    nextTitle="The Spiral of Silence"
+    nextSubtitle="How public opinion becomes a hall of mirrors"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-spiral-of-silence.png"
+    nextReadTime="12 min"
     >
       <h2>The Yellow River</h2>
 

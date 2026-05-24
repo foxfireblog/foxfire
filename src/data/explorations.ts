@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-spiral-of-silence",
+    title: "The Spiral of Silence",
+    subtitle: "How public opinion becomes a hall of mirrors",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-spiral-of-silence.png",
+    publishedAt: "05/24/2026 05:56 AM",
+    description:
+      "The political theorist who discovered that public opinion is not what people think — it's what people think other people think, and why that difference reshapes everything.",
+  },
+  {
     slug: "the-democracy-of-slime",
     title: "The Democracy of Slime",
     subtitle: "How a brainless organism solves problems that stump engineers, and what it means for the nature of mind",
