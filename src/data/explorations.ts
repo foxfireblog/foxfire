@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-manhattan-project-part-4",
+    title: "The Manhattan Project: The Inheritance (Part IV of IV)",
+    subtitle: "The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb",
+    category: "Essay",
+    color: "amber",
+    readTime: "15 min",
+    image: "/images/explorations/the-manhattan-project-part-4.png",
+    publishedAt: "05/24/2026 05:03 PM",
+    description:
+      "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
+  },
+  {
     slug: "the-spiral-of-silence",
     title: "The Spiral of Silence",
     subtitle: "How public opinion becomes a hall of mirrors",

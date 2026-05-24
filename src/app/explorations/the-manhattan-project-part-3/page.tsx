@@ -35,13 +35,13 @@ export default function TheManhattanProjectPart3() {
       wordCount={3323}
       prevSlug="the-manhattan-project-part-2"
       prevTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
-    nextSlug="the-acoustics-of-caves"
-    nextTitle="The Acoustics of Caves"
-    nextSubtitle="Why our oldest art was made where the walls sing back"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-acoustics-of-caves.png"
-    nextReadTime="14 min"
+      nextSlug="the-manhattan-project-part-4"
+      nextTitle="The Manhattan Project: The Inheritance (Part IV of IV)"
+      nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-manhattan-project-part-4.png"
+      nextReadTime="15 min"
     >
       <h2>The Targeting Committee</h2>
 
