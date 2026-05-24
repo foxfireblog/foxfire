@@ -4054,5 +4054,25 @@
     "description": "Geologists read time in layers — each stratum a chapter, each boundary a catastrophe or a pause. But embedded in this discipline is a stranger truth: the rock record is mostly missing. More time has been erased than preserved. What survives is the exception. This is an essay about deep time, the philosophy of incomplete archives, and what it means to reconstruct a world from fragments that were never meant to last.",
     "imagePrompt": "Dramatic vertical cliff face showing colorful geological strata — red, ochre, cream, and grey bands — with a small human figure at the base for scale, golden hour light, photorealistic landscape photography style",
     "essayPrompt": "Write a philosophical and scientific essay about the incompleteness of the geological record — the vast stretches of time that left no trace, the unconformities where millions of years simply vanish between two rock layers. Explore the concept of the 'Great Unconformity,' the epistemological problem of reconstructing history from absence, and how geologists have learned to read what is missing as much as what survives. Connect this to broader questions about memory, archive, and the nature of evidence: what does it mean to know something about a time that deliberately erased itself? Include the strange intimacy of holding a rock that is 500 million years old and knowing it is a survivor of almost impossible odds."
+  },
+  {
+    "slug": "the-parliament-of-cells",
+    "title": "The Parliament of Cells",
+    "subtitle": "How your body makes decisions without a brain in charge",
+    "category": "Natural History",
+    "color": "emerald",
+    "description": "You think your brain runs the show. But inside you right now, billions of cells are negotiating, voting, and occasionally committing what can only be called political violence — with no central authority in sight. The story of how multicellular life solved the problem of governance, and what happens when the system breaks down.",
+    "imagePrompt": "Extreme close-up microscopic view of dividing cells in luminous green and gold, networked like a parliament chamber, biological but architectural, glowing against deep black",
+    "essayPrompt": "Write a long-form essay exploring how the human body functions as a decentralized political system — how cells signal, negotiate, and reach consensus without central command, how immune cells make 'decisions' about threat and tolerance, how cancer can be understood as political breakdown (cells defecting from the social contract), and what this reveals about the deep logic of collective intelligence across all living systems. Draw on immunology, developmental biology, and political philosophy."
+  },
+  {
+    "slug": "the-invention-of-the-individual",
+    "title": "The Invention of the Individual",
+    "subtitle": "For most of human history, the self was a collective project",
+    "category": "Philosophy",
+    "color": "violet",
+    "description": "The idea that you are a single, bounded, autonomous self is one of the strangest and most recent ideas in human history. Most societies across time have understood personhood as porous, relational, and distributed — shared across ancestors, communities, and even objects. The story of how the West invented the individual, and what was lost in the process.",
+    "imagePrompt": "A single human silhouette dissolving at its edges into interconnected figures and shadows, Renaissance-style draftsmanship blending into something more fluid and collective, rich violet and amber tones",
+    "essayPrompt": "Write a long-form essay tracing the historical and philosophical construction of the individual self — from the relational personhood of Indigenous and African philosophical traditions to the ancient Greek polis, through Augustine's invention of interiority, the Protestant Reformation's privatization of conscience, Enlightenment liberal theory, and finally modern neuroscience's challenge to the unified self. Argue that what we take as natural — the bounded autonomous individual — is a specific historical invention with profound political and ecological consequences."
   }
 ]
