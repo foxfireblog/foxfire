@@ -35,6 +35,13 @@ export default function ThePermianSilence() {
       wordCount={2745}
       prevSlug="the-silence-before-the-breath"
       prevTitle="The Silence Before the Breath"
+    nextSlug="the-democracy-of-slime"
+    nextTitle="The Democracy of Slime"
+    nextSubtitle="How a brainless organism solves problems that stump engineers, and what it means for the nature of mind"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-democracy-of-slime.png"
+    nextReadTime="12 min"
     >
       <h2>The Worst Day</h2>
 

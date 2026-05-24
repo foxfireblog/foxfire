@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-democracy-of-slime",
+    title: "The Democracy of Slime",
+    subtitle: "How a brainless organism solves problems that stump engineers, and what it means for the nature of mind",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-democracy-of-slime.png",
+    publishedAt: "05/23/2026 08:25 PM",
+    description:
+      "Physarum polycephalum has no brain, no neurons, and no central plan — yet it builds networks that rival human infrastructure, makes decisions, and remembers things it has no right to remember.",
+  },
+  {
     slug: "the-permian-silence",
     title: "The Permian Silence",
     subtitle: "The day 96% of everything alive stopped breathing",
