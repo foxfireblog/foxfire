@@ -4074,5 +4074,25 @@
     "description": "The idea that you are a single, bounded, autonomous self is one of the strangest and most recent ideas in human history. Most societies across time have understood personhood as porous, relational, and distributed — shared across ancestors, communities, and even objects. The story of how the West invented the individual, and what was lost in the process.",
     "imagePrompt": "A single human silhouette dissolving at its edges into interconnected figures and shadows, Renaissance-style draftsmanship blending into something more fluid and collective, rich violet and amber tones",
     "essayPrompt": "Write a long-form essay tracing the historical and philosophical construction of the individual self — from the relational personhood of Indigenous and African philosophical traditions to the ancient Greek polis, through Augustine's invention of interiority, the Protestant Reformation's privatization of conscience, Enlightenment liberal theory, and finally modern neuroscience's challenge to the unified self. Argue that what we take as natural — the bounded autonomous individual — is a specific historical invention with profound political and ecological consequences."
+  },
+  {
+    "slug": "the-hecklers-veto",
+    "title": "The Heckler's Veto",
+    "subtitle": "How the threat of noise became a tool of censorship",
+    "category": "Political Philosophy",
+    "color": "red",
+    "description": "In law and politics, a 'heckler's veto' occurs when authorities silence a speaker not because of what they said, but to preempt the anger of the crowd. It inverts the logic of free expression entirely — the loudest opposition wins not by argument but by threat. This essay traces the concept from 1950s civil rights demonstrations through modern campus debates and online pile-ons, asking a disturbing question: when we protect the crowd from the speaker, who exactly are we protecting?",
+    "imagePrompt": "A lone figure at a podium surrounded by an enormous roaring crowd rendered as a sea of open mouths, dramatic chiaroscuro lighting, stark editorial illustration style",
+    "essayPrompt": "Write a deep, essayistic exploration of the heckler's veto — the legal concept where a speaker is silenced to prevent crowd reaction. Trace its history through civil rights law, its philosophical tensions with free expression theory, its appearance in online mob dynamics, and what it reveals about whose discomfort societies have historically chosen to protect. Examine how it relates to the Spiral of Silence — both describe how dissent is extinguished not by argument but by social pressure and fear."
+  },
+  {
+    "slug": "the-ovation-that-wouldnt-stop",
+    "title": "The Ovation That Wouldn't Stop",
+    "subtitle": "On the terror of being the first person to stop clapping",
+    "category": "History & Psychology",
+    "color": "amber",
+    "description": "In Stalin's Soviet Union, Party meetings often erupted into standing ovations for the leader that lasted eleven, twelve, fifteen minutes — because no one dared be the first to stop. The secret police watched. To sit down first was to mark yourself. One factory director, exhausted after eleven minutes, finally sat — and was arrested that same night. This is the story of performative unanimity: how applause becomes a weapon, how conformity cascades, and how the body can be conscripted into expressing what the mind does not believe.",
+    "imagePrompt": "A vast Soviet-era auditorium with hundreds of figures standing and clapping, all facing a distant stage, rendered in cold gray and gold tones, propaganda poster aesthetic with unsettling undertones",
+    "essayPrompt": "Write a deep, essayistic exploration of performative unanimity — using the historical phenomenon of Soviet standing ovations as a lens. Explore the social psychology of preference falsification (Timur Kuran's work), the information cascade that makes collective lies self-sustaining, and the physical and moral experience of applauding something you fear or despise. Connect this to broader patterns: North Korean mass performances, corporate culture, social media likes. Ask what it costs a person — psychologically and morally — to let their body lie for them, and what it takes for the cascade to finally break."
   }
 ]
