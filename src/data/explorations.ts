@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-zodiac-cipher",
+    title: "The Zodiac Cipher",
+    subtitle: "A killer's coded message sat unsolved for 51 years. Then three amateurs cracked it.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-zodiac-cipher.png",
+    publishedAt: "05/25/2026 12:49 PM",
+    description:
+      "How a serial killer's 340-character cipher resisted the world's best codebreakers for half a century — until a software engineer, a mathematician, and an Australian astrophysicist cracked it during lockdown.",
+  },
+  {
     slug: "the-actuaries-of-the-apocalypse",
     title: "The Actuaries of the Apocalypse",
     subtitle: "How the mathematics of risk quietly became the operating system of civilization",

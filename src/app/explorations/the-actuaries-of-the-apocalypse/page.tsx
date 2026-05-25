@@ -35,6 +35,13 @@ export default function TheActuariesOfTheApocalypse() {
       wordCount={3278}
       prevSlug="the-manhattan-project-part-4"
       prevTitle="The Manhattan Project: The Inheritance (Part IV of IV)"
+    nextSlug="the-zodiac-cipher"
+    nextTitle="The Zodiac Cipher"
+    nextSubtitle="A killer's coded message sat unsolved for 51 years. Then three amateurs cracked it."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-zodiac-cipher.png"
+    nextReadTime="12 min"
     >
       <h2>The Dusty Papers</h2>
 
