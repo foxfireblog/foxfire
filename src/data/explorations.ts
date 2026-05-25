@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-actuaries-of-the-apocalypse",
+    title: "The Actuaries of the Apocalypse",
+    subtitle: "How the mathematics of risk quietly became the operating system of civilization",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-actuaries-of-the-apocalypse.png",
+    publishedAt: "05/25/2026 02:27 AM",
+    description:
+      "The strange history of how humans learned to price the future — and what happened when that pricing became the lens through which we see everything.",
+  },
+  {
     slug: "the-manhattan-project-part-4",
     title: "The Manhattan Project: The Inheritance (Part IV of IV)",
     subtitle: "The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb",

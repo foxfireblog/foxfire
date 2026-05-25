@@ -35,6 +35,13 @@ export default function TheManhattanProjectPart4() {
       wordCount={3359}
       prevSlug="the-manhattan-project-part-3"
       prevTitle="The Manhattan Project: The Decision (Part III of IV)"
+    nextSlug="the-actuaries-of-the-apocalypse"
+    nextTitle="The Actuaries of the Apocalypse"
+    nextSubtitle="How the mathematics of risk quietly became the operating system of civilization"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-actuaries-of-the-apocalypse.png"
+    nextReadTime="14 min"
     >
       <h2>The Green Glass</h2>
 
