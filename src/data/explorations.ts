@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ghost-in-the-mirror",
+    title: "The Ghost in the Mirror",
+    subtitle: "On depersonalization, the self as performance, and the terror of meeting your own eyes",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-ghost-in-the-mirror.png",
+    publishedAt: "05/26/2026 02:52 AM",
+    description:
+      "What happens when you look in a mirror and the person looking back is a stranger — and what that rupture reveals about the fragile architecture of selfhood.",
+  },
+  {
     slug: "the-zodiac-cipher",
     title: "The Zodiac Cipher",
     subtitle: "A killer's coded message sat unsolved for 51 years. Then three amateurs cracked it.",
