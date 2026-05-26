@@ -4174,5 +4174,25 @@
     "description": "Psychogenic amnesia is different from ordinary forgetting. It is the erasure of entire periods of a life — sometimes years — not because of injury, but because the mind decided, below the level of consciousness, that the cost of remembering was too high. People surface in cities they don't recognize, holding identities they can't verify, with no sense that anything has been lost. Some recover everything. Some recover nothing. The science of what the brain chooses to bury, and why, runs directly into the oldest questions about what a self actually is — and whether continuity is something we construct rather than something we possess.",
     "imagePrompt": "A long empty corridor fading into white fog, a figure standing at the far end barely visible, muted indigo tones, cinematic and eerie, soft vignette edges",
     "essayPrompt": "Write a deep, meditative Foxfire essay about dissociative amnesia — the phenomenon where the mind erases not facts or skills but the entire autobiographical record of a period of life. Explore documented cases of fugue states, where people have walked away from their entire identity and lived as someone else, sometimes for years. Examine the neuroscience of traumatic memory suppression, the contested history of 'recovered memory,' and the philosophical question at the center: if a self is the story it tells about itself, what happens when the storyteller goes silent? Connect to broader ideas about memory, narrative identity, and the mind's capacity for self-protection through erasure. Write with literary depth and scientific curiosity."
+  },
+  {
+    "slug": "the-underground-railroad-of-forged-documents",
+    "title": "The Underground Railroad of Forged Documents",
+    "subtitle": "How a network of abolitionists, printers, and freed Black sailors smuggled identity itself across the Mason-Dixon line",
+    "category": "History",
+    "color": "amber",
+    "description": "Before the Civil War, freedom often came not through a rifle or a river crossing but through a piece of paper. Forged sailor's protection certificates, fraudulent freedom papers, and borrowed identities passed hand to hand through a shadow network that understood something radical: in a bureaucratic society, the document *is* the person. This is the story of those who weaponized paperwork against the machine that invented it.",
+    "imagePrompt": "A close-up of aged 19th-century handwritten documents, freedom papers with official-looking seals, ink stamps, and signatures, some showing signs of careful forgery, candlelight illuminating the paper edges, dark atmospheric background",
+    "essayPrompt": "Write a deep, curious essay about the network of forged freedom documents used by abolitionists and enslaved people before the Civil War — sailor's protection certificates, borrowed papers, invented identities. Explore the philosophy embedded in the act: that identity in a bureaucratic state is fundamentally a paper construction, and how that insight was weaponized by both the enslaved and those who helped them. Include specific cases, the printers and forgers involved, the legal machinery that made such documents necessary, and what it means that freedom had to be counterfeited before it could be real."
+  },
+  {
+    "slug": "the-postal-inspection-service",
+    "title": "The Most Feared Agency in America",
+    "subtitle": "For 150 years, the United States Postal Inspection Service had broader powers than the FBI — and almost nobody knew it existed",
+    "category": "History",
+    "color": "indigo",
+    "description": "The U.S. Postal Inspection Service is the oldest federal law enforcement agency in America, predating the FBI by over a century. At its peak, postal inspectors could open your mail, arrest you without a warrant, and prosecute you for thought crimes — if those thoughts traveled through the mail. They pursued anarchists, birth control advocates, lottery operators, and con artists with a religious zeal. The post office wasn't just infrastructure. It was a surveillance state hiding inside something everyone trusted.",
+    "imagePrompt": "A dimly lit 1920s post office sorting room with a lone inspector in period uniform examining letters under a lamp, stacks of mail everywhere, shadows suggesting surveillance and secrecy, vintage government aesthetic",
+    "essayPrompt": "Write a deep, curious essay about the United States Postal Inspection Service — the oldest federal law enforcement agency in America — and its largely forgotten history of surveillance, censorship, and control. Cover Anthony Comstock and the Comstock Laws, the prosecution of birth control advocates and anarchists through the mail, the legal theory of 'postal power,' the cases of Eugene Debs and others prosecuted for mailed speech, and the strange philosophical contradiction at the heart of the institution: that the most trusted, democratic infrastructure in American life was also one of its most powerful instruments of repression. Explore what it reveals about the relationship between communication networks and state power."
   }
 ]
