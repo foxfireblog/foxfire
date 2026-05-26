@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-mailed-himself-to-freedom",
+    title: "The Man Who Mailed Himself to Freedom",
+    subtitle: "Henry Brown, a wooden crate, and the strange sovereignty of a body in transit",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-man-who-mailed-himself-to-freedom.png",
+    publishedAt: "05/26/2026 01:37 PM",
+    description:
+      "In 1849, an enslaved man shipped himself in a wooden box from Richmond to Philadelphia — and in doing so, forced the question of whether a human body could become its own cargo.",
+  },
+  {
     slug: "the-ghost-in-the-mirror",
     title: "The Ghost in the Mirror",
     subtitle: "On depersonalization, the self as performance, and the terror of meeting your own eyes",
