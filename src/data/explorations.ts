@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-informal-economy",
+    title: "The Informal Economy",
+    subtitle: "Half the world works in an economy that officially doesn't exist",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-informal-economy.png",
+    publishedAt: "05/27/2026 02:38 AM",
+    description:
+      "Billions of people earn their living in an economy that no government fully sees, no GDP fully counts, and no policy fully understands — and it may be the most resilient system humans have ever built.",
+  },
+  {
     slug: "the-man-who-mailed-himself-to-freedom",
     title: "The Man Who Mailed Himself to Freedom",
     subtitle: "Henry Brown, a wooden crate, and the strange sovereignty of a body in transit",

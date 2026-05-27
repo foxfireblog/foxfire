@@ -35,6 +35,13 @@ export default function TheManWhoMailedHimselfToFreedom() {
       wordCount={2892}
       prevSlug="the-ghost-in-the-mirror"
       prevTitle="The Ghost in the Mirror"
+    nextSlug="the-informal-economy"
+    nextTitle="The Informal Economy"
+    nextSubtitle="Half the world works in an economy that officially doesn't exist"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-informal-economy.png"
+    nextReadTime="11 min"
     >
       <h2>Dry Goods</h2>
 
