@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-body-that-grew-a-second-brain",
+    title: "The Body That Grew a Second Brain",
+    subtitle: "There are more neurons in your gut than in the spine of a cat. They have opinions.",
+    category: "Natural History",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-body-that-grew-a-second-brain.png",
+    publishedAt: "05/27/2026 01:15 PM",
+    description:
+      "The enteric nervous system is not a metaphor — it's a 500-million-year-old intelligence living inside you, and it doesn't need your brain's permission to act.",
+  },
+  {
     slug: "the-informal-economy",
     title: "The Informal Economy",
     subtitle: "Half the world works in an economy that officially doesn't exist",
