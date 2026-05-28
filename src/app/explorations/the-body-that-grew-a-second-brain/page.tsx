@@ -35,6 +35,13 @@ export default function TheBodyThatGrewASecondBrain() {
       wordCount={2455}
       prevSlug="the-informal-economy"
       prevTitle="The Informal Economy"
+    nextSlug="the-tethys-ocean"
+    nextTitle="The Tethys Ocean"
+    nextSubtitle="A love letter to the sea the continents swallowed"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-tethys-ocean.png"
+    nextReadTime="12 min"
     >
       <h2>The Tube That Thinks</h2>
 

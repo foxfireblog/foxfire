@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-tethys-ocean",
+    title: "The Tethys Ocean",
+    subtitle: "A love letter to the sea the continents swallowed",
+    category: "Natural History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-tethys-ocean.png",
+    publishedAt: "05/28/2026 02:10 AM",
+    description:
+      "There was once an ocean older than the Atlantic, wider than the Pacific is now, and the continents ate it alive — but it left its bones everywhere.",
+  },
+  {
     slug: "the-body-that-grew-a-second-brain",
     title: "The Body That Grew a Second Brain",
     subtitle: "There are more neurons in your gut than in the spine of a cat. They have opinions.",
