@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-clockmaker-who-broke-time",
+    title: "The Clockmaker Who Broke Time",
+    subtitle: "John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it.",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-clockmaker-who-broke-time.png",
+    publishedAt: "05/28/2026 02:12 PM",
+    description:
+      "A self-taught carpenter solved the deadliest problem in navigation — and spent fifty years fighting the establishment that refused to believe a working-class man could outthink the heavens.",
+  },
+  {
     slug: "the-tethys-ocean",
     title: "The Tethys Ocean",
     subtitle: "A love letter to the sea the continents swallowed",

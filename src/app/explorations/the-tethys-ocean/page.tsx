@@ -35,6 +35,13 @@ export default function TheTethysOcean() {
       wordCount={2734}
       prevSlug="the-body-that-grew-a-second-brain"
       prevTitle="The Body That Grew a Second Brain"
+    nextSlug="the-clockmaker-who-broke-time"
+    nextTitle="The Clockmaker Who Broke Time"
+    nextSubtitle="John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-clockmaker-who-broke-time.png"
+    nextReadTime="13 min"
     >
       <h2>The Highest Graveyard</h2>
 
