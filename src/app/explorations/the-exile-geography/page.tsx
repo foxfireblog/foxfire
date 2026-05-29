@@ -35,6 +35,13 @@ export default function TheExileGeography() {
       wordCount={3217}
       prevSlug="the-clockmaker-who-broke-time"
       prevTitle="The Clockmaker Who Broke Time"
+    nextSlug="the-debt-that-outlived-the-empire"
+    nextTitle="The Debt That Outlived the Empire"
+    nextSubtitle="How colonized nations were made to pay for the cost of their own conquest &mdash; and kept paying for generations"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-debt-that-outlived-the-empire.png"
+    nextReadTime="12 min"
     >
       <h2>The Cartography of Absence</h2>
 

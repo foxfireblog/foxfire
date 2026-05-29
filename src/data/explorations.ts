@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-debt-that-outlived-the-empire",
+    title: "The Debt That Outlived the Empire",
+    subtitle: "How colonized nations were made to pay for the cost of their own conquest — and kept paying for generations",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-debt-that-outlived-the-empire.png",
+    publishedAt: "05/29/2026 01:33 PM",
+    description:
+      "The strange, enraging story of how empires forced the colonized to finance their own subjugation — and how those debts shaped the modern world.",
+  },
+  {
     slug: "the-exile-geography",
     title: "The Exile Geography",
     subtitle: "On the maps drawn by people who can no longer go home",
