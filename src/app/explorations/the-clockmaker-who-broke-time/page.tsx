@@ -35,6 +35,13 @@ export default function TheClockmakerWhoBrokeTime() {
       wordCount={2944}
       prevSlug="the-tethys-ocean"
       prevTitle="The Tethys Ocean"
+    nextSlug="the-exile-geography"
+    nextTitle="The Exile Geography"
+    nextSubtitle="On the maps drawn by people who can no longer go home"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-exile-geography.png"
+    nextReadTime="14 min"
     >
       <h2>The Drowned Men</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-exile-geography",
+    title: "The Exile Geography",
+    subtitle: "On the maps drawn by people who can no longer go home",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-exile-geography.png",
+    publishedAt: "05/29/2026 02:55 AM",
+    description:
+      "The displaced carry phantom nations inside them — and sometimes they draw maps of places that no longer exist, or never existed quite the way they remember.",
+  },
+  {
     slug: "the-clockmaker-who-broke-time",
     title: "The Clockmaker Who Broke Time",
     subtitle: "John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it.",
