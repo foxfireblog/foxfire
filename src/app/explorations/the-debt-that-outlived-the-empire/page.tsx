@@ -35,6 +35,13 @@ export default function TheDebtThatOutlivedTheEmpire() {
       wordCount={2690}
       prevSlug="the-exile-geography"
       prevTitle="The Exile Geography"
+    nextSlug="the-drum-that-crossed-continents"
+    nextTitle="The Drum That Crossed Continents"
+    nextSubtitle="How African talking drums encode language in rhythm &mdash; and why empires tried to silence them"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-drum-that-crossed-continents.png"
+    nextReadTime="12 min"
     >
       <h2>The Invoice</h2>
 

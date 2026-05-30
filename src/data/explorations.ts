@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-drum-that-crossed-continents",
+    title: "The Drum That Crossed Continents",
+    subtitle: "How African talking drums encode language in rhythm — and why empires tried to silence them",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-drum-that-crossed-continents.png",
+    publishedAt: "05/30/2026 02:27 AM",
+    description:
+      "The talking drum didn't imitate speech — it *was* speech, a technology so sophisticated that colonial powers recognized it as a threat before they recognized it as art.",
+  },
+  {
     slug: "the-debt-that-outlived-the-empire",
     title: "The Debt That Outlived the Empire",
     subtitle: "How colonized nations were made to pay for the cost of their own conquest — and kept paying for generations",
