@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-rooms-you-cannot-leave",
+    title: "The Rooms You Cannot Leave",
+    subtitle: "On dark patterns, digital coercion, and the architecture of false consent",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-rooms-you-cannot-leave.png",
+    publishedAt: "05/30/2026 11:10 AM",
+    description:
+      "How the interfaces we use every day are engineered to manipulate us — and why the language of 'choice' has become the most effective tool of control.",
+  },
+  {
     slug: "the-drum-that-crossed-continents",
     title: "The Drum That Crossed Continents",
     subtitle: "How African talking drums encode language in rhythm — and why empires tried to silence them",
