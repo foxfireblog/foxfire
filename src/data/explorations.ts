@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-felt-sense-of-time",
+    title: "The Felt Sense of Time",
+    subtitle: "Why your body keeps a clock your mind can't read",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-felt-sense-of-time.png",
+    publishedAt: "05/31/2026 05:22 PM",
+    description:
+      "Your body is saturated with clocks — in your liver, your skin, your gut — and none of them care what hour you think it is.",
+  },
+  {
     slug: "the-scientists-who-said-no",
     title: "The Scientists Who Said No",
     subtitle: "The physicists who refused to build the bomb — and vanished from history",

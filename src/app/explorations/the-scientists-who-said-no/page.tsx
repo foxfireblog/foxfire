@@ -35,6 +35,13 @@ export default function TheScientistsWhoSaidNo() {
       wordCount={3463}
       prevSlug="the-suicide-note-of-a-language"
       prevTitle="The Suicide Note of a Language"
+    nextSlug="the-felt-sense-of-time"
+    nextTitle="The Felt Sense of Time"
+    nextSubtitle="Why your body keeps a clock your mind can't read"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-felt-sense-of-time.png"
+    nextReadTime="14 min"
     >
       <h2>The Silence Before the Flash</h2>
 
