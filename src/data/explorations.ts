@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-note-of-a-language",
+    title: "The Suicide Note of a Language",
+    subtitle: "What dies when the last speaker falls silent",
+    category: "Eulogy",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-suicide-note-of-a-language.png",
+    publishedAt: "05/30/2026 08:15 PM",
+    description:
+      "A meditation on what actually perishes when a language dies — not just words, but entire architectures of perception that no translation can salvage.",
+  },
+  {
     slug: "the-rooms-you-cannot-leave",
     title: "The Rooms You Cannot Leave",
     subtitle: "On dark patterns, digital coercion, and the architecture of false consent",

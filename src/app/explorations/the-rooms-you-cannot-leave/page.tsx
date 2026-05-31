@@ -35,6 +35,13 @@ export default function TheRoomsYouCannotLeave() {
       wordCount={2908}
       prevSlug="the-drum-that-crossed-continents"
       prevTitle="The Drum That Crossed Continents"
+    nextSlug="the-suicide-note-of-a-language"
+    nextTitle="The Suicide Note of a Language"
+    nextSubtitle="What dies when the last speaker falls silent"
+    nextCategory="Eulogy"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-suicide-note-of-a-language.png"
+    nextReadTime="14 min"
     >
       <h2>The Door That Isn&apos;t There</h2>
 
