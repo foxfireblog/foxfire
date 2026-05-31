@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scientists-who-said-no",
+    title: "The Scientists Who Said No",
+    subtitle: "The physicists who refused to build the bomb — and vanished from history",
+    category: "Essay",
+    color: "indigo",
+    readTime: "15 min",
+    image: "/images/explorations/the-scientists-who-said-no.png",
+    publishedAt: "05/31/2026 06:57 AM",
+    description:
+      "Before Oppenheimer became death, other physicists saw what was coming and chose a different path — one that cost them everything except their conscience.",
+  },
+  {
     slug: "the-suicide-note-of-a-language",
     title: "The Suicide Note of a Language",
     subtitle: "What dies when the last speaker falls silent",

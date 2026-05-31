@@ -35,6 +35,13 @@ export default function TheSuicideNoteOfALanguage() {
       wordCount={3167}
       prevSlug="the-rooms-you-cannot-leave"
       prevTitle="The Rooms You Cannot Leave"
+    nextSlug="the-scientists-who-said-no"
+    nextTitle="The Scientists Who Said No"
+    nextSubtitle="The physicists who refused to build the bomb &mdash; and vanished from history"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-scientists-who-said-no.png"
+    nextReadTime="15 min"
     >
       <h2>A Sound That Calls People from Afar</h2>
 
