@@ -35,6 +35,13 @@ export default function TheHawalaNetwork() {
       wordCount={2934}
       prevSlug="the-felt-sense-of-time"
       prevTitle="The Felt Sense of Time"
+    nextSlug="the-confession-of-george-psalmanazar"
+    nextTitle="The Confession of George Psalmanazar"
+    nextSubtitle="The man who invented an entire civilization &mdash; and spent fifty years living inside the lie"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-confession-of-george-psalmanazar.png"
+    nextReadTime="13 min"
     >
       <h2>The Invisible Ledger</h2>
 

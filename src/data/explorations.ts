@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-confession-of-george-psalmanazar",
+    title: "The Confession of George Psalmanazar",
+    subtitle: "The man who invented an entire civilization — and spent fifty years living inside the lie",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-confession-of-george-psalmanazar.png",
+    publishedAt: "06/01/2026 03:29 PM",
+    description:
+      "A French vagabond invented a fake civilization, fooled all of London, and then spent the rest of his life trying to become a real person.",
+  },
+  {
     slug: "the-hawala-network",
     title: "The Hawala Network",
     subtitle: "The oldest banking system in the world runs on nothing but trust",
