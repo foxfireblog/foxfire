@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-hawala-network",
+    title: "The Hawala Network",
+    subtitle: "The oldest banking system in the world runs on nothing but trust",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-hawala-network.png",
+    publishedAt: "06/01/2026 02:51 AM",
+    description:
+      "An ancient system moves billions across borders without transferring a single coin — held together by nothing more than a promise between strangers.",
+  },
+  {
     slug: "the-felt-sense-of-time",
     title: "The Felt Sense of Time",
     subtitle: "Why your body keeps a clock your mind can't read",
