@@ -35,6 +35,13 @@ export default function TheRedMercuryHoax() {
       wordCount={2647}
       prevSlug="the-confession-of-george-psalmanazar"
       prevTitle="The Confession of George Psalmanazar"
+    nextSlug="the-radio-sky"
+    nextTitle="The Radio Sky"
+    nextSubtitle="There is a second sky above the visible one, and it is screaming"
+    nextCategory="Natural History"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-radio-sky.png"
+    nextReadTime="13 min"
     >
       <h2>The Substance That Wasn&apos;t There</h2>
 

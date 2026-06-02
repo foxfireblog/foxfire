@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-radio-sky",
+    title: "The Radio Sky",
+    subtitle: "There is a second sky above the visible one, and it is screaming",
+    category: "Natural History",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-radio-sky.png",
+    publishedAt: "06/02/2026 02:24 PM",
+    description:
+      "Above the sky you see is another sky — one made of radio waves, full of ancient explosions, singing pulsars, and the afterglow of creation itself — and we stumbled into it by accident.",
+  },
+  {
     slug: "the-red-mercury-hoax",
     title: "The Red Mercury Hoax",
     subtitle: "The phantom superweapon that fooled arms dealers, terrorists, and governments for decades",
