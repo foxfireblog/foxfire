@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-red-mercury-hoax",
+    title: "The Red Mercury Hoax",
+    subtitle: "The phantom superweapon that fooled arms dealers, terrorists, and governments for decades",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-red-mercury-hoax.png",
+    publishedAt: "06/02/2026 03:09 AM",
+    description:
+      "A substance that never existed became one of the most dangerous things in the world — not because of what it could do, but because of what people believed it could do.",
+  },
+  {
     slug: "the-confession-of-george-psalmanazar",
     title: "The Confession of George Psalmanazar",
     subtitle: "The man who invented an entire civilization — and spent fifty years living inside the lie",
