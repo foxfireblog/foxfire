@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "project-a119",
+    title: "Project A119",
+    subtitle: "The secret plan to nuke the Moon, and the young astronomer who almost revealed it",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/project-a119.png",
+    publishedAt: "06/03/2026 03:29 AM",
+    description:
+      "In 1958, the United States Air Force developed a classified plan to detonate a nuclear weapon on the Moon — a cosmic show of force that a 24-year-old Carl Sagan nearly exposed.",
+  },
+  {
     slug: "the-radio-sky",
     title: "The Radio Sky",
     subtitle: "There is a second sky above the visible one, and it is screaming",

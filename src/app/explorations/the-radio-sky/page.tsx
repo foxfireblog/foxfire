@@ -35,6 +35,13 @@ export default function TheRadioSky() {
       wordCount={3100}
       prevSlug="the-red-mercury-hoax"
       prevTitle="The Red Mercury Hoax"
+    nextSlug="project-a119"
+    nextTitle="Project A119"
+    nextSubtitle="The secret plan to nuke the Moon, and the young astronomer who almost revealed it"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/project-a119.png"
+    nextReadTime="13 min"
     >
       <h2>The Hiss</h2>
 
