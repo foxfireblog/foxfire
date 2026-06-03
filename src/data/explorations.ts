@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-gut-that-dreams",
+    title: "The Gut That Dreams",
+    subtitle: "On the hundred million neurons you never think with",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-gut-that-dreams.png",
+    publishedAt: "06/03/2026 02:29 PM",
+    description:
+      "Your intestines contain more neurons than a cat's brain — a shadow nervous system with its own logic, its own memory, and possibly its own dim form of experience.",
+  },
+  {
     slug: "project-a119",
     title: "Project A119",
     subtitle: "The secret plan to nuke the Moon, and the young astronomer who almost revealed it",
