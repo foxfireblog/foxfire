@@ -4494,5 +4494,25 @@
     "description": "At 00:53 GMT on September 22, 1979, an aging American surveillance satellite called Vela 6911 detected a distinctive double flash over the South Atlantic — the unmistakable signature of a nuclear detonation. No government claimed the test. No official explanation has ever been confirmed. Forty-five years later, the most probable answer remains one of the most sensitive secrets in Cold War history.",
     "imagePrompt": "A lone satellite drifting over a vast dark ocean, a ghostly double pulse of white light reflecting off black water far below, the curvature of earth visible at the edges, cold and silent and watchful",
     "essayPrompt": "Write a deep, investigative essay about the Vela Incident of September 22, 1979 — the unacknowledged nuclear test detected by an American satellite over the South Atlantic near the Prince Edward Islands. Explore the Vela satellite programme and its 'double flash' detection method, the Carter administration's hasty panel that tried to explain it away as a meteoroid, the hydroacoustic and ionospheric evidence that contradicted the official dismissal, and the overwhelming circumstantial case pointing to a joint South African-Israeli nuclear test. Examine what the incident reveals about the geopolitics of nuclear secrecy — why the United States may have had strategic reasons to look away, the apartheid-era South Africa's weapons programme, and Israel's policy of nuclear ambiguity. Reflect on the peculiar epistemology of an event that almost certainly happened but officially does not exist, and what it means for history when powerful nations agree to share a blind spot."
+  },
+  {
+    "slug": "the-vagus-nerve-and-the-self",
+    "title": "The Wanderer",
+    "subtitle": "The vagus nerve doesn't just connect your brain to your body. It may be the biological substrate of the self.",
+    "category": "Science",
+    "color": "violet",
+    "description": "Running from brainstem to abdomen, the vagus nerve — named for its wandering path — carries more signals upward than downward. Your brain is less in command than it thinks. Explore the science of polyvagal theory, the mystery of why severing this nerve can cure epilepsy, and the radical idea that consciousness might be less a property of the skull and more a whole-body negotiation.",
+    "imagePrompt": "A luminous anatomical illustration in the style of 18th century natural philosophy, showing the vagus nerve as a glowing branching river system descending from a stylized brain through chest and abdomen, rendered in violet and silver ink on aged parchment, intimate and strange",
+    "essayPrompt": "Write a deeply curious essay about the vagus nerve — its anatomy, its evolutionary history, and the radical implications of polyvagal theory. Explore what it means that 80% of vagal fibers carry signals FROM the body TO the brain, not the reverse. Discuss the historical moment when scientists realized the nerve was doing far more than anyone imagined, and what this means for our understanding of emotion, trauma, consciousness, and the location of the self. Use vivid metaphor and philosophical depth."
+  },
+  {
+    "slug": "the-mycobiome",
+    "title": "The Fungus Among Us",
+    "subtitle": "Your body is home to hundreds of species of fungi. We have almost no idea what they're doing.",
+    "category": "Science",
+    "color": "amber",
+    "description": "While the gut microbiome became a household concept, its fungal counterpart — the mycobiome — remained almost entirely unstudied. Fungi live in your gut, your lungs, your skin. Some are ancient passengers that co-evolved with hominids. Others arrived with the invention of bread. A few may be driving diseases from Crohn's to cancer in ways we are only beginning to map. This is the story of the kingdom we forgot to look for inside ourselves.",
+    "imagePrompt": "Microscopic fungi rendered as an otherworldly forest inside a human silhouette, delicate branching hyphae glowing amber and gold against deep darkness, scientific illustration meets dreamlike botanical art, macro photography aesthetic with bioluminescent quality",
+    "essayPrompt": "Write a rich, exploratory essay about the human mycobiome — the fungi that live within us. Begin with the historical neglect of fungi in microbiome research and why bacteria captured all the attention. Trace what early researchers found when they finally looked: ancient fungal lineages, species that only exist inside humans, and startling correlations with inflammatory disease. Explore the philosophical strangeness of being a habitat, and what it means that our internal ecology includes a kingdom we associate with rot, fermentation, and the forest floor. Balance cutting-edge science with genuine wonder."
   }
 ]
