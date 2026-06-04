@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-saffron-wars",
+    title: "The Saffron Wars",
+    subtitle: "How the world's most expensive spice built empires of fraud, devotion, and paranoia",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-saffron-wars.png",
+    publishedAt: "06/04/2026 02:44 AM",
+    description:
+      "The history of saffron is a history of obsession — a spice so valuable it inspired its own crimes, its own executioners, and its own theology.",
+  },
+  {
     slug: "the-gut-that-dreams",
     title: "The Gut That Dreams",
     subtitle: "On the hundred million neurons you never think with",

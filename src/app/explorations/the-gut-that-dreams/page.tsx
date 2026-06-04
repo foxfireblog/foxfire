@@ -35,6 +35,13 @@ export default function TheGutThatDreams() {
       wordCount={3056}
       prevSlug="project-a119"
       prevTitle="Project A119"
+    nextSlug="the-saffron-wars"
+    nextTitle="The Saffron Wars"
+    nextSubtitle="How the world's most expensive spice built empires of fraud, devotion, and paranoia"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-saffron-wars.png"
+    nextReadTime="12 min"
     >
       <h2>The Window in the Stomach</h2>
 
