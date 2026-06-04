@@ -35,6 +35,13 @@ export default function TheSaffronWars() {
       wordCount={2868}
       prevSlug="the-gut-that-dreams"
       prevTitle="The Gut That Dreams"
+    nextSlug="the-cartography-of-pain"
+    nextTitle="The Cartography of Pain"
+    nextSubtitle="How scientists learned to draw what the body feels &mdash; and why the map keeps changing"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-cartography-of-pain.png"
+    nextReadTime="15 min"
     >
       <h2>The Flower That Cannot Escape Us</h2>
 

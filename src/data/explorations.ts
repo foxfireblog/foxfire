@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cartography-of-pain",
+    title: "The Cartography of Pain",
+    subtitle: "How scientists learned to draw what the body feels — and why the map keeps changing",
+    category: "Essay",
+    color: "rose",
+    readTime: "15 min",
+    image: "/images/explorations/the-cartography-of-pain.png",
+    publishedAt: "06/04/2026 01:12 PM",
+    description:
+      "From medieval humors to modern brain scans, humanity has been trying to map pain for centuries — and the territory keeps refusing to hold still.",
+  },
+  {
     slug: "the-saffron-wars",
     title: "The Saffron Wars",
     subtitle: "How the world's most expensive spice built empires of fraud, devotion, and paranoia",
