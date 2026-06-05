@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-typewriter-that-became-a-weapon",
+    title: "The Typewriter That Became a Weapon",
+    subtitle: "How the Soviet state tried to fingerprint every keystroke — and why typography was always political",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-typewriter-that-became-a-weapon.png",
+    publishedAt: "06/05/2026 02:44 AM",
+    description:
+      "The Soviet Union required the registration of every typewriter — because a machine that lets anyone publish is a machine the state must control.",
+  },
+  {
     slug: "the-cartography-of-pain",
     title: "The Cartography of Pain",
     subtitle: "How scientists learned to draw what the body feels — and why the map keeps changing",

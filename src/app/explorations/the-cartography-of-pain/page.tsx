@@ -35,6 +35,13 @@ export default function TheCartographyOfPain() {
       wordCount={3363}
       prevSlug="the-saffron-wars"
       prevTitle="The Saffron Wars"
+    nextSlug="the-typewriter-that-became-a-weapon"
+    nextTitle="The Typewriter That Became a Weapon"
+    nextSubtitle="How the Soviet state tried to fingerprint every keystroke &mdash; and why typography was always political"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-typewriter-that-became-a-weapon.png"
+    nextReadTime="12 min"
     >
       <h2>The Boy with His Foot in the Fire</h2>
 
