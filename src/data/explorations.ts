@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-half-life-of-a-fact",
+    title: "The Half-Life of a Fact",
+    subtitle: "Everything we know is slowly becoming wrong",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-half-life-of-a-fact.png",
+    publishedAt: "06/05/2026 12:46 PM",
+    description:
+      "Scientific knowledge decays at measurable rates — and the implications are stranger than you'd think.",
+  },
+  {
     slug: "the-typewriter-that-became-a-weapon",
     title: "The Typewriter That Became a Weapon",
     subtitle: "How the Soviet state tried to fingerprint every keystroke — and why typography was always political",
