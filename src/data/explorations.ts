@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-price-of-a-name",
+    title: "The Price of a Name",
+    subtitle: "How freed people bought, borrowed, and invented their surnames — and what those names still carry",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-price-of-a-name.png",
+    publishedAt: "06/06/2026 11:52 AM",
+    description:
+      "An exploration of how formerly enslaved people chose their surnames — acts of self-invention that encoded memory, defiance, aspiration, and grief into the most intimate piece of public identity.",
+  },
+  {
     slug: "the-fridtjof-nansen-problem",
     title: "The Fridtjof Nansen Problem",
     subtitle: "What happens when a hero becomes a bureaucrat of mercy?",

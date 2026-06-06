@@ -35,6 +35,13 @@ export default function TheFridtjofNansenProblem() {
       wordCount={2661}
       prevSlug="the-half-life-of-a-fact"
       prevTitle="The Half-Life of a Fact"
+    nextSlug="the-price-of-a-name"
+    nextTitle="The Price of a Name"
+    nextSubtitle="How freed people bought, borrowed, and invented their surnames &mdash; and what those names still carry"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-price-of-a-name.png"
+    nextReadTime="12 min"
     >
       <h2>The Man Who Skied Across Greenland and Then Tried to Ski Across Human Cruelty</h2>
 
