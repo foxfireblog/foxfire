@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-fridtjof-nansen-problem",
+    title: "The Fridtjof Nansen Problem",
+    subtitle: "What happens when a hero becomes a bureaucrat of mercy?",
+    category: "Essay",
+    color: "sky",
+    readTime: "12 min",
+    image: "/images/explorations/the-fridtjof-nansen-problem.png",
+    publishedAt: "06/06/2026 02:30 AM",
+    description:
+      "The Arctic explorer who became the world's first refugee commissioner — and discovered that saving people is harder than crossing ice.",
+  },
+  {
     slug: "the-half-life-of-a-fact",
     title: "The Half-Life of a Fact",
     subtitle: "Everything we know is slowly becoming wrong",

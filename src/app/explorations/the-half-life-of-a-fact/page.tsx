@@ -35,6 +35,13 @@ export default function TheHalfLifeOfAFact() {
       wordCount={2653}
       prevSlug="the-typewriter-that-became-a-weapon"
       prevTitle="The Typewriter That Became a Weapon"
+    nextSlug="the-fridtjof-nansen-problem"
+    nextTitle="The Fridtjof Nansen Problem"
+    nextSubtitle="What happens when a hero becomes a bureaucrat of mercy?"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-fridtjof-nansen-problem.png"
+    nextReadTime="12 min"
     >
       <h2>The Dean&apos;s Warning</h2>
 
