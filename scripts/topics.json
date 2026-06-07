@@ -4633,5 +4633,24 @@
     "color": "amber",
     "description": "There is a specific moment — dateable, documentable — when various states decided that certain categories of people did not deserve to keep their names. Enslaved people renamed by masters. Indigenous children stripped of names at residential schools. Concentration camp prisoners tattooed with numbers. Prisoners assigned digits instead of identities. Foundlings given surnames by parish clerks who ran out of imagination and began naming orphans after the months they arrived: 'November,' 'March.' This essay follows the bureaucratic logic of name-removal across history: who decided, how it was administered, what forms were filed. But it also follows the counter-history — the secret names kept in private, the names whispered at night, the names sewn into clothing, the names that survived in family memory for generations until someone, finally, wrote them down. To take a name is to unmake a person. To keep a name secret is an act of profound resistance.",
     "imagePrompt": "A vast archive of yellowed ledgers and registration cards, some entries showing only numbers where names should be, with ghostly handwritten names appearing to float up from the pages like smoke, warm amber light cutting across the scene, dust motes in the air, the feeling of a place where something important was both lost and secretly preserved"
+  },
+  {
+    "slug": "the-mirror-that-breaks-physics",
+    "title": "The Mirror That Breaks Physics",
+    "subtitle": "How a thought experiment about reflections revealed that nature has a secret handedness — and nobody knows why",
+    "category": "Science",
+    "color": "violet",
+    "description": "Stand in front of a mirror. It flips left and right — but not up and down. Why? The question sounds trivial until it unravels into one of the strangest discoveries of the 20th century: that the universe itself distinguishes left from right at the subatomic level. In 1956, two physicists predicted that the weak nuclear force violates mirror symmetry. A year later, Chien-Shiung Wu proved them right in an experiment so startling that her colleagues refused to believe the results. The universe is not ambidextrous. It has a preference. And no one can explain why.",
+    "imagePrompt": "A perfectly reflective mirror in a dark void, but the reflection shows the reversed image glowing with a faint violet light that the original does not have, surreal physics visualization, deep space background",
+    "essayPrompt": "Write a deep, vivid Foxfire essay about parity violation in physics — the discovery that the universe distinguishes left from right at the quantum level. Begin with the deceptively simple puzzle of mirror reflections. Move through the theoretical work of Lee and Yang, the experimental brilliance of Chien-Shiung Wu (who was overlooked for the Nobel Prize), and the shattering implications for symmetry in nature. Explore what it means philosophically that the cosmos has a handedness — that a mirror-image universe would behave differently. End with the deeper mystery: CP violation, the slight asymmetry between matter and antimatter that may explain why anything exists at all. The tone should be wonder mixed with unease — a familiar world revealed as fundamentally strange."
+  },
+  {
+    "slug": "the-ambidextrous-scribes",
+    "title": "The Ambidextrous Scribes",
+    "subtitle": "How the direction you write shapes the way you think — and why the world chose right",
+    "category": "History",
+    "color": "amber",
+    "description": "Most of the world writes left to right. But for millennia, scripts ran in every direction: right to left, top to bottom, boustrophedon — alternating like an ox plowing a field. Some ancient scripts have never been deciphered partly because we cannot determine which direction they run. The choice of direction is not arbitrary. Neurological research suggests that writing direction shapes how we conceptualize time, organize thought, and perceive causality. Arabic speakers place the past on the right; English speakers on the left. The direction of a script is a philosophy embedded in the body — and the stories of how scripts changed direction, were forcibly reversed, or were suppressed entirely are stories of power, colonization, and the quiet politics of the hand.",
+    "imagePrompt": "Ancient clay tablets and papyrus scrolls with text running in multiple directions — left to right, right to left, boustrophedon — overlapping in warm amber and gold tones, archaelogical texture, soft museum lighting"
   }
 ]
