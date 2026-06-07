@@ -35,6 +35,13 @@ export default function ThePortThatInventedTheWorld() {
       wordCount={2881}
       prevSlug="the-left-hand-of-the-universe"
       prevTitle="The Left Hand of the Universe"
+    nextSlug="the-sabotage-of-the-wooden-shoe"
+    nextTitle="The Sabotage of the Wooden Shoe"
+    nextSubtitle="How workers invented a word &mdash; and a weapon &mdash; that still frightens power"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-sabotage-of-the-wooden-shoe.png"
+    nextReadTime="12 min"
     >
       <h2>The Waiting</h2>
 

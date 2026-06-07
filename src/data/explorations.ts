@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-sabotage-of-the-wooden-shoe",
+    title: "The Sabotage of the Wooden Shoe",
+    subtitle: "How workers invented a word — and a weapon — that still frightens power",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-sabotage-of-the-wooden-shoe.png",
+    publishedAt: "06/07/2026 05:29 PM",
+    description:
+      "The surprising etymology of 'sabotage' reveals a history of resistance that powerful institutions have spent centuries trying to make unthinkable.",
+  },
+  {
     slug: "the-port-that-invented-the-world",
     title: "The Port That Invented the World",
     subtitle: "How a small metal box dissolved the boundaries between everywhere and nowhere",
