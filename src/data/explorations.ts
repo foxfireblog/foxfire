@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-port-that-invented-the-world",
+    title: "The Port That Invented the World",
+    subtitle: "How a small metal box dissolved the boundaries between everywhere and nowhere",
+    category: "Essay",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-port-that-invented-the-world.png",
+    publishedAt: "06/07/2026 07:07 AM",
+    description:
+      "The shipping container didn't just change logistics — it unmade cities, dissolved unions, and quietly restructured the entire planet around a single standardized box.",
+  },
+  {
     slug: "the-left-hand-of-the-universe",
     title: "The Left Hand of the Universe",
     subtitle: "Why life chose one direction and never looked back",
