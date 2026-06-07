@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-left-hand-of-the-universe",
+    title: "The Left Hand of the Universe",
+    subtitle: "Why life chose one direction and never looked back",
+    category: "Essay",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-left-hand-of-the-universe.png",
+    publishedAt: "06/06/2026 08:39 PM",
+    description:
+      "Every amino acid in your body, every sugar in your DNA, turns the same way — and nobody knows why.",
+  },
+  {
     slug: "the-price-of-a-name",
     title: "The Price of a Name",
     subtitle: "How freed people bought, borrowed, and invented their surnames — and what those names still carry",
