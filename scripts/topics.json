@@ -4652,5 +4652,25 @@
     "color": "amber",
     "description": "Most of the world writes left to right. But for millennia, scripts ran in every direction: right to left, top to bottom, boustrophedon — alternating like an ox plowing a field. Some ancient scripts have never been deciphered partly because we cannot determine which direction they run. The choice of direction is not arbitrary. Neurological research suggests that writing direction shapes how we conceptualize time, organize thought, and perceive causality. Arabic speakers place the past on the right; English speakers on the left. The direction of a script is a philosophy embedded in the body — and the stories of how scripts changed direction, were forcibly reversed, or were suppressed entirely are stories of power, colonization, and the quiet politics of the hand.",
     "imagePrompt": "Ancient clay tablets and papyrus scrolls with text running in multiple directions — left to right, right to left, boustrophedon — overlapping in warm amber and gold tones, archaelogical texture, soft museum lighting"
+  },
+  {
+    "slug": "the-coffee-house-that-became-the-stock-exchange",
+    "title": "The Coffee House That Became the Stock Exchange",
+    "subtitle": "How a single room full of gossip and caffeine invented modern capitalism",
+    "category": "History",
+    "color": "amber",
+    "description": "In 1686, a man named Edward Lloyd opened a coffee house near the Thames where sailors, merchants, and shipowners came to drink, argue, and trade rumors. Within decades, the informal gossip of that room had crystallized into Lloyd's of London, the insurance market that underwrote global trade. The coffee house was not an accident — it was the architecture of a new kind of knowledge economy, where information was the currency and trust was the commodity. This is the story of how a wooden chair in a smoky room became the nervous system of empire.",
+    "imagePrompt": "A crowded 17th century London coffee house interior, men in wigs and coats clustered around tables covered in papers and ledgers, candles flickering, ships visible through a foggy window, warm amber light, oil painting style",
+    "essayPrompt": "Write a deep, curious essay about Edward Lloyd's coffee house and its transformation into Lloyd's of London. Explore how informal information networks became formal financial institutions, how the coffee house as a social technology enabled capitalism, and what it means that the global insurance market — which still underwrites most of the world's ships today — emerged from gossip. Examine the broader pattern of how physical gathering places crystallize into enduring institutions, and what we lose when those spaces disappear. Use vivid historical detail and unexpected angles."
+  },
+  {
+    "slug": "the-city-that-was-built-to-be-destroyed",
+    "title": "The City That Was Built to Be Destroyed",
+    "subtitle": "Portobello was sacked so many times it became the template for every port city that came after",
+    "category": "History",
+    "color": "teal",
+    "description": "Portobelo, on the Caribbean coast of Panama, was for two centuries the single most important port in the Spanish Empire — the bottleneck through which nearly all of South America's silver passed on its way to Europe. It was also sacked, burned, and ransacked repeatedly by pirates, privateers, and admirals. Francis Drake died trying to take it. Henry Morgan took it in a single day. Edward Vernon destroyed it with six ships and became a British national hero. What made Portobelo extraordinary was not its resilience but its indispensability: the silver always needed to move, so the city was always rebuilt. In its cycles of destruction and resurrection, it became the template for every extractive port city — places not built to last, but to funnel.",
+    "imagePrompt": "A dramatic 17th century painting of a Caribbean harbor under attack, Spanish colonial fortifications with cannon smoke, silver-laden galleons in the bay, tropical jungle rising behind stone walls, stormy sky, dramatic chiaroscuro lighting",
+    "essayPrompt": "Write a deep, curious essay about Portobelo, Panama — the Spanish Empire's most crucial and most-destroyed port. Explore the economics of chokepoints: why a single bottleneck can be so valuable that it's worth rebuilding after every catastrophe. Examine what the repeated destruction and resurrection of Portobelo tells us about extractive empire — that the infrastructure of extraction is never really about the place, only about the flow. Trace the silver route from Potosí to Seville and ask what it meant that an entire city existed only as a funnel. Connect this to broader patterns of port cities as sacrifice zones, and what Portobelo's ruins tell us now."
   }
 ]
