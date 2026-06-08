@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-smell-that-preceded-electricity",
+    title: "The Smell That Preceded Electricity",
+    subtitle: "On petrichor, ozone, and the scents that arrive before the world changes",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-smell-that-preceded-electricity.png",
+    publishedAt: "06/08/2026 01:44 PM",
+    description:
+      "The strange chemistry of scents that arrive just before transformation — ozone before lightning, petrichor before rain, and what it means that we can smell the future but never quite name it.",
+  },
+  {
     slug: "the-cadaver-synod",
     title: "The Cadaver Synod",
     subtitle: "On the trial of Pope Formosus, and what it means to prosecute the dead",
