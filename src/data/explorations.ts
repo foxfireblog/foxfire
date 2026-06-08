@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cadaver-synod",
+    title: "The Cadaver Synod",
+    subtitle: "On the trial of Pope Formosus, and what it means to prosecute the dead",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-cadaver-synod.png",
+    publishedAt: "06/08/2026 03:06 AM",
+    description:
+      "In 897 AD, a dead pope was exhumed, dressed in vestments, propped on a throne, and put on trial — a spectacle that reveals something eternal about how power treats the bodies it no longer needs.",
+  },
+  {
     slug: "the-sabotage-of-the-wooden-shoe",
     title: "The Sabotage of the Wooden Shoe",
     subtitle: "How workers invented a word — and a weapon — that still frightens power",

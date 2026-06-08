@@ -35,6 +35,13 @@ export default function TheSabotageOfTheWoodenShoe() {
       wordCount={2668}
       prevSlug="the-port-that-invented-the-world"
       prevTitle="The Port That Invented the World"
+    nextSlug="the-cadaver-synod"
+    nextTitle="The Cadaver Synod"
+    nextSubtitle="On the trial of Pope Formosus, and what it means to prosecute the dead"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-cadaver-synod.png"
+    nextReadTime="12 min"
     >
       <h2>The Clomping of Heavy Shoes</h2>
 
