@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-ate-everything",
+    title: "The Man Who Ate Everything",
+    subtitle: "William Buckland tasted his way through the animal kingdom, licked cathedral floors, and accidentally helped invent geology",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-man-who-ate-everything.png",
+    publishedAt: "06/09/2026 02:24 AM",
+    description:
+      "The Victorian geologist who believed you could understand creation by consuming it — and whose appetite led him from dinosaur bones to the embalmed heart of a king.",
+  },
+  {
     slug: "the-smell-that-preceded-electricity",
     title: "The Smell That Preceded Electricity",
     subtitle: "On petrichor, ozone, and the scents that arrive before the world changes",

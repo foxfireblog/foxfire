@@ -35,6 +35,13 @@ export default function TheSmellThatPrecededElectricity() {
       wordCount={2668}
       prevSlug="the-cadaver-synod"
       prevTitle="The Cadaver Synod"
+    nextSlug="the-man-who-ate-everything"
+    nextTitle="The Man Who Ate Everything"
+    nextSubtitle="William Buckland tasted his way through the animal kingdom, licked cathedral floors, and accidentally helped invent geology"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-man-who-ate-everything.png"
+    nextReadTime="12 min"
     >
       <h2>The Blood of the Stone</h2>
 
