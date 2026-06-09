@@ -4752,5 +4752,25 @@
     "description": "From Mithridates VI, who ate small doses of arsenic to immunize himself against assassination, to Victorian arsenic-eaters in the Austrian Alps who swallowed what should have killed them, to modern researchers studying the limits of human tolerance — this is the story of bodies pushed to the edge of chemistry, and what they taught us about poison, immunity, and the permeable border between medicine and death.",
     "imagePrompt": "A dark apothecary interior, glass vials and bottles in deep greens and blacks, a human figure rendered in cross-section showing luminous veins, botanical illustrations of deadly plants framing the edges, scientific diagrams overlapping with alchemical symbols, lit from within as if the contents of the bottles glow",
     "essayPrompt": "Trace the long, strange history of deliberate poison consumption — from the ancient practice of mithridatism (building immunity through graduated doses, named for King Mithridates VI of Pontus) through the documented arsenic-eaters of 19th-century Styria who claimed it gave them vigor and rosy cheeks, to the genuine science of hormesis (the paradox that small doses of toxins can strengthen organisms). Examine what these practices reveal about the body's adaptive intelligence, how the line between poison and medicine is entirely a matter of dose, and why humans have always been drawn to flirting with substances that could destroy them."
+  },
+  {
+    "slug": "the-memory-that-never-belonged-to-you",
+    "title": "The Memory That Never Belonged to You",
+    "subtitle": "On inherited trauma, epigenetic echoes, and the grief you were born carrying",
+    "category": "Science",
+    "color": "violet",
+    "description": "Children of Holocaust survivors show measurable hormonal changes consistent with trauma responses — without ever experiencing trauma themselves. The science of epigenetic inheritance suggests that catastrophic experience can rewrite the body's stress machinery and pass it, silently, to the next generation. What does it mean to remember something that happened before you existed?",
+    "imagePrompt": "A ghostly double exposure of two human faces — a parent and child — overlapping like transparencies, one fading into the other, rendered in deep violet and silver tones, dreamlike and melancholic",
+    "essayPrompt": "Write a deeply researched, beautifully written long-form essay about epigenetic trauma inheritance — the science showing that catastrophic experience can alter gene expression and pass stress responses to children and grandchildren. Explore the Holocaust survivor studies, the Dutch Hunger Winter research, and the controversies within the field. Weave in the philosophical question of what it means to carry a memory that predates your own consciousness — and whether healing a wound you never received is even possible."
+  },
+  {
+    "slug": "the-palace-that-erased-itself",
+    "title": "The Palace That Erased Itself",
+    "subtitle": "How the Soviet Union systematically edited its own history — and what happens to a people when the past keeps changing",
+    "category": "History",
+    "color": "red",
+    "description": "Stalin's censors didn't just ban books — they altered photographs, revised encyclopedias, and sent letters to subscribers instructing them to cut out pages and paste in replacements. Citizens were expected to update their own memories on command. This is the story of institutionalized forgetting as a technology of power — and what it does to the human mind when official reality keeps shifting beneath your feet.",
+    "imagePrompt": "A vintage Soviet-era photograph where several faces have been carefully cut out with scissors, leaving only neat rectangular voids surrounded by crowds of people, rendered in faded sepia and stark black and white",
+    "essayPrompt": "Write a deeply researched, beautifully written long-form essay about the Soviet practice of historical erasure — the airbrushing of purged officials from photographs, the revised encyclopedias sent with razor blade instructions, the rewritten textbooks. Explore specific cases like Trotsky, Yezhov, and others systematically removed from the visual record. Then go deeper: what does it do to a society's collective memory when the past is officially mutable? Draw on Hannah Arendt, Milan Kundera's 'The Book of Laughter and Forgetting,' and the psychology of gaslighting at a civilizational scale."
   }
 ]
