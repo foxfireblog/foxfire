@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-forgetting-curve",
+    title: "The Forgetting Curve",
+    subtitle: "Hermann Ebbinghaus sat alone in a room and memorized nonsense until he discovered the shape of oblivion",
+    category: "Essay",
+    color: "violet",
+    readTime: "11 min",
+    image: "/images/explorations/the-forgetting-curve.png",
+    publishedAt: "06/09/2026 12:40 PM",
+    description:
+      "In 1885, a psychologist used himself as the only test subject to map exactly how memory dissolves — and accidentally revealed why we are all strangers to our own pasts.",
+  },
+  {
     slug: "the-man-who-ate-everything",
     title: "The Man Who Ate Everything",
     subtitle: "William Buckland tasted his way through the animal kingdom, licked cathedral floors, and accidentally helped invent geology",
