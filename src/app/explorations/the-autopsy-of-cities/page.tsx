@@ -35,6 +35,13 @@ export default function TheAutopsyOfCities() {
       wordCount={3010}
       prevSlug="the-forgetting-curve"
       prevTitle="The Forgetting Curve"
+    nextSlug="the-syntax-of-bees"
+    nextTitle="The Syntax of Bees"
+    nextSubtitle="How a language of dance went unheard for millennia &mdash; and what it means that we almost never listened"
+    nextCategory="Natural History"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-syntax-of-bees.png"
+    nextReadTime="14 min"
     >
       <h2>The Boy Who Fell Into the Earth</h2>
 

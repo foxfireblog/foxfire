@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-syntax-of-bees",
+    title: "The Syntax of Bees",
+    subtitle: "How a language of dance went unheard for millennia — and what it means that we almost never listened",
+    category: "Natural History",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-syntax-of-bees.png",
+    publishedAt: "06/10/2026 01:12 PM",
+    description:
+      "The waggle dance is one of the only known non-human symbolic languages, and for decades after its discovery, most scientists refused to believe it was real.",
+  },
+  {
     slug: "the-autopsy-of-cities",
     title: "The Autopsy of Cities",
     subtitle: "What happens when a city dies — and who decides it's dead",
