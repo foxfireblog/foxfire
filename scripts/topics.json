@@ -4772,5 +4772,25 @@
     "description": "Stalin's censors didn't just ban books — they altered photographs, revised encyclopedias, and sent letters to subscribers instructing them to cut out pages and paste in replacements. Citizens were expected to update their own memories on command. This is the story of institutionalized forgetting as a technology of power — and what it does to the human mind when official reality keeps shifting beneath your feet.",
     "imagePrompt": "A vintage Soviet-era photograph where several faces have been carefully cut out with scissors, leaving only neat rectangular voids surrounded by crowds of people, rendered in faded sepia and stark black and white",
     "essayPrompt": "Write a deeply researched, beautifully written long-form essay about the Soviet practice of historical erasure — the airbrushing of purged officials from photographs, the revised encyclopedias sent with razor blade instructions, the rewritten textbooks. Explore specific cases like Trotsky, Yezhov, and others systematically removed from the visual record. Then go deeper: what does it do to a society's collective memory when the past is officially mutable? Draw on Hannah Arendt, Milan Kundera's 'The Book of Laughter and Forgetting,' and the psychology of gaslighting at a civilizational scale."
+  },
+  {
+    "slug": "the-urban-layer-cake",
+    "title": "The Urban Layer Cake",
+    "subtitle": "Every city is built on the corpse of a previous city",
+    "category": "History",
+    "color": "amber",
+    "description": "Beneath Rome lies another Rome. Beneath that, another still. Archaeologists call it stratigraphy — the reading of time through layers of earth. But in cities, the layers are not just geological. They are social, linguistic, catastrophic. The great fires, the floods, the sieges, the decisions of planners who wanted to erase what came before. This is a meditation on what cities bury and why, and on the strange archaeology of the still-living.",
+    "imagePrompt": "A dramatic cross-section illustration of a city showing multiple historical eras stacked beneath modern streets — Roman columns, medieval foundations, Victorian pipes, modern subway tunnels — rendered in warm amber earth tones with detailed archaeological precision",
+    "essayPrompt": "Write a long-form essay about the archaeological layering of cities — how each urban civilization builds upon and buries the last. Explore specific examples: Constantinople/Istanbul, Rome, London, Mexico City (built on Tenochtitlan). Discuss the concept of stratigraphy as a way of reading urban time, how fires and floods accelerated the layering, how conquerors deliberately entombed the cities of the conquered, and how modern excavations keep disrupting living cities. Touch on the philosophical idea that every city is haunted — not metaphorically, but structurally — by its own previous selves. Include the strange cases where the buried city was superior to the one built above it."
+  },
+  {
+    "slug": "the-census-of-the-dead",
+    "title": "The Census of the Dead",
+    "subtitle": "The long, strange history of counting bodies after catastrophe — and why the numbers always lie",
+    "category": "Politics",
+    "color": "violet",
+    "description": "After every disaster, every war, every epidemic, someone has to count the dead. It sounds like a neutral act. It is never a neutral act. The number of dead is a political instrument — too high and it implies negligence or atrocity, too low and it erases victims. The history of mortality statistics is a history of power: who gets counted, who gets disappeared from the ledger, and why the true number of the dead is almost always unknown for decades. Sometimes forever.",
+    "imagePrompt": "A somber, striking image of open ledger books filled with handwritten names and numbers dissolving into abstraction, with a ghostly silhouette of a crowd behind them, rendered in deep violet and charcoal tones with archival paper textures",
+    "essayPrompt": "Write a long-form essay about the history and politics of counting the dead after mass casualty events — wars, famines, epidemics, genocides. Explore how mortality statistics become contested political territory: the debates over Civil War death counts, the suppression of famine figures in the Soviet Union and China, the wildly varying estimates for the Partition of India, the decades-long revision of Holocaust numbers, the COVID-19 excess mortality debates. Discuss the methodology of 'excess mortality' as a forensic tool for recovering the erased dead. Include the ethical dimension: does counting the dead honor them or reduce them? Why do governments so consistently undercount, and what does it mean when independent researchers produce numbers twice or three times the official figure? End with the philosophical question of whether an accurate count of the dead is even possible — or whether incompleteness is itself a form of testimony."
   }
 ]
