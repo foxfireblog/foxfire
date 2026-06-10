@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-autopsy-of-cities",
+    title: "The Autopsy of Cities",
+    subtitle: "What happens when a city dies — and who decides it's dead",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-autopsy-of-cities.png",
+    publishedAt: "06/10/2026 02:45 AM",
+    description:
+      "Cities die in ways we refuse to name — slowly, then all at once, then in the strange half-life where memory and ruin coexist.",
+  },
+  {
     slug: "the-forgetting-curve",
     title: "The Forgetting Curve",
     subtitle: "Hermann Ebbinghaus sat alone in a room and memorized nonsense until he discovered the shape of oblivion",
