@@ -4812,5 +4812,25 @@
     "description": "In the mountains of coastal California, white-crowned sparrows sing in distinct dialects that end at boundaries invisible to every other species. In the forests of Japan, Bengalese finches pass down song variations like folk traditions, accumulating errors and innovations across generations the way human languages drift. Researchers following individual birds across decades have discovered something almost too strange to accept: birdsong is not just biology. It is culture — and it changes, travels, dies, and is revived in ways that look disturbingly like what happens to human languages.",
     "imagePrompt": "A topographic-style map overlaid with sound wave visualizations and illustrated birds perched at dialect boundaries, combining scientific diagram aesthetics with natural history illustration, soft greens and blues, handwritten notation marks",
     "essayPrompt": "Write a rich, curious essay about birdsong as a form of cultural transmission and geographic mapping. Explore the documented dialect zones of white-crowned sparrows, the folk-tradition-like drift of learned songs in Bengalese finches, and the work of ornithologists who mapped song boundaries that function like invisible territorial lines. Connect this to broader questions about what separates instinct from culture, how non-human traditions live and die, and what it means when a species loses not just its members but its songs — its accumulated acoustic knowledge. Include the strange cases of birds that learn the wrong song, birds that innovate, and the debate over whether this constitutes animal culture."
+  },
+  {
+    "slug": "the-drowned-villages-of-memory",
+    "title": "The Villages That Remember Being Drowned",
+    "subtitle": "When reservoirs run dry, the dead towns resurface — and so do the people who never forgot them",
+    "category": "History",
+    "color": "cyan",
+    "description": "In droughts across Wales, Spain, Brazil, and India, falling water levels have revealed the ghost architectures of deliberately flooded villages — church spires, cobblestones, even legible road signs. But more striking than the ruins are the communities of displaced survivors who maintained rituals, maps, and collective memory of places officially declared gone. This is the anthropology of enforced forgetting, and its stubborn failure.",
+    "imagePrompt": "A half-submerged stone church tower emerging from still reservoir water at dawn, mist drifting across the surface, with the ghostly suggestion of a village street visible just below the waterline, melancholic and beautiful",
+    "essayPrompt": "Write a deep, atmospheric essay about the phenomenon of submerged villages re-emerging during droughts — focusing on the communities of displaced people who kept the memory alive through ritual, informal cartography, and annual remembrance ceremonies. Explore cases from Capel Celyn in Wales, Aceredo in Spain, and Potosí in Brazil. Examine what it means to be homesick for a place that is officially underwater, the politics of what gets flooded (invariably poor, rural, indigenous communities), and the eerie experience of walking streets that were last walked sixty years ago. Connect to broader questions about who has the right to erase a place."
+  },
+  {
+    "slug": "the-infrastructure-of-forgetting",
+    "title": "The Infrastructure of Forgetting",
+    "subtitle": "Dams, highways, and airports were not just built to connect the future — they were designed to bury the past",
+    "category": "Politics",
+    "color": "amber",
+    "description": "Robert Moses bulldozed 250,000 people to build his highways through New York. The Three Gorges Dam displaced 1.3 million. Heathrow Airport sits atop several obliterated villages. The great infrastructure projects of the 20th century were also the great erasure projects — and the communities they destroyed were almost never powerful enough to resist. This is the hidden political grammar of concrete and steel: the question of who decides what must be destroyed so that others may move faster.",
+    "imagePrompt": "An aerial view of a massive highway interchange cutting through the ghostly grid of a former neighborhood, with old building foundations still faintly visible beneath the on-ramps and overpasses, shot in muted grey and amber tones",
+    "essayPrompt": "Write a sweeping, politically charged essay about the way major infrastructure projects — dams, highways, airports, canals — have functioned as instruments of deliberate erasure throughout the 20th century. Examine Robert Moses and the Cross Bronx Expressway, the Three Gorges Dam, the construction of the M11 link road through Leytonstone, and the flooding of Nubian villages for the Aswan Dam. Ask who decides what must be sacrificed for 'progress,' how those decisions map almost perfectly onto existing lines of race and class, and what is lost — not just materially but culturally and mnemonically — when a community is physically destroyed. End with the question of whether any of this was truly inevitable."
   }
 ]
