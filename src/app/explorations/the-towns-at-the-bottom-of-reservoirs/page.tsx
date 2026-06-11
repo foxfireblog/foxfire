@@ -35,6 +35,13 @@ export default function TheTownsAtTheBottomOfReservoirs() {
       wordCount={3072}
       prevSlug="the-syntax-of-bees"
       prevTitle="The Syntax of Bees"
+    nextSlug="the-drowned-forests"
+    nextTitle="The Drowned Forests"
+    nextSubtitle="The world that vanished beneath the waves is still standing"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-drowned-forests.png"
+    nextReadTime="13 min"
     >
       <h2>The Farewell Ball</h2>
 

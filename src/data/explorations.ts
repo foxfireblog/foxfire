@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-drowned-forests",
+    title: "The Drowned Forests",
+    subtitle: "The world that vanished beneath the waves is still standing",
+    category: "Natural History",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-drowned-forests.png",
+    publishedAt: "06/11/2026 01:53 PM",
+    description:
+      "When the ice melted and the seas rose, entire forests were swallowed — and some of them survive, preserved in salt and peat and deep time, waiting to be found.",
+  },
+  {
     slug: "the-towns-at-the-bottom-of-reservoirs",
     title: "The Towns at the Bottom of Reservoirs",
     subtitle: "What it means to drown an inhabited place — and the people who never forgave the water",
