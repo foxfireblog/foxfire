@@ -4832,5 +4832,25 @@
     "description": "Robert Moses bulldozed 250,000 people to build his highways through New York. The Three Gorges Dam displaced 1.3 million. Heathrow Airport sits atop several obliterated villages. The great infrastructure projects of the 20th century were also the great erasure projects — and the communities they destroyed were almost never powerful enough to resist. This is the hidden political grammar of concrete and steel: the question of who decides what must be destroyed so that others may move faster.",
     "imagePrompt": "An aerial view of a massive highway interchange cutting through the ghostly grid of a former neighborhood, with old building foundations still faintly visible beneath the on-ramps and overpasses, shot in muted grey and amber tones",
     "essayPrompt": "Write a sweeping, politically charged essay about the way major infrastructure projects — dams, highways, airports, canals — have functioned as instruments of deliberate erasure throughout the 20th century. Examine Robert Moses and the Cross Bronx Expressway, the Three Gorges Dam, the construction of the M11 link road through Leytonstone, and the flooding of Nubian villages for the Aswan Dam. Ask who decides what must be sacrificed for 'progress,' how those decisions map almost perfectly onto existing lines of race and class, and what is lost — not just materially but culturally and mnemonically — when a community is physically destroyed. End with the question of whether any of this was truly inevitable."
+  },
+  {
+    "slug": "the-ghost-prairies-of-the-deep-sea",
+    "title": "The Ghost Prairies of the Deep Sea",
+    "subtitle": "The drowned grasslands no one knew existed",
+    "category": "Natural History",
+    "color": "teal",
+    "description": "Beneath hundreds of meters of ocean water, stretching across the seafloor off the coasts of every continent, lie vast meadows of seagrass — ancient, largely invisible ecosystems that once covered far more of the Earth's surface. Some are dying in real time, vanishing faster than rainforests. Others were drowned by rising seas thousands of years ago and left their chemical signatures behind in the sediment. These are not marginal habitats. They are the cradles of fisheries, the nurseries of sea turtles, the lungs of shallow coastal waters. Scientists are only now beginning to understand what was lost — and what is still being lost — in the slow drowning of the world's underwater meadows.",
+    "imagePrompt": "Ethereal underwater seagrass meadow in deep blue-green water, shafts of faint light filtering down from far above, ancient and silent, schools of small translucent fish drifting through tall undulating grass blades, a feeling of vast forgotten wilderness, photorealistic",
+    "essayPrompt": "Write a deep, lyrical essay about the seagrass meadows of Earth — their ancient history, their role as drowned landscapes, their ecological importance, and their disappearance. Connect the deep past (post-glacial flooding) to the present crisis. Use the metaphor of the meadow as memory."
+  },
+  {
+    "slug": "the-forests-that-burned-and-became-coal",
+    "title": "The Forests That Burned and Became Coal",
+    "subtitle": "Three hundred million years ago, trees invented wood — and the world couldn't eat it",
+    "category": "Deep History",
+    "color": "amber",
+    "description": "For millions of years during the Carboniferous period, something strange was happening on Earth: trees were dying and not rotting. The first forests had evolved lignin, the tough polymer that makes wood hard, but no bacterium or fungus had yet evolved the enzymes to break it down. So the trees fell, and stayed. They piled up in vast swampy layers, compressing over geological time into the coal seams that would one day power the Industrial Revolution. This is the story of how a biological accident — the invention of a molecule nothing could digest — became locked inside the Earth, and how we have spent the last 300 years burning the consequence of that ancient forest's failure to decompose.",
+    "imagePrompt": "Vast primordial Carboniferous forest, enormous scale club mosses and tree ferns, twilight atmosphere, fallen giant trunks accumulating in dark swampy water, strange alien vegetation unlike anything alive today, moody amber and charcoal tones, dramatic and geological in feeling",
+    "essayPrompt": "Write a sweeping essay about the Carboniferous forests, the invention of lignin, the millions of years when wood couldn't rot, and how that biological accident became coal. Connect the deep past to the Industrial Revolution and climate change. Make the reader feel the strangeness of time."
   }
 ]
