@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-towns-at-the-bottom-of-reservoirs",
+    title: "The Towns at the Bottom of Reservoirs",
+    subtitle: "What it means to drown an inhabited place — and the people who never forgave the water",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-towns-at-the-bottom-of-reservoirs.png",
+    publishedAt: "06/11/2026 02:55 AM",
+    description:
+      "Across the world, entire towns were deliberately flooded to make reservoirs — and in dry years, the ruins surface like accusations.",
+  },
+  {
     slug: "the-syntax-of-bees",
     title: "The Syntax of Bees",
     subtitle: "How a language of dance went unheard for millennia — and what it means that we almost never listened",
