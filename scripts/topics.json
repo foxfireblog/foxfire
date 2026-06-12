@@ -4852,5 +4852,25 @@
     "description": "For millions of years during the Carboniferous period, something strange was happening on Earth: trees were dying and not rotting. The first forests had evolved lignin, the tough polymer that makes wood hard, but no bacterium or fungus had yet evolved the enzymes to break it down. So the trees fell, and stayed. They piled up in vast swampy layers, compressing over geological time into the coal seams that would one day power the Industrial Revolution. This is the story of how a biological accident — the invention of a molecule nothing could digest — became locked inside the Earth, and how we have spent the last 300 years burning the consequence of that ancient forest's failure to decompose.",
     "imagePrompt": "Vast primordial Carboniferous forest, enormous scale club mosses and tree ferns, twilight atmosphere, fallen giant trunks accumulating in dark swampy water, strange alien vegetation unlike anything alive today, moody amber and charcoal tones, dramatic and geological in feeling",
     "essayPrompt": "Write a sweeping essay about the Carboniferous forests, the invention of lignin, the millions of years when wood couldn't rot, and how that biological accident became coal. Connect the deep past to the Industrial Revolution and climate change. Make the reader feel the strangeness of time."
+  },
+  {
+    "slug": "the-passenger-pigeon-and-the-market",
+    "title": "Three Billion Birds",
+    "subtitle": "How the passenger pigeon went from the most abundant creature in North America to absolute zero in forty years — and what we chose not to see",
+    "category": "Natural History",
+    "color": "rose",
+    "description": "In the early 1800s, passenger pigeon flocks darkened the sky for days at a time. John James Audubon described a migration that blocked the sun for three consecutive days over Kentucky. By 1914, the last one died alone in the Cincinnati Zoo. This is not a story about ignorance. It is a story about what people knew, what they sold, what they ate, and what happened when a seemingly infinite thing reached zero.",
+    "imagePrompt": "A vast flock of passenger pigeons filling a 19th century American sky, so dense the light is dimmed, over a woodland where hunters with nets and guns stand below, painterly and melancholic, warm amber tones turning to shadow",
+    "essayPrompt": "Write a deep, literary essay about the extinction of the passenger pigeon — exploring the economic machinery of its destruction, the witnesses who documented it happening in real time and were ignored, the peculiar human psychology that treats abundance as infinity, and what Martha (the last passenger pigeon) represents as an object of grief and warning. Include the specific mechanics of commercial pigeon hunting, the telegraph networks used to track flocks, and the moment biologists realized too late that the bird may have required vast collective numbers simply to breed successfully."
+  },
+  {
+    "slug": "the-bone-collectors-of-the-plains",
+    "title": "The Bone Collectors",
+    "subtitle": "After the buffalo were slaughtered, someone had to clean the plains — and what they built from thirty million skeletons",
+    "category": "Hidden History",
+    "color": "amber",
+    "description": "Between 1870 and 1890, an estimated thirty to sixty million bison were reduced to fewer than a thousand animals. What followed the killing was an industry almost no one remembers: the bone trade. Thousands of settlers, many of them ruined homesteaders, fanned out across the Great Plains collecting the bleached skeletons of the slaughtered herds. The bones were ground into fertilizer and refined sugar. The economy of extermination had an afterlife measured in tons.",
+    "imagePrompt": "An enormous pile of bison skulls stretching to the horizon on the Great Plains, a lone figure standing at its base for scale, black and white photograph aesthetic with sepia toning, vast empty sky, haunting and monumental",
+    "essayPrompt": "Write a profound, investigative essay about the bison bone trade of the American Great Plains — the deliberate military-commercial strategy of exterminating the herds to destroy Indigenous food sovereignty, the vast secondary economy of bone collection that followed, what the bones were used for (fertilizer, bone char for sugar refining, fine bone china), who did the collecting and why, and the specific photographs of bone mountains that documented the industrial scale of what happened. Explore how the erasure of the bison and the near-erasure of Plains peoples were explicitly linked by U.S. Army generals, and what recovery has and has not meant."
   }
 ]
