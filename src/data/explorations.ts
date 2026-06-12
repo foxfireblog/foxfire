@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-great-auk-conspiracy",
+    title: "The Great Auk Conspiracy",
+    subtitle: "How the desire to possess the last of something became the engine of its destruction",
+    category: "Natural History",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-great-auk-conspiracy.png",
+    publishedAt: "06/12/2026 02:37 AM",
+    description:
+      "The great auk didn't just go extinct — it was hunted to oblivion by the very collectors who mourned its disappearance, in a feedback loop of scarcity and desire that says more about capitalism than it does about birds.",
+  },
+  {
     slug: "the-drowned-forests",
     title: "The Drowned Forests",
     subtitle: "The world that vanished beneath the waves is still standing",
