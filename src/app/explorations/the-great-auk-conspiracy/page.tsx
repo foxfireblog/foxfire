@@ -35,6 +35,13 @@ export default function TheGreatAukConspiracy() {
       wordCount={2900}
       prevSlug="the-drowned-forests"
       prevTitle="The Drowned Forests"
+    nextSlug="the-memory-of-paper"
+    nextTitle="The Memory of Paper"
+    nextSubtitle="When the Nazis came for the books, the books climbed into human bodies"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-memory-of-paper.png"
+    nextReadTime="13 min"
     >
       <h2>The Boot</h2>
 

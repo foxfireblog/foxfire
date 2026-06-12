@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-memory-of-paper",
+    title: "The Memory of Paper",
+    subtitle: "When the Nazis came for the books, the books climbed into human bodies",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-memory-of-paper.png",
+    publishedAt: "06/12/2026 12:51 PM",
+    description:
+      "How a group of Jewish scholars in Vilna risked their lives to save — and become — the libraries the Nazis sought to destroy.",
+  },
+  {
     slug: "the-great-auk-conspiracy",
     title: "The Great Auk Conspiracy",
     subtitle: "How the desire to possess the last of something became the engine of its destruction",
