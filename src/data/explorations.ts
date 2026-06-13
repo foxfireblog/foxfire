@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-good-german-problem",
+    title: "The Good German Problem",
+    subtitle: "What it actually took to resist — and why we should be suspicious of how easily we imagine we would have",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-good-german-problem.png",
+    publishedAt: "06/13/2026 12:06 PM",
+    description:
+      "An unflinching look at what resistance actually cost under the Third Reich, and the dangerous comfort of believing we would have been the exception.",
+  },
+  {
     slug: "the-index-card-that-built-the-modern-mind",
     title: "The Index Card That Built the Modern Mind",
     subtitle: "Before the database, before the spreadsheet, before the search engine — there was a small rectangle of paper. It changed how humans thought.",
