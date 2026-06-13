@@ -35,6 +35,13 @@ export default function TheMemoryOfPaper() {
       wordCount={3032}
       prevSlug="the-great-auk-conspiracy"
       prevTitle="The Great Auk Conspiracy"
+    nextSlug="the-index-card-that-built-the-modern-mind"
+    nextTitle="The Index Card That Built the Modern Mind"
+    nextSubtitle="Before the database, before the spreadsheet, before the search engine &mdash; there was a small rectangle of paper. It changed how humans thought."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-index-card-that-built-the-modern-mind.png"
+    nextReadTime="11 min"
     >
       <h2>The Diaper Made of Torah</h2>
 

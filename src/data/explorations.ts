@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-index-card-that-built-the-modern-mind",
+    title: "The Index Card That Built the Modern Mind",
+    subtitle: "Before the database, before the spreadsheet, before the search engine — there was a small rectangle of paper. It changed how humans thought.",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-index-card-that-built-the-modern-mind.png",
+    publishedAt: "06/13/2026 02:38 AM",
+    description:
+      "How a small rectangle of paper restructured human thought, enabling everything from the modern bureaucracy to the scientific revolution to the surveillance state.",
+  },
+  {
     slug: "the-memory-of-paper",
     title: "The Memory of Paper",
     subtitle: "When the Nazis came for the books, the books climbed into human bodies",
