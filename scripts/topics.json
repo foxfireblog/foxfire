@@ -4932,5 +4932,25 @@
     "description": "In 1964, the New York Times reported that 38 witnesses watched Kitty Genovese being murdered and did nothing. The story became a founding myth of social psychology, spawning the 'bystander effect' — the more people witness a crisis, the less likely any individual is to help. Decades later, researchers discovered the Times had fabricated much of the account. But the underlying psychology turned out to be real. This is the story of a lie that told the truth, a murder that became a laboratory, and the deeply unsettling science of why ordinary people stand by while the world burns.",
     "imagePrompt": "A dark New York City street at night seen from above, a single figure alone on the pavement, apartment windows glowing yellow in surrounding buildings, each window framing a silhouette, noir urban photography style, rain-slicked cobblestones",
     "essayPrompt": "Write a deep, literary essay about the Kitty Genovese case and the bystander effect. Begin with the 1964 murder and the New York Times story that made it famous. Then unravel the fabrication — the 38 witnesses was largely a myth. But then reveal that the underlying psychology Darley and Latané discovered is real: diffusion of responsibility, pluralistic ignorance, the paralysis of the crowd. This is a meditation on complicity, the lies that reveal truths, and the ordinary human capacity to do nothing. Connect it to Hannah Arendt, to the Good German problem, to the social architecture of passive evil."
+  },
+  {
+    "slug": "the-collectors-of-impossible-coincidence",
+    "title": "The Collectors of Impossible Coincidence",
+    "subtitle": "Why the universe seems to be winking at you — and what the math actually says",
+    "category": "Science & Philosophy",
+    "color": "violet",
+    "description": "Throughout history, people have catalogued jaw-dropping coincidences — Lincoln and Kennedy, the sinking of the Titan and the Titanic, the poet who died on the same day he was born. These feel like messages. They feel like proof. But there is a science to the uncanny, and it is stranger than either the believers or the skeptics want to admit. The study of coincidence sits at the intersection of probability theory, cognitive bias, and something philosophers call the anthropic trap — the peculiar problem of a mind trying to evaluate its own astonishment.",
+    "imagePrompt": "A Victorian cabinet of curiosities filled with mirrored objects, hourglasses showing the same time, and overlapping calendars, in rich violet and gold tones, atmospheric and mysterious",
+    "essayPrompt": "Write a deep, curious essay about the science and philosophy of coincidence — why humans are wired to find patterns that may not exist, how probability theory explains supposedly impossible events, and the philosophical puzzle of a conscious mind trying to assess its own surprise. Explore figures like Carl Jung (who coined 'synchronicity'), the statisticians who built models of coincidence, and the genuine mathematical strangeness of a world large enough to generate outliers constantly. Be precise and wonder-filled in equal measure."
+  },
+  {
+    "slug": "the-law-of-large-numbers-and-the-gambler",
+    "title": "The Gambler's Ruin",
+    "subtitle": "The mathematical law that casinos discovered before mathematicians did",
+    "category": "History & Mathematics",
+    "color": "amber",
+    "description": "In 1654, two of the greatest mathematical minds in France — Pascal and Fermat — began exchanging letters about a dice game. The question was simple: how should you divide the pot if a game of chance is interrupted midway? The answer they worked out between them became the foundation of modern probability theory, actuarial science, insurance, financial markets, and statistical inference. But the deeper story is about the gamblers who already knew the answers intuitively — and the long, strange history of humans trying to find fairness in randomness.",
+    "imagePrompt": "A candlelit 17th century French gambling table with playing cards, dice, and two quill pens resting on parchment letters covered in equations, warm amber and shadow tones, painterly and dramatic",
+    "essayPrompt": "Write a rich, narrative essay tracing the birth of probability theory from the Pascal-Fermat correspondence about the 'problem of points' — how to divide stakes in an unfinished game. Explore how this moment crystallized centuries of informal gambling intuition into rigorous mathematics, and how the resulting ideas underpinned insurance markets, statistical inference, and the modern world's relationship with risk. Include the gamblers, the mathematicians, the insurance underwriters at Lloyd's coffee house, and the philosophical strangeness of trying to assign numbers to the future."
   }
 ]
