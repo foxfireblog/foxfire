@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-birthday-problem",
+    title: "The Birthday Problem",
+    subtitle: "Why your brain is a terrible statistician, and what that means for everything else",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-birthday-problem.png",
+    publishedAt: "06/14/2026 03:10 AM",
+    description:
+      "In a room of just 23 people, there's a better-than-even chance two share a birthday — a fact so counterintuitive it reveals something profound about how poorly we navigate a world built on probability.",
+  },
+  {
     slug: "the-good-german-problem",
     title: "The Good German Problem",
     subtitle: "What it actually took to resist — and why we should be suspicious of how easily we imagine we would have",
