@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-jury-that-refused",
+    title: "The Jury That Refused",
+    subtitle: "On the strange, fragile power of twelve people who say no",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-jury-that-refused.png",
+    publishedAt: "06/14/2026 12:10 PM",
+    description:
+      "The radical history of jury nullification — when ordinary citizens decided the law itself was wrong, and simply refused to enforce it.",
+  },
+  {
     slug: "the-birthday-problem",
     title: "The Birthday Problem",
     subtitle: "Why your brain is a terrible statistician, and what that means for everything else",
