@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mechanical-turk-problem",
+    title: "The Mechanical Turk Problem",
+    subtitle: "The humans hiding inside the machine, and the machine hiding inside the humans",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-mechanical-turk-problem.png",
+    publishedAt: "06/15/2026 02:53 PM",
+    description:
+      "From an 18th-century chess automaton to Amazon's hidden workforce, the strange recursive history of humans pretending to be machines pretending to be human.",
+  },
+  {
     slug: "the-voice-that-crossed-the-wire",
     title: "The Voice That Crossed the Wire",
     subtitle: "On the day music stopped being mortal",

@@ -35,6 +35,13 @@ export default function TheVoiceThatCrossedTheWire() {
       wordCount={3044}
       prevSlug="the-jury-that-refused"
       prevTitle="The Jury That Refused"
+    nextSlug="the-mechanical-turk-problem"
+    nextTitle="The Mechanical Turk Problem"
+    nextSubtitle="The humans hiding inside the machine, and the machine hiding inside the humans"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-mechanical-turk-problem.png"
+    nextReadTime="13 min"
     >
       <h2>The Silence Before</h2>
 
