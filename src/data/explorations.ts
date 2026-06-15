@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-voice-that-crossed-the-wire",
+    title: "The Voice That Crossed the Wire",
+    subtitle: "On the day music stopped being mortal",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-voice-that-crossed-the-wire.png",
+    publishedAt: "06/15/2026 03:26 AM",
+    description:
+      "The strange, contested, and transformative birth of recorded sound — and the world that vanished the moment we learned to trap a voice in matter.",
+  },
+  {
     slug: "the-jury-that-refused",
     title: "The Jury That Refused",
     subtitle: "On the strange, fragile power of twelve people who say no",
