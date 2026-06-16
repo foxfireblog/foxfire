@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-false-memory-machine",
+    title: "The False Memory Machine",
+    subtitle: "We know how to implant memories that never happened — and we've been doing it by accident for centuries",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-false-memory-machine.png",
+    publishedAt: "06/16/2026 02:50 PM",
+    description:
+      "From the Satanic Panic to the Mandela Effect, the terrifying plasticity of human memory reveals that the past is not a recording — it's a story we rewrite every time we remember it.",
+  },
+  {
     slug: "the-talking-knots-of-the-andes",
     title: "The Talking Knots of the Andes",
     subtitle: "How the Inca encoded a civilization in string — and why we still cannot fully read it",
