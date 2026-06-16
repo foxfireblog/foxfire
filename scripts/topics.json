@@ -5032,5 +5032,25 @@
     "description": "Every winter, a designated keeper of history among the Lakota Sioux would choose one event — just one — to represent the entire year. Not a battle or a treaty necessarily, but sometimes a meteor shower, a man struck by lightning, the winter when horses ate their lodges. These events were painted in sequence on a buffalo hide that spiraled outward from the center, year by year, forming a calendar unlike anything in the Western tradition. Different keepers made different choices for the same years, meaning multiple winter counts survived recording different single truths. The winter count is a philosophy of history disguised as an object: it insists that a year has an essence, that memory is necessarily selective, and that the keeper's judgment is history itself. When historians tried to align winter counts with European calendars, they discovered something unsettling — the Lakota and the colonizers were often living in entirely different historical moments at the same time.",
     "imagePrompt": "A buffalo hide spread flat showing a spiral of small pictographic symbols painted in ochre, black, and white, each symbol representing a year's defining moment, warm firelight illuminating the surface, the images growing more recent toward the outer edge, intimate documentary photography",
     "essayPrompt": "Write a long-form Foxfire essay about the Lakota winter count — what it is, how it worked, what specific counts recorded, and what the practice reveals about the philosophy of history, memory, and narrative. Explore what it means that different keepers chose different moments for the same year, and what happens when two civilizations are living through the same time but recording entirely different realities."
+  },
+  {
+    "slug": "the-lost-witness",
+    "title": "The Lost Witness",
+    "subtitle": "How the courtroom invented the idea of reliable memory — and then destroyed it",
+    "category": "History & Law",
+    "color": "violet",
+    "description": "For centuries, the eyewitness was the gold standard of justice. Then psychologists began dismantling that certainty one experiment at a time. The story of how legal systems built on human testimony are reckoning with the fact that memory is not a recording — it's a story we tell ourselves, and stories can be rewritten.",
+    "imagePrompt": "A courtroom witness stand under a single spotlight, the witness's face blurred and dissolving at the edges like a photograph left in water, surrounded by darkness, photorealistic, cinematic lighting",
+    "essayPrompt": "Write a deeply researched, narrative-driven essay about the history of eyewitness testimony in legal systems and the scientific dismantling of its reliability. Begin with a specific wrongful conviction case that hinged on eyewitness testimony, then trace the arc from Elizabeth Loftus's early experiments to the present day. Explore why courts resisted the psychology for decades, the politics of prosecutorial identity, and what it means for justice when the most trusted form of evidence turns out to be the most malleable. End with the philosophical weight of a system still built on the foundation that science has cracked."
+  },
+  {
+    "slug": "the-suggestible-child",
+    "title": "The Suggestible Child",
+    "subtitle": "The daycare panic of the 1980s, the psychology of suggestion, and the children who remembered things that never happened",
+    "category": "Psychology & History",
+    "color": "amber",
+    "description": "Between 1983 and 1995, a moral panic swept America: satanic rituals in daycare centers, children abused in tunnels that didn't exist, convictions built on memories extracted by therapists who believed they were helping. The McMartin preschool trial. The Fells Acres case. Lives destroyed. Then, slowly, the science caught up — and a generation had to reckon with what happens when the desire to protect children becomes the mechanism of their harm.",
+    "imagePrompt": "An empty children's classroom with small chairs and scattered crayon drawings on the walls, rendered in faded colors with long shadows stretching across the floor, one window letting in pale afternoon light, deeply atmospheric and unsettling",
+    "essayPrompt": "Write a long-form narrative essay about the satanic daycare panic of the 1980s and early 1990s, focusing on the intersection of recovered memory therapy, child interview techniques, and mass hysteria. Center the essay on one or two specific cases — the McMartin preschool trial and/or the Kelly Michaels case — and trace the psychological mechanisms that produced false memories in children. Explore the roles of therapists, prosecutors, and media. Address the genuine backdrop of real child abuse that made skepticism feel monstrous. End with what the episode reveals about how institutions can manufacture certainty out of suggestion, and what happened to the people trapped inside those certainties."
   }
 ]
