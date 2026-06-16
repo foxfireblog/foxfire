@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-talking-knots-of-the-andes",
+    title: "The Talking Knots of the Andes",
+    subtitle: "How the Inca encoded a civilization in string — and why we still cannot fully read it",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-talking-knots-of-the-andes.png",
+    publishedAt: "06/16/2026 03:32 AM",
+    description:
+      "The Inca quipu was not a primitive counting tool but a sophisticated information system — one that challenges our deepest assumptions about what writing is.",
+  },
+  {
     slug: "the-mechanical-turk-problem",
     title: "The Mechanical Turk Problem",
     subtitle: "The humans hiding inside the machine, and the machine hiding inside the humans",
