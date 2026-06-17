@@ -35,6 +35,13 @@ export default function ThePalaceThatErasedItself() {
       wordCount={2894}
       prevSlug="the-false-memory-machine"
       prevTitle="The False Memory Machine"
+    nextSlug="the-body-that-remembered-the-famine"
+    nextTitle="The Body That Remembered the Famine"
+    nextSubtitle="What the children of the starving taught us about inheritance"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-body-that-remembered-the-famine.png"
+    nextReadTime="14 min"
     >
       <h2>The Man Who Became Water</h2>
 

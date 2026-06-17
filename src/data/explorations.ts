@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-body-that-remembered-the-famine",
+    title: "The Body That Remembered the Famine",
+    subtitle: "What the children of the starving taught us about inheritance",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-body-that-remembered-the-famine.png",
+    publishedAt: "06/17/2026 01:35 PM",
+    description:
+      "The Dutch Hunger Winter of 1944 revealed that starvation leaves marks not just on those who endure it, but on their children and grandchildren — rewriting what we thought we knew about inheritance.",
+  },
+  {
     slug: "the-palace-that-erased-itself",
     title: "The Palace That Erased Itself",
     subtitle: "On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still",
