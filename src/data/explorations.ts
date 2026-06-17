@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-palace-that-erased-itself",
+    title: "The Palace That Erased Itself",
+    subtitle: "On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-palace-that-erased-itself.png",
+    publishedAt: "06/17/2026 03:23 AM",
+    description:
+      "How the Soviet Union systematically edited its own history — airbrushing the executed from photographs, rewriting encyclopedias mid-edition — and what happens to a people when the past itself becomes unreliable.",
+  },
+  {
     slug: "the-false-memory-machine",
     title: "The False Memory Machine",
     subtitle: "We know how to implant memories that never happened — and we've been doing it by accident for centuries",
