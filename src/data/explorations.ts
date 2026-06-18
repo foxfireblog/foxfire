@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-invention-of-the-addict",
+    title: "The Invention of the Addict",
+    subtitle: "How a medical category became a moral verdict became a war",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-invention-of-the-addict.png",
+    publishedAt: "06/18/2026 03:14 AM",
+    description:
+      "Before the nineteenth century, there were no addicts — only habits, appetites, and the ordinary commerce of intoxication.",
+  },
+  {
     slug: "the-body-that-remembered-the-famine",
     title: "The Body That Remembered the Famine",
     subtitle: "What the children of the starving taught us about inheritance",

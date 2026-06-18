@@ -35,6 +35,13 @@ export default function TheBodyThatRememberedTheFamine() {
       wordCount={3299}
       prevSlug="the-palace-that-erased-itself"
       prevTitle="The Palace That Erased Itself"
+    nextSlug="the-invention-of-the-addict"
+    nextTitle="The Invention of the Addict"
+    nextSubtitle="How a medical category became a moral verdict became a war"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-invention-of-the-addict.png"
+    nextReadTime="12 min"
     >
       <h2>The Spoons</h2>
 
