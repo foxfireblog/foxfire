@@ -5112,5 +5112,25 @@
     "description": "In 1851, a Louisiana physician named Samuel Cartwright published a paper describing a mental illness he called drapetomania — the inexplicable desire of enslaved people to flee captivity. It was absurd, and it was also the logical endpoint of a system. The history of psychiatry is partly a history of reclassifying resistance as pathology.",
     "imagePrompt": "An aged medical textbook open to a dense page of 19th century typography, a quill pen resting beside it, dusty golden light through tall windows, the suggestion of institutional architecture, melancholy and unsettling",
     "essayPrompt": "Write a probing, morally serious essay about the history of diagnosing political and social resistance as mental illness — from drapetomania in the antebellum South to the Soviet use of 'sluggish schizophrenia' for dissidents, to more recent debates about pathologizing protest and non-conformity. Explore the mechanism by which psychiatry becomes a tool of social control, the genuine difficulty of distinguishing illness from resistance, and the question of who gets to draw that line. Be historically specific, philosophically rigorous, and honest about where the boundaries remain genuinely unclear."
+  },
+  {
+    "slug": "the-autoimmune-self",
+    "title": "The Autoimmune Self",
+    "subtitle": "When the body decides its own tissue is the enemy",
+    "category": "Natural History",
+    "color": "rose",
+    "description": "Autoimmune disease is one of biology's most haunting paradoxes: a system designed to protect you turns against the very cells it was built to defend. But autoimmunity isn't simply error — it emerges from the same mechanisms that make immunity possible. This is the story of tolerance, betrayal, and the impossibly fine line the immune system walks every moment you're alive.",
+    "imagePrompt": "A microscopic battlefield rendered in deep rose and white — immune cells surrounding and attacking tissue that looks identical to themselves, a civil war at the cellular scale, clinical and beautiful and terrifying",
+    "essayPrompt": "Write a deeply curious, literary essay about autoimmune disease as a biological paradox — the immune system's inability to distinguish self from enemy. Explore the history of how scientists came to understand autoimmunity (long dismissed as impossible), the concept of 'immunological tolerance' and how it breaks down, specific diseases like lupus and multiple sclerosis as case studies in misdirected recognition, and the philosophical resonance of a body that cannot tell friend from foe. Draw connections to identity, loyalty, and the strange violence of systems turning on themselves. Aim for the tone of Foxfire: intellectually serious, emotionally resonant, full of wonder and unease."
+  },
+  {
+    "slug": "the-lysenko-catastrophe",
+    "title": "The Lysenko Catastrophe",
+    "subtitle": "The Soviet scientist who made biology obey the state — and the millions who starved",
+    "category": "History of Science",
+    "color": "amber",
+    "description": "In the 1930s, a barely-educated Ukrainian agronomist named Trofim Lysenko convinced Stalin that genetics was bourgeois pseudoscience. For nearly three decades, Lysenko's scientifically fraudulent theories dominated Soviet biology. Real geneticists were imprisoned or executed. Crops failed on a spectacular scale. It is the most catastrophic episode of ideologically enforced science in history — and a warning about what happens when truth becomes a political question.",
+    "imagePrompt": "A vast Soviet wheat field under a cold grey sky, rows of crops withering in precise geometric patterns, a single propaganda poster visible at the field's edge showing triumphant agriculture, the contrast between promise and ruin rendered in amber and grey tones, painterly and ominous",
+    "essayPrompt": "Write a deeply researched, literary essay about Trofim Lysenko and the Soviet suppression of genetics. Explore who Lysenko was and why Stalin found his ideas appealing, the specific scientific claims he made (vernalization, the inheritance of acquired characteristics) and why they were wrong, the fate of genuine scientists like Nikolai Vavilov who opposed him, and the agricultural disasters that followed. Examine the broader question: what happens to a society that forces its science to serve its ideology? Reflect on the epistemological horror of institutionalized untruth, and draw subtle connections to contemporary debates about expertise and political pressure. Write in the Foxfire voice: intellectually serious, narrative-driven, not polemical but deeply honest."
   }
 ]
