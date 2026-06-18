@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-traitor-cell",
+    title: "The Traitor Cell",
+    subtitle: "How your body learns to destroy itself — and why it might be the price of being alive at all",
+    category: "Natural History",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-traitor-cell.png",
+    publishedAt: "06/18/2026 01:14 PM",
+    description:
+      "Your immune system is the most sophisticated detection apparatus in the known universe — and sometimes it turns its full, terrifying power against you.",
+  },
+  {
     slug: "the-invention-of-the-addict",
     title: "The Invention of the Addict",
     subtitle: "How a medical category became a moral verdict became a war",
