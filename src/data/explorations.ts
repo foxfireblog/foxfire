@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-brine-that-remembers",
+    title: "The Brine That Remembers",
+    subtitle: "On the ancient oceans trapped beneath our feet, and the things that learned to live in them",
+    category: "Natural History",
+    color: "teal",
+    readTime: "12 min",
+    image: "/images/explorations/the-brine-that-remembers.png",
+    publishedAt: "06/19/2026 03:29 AM",
+    description:
+      "Miles beneath the Earth's surface, pockets of seawater billions of years old hold microbial life that has been evolving in total darkness since before complex life existed.",
+  },
+  {
     slug: "the-traitor-cell",
     title: "The Traitor Cell",
     subtitle: "How your body learns to destroy itself — and why it might be the price of being alive at all",
