@@ -5132,5 +5132,25 @@
     "description": "In the 1930s, a barely-educated Ukrainian agronomist named Trofim Lysenko convinced Stalin that genetics was bourgeois pseudoscience. For nearly three decades, Lysenko's scientifically fraudulent theories dominated Soviet biology. Real geneticists were imprisoned or executed. Crops failed on a spectacular scale. It is the most catastrophic episode of ideologically enforced science in history — and a warning about what happens when truth becomes a political question.",
     "imagePrompt": "A vast Soviet wheat field under a cold grey sky, rows of crops withering in precise geometric patterns, a single propaganda poster visible at the field's edge showing triumphant agriculture, the contrast between promise and ruin rendered in amber and grey tones, painterly and ominous",
     "essayPrompt": "Write a deeply researched, literary essay about Trofim Lysenko and the Soviet suppression of genetics. Explore who Lysenko was and why Stalin found his ideas appealing, the specific scientific claims he made (vernalization, the inheritance of acquired characteristics) and why they were wrong, the fate of genuine scientists like Nikolai Vavilov who opposed him, and the agricultural disasters that followed. Examine the broader question: what happens to a society that forces its science to serve its ideology? Reflect on the epistemological horror of institutionalized untruth, and draw subtle connections to contemporary debates about expertise and political pressure. Write in the Foxfire voice: intellectually serious, narrative-driven, not polemical but deeply honest."
+  },
+  {
+    "slug": "the-sediment-archive",
+    "title": "The Sediment Archive",
+    "subtitle": "How the mud at the bottom of lakes has been recording history for ten thousand years",
+    "category": "Natural History",
+    "color": "amber",
+    "description": "Beneath the still surfaces of lakes around the world lies an extraordinary archive. Layer by layer, year by year, sediment settles to the bottom — carrying within it pollen, ash, heavy metals, charcoal, microorganisms, and chemical signatures that record everything from volcanic eruptions to the rise and fall of civilizations. Scientists who read these cores are called paleolimnologists, and what they extract from mud is nothing less than a continuous diary of the Earth. The Black Death shows up as a sudden disappearance of pollen from cultivated fields. The Roman Empire appears as a spike in lead contamination across lakes from Britain to the Levant. A drought that ended a Bronze Age civilization leaves a thin, telltale layer. The sediment doesn't editorialize or forget — it simply receives and holds, compressing time into something you can hold between your fingers.",
+    "imagePrompt": "A scientist holding a long cylindrical sediment core extracted from a lake bed, its layers visible in bands of brown, grey, and ochre, lit by soft laboratory light, photorealistic",
+    "essayPrompt": "Write a deep, curious essay about lake sediment cores as historical archives. Explore the science of paleolimnology, what specific events have been discovered in sediment records, and the philosophical implications of a natural world that has been quietly keeping better records than we have. Use vivid, specific examples."
+  },
+  {
+    "slug": "the-ice-that-breathes",
+    "title": "The Ice That Breathes",
+    "subtitle": "Inside the air bubbles trapped in Antarctic ice are the actual atmospheres of vanished worlds",
+    "category": "Natural History",
+    "color": "sky",
+    "description": "When snow falls in Antarctica and is slowly compressed into ice, it traps tiny bubbles of the air that existed at that exact moment. This is not a metaphor or a chemical proxy — it is the literal atmosphere of the past, physically preserved. Scientists drilling ice cores in East Antarctica have now retrieved ice that is 1.2 million years old, and when they crush a fragment under controlled conditions, they are releasing air that was breathed by no human, that existed before our species did. Those bubbles contain the original greenhouse gas concentrations of ancient climates, the dust from specific volcanic eruptions, the isotopic signatures of temperatures long gone. But the ice also holds stranger things: viruses, bacteria, ancient spores still viable after hundreds of thousands of years. It is less an archive than a time capsule that is currently melting — which means the oldest air on Earth is disappearing into the present faster than we can read it.",
+    "imagePrompt": "A close-up macro photograph of an ice core cross-section showing dozens of tiny air bubbles suspended in deep blue glacial ice, ethereal and crystalline, scientific beauty",
+    "essayPrompt": "Write a deep, lyrical essay about what Antarctic ice cores contain and what they tell us. Cover the science of trapped air bubbles, what specific discoveries have been made, the race to drill the oldest ice before it melts, and reflect on the profound strangeness of literally breathing the air of a world that no longer exists."
   }
 ]
