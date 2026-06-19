@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-poison-eaters",
+    title: "The Poison Eaters",
+    subtitle: "A history of what shouldn't be swallowed, and the bodies that swallowed it anyway",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "14 min",
+    image: "/images/explorations/the-poison-eaters.png",
+    publishedAt: "06/19/2026 01:19 PM",
+    description:
+      "From arsenic-eating peasants to radium-drinking socialites, a history of humans who consumed the toxic, the impossible, and the deadly — and what their strange appetites reveal about adaptation, desperation, and the blurred line between medicine and poison.",
+  },
+  {
     slug: "the-brine-that-remembers",
     title: "The Brine That Remembers",
     subtitle: "On the ancient oceans trapped beneath our feet, and the things that learned to live in them",
