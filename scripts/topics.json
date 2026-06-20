@@ -5192,5 +5192,25 @@
     "description": "The rubble of the Berlin Wall became jewelry sold at airport kiosks. Timber from the Titanic was auctioned in fragments. Steel from the World Trade Center was forged into a Navy warship. When disasters produce wreckage, the wreckage doesn't disappear — it migrates, transforms, and acquires new meanings that its original form never had. This is the strange economy and philosophy of what survives: how matter outlasts meaning, and then generates new meaning entirely.",
     "imagePrompt": "A museum vitrine containing a single twisted piece of rusted metal on velvet, museum lighting, photorealistic, the metal illuminated like a holy relic",
     "essayPrompt": "Write a deep, literary essay about the physical remnants of famous disasters and the strange afterlives they acquire — sold, salvaged, enshrined, weaponized, or worshipped. Explore the philosophical question of what objects carry forward: trauma, memory, value, or something stranger. Move through examples like Berlin Wall fragments, Hiroshima's shadow-burned steps, Pompeii's casts of the dead, and the repurposing of Ground Zero steel. Consider Walter Benjamin's concept of the aura, and how destruction paradoxically creates sacredness. Ask what we are really doing when we preserve or possess the ruins of catastrophe."
+  },
+  {
+    "slug": "the-mugshot-and-the-machine",
+    "title": "The Mugshot and the Machine",
+    "subtitle": "How a French policeman invented the modern face — and the modern criminal",
+    "category": "History",
+    "color": "violet",
+    "description": "In the 1880s, Alphonse Bertillon invented a system to make every human face measurable, reproducible, and permanently on file. He called it anthropometry. We call it the mugshot. But the story of how states learned to catalogue faces is also the story of how 'the criminal type' was invented — a ghost that haunts facial recognition software to this day.",
+    "imagePrompt": "A Victorian-era police measurement chart showing a man's face photographed from the front and side, surrounded by precise calipers and numerical measurements, sepia tones, scientific diagram aesthetic, unsettling bureaucratic precision",
+    "essayPrompt": "Write a deep-dive essay exploring Alphonse Bertillon's invention of systematic criminal photography and body measurement (Bertillonage) in 1880s Paris. Explore: how the mugshot transformed identity into a state-controlled artifact; the influence of Cesare Lombroso's criminal anthropology and the idea that deviance could be read in a face; how Bertillon's system was used during the Dreyfus Affair and nearly destroyed an innocent man; how the system crossed the Atlantic and became standard in American policing; and the direct line between Victorian facial cataloguing and modern facial recognition AI — including inherited biases. Ask what it means to have your face become evidence before you've done anything."
+  },
+  {
+    "slug": "the-reward-that-made-the-outlaw",
+    "title": "The Reward That Made the Outlaw",
+    "subtitle": "On the strange economy of bounties, and how putting a price on a man's head changes what he becomes",
+    "category": "Political Philosophy",
+    "color": "amber",
+    "description": "When a government posts a reward for a person's capture, something strange happens: the fugitive becomes a commodity, neighbors become bounty hunters, and the state outsources violence to the market. The history of bounties — from Roman proscription lists to American slave-catching to modern terrorist rewards — reveals a persistent and unsettling logic: that some people can be priced.",
+    "imagePrompt": "A faded reward notice pinned to weathered wood, the ink bleeding slightly, with a blank silhouette where a face should be, surrounded by the suggestion of coins and shadow, dark amber light, old American West atmosphere meeting something more ancient and sinister",
+    "essayPrompt": "Write a philosophical and historical essay on the institution of the bounty — the formal practice of pricing a human being for capture. Cover: Roman proscription lists under Sulla and Caesar, where citizens were paid to kill named enemies of the state; the Fugitive Slave Act and the bounty economy it created, turning ordinary citizens into catchers; the mythology of the Old West bounty hunter vs. the grim legal reality; the British use of reward posters in colonial contexts; the post-9/11 reward economy (the 'Rewards for Justice' program, bin Laden's $25 million price tag) and what it says about modern statecraft. Then zoom out philosophically: what does it mean to price a person? How does a bounty transform community into market, neighbor into hunter? And does the wanted poster — by naming and pricing — sometimes create the very legend it seeks to erase?"
   }
 ]
