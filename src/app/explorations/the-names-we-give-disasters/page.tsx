@@ -35,6 +35,13 @@ export default function TheNamesWeGiveDisasters() {
       wordCount={2945}
       prevSlug="the-poison-eaters"
       prevTitle="The Poison Eaters"
+    nextSlug="the-art-of-the-wanted-poster"
+    nextTitle="The Art of the Wanted Poster"
+    nextSubtitle="How the state learned to describe a human face"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-art-of-the-wanted-poster.png"
+    nextReadTime="14 min"
     >
       <h2>The Bag of Fried Chicken</h2>
 

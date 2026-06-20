@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-art-of-the-wanted-poster",
+    title: "The Art of the Wanted Poster",
+    subtitle: "How the state learned to describe a human face",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-art-of-the-wanted-poster.png",
+    publishedAt: "06/20/2026 12:01 PM",
+    description:
+      "The strange history of how governments learned to turn a human face into language — and what was lost and gained each time they got better at it.",
+  },
+  {
     slug: "the-names-we-give-disasters",
     title: "The Names We Give Disasters",
     subtitle: "How we classify catastrophe — and what we lose in the counting",
