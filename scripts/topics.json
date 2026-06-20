@@ -5172,5 +5172,25 @@
     "description": "In the 1920s, young women at radium dial factories were instructed to point their brushes with their lips, ingesting luminous paint with every stroke. They glowed in the dark. They brought the shimmer home in their hair and clothes. Radium was fashionable, miraculous, sold in face creams and tonics. When their jaws began dissolving, their bones snapping from the inside, the companies insisted they were fine. The women sued. They gathered their own evidence. They offered their dying bodies to science. In doing so, they established the legal and scientific framework for occupational health that still protects workers today — discovered not in a laboratory, but through the accumulated testimony of women who were told their bodies were lying to them.",
     "imagePrompt": "A close-up of a woman's hand holding a fine paintbrush over a clock face, her fingers faintly luminous green in darkness, the brush tip glowing, her face partially visible and determined, stark industrial shadows, early 20th century atmosphere",
     "essayPrompt": "Write a long-form essay about the Radium Girls — the dial painters of the 1920s who were poisoned by radium ingestion and fought back against corporate denial. Explore what radium was culturally in that era (celebrated, consumed, fashionable), the specific biological horror of radioactive bone decay, how the women organized and collected their own medical evidence, and the legal battles that created modern occupational safety law. Reflect on the deeper epistemological theme: these women knew what was killing them before the institutions admitted it, and their bodies were both the evidence and the argument."
+  },
+  {
+    "slug": "the-cartography-of-blame",
+    "title": "The Cartography of Blame",
+    "subtitle": "How disasters find their scapegoats before the smoke clears",
+    "category": "History & Politics",
+    "color": "red",
+    "description": "Every catastrophe produces two events: the disaster itself, and the story of who caused it. Across centuries, from the Great Fire of Rome to the Halifax Explosion to the Fukushima meltdown, the search for blame follows patterns so consistent they feel almost biological — a social immune response that activates before the dead are counted. This is the hidden structure of catastrophe: not the event, but the verdict.",
+    "imagePrompt": "A burned courtroom with ash-covered evidence tables, a single accusatory finger pointing toward a shadowed figure, chiaroscuro lighting, photorealistic, cinematic",
+    "essayPrompt": "Write a deep, literary essay about how human societies assign blame after disasters — examining the psychological, political, and historical patterns of scapegoating in the aftermath of catastrophe. Draw on examples like the persecution of Christians after Rome's fire, Jewish communities blamed for the Black Death, and modern corporate liability hearings. Explore how blame functions as grief, as politics, and as a way of insisting the world is still legible. Investigate the gap between legal culpability and moral responsibility. End with reflection on what it means that we need someone to have caused our suffering."
+  },
+  {
+    "slug": "the-afterlife-of-wreckage",
+    "title": "The Afterlife of Wreckage",
+    "subtitle": "On the strange lives that disaster debris acquires after the catastrophe ends",
+    "category": "History & Philosophy",
+    "color": "amber",
+    "description": "The rubble of the Berlin Wall became jewelry sold at airport kiosks. Timber from the Titanic was auctioned in fragments. Steel from the World Trade Center was forged into a Navy warship. When disasters produce wreckage, the wreckage doesn't disappear — it migrates, transforms, and acquires new meanings that its original form never had. This is the strange economy and philosophy of what survives: how matter outlasts meaning, and then generates new meaning entirely.",
+    "imagePrompt": "A museum vitrine containing a single twisted piece of rusted metal on velvet, museum lighting, photorealistic, the metal illuminated like a holy relic",
+    "essayPrompt": "Write a deep, literary essay about the physical remnants of famous disasters and the strange afterlives they acquire — sold, salvaged, enshrined, weaponized, or worshipped. Explore the philosophical question of what objects carry forward: trauma, memory, value, or something stranger. Move through examples like Berlin Wall fragments, Hiroshima's shadow-burned steps, Pompeii's casts of the dead, and the repurposing of Ground Zero steel. Consider Walter Benjamin's concept of the aura, and how destruction paradoxically creates sacredness. Ask what we are really doing when we preserve or possess the ruins of catastrophe."
   }
 ]
