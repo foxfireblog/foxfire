@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-names-we-give-disasters",
+    title: "The Names We Give Disasters",
+    subtitle: "How we classify catastrophe — and what we lose in the counting",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-names-we-give-disasters.png",
+    publishedAt: "06/20/2026 02:34 AM",
+    description:
+      "From Saffir-Simpson to the Richter scale, our systems for measuring catastrophe reveal as much about power and politics as they do about wind speed and magnitude.",
+  },
+  {
     slug: "the-poison-eaters",
     title: "The Poison Eaters",
     subtitle: "A history of what shouldn't be swallowed, and the bodies that swallowed it anyway",

@@ -35,6 +35,13 @@ export default function ThePoisonEaters() {
       wordCount={3245}
       prevSlug="the-brine-that-remembers"
       prevTitle="The Brine That Remembers"
+    nextSlug="the-names-we-give-disasters"
+    nextTitle="The Names We Give Disasters"
+    nextSubtitle="How we classify catastrophe &mdash; and what we lose in the counting"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-names-we-give-disasters.png"
+    nextReadTime="13 min"
     >
       <h2>The King Who Could Not Die</h2>
 
