@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-inland-sea",
+    title: "The Inland Sea",
+    subtitle: "For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas.",
+    category: "Natural History",
+    color: "cyan",
+    readTime: "13 min",
+    image: "/images/explorations/the-inland-sea.png",
+    publishedAt: "06/21/2026 03:01 AM",
+    description:
+      "The story of the Western Interior Seaway — the vast tropical ocean that once divided North America, filled with mosasaurs and ammonites, and whose ghost still shapes the landscape of the Great Plains.",
+  },
+  {
     slug: "the-art-of-the-wanted-poster",
     title: "The Art of the Wanted Poster",
     subtitle: "How the state learned to describe a human face",
