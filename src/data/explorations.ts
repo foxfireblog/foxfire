@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-of-the-expert",
+    title: "The Suicide of the Expert",
+    subtitle: "What happens when a society decides it no longer needs to know things",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-suicide-of-the-expert.png",
+    publishedAt: "06/21/2026 12:21 PM",
+    description:
+      "An essay on how expertise became suspect — and what fills the vacuum when knowledge is treated as a form of power rather than a form of care.",
+  },
+  {
     slug: "the-inland-sea",
     title: "The Inland Sea",
     subtitle: "For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas.",
