@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-tulip-that-broke-an-empire",
+    title: "The Tulip That Broke an Empire",
+    subtitle: "How a flower from the steppes became the currency of obsession — and what beauty costs when it becomes power",
+    category: "Essay",
+    color: "rose",
+    readTime: "13 min",
+    image: "/images/explorations/the-tulip-that-broke-an-empire.png",
+    publishedAt: "06/22/2026 02:37 PM",
+    description:
+      "The real history of tulip mania isn't the one you've heard — it's stranger, more Ottoman, and more human than any cautionary tale about bubbles.",
+  },
+  {
     slug: "the-white-silence",
     title: "The White Silence",
     subtitle: "What polar explorers discovered about the psychology of nothingness",
