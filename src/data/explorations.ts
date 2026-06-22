@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-white-silence",
+    title: "The White Silence",
+    subtitle: "What polar explorers discovered about the psychology of nothingness",
+    category: "Essay",
+    color: "sky",
+    readTime: "14 min",
+    image: "/images/explorations/the-white-silence.png",
+    publishedAt: "06/22/2026 03:59 AM",
+    description:
+      "In the featureless white of polar landscapes, explorers found something more terrifying than cold — the dissolution of the self when deprived of the world.",
+  },
+  {
     slug: "the-suicide-of-the-expert",
     title: "The Suicide of the Expert",
     subtitle: "What happens when a society decides it no longer needs to know things",
