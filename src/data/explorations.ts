@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scrapie-notebooks",
+    title: "The Scrapie Notebooks",
+    subtitle: "For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened.",
+    category: "Natural History",
+    color: "amber",
+    readTime: "16 min",
+    image: "/images/explorations/the-scrapie-notebooks.png",
+    publishedAt: "06/23/2026 12:51 PM",
+    description:
+      "The centuries-long mystery of scrapie — a disease that defied every law of biology — and how ignoring it nearly unleashed a catastrophe.",
+  },
+  {
     slug: "the-city-beneath-the-city",
     title: "The City Beneath the City",
     subtitle: "Every metropolis is haunted by the infrastructure of its own ambitions",
