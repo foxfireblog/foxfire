@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-city-beneath-the-city",
+    title: "The City Beneath the City",
+    subtitle: "Every metropolis is haunted by the infrastructure of its own ambitions",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-city-beneath-the-city.png",
+    publishedAt: "06/23/2026 02:43 AM",
+    description:
+      "Beneath every city lies a shadow city — abandoned tunnels, buried rivers, sealed stations, and forgotten pneumatic tubes that reveal the dreams a metropolis once had and couldn't sustain.",
+  },
+  {
     slug: "the-tulip-that-broke-an-empire",
     title: "The Tulip That Broke an Empire",
     subtitle: "How a flower from the steppes became the currency of obsession — and what beauty costs when it becomes power",

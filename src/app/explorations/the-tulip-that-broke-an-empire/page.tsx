@@ -35,6 +35,13 @@ export default function TheTulipThatBrokeAnEmpire() {
       wordCount={3010}
       prevSlug="the-white-silence"
       prevTitle="The White Silence"
+    nextSlug="the-city-beneath-the-city"
+    nextTitle="The City Beneath the City"
+    nextSubtitle="Every metropolis is haunted by the infrastructure of its own ambitions"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-city-beneath-the-city.png"
+    nextReadTime="13 min"
     >
       <h2>The Tortoise and the Flame</h2>
 
