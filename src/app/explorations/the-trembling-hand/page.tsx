@@ -35,6 +35,13 @@ export default function TheTremblingHand() {
       wordCount={3325}
       prevSlug="the-scrapie-notebooks"
       prevTitle="The Scrapie Notebooks"
+    nextSlug="the-friendship-that-split-the-atom"
+    nextTitle="The Friendship That Split the Atom"
+    nextSubtitle="Heisenberg, Bohr, and the conversation that haunts physics"
+    nextCategory="Essay"
+    nextCategoryColor="indigo"
+    nextImage="/images/explorations/the-friendship-that-split-the-atom.png"
+    nextReadTime="14 min"
     >
       <h2>The Cup</h2>
 

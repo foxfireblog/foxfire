@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-friendship-that-split-the-atom",
+    title: "The Friendship That Split the Atom",
+    subtitle: "Heisenberg, Bohr, and the conversation that haunts physics",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-friendship-that-split-the-atom.png",
+    publishedAt: "06/24/2026 12:15 PM",
+    description:
+      "In 1941, Werner Heisenberg visited Niels Bohr in occupied Copenhagen — and what they said to each other remains one of history's most consequential mysteries.",
+  },
+  {
     slug: "the-trembling-hand",
     title: "The Trembling Hand",
     subtitle: "On the moment a surgeon realizes they cannot cut",
