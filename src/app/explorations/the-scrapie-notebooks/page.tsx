@@ -35,6 +35,13 @@ export default function TheScrapieNotebooks() {
       wordCount={3713}
       prevSlug="the-city-beneath-the-city"
       prevTitle="The City Beneath the City"
+    nextSlug="the-trembling-hand"
+    nextTitle="The Trembling Hand"
+    nextSubtitle="On the moment a surgeon realizes they cannot cut"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-trembling-hand.png"
+    nextReadTime="14 min"
     >
       <h2>The Itch That Would Not Stop</h2>
 

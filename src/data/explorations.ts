@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-trembling-hand",
+    title: "The Trembling Hand",
+    subtitle: "On the moment a surgeon realizes they cannot cut",
+    category: "Essay",
+    color: "rose",
+    readTime: "14 min",
+    image: "/images/explorations/the-trembling-hand.png",
+    publishedAt: "06/24/2026 02:49 AM",
+    description:
+      "What happens when the hands that must not shake begin to shake — and what that tremor reveals about mastery, identity, and the cruelty of time.",
+  },
+  {
     slug: "the-scrapie-notebooks",
     title: "The Scrapie Notebooks",
     subtitle: "For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened.",
