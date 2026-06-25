@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-panopticon-in-your-pocket",
+    title: "The Panopticon in Your Pocket",
+    subtitle: "Jeremy Bentham dreamed of a prison where inmates would police themselves. We built it voluntarily and called it a smartphone.",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-panopticon-in-your-pocket.png",
+    publishedAt: "06/25/2026 12:42 PM",
+    description:
+      "How we built the most sophisticated surveillance architecture in human history and then bought it at full retail price.",
+  },
+  {
     slug: "the-doomsday-clock-is-not-a-clock",
     title: "The Doomsday Clock Is Not a Clock",
     subtitle: "On the strange ritual of scientists telling time in a world that refuses to listen",
