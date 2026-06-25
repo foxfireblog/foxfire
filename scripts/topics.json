@@ -5372,5 +5372,25 @@
     "description": "The periodic table looks like pure science — neutral, universal, inevitable. It is none of those things. The naming of elements has been a battlefield for nationalism, priority disputes, Cold War rivalries, and wounded scientific egos, revealing that even the most fundamental map of matter is drawn by human hands.",
     "imagePrompt": "A close-up of the periodic table printed on aged, yellowing paper with handwritten annotations and corrections in multiple languages, ink-stained fingers partially visible, dramatic raking light, photorealistic, archival",
     "essayPrompt": "Write a richly detailed essay about the political and human drama embedded in the periodic table — specifically the naming wars over synthetic elements, the dispute between Soviet and American teams over who discovered elements 104 and 105, the IUPAC arbitration that lasted decades, and the deeper question of what it means to 'discover' something you created in a particle accelerator. Explore how the act of naming is an act of claiming, and how even in pure science, priority, nationalism, and personality shape what we call the fundamental building blocks of reality. Include the strange tradition of naming elements after countries, cities, and scientists, and what those choices reveal about who gets to write the story of matter."
+  },
+  {
+    "slug": "the-thermometer-that-changed-what-we-feared",
+    "title": "The Thermometer That Changed What We Feared",
+    "subtitle": "How a simple instrument didn't just measure temperature — it invented the concept of normal, and made deviation into disease",
+    "category": "History of Science",
+    "color": "amber",
+    "description": "Before thermometers, illness was a narrative — a story of humors, spirits, and imbalance that only a patient could tell. After Carl Wunderlich published his 1851 study of a million armpit readings, illness became a number. 98.6°F didn't describe health; it invented it. This is the story of how a measuring instrument quietly restructured human self-perception, turned the body into a data point, and gave institutions — doctors, militaries, insurance companies — a new kind of authority over the living.",
+    "imagePrompt": "A vintage clinical thermometer lying on aged medical ledger paper filled with columns of numbers, warm amber light, close-up macro photography, dust motes, scientific melancholy",
+    "essayPrompt": "Write a deep, curious essay about how the clinical thermometer transformed illness from a subjective experience into an objective deviation from a statistical norm — tracing Carl Wunderlich's mass data collection, the invention of 'normal' body temperature, and how measurement instruments don't just quantify reality but reshape it, creating new categories of the healthy and the sick, the safe and the dangerous."
+  },
+  {
+    "slug": "the-mine-canary-was-a-policy",
+    "title": "The Mine Canary Was a Policy",
+    "subtitle": "On the long tradition of using the vulnerable as detection instruments — and calling it protection",
+    "category": "Political Philosophy",
+    "color": "teal",
+    "description": "The canary in the coal mine is the most honest metaphor in industrial history. The bird didn't benefit from the arrangement. It was optimized for sensitivity to the thing that would kill the miners, deployed precisely because it was more fragile, and replaced when it died. The practice ran from 1911 to 1987 in British mines. But the logic is older and more pervasive: the use of the expendable as an early-warning system for the powerful is not a metaphor for policy — it often is the policy. This essay maps the uncomfortable distance between sentinel and sacrifice.",
+    "imagePrompt": "A small yellow canary in a simple wire cage against the black geometry of coal mine timber supports, single shaft of pale light from above, dramatic chiaroscuro, melancholic and precise",
+    "essayPrompt": "Write a probing, philosophical essay about the mine canary as both literal practice and political metaphor — examining how the logic of using the most vulnerable as detection instruments for systemic danger appears across history in labor, public health, and governance, and asking what it means when early warning systems are built from bodies that were already considered expendable."
   }
 ]
