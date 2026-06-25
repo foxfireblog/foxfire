@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-doomsday-clock-is-not-a-clock",
+    title: "The Doomsday Clock Is Not a Clock",
+    subtitle: "On the strange ritual of scientists telling time in a world that refuses to listen",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-doomsday-clock-is-not-a-clock.png",
+    publishedAt: "06/25/2026 02:41 AM",
+    description:
+      "The Bulletin of the Atomic Scientists has been setting a symbolic clock since 1947 — but what does it mean to measure proximity to annihilation, and what happens when the metaphor starts to fail?",
+  },
+  {
     slug: "the-friendship-that-split-the-atom",
     title: "The Friendship That Split the Atom",
     subtitle: "Heisenberg, Bohr, and the conversation that haunts physics",

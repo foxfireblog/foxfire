@@ -35,6 +35,13 @@ export default function TheFriendshipThatSplitTheAtom() {
       wordCount={3266}
       prevSlug="the-trembling-hand"
       prevTitle="The Trembling Hand"
+    nextSlug="the-doomsday-clock-is-not-a-clock"
+    nextTitle="The Doomsday Clock Is Not a Clock"
+    nextSubtitle="On the strange ritual of scientists telling time in a world that refuses to listen"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-doomsday-clock-is-not-a-clock.png"
+    nextReadTime="13 min"
     >
       <h2>The Walk in the Dark</h2>
 
