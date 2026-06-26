@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-backrooms",
+    title: "The Backrooms",
+    subtitle: "You noclipped out of reality and now there's nothing but fluorescent hum",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-backrooms.png",
+    publishedAt: "06/26/2026 12:28 PM",
+    description:
+      "How a single anonymous post about empty yellow rooms became the defining horror mythology of a generation raised on the internet.",
+  },
+  {
     slug: "the-road-of-bones",
     title: "The Road of Bones",
     subtitle: "How the Soviet Union paved its greatest highway with the dead",
