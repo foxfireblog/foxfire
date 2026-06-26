@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-road-of-bones",
+    title: "The Road of Bones",
+    subtitle: "How the Soviet Union paved its greatest highway with the dead",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-road-of-bones.png",
+    publishedAt: "06/26/2026 02:49 AM",
+    description:
+      "The R504 Kolyma Highway stretches across eastern Siberia — built by gulag prisoners whose bodies were buried beneath it, a road that is literally made of the people who made it.",
+  },
+  {
     slug: "the-panopticon-in-your-pocket",
     title: "The Panopticon in Your Pocket",
     subtitle: "Jeremy Bentham dreamed of a prison where inmates would police themselves. We built it voluntarily and called it a smartphone.",
