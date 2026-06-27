@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-general-strike-of-everything",
+    title: "The General Strike of Everything",
+    subtitle: "For nine days in 1926, Britain simply stopped — and discovered what it was actually made of",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-general-strike-of-everything.png",
+    publishedAt: "06/27/2026 02:04 AM",
+    description:
+      "In May 1926, nearly two million British workers walked out simultaneously, and for nine extraordinary days the country had to confront a question it still hasn't answered: what happens when the people who make everything work decide to stop?",
+  },
+  {
     slug: "the-backrooms",
     title: "The Backrooms",
     subtitle: "You noclipped out of reality and now there's nothing but fluorescent hum",
