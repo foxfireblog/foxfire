@@ -5452,5 +5452,25 @@
     "description": "Brutalist architecture is the most viscerally hated style in modern history — and also one of the most passionately defended. Its architects were not sadists. They were utopians. They believed raw concrete was honest. They believed monumental scale was democratic. They believed that if you built workers a palace, the workers would feel like kings. They were wrong about almost everything, and yet the buildings they left behind haunt us in ways no prettier structure ever could.",
     "imagePrompt": "A massive brutalist housing estate photographed at golden hour, enormous raw concrete towers with geometric repetition, overgrown vegetation at the base, dramatic shadows carved by the angular forms, a single lit window far up the building, moody and monumental, architectural photography with melancholy atmosphere",
     "essayPrompt": "Write a rich, ambivalent essay about Brutalist architecture — its origins in postwar idealism, its philosophical foundations in Le Corbusier's vision of the Radiant City, and its catastrophic collision with human reality. Explore why these buildings were meant to liberate people but often made them feel trapped, why the architects genuinely believed in what they were building, what sociological forces turned utopian housing into crime-ridden towers, and why Brutalism is now experiencing a fierce aesthetic revival. Examine specific structures: Trellick Tower, Habitat 67, Robin Hood Gardens, the Barbican. Ask the real question underneath: what does it mean when idealism calcifies into concrete, and the dream becomes a place people cannot leave?"
+  },
+  {
+    "slug": "the-wobblies-and-the-word",
+    "title": "The Wobblies and the Word",
+    "subtitle": "How a radical union built a literature of dissent from the bottom of American society",
+    "category": "History",
+    "color": "red",
+    "description": "The Industrial Workers of the World were not just a labor organization — they were a publishing empire, a songwriting collective, a propaganda machine run by loggers and dockworkers and migrants who could barely afford paper. Their little red songbooks outsold the Bible in certain bunkhouses. Their soapbox orators invented techniques that Madison Avenue would later steal. This is the story of how the most surveilled, beaten, and deported union in American history turned language itself into a weapon — and how that weapon still echoes.",
+    "imagePrompt": "A worn red IWW songbook lying open on rough-hewn timber, surrounded by faded strike posters and handwritten lyrics, dramatic raking light, photorealistic, documentary style",
+    "essayPrompt": "Write a deep, vivid, surprising essay about the Industrial Workers of the World — not as a political organization but as a cultural and literary phenomenon. Explore their songbooks, their soapbox oratory tradition, the free speech fights in Spokane and San Diego, the way they used poetry and music as organizing tools. Include figures like Joe Hill, Big Bill Haywood, and Elizabeth Gurley Flynn. Examine how their propaganda techniques were simultaneously radical and foundational to modern mass communication. What did it mean to build a culture of resistance from scratch, using only words and music, among people who had almost nothing?"
+  },
+  {
+    "slug": "the-enclosure-of-time",
+    "title": "The Enclosure of Time",
+    "subtitle": "When factory owners discovered that controlling the clock was the same as controlling the body",
+    "category": "History",
+    "color": "amber",
+    "description": "Before industrial capitalism, most people worked by the rhythm of tasks — you finished the work when the work was done. The invention of the wage-hour relationship did something strange and violent to human consciousness: it transformed time itself into a commodity that could be bought, sold, and stolen. Workers were fined for looking out windows. Clocks in factories ran fast. The entire architecture of the industrial workplace was designed to make workers feel that their own hours belonged to someone else. This is the hidden history of the war over time — and why we are still losing it.",
+    "imagePrompt": "An enormous factory clock face looming over rows of silhouetted workers at identical stations, harsh industrial light, early 20th century setting, moody and oppressive atmosphere, photorealistic",
+    "essayPrompt": "Write a deep, surprising essay about the historical transformation of human beings' relationship to time under industrial capitalism. Draw on E.P. Thompson's 'Time, Work-Discipline, and Industrial Capitalism' but go further — explore how pre-industrial task-oriented time worked, how the factory clock was a technology of control, how workers resisted through slowdowns and 'Saint Monday' traditions, how the eight-hour day movement was fundamentally a struggle over who owned a person's hours. Connect this to modern surveillance capitalism's colonization of attention. What does it mean that we still measure our worth in billable hours?"
   }
 ]
