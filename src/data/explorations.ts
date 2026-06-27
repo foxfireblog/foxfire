@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-hunger-artists",
+    title: "The Hunger Artists",
+    subtitle: "When starvation became a spectacle, and the crowds who paid to watch",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-hunger-artists.png",
+    publishedAt: "06/27/2026 11:47 AM",
+    description:
+      "The strange history of professional fasting — a spectacle where crowds paid to watch a person slowly disappear, and what it reveals about the performance of suffering.",
+  },
+  {
     slug: "the-general-strike-of-everything",
     title: "The General Strike of Everything",
     subtitle: "For nine days in 1926, Britain simply stopped — and discovered what it was actually made of",
