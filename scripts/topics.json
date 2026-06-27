@@ -5472,5 +5472,25 @@
     "description": "Before industrial capitalism, most people worked by the rhythm of tasks — you finished the work when the work was done. The invention of the wage-hour relationship did something strange and violent to human consciousness: it transformed time itself into a commodity that could be bought, sold, and stolen. Workers were fined for looking out windows. Clocks in factories ran fast. The entire architecture of the industrial workplace was designed to make workers feel that their own hours belonged to someone else. This is the hidden history of the war over time — and why we are still losing it.",
     "imagePrompt": "An enormous factory clock face looming over rows of silhouetted workers at identical stations, harsh industrial light, early 20th century setting, moody and oppressive atmosphere, photorealistic",
     "essayPrompt": "Write a deep, surprising essay about the historical transformation of human beings' relationship to time under industrial capitalism. Draw on E.P. Thompson's 'Time, Work-Discipline, and Industrial Capitalism' but go further — explore how pre-industrial task-oriented time worked, how the factory clock was a technology of control, how workers resisted through slowdowns and 'Saint Monday' traditions, how the eight-hour day movement was fundamentally a struggle over who owned a person's hours. Connect this to modern surveillance capitalism's colonization of attention. What does it mean that we still measure our worth in billable hours?"
+  },
+  {
+    "slug": "the-fasting-girls",
+    "title": "The Fasting Girls",
+    "subtitle": "The Victorian women who claimed to live on nothing — and the doctors who believed them",
+    "category": "History",
+    "color": "violet",
+    "description": "In the 1870s and 1880s, a strange epidemic swept through rural America and Britain: young women who claimed to survive without food for months or even years. They became celebrity spectacles, pilgrimage sites, and newspaper sensations. Some were frauds. Some were desperately ill. A few died when skeptics forced them to prove their claims under watch. The 'fasting girl' phenomenon sits at the intersection of religious ecstasy, proto-anorexia, female performance, medical skepticism, and Victorian hunger for the miraculous.",
+    "imagePrompt": "A pale Victorian girl in white dress lying in an ornate bed surrounded by flowers and curious onlookers, dramatic chiaroscuro lighting, daguerreotype aesthetic, eerily serene expression",
+    "essayPrompt": "Write a deep, exploratory essay about the Victorian 'fasting girls' phenomenon — young women who claimed to subsist without food and became public spectacles. Explore the individual cases (Sarah Jacob in Wales, Mollie Fancher in Brooklyn), the medical establishment's attempts to verify or disprove their claims, the gender dynamics at play, the overlap with religious fasting traditions and miracle culture, the role of the press, and what these cases reveal about female bodies as contested public territory. Connect to broader questions of performance, belief, illness, and the need — both cultural and personal — to transcend the body's demands."
+  },
+  {
+    "slug": "the-spectacle-of-the-duel",
+    "title": "The Spectacle of the Duel",
+    "subtitle": "Why educated men agreed to shoot each other in front of an audience — and why it worked",
+    "category": "History",
+    "color": "amber",
+    "description": "For nearly three centuries, dueling was the primary technology for managing reputation among European and American elites. It was irrational by every measure — illegal, lethal, and statistically pointless. And yet lawyers, politicians, surgeons, and poets lined up to participate. The duel was not really about violence. It was a performance of a particular kind of selfhood: the man who valued honor more than survival. Understanding why it worked — and why it eventually stopped working — illuminates something strange and persistent about how humans use ritualized suffering to produce social meaning.",
+    "imagePrompt": "Two men in early 19th century dress facing each other at dawn in a misty field, pistols raised, witnesses watching from the tree line, painterly atmosphere, golden morning light through fog",
+    "essayPrompt": "Write a deep, exploratory essay about the duel as a social and philosophical institution rather than merely a violent practice. Examine why rational, intelligent people participated in something demonstrably absurd — the game theory of honor, the role of the second, the choreography of the encounter. Explore famous duels (Hamilton-Burr, Pushkin's fatal duel, the parliamentary duels of Ireland) as case studies. Ask what the duel *produced* socially that courts and laws could not. Connect to the broader human need for rituals of witnessed suffering and the performance of the self that does not flinch — and why that performance commanded, and sometimes still commands, enormous social power."
   }
 ]
