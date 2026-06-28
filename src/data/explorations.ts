@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mountains-the-sea-forgot",
+    title: "The Mountains the Sea Forgot",
+    subtitle: "Every summit is a graveyard of the deep",
+    category: "Natural History",
+    color: "teal",
+    readTime: "14 min",
+    image: "/images/explorations/the-mountains-the-sea-forgot.png",
+    publishedAt: "06/28/2026 07:10 AM",
+    description:
+      "High in the Himalayas and the Alps, the stone underfoot was once seafloor — and the fossils at the summit were once alive at the bottom.",
+  },
+  {
     slug: "the-phantom-atlas",
     title: "The Phantom Atlas",
     subtitle: "Islands that existed only in ink, and the centuries it took to drown them",

@@ -35,6 +35,13 @@ export default function ThePhantomAtlas() {
       wordCount={2957}
       prevSlug="the-hunger-artists"
       prevTitle="The Hunger Artists"
+    nextSlug="the-mountains-the-sea-forgot"
+    nextTitle="The Mountains the Sea Forgot"
+    nextSubtitle="Every summit is a graveyard of the deep"
+    nextCategory="Natural History"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-mountains-the-sea-forgot.png"
+    nextReadTime="14 min"
     >
       <h2>The Drowned Archive</h2>
 
