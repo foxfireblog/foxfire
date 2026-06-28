@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-phantom-atlas",
+    title: "The Phantom Atlas",
+    subtitle: "Islands that existed only in ink, and the centuries it took to drown them",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-phantom-atlas.png",
+    publishedAt: "06/27/2026 08:37 PM",
+    description:
+      "For centuries, maps were haunted by islands, mountains, and continents that never existed — and erasing them proved harder than discovering the real ones.",
+  },
+  {
     slug: "the-hunger-artists",
     title: "The Hunger Artists",
     subtitle: "When starvation became a spectacle, and the crowds who paid to watch",
