@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-city-that-ate-its-cats",
+    title: "The City That Ate Its Cats",
+    subtitle: "On what happens when civilization reaches the bone",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-city-that-ate-its-cats.png",
+    publishedAt: "06/28/2026 05:20 PM",
+    description:
+      "What the choices people make in extremity reveal about the thinness of civilization — and what lies beneath it.",
+  },
+  {
     slug: "the-mountains-the-sea-forgot",
     title: "The Mountains the Sea Forgot",
     subtitle: "Every summit is a graveyard of the deep",

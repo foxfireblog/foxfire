@@ -35,6 +35,13 @@ export default function TheMountainsTheSeaForgot() {
       wordCount={3156}
       prevSlug="the-phantom-atlas"
       prevTitle="The Phantom Atlas"
+    nextSlug="the-city-that-ate-its-cats"
+    nextTitle="The City That Ate Its Cats"
+    nextSubtitle="On what happens when civilization reaches the bone"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-city-that-ate-its-cats.png"
+    nextReadTime="11 min"
     >
       <h2>The Roof of the World Is a Seabed</h2>
 
