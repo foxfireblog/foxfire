@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-teeth-of-the-conveyor",
+    title: "The Teeth of the Conveyor",
+    subtitle: "How the slaughterhouse invented the assembly line, and the assembly line invented us",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-teeth-of-the-conveyor.png",
+    publishedAt: "06/29/2026 02:43 AM",
+    description:
+      "The modern assembly line was born not in Henry Ford's automobile factory but in the killing floors of Chicago's meatpacking plants — and the inversion changed everything about how we understand work, bodies, and efficiency.",
+  },
+  {
     slug: "the-city-that-ate-its-cats",
     title: "The City That Ate Its Cats",
     subtitle: "On what happens when civilization reaches the bone",
