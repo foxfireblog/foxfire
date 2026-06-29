@@ -5532,5 +5532,25 @@
     "description": "In 541 AD, a ship docked at the Egyptian port of Pelusium carrying grain — and something else. Within months, the Plague of Justinian was killing up to 10,000 people a day in Constantinople. The historian Procopius described bodies stacked in towers, mass graves dug at sea, and an emperor who locked himself in his palace and may have contracted the disease himself. Unlike the Black Death, the Plague of Justinian has largely disappeared from popular memory — yet many historians argue it was the true killing blow to the Roman world, breaking the tax base that funded Justinian's armies, halting his near-reconquest of the Western Empire, and creating the political vacuum into which Islam would expand a century later. The rats in the granaries of Egypt, trading their fleas across the Mediterranean, may have done what no barbarian army could: ended antiquity itself.",
     "imagePrompt": "A Byzantine harbor at dusk, vast grain ships docked at golden wharves, rats silhouetted along the ropes, the city's domes glowing behind a sickly yellow haze, mosaic art style meets historical painting",
     "essayPrompt": "Write a Foxfire essay about the Plague of Justinian — the forgotten pandemic that may have ended the ancient world. Explore why this catastrophe has vanished from popular memory while the Black Death has not, what Procopius witnessed in Constantinople, and how a disease carried by rats in Egyptian grain ships may have foreclosed the possibility of Rome's revival and shaped the rise of a new religion. Sit with the strangeness of history hinging on a flea."
+  },
+  {
+    "slug": "the-company-that-owned-the-river",
+    "title": "The Company That Owned the River",
+    "subtitle": "How industrial capitalism learned to buy time itself",
+    "category": "History",
+    "color": "teal",
+    "description": "In the 19th century, mill owners across Britain and America didn't just buy land and machinery — they bought the hours of the day. The factory bell replaced the sun. Employers criminalized workers who kept their own clocks. This is the story of how clock time became a form of property, and how the dispossession of time was the first act of industrial conquest.",
+    "imagePrompt": "A Victorian factory clock tower looming over small brick row houses, iron bell, foggy morning light, workers streaming through gates, dramatic low angle, painterly industrial atmosphere",
+    "essayPrompt": "Write a deeply researched, narrative-driven Foxfire essay about how factory owners in the industrial revolution systematically seized control of time itself — making workers dependent on employer-owned clocks, criminalizing personal timekeeping, stretching hours through clock manipulation, and transforming the hour into a unit of property. Explore E.P. Thompson's foundational work on 'time discipline,' the specific documented cases of mill owners caught tampering with clocks, the resistance movements that arose around workers keeping their own time, and how this temporal enclosure shaped the modern experience of alienation. The essay should feel urgent and strange — as if revealing something hiding in plain sight about what work really is."
+  },
+  {
+    "slug": "the-hand-that-signs-the-name",
+    "title": "The Hand That Signs the Name",
+    "subtitle": "On repetitive strain, assembly line bodies, and the century-long erasure of occupational injury",
+    "category": "Science",
+    "color": "amber",
+    "description": "Bernardino Ramazzini described it in 1713: the particular ruin that repetitive labor inflicts on the body. Scribes, weavers, glassblowers — each trade carried its own deformations. Two centuries later, the industrial assembly line industrialized the injury itself, producing damage so common it became invisible. This is the history of how medicine learned to see — and then unlearn how to see — the body broken by work.",
+    "imagePrompt": "Close-up of weathered, swollen human hands against dark background, one hand holding a worn tool, dramatic chiaroscuro lighting, medical illustration aesthetic mixed with fine art photography",
+    "essayPrompt": "Write a Foxfire essay tracing the long, strange history of occupational medicine — from Ramazzini's 1713 catalog of craft-specific diseases, through the deliberate suppression of industrial injury research by company physicians in the 20th century, to the modern controversy around repetitive strain injury and carpal tunnel syndrome. Explore how the visibility of work-related injury has been politically contested — how industries funded studies to reframe damage as personal fragility rather than systemic harm, how workers' compensation law shaped what doctors were allowed to diagnose, and how the body itself became a site of legal and scientific dispute. The essay should feel like a detective story about erasure, where the clues are in the hands of millions of people."
   }
 ]
