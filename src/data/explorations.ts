@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-creatures-that-invented-glass",
+    title: "The Creatures That Invented Glass",
+    subtitle: "How a sea sponge built better fiber optics than Bell Labs",
+    category: "Natural History",
+    color: "cyan",
+    readTime: "12 min",
+    image: "/images/explorations/the-creatures-that-invented-glass.png",
+    publishedAt: "06/29/2026 01:10 PM",
+    description:
+      "Deep in the ocean, glass sponges have been engineering structures of breathtaking sophistication for 600 million years — and we're only now learning to copy their homework.",
+  },
+  {
     slug: "the-teeth-of-the-conveyor",
     title: "The Teeth of the Conveyor",
     subtitle: "How the slaughterhouse invented the assembly line, and the assembly line invented us",

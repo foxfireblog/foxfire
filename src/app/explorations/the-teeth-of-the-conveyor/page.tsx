@@ -35,6 +35,13 @@ export default function TheTeethOfTheConveyor() {
       wordCount={2721}
       prevSlug="the-city-that-ate-its-cats"
       prevTitle="The City That Ate Its Cats"
+    nextSlug="the-creatures-that-invented-glass"
+    nextTitle="The Creatures That Invented Glass"
+    nextSubtitle="How a sea sponge built better fiber optics than Bell Labs"
+    nextCategory="Natural History"
+    nextCategoryColor="cyan"
+    nextImage="/images/explorations/the-creatures-that-invented-glass.png"
+    nextReadTime="12 min"
     >
       <h2>Porkopolis</h2>
 
