@@ -35,6 +35,13 @@ export default function TheCreaturesThatInventedGlass() {
       wordCount={2748}
       prevSlug="the-teeth-of-the-conveyor"
       prevTitle="The Teeth of the Conveyor"
+    nextSlug="the-desk-murderers"
+    nextTitle="The Desk Murderers"
+    nextSubtitle="How paperwork became the perfect weapon for mass killing"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-desk-murderers.png"
+    nextReadTime="12 min"
     >
       <h2>The Factory at the Bottom of the Sea</h2>
 

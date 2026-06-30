@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-desk-murderers",
+    title: "The Desk Murderers",
+    subtitle: "How paperwork became the perfect weapon for mass killing",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-desk-murderers.png",
+    publishedAt: "06/30/2026 02:14 AM",
+    description:
+      "The most efficient killers in history never touched their victims — they signed forms, adjusted quotas, and went home for dinner.",
+  },
+  {
     slug: "the-creatures-that-invented-glass",
     title: "The Creatures That Invented Glass",
     subtitle: "How a sea sponge built better fiber optics than Bell Labs",
