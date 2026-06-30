@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-election-that-nobody-won",
+    title: "The Election That Nobody Won",
+    subtitle: "On sortition, democracy's forgotten twin, and the strange wisdom of choosing by chance",
+    category: "Essay",
+    color: "amber",
+    readTime: "11 min",
+    image: "/images/explorations/the-election-that-nobody-won.png",
+    publishedAt: "06/30/2026 12:54 PM",
+    description:
+      "Before democracy meant elections, it meant the lottery — and the ancient argument for choosing leaders by chance is more compelling than you'd think.",
+  },
+  {
     slug: "the-desk-murderers",
     title: "The Desk Murderers",
     subtitle: "How paperwork became the perfect weapon for mass killing",

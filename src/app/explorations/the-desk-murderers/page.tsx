@@ -35,6 +35,13 @@ export default function TheDeskMurderers() {
       wordCount={2805}
       prevSlug="the-creatures-that-invented-glass"
       prevTitle="The Creatures That Invented Glass"
+    nextSlug="the-election-that-nobody-won"
+    nextTitle="The Election That Nobody Won"
+    nextSubtitle="On sortition, democracy's forgotten twin, and the strange wisdom of choosing by chance"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-election-that-nobody-won.png"
+    nextReadTime="11 min"
     >
       <h2>The Price of a Ticket</h2>
 
