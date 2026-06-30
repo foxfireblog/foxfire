@@ -5592,5 +5592,25 @@
     "description": "Every army in history has needed soldiers who follow orders. Every atrocity in history has been carried out by soldiers who followed orders. This is not a coincidence — it is a design feature. The military virtues of loyalty, discipline, and obedience are also, under the right circumstances, the perfect preconditions for war crimes. This essay asks an uncomfortable question: is the good soldier, by definition, a moral hazard?",
     "imagePrompt": "A lone soldier in dress uniform standing at rigid attention in an empty gray room, his face completely expressionless, his shadow on the wall behind him cast at a slightly different, more ominous angle, high contrast black and white photography, deeply psychological",
     "essayPrompt": "Write a searching philosophical essay on the tension between military virtue and moral agency — exploring the Nuremberg defense, the My Lai massacre and how ordinary soldiers participated, Stanley Milgram's obedience experiments, and the philosophical tradition from Kant to Michael Walzer on just war and individual conscience. Examine how militaries deliberately engineer the suppression of individual moral judgment as a feature, not a bug — and what this means for accountability. Explore the historical cases of soldiers who refused orders (and were punished) versus those who obeyed (and were later prosecuted). Ask: can a system that requires moral suspension ever produce moral actors? End with the paradox that the best soldiers and the worst war criminals may share the same foundational virtue."
+  },
+  {
+    "slug": "the-hanging-chad-of-history",
+    "title": "The Hanging Chad of History",
+    "subtitle": "How the machinery of counting has always determined who counts",
+    "category": "Politics",
+    "color": "amber",
+    "description": "Long before Florida 2000, elections were decided by the people who counted the votes, not the people who cast them. From the Roman tabularii who could make a senator disappear through selective arithmetic, to the returning officers of Victorian Britain who had near-absolute power to invalidate ballots based on personal whim, the history of democratic counting is a history of human judgment dressed up as mathematical certainty. This essay explores the strange truth that every election is ultimately a performance of consensus — and what happens when the stagehands refuse to leave.",
+    "imagePrompt": "A massive pile of paper ballots under a single harsh lamp, a pair of hands holding one ballot up to the light, dramatic chiaroscuro, photorealistic, detailed paper texture, shadows of bureaucratic machinery",
+    "essayPrompt": "Write a Foxfire essay about the history of vote-counting as a site of power — not fraud exactly, but the terrifying discretion that has always lived inside the machinery of democratic tallying. Move through time: Roman election officials, Victorian returning officers, the strange legal status of the spoiled ballot, the 2000 Florida recount as the moment the machinery became visible. Argue that elections are not mathematics but rituals of legitimacy, and that the count is always an interpretation. Use specific historical examples, quiet dread, and philosophical curiosity."
+  },
+  {
+    "slug": "the-government-in-exile",
+    "title": "The Government in Exile",
+    "subtitle": "On the strange persistence of nations that no longer exist",
+    "category": "History",
+    "color": "indigo",
+    "description": "For decades after World War II, a group of elderly men met in London to conduct the official business of a country the Soviets had swallowed whole. They had a president, a cabinet, a foreign minister, diplomatic passports — and no territory whatsoever. Governments in exile are one of the strangest inventions of modern statecraft: legal fictions maintained by willpower alone, nations that exist entirely in the subjunctive tense. Some lasted years. Some lasted generations. One, the Knights of Malta, has lasted centuries and technically still issues passports to this day. This is the story of sovereignty without land, of the bureaucracy of hope.",
+    "imagePrompt": "An ornate government seal on official letterhead, the paper yellowed and slightly crumbling, resting on a London desk with rain-streaked windows behind it, soft melancholy light, photorealistic still life",
+    "essayPrompt": "Write a Foxfire essay about governments in exile — the Baltic states operating out of Western embassies for fifty years, the Polish government-in-exile in London, the Knights of Malta as a sovereign entity with no territory, the Tibetan government in Dharamsala. Ask what sovereignty actually is when it is stripped of land and force. Explore how these bodies maintained legal continuity, why other nations recognized them or refused to, and what it means to govern a people through the sheer insistence that you still exist. The tone should be elegiac and philosophically probing."
   }
 ]
