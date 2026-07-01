@@ -5612,5 +5612,25 @@
     "description": "For decades after World War II, a group of elderly men met in London to conduct the official business of a country the Soviets had swallowed whole. They had a president, a cabinet, a foreign minister, diplomatic passports — and no territory whatsoever. Governments in exile are one of the strangest inventions of modern statecraft: legal fictions maintained by willpower alone, nations that exist entirely in the subjunctive tense. Some lasted years. Some lasted generations. One, the Knights of Malta, has lasted centuries and technically still issues passports to this day. This is the story of sovereignty without land, of the bureaucracy of hope.",
     "imagePrompt": "An ornate government seal on official letterhead, the paper yellowed and slightly crumbling, resting on a London desk with rain-streaked windows behind it, soft melancholy light, photorealistic still life",
     "essayPrompt": "Write a Foxfire essay about governments in exile — the Baltic states operating out of Western embassies for fifty years, the Polish government-in-exile in London, the Knights of Malta as a sovereign entity with no territory, the Tibetan government in Dharamsala. Ask what sovereignty actually is when it is stripped of land and force. Explore how these bodies maintained legal continuity, why other nations recognized them or refused to, and what it means to govern a people through the sheer insistence that you still exist. The tone should be elegiac and philosophically probing."
+  },
+  {
+    "slug": "the-kula-ring",
+    "title": "The Kula Ring",
+    "subtitle": "The economy that runs on gifts no one can keep",
+    "category": "Anthropology",
+    "color": "amber",
+    "description": "Across the Trobriand Islands of Papua New Guinea, thousands of islanders maintain an elaborate network of ritual exchange — trading shell armbands and necklaces that travel in opposite directions around a ring of islands, passing from hand to hand, never accumulating, never stopping. The objects are valueless by any market logic. Yet the Kula has sustained trade, diplomacy, and peace across hundreds of miles of open ocean for centuries. Bronisław Malinowski stumbled upon it in 1914 and was never quite the same. Neither was economics.",
+    "imagePrompt": "Shell necklaces and armbands laid on dark woven mat, pale nautilus light, aerial view of island chain in background, deep blue Pacific, anthropological stillness, documentary photograph",
+    "essayPrompt": "Write a Foxfire essay about the Kula Ring of the Trobriand Islands — the great circular exchange network of shell armbands and necklaces that travels perpetually around a ring of Pacific islands, never accumulating in any single hand. Explore what it means to build an economy on objects that must always move on, what the Kula reveals about the nature of value, prestige, and obligation, how Malinowski's encounter with it challenged Western assumptions about rational economic behavior, and what it might mean for us that entire civilizations have been sustained by the act of giving away what you've been given."
+  },
+  {
+    "slug": "the-sumptuary-laws",
+    "title": "The Sumptuary Laws",
+    "subtitle": "When governments decided what you were allowed to wear",
+    "category": "History",
+    "color": "violet",
+    "description": "For most of human history, what you wore was not a matter of taste — it was a matter of law. Sumptuary laws, enacted across ancient Rome, medieval Europe, Ming Dynasty China, Tokugawa Japan, and Aztec Tenochtitlan, regulated who could wear silk, who could display fur, who could use certain colors, who could serve meat at a wedding. The laws were almost always violated and rarely enforced. Yet they reveal something urgent: every society that has ever concentrated wealth has also felt the need to make it visible — and then, periodically, to forbid others from imitating it. The story of sumptuary laws is the story of what happens when status meets cloth.",
+    "imagePrompt": "Renaissance portrait fragment — sleeve detail of crimson silk brocade, gold thread, ermine trim, against dark background, oil painting texture, extreme close-up, museum quality",
+    "essayPrompt": "Write a Foxfire essay about sumptuary laws — the centuries-long global tradition of governments regulating what citizens could wear, eat, display, and consume based on rank, class, and wealth. Explore examples from Rome, medieval England, Tokugawa Japan, and Ming China, examine why these laws were perpetually enacted and perpetually violated, and ask the deeper question they raise: why does every stratified society eventually feel compelled to make inequality visible in cloth and color? Connect the impulse behind sumptuary laws to the potlatch, to luxury branding, to the politics of who gets to display wealth and who gets punished for it."
   }
 ]
