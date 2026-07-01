@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-gift-economy-of-the-potlatch",
+    title: "The Gift Economy of the Potlatch",
+    subtitle: "Why the Canadian government made generosity illegal",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-gift-economy-of-the-potlatch.png",
+    publishedAt: "07/01/2026 02:32 AM",
+    description:
+      "The Canadian government spent decades trying to criminalize the potlatch — a ceremony built on giving everything away — because generosity, it turns out, is the most dangerous thing an empire can encounter.",
+  },
+  {
     slug: "the-election-that-nobody-won",
     title: "The Election That Nobody Won",
     subtitle: "On sortition, democracy's forgotten twin, and the strange wisdom of choosing by chance",

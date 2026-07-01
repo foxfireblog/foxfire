@@ -35,6 +35,13 @@ export default function TheElectionThatNobodyWon() {
       wordCount={2597}
       prevSlug="the-desk-murderers"
       prevTitle="The Desk Murderers"
+    nextSlug="the-gift-economy-of-the-potlatch"
+    nextTitle="The Gift Economy of the Potlatch"
+    nextSubtitle="Why the Canadian government made generosity illegal"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-gift-economy-of-the-potlatch.png"
+    nextReadTime="13 min"
     >
       <h2>The Boy in the Piazza</h2>
 
