@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-stutterers-gift",
+    title: "The Stutterer's Gift",
+    subtitle: "On the eloquence of broken speech",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-stutterers-gift.png",
+    publishedAt: "07/01/2026 12:31 PM",
+    description:
+      "An essay about stuttering as a window into the strange relationship between thought, language, and the body that refuses to cooperate.",
+  },
+  {
     slug: "the-gift-economy-of-the-potlatch",
     title: "The Gift Economy of the Potlatch",
     subtitle: "Why the Canadian government made generosity illegal",
