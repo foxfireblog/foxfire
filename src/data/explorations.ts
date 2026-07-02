@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-polywater-delusion",
+    title: "The Polywater Delusion",
+    subtitle: "How the world's best scientists convinced themselves that water had a dangerous twin",
+    category: "Essay",
+    color: "cyan",
+    readTime: "11 min",
+    image: "/images/explorations/the-polywater-delusion.png",
+    publishedAt: "07/02/2026 12:53 PM",
+    description:
+      "In the 1960s, a Soviet lab accident spawned a scientific panic: a new form of water that could, theoretically, end all life on Earth.",
+  },
+  {
     slug: "the-bestiary-and-the-real",
     title: "The Bestiary and the Real",
     subtitle: "Medieval scholars described animals they had never seen. They were not wrong in the way you think.",

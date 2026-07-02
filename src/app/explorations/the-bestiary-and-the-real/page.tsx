@@ -35,6 +35,13 @@ export default function TheBestiaryAndTheReal() {
       wordCount={2944}
       prevSlug="the-stutterers-gift"
       prevTitle="The Stutterer's Gift"
+    nextSlug="the-polywater-delusion"
+    nextTitle="The Polywater Delusion"
+    nextSubtitle="How the world's best scientists convinced themselves that water had a dangerous twin"
+    nextCategory="Essay"
+    nextCategoryColor="cyan"
+    nextImage="/images/explorations/the-polywater-delusion.png"
+    nextReadTime="11 min"
     >
       <h2>The Crocodile That Looked Like a Wolf</h2>
 
