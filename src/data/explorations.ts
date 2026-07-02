@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-bestiary-and-the-real",
+    title: "The Bestiary and the Real",
+    subtitle: "Medieval scholars described animals they had never seen. They were not wrong in the way you think.",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-bestiary-and-the-real.png",
+    publishedAt: "07/02/2026 02:10 AM",
+    description:
+      "How medieval bestiaries — those gorgeous catalogs of impossible creatures — reveal something profound about the difference between knowledge and seeing.",
+  },
+  {
     slug: "the-stutterers-gift",
     title: "The Stutterer's Gift",
     subtitle: "On the eloquence of broken speech",

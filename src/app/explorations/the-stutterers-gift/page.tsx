@@ -35,6 +35,13 @@ export default function TheStutterersGift() {
       wordCount={3216}
       prevSlug="the-gift-economy-of-the-potlatch"
       prevTitle="The Gift Economy of the Potlatch"
+    nextSlug="the-bestiary-and-the-real"
+    nextTitle="The Bestiary and the Real"
+    nextSubtitle="Medieval scholars described animals they had never seen. They were not wrong in the way you think."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-bestiary-and-the-real.png"
+    nextReadTime="13 min"
     >
       <h2>The Mouth Full of Coals</h2>
 
