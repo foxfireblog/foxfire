@@ -35,6 +35,13 @@ export default function ThePolywaterDelusion() {
       wordCount={2627}
       prevSlug="the-bestiary-and-the-real"
       prevTitle="The Bestiary and the Real"
+    nextSlug="the-scientists-who-built-a-fake-past"
+    nextTitle="The Scientists Who Built a Fake Past"
+    nextSubtitle="A history of scientific forgery is really a history of what we desperately want to be true"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-scientists-who-built-a-fake-past.png"
+    nextReadTime="14 min"
     >
       <h2>The Sweat of a Handball Player</h2>
 

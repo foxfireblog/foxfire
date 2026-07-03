@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-scientists-who-built-a-fake-past",
+    title: "The Scientists Who Built a Fake Past",
+    subtitle: "A history of scientific forgery is really a history of what we desperately want to be true",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-scientists-who-built-a-fake-past.png",
+    publishedAt: "07/03/2026 01:57 AM",
+    description:
+      "From Piltdown Man to Hwang Woo-suk, the great scientific frauds reveal less about deception than about the aching human need for the world to be a certain way.",
+  },
+  {
     slug: "the-polywater-delusion",
     title: "The Polywater Delusion",
     subtitle: "How the world's best scientists convinced themselves that water had a dangerous twin",
