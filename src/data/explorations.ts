@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-corpse-that-made-law",
+    title: "The Corpse That Made Law",
+    subtitle: "How the dead have testified, accused, and changed the rules for the living",
+    category: "Essay",
+    color: "red",
+    readTime: "15 min",
+    image: "/images/explorations/the-corpse-that-made-law.png",
+    publishedAt: "07/03/2026 12:06 PM",
+    description:
+      "From medieval deodands to modern forensic evidence, the dead have shaped law in ways the living never intended.",
+  },
+  {
     slug: "the-scientists-who-built-a-fake-past",
     title: "The Scientists Who Built a Fake Past",
     subtitle: "A history of scientific forgery is really a history of what we desperately want to be true",
