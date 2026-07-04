@@ -5711,5 +5711,25 @@
     "color": "emerald",
     "description": "In 1971, a Philippine government official announced the discovery of the Tasaday — a Stone Age tribe living in a remote Mindanao rainforest, untouched by civilization for a thousand years. They wore leaves, lived in caves, had no words for war or enemy, and used stone tools. National Geographic ran a cover story. Charles Lindbergh visited. The world was enchanted. Ferdinand Marcos declared their forest a protected reserve and sealed it from outsiders. Then, in 1986, after Marcos fled and journalists snuck in, they found the Tasaday in jeans and T-shirts, living in ordinary villages nearby. Some claimed the whole thing was a hoax orchestrated to justify a land reservation and distract from Marcos's political troubles. Others insisted they were real. The debate has never been fully settled — and that ambiguity is exactly the point. The Tasaday became a mirror for what the modern world desperately wanted to believe, and what it was willing not to question.",
     "imagePrompt": "A lush Philippine rainforest, shafts of green light falling through dense jungle canopy, the mouth of a cave half-hidden by tropical ferns, a single stone tool resting on a mossy rock, the atmosphere dreamlike and quietly unsettling, emerald and shadow"
+  },
+  {
+    "slug": "the-bone-readers",
+    "title": "The Bone Readers",
+    "subtitle": "What skeletons say that documents never will",
+    "category": "Science & History",
+    "color": "amber",
+    "description": "Before there were death certificates, there were bones. Forensic anthropologists and bioarchaeologists have developed an uncanny ability to read the silent testimony of the dead — not just cause of death, but childhood hunger, repetitive labor, healed fractures from old violence, the specific posture of a life spent at a loom or a oar. These are confessions the living never made. The discipline raises a haunting question: what do we owe the dead who never chose to speak to us?",
+    "imagePrompt": "A single human bone resting on a dark examination table under a single warm light, surrounded by handwritten notes and measuring calipers, atmospheric and intimate",
+    "essayPrompt": "Write a deep, reflective essay about bioarchaeology and forensic anthropology as a form of reading the dead — exploring the science of what bones reveal (diet, labor, trauma, disease, migration), the ethics of excavating and studying human remains without consent, key cases where skeletal analysis overturned the historical record, and the strange intimacy of reconstructing a life from its last physical residue. Consider what it means that bones speak more honestly than the documents that tried to describe their owners."
+  },
+  {
+    "slug": "the-interpreter-at-the-end-of-the-world",
+    "title": "The Interpreter at the End of the World",
+    "subtitle": "On the people who stood between languages — and what it cost them",
+    "category": "History & Language",
+    "color": "teal",
+    "description": "Every colonial encounter, every treaty signing, every interrogation across a language barrier required a human bridge: the interpreter. These figures — often indigenous people who learned the colonizer's tongue, enslaved people who became indispensable, captives turned translators — occupied the most dangerous position imaginable. They were trusted by neither side, suspected by both, and bore the impossible burden of rendering one world legible to another. History has largely erased them, but when you look, they are everywhere — and their silences were as consequential as their words.",
+    "imagePrompt": "Two figures facing each other across a narrow dark space, one hand extended toward the other, their faces partially obscured, a single candle casting long shadows, painted in muted earth tones",
+    "essayPrompt": "Write a deep, reflective essay about the hidden figures of colonial and diplomatic history: the interpreters, translators, and go-betweens who mediated between worlds. Explore specific cases — La Malinche, Squanto, the interpreters of the Berlin Conference, translators at Nuremberg — examining the impossible position they occupied, how they were used and discarded, how their choices shaped history in ways never attributed to them, and what the erasure of their names tells us about how power writes its own story. Consider translation itself as a form of power — the ability to decide what is said, softened, omitted, or transformed."
   }
 ]
