@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-language-of-the-dead",
+    title: "The Language of the Dead",
+    subtitle: "How the living have always put words in the mouths of the departed",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-language-of-the-dead.png",
+    publishedAt: "07/04/2026 01:55 AM",
+    description:
+      "From ancient Egyptian tomb autobiographies to AI-generated chatbots trained on the deceased, humans have never stopped making the dead speak — and what they say reveals far more about the living.",
+  },
+  {
     slug: "the-corpse-that-made-law",
     title: "The Corpse That Made Law",
     subtitle: "How the dead have testified, accused, and changed the rules for the living",

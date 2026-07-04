@@ -35,6 +35,13 @@ export default function TheCorpseThatMadeLaw() {
       wordCount={3368}
       prevSlug="the-scientists-who-built-a-fake-past"
       prevTitle="The Scientists Who Built a Fake Past"
+    nextSlug="the-language-of-the-dead"
+    nextTitle="The Language of the Dead"
+    nextSubtitle="How the living have always put words in the mouths of the departed"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-language-of-the-dead.png"
+    nextReadTime="13 min"
     >
 
       The Corpse That Made Law
