@@ -35,6 +35,13 @@ export default function TheLanguageOfTheDead() {
       wordCount={2893}
       prevSlug="the-corpse-that-made-law"
       prevTitle="The Corpse That Made Law"
+    nextSlug="the-trial-of-the-rooster"
+    nextTitle="The Trial of the Rooster"
+    nextSubtitle="When Europe put animals on trial &mdash; and what it says about the stories we need justice to tell"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-trial-of-the-rooster.png"
+    nextReadTime="14 min"
     >
       <h2>The Tomb Speaks First</h2>
 

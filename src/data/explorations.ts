@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-trial-of-the-rooster",
+    title: "The Trial of the Rooster",
+    subtitle: "When Europe put animals on trial — and what it says about the stories we need justice to tell",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-trial-of-the-rooster.png",
+    publishedAt: "07/04/2026 11:27 AM",
+    description:
+      "For centuries, European courts prosecuted pigs, rats, weevils, and roosters with full legal ceremony — and the reasons why are stranger and more revealing than the spectacle itself.",
+  },
+  {
     slug: "the-language-of-the-dead",
     title: "The Language of the Dead",
     subtitle: "How the living have always put words in the mouths of the departed",
