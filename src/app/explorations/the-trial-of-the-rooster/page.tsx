@@ -35,6 +35,13 @@ export default function TheTrialOfTheRooster() {
       wordCount={3126}
       prevSlug="the-language-of-the-dead"
       prevTitle="The Language of the Dead"
+    nextSlug="the-republic-of-minerva"
+    nextTitle="The Republic of Minerva"
+    nextSubtitle="A millionaire, a coral reef, and the loneliest nation on Earth"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-republic-of-minerva.png"
+    nextReadTime="14 min"
     >
       <h2>The Egg That Hatched a Monster</h2>
 

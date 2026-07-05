@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-republic-of-minerva",
+    title: "The Republic of Minerva",
+    subtitle: "A millionaire, a coral reef, and the loneliest nation on Earth",
+    category: "Essay",
+    color: "teal",
+    readTime: "14 min",
+    image: "/images/explorations/the-republic-of-minerva.png",
+    publishedAt: "07/04/2026 08:17 PM",
+    description:
+      "In 1972, a libertarian real estate developer dumped sand on a coral reef in the South Pacific and declared it a sovereign nation — and what happened next is stranger and more instructive than the punchline suggests.",
+  },
+  {
     slug: "the-trial-of-the-rooster",
     title: "The Trial of the Rooster",
     subtitle: "When Europe put animals on trial — and what it says about the stories we need justice to tell",
