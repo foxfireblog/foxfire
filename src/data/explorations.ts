@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-parasite-that-thinks-it-is-you",
+    title: "The Parasite That Thinks It Is You",
+    subtitle: "On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-parasite-that-thinks-it-is-you.png",
+    publishedAt: "07/05/2026 05:15 PM",
+    description:
+      "Toxoplasma gondii rewrites the behavior of its hosts with surgical precision — and a third of all humans are already infected.",
+  },
+  {
     slug: "the-anatomy-of-confession",
     title: "The Anatomy of Confession",
     subtitle: "How a wooden box invented the modern self",
