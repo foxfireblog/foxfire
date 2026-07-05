@@ -5791,5 +5791,25 @@
     "description": "In 1487, two Dominican inquisitors published a procedural guide for identifying, interrogating, and condemning witches. It was not a book of theology or madness. It was a manual of forms, checklists, and legal protocols — and it sent tens of thousands to their deaths through the power of standardized process.",
     "imagePrompt": "An ancient leather-bound tome open to dense Latin text, surrounded by flickering candlelight, ink-stained quill resting on the page, dramatic shadows, illuminated manuscript details visible at the margins, dark and atmospheric",
     "essayPrompt": "Write a deeply researched, narratively compelling essay about the Malleus Maleficarum — the Hammer of Witches — not as a curiosity of medieval superstition but as a case study in how bureaucratic procedure can systematize atrocity. Explore its authors Heinrich Kramer and Jakob Sprenger, its surprisingly contested reception by the Church, and how it spread through the new technology of the printing press. Focus especially on its interrogation protocols: the standardized questions, the logic of evidence that made accusation functionally equivalent to proof, and the way it transformed personal confession into a legal product. Connect this to broader questions about how institutions shape what counts as truth, how procedure can launder cruelty into legality, and why the horror of the witch trials was not primitive irrationality but something more like hyper-rational bureaucratic machinery. The tone should be scholarly, grave, and morally serious."
+  },
+  {
+    "slug": "the-autoimmune-war-within",
+    "title": "The Autoimmune War Within",
+    "subtitle": "When the body decides you are the enemy",
+    "category": "Science",
+    "color": "rose",
+    "description": "The immune system is one of evolution's most sophisticated achievements — a surveillance network that can distinguish self from non-self across trillions of cells. But sometimes it gets it wrong. In autoimmune disease, the body's defenders turn on healthy tissue with the same ferocity they'd bring to a foreign invader. What does it mean when the self becomes the threat? And why does this happen far more often to women than men?",
+    "imagePrompt": "A microscopic battlefield rendered as a Renaissance oil painting, immune cells depicted as armored soldiers attacking beautiful stained-glass cathedral architecture representing healthy tissue, deep rose and gold palette, baroque drama and biological horror combined",
+    "essayPrompt": "Write a deep, lyrical essay about autoimmune disease as a philosophical and biological phenomenon — the immune system's failure to recognize the self, why this might be an evolutionary trade-off, the strange epidemiology of who gets these diseases, the history of how medicine came to understand them, and what it means to be at war with your own body. Explore the metaphysics of self-recognition. Draw on cases like lupus, multiple sclerosis, and rheumatoid arthritis. Consider what the autoimmune body teaches us about identity, boundaries, and the impossibility of perfect self-knowledge."
+  },
+  {
+    "slug": "the-epigenetic-ghost",
+    "title": "The Epigenetic Ghost",
+    "subtitle": "Your ancestors' hungers live inside you",
+    "category": "Science",
+    "color": "violet",
+    "description": "For most of the twentieth century, biology held that the experiences of your life could not be inherited by your children — that evolution worked only through genetic mutation across generations. Then came a series of disturbing studies. The grandchildren of men who starved during the Överkalix famine carried metabolic signatures of that hunger. Children of Holocaust survivors showed altered stress hormones they'd never earned. The trauma and feast and starvation of the dead seem to echo forward through chemical marks on DNA that survive the reset of reproduction.",
+    "imagePrompt": "A translucent human figure containing within it a slightly smaller figure, which contains another smaller figure, rendered in violet and silver, like a set of ghostly Russian dolls dissolving at the edges into double-helix spirals, dark atmospheric background, haunting and beautiful",
+    "essayPrompt": "Write a deep, intellectually rigorous yet lyrical essay on epigenetic inheritance — the mechanism by which lived experience can be chemically marked onto DNA and passed to descendants. Cover the history of how this upended the modern synthesis, the key studies including Överkalix, Dutch Hunger Winter, and Holocaust survivor research. Explore the philosophical implications: if your ancestors' traumas live in your body, where does their experience end and yours begin? What does this mean for free will, for healing, for the idea that each generation starts fresh? Consider the darker historical resonances — how this knowledge both vindicates and complicates narratives of inherited suffering."
   }
 ]
