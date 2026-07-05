@@ -5771,5 +5771,25 @@
     "description": "Every new nation needs a currency, and every utopian community has tried to invent one. The Owenite labor notes of 1830s London, the Wörgl miracle of 1932 Austria, the WIR franc that quietly saved Swiss small businesses for ninety years — each was an attempt to answer the same radical question: what if money reflected human values instead of capital accumulation? These experiments in alternative currency reveal something profound about the nature of value itself. Money is not a neutral tool. It is a philosophy embedded in paper, a social contract you carry in your pocket. And when communities try to rewrite that contract, the results are by turns beautiful, tragic, and deeply strange.",
     "imagePrompt": "A collection of unusual handmade currency notes and coins spread across a wooden table, some featuring labor symbols, community imagery, and utopian iconography, warm raking light, hyperrealistic macro photography",
     "essayPrompt": "Write a rich, intellectually adventurous essay about the history of alternative currencies — from Robert Owen's labor notes to the Wörgl stamp scrip experiment to modern local currencies like the Bristol Pound and the WIR franc. Examine what each experiment reveals about the philosophy of value, the nature of trust, and what money actually is. Why do some alternative currencies work briefly and then fail? Why has the WIR survived for ninety years while others collapsed in months? Draw on economic philosophy, anthropology (Graeber's debt theories), and specific vivid historical moments to argue that every currency is ultimately a utopian document — a bet on what kind of society we want to live in."
+  },
+  {
+    "slug": "the-polygraph-as-theater",
+    "title": "The Polygraph as Theater",
+    "subtitle": "How a machine that cannot detect lies became the most powerful lie in law enforcement history",
+    "category": "Hidden Science",
+    "color": "violet",
+    "description": "The polygraph does not work. Every major scientific body that has examined it has said so. And yet for over a century, it has shaped confessions, ended careers, and decided who is trustworthy — because the belief in the machine is the machine.",
+    "imagePrompt": "A vintage polygraph machine with its inked needles tracing jagged lines across rolling paper, dramatic chiaroscuro lighting, the needles like accusatory fingers, moody noir atmosphere, photorealistic",
+    "essayPrompt": "Write a deeply researched, narratively rich essay about the polygraph — its invention by John Larson and the showman William Marston, its scientific debunking, and its extraordinary persistence in American law enforcement and intelligence agencies despite that debunking. Explore the psychology of why subjects confess to polygraph operators not because the machine detects lies, but because they believe it does. Examine the famous cases where it failed spectacularly — Aldrich Ames, Gary Ridgway — and the careers it destroyed on false positives. Investigate what the polygraph's strange career reveals about confession, authority, the theater of truth-detection, and why we so badly want to believe a machine can see inside us. The tone should be precise, curious, and slightly unsettling."
+  },
+  {
+    "slug": "the-inquisitors-manual",
+    "title": "The Inquisitor's Manual",
+    "subtitle": "The Malleus Maleficarum was a bureaucratic handbook — and that is what made it monstrous",
+    "category": "Forgotten History",
+    "color": "red",
+    "description": "In 1487, two Dominican inquisitors published a procedural guide for identifying, interrogating, and condemning witches. It was not a book of theology or madness. It was a manual of forms, checklists, and legal protocols — and it sent tens of thousands to their deaths through the power of standardized process.",
+    "imagePrompt": "An ancient leather-bound tome open to dense Latin text, surrounded by flickering candlelight, ink-stained quill resting on the page, dramatic shadows, illuminated manuscript details visible at the margins, dark and atmospheric",
+    "essayPrompt": "Write a deeply researched, narratively compelling essay about the Malleus Maleficarum — the Hammer of Witches — not as a curiosity of medieval superstition but as a case study in how bureaucratic procedure can systematize atrocity. Explore its authors Heinrich Kramer and Jakob Sprenger, its surprisingly contested reception by the Church, and how it spread through the new technology of the printing press. Focus especially on its interrogation protocols: the standardized questions, the logic of evidence that made accusation functionally equivalent to proof, and the way it transformed personal confession into a legal product. Connect this to broader questions about how institutions shape what counts as truth, how procedure can launder cruelty into legality, and why the horror of the witch trials was not primitive irrationality but something more like hyper-rational bureaucratic machinery. The tone should be scholarly, grave, and morally serious."
   }
 ]
