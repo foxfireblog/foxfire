@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-anatomy-of-confession",
+    title: "The Anatomy of Confession",
+    subtitle: "How a wooden box invented the modern self",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-anatomy-of-confession.png",
+    publishedAt: "07/05/2026 06:14 AM",
+    description:
+      "How the Catholic confessional accidentally created introspection, the talking cure, the police interrogation, and the idea that you have an inner life worth examining.",
+  },
+  {
     slug: "the-republic-of-minerva",
     title: "The Republic of Minerva",
     subtitle: "A millionaire, a coral reef, and the loneliest nation on Earth",
