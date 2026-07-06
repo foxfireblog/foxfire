@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-yucca-and-the-moth",
+    title: "The Yucca and the Moth",
+    subtitle: "A love story forty million years old — and what happens when one partner cheats",
+    category: "Natural History",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-yucca-and-the-moth.png",
+    publishedAt: "07/06/2026 01:09 PM",
+    description:
+      "The most intimate partnership in nature is also one of the most fragile — a parable about trust, cheating, and the evolutionary cost of devotion.",
+  },
+  {
     slug: "the-contagion-of-laughter",
     title: "The Contagion of Laughter",
     subtitle: "In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny.",
