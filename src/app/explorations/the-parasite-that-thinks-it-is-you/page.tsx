@@ -35,6 +35,13 @@ export default function TheParasiteThatThinksItIsYou() {
       wordCount={2998}
       prevSlug="the-anatomy-of-confession"
       prevTitle="The Anatomy of Confession"
+    nextSlug="the-contagion-of-laughter"
+    nextTitle="The Contagion of Laughter"
+    nextSubtitle="In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-contagion-of-laughter.png"
+    nextReadTime="13 min"
     >
       <h2>The Scientist Who Stopped Fearing Traffic</h2>
 

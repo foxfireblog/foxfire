@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-contagion-of-laughter",
+    title: "The Contagion of Laughter",
+    subtitle: "In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny.",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-contagion-of-laughter.png",
+    publishedAt: "07/06/2026 02:57 AM",
+    description:
+      "The 1962 Tanganyika laughter epidemic reveals something unsettling about how emotions move through bodies and societies — and what happens when the social body cracks.",
+  },
+  {
     slug: "the-parasite-that-thinks-it-is-you",
     title: "The Parasite That Thinks It Is You",
     subtitle: "On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin",
