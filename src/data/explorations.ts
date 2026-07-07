@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-last-hermits",
+    title: "The Last Hermits",
+    subtitle: "On the strange, stubborn history of people who chose to disappear",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-last-hermits.png",
+    publishedAt: "07/07/2026 02:48 AM",
+    description:
+      "The people who walked away from civilization and what their disappearances reveal about the world they left behind.",
+  },
+  {
     slug: "the-yucca-and-the-moth",
     title: "The Yucca and the Moth",
     subtitle: "A love story forty million years old — and what happens when one partner cheats",
