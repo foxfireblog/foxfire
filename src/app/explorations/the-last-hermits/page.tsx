@@ -35,6 +35,13 @@ export default function TheLastHermits() {
       wordCount={3094}
       prevSlug="the-yucca-and-the-moth"
       prevTitle="The Yucca and the Moth"
+    nextSlug="the-veterinarians-of-the-apocalypse"
+    nextTitle="The Veterinarians of the Apocalypse"
+    nextSubtitle="How the people who watch animals die have always seen the future first"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-veterinarians-of-the-apocalypse.png"
+    nextReadTime="13 min"
     >
       <h2>The Man in the Walk-In Freezer</h2>
 

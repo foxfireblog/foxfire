@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-veterinarians-of-the-apocalypse",
+    title: "The Veterinarians of the Apocalypse",
+    subtitle: "How the people who watch animals die have always seen the future first",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-veterinarians-of-the-apocalypse.png",
+    publishedAt: "07/07/2026 12:50 PM",
+    description:
+      "The quiet, devastating history of veterinarians, wildlife biologists, and animal workers who recognized catastrophes — plagues, poisonings, ecological collapse — years before anyone listened.",
+  },
+  {
     slug: "the-last-hermits",
     title: "The Last Hermits",
     subtitle: "On the strange, stubborn history of people who chose to disappear",
