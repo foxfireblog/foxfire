@@ -35,6 +35,13 @@ export default function TheSparrowCampaign() {
       wordCount={2355}
       prevSlug="the-veterinarians-of-the-apocalypse"
       prevTitle="The Veterinarians of the Apocalypse"
+    nextSlug="the-wolf-children-of-east-prussia"
+    nextTitle="The Wolf Children of East Prussia"
+    nextSubtitle="After the war ended, thousands of German children walked alone into the forests of Lithuania. Most never came back."
+    nextCategory="History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-wolf-children-of-east-prussia.png"
+    nextReadTime="10 min"
     >
       <h2>The Arithmetic of Sparrows</h2>
 

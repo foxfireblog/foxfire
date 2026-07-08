@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-wolf-children-of-east-prussia",
+    title: "The Wolf Children of East Prussia",
+    subtitle: "After the war ended, thousands of German children walked alone into the forests of Lithuania. Most never came back.",
+    category: "History",
+    color: "emerald",
+    readTime: "10 min",
+    image: "/images/explorations/the-wolf-children-of-east-prussia.png",
+    publishedAt: "07/08/2026 12:15 PM",
+    description:
+      "The forgotten story of the Wolfskinder — German orphans who survived the end of World War II by walking into the Lithuanian wilderness and becoming someone else entirely.",
+  },
+  {
     slug: "the-sparrow-campaign",
     title: "The Sparrow Campaign",
     subtitle: "How Mao declared war on a bird — and the bird won",
