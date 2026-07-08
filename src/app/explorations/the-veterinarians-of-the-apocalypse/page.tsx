@@ -35,6 +35,13 @@ export default function TheVeterinariansOfTheApocalypse() {
       wordCount={2908}
       prevSlug="the-last-hermits"
       prevTitle="The Last Hermits"
+    nextSlug="the-sparrow-campaign"
+    nextTitle="The Sparrow Campaign"
+    nextSubtitle="How Mao declared war on a bird &mdash; and the bird won"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-sparrow-campaign.png"
+    nextReadTime="10 min"
     >
       <h2>The Dancing Cats</h2>
 

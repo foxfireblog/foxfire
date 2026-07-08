@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-sparrow-campaign",
+    title: "The Sparrow Campaign",
+    subtitle: "How Mao declared war on a bird — and the bird won",
+    category: "Essay",
+    color: "amber",
+    readTime: "10 min",
+    image: "/images/explorations/the-sparrow-campaign.png",
+    publishedAt: "07/08/2026 01:32 AM",
+    description:
+      "In 1958, China mobilized 600 million people to exterminate the Eurasian tree sparrow — and triggered one of the worst famines in human history.",
+  },
+  {
     slug: "the-veterinarians-of-the-apocalypse",
     title: "The Veterinarians of the Apocalypse",
     subtitle: "How the people who watch animals die have always seen the future first",
