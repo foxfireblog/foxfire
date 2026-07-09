@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-phonograph-in-the-pharaohs-tomb",
+    title: "The Phonograph in the Pharaoh's Tomb",
+    subtitle: "On the dream of recovering sounds that were never recorded",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-phonograph-in-the-pharaohs-tomb.png",
+    publishedAt: "07/09/2026 12:58 PM",
+    description:
+      "The centuries-long obsession with the idea that ancient sounds — a potter's voice, a mason's chisel, the wind over Pompeii — might be accidentally preserved in physical objects, waiting to be played back.",
+  },
+  {
     slug: "the-ghost-empire-of-trebizond",
     title: "The Ghost Empire of Trebizond",
     subtitle: "The last fragment of Byzantium that refused to die",

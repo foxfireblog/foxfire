@@ -35,6 +35,13 @@ export default function TheGhostEmpireOfTrebizond() {
       wordCount={3328}
       prevSlug="the-wolf-children-of-east-prussia"
       prevTitle="The Wolf Children of East Prussia"
+    nextSlug="the-phonograph-in-the-pharaohs-tomb"
+    nextTitle="The Phonograph in the Pharaoh's Tomb"
+    nextSubtitle="On the dream of recovering sounds that were never recorded"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-phonograph-in-the-pharaohs-tomb.png"
+    nextReadTime="12 min"
     >
       <h2>The Secretary&apos;s Grief</h2>
 
