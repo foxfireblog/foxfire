@@ -35,6 +35,13 @@ export default function TheWolfChildrenOfEastPrussia() {
       wordCount={2414}
       prevSlug="the-sparrow-campaign"
       prevTitle="The Sparrow Campaign"
+    nextSlug="the-ghost-empire-of-trebizond"
+    nextTitle="The Ghost Empire of Trebizond"
+    nextSubtitle="The last fragment of Byzantium that refused to die"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-ghost-empire-of-trebizond.png"
+    nextReadTime="14 min"
     >
       <h2>The Ban on Running</h2>
 

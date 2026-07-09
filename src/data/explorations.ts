@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ghost-empire-of-trebizond",
+    title: "The Ghost Empire of Trebizond",
+    subtitle: "The last fragment of Byzantium that refused to die",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-ghost-empire-of-trebizond.png",
+    publishedAt: "07/09/2026 02:34 AM",
+    description:
+      "On the strange, stubborn, beautiful final remnant of the Roman Empire — a kingdom perched on cliffs above the Black Sea that outlived Constantinople itself.",
+  },
+  {
     slug: "the-wolf-children-of-east-prussia",
     title: "The Wolf Children of East Prussia",
     subtitle: "After the war ended, thousands of German children walked alone into the forests of Lithuania. Most never came back.",
