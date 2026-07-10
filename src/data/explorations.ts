@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-second-circulation",
+    title: "The Second Circulation",
+    subtitle: "Inside Poland's clandestine publishing empire — the most sophisticated underground press in history",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-second-circulation.png",
+    publishedAt: "07/10/2026 12:34 PM",
+    description:
+      "How Polish dissidents built an entire parallel publishing industry beneath the nose of a surveillance state — and proved that the most dangerous weapon is a mimeograph machine.",
+  },
+  {
     slug: "the-listeners",
     title: "The Listeners",
     subtitle: "A history of people who devoted their lives to sounds no one else could hear",
