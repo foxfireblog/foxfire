@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-listeners",
+    title: "The Listeners",
+    subtitle: "A history of people who devoted their lives to sounds no one else could hear",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-listeners.png",
+    publishedAt: "07/10/2026 01:58 AM",
+    description:
+      "From whale song hunters to cosmic microphone operators to the women who listened for submarines, a history of those who strained toward sounds at the edge of perception.",
+  },
+  {
     slug: "the-phonograph-in-the-pharaohs-tomb",
     title: "The Phonograph in the Pharaoh's Tomb",
     subtitle: "On the dream of recovering sounds that were never recorded",
