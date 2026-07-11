@@ -35,6 +35,13 @@ export default function TheMirrorThatBreaksPhysics() {
       wordCount={2963}
       prevSlug="the-second-circulation"
       prevTitle="The Second Circulation"
+    nextSlug="the-morphine-doctors"
+    nextTitle="The Morphine Doctors"
+    nextSubtitle="When medicine decided some suffering was worth keeping"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-morphine-doctors.png"
+    nextReadTime="13 min"
     >
       <h2>The Bet That God Would Play Fair</h2>
 

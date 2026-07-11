@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-morphine-doctors",
+    title: "The Morphine Doctors",
+    subtitle: "When medicine decided some suffering was worth keeping",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-morphine-doctors.png",
+    publishedAt: "07/11/2026 11:18 AM",
+    description:
+      "The strange history of how medicine learned to relieve pain, then spent centuries debating who deserved relief.",
+  },
+  {
     slug: "the-mirror-that-breaks-physics",
     title: "The Mirror That Breaks Physics",
     subtitle: "How nature's secret handedness shattered the most beautiful assumption in science",
