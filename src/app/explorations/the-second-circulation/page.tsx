@@ -35,6 +35,13 @@ export default function TheSecondCirculation() {
       wordCount={2963}
       prevSlug="the-listeners"
       prevTitle="The Listeners"
+    nextSlug="the-mirror-that-breaks-physics"
+    nextTitle="The Mirror That Breaks Physics"
+    nextSubtitle="How nature's secret handedness shattered the most beautiful assumption in science"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-mirror-that-breaks-physics.png"
+    nextReadTime="13 min"
     >
       <h2>The Smell of Freedom</h2>
 

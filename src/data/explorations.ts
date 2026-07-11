@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mirror-that-breaks-physics",
+    title: "The Mirror That Breaks Physics",
+    subtitle: "How nature's secret handedness shattered the most beautiful assumption in science",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-mirror-that-breaks-physics.png",
+    publishedAt: "07/11/2026 01:00 AM",
+    description:
+      "The universe treats left and right differently, and nobody knows why — a story about the death of a perfect symmetry.",
+  },
+  {
     slug: "the-second-circulation",
     title: "The Second Circulation",
     subtitle: "Inside Poland's clandestine publishing empire — the most sophisticated underground press in history",
