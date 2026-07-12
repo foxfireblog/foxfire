@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-government-in-exile",
+    title: "The Government in Exile",
+    subtitle: "On the strange persistence of nations that no longer exist",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-government-in-exile.png",
+    publishedAt: "07/12/2026 06:30 AM",
+    description:
+      "Some nations lose their territory but refuse to stop existing — holding cabinet meetings in hotel rooms, issuing passports no border guard will honor, keeping the flame of a country alive through sheer bureaucratic stubbornness.",
+  },
+  {
     slug: "the-interpreter-at-the-end-of-the-world",
     title: "The Interpreter at the End of the World",
     subtitle: "On the people who stood between languages — and what it cost them",
