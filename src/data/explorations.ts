@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-involuntary-confession-of-the-body",
+    title: "The Involuntary Confession of the Body",
+    subtitle: "How medicine learned to read what patients could not say — and what it took from them in the exchange",
+    category: "Essay",
+    color: "rose",
+    readTime: "15 min",
+    image: "/images/explorations/the-involuntary-confession-of-the-body.png",
+    publishedAt: "07/12/2026 05:26 PM",
+    description:
+      "The history of medicine reading the body against its owner's wishes — from the stethoscope to the polygraph to the fMRI — and the slow erosion of the last private territory.",
+  },
+  {
     slug: "the-government-in-exile",
     title: "The Government in Exile",
     subtitle: "On the strange persistence of nations that no longer exist",
