@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-interpreter-at-the-end-of-the-world",
+    title: "The Interpreter at the End of the World",
+    subtitle: "On the people who stood between languages — and what it cost them",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-interpreter-at-the-end-of-the-world.png",
+    publishedAt: "07/11/2026 08:21 PM",
+    description:
+      "The interpreters who stood between conquering and conquered languages carried impossible burdens — trusted by neither side, belonging to both, holding the hinge on which worlds turned and broke.",
+  },
+  {
     slug: "the-morphine-doctors",
     title: "The Morphine Doctors",
     subtitle: "When medicine decided some suffering was worth keeping",
