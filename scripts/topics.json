@@ -6051,5 +6051,25 @@
     "description": "In the decades before drug regulation, the United States was flooded with bottles of colored water laced with alcohol, opium, cocaine, and arsenic — sold as cures for everything from 'female weakness' to cancer. Soothing syrups for infants contained morphine. Catarrh powders were nearly pure cocaine. The companies that sold them built the first modern advertising industry: testimonials, newspaper spreads, celebrity endorsements, before-and-after photography. When journalists finally cracked the bottles open and printed the ingredients, the public was not disgusted. Many were grateful. They had been feeling so much better. The story of patent medicines is the story of American self-reliance turned into a commercial trap, and of a nation that had to be taught, against its will, that it could not cure itself.",
     "imagePrompt": "A general store counter lined with hundreds of ornate glass bottles in amber and green, hand-lettered signs promising miraculous cures, a woman in Victorian dress studying a label, warm lamplight, photorealistic still life",
     "essayPrompt": "Write a sweeping narrative essay about the patent medicine industry in America from roughly 1850 to 1910. Explore the specific products, the advertising genius behind them, the actual ingredients (opiates, alcohol, cocaine), and the populations most targeted — women, the chronically ill, grieving parents. Then trace how muckraking journalists like Samuel Hopkins Adams exposed the industry, and the political battle that led to the Pure Food and Drug Act of 1906. What does this history reveal about the relationship between desperation, trust, and commerce?"
+  },
+  {
+    "slug": "the-last-tongue-in-the-room",
+    "title": "The Last Tongue in the Room",
+    "subtitle": "What happens to a trial when the language of the accused has no word for guilt",
+    "category": "Language & Power",
+    "color": "violet",
+    "description": "In courtrooms from Nuremberg to The Hague, a quiet crisis unfolds that no one announces: the untranslatable concept, the verdict that doesn't survive the crossing between languages. This is the story of how justice depends on translation, and how translation always fails — not dramatically, but quietly, in the pause before the interpreter speaks.",
+    "imagePrompt": "A Baroque courtroom seen from above, every person at the table separated by a glass partition, headphones on, each staring in a different direction, the room filled with a strange amber light as if the air itself is thickening",
+    "essayPrompt": "Write a Foxfire essay about the hidden failures of courtroom interpretation — from Nuremberg's translation apparatus to modern international tribunals — exploring cases where untranslatable concepts (guilt, intent, consent, sovereignty) shaped verdicts, and examining what it means to be judged in a language that cannot hold you."
+  },
+  {
+    "slug": "the-diplomat-who-spoke-in-silence",
+    "title": "The Diplomat Who Spoke in Silence",
+    "subtitle": "The forgotten history of go-betweens, cultural brokers, and the people who stood between empires",
+    "category": "History & Power",
+    "color": "teal",
+    "description": "Before treaties, before ambassadors, before the Congress of Vienna rationalized diplomacy into a profession — there were the go-betweens. Enslaved people who knew both languages. Indigenous translators who rewrote their nations' fates in the margins of every negotiation. Missionaries who chose which words to soften. This is a history of power exercised not by those who spoke loudest, but by those who decided what was heard.",
+    "imagePrompt": "A vast shadowy map of trade routes and empire borders overlaid with ghostly silhouettes of figures standing at crossroads, each one slightly transparent, lantern light catching their faces mid-sentence, the cartographic lines bending toward wherever they stand",
+    "essayPrompt": "Write a Foxfire essay about the cultural brokers, translators, and go-betweens who shaped history from the margins — figures like La Malinche, Squanto, the dragomans of the Ottoman court, and unnamed enslaved interpreters — examining how the act of translation was never neutral, and how these figures were celebrated, exploited, and then erased from the histories they made possible."
   }
 ]
