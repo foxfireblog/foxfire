@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-indigo-conspiracy",
+    title: "The Indigo Conspiracy",
+    subtitle: "The dye that built empires, enslaved millions, and was murdered by a molecule",
+    category: "Essay",
+    color: "indigo",
+    readTime: "15 min",
+    image: "/images/explorations/the-indigo-conspiracy.png",
+    publishedAt: "07/13/2026 05:10 PM",
+    description:
+      "For centuries, indigo was worth more than gold by weight — a color so valuable it created plantations, fueled revolts, and was ultimately assassinated by industrial chemistry.",
+  },
+  {
     slug: "the-pale-astronaut",
     title: "The Pale Astronaut",
     subtitle: "What happens to the human body when it leaves the world it was built for",
