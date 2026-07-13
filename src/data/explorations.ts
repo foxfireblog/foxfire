@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-pale-astronaut",
+    title: "The Pale Astronaut",
+    subtitle: "What happens to the human body when it leaves the world it was built for",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-pale-astronaut.png",
+    publishedAt: "07/13/2026 07:37 AM",
+    description:
+      "The human body is a love letter to Earth — and space is the process of that letter being returned, unread, to sender.",
+  },
+  {
     slug: "the-involuntary-confession-of-the-body",
     title: "The Involuntary Confession of the Body",
     subtitle: "How medicine learned to read what patients could not say — and what it took from them in the exchange",
