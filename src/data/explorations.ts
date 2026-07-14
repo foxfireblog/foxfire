@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ovation-that-wouldnt-stop",
+    title: "The Ovation That Wouldn't Stop",
+    subtitle: "On the terror of being the first person to stop clapping",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-ovation-that-wouldnt-stop.png",
+    publishedAt: "07/14/2026 02:12 PM",
+    description:
+      "How a standing ovation under Stalin became a death sentence, and what applause reveals about the geometry of fear.",
+  },
+  {
     slug: "the-plague-doctor-was-a-bureaucrat",
     title: "The Plague Doctor Was a Bureaucrat",
     subtitle: "How the Black Death invented public health — and the surveillance state that came with it",
