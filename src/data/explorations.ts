@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-plague-doctor-was-a-bureaucrat",
+    title: "The Plague Doctor Was a Bureaucrat",
+    subtitle: "How the Black Death invented public health — and the surveillance state that came with it",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-plague-doctor-was-a-bureaucrat.png",
+    publishedAt: "07/14/2026 03:18 AM",
+    description:
+      "The Black Death didn't just kill a third of Europe — it invented quarantine, health passes, contact tracing, and the idea that the state has the right to control your body in a crisis.",
+  },
+  {
     slug: "the-indigo-conspiracy",
     title: "The Indigo Conspiracy",
     subtitle: "The dye that built empires, enslaved millions, and was murdered by a molecule",

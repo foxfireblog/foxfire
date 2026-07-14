@@ -35,6 +35,13 @@ export default function TheIndigoConspiracy() {
       wordCount={3345}
       prevSlug="the-pale-astronaut"
       prevTitle="The Pale Astronaut"
+    nextSlug="the-plague-doctor-was-a-bureaucrat"
+    nextTitle="The Plague Doctor Was a Bureaucrat"
+    nextSubtitle="How the Black Death invented public health &mdash; and the surveillance state that came with it"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-plague-doctor-was-a-bureaucrat.png"
+    nextReadTime="12 min"
     >
 
       <p className="text-sm font-medium text-accent mb-2 tracking-widest uppercase">Essay</p>
