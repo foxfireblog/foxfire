@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-economics-of-the-deathbed",
+    title: "The Economics of the Deathbed",
+    subtitle: "How dying became a market, a legal battleground, and the last thing left to privatize",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-economics-of-the-deathbed.png",
+    publishedAt: "07/15/2026 11:59 AM",
+    description:
+      "The moment of dying has become a commodity — fought over by insurers, hospitals, families, and the state — and the economics reveal what we actually believe about the value of a life.",
+  },
+  {
     slug: "the-glass-that-learned-to-see",
     title: "The Glass That Learned to See",
     subtitle: "How the lens didn't just magnify the world — it rewired the human mind",
