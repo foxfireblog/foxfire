@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-glass-that-learned-to-see",
+    title: "The Glass That Learned to See",
+    subtitle: "How the lens didn't just magnify the world — it rewired the human mind",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-glass-that-learned-to-see.png",
+    publishedAt: "07/15/2026 01:18 AM",
+    description:
+      "Before the lens, humans lived inside a world scaled to the naked eye — and then glass taught us to see what was never meant for us, and we became different creatures entirely.",
+  },
+  {
     slug: "the-ovation-that-wouldnt-stop",
     title: "The Ovation That Wouldn't Stop",
     subtitle: "On the terror of being the first person to stop clapping",

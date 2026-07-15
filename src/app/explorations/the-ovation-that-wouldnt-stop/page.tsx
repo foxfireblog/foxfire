@@ -35,6 +35,13 @@ export default function TheOvationThatWouldntStop() {
       wordCount={2778}
       prevSlug="the-plague-doctor-was-a-bureaucrat"
       prevTitle="The Plague Doctor Was a Bureaucrat"
+    nextSlug="the-glass-that-learned-to-see"
+    nextTitle="The Glass That Learned to See"
+    nextSubtitle="How the lens didn't just magnify the world &mdash; it rewired the human mind"
+    nextCategory="Essay"
+    nextCategoryColor="sky"
+    nextImage="/images/explorations/the-glass-that-learned-to-see.png"
+    nextReadTime="13 min"
     >
       <h2>Eleven Minutes</h2>
 
