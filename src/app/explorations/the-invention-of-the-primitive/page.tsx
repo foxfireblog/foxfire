@@ -35,6 +35,13 @@ export default function TheInventionOfThePrimitive() {
       wordCount={3196}
       prevSlug="the-economics-of-the-deathbed"
       prevTitle="The Economics of the Deathbed"
+    nextSlug="the-man-who-heard-color"
+    nextTitle="The Man Who Heard Color"
+    nextSubtitle="Synesthesia and the democracy of hallucination"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-man-who-heard-color.png"
+    nextReadTime="12 min"
     >
       <h2>The Cage in the Monkey House</h2>
 

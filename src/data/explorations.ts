@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-heard-color",
+    title: "The Man Who Heard Color",
+    subtitle: "Synesthesia and the democracy of hallucination",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-man-who-heard-color.png",
+    publishedAt: "07/16/2026 11:39 AM",
+    description:
+      "What synesthesia reveals about the fragile, constructed, and deeply private nature of all perception.",
+  },
+  {
     slug: "the-invention-of-the-primitive",
     title: "The Invention of the Primitive",
     subtitle: "Western civilization didn't discover indigenous peoples — it manufactured them",
