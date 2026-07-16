@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-invention-of-the-primitive",
+    title: "The Invention of the Primitive",
+    subtitle: "Western civilization didn't discover indigenous peoples — it manufactured them",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-invention-of-the-primitive.png",
+    publishedAt: "07/16/2026 01:29 AM",
+    description:
+      "How Europe constructed the concept of the 'primitive' not to describe other peoples but to justify what it intended to do to them.",
+  },
+  {
     slug: "the-economics-of-the-deathbed",
     title: "The Economics of the Deathbed",
     subtitle: "How dying became a market, a legal battleground, and the last thing left to privatize",
