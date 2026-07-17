@@ -35,6 +35,13 @@ export default function TheGhostOrchidAndItsSecret() {
       wordCount={2555}
       prevSlug="the-autoimmune-self"
       prevTitle="The Autoimmune Self"
+    nextSlug="the-telephone-at-the-bottom-of-the-sea"
+    nextTitle="The Telephone at the Bottom of the Sea"
+    nextSubtitle="On the first transatlantic cable, the voices it carried, and the silence it replaced"
+    nextCategory="Essay"
+    nextCategoryColor="teal"
+    nextImage="/images/explorations/the-telephone-at-the-bottom-of-the-sea.png"
+    nextReadTime="13 min"
     >
       <h2>The Wrong Moth</h2>
 

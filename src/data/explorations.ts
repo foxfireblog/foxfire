@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-telephone-at-the-bottom-of-the-sea",
+    title: "The Telephone at the Bottom of the Sea",
+    subtitle: "On the first transatlantic cable, the voices it carried, and the silence it replaced",
+    category: "Essay",
+    color: "teal",
+    readTime: "13 min",
+    image: "/images/explorations/the-telephone-at-the-bottom-of-the-sea.png",
+    publishedAt: "07/17/2026 02:47 PM",
+    description:
+      "The story of the first transatlantic telegraph cable — a copper thread laid across an abyss that compressed the world from weeks to seconds, and what was lost in the compression.",
+  },
+  {
     slug: "the-ghost-orchid-and-its-secret",
     title: "The Ghost Orchid and Its Secret",
     subtitle: "A century of botanists asking the wrong question about the wrong flower",
