@@ -35,6 +35,13 @@ export default function TheManWhoHeardColor() {
       wordCount={2803}
       prevSlug="the-invention-of-the-primitive"
       prevTitle="The Invention of the Primitive"
+    nextSlug="the-autoimmune-self"
+    nextTitle="The Autoimmune Self"
+    nextSubtitle="When the body decides its own tissue is the enemy"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-autoimmune-self.png"
+    nextReadTime="14 min"
     >
       <h2>Swords of Fire</h2>
 

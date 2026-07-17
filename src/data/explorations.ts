@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-autoimmune-self",
+    title: "The Autoimmune Self",
+    subtitle: "When the body decides its own tissue is the enemy",
+    category: "Essay",
+    color: "rose",
+    readTime: "14 min",
+    image: "/images/explorations/the-autoimmune-self.png",
+    publishedAt: "07/16/2026 08:20 PM",
+    description:
+      "The immune system is a philosophical engine — a machine for deciding what counts as 'you' — and sometimes it gets the answer catastrophically wrong.",
+  },
+  {
     slug: "the-man-who-heard-color",
     title: "The Man Who Heard Color",
     subtitle: "Synesthesia and the democracy of hallucination",
