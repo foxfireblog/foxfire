@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ghost-orchid-and-its-secret",
+    title: "The Ghost Orchid and Its Secret",
+    subtitle: "A century of botanists asking the wrong question about the wrong flower",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "11 min",
+    image: "/images/explorations/the-ghost-orchid-and-its-secret.png",
+    publishedAt: "07/17/2026 05:54 AM",
+    description:
+      "For over a century, the ghost orchid's reproduction was a mystery — and the answer, when it came, upended everything botanists thought they knew about what a plant can be.",
+  },
+  {
     slug: "the-autoimmune-self",
     title: "The Autoimmune Self",
     subtitle: "When the body decides its own tissue is the enemy",

@@ -35,6 +35,13 @@ export default function TheAutoimmuneSelf() {
       wordCount={3234}
       prevSlug="the-man-who-heard-color"
       prevTitle="The Man Who Heard Color"
+    nextSlug="the-ghost-orchid-and-its-secret"
+    nextTitle="The Ghost Orchid and Its Secret"
+    nextSubtitle="A century of botanists asking the wrong question about the wrong flower"
+    nextCategory="Natural History"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-ghost-orchid-and-its-secret.png"
+    nextReadTime="11 min"
     >
 
 
