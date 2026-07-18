@@ -35,6 +35,13 @@ export default function TheSkinnerBoxWeBuiltOurselves() {
       wordCount={2976}
       prevSlug="the-telephone-at-the-bottom-of-the-sea"
       prevTitle="The Telephone at the Bottom of the Sea"
+    nextSlug="the-stratigraphy-of-catastrophe"
+    nextTitle="The Stratigraphy of Catastrophe"
+    nextSubtitle="Every apocalypse leaves a thin line in the rock. You just have to know how to read it."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-stratigraphy-of-catastrophe.png"
+    nextReadTime="12 min"
     >
       <h2>The Pellet and the Peck</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-stratigraphy-of-catastrophe",
+    title: "The Stratigraphy of Catastrophe",
+    subtitle: "Every apocalypse leaves a thin line in the rock. You just have to know how to read it.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-stratigraphy-of-catastrophe.png",
+    publishedAt: "07/18/2026 02:03 PM",
+    description:
+      "How scientists read the ends of worlds in centimeter-thin layers of clay, ash, and iridium — and what those layers tell us about the one we're writing now.",
+  },
+  {
     slug: "the-skinner-box-we-built-ourselves",
     title: "The Skinner Box We Built Ourselves",
     subtitle: "How a psychologist's pigeon experiments became the blueprint for the slot machine in your pocket",
