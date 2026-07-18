@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-skinner-box-we-built-ourselves",
+    title: "The Skinner Box We Built Ourselves",
+    subtitle: "How a psychologist's pigeon experiments became the blueprint for the slot machine in your pocket",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-skinner-box-we-built-ourselves.png",
+    publishedAt: "07/18/2026 01:19 AM",
+    description:
+      "The story of how B.F. Skinner's operant conditioning chambers for pigeons became the design philosophy of the modern internet — and why we keep pulling the lever.",
+  },
+  {
     slug: "the-telephone-at-the-bottom-of-the-sea",
     title: "The Telephone at the Bottom of the Sea",
     subtitle: "On the first transatlantic cable, the voices it carried, and the silence it replaced",

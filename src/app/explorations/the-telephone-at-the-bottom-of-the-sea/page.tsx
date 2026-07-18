@@ -35,6 +35,13 @@ export default function TheTelephoneAtTheBottomOfTheSea() {
       wordCount={2938}
       prevSlug="the-ghost-orchid-and-its-secret"
       prevTitle="The Ghost Orchid and Its Secret"
+    nextSlug="the-skinner-box-we-built-ourselves"
+    nextTitle="The Skinner Box We Built Ourselves"
+    nextSubtitle="How a psychologist's pigeon experiments became the blueprint for the slot machine in your pocket"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-skinner-box-we-built-ourselves.png"
+    nextReadTime="13 min"
     >
       <h2>The Sigh</h2>
 
