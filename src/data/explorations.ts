@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-retraction-problem",
+    title: "The Retraction Problem",
+    subtitle: "Science corrects itself. The correction never catches up.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-retraction-problem.png",
+    publishedAt: "07/19/2026 11:14 AM",
+    description:
+      "How scientific retractions reveal a deeper truth about the way knowledge moves through the world — fast on the way in, slow on the way out.",
+  },
+  {
     slug: "the-light-that-bodies-make",
     title: "The Light That Bodies Make",
     subtitle: "Every living cell emits photons too faint for the eye to see. What does it mean that we are all, literally, glowing?",
