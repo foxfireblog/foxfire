@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-light-that-bodies-make",
+    title: "The Light That Bodies Make",
+    subtitle: "Every living cell emits photons too faint for the eye to see. What does it mean that we are all, literally, glowing?",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-light-that-bodies-make.png",
+    publishedAt: "07/19/2026 01:12 AM",
+    description:
+      "The strange science of biophotons — the ultra-weak light emitted by every living thing, too dim to see, too persistent to ignore.",
+  },
+  {
     slug: "the-stratigraphy-of-catastrophe",
     title: "The Stratigraphy of Catastrophe",
     subtitle: "Every apocalypse leaves a thin line in the rock. You just have to know how to read it.",
