@@ -35,6 +35,13 @@ export default function TheColonyOfTheReasonable() {
       wordCount={2951}
       prevSlug="the-retraction-problem"
       prevTitle="The Retraction Problem"
+    nextSlug="the-franck-report"
+    nextTitle="The Franck Report"
+    nextSubtitle="Seven physicists wrote a secret memo to stop the bomb. Nobody read it in time."
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-franck-report.png"
+    nextReadTime="12 min"
     >
       <h2>The Furrow</h2>
 

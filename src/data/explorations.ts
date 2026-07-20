@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-franck-report",
+    title: "The Franck Report",
+    subtitle: "Seven physicists wrote a secret memo to stop the bomb. Nobody read it in time.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-franck-report.png",
+    publishedAt: "07/20/2026 06:46 AM",
+    description:
+      "In June 1945, seven scientists who helped build the atomic bomb wrote a desperate memo arguing it should never be used on a city — and were ignored.",
+  },
+  {
     slug: "the-colony-of-the-reasonable",
     title: "The Colony of the Reasonable",
     subtitle: "In a Belgian village, the mad lived freely among the sane for seven hundred years. It worked.",
