@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-radium-girls",
+    title: "The Radium Girls",
+    subtitle: "The women whose bones became the evidence",
+    category: "Essay",
+    color: "green",
+    readTime: "14 min",
+    image: "/images/explorations/the-radium-girls.png",
+    publishedAt: "07/20/2026 03:32 PM",
+    description:
+      "The dial painters who swallowed poison with every brushstroke — and whose glowing bones rewrote the law.",
+  },
+  {
     slug: "the-franck-report",
     title: "The Franck Report",
     subtitle: "Seven physicists wrote a secret memo to stop the bomb. Nobody read it in time.",

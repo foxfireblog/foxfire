@@ -35,6 +35,13 @@ export default function TheFranckReport() {
       wordCount={2851}
       prevSlug="the-colony-of-the-reasonable"
       prevTitle="The Colony of the Reasonable"
+    nextSlug="the-radium-girls"
+    nextTitle="The Radium Girls"
+    nextSubtitle="The women whose bones became the evidence"
+    nextCategory="Essay"
+    nextCategoryColor="green"
+    nextImage="/images/explorations/the-radium-girls.png"
+    nextReadTime="14 min"
     >
       <h2>The Waiting Room</h2>
 
