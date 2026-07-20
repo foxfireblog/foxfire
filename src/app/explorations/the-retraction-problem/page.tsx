@@ -35,6 +35,13 @@ export default function TheRetractionProblem() {
       wordCount={2855}
       prevSlug="the-light-that-bodies-make"
       prevTitle="The Light That Bodies Make"
+    nextSlug="the-colony-of-the-reasonable"
+    nextTitle="The Colony of the Reasonable"
+    nextSubtitle="In a Belgian village, the mad lived freely among the sane for seven hundred years. It worked."
+    nextCategory="Essay"
+    nextCategoryColor="emerald"
+    nextImage="/images/explorations/the-colony-of-the-reasonable.png"
+    nextReadTime="13 min"
     >
       <h2>The Birthday Party</h2>
 

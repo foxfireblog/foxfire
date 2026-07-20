@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-colony-of-the-reasonable",
+    title: "The Colony of the Reasonable",
+    subtitle: "In a Belgian village, the mad lived freely among the sane for seven hundred years. It worked.",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-colony-of-the-reasonable.png",
+    publishedAt: "07/19/2026 08:16 PM",
+    description:
+      "The extraordinary story of Geel, Belgium — where for centuries, people with mental illness lived as boarders in ordinary family homes, and where the boundaries between madness and sanity quietly dissolved.",
+  },
+  {
     slug: "the-retraction-problem",
     title: "The Retraction Problem",
     subtitle: "Science corrects itself. The correction never catches up.",
