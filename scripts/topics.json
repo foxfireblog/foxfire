@@ -6450,5 +6450,25 @@
     "description": "In the spring of 1945, a small group of military officers and scientists convened in a room in Washington and began selecting which Japanese cities would be destroyed by atomic bombs. They had criteria: the target should be large enough to demonstrate the bomb's power, unburned by conventional raids so the damage would be clearly attributable, surrounded by hills to 'focalize' the blast. They discussed Kyoto — rejected, because it was too culturally significant. They studied weather forecasts. They argued about population density and factory placement. The horror of the meetings is not in their cruelty but in their normalcy — the bureaucratic language of men making catastrophic decisions as though they were planning a logistics schedule.",
     "imagePrompt": "A 1940s government conference room seen from above, empty chairs around an oval table covered in maps, a single hanging lamp casting a harsh circle of light, black and white with one detail — a single city circled in red ink on one of the maps",
     "essayPrompt": "Write a long-form Foxfire essay exploring the Target Committee meetings of 1945 — the actual deliberative process by which Hiroshima, Nagasaki, and other cities were selected for atomic attack. Use the minutes of the meetings as a lens into the bureaucratization of mass death, the way institutional processes normalize the unthinkable, and how the language of strategy distances decision-makers from moral consequences. Connect this to Hannah Arendt's banality of evil, to the Franck Report, and to the larger question of how committees make decisions that no individual would make alone."
+  },
+  {
+    "slug": "the-phossy-jaw-century",
+    "title": "The Phossy Jaw Century",
+    "subtitle": "Before radium, there was phosphorus — and the match girls who burned from the inside out",
+    "category": "History",
+    "color": "amber",
+    "description": "In the match factories of Victorian London, young women developed a condition so grotesque that their jawbones glowed green in the dark before crumbling entirely. White phosphorus necrosis — nicknamed 'phossy jaw' — was understood by factory owners, documented by doctors, and ignored by regulators for decades because matches were too profitable and workers too replaceable. The story of the 1888 Bryant & May match girls' strike is remembered as a labor victory, but the deeper story is about how industrial capitalism developed a sophisticated grammar of denial: acknowledging a harm, funding studies of the harm, and continuing the harm while the paperwork accumulated.",
+    "imagePrompt": "A Victorian match factory interior at night, women working by candlelight, one woman's jaw faintly luminous with an eerie green glow, smoke and phosphorus haze in the air, muted amber and sickly green tones, dark industrial atmosphere",
+    "essayPrompt": "Write a deep, essayistic piece about white phosphorus necrosis and the Bryant & May match girls. Explore how an industry knowingly poisoned its workers for decades, the 1888 strike, and the larger pattern of industrial harm denial that connects phossy jaw to radium, asbestos, and beyond. Consider what it means that workers' bodies glowed with the very substance destroying them."
+  },
+  {
+    "slug": "the-company-that-measured-death",
+    "title": "The Company That Measured Death",
+    "subtitle": "How the actuarial tables of industrial insurance quietly quantified how much a worker's life was worth — and decided it was very little",
+    "category": "Political Philosophy",
+    "color": "indigo",
+    "description": "In the early twentieth century, as industrial accidents and occupational diseases claimed workers by the thousands, a remarkable bureaucratic apparatus emerged: companies began calculating in advance how many workers they expected to kill, and pricing that death into their operating costs. Industrial insurance, workers' compensation law, and actuarial science combined to create a system in which harm was not prevented but budgeted. The story runs through asbestos, silicosis, radium, and eventually tobacco — and it raises a question that remains unresolved: when a corporation can demonstrate it knew the risk, calculated the cost, and chose to pay it rather than eliminate it, what exactly is the name of that choice?",
+    "imagePrompt": "A 1920s insurance office interior, ledgers open on mahogany desks, columns of numbers in faded ink, a single X-ray of a damaged lung mounted on a window casting light through the room, muted indigo and sepia tones, bureaucratic melancholy",
+    "essayPrompt": "Write a philosophical and historical essay about the actuarial pricing of worker death in industrial America and Britain. Trace how companies like Johns-Manville, radium manufacturers, and eventually tobacco corporations used insurance mathematics not to prevent harm but to budget for it. Explore the moral and legal philosophy at stake: is there a difference between negligence, recklessness, and something closer to premeditated harm when the math was done in advance?"
   }
 ]
