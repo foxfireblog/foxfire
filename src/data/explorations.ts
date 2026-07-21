@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-body-that-taught-surgery",
+    title: "The Body That Taught Surgery",
+    subtitle: "On the stolen dead, the science of the knife, and the debt anatomy owes to the grave",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-body-that-taught-surgery.png",
+    publishedAt: "07/21/2026 12:15 PM",
+    description:
+      "How modern anatomy was built on stolen corpses, and what that theft reveals about whose bodies have always been treated as raw material.",
+  },
+  {
     slug: "the-anatomy-of-the-snitch",
     title: "The Anatomy of the Snitch",
     subtitle: "On informers, collaborators, and the architecture of betrayal",
