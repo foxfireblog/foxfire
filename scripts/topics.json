@@ -6470,5 +6470,25 @@
     "description": "In the early twentieth century, as industrial accidents and occupational diseases claimed workers by the thousands, a remarkable bureaucratic apparatus emerged: companies began calculating in advance how many workers they expected to kill, and pricing that death into their operating costs. Industrial insurance, workers' compensation law, and actuarial science combined to create a system in which harm was not prevented but budgeted. The story runs through asbestos, silicosis, radium, and eventually tobacco — and it raises a question that remains unresolved: when a corporation can demonstrate it knew the risk, calculated the cost, and chose to pay it rather than eliminate it, what exactly is the name of that choice?",
     "imagePrompt": "A 1920s insurance office interior, ledgers open on mahogany desks, columns of numbers in faded ink, a single X-ray of a damaged lung mounted on a window casting light through the room, muted indigo and sepia tones, bureaucratic melancholy",
     "essayPrompt": "Write a philosophical and historical essay about the actuarial pricing of worker death in industrial America and Britain. Trace how companies like Johns-Manville, radium manufacturers, and eventually tobacco corporations used insurance mathematics not to prevent harm but to budget for it. Explore the moral and legal philosophy at stake: is there a difference between negligence, recklessness, and something closer to premeditated harm when the math was done in advance?"
+  },
+  {
+    "slug": "the-informant-economy",
+    "title": "The Informant Economy",
+    "subtitle": "How governments learned to pay for betrayal — and what happened to the price of loyalty",
+    "category": "History & Power",
+    "color": "amber",
+    "description": "In 18th-century England, a new kind of public servant emerged: the common informer, a private citizen who could sue his neighbors for breaking the law and pocket half the fine. Within decades, thousands of people were making their living this way — reporting unlicensed hawkers, illegal weavers, Sabbath-breakers. It was surveillance as cottage industry, justice as market. This is the story of what happens when a society decides to monetize the act of watching.",
+    "imagePrompt": "A dimly lit Georgian counting house, a man in period dress carefully counting gold coins on a ledger book, shadows of figures visible through a frosted window, muted amber and brown tones, chiaroscuro lighting",
+    "essayPrompt": "Write a long-form essay about the institution of the 'common informer' in English legal history — private citizens who profited by reporting their neighbors for infractions of the law. Explore the economic, social, and moral dimensions of converting civic surveillance into a commodity. Connect it to broader questions about bounty systems, IRS whistleblower rewards, qui tam lawsuits, and what it means for a society when betrayal becomes a legitimate profession. Consider the philosophical question: does paying for loyalty destroy it?"
+  },
+  {
+    "slug": "the-beauty-parade-of-evidence",
+    "title": "The Beauty Parade of Evidence",
+    "subtitle": "Inside the strange science of how confessions became the queen of proofs — and how that nearly destroyed justice",
+    "category": "Law & Mind",
+    "color": "violet",
+    "description": "For centuries, European law operated on a simple hierarchy: a confession was better than any other evidence. It was called 'the queen of proofs.' The problem was that this made torture not merely legal but logically required — if a confession was the perfect proof, and you had strong suspicion, you had a duty to obtain one. This is the story of how a single epistemological error about the nature of truth became encoded in law, and the brilliant, strange thinkers who spent centuries trying to dismantle it.",
+    "imagePrompt": "A Renaissance-era courtroom rendered in deep violet and shadow, a solitary figure seated under a single shaft of light, stone walls bearing faded Latin inscriptions, an hourglass on a judge's table, atmosphere of austere inquisition",
+    "essayPrompt": "Write a long-form essay about the legal doctrine that treated confession as the highest form of proof — 'regina probationum,' the queen of proofs — and how this principle logically justified torture throughout medieval and early modern European jurisprudence. Trace the intellectual history from Roman law through the Inquisition to Enlightenment reformers like Beccaria who attacked it. Explore the psychology of false confessions and why, even today, juries weight confessions above almost all other evidence. Ask: what does a society's theory of proof reveal about its theory of truth?"
   }
 ]
