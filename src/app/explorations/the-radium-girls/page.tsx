@@ -35,6 +35,13 @@ export default function TheRadiumGirls() {
       wordCount={3174}
       prevSlug="the-franck-report"
       prevTitle="The Franck Report"
+    nextSlug="the-anatomy-of-the-snitch"
+    nextTitle="The Anatomy of the Snitch"
+    nextSubtitle="On informers, collaborators, and the architecture of betrayal"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-anatomy-of-the-snitch.png"
+    nextReadTime="14 min"
     >
       <h2>The Women Who Glowed</h2>
 

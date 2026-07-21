@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-anatomy-of-the-snitch",
+    title: "The Anatomy of the Snitch",
+    subtitle: "On informers, collaborators, and the architecture of betrayal",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-anatomy-of-the-snitch.png",
+    publishedAt: "07/21/2026 01:14 AM",
+    description:
+      "Every society has built systems to turn neighbors into informers — and every society has despised the people who comply.",
+  },
+  {
     slug: "the-radium-girls",
     title: "The Radium Girls",
     subtitle: "The women whose bones became the evidence",
