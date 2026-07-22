@@ -6530,5 +6530,25 @@
     "description": "At its peak, the East German Ministry for State Security — the Stasi — had one informant for every 63 citizens. Not one spy watching many. One neighbor watching one neighbor. The Stasi's true achievement was not surveillance. It was the manufacture of a society in which self-surveillance became total, in which trust dissolved at the molecular level, and in which the act of informing became ordinary enough that teachers reported students, wives reported husbands, and priests reported confessors. The files they left behind run to 111 kilometers.",
     "imagePrompt": "A labyrinthine filing system of pale green folders stretching endlessly, handwritten index cards visible, a single desk lamp illuminating stacks of surveillance reports, cold institutional light, photorealistic",
     "essayPrompt": "Write a deep, intellectually rigorous Foxfire essay about the Stasi's informant network as a system of social architecture. Go beyond the statistics to examine what it means to build a society on mutual suspicion — how the Stasi recruited informants (the coercion, the flattery, the ideology), how ordinary people rationalized their participation, and what the psychological literature on complicity tells us about this. Explore the Zersetzung program — the deliberate psychological destabilization of targets through gaslighting at state scale. Discuss the post-reunification reckoning: citizens reading their own files and discovering friends, spouses, and clergy among their watchers. Ask the deeper question: does a surveillance apparatus change the informants as much as it changes the watched? Draw on Timothy Garton Ash's 'The File,' Anna Funder's 'Stasiland,' and the scholarship on collaborative authoritarianism."
+  },
+  {
+    "slug": "the-milestones-that-measured-empire",
+    "title": "The Milestones That Measured Empire",
+    "subtitle": "How Rome turned stone markers into instruments of political theology — and why every road led not to Rome, but from it",
+    "category": "History",
+    "color": "amber",
+    "description": "The Roman milestone was never just a distance marker. Inscribed with the emperor's full titulature — every war won, every divine lineage claimed — it was a monument repeated ten thousand times across three continents. To stand beside one in Mesopotamia or Scotland was to be reminded, in stone, of who owned the ground beneath your feet. This is the story of infrastructure as ideology, and why the first thing every new emperor did was rebuild the roads.",
+    "imagePrompt": "Ancient Roman milestone column standing in a wild landscape, worn Latin inscription visible, dramatic low angle shot, warm golden light, photorealistic",
+    "essayPrompt": "Write a deep, essayistic exploration of Roman milestones as instruments of imperial ideology. Explore how the physical infrastructure of roads and markers encoded political power, how emperors used road-building campaigns as propaganda, the milestone's role in standardizing not just distance but loyalty, what happened to milestones during the crisis of the third century when emperors changed faster than stone could be re-inscribed, and what it meant for the idea of 'Rome' that its roads outlasted it by centuries. Draw connections to how modern states still use infrastructure to project sovereignty."
+  },
+  {
+    "slug": "the-dead-letter-office",
+    "title": "The Dead Letter Office",
+    "subtitle": "Inside the strange bureaucracy built to handle everything the mail couldn't deliver — lost fortunes, love letters, human teeth, and the geography of grief",
+    "category": "History",
+    "color": "violet",
+    "description": "At the heart of every great postal system was a room where the system confessed its failures. The Dead Letter Office received what could go nowhere: letters addressed to 'God, Heaven,' to women who had changed their names upon marriage, to men who had simply ceased to exist. Clerks opened them all. What they found — cash, wedding rings, lock-of-hair, desperate appeals — became an accidental archive of private life. For over a century, the Dead Letter Office was both the most intimate government office in the world and the loneliest.",
+    "imagePrompt": "Dimly lit Victorian sorting room filled with stacked undeliverable letters and parcels, a single clerk reading an opened letter by lamplight, dust motes in air, atmospheric and melancholic, photorealistic",
+    "essayPrompt": "Write a deep, essayistic exploration of the Dead Letter Office as an institution. Examine its origins in multiple postal systems simultaneously, the strange intimacy of the clerks whose job was to open other people's mail legally, what the contents of dead letters reveal about who people were trying to reach and why, the philosophical weight of a letter that arrives nowhere, famous cases and recovered fortunes, the odd secondary market for unclaimed goods, and what the decline of the Dead Letter Office in the digital age means for our understanding of failed communication. Consider the Dead Letter Office as an unintentional archive of human longing."
   }
 ]
