@@ -35,6 +35,13 @@ export default function TheArchitectureOfTerror() {
       wordCount={2629}
       prevSlug="the-body-that-taught-surgery"
       prevTitle="The Body That Taught Surgery"
+    nextSlug="the-postal-roads-that-made-nations"
+    nextTitle="The Postal Roads That Made Nations"
+    nextSubtitle="Before there were countries, there were routes"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-postal-roads-that-made-nations.png"
+    nextReadTime="13 min"
     >
       <h2>Comrade Card-Index</h2>
 

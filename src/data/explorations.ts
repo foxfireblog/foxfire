@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-postal-roads-that-made-nations",
+    title: "The Postal Roads That Made Nations",
+    subtitle: "Before there were countries, there were routes",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-postal-roads-that-made-nations.png",
+    publishedAt: "07/22/2026 11:44 AM",
+    description:
+      "The hidden history of how mail delivery — not armies or constitutions — is what actually stitched territories into states.",
+  },
+  {
     slug: "the-architecture-of-terror",
     title: "The Architecture of Terror: The Apparatus (Part I of III)",
     subtitle: "Stalin's rise, the machinery of the party-state, and the cult of personality",
