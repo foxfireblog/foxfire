@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-architecture-of-terror",
+    title: "The Architecture of Terror: The Apparatus (Part I of III)",
+    subtitle: "Stalin's rise, the machinery of the party-state, and the cult of personality",
+    category: "Essay",
+    color: "red",
+    readTime: "11 min",
+    image: "/images/explorations/the-architecture-of-terror.png",
+    publishedAt: "07/22/2026 01:26 AM",
+    description:
+      "How the Soviet system transformed mass death into an administrative procedure, and what that reveals about the machinery hiding inside every modern state.",
+  },
+  {
     slug: "the-body-that-taught-surgery",
     title: "The Body That Taught Surgery",
     subtitle: "On the stolen dead, the science of the knife, and the debt anatomy owes to the grave",

@@ -35,6 +35,13 @@ export default function TheBodyThatTaughtSurgery() {
       wordCount={2907}
       prevSlug="the-anatomy-of-the-snitch"
       prevTitle="The Anatomy of the Snitch"
+    nextSlug="the-architecture-of-terror"
+    nextTitle="The Architecture of Terror: The Apparatus (Part I of III)"
+    nextSubtitle="Stalin's rise, the machinery of the party-state, and the cult of personality"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-architecture-of-terror.png"
+    nextReadTime="11 min"
     >
       <h2>The Arm in the Window</h2>
 
