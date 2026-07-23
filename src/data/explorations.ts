@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-imitation-game-was-a-joke",
+    title: "The Imitation Game Was a Joke",
+    subtitle: "Alan Turing proposed his famous test as a philosophical provocation. We took it completely, catastrophically literally.",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-imitation-game-was-a-joke.png",
+    publishedAt: "07/22/2026 08:24 PM",
+    description:
+      "How a playful thought experiment about gender performance became the defining benchmark for machine intelligence — and what we lost by forgetting the joke.",
+  },
+  {
     slug: "the-postal-roads-that-made-nations",
     title: "The Postal Roads That Made Nations",
     subtitle: "Before there were countries, there were routes",

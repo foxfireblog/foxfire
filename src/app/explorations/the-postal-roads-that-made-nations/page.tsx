@@ -35,6 +35,13 @@ export default function ThePostalRoadsThatMadeNations() {
       wordCount={3057}
       prevSlug="the-architecture-of-terror"
       prevTitle="The Architecture of Terror: The Apparatus (Part I of III)"
+    nextSlug="the-imitation-game-was-a-joke"
+    nextTitle="The Imitation Game Was a Joke"
+    nextSubtitle="Alan Turing proposed his famous test as a philosophical provocation. We took it completely, catastrophically literally."
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-imitation-game-was-a-joke.png"
+    nextReadTime="12 min"
     >
       <h2>The Spider&apos;s Web</h2>
 
