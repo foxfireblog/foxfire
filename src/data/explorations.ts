@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mirror-test",
+    title: "The Mirror Test",
+    subtitle: "Science built a single experiment to find the self. It found its own reflection instead.",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-mirror-test.png",
+    publishedAt: "07/23/2026 05:05 PM",
+    description:
+      "The mirror test was supposed to tell us which animals possess self-awareness — but it may reveal more about the limits of human imagination than the inner lives of other creatures.",
+  },
+  {
     slug: "the-lie-detector-was-always-a-mirror",
     title: "The Lie Detector Was Always a Mirror",
     subtitle: "How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth",

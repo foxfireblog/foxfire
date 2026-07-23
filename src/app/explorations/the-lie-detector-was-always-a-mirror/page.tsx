@@ -35,6 +35,13 @@ export default function TheLieDetectorWasAlwaysAMirror() {
       wordCount={2710}
       prevSlug="the-imitation-game-was-a-joke"
       prevTitle="The Imitation Game Was a Joke"
+    nextSlug="the-mirror-test"
+    nextTitle="The Mirror Test"
+    nextSubtitle="Science built a single experiment to find the self. It found its own reflection instead."
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-mirror-test.png"
+    nextReadTime="12 min"
     >
 
 
