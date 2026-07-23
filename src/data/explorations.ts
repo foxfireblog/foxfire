@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-lie-detector-was-always-a-mirror",
+    title: "The Lie Detector Was Always a Mirror",
+    subtitle: "How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-lie-detector-was-always-a-mirror.png",
+    publishedAt: "07/23/2026 06:33 AM",
+    description:
+      "The polygraph has never reliably detected deception — but that was never really the point.",
+  },
+  {
     slug: "the-imitation-game-was-a-joke",
     title: "The Imitation Game Was a Joke",
     subtitle: "Alan Turing proposed his famous test as a philosophical provocation. We took it completely, catastrophically literally.",
