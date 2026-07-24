@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-calculating-boys-who-were-girls",
+    title: "The Calculating Boys Who Were Girls",
+    subtitle: "Before the machine was a machine, the computer was a woman",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-calculating-boys-who-were-girls.png",
+    publishedAt: "07/24/2026 03:58 AM",
+    description:
+      "Before computers were machines, 'computer' was a job title — and the people doing the work were overwhelmingly women whose mathematical labor built everything from astronomical tables to atomic bombs.",
+  },
+  {
     slug: "the-mirror-test",
     title: "The Mirror Test",
     subtitle: "Science built a single experiment to find the self. It found its own reflection instead.",
