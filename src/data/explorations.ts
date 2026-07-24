@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-exhibition-of-sarah-baartman",
+    title: "The Exhibition of Sarah Baartman",
+    subtitle: "A woman displayed as a specimen, and the long science that made it respectable",
+    category: "Essay",
+    color: "rose",
+    readTime: "13 min",
+    image: "/images/explorations/the-exhibition-of-sarah-baartman.png",
+    publishedAt: "07/24/2026 03:03 PM",
+    description:
+      "How a Khoikhoi woman became Europe's most famous scientific specimen — and how the apparatus that consumed her outlived every apology.",
+  },
+  {
     slug: "the-calculating-boys-who-were-girls",
     title: "The Calculating Boys Who Were Girls",
     subtitle: "Before the machine was a machine, the computer was a woman",

@@ -35,6 +35,13 @@ export default function TheCalculatingBoysWhoWereGirls() {
       wordCount={3169}
       prevSlug="the-mirror-test"
       prevTitle="The Mirror Test"
+    nextSlug="the-exhibition-of-sarah-baartman"
+    nextTitle="The Exhibition of Sarah Baartman"
+    nextSubtitle="A woman displayed as a specimen, and the long science that made it respectable"
+    nextCategory="Essay"
+    nextCategoryColor="rose"
+    nextImage="/images/explorations/the-exhibition-of-sarah-baartman.png"
+    nextReadTime="13 min"
     >
       <h2>The Table at the Palais Luxembourg</h2>
 
