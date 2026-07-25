@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-birch-bark-letters-of-novgorod",
+    title: "The Birch Bark Letters of Novgorod",
+    subtitle: "A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-birch-bark-letters-of-novgorod.png",
+    publishedAt: "07/25/2026 11:05 AM",
+    description:
+      "For seven centuries, the people of Novgorod scratched their daily lives into birch bark — love notes, shopping lists, debt complaints, a child's homework — and the waterlogged earth preserved what history usually forgets.",
+  },
+  {
     slug: "the-suggestible-child",
     title: "The Suggestible Child",
     subtitle: "The daycare panic, the archaeology of memory, and the things we made children remember",
