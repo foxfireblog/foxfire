@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suggestible-child",
+    title: "The Suggestible Child",
+    subtitle: "The daycare panic, the archaeology of memory, and the things we made children remember",
+    category: "Essay",
+    color: "rose",
+    readTime: "14 min",
+    image: "/images/explorations/the-suggestible-child.png",
+    publishedAt: "07/25/2026 01:20 AM",
+    description:
+      "How the daycare abuse panic of the 1980s revealed that memory is not a recording but a collaboration — and destroyed lives in the process.",
+  },
+  {
     slug: "the-exhibition-of-sarah-baartman",
     title: "The Exhibition of Sarah Baartman",
     subtitle: "A woman displayed as a specimen, and the long science that made it respectable",
