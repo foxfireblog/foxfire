@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-woman-who-tasted-words",
+    title: "The Woman Who Tasted Words",
+    subtitle: "On the rarest crossing of senses, and what it means to eat a sentence",
+    category: "Essay",
+    color: "rose",
+    readTime: "12 min",
+    image: "/images/explorations/the-woman-who-tasted-words.png",
+    publishedAt: "07/26/2026 06:32 AM",
+    description:
+      "Lexical-gustatory synesthesia turns language into flavor — and reveals something profound about how all of us secretly taste meaning.",
+  },
+  {
     slug: "the-white-flag-before-the-white-flag",
     title: "The White Flag Before the White Flag",
     subtitle: "How humanity invented the idea that some moments are too sacred for killing",
