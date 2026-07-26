@@ -35,6 +35,13 @@ export default function TheBirchBarkLettersOfNovgorod() {
       wordCount={3014}
       prevSlug="the-suggestible-child"
       prevTitle="The Suggestible Child"
+    nextSlug="the-white-flag-before-the-white-flag"
+    nextTitle="The White Flag Before the White Flag"
+    nextSubtitle="How humanity invented the idea that some moments are too sacred for killing"
+    nextCategory="Essay"
+    nextCategoryColor="amber"
+    nextImage="/images/explorations/the-white-flag-before-the-white-flag.png"
+    nextReadTime="14 min"
     >
       <h2>What the Mud Kept</h2>
 

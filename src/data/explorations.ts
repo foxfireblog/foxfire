@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-white-flag-before-the-white-flag",
+    title: "The White Flag Before the White Flag",
+    subtitle: "How humanity invented the idea that some moments are too sacred for killing",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-white-flag-before-the-white-flag.png",
+    publishedAt: "07/25/2026 08:18 PM",
+    description:
+      "Before the Geneva Conventions, before the white flag, before any treaty — humans kept inventing the same strange idea: that even in war, some things must remain untouchable.",
+  },
+  {
     slug: "the-birch-bark-letters-of-novgorod",
     title: "The Birch Bark Letters of Novgorod",
     subtitle: "A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything",
