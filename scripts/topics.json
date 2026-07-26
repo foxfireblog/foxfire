@@ -6730,5 +6730,25 @@
     "description": "In 1880, a congress of hearing educators gathered in Milan and voted to ban sign language from schools for the deaf. The man who never lost was Alexander Graham Bell — the man who believed that deaf people who signed were a defective sub-race breeding in secret. What followed was nearly a century of children having their hands tied behind their backs. This is the history of the fight over whether a language that exists entirely in space and motion is a real language at all — and what was destroyed in the attempt to answer that question.",
     "imagePrompt": "A pair of hands mid-gesture against a dark background, the movement trails rendered as soft luminous lines forming the shape of a word, intimate and precise, documentary photographic style with dramatic side lighting",
     "essayPrompt": "Write a Foxfire essay about the suppression of sign language following the 1880 Milan Congress — beginning with the conference itself and Alexander Graham Bell's ideology — then tracing the decades of oralism enforced in deaf schools, the underground survival of sign languages in deaf communities, the eventual recognition of ASL and BSL as full natural languages by linguists like William Stokoe, and what the whole episode reveals about who gets to define what counts as real speech, real thought, and real humanity. Tone: historically rigorous, morally clear, and deeply attentive to what was at stake."
+  },
+  {
+    "slug": "the-professional-rejoicers",
+    "title": "The Professional Rejoicers",
+    "subtitle": "On the long, strange history of paid celebration — and what it reveals about the emotions we cannot perform on command",
+    "category": "History",
+    "color": "amber",
+    "description": "Where there were hired mourners, there were also hired celebrants: claques paid to applaud at operas, rent-a-crowds for political rallies, professional cheerleaders at ancient Roman triumphs, and modern firms that sell standing ovations. But the industry of manufactured joy exposes something stranger than its grief-for-hire counterpart — the deep human anxiety that our genuine happiness might not be enough, might not be visible enough, might not arrive on schedule.",
+    "imagePrompt": "A Baroque opera house interior with red velvet seats and golden balconies, a mysterious cluster of elegantly dressed figures in the parterre applauding with theatrical intensity while the rest of the audience watches in confusion, candlelight, 18th century, painterly and dramatic",
+    "essayPrompt": "Write a deep, essayistic exploration of the history of professional rejoicing — hired applauders (claques), rent-a-crowds, political enthusiasm for sale, and the modern economy of manufactured celebration. Examine what the commodification of joy reveals about the nature of authentic emotion, the performance of collective feeling, and why societies throughout history have felt compelled to stage happiness they could not spontaneously produce. Draw on the Roman triumph, 19th century Parisian opera claques, Soviet enthusiasm brigades, modern astroturfing, and the psychology of emotional contagion."
+  },
+  {
+    "slug": "the-unclaimed-dead",
+    "title": "The Unclaimed Dead",
+    "subtitle": "What happens to a body that nobody wants — and the strange bureaucracies, artists, and strangers who have stepped into the silence",
+    "category": "Philosophy",
+    "color": "violet",
+    "description": "Every city keeps a quiet ledger of the unclaimed dead: people who die without family, without money, without anyone to retrieve them. For centuries, these bodies fell into the hands of anatomists, potters' fields, and state bureaucracies that invented elaborate procedures for the unwitnessed departure. But around these silences, strange things grow — artists who attend the funerals of strangers, municipal burial societies, the New York office that holds unclaimed ashes for decades hoping someone calls. The unclaimed dead force a question: what do we owe a person we never knew?",
+    "imagePrompt": "A vast, quiet municipal cemetery at dusk with identical simple markers stretching to the horizon, a single figure standing alone at one grave holding wildflowers, fog rolling in from the edges, melancholy and tender, muted blues and grays, photographic realism",
+    "essayPrompt": "Write a deep, essayistic exploration of what societies do with their unclaimed dead — those who die without family, funds, or anyone to mourn them. Trace the history from anatomists' tables and potters' fields to modern municipal burial programs, the New York City Office of Chief Medical Examiner's room of unclaimed ashes, and the volunteer strangers who attend pauper funerals. Examine the philosophical question of what we owe the anonymous dead, the bureaucratic choreography of the unwitnessed departure, and the strange tenderness that sometimes emerges at the edges of official indifference."
   }
 ]
