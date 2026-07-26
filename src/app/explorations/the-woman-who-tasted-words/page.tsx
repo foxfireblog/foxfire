@@ -35,6 +35,13 @@ export default function TheWomanWhoTastedWords() {
       wordCount={2750}
       prevSlug="the-white-flag-before-the-white-flag"
       prevTitle="The White Flag Before the White Flag"
+    nextSlug="the-hired-mourners"
+    nextTitle="The Hired Mourners"
+    nextSubtitle="On the ancient profession of weeping for strangers &mdash; and what it says about grief as labor"
+    nextCategory="Essay"
+    nextCategoryColor="violet"
+    nextImage="/images/explorations/the-hired-mourners.png"
+    nextReadTime="13 min"
     >
       <h2>Baker Street Tastes of Crusty Bread</h2>
 

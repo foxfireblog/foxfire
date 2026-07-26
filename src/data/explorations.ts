@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-hired-mourners",
+    title: "The Hired Mourners",
+    subtitle: "On the ancient profession of weeping for strangers — and what it says about grief as labor",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-hired-mourners.png",
+    publishedAt: "07/26/2026 05:28 PM",
+    description:
+      "From ancient Rome to modern Ghana, the profession of weeping for the dead reveals something unsettling about the boundary between performed and felt emotion.",
+  },
+  {
     slug: "the-woman-who-tasted-words",
     title: "The Woman Who Tasted Words",
     subtitle: "On the rarest crossing of senses, and what it means to eat a sentence",
