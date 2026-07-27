@@ -35,13 +35,13 @@ export default function TheOvertonWindow() {
       wordCount={2751}
       prevSlug="the-scramble-for-africa-part-2"
       prevTitle="The Scramble for Africa: The Violence of Conquest (Part II of III)"
-    nextSlug="dead-internet-theory"
-    nextTitle="Dead Internet Theory"
-    nextSubtitle="What if the web already ended and nobody noticed?"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/dead-internet-theory.webp"
-    nextReadTime="11 min"
+      nextSlug="dead-internet-theory"
+      nextTitle="Dead Internet Theory"
+      nextSubtitle="What if the web already ended and nobody noticed?"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/dead-internet-theory.webp"
+      nextReadTime="11 min"
     >
       <h2>The Cardboard Slider</h2>
 

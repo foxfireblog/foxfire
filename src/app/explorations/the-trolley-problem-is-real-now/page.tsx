@@ -33,16 +33,16 @@ export default function TheTrolleyProblemIsRealNow() {
       imageAlt="The Trolley Problem Is Real Now illustration"
       readTime="14 min"
       wordCount={3278}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trolley-problem-is-real-now.mp3"
       prevSlug="the-oxygen-apocalypse"
       prevTitle="The Oxygen Apocalypse"
-    nextSlug="the-decimal-clock"
-    nextTitle="The Decimal Clock"
-    nextSubtitle="When revolutionaries tried to remake time itself"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-decimal-clock.webp"
-    nextReadTime="14 min"
+      nextSlug="the-decimal-clock"
+      nextTitle="The Decimal Clock"
+      nextSubtitle="When revolutionaries tried to remake time itself"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-decimal-clock.webp"
+      nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trolley-problem-is-real-now.mp3"
     ><h2>The Machine That Could Not See a Woman</h2>
 
       <p>At 9:58 PM on March 18, 2018, in Tempe, Arizona, a forty-nine-year-old woman named Elaine Herzberg was walking her bicycle across a four-lane road. She was 360 feet from a crosswalk. The road was dark. She was jaywalking. An Uber Volvo XC90, operating in autonomous mode at 43 miles per hour, detected her with its LiDAR and radar systems a full six seconds before impact. Six seconds is an eternity. You can read this entire sentence in six seconds. In those six seconds, the car&apos;s Perception Module did something that, if a human had done it, we might call a hallucination or a panic attack: it looked at Elaine Herzberg and could not decide what she was. First she was an &ldquo;unknown object.&rdquo; Then a &ldquo;vehicle.&rdquo; Then a &ldquo;bicycle.&rdquo; Because her classification kept toggling, the Prediction Module could not calculate her future path. Because it could not predict her path, the Driving Policy Module could not decide what to do. The system was not paralyzed by an ethical dilemma. It was paralyzed by a taxonomic one. It couldn&apos;t kill her or save her because it couldn&apos;t figure out what she was.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>

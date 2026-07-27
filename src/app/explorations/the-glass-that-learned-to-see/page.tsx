@@ -35,13 +35,13 @@ export default function TheGlassThatLearnedToSee() {
       wordCount={2995}
       prevSlug="the-ovation-that-wouldnt-stop"
       prevTitle="The Ovation That Wouldn't Stop"
-    nextSlug="the-economics-of-the-deathbed"
-    nextTitle="The Economics of the Deathbed"
-    nextSubtitle="How dying became a market, a legal battleground, and the last thing left to privatize"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-economics-of-the-deathbed.webp"
-    nextReadTime="13 min"
+      nextSlug="the-economics-of-the-deathbed"
+      nextTitle="The Economics of the Deathbed"
+      nextSubtitle="How dying became a market, a legal battleground, and the last thing left to privatize"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-economics-of-the-deathbed.webp"
+      nextReadTime="13 min"
     >
       <h2>The Drop of Water</h2>
 

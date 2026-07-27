@@ -35,13 +35,13 @@ export default function TheScientistsWhoBuiltAFakePast() {
       wordCount={3303}
       prevSlug="the-polywater-delusion"
       prevTitle="The Polywater Delusion"
-    nextSlug="the-corpse-that-made-law"
-    nextTitle="The Corpse That Made Law"
-    nextSubtitle="How the dead have testified, accused, and changed the rules for the living"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-corpse-that-made-law.webp"
-    nextReadTime="15 min"
+      nextSlug="the-corpse-that-made-law"
+      nextTitle="The Corpse That Made Law"
+      nextSubtitle="How the dead have testified, accused, and changed the rules for the living"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-corpse-that-made-law.webp"
+      nextReadTime="15 min"
     >
       <h2>The Stone That Bore His Name</h2>
 

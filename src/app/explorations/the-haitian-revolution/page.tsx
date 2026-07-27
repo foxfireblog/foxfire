@@ -35,13 +35,13 @@ export default function TheHaitianRevolution() {
       wordCount={2785}
       prevSlug="the-fig-and-the-wasp"
       prevTitle="The Fig and the Wasp"
-      nextSlug="the-haitian-revolution-part-2"
-      nextTitle="The Haitian Revolution: The Price of Freedom (Part II of II)"
-      nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
+      nextSlug="the-town-that-belongs-to-two-countries"
+      nextTitle="The Town That Belongs to Two Countries"
+      nextSubtitle="In Baarle-Hertog, the border runs through kitchens, shops, and the logic of nationhood itself."
       nextCategory="Essay"
-      nextCategoryColor="red"
-      nextImage="/images/explorations/the-haitian-revolution-part-2.webp"
-      nextReadTime="13 min"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-town-that-belongs-to-two-countries.webp"
+      nextReadTime="11 min"
     >
       <h2>The Pearl of the Antilles</h2>
 

@@ -35,13 +35,13 @@ export default function TheBrineThatRemembers() {
       wordCount={2816}
       prevSlug="the-traitor-cell"
       prevTitle="The Traitor Cell"
-    nextSlug="the-poison-eaters"
-    nextTitle="The Poison Eaters"
-    nextSubtitle="A history of what shouldn't be swallowed, and the bodies that swallowed it anyway"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-poison-eaters.webp"
-    nextReadTime="14 min"
+      nextSlug="the-poison-eaters"
+      nextTitle="The Poison Eaters"
+      nextSubtitle="A history of what shouldn't be swallowed, and the bodies that swallowed it anyway"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-poison-eaters.webp"
+      nextReadTime="14 min"
     >
       <h2>The Taste of Deep Time</h2>
 

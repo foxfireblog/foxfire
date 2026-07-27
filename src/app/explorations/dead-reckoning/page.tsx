@@ -36,13 +36,13 @@ export default function DeadReckoning() {
       wordCount={3395}
       prevSlug="the-52-hertz-whale"
       prevTitle="The 52-Hertz Whale"
-    nextSlug="the-placebo-effect"
-    nextTitle="The Placebo Effect"
-    nextSubtitle="A meditation on the body's conspiracy with belief"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-placebo-effect.webp"
-    nextReadTime="14 min"
+      nextSlug="the-placebo-effect"
+      nextTitle="The Placebo Effect"
+      nextSubtitle="A meditation on the body's conspiracy with belief"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-placebo-effect.webp"
+      nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-reckoning.mp3"
     >
 

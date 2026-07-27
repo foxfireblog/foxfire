@@ -33,16 +33,16 @@ export default function TheCentennialLight() {
       imageAlt="The Centennial Light illustration"
       readTime="11 min"
       wordCount={2523}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-centennial-light.mp3"
       prevSlug="the-bone-wars"
       prevTitle="The Bone Wars"
-    nextSlug="the-war-that-passes-through-blood"
-    nextTitle="The War That Passes Through Blood"
-    nextSubtitle="Agent Orange and the inheritance no treaty has ended"
-    nextCategory="Essay"
-    nextCategoryColor="orange"
-    nextImage="/images/explorations/the-war-that-passes-through-blood.webp"
-    nextReadTime="12 min"
+      nextSlug="the-war-that-passes-through-blood"
+      nextTitle="The War That Passes Through Blood"
+      nextSubtitle="Agent Orange and the inheritance no treaty has ended"
+      nextCategory="Essay"
+      nextCategoryColor="orange"
+      nextImage="/images/explorations/the-war-that-passes-through-blood.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-centennial-light.mp3"
     >
       <h2>The Bulb That Watched</h2>
 

@@ -35,13 +35,13 @@ export default function TheRhythmOfCrowds() {
       wordCount={2864}
       prevSlug="the-acoustics-of-caves"
       prevTitle="The Acoustics of Caves"
-    nextSlug="the-siege-of-leningrad-part-2"
-    nextTitle="The Siege of Leningrad: Nine Hundred Days (Part II of II)"
-    nextSubtitle="Shostakovich's Seventh, the Vavilov seed bank, and survival and memory"
-    nextCategory="History"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-siege-of-leningrad-part-2.webp"
-    nextReadTime="14 min"
+      nextSlug="the-siege-of-leningrad-part-2"
+      nextTitle="The Siege of Leningrad: Nine Hundred Days (Part II of II)"
+      nextSubtitle="Shostakovich's Seventh, the Vavilov seed bank, and survival and memory"
+      nextCategory="History"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-siege-of-leningrad-part-2.webp"
+      nextReadTime="14 min"
     >
       <h2>Two Clocks on a Wall</h2>
 

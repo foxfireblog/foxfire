@@ -33,16 +33,16 @@ export default function TheBurningOfBlackWallStreet() {
       imageAlt="The Tulsa Race Massacre illustration"
       readTime="12 min"
       wordCount={2752}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-burning-of-black-wall-street.mp3"
       prevSlug="the-mathematics-of-democracy"
       prevTitle="The Mathematics of Democracy"
-    nextSlug="the-index-librorum-prohibitorum"
-    nextTitle="The Index Librorum Prohibitorum"
-    nextSubtitle="The Catholic Church spent four centuries curating history's greatest reading list"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-index-librorum-prohibitorum.webp"
-    nextReadTime="11 min"
+      nextSlug="the-index-librorum-prohibitorum"
+      nextTitle="The Index Librorum Prohibitorum"
+      nextSubtitle="The Catholic Church spent four centuries curating history's greatest reading list"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-index-librorum-prohibitorum.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-burning-of-black-wall-street.mp3"
     >
       <h2>A Dollar Circulates</h2>
 

@@ -33,16 +33,16 @@ export default function NumbersStations() {
       imageAlt="Numbers Stations illustration"
       readTime="12 min"
       wordCount={2795}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/numbers-stations.mp3"
       prevSlug="the-partition-of-india"
       prevTitle="The Partition of India: The Radcliffe Line (Part I of II)"
-    nextSlug="the-cambrian-explosion"
-    nextTitle="The Cambrian Explosion"
-    nextSubtitle="When the world learned to see, and everything changed"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-cambrian-explosion.webp"
-    nextReadTime="11 min"
+      nextSlug="the-cambrian-explosion"
+      nextTitle="The Cambrian Explosion"
+      nextSubtitle="When the world learned to see, and everything changed"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-cambrian-explosion.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/numbers-stations.mp3"
     >
       <h2>The Sound of No One Talking to Someone</h2>
 

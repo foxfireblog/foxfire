@@ -35,13 +35,13 @@ export default function TheFigAndTheWasp() {
       wordCount={2899}
       prevSlug="the-anthropometry-of-empire"
       prevTitle="The Anthropometry of Empire"
-    nextSlug="the-haitian-revolution"
-    nextTitle="The Haitian Revolution: The Fire (Part I of II)"
-    nextSubtitle="Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-haitian-revolution.webp"
-    nextReadTime="12 min"
+      nextSlug="the-haitian-revolution"
+      nextTitle="The Haitian Revolution: The Fire (Part I of II)"
+      nextSubtitle="Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-haitian-revolution.webp"
+      nextReadTime="12 min"
     >
       <h2>The Door That Destroys You</h2>
 

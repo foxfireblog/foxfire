@@ -35,13 +35,13 @@ export default function TheExhibitionOfSarahBaartman() {
       wordCount={2922}
       prevSlug="the-calculating-boys-who-were-girls"
       prevTitle="The Calculating Boys Who Were Girls"
-    nextSlug="the-suggestible-child"
-    nextTitle="The Suggestible Child"
-    nextSubtitle="The daycare panic, the archaeology of memory, and the things we made children remember"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-suggestible-child.webp"
-    nextReadTime="14 min"
+      nextSlug="the-suggestible-child"
+      nextTitle="The Suggestible Child"
+      nextSubtitle="The daycare panic, the archaeology of memory, and the things we made children remember"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-suggestible-child.webp"
+      nextReadTime="14 min"
     >
       <h2>The Charming Hands</h2>
 

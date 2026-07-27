@@ -35,13 +35,13 @@ export default function TheGhostInTheMirror() {
       wordCount={3196}
       prevSlug="the-zodiac-cipher"
       prevTitle="The Zodiac Cipher"
-    nextSlug="the-man-who-mailed-himself-to-freedom"
-    nextTitle="The Man Who Mailed Himself to Freedom"
-    nextSubtitle="Henry Brown, a wooden crate, and the strange sovereignty of a body in transit"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-mailed-himself-to-freedom.webp"
-    nextReadTime="13 min"
+      nextSlug="the-man-who-mailed-himself-to-freedom"
+      nextTitle="The Man Who Mailed Himself to Freedom"
+      nextSubtitle="Henry Brown, a wooden crate, and the strange sovereignty of a body in transit"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-man-who-mailed-himself-to-freedom.webp"
+      nextReadTime="13 min"
     >
       <h2>The Ten-Minute Mirror</h2>
 

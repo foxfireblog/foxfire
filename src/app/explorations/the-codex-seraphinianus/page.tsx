@@ -33,7 +33,6 @@ export default function TheCodexSeraphinianus() {
       imageAlt="The Codex Seraphinianus illustration"
       readTime="14 min"
       wordCount={3134}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-codex-seraphinianus.mp3"
       prevSlug="the-watchmaker-is-blind"
       prevTitle="The Watchmaker Is Blind"
       nextSlug="the-flavor-of-music"
@@ -43,6 +42,7 @@ export default function TheCodexSeraphinianus() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-flavor-of-music.webp"
       nextReadTime="15 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-codex-seraphinianus.mp3"
     ><article>
       <h2>The Book That Reads You</h2>
 

@@ -33,16 +33,16 @@ export default function TheFreeRepublicOfPalmares() {
       imageAlt="The Free Republic of Palmares illustration"
       readTime="12 min"
       wordCount={2802}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-free-republic-of-palmares.mp3"
       prevSlug="the-hafnium-bomb"
       prevTitle="The Hafnium Bomb"
-    nextSlug="the-longitude-problem"
-    nextTitle="The Longitude Problem"
-    nextSubtitle="The clockmaker who saved a million sailors and died waiting for his reward"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-longitude-problem.webp"
-    nextReadTime="13 min"
+      nextSlug="the-longitude-problem"
+      nextTitle="The Longitude Problem"
+      nextSubtitle="The clockmaker who saved a million sailors and died waiting for his reward"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-longitude-problem.webp"
+      nextReadTime="21 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-free-republic-of-palmares.mp3"
     >
       <h2>The Altar Boy Who Burned It All Down</h2>
 

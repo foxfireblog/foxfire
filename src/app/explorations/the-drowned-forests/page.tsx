@@ -35,13 +35,13 @@ export default function TheDrownedForests() {
       wordCount={2939}
       prevSlug="the-towns-at-the-bottom-of-reservoirs"
       prevTitle="The Towns at the Bottom of Reservoirs"
-    nextSlug="the-great-auk-conspiracy"
-    nextTitle="The Great Auk Conspiracy"
-    nextSubtitle="How the desire to possess the last of something became the engine of its destruction"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-great-auk-conspiracy.webp"
-    nextReadTime="13 min"
+      nextSlug="the-great-auk-conspiracy"
+      nextTitle="The Great Auk Conspiracy"
+      nextSubtitle="How the desire to possess the last of something became the engine of its destruction"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-great-auk-conspiracy.webp"
+      nextReadTime="13 min"
     >
       <h2>The Lobster&apos;s Archaeology</h2>
 

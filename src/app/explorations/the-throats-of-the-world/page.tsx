@@ -33,16 +33,16 @@ export default function TheThroatsOfTheWorld() {
       imageAlt="The Throats of the World illustration"
       readTime="12 min"
       wordCount={2849}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-throats-of-the-world.mp3"
       prevSlug="before-time-zones"
       prevTitle="Before Time Zones"
-    nextSlug="the-forger-who-saved-himself"
-    nextTitle="The Forger Who Saved Himself"
-    nextSubtitle="Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-forger-who-saved-himself.webp"
-    nextReadTime="13 min"
+      nextSlug="the-forger-who-saved-himself"
+      nextTitle="The Forger Who Saved Himself"
+      nextSubtitle="Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-forger-who-saved-himself.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-throats-of-the-world.mp3"
     ><article>
 
       <h2>Ne Plus Ultra</h2>

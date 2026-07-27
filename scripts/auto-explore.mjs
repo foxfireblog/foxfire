@@ -29,6 +29,242 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 
+// ── Topic dedupe gate ───────────────────────────────────────────────
+// Distinct slugs are not distinct subjects. Before this gate existed, nine
+// pairs of published posts independently covered the same subject (5.5% of the
+// archive). The clearest case: "the-water-beneath-ontario" and
+// "the-water-that-remembers", both about Barbara Sherwood Lollar's
+// two-billion-year-old water at the Kidd Creek Mine, both opening on a mass
+// spectrometer everyone assumed was broken, published eight hours apart. The
+// slug check in createPage() sees two different slugs and waves both through.
+//
+// So before we spend a research call, a writing call, an image call and a TTS
+// call, we fingerprint the proposed topic and compare it against every
+// published exploration by subject.
+//
+// Fingerprint: the top ~120 distinctive terms of a document. Stopwords dropped,
+// proper nouns weighted 3x (a term counts as a proper noun when most of its
+// occurrences are capitalized away from a sentence start — "Lollar", "Kidd",
+// "Timmins" survive; "water" and "rock" compete on raw frequency).
+//
+// Comparison: Jaccard |A∩B|/|A∪B| when both sides are comparable in size, and
+// the overlap/containment coefficient |A∩B|/min(|A|,|B|) for the asymmetric
+// case that actually matters here — a proposed topic is a paragraph of metadata
+// and a published post is three thousand words, so Jaccard is structurally
+// capped and containment is the honest measure.
+//
+// All thresholds below were measured against the real 333-post corpus. Run
+// `node scripts/auto-explore.mjs --dedupe-selftest` to reproduce the numbers.
+const DEDUPE_MAX_TERMS = 120;          // fingerprint size
+// Measured on the 333-post corpus (see the self-test for the full sweep):
+//   full-text Jaccard   median 0.030, p99 0.076, known duplicate pair 0.257
+//   proposal overlap    median 0.041, p999 0.178, known duplicate pair 0.421
+//   metadata Jaccard    median 0.000, p999 0.133, known duplicate pair 0.571
+// Replaying all 333 posts as proposals, these thresholds flag 19 (5.7%), and
+// every one of the 19 is a genuine same-subject pair. Dropping the overlap
+// threshold to 0.24 starts pulling in merely adjacent subjects, so 0.26 is the
+// floor. A false reject costs one re-roll; a false accept costs a duplicate post.
+const DEDUPE_FULL_JACCARD = 0.22;      // full text vs full text
+const DEDUPE_CONTAINMENT = 0.26;       // proposal vs published full text
+const DEDUPE_META_JACCARD = 0.25;      // title + subtitle + description only
+const DEDUPE_MIN_TERMS_FOR_CONTAINMENT = 30; // containment on a tiny fingerprint is noise
+const DEDUPE_MAX_ATTEMPTS = 5;         // topic re-rolls before we give up for this run
+
+const DEDUPE_STOPWORDS = new Set(
+  `a about above across after again against all almost alone along already also although always am among an and another any anyone anything are around as at away back be became because become been before began behind being below beneath beside best better between beyond both but by came can cannot come comes coming could did do does doing done down during each early either else end enough even ever every everyone everything few find first for found from front full further gave get gets getting give given go goes going gone good got great had half has have having he held her here hers herself high him himself his hold how however i if in indeed inside instead into is it its itself just keep kept knew know known large last later least leave left less let like likely little long look looked looking made make makes making man many may maybe me mean means might more most much must my myself near need needs never new next no none nor not nothing now number of off often on once one only onto open or order other others our ours out outside over own part perhaps place put quite rather real really right said same saw say says second see seem seemed seems seen sense set several shall she should show side simply since small so some someone something sometimes soon still such take taken takes tell than that the their theirs them themselves then there therefore these they thing things think this those though thought three through thus time to today together too took toward turn turned two under until up upon us use used uses using usually very want was way we well went were what when where whether which while who whole whom whose why will with within without work world would year years yes yet you your yours day days made kind sort thats theres number begin began end ends`
+    .split(/\s+/)
+    .filter(Boolean)
+);
+
+const DEDUPE_ENTITIES = {
+  "&mdash;": " ", "&ndash;": " ", "&ldquo;": " ", "&rdquo;": " ", "&lsquo;": " ",
+  "&rsquo;": "'", "&apos;": "'", "&amp;": " ", "&middot;": " ", "&nbsp;": " ", "&quot;": " ",
+};
+
+const DEDUPE_WORD_RE = /[A-Za-z][A-Za-z'-]{2,}/g;
+const SERIES_PART_RE = /\(?\bPart\s+([IVXLCDM]+)\s+of\s+([IVXLCDM]+)\b\)?/i;
+
+/** Pull the human-readable prose out of a generated exploration page.tsx. */
+function extractPageProse(src) {
+  let s = src;
+  const fnIdx = s.indexOf("export default function");
+  if (fnIdx !== -1) {
+    const retIdx = s.indexOf("return (", fnIdx);
+    s = s.slice(retIdx !== -1 ? retIdx + "return (".length : fnIdx);
+  }
+  // JSX expressions first ({wordCount={2695}}, {" "}), then tags with their
+  // attributes. Doing it in this order matters: after tag removal the only
+  // remaining braces are the component's own body braces, and stripping those
+  // eats the entire article.
+  s = s.replace(/\{[^{}]*\}/g, " ");
+  s = s.replace(/<[^>]*>/g, " ");
+  for (const [entity, replacement] of Object.entries(DEDUPE_ENTITIES)) s = s.split(entity).join(replacement);
+  return s.replace(/&[a-z]+;/gi, " ").replace(/&#\d+;/g, " ");
+}
+
+/** Top-N distinctive terms of a document, as a Set of lowercased terms. */
+function fingerprint(text, limit = DEDUPE_MAX_TERMS) {
+  const total = new Map();
+  const capitalized = new Map();
+  // Sentence split so a capital letter at a sentence start isn't read as a proper noun.
+  for (const sentence of String(text || "").split(/(?<=[.!?])\s+|\n+/)) {
+    let atSentenceStart = true;
+    let match;
+    DEDUPE_WORD_RE.lastIndex = 0;
+    while ((match = DEDUPE_WORD_RE.exec(sentence))) {
+      const raw = match[0];
+      const term = raw.toLowerCase().replace(/'s$/, "");
+      if (term.length < 3) { atSentenceStart = false; continue; }
+      total.set(term, (total.get(term) || 0) + 1);
+      if (/^[A-Z]/.test(raw) && !atSentenceStart) capitalized.set(term, (capitalized.get(term) || 0) + 1);
+      atSentenceStart = false;
+    }
+  }
+  const scored = [];
+  for (const [term, count] of total) {
+    if (DEDUPE_STOPWORDS.has(term)) continue;
+    const caps = capitalized.get(term) || 0;
+    const isProperNoun = caps >= Math.max(1, count * 0.6);
+    scored.push([term, count * (isProperNoun ? 3 : 1)]);
+  }
+  scored.sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1));
+  return new Set(scored.slice(0, limit).map((entry) => entry[0]));
+}
+
+function jaccard(a, b) {
+  if (!a.size || !b.size) return 0;
+  let intersection = 0;
+  for (const term of a) if (b.has(term)) intersection++;
+  return intersection / (a.size + b.size - intersection);
+}
+
+function containment(a, b) {
+  if (!a.size || !b.size) return 0;
+  let intersection = 0;
+  for (const term of a) if (b.has(term)) intersection++;
+  return intersection / Math.min(a.size, b.size);
+}
+
+/** "The Manhattan Project: The Decision (Part III of IV)" -> "the manhattan project" */
+function seriesBaseTitle(title) {
+  const withoutPart = String(title || "").replace(SERIES_PART_RE, " ");
+  const base = withoutPart.includes(":") ? withoutPart.slice(0, withoutPart.indexOf(":")) : withoutPart;
+  return base.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+/** Two parts of the same intentional series are not duplicates of each other. */
+function isSameSeries(titleA, titleB) {
+  if (!SERIES_PART_RE.test(String(titleA || "")) || !SERIES_PART_RE.test(String(titleB || ""))) return false;
+  const a = seriesBaseTitle(titleA);
+  const b = seriesBaseTitle(titleB);
+  return Boolean(a) && a === b;
+}
+
+/** Fingerprint one exploration page source (published or staged). */
+function fingerprintPageSource(slug, src, origin) {
+  const titleMatch = src.match(/title:\s*"([^"]*?)\s*—\s*Foxfire"/) || src.match(/title="([^"]*)"/);
+  const subtitleMatch = src.match(/subtitle="([^"]*)"/);
+  const descriptionMatch = src.match(/description:\s*"([^"]*)"/);
+  const title = titleMatch ? titleMatch[1] : slug;
+  const subtitle = subtitleMatch ? subtitleMatch[1] : "";
+  const description = descriptionMatch ? descriptionMatch[1] : "";
+  const metaText = `${title}. ${subtitle}. ${description}.`;
+  return {
+    slug,
+    origin,
+    title,
+    subtitle,
+    description,
+    metaFp: fingerprint(metaText),
+    fullFp: fingerprint(`${metaText} ${extractPageProse(src)}`),
+  };
+}
+
+/**
+ * Read every exploration that already exists as writing and fingerprint it.
+ * That is the published archive plus the queued/ backlog: a staged post has not
+ * appeared on the site yet, but it is written and it is going to publish, so
+ * generating its subject again would produce the same duplicate a day later.
+ * Cached per process.
+ */
+let _corpusCache = null;
+function loadCorpusFingerprints({ force = false } = {}) {
+  if (_corpusCache && !force) return _corpusCache;
+  const corpus = [];
+
+  const publishedDir = path.join(ROOT, "src", "app", "explorations");
+  if (fs.existsSync(publishedDir)) {
+    for (const entry of fs.readdirSync(publishedDir, { withFileTypes: true })) {
+      if (!entry.isDirectory() || entry.name === "category") continue;
+      const pagePath = path.join(publishedDir, entry.name, "page.tsx");
+      if (!fs.existsSync(pagePath)) continue;
+      corpus.push(fingerprintPageSource(entry.name, fs.readFileSync(pagePath, "utf-8"), "published"));
+    }
+  }
+
+  const queuedDir = path.join(ROOT, "queued");
+  if (fs.existsSync(queuedDir)) {
+    const known = new Set(corpus.map((c) => c.slug));
+    for (const file of fs.readdirSync(queuedDir)) {
+      if (!file.endsWith(".tsx")) continue;
+      const slug = file.replace(/\.tsx$/, "");
+      if (known.has(slug)) continue;
+      corpus.push(fingerprintPageSource(slug, fs.readFileSync(path.join(queuedDir, file), "utf-8"), "queued"));
+    }
+  }
+
+  return (_corpusCache = corpus);
+}
+
+/** The text a proposed topic gives us to work with, before anything is written. */
+function topicSubjectText(topic) {
+  const research = typeof topic.researchNeeds === "string" && topic.researchNeeds.toLowerCase() !== "none"
+    ? topic.researchNeeds
+    : "";
+  const essay = typeof topic.essayPrompt === "string" ? topic.essayPrompt : "";
+  // imagePrompt is deliberately excluded: "painterly, atmospheric, muted light"
+  // is boilerplate that collides across unrelated posts.
+  return `${topic.title || ""}. ${topic.subtitle || ""}. ${topic.description || ""}. ${research} ${essay}`;
+}
+
+/**
+ * Compare a proposed topic against the published corpus by subject.
+ * Returns the worst collision found, or null when the topic is clear.
+ */
+function findTopicCollision(topic, corpus = loadCorpusFingerprints()) {
+  const metaFp = fingerprint(`${topic.title || ""}. ${topic.subtitle || ""}. ${topic.description || ""}.`);
+  const subjectFp = fingerprint(topicSubjectText(topic));
+  const useContainment = subjectFp.size >= DEDUPE_MIN_TERMS_FOR_CONTAINMENT;
+
+  let worst = null;
+  for (const post of corpus) {
+    if (post.slug === topic.slug) continue;              // slug check already owns this case
+    if (isSameSeries(topic.title, post.title)) continue; // intentional series siblings
+    const scores = {
+      slug: post.slug,
+      title: post.title,
+      origin: post.origin,
+      fullJaccard: jaccard(subjectFp, post.fullFp),
+      containment: useContainment ? containment(subjectFp, post.fullFp) : 0,
+      metaJaccard: jaccard(metaFp, post.metaFp),
+    };
+    const reasons = [];
+    if (scores.fullJaccard >= DEDUPE_FULL_JACCARD) reasons.push(`term Jaccard ${scores.fullJaccard.toFixed(3)} >= ${DEDUPE_FULL_JACCARD}`);
+    if (scores.containment >= DEDUPE_CONTAINMENT) reasons.push(`term overlap ${scores.containment.toFixed(3)} >= ${DEDUPE_CONTAINMENT}`);
+    if (scores.metaJaccard >= DEDUPE_META_JACCARD) reasons.push(`title/subtitle Jaccard ${scores.metaJaccard.toFixed(3)} >= ${DEDUPE_META_JACCARD}`);
+    if (reasons.length === 0) continue;
+    const severity = Math.max(scores.containment, scores.metaJaccard, scores.fullJaccard);
+    if (!worst || severity > worst.severity) worst = { ...scores, reasons, severity, subjectTerms: subjectFp.size };
+  }
+  return worst;
+}
+
+// Self-test runs before env validation so the gate can be verified without API keys.
+if (process.argv.includes("--dedupe-selftest")) {
+  const ok = runDedupeSelfTest();
+  process.exit(ok ? 0 : 1);
+}
+
 // ── Config ──────────────────────────────────────────────────────────
 // Pacing. Hard floor of 24h guarantees at most one post per day. Between the
 // floor and the 72h ceiling, posting is probabilistic and ramps with time, so
@@ -170,7 +406,7 @@ function getExistingExplorations() {
 }
 
 // ── Step 1: Claude chooses its own topic ────────────────────────────
-async function chooseTopic(existingSlugs) {
+async function chooseTopic(existingSlugs, rejected = []) {
   console.log("Claude is choosing a topic...");
 
   // Also load the topics.json as inspiration (not requirement)
@@ -210,7 +446,10 @@ ${existingSlugs.map((s) => `- ${s}`).join("\n")}
 
 Here are some unused topics from the idea bank (use one if it genuinely excites you, or ignore them entirely and come up with something original):
 ${topicSamples}
-
+${rejected.length === 0 ? "" : `
+IMPORTANT — you already proposed these and they were rejected as too close in subject to something already published. Do not propose them again, and do not propose anything adjacent to them. Go somewhere genuinely different:
+${rejected.map((r) => `- "${r.title}" — overlaps "${r.collidesWithTitle}" (/explorations/${r.collidesWith})`).join("\n")}
+`}
 What do you want to create next? Remember: you have total freedom. Essay, poem, fiction, letter, dialogue, script, anything. Pick what feels right.`,
       },
     ],
@@ -246,6 +485,45 @@ What do you want to create next? Remember: you have total freedom. Essay, poem, 
   }
 
   return topic;
+}
+
+// ── Step 1b: reject topics we have already covered ──────────────────
+// Runs before research, writing, image and audio generation, so a rejected
+// topic costs one cheap topic-choice call and nothing else.
+async function chooseUniqueTopic(existingSlugs) {
+  const corpus = loadCorpusFingerprints();
+  const queuedCount = corpus.filter((c) => c.origin === "queued").length;
+  console.log(`Dedupe gate: ${corpus.length} explorations fingerprinted (${corpus.length - queuedCount} published, ${queuedCount} queued).`);
+  const rejected = [];
+
+  for (let attempt = 1; attempt <= DEDUPE_MAX_ATTEMPTS; attempt++) {
+    const topic = await chooseTopic(existingSlugs, rejected);
+
+    if (existingSlugs.includes(topic.slug)) {
+      console.warn(`Dedupe gate: attempt ${attempt}/${DEDUPE_MAX_ATTEMPTS} rejected "${topic.title}" — slug "${topic.slug}" is already published.`);
+      rejected.push({ title: topic.title, collidesWith: topic.slug, collidesWithTitle: topic.title });
+      continue;
+    }
+
+    const collision = findTopicCollision(topic, corpus);
+    if (!collision) {
+      if (attempt > 1) console.log(`Dedupe gate: attempt ${attempt}/${DEDUPE_MAX_ATTEMPTS} accepted "${topic.title}".`);
+      return topic;
+    }
+
+    console.warn(
+      `Dedupe gate: attempt ${attempt}/${DEDUPE_MAX_ATTEMPTS} rejected "${topic.title}" (${topic.slug}) — ` +
+      `same subject as "${collision.title}" (${collision.origin} — ${collision.slug}). ` +
+      `Signals: ${collision.reasons.join("; ")}. ` +
+      `[proposal fingerprint ${collision.subjectTerms} terms; Jaccard ${collision.fullJaccard.toFixed(3)}, ` +
+      `overlap ${collision.containment.toFixed(3)}, title/subtitle ${collision.metaJaccard.toFixed(3)}]`
+    );
+    rejected.push({ title: topic.title, collidesWith: collision.slug, collidesWithTitle: collision.title });
+  }
+
+  console.error(`Dedupe gate: ${DEDUPE_MAX_ATTEMPTS} topic proposals in a row duplicated existing explorations. Skipping this run rather than publishing a duplicate.`);
+  rejected.forEach((r, i) => console.error(`  ${i + 1}. "${r.title}" collided with "${r.collidesWithTitle}" (/explorations/${r.collidesWith})`));
+  return null;
 }
 
 // ── Step 2: Research via Gemini with Google Search grounding ────────
@@ -955,19 +1233,92 @@ function insertRegistryEntry(source, entry, slug) {
 }
 
 // ── Update navigation links ────────────────────────────────────────
+/*
+ * Point the chronologically previous post's "next" link at the post we just
+ * published.
+ *
+ * This used to open with `if (prevContent.includes("nextSlug=")) return;`.
+ * That one line is what severed the site's reading chain. When the previously
+ * newest post was a series part that already carried a next link to its
+ * sibling, the newly published post silently never received a backlink, and
+ * every post behind it dropped off the chain. It left 275 of 322 posts
+ * unreachable by "next".
+ *
+ * Can a chronological next link and a series-sibling next link coexist on the
+ * same page? No. ExplorationLayout renders exactly one `nextSlug`, so a page
+ * can advertise exactly one "read this next" destination. The two only agree
+ * when the series sibling happens to be the very next post published.
+ *
+ * When they disagree, the CHRONOLOGICAL link wins. It is the site's reading
+ * spine and the only link that keeps every published post reachable from every
+ * earlier one. A series link that overwrites it orphans every post published
+ * between the two parts, which is exactly how the chain broke. Nothing is lost
+ * by demoting the series link: the series relationship is still carried by the
+ * "Continue to Part II" prose link inside the article body and by the
+ * `seriesLabel` prop.
+ *
+ * Consequence for callers: run updateSeriesPartNavigation() BEFORE this, so
+ * that when both target the same page the chronological link is written last
+ * and wins. publishSeriesPart() already orders them that way.
+ *
+ * The function is idempotent: it strips whatever next* props are already there
+ * and rewrites them, so a rerun produces a byte-identical file.
+ */
 function updateNavigation(topic, currentNewestSlug, readTime) {
   if (!currentNewestSlug) return;
+  if (currentNewestSlug === topic.slug) return; // never self-link
 
   const prevPagePath = path.join(
     ROOT, "src", "app", "explorations", currentNewestSlug, "page.tsx"
   );
   if (!fs.existsSync(prevPagePath)) return;
 
-  let prevContent = fs.readFileSync(prevPagePath, "utf-8");
-  if (prevContent.includes("nextSlug=")) return;
+  const original = fs.readFileSync(prevPagePath, "utf-8");
+
+  // Locate the <ExplorationLayout ...> opening tag by scanning characters and
+  // tracking string literals plus {} depth. The old regex assumed a fixed prop
+  // order ending in "\n    >", and silently no-oped on the many pages whose tag
+  // closes as "><p>" or that carry audioSrc/seriesLabel in a different spot.
+  const tagStart = original.indexOf("<ExplorationLayout");
+  if (tagStart === -1) {
+    console.warn(`WARNING: No <ExplorationLayout> found in ${currentNewestSlug}/page.tsx — navigation link will be missing.`);
+    return;
+  }
+  const bodyStart = tagStart + "<ExplorationLayout".length;
+  let bodyEnd = -1;
+  let depth = 0;
+  let quote = null;
+  for (let i = bodyStart; i < original.length; i++) {
+    const c = original[i];
+    if (quote) {
+      if (c === "\\") i++;
+      else if (c === quote) quote = null;
+    } else if (c === '"' || c === "'" || c === "`") {
+      quote = c;
+    } else if (c === "{") depth++;
+    else if (c === "}") depth--;
+    else if (c === ">" && depth === 0) {
+      bodyEnd = i;
+      break;
+    }
+  }
+  if (bodyEnd === -1) {
+    console.warn(`WARNING: Could not find the end of the <ExplorationLayout> tag in ${currentNewestSlug}/page.tsx — navigation link will be missing.`);
+    return;
+  }
+
+  // Drop any next* props already present: a stale series link, or a rerun.
+  let body = original.slice(bodyStart, bodyEnd);
+  const NEXT_PROPS = [
+    "nextSlug", "nextTitle", "nextSubtitle",
+    "nextCategory", "nextCategoryColor", "nextImage", "nextReadTime",
+  ];
+  for (const name of NEXT_PROPS) {
+    body = body.replace(new RegExp(`(?:\\r?\\n[ \\t]*|[ \\t]+)${name}="[^"]*"`, "g"), "");
+  }
 
   const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.webp`));
-  const richNextProps = [
+  const props = [
     `nextSlug="${topic.slug}"`,
     `nextTitle="${escapeJsx(topic.title)}"`,
     `nextSubtitle="${escapeJsx(topic.subtitle)}"`,
@@ -975,20 +1326,41 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
     `nextCategoryColor="${topic.color}"`,
     ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.webp"`] : []),
     `nextReadTime="${readTime}"`,
-  ].map((p) => `$3${p}`).join("\n");
+  ];
 
-  const beforeNav = prevContent;
-  prevContent = prevContent.replace(
-    /([ \t]+)(readTime="[^"]*"(?:\n[ \t]+wordCount=\{[^}]+\})?(?:\n[ \t]+audioSrc="[^"]*")?(?:\n[ \t]+prevSlug="[^"]*"\n[ \t]+prevTitle="[^"]*")?)\n([ \t]+)>/,
-    `$1$2\n${richNextProps}\n$3>`
-  );
-
-  if (prevContent === beforeNav) {
-    console.warn("WARNING: Could not insert next-navigation props into " + currentNewestSlug + "/page.tsx — regex did not match. Navigation link will be missing.");
-  } else {
-    fs.writeFileSync(prevPagePath, prevContent);
-    console.log(`Updated navigation in ${currentNewestSlug}/page.tsx`);
+  // Insert after the last of these anchor props, reusing its indentation so the
+  // nav block lines up with the rest of the tag.
+  let anchor = null;
+  for (const re of [
+    /\r?\n([ \t]*)prevTitle="[^"]*"/g,
+    /\r?\n([ \t]*)wordCount=\{[^}]*\}/g,
+    /\r?\n([ \t]*)readTime="[^"]*"/g,
+    /\r?\n([ \t]*)categoryColor="[^"]*"/g,
+  ]) {
+    let last = null;
+    for (const m of body.matchAll(re)) last = m;
+    if (last) {
+      anchor = { end: last.index + last[0].length, indent: last[1] };
+      break;
+    }
   }
+  if (!anchor) {
+    console.warn(`WARNING: No anchor prop to insert next-navigation after in ${currentNewestSlug}/page.tsx — navigation link will be missing.`);
+    return;
+  }
+
+  const block = props.map((p) => `\n${anchor.indent}${p}`).join("");
+  const updated =
+    original.slice(0, bodyStart) +
+    body.slice(0, anchor.end) + block + body.slice(anchor.end) +
+    original.slice(bodyEnd);
+
+  if (updated === original) {
+    console.log(`Navigation in ${currentNewestSlug}/page.tsx already points at ${topic.slug}.`);
+    return;
+  }
+  fs.writeFileSync(prevPagePath, updated);
+  console.log(`Updated navigation in ${currentNewestSlug}/page.tsx → ${topic.slug}`);
 }
 
 // ── Update series part navigation (link previous part → this part) ───
@@ -1215,6 +1587,128 @@ function indentContent(content, spaces) {
     .join("\n");
 }
 
+// ── Dedupe gate self-test ───────────────────────────────────────────
+// `node scripts/auto-explore.mjs --dedupe-selftest`
+// Proves the gate against the real published corpus. No API keys needed.
+function runDedupeSelfTest() {
+  const failures = [];
+  const check = (label, condition, detail) => {
+    console.log(`${condition ? "PASS" : "FAIL"}  ${label}${detail ? ` — ${detail}` : ""}`);
+    if (!condition) failures.push(label);
+  };
+
+  const corpus = loadCorpusFingerprints();
+  const queuedCount = corpus.filter((c) => c.origin === "queued").length;
+  console.log(`\nCorpus: ${corpus.length} explorations fingerprinted (${corpus.length - queuedCount} published, ${queuedCount} queued).\n`);
+  const bySlug = (slug) => corpus.find((c) => c.slug === slug);
+
+  // Rebuild a proposal the way chooseTopic would hand one to us.
+  const asTopic = (post, researchNeeds = "") => ({
+    slug: post.slug, title: post.title, subtitle: post.subtitle,
+    description: post.description, researchNeeds,
+  });
+  // Stand-in for the researchNeeds paragraph a real proposal carries: the
+  // opening of the piece, which is what a research brief for it would describe.
+  const sourcePath = (post) => post.origin === "queued"
+    ? path.join(ROOT, "queued", `${post.slug}.tsx`)
+    : path.join(ROOT, "src", "app", "explorations", post.slug, "page.tsx");
+  const researchProxy = (post, words = 160) =>
+    extractPageProse(fs.readFileSync(sourcePath(typeof post === "string" ? bySlug(post) : post), "utf-8"))
+      .split(/\s+/).filter(Boolean).slice(0, words).join(" ");
+  const without = (slug) => corpus.filter((c) => c.slug !== slug);
+
+  // ── 1. Corpus-wide distribution ─────────────────────────────────
+  console.log("── Full-text vs full-text Jaccard across all corpus pairs ──");
+  const pairScores = [];
+  for (let i = 0; i < corpus.length; i++) {
+    for (let j = i + 1; j < corpus.length; j++) pairScores.push(jaccard(corpus[i].fullFp, corpus[j].fullFp));
+  }
+  pairScores.sort((a, b) => a - b);
+  const pct = (f) => pairScores[Math.floor(f * (pairScores.length - 1))];
+  console.log(`  pairs=${pairScores.length}  median=${pct(0.5).toFixed(4)}  p99=${pct(0.99).toFixed(4)}  p999=${pct(0.999).toFixed(4)}  max=${pairScores[pairScores.length - 1].toFixed(4)}\n`);
+
+  // ── 2. The known duplicate: full-text similarity ────────────────
+  const dupA = bySlug("the-water-beneath-ontario");
+  const dupB = bySlug("the-water-that-remembers");
+  if (!dupA || !dupB) {
+    check("known duplicate pair present in corpus", false, "the-water-beneath-ontario / the-water-that-remembers missing");
+    return false;
+  }
+  const dupJaccard = jaccard(dupA.fullFp, dupB.fullFp);
+  const shared = [...dupA.fullFp].filter((t) => dupB.fullFp.has(t));
+  console.log("── Known duplicate: the-water-beneath-ontario vs the-water-that-remembers ──");
+  console.log(`  shared distinctive terms (${shared.length}): ${shared.slice(0, 24).join(", ")}\n`);
+  check("known duplicate scores above the full-text threshold", dupJaccard >= DEDUPE_FULL_JACCARD,
+    `Jaccard ${dupJaccard.toFixed(4)} >= ${DEDUPE_FULL_JACCARD} (corpus p99 ${pct(0.99).toFixed(4)})`);
+
+  // ── 3. The gate would have caught it at topic-choice time ───────
+  const metaOnly = findTopicCollision(asTopic(dupB), without(dupB.slug));
+  check("gate rejects the duplicate from metadata alone", Boolean(metaOnly) && metaOnly.slug === dupA.slug,
+    metaOnly ? `collides with ${metaOnly.slug} [${metaOnly.reasons.join("; ")}], proposal fingerprint ${metaOnly.subjectTerms} terms` : "no collision found");
+
+  const withResearch = findTopicCollision(asTopic(dupB, researchProxy(dupB.slug)), without(dupB.slug));
+  check("gate rejects the duplicate from a research-rich proposal", Boolean(withResearch) && withResearch.slug === dupA.slug,
+    withResearch ? `collides with ${withResearch.slug} [${withResearch.reasons.join("; ")}], proposal fingerprint ${withResearch.subjectTerms} terms` : "no collision found");
+
+  // ── 4. Negative control: unrelated posts must not flag ──────────
+  console.log("\n── Corpus sweep: every published and queued post replayed as a proposal ──");
+  const flaggedSweep = [];
+  for (const post of corpus) {
+    const collision = findTopicCollision(asTopic(post, researchProxy(post.slug)), without(post.slug));
+    if (collision) flaggedSweep.push([post.slug, collision]);
+  }
+  console.log(`  ${flaggedSweep.length} of ${corpus.length} replayed proposals flagged (${((flaggedSweep.length / corpus.length) * 100).toFixed(1)}%):`);
+  for (const [slug, c] of flaggedSweep.sort((a, b) => b[1].severity - a[1].severity)) {
+    console.log(`    ${slug}  ->  ${c.slug} (${c.origin})  [${c.reasons.join("; ")}]`);
+  }
+  console.log("");
+  check("false-positive rate stays low on the real corpus", flaggedSweep.length / corpus.length < 0.10,
+    `${flaggedSweep.length}/${corpus.length} flagged`);
+
+  for (const slug of ["numbers-stations", "dead-reckoning", "hiroo-onoda"]) {
+    const post = bySlug(slug);
+    if (!post) continue;
+    const collision = findTopicCollision(asTopic(post, researchProxy(slug)), without(slug));
+    check(`unrelated topic passes: ${slug}`, collision === null,
+      collision ? `unexpectedly collided with ${collision.slug} [${collision.reasons.join("; ")}]` : "no collision");
+  }
+  // Two posts that share a subject area without sharing a subject. If the gate
+  // were merely topic-matching rather than subject-matching, this pair would trip.
+  const unrelatedA = bySlug("dead-reckoning");
+  const unrelatedB = bySlug("the-longitude-problem");
+  if (unrelatedA && unrelatedB) {
+    const j = jaccard(unrelatedA.fullFp, unrelatedB.fullFp);
+    const c = containment(unrelatedA.fullFp, unrelatedB.fullFp);
+    check("known-good unrelated pair scores below threshold", j < DEDUPE_FULL_JACCARD && c < DEDUPE_CONTAINMENT,
+      `dead-reckoning vs the-longitude-problem (both maritime navigation): Jaccard ${j.toFixed(4)}, overlap ${c.toFixed(4)}`);
+  }
+
+  // ── 5. Series control: siblings must never flag each other ──────
+  const partA = bySlug("the-manhattan-project-part-3");
+  const partB = bySlug("the-manhattan-project-part-4");
+  if (partA && partB) {
+    const rawJaccard = jaccard(partA.fullFp, partB.fullFp);
+    const rawContainment = containment(fingerprint(topicSubjectText(asTopic(partB, researchProxy(partB.slug)))), partA.fullFp);
+    console.log("\n── Series control ──");
+    console.log(`  "${partA.title}"`);
+    console.log(`  "${partB.title}"`);
+    check("series siblings would trip the raw score (so the exemption is load-bearing)",
+      rawJaccard >= DEDUPE_FULL_JACCARD || rawContainment >= DEDUPE_CONTAINMENT,
+      `raw Jaccard ${rawJaccard.toFixed(4)}, raw overlap ${rawContainment.toFixed(4)}`);
+    check("series siblings are recognised as the same series", isSameSeries(partA.title, partB.title),
+      `base title "${seriesBaseTitle(partA.title)}"`);
+    const seriesCollision = findTopicCollision(asTopic(partB, researchProxy(partB.slug)), without(partB.slug));
+    check("series part is not flagged as a duplicate", seriesCollision === null,
+      seriesCollision ? `unexpectedly collided with ${seriesCollision.slug} [${seriesCollision.reasons.join("; ")}]` : "no collision");
+    check("a non-sibling with a similar title is still compared",
+      !isSameSeries(partB.title, "The Congo Free State: The Rubber Terror (Part II of III)"),
+      "different series bases are not exempted from each other");
+  }
+
+  console.log(`\n${failures.length === 0 ? "All dedupe self-tests passed." : `${failures.length} self-test(s) FAILED: ${failures.join(", ")}`}\n`);
+  return failures.length === 0;
+}
+
 // ── Main ────────────────────────────────────────────────────────────
 async function main() {
   const startTime = Date.now();
@@ -1260,6 +1754,15 @@ async function main() {
         validateSlug(match.slug);
         topic = { ...match, format: match.format || "essay", researchNeeds: match.essayPrompt };
         console.log(`Priority topic found: "${topic.title}" — using it next.`);
+        // A priority topic is a deliberate human choice, so the gate warns
+        // rather than blocks. It still runs, so the overlap is on the record.
+        const priorityCollision = findTopicCollision(topic);
+        if (priorityCollision) {
+          console.warn(
+            `Dedupe gate WARNING: priority topic "${topic.title}" overlaps "${priorityCollision.title}" ` +
+            `(/explorations/${priorityCollision.slug}). Signals: ${priorityCollision.reasons.join("; ")}. Proceeding anyway.`
+          );
+        }
         fs.unlinkSync(priorityPath); // consume it
       } else {
         console.log(`Priority topic "${priority.slug}" already published or not found. Ignoring.`);
@@ -1272,7 +1775,12 @@ async function main() {
 
   // ── Normal flow: Claude chooses its own topic ───────────────────
   if (!topic) {
-    topic = await chooseTopic(existingSlugs);
+    topic = await chooseUniqueTopic(existingSlugs);
+    if (!topic) {
+      const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+      console.log(`\nDone in ${elapsed}s. No exploration published — every proposed topic duplicated an existing one.\n`);
+      return;
+    }
   }
   console.log(`\nChosen: "${topic.title}" [${topic.category}] (${topic.format})\n`);
 

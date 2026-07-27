@@ -35,13 +35,13 @@ export default function TheListeners() {
       wordCount={3151}
       prevSlug="the-phonograph-in-the-pharaohs-tomb"
       prevTitle="The Phonograph in the Pharaoh's Tomb"
-    nextSlug="the-second-circulation"
-    nextTitle="The Second Circulation"
-    nextSubtitle="Inside Poland's clandestine publishing empire &mdash; the most sophisticated underground press in history"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-second-circulation.webp"
-    nextReadTime="13 min"
+      nextSlug="the-second-circulation"
+      nextTitle="The Second Circulation"
+      nextSubtitle="Inside Poland's clandestine publishing empire &mdash; the most sophisticated underground press in history"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-second-circulation.webp"
+      nextReadTime="13 min"
     >
 
       <p className="text-sm font-mono text-muted mb-2 tracking-widest uppercase">Essay</p>

@@ -35,13 +35,13 @@ export default function TheImitationGameWasAJoke() {
       wordCount={2704}
       prevSlug="the-postal-roads-that-made-nations"
       prevTitle="The Postal Roads That Made Nations"
-    nextSlug="the-lie-detector-was-always-a-mirror"
-    nextTitle="The Lie Detector Was Always a Mirror"
-    nextSubtitle="How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-lie-detector-was-always-a-mirror.webp"
-    nextReadTime="12 min"
+      nextSlug="the-lie-detector-was-always-a-mirror"
+      nextTitle="The Lie Detector Was Always a Mirror"
+      nextSubtitle="How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-lie-detector-was-always-a-mirror.webp"
+      nextReadTime="12 min"
     >
       <h2>The Joke Nobody Got</h2>
 

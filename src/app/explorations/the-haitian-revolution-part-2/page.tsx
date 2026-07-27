@@ -33,15 +33,15 @@ export default function TheHaitianRevolutionPart2() {
       imageAlt="The Haitian Revolution: The Price of Freedom (Part II of II) illustration"
       readTime="13 min"
       wordCount={3097}
-      prevSlug="the-haitian-revolution"
-      prevTitle="The Haitian Revolution: The Fire (Part I of II)"
-    nextSlug="the-samizdat-machine"
-    nextTitle="The Samizdat Machine"
-    nextSubtitle="How forbidden words survived on carbon paper and nerve"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-samizdat-machine.webp"
-    nextReadTime="12 min"
+      prevSlug="the-taste-that-cannot-be-named"
+      prevTitle="The Taste That Cannot Be Named"
+      nextSlug="the-samizdat-machine"
+      nextTitle="The Samizdat Machine"
+      nextSubtitle="How forbidden words survived on carbon paper and nerve"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-samizdat-machine.webp"
+      nextReadTime="12 min"
     >
       <h2>The Trunk of the Tree</h2>
 

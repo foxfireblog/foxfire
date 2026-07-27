@@ -1,6 +1,11 @@
-"use client";
+/*
+ * No "use client": with the reveal moved to CSS this file has no hooks, no
+ * event handlers, and nothing else that needs the client runtime. The card
+ * still ends up in the client bundle through its client-component callers,
+ * but the shared date helpers below are now callable from server components
+ * too.
+ */
 
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
@@ -124,16 +129,26 @@ export function formatPublishedAt(value: string): string {
 }
 
 /**
- * `whileInView` re-fires every time a card scrolls into view, so an
- * index-scaled delay taken from the card's absolute position in a 330-item
- * list left deep-scroll readers staring at blank cards for up to 16 seconds.
- * Cap the stagger so it stays a flourish for the first few cards and never a
- * wait.
+ * The reveal used to be a framer-motion `whileInView`, whose index-scaled
+ * delay taken from a card's absolute position in a 330-item list left
+ * deep-scroll readers staring at blank cards for up to 16 seconds. Cap the
+ * stagger so it stays a flourish for the first few cards and never a wait.
+ *
+ * It is now a CSS animation (`.fx-card` in globals.css) driven by a scroll
+ * timeline where supported. That matters for more than motion preferences:
+ * framer-motion serialized `initial` as an inline `opacity:0` during SSR, so
+ * all 330 cards shipped invisible and stayed that way if the motion runtime
+ * never arrived. The stagger only applies to the time-based fallback, since
+ * a scroll timeline ignores animation-delay.
  */
 export const MAX_STAGGER_STEPS = 6;
 
 export function staggerDelay(index: number, step = 0.05): number {
   return Math.min(Math.max(index, 0), MAX_STAGGER_STEPS) * step;
+}
+
+function revealStyle(index: number): React.CSSProperties {
+  return { "--fx-delay": `${staggerDelay(index)}s` } as React.CSSProperties;
 }
 
 export interface Exploration {
@@ -233,12 +248,7 @@ export function ExplorationCard({
 
   if (featured) {
     return (
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.7, delay: 0.1 }}
-      >
+      <div className="fx-card" style={{ "--fx-delay": "0.1s" } as React.CSSProperties}>
         <Link
           href={`/explorations/${item.slug}`}
           className={`group relative block overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-500 ${colors.border} ${colors.glow}`}
@@ -307,17 +317,12 @@ export function ExplorationCard({
             </div>
           </div>
         </Link>
-      </motion.div>
+      </div>
     );
   }
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: staggerDelay(index) }}
-    >
+    <div className="fx-card" style={revealStyle(index)}>
       <Link
         href={`/explorations/${item.slug}`}
         className={`group relative flex overflow-hidden rounded-2xl border border-border bg-surface transition-all duration-500 ${colors.border} ${colors.glow}`}
@@ -376,6 +381,6 @@ export function ExplorationCard({
           />
         </div>
       </Link>
-    </motion.div>
+    </div>
   );
 }

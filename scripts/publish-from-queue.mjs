@@ -50,6 +50,67 @@ function readQueue() {
 
 const writeQueue = (q) => fs.writeFileSync(QUEUE_FILE, JSON.stringify(q, null, 2) + "\n");
 
+/** Loud in the Actions UI (red annotation on the run) without failing the job. */
+function annotate(message) {
+  console.error(process.env.GITHUB_ACTIONS ? `::error::${message}` : `ERROR: ${message}`);
+}
+
+function configureGitIdentity() {
+  if (!process.env.CI) return;
+  git(["config", "user.name", "Foxfire Auto-Explore"]);
+  git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]);
+}
+
+/**
+ * Drop the head of the queue, commit that, and let the run finish successfully.
+ *
+ * A queue entry can be unpublishable in two ways — its staged page is gone, or
+ * its slug is already live — and neither is fixable by retrying. The intent has
+ * always been "drop it and move on", but both branches used to write the
+ * shortened queue and then exit 1. In CI that kills the job before the push
+ * step, so the ephemeral checkout is thrown away with the repair still in it:
+ * the worktree queue loses the slug while the committed queue never does, and
+ * the next run hits the same entry. Eight loud failures a day, forever.
+ *
+ * So the repair is committed here, and the process exits 0 so the workflow's
+ * remaining steps (tsc, push) actually run and persist it.
+ *
+ * On the exit code: exiting non-zero would make the alert louder and the repair
+ * impossible, which is exactly the trade being reversed. Visibility comes from
+ * the ::error:: annotation instead, which lands on the run summary — the thing
+ * a human actually reads — and from a commit that names the dropped slug. A
+ * genuine error, meaning anything that is not this self-healing case, still
+ * exits 1 as before: an unreadable queue file, a failed date stamp, a registry
+ * insertion that would displace existing entries. Those must not be papered
+ * over, and none of them are repaired by dropping a slug.
+ *
+ * Publishing waits for the next scheduled run. That is deliberate: the run is
+ * already in an unexpected state, and the site posts on a 24-72h gate against a
+ * queue with eight cycles a day, so a skipped cycle costs nothing while a
+ * "keep going until something works" loop could silently drain the backlog.
+ */
+function dropFromQueue(queue, slug, reason) {
+  annotate(`Unpublishable queue entry "${slug}": ${reason}. Dropping it from the queue.`);
+  if (DRY) {
+    console.log(`  [dry run] would drop "${slug}" from the queue and commit that change.`);
+    return;
+  }
+  writeQueue(queue.slice(1));
+  try {
+    configureGitIdentity();
+    git(["add", "--", "scripts/publish-queue.json"]);
+    // The subject must not start with "Add exploration:" — that prefix is the
+    // pacing anchor, and a repair is not a post.
+    git(["commit", "-q", "-m",
+      `Drop unpublishable queue entry: ${slug}\n\n${reason}\nAutomated repair by scripts/publish-from-queue.mjs.`]);
+    console.log(`  Committed the queue repair. ${queue.length - 1} entries remain.`);
+  } catch (err) {
+    // Nothing is lost if this fails: the entry is still bad, and the next run
+    // takes the same branch again. Do not escalate to a non-zero exit.
+    console.warn("  Could not commit the queue repair:", err.message);
+  }
+}
+
 // The queued pages are JSX, so their attribute values are HTML-entity encoded
 // (&mdash;, &rsquo;, &amp;). The JSX compiler decodes those when it builds the
 // page, but src/data/explorations.ts is plain JS — a string copied verbatim out
@@ -250,14 +311,12 @@ function main() {
   const destDir = path.join(ROOT, "src", "app", "explorations", slug);
 
   if (!fs.existsSync(stagedPath)) {
-    console.error(`Queued page missing: queued/${slug}.tsx — dropping from queue.`);
-    if (!DRY) writeQueue(queue.slice(1));
-    process.exit(1);
+    dropFromQueue(queue, slug, `queued/${slug}.tsx does not exist`);
+    return;
   }
   if (fs.existsSync(destDir)) {
-    console.error(`${slug} is already published — dropping from queue.`);
-    if (!DRY) writeQueue(queue.slice(1));
-    process.exit(1);
+    dropFromQueue(queue, slug, `src/app/explorations/${slug}/ already exists, so the post is live`);
+    return;
   }
 
   let page = fs.readFileSync(stagedPath, "utf-8");
@@ -364,10 +423,7 @@ function main() {
   writeQueue(queue.slice(1));
 
   try {
-    if (process.env.CI) {
-      git(["config", "user.name", "Foxfire Auto-Explore"]);
-      git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"]);
-    }
+    configureGitIdentity();
     const files = [
       `src/app/explorations/${slug}/page.tsx`,
       "src/data/explorations.ts",

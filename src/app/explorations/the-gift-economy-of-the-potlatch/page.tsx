@@ -35,13 +35,13 @@ export default function TheGiftEconomyOfThePotlatch() {
       wordCount={2985}
       prevSlug="the-election-that-nobody-won"
       prevTitle="The Election That Nobody Won"
-    nextSlug="the-stutterers-gift"
-    nextTitle="The Stutterer's Gift"
-    nextSubtitle="On the eloquence of broken speech"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-stutterers-gift.webp"
-    nextReadTime="14 min"
+      nextSlug="the-stutterers-gift"
+      nextTitle="The Stutterer's Gift"
+      nextSubtitle="On the eloquence of broken speech"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-stutterers-gift.webp"
+      nextReadTime="14 min"
     >
       <h2>The Crime of Giving Everything Away</h2>
 

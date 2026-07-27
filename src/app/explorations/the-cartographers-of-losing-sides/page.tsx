@@ -33,16 +33,16 @@ export default function TheCartographersOfLosingSides() {
       imageAlt="The Cartographers of Losing Sides illustration"
       readTime="13 min"
       wordCount={2891}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cartographers-of-losing-sides.mp3"
       prevSlug="the-language-of-whistles"
       prevTitle="The Language of Whistles"
-    nextSlug="the-immortal-cell"
-    nextTitle="The Immortal Cell"
-    nextSubtitle="Henrietta Lacks died in 1951. Her cells never did."
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-immortal-cell.webp"
-    nextReadTime="13 min"
+      nextSlug="the-immortal-cell"
+      nextTitle="The Immortal Cell"
+      nextSubtitle="Henrietta Lacks died in 1951. Her cells never did."
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-immortal-cell.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cartographers-of-losing-sides.mp3"
     >
       <h2>The Lie at the Edge of the World</h2>
 

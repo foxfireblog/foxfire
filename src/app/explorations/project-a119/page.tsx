@@ -35,13 +35,13 @@ export default function ProjectA119() {
       wordCount={3059}
       prevSlug="the-radio-sky"
       prevTitle="The Radio Sky"
-    nextSlug="the-gut-that-dreams"
-    nextTitle="The Gut That Dreams"
-    nextSubtitle="On the hundred million neurons you never think with"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-gut-that-dreams.webp"
-    nextReadTime="13 min"
+      nextSlug="the-gut-that-dreams"
+      nextTitle="The Gut That Dreams"
+      nextSubtitle="On the hundred million neurons you never think with"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-gut-that-dreams.webp"
+      nextReadTime="19 min"
     >
       <h2>The Flash</h2>
 

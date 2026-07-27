@@ -35,13 +35,13 @@ export default function TheManWhoAteEverything() {
       wordCount={2871}
       prevSlug="the-smell-that-preceded-electricity"
       prevTitle="The Smell That Preceded Electricity"
-    nextSlug="the-forgetting-curve"
-    nextTitle="The Forgetting Curve"
-    nextSubtitle="Hermann Ebbinghaus sat alone in a room and memorized nonsense until he discovered the shape of oblivion"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-forgetting-curve.webp"
-    nextReadTime="11 min"
+      nextSlug="the-forgetting-curve"
+      nextTitle="The Forgetting Curve"
+      nextSubtitle="Hermann Ebbinghaus sat alone in a room and memorized nonsense until he discovered the shape of oblivion"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-forgetting-curve.webp"
+      nextReadTime="11 min"
     >
       <h2>The Tongue as Instrument</h2>
 

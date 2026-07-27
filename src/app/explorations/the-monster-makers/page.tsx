@@ -33,16 +33,16 @@ export default function TheMonsterMakers() {
       imageAlt="The Monster Makers illustration"
       readTime="13 min"
       wordCount={2934}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-monster-makers.mp3"
       prevSlug="the-paradox-of-tolerance"
       prevTitle="The Paradox of Tolerance"
-    nextSlug="the-language-of-whistles"
-    nextTitle="The Language of Whistles"
-    nextSubtitle="In the mountains where human speech became birdsong, the brain reveals one of its strangest talents"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-language-of-whistles.webp"
-    nextReadTime="11 min"
+      nextSlug="the-language-of-whistles"
+      nextTitle="The Language of Whistles"
+      nextSubtitle="In the mountains where human speech became birdsong, the brain reveals one of its strangest talents"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-language-of-whistles.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-monster-makers.mp3"
     >
       <h2>The Stones That Spelled His Name</h2>
 

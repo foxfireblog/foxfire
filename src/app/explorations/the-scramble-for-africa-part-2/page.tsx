@@ -33,15 +33,15 @@ export default function TheScrambleForAfricaPart2() {
       imageAlt="The Scramble for Africa: The Violence of Conquest (Part II of III) illustration"
       readTime="12 min"
       wordCount={2795}
-      prevSlug="the-scramble-for-africa"
-      prevTitle="The Scramble for Africa: Lines on a Map (Part I of III)"
-      nextSlug="the-scramble-for-africa-part-3"
-      nextTitle="The Scramble for Africa: The Long Shadow (Part III of III)"
-      nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
+      prevSlug="the-armenian-forgetting"
+      prevTitle="The Armenian Forgetting"
+      nextSlug="the-overton-window"
+      nextTitle="The Overton Window"
+      nextSubtitle="The invisible frame around every idea you're allowed to have"
       nextCategory="Essay"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-scramble-for-africa-part-3.webp"
-      nextReadTime="13 min"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-overton-window.webp"
+      nextReadTime="12 min"
     >
       <h2>The Extermination Order</h2>
 

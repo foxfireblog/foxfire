@@ -33,16 +33,16 @@ export default function TheZongMassacre() {
       imageAlt="The Zong Massacre illustration"
       readTime="13 min"
       wordCount={3023}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zong-massacre.mp3"
       prevSlug="the-informers"
       prevTitle="The Informers"
-    nextSlug="the-milgram-trap"
-    nextTitle="The Milgram Trap"
-    nextSubtitle="The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you."
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-milgram-trap.webp"
-    nextReadTime="12 min"
+      nextSlug="the-milgram-trap"
+      nextTitle="The Milgram Trap"
+      nextSubtitle="The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you."
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-milgram-trap.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zong-massacre.mp3"
     >
       <h2>Care</h2>
 

@@ -38,7 +38,7 @@ export default function TheKillDecision() {
       nextSlug="hiroo-onoda"
       nextTitle="The Last Soldier"
       nextSubtitle="He fought World War II for 29 years after it ended, because no one told him it was over"
-      nextCategory="War &amp; Belief"
+      nextCategory="War & Belief"
       nextCategoryColor="amber"
       nextImage="/images/explorations/hiroo-onoda.webp"
       nextReadTime="13 min"

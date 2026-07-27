@@ -35,13 +35,13 @@ export default function TheBackrooms() {
       wordCount={2852}
       prevSlug="the-road-of-bones"
       prevTitle="The Road of Bones"
-    nextSlug="the-general-strike-of-everything"
-    nextTitle="The General Strike of Everything"
-    nextSubtitle="For nine days in 1926, Britain simply stopped &mdash; and discovered what it was actually made of"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-general-strike-of-everything.webp"
-    nextReadTime="11 min"
+      nextSlug="the-general-strike-of-everything"
+      nextTitle="The General Strike of Everything"
+      nextSubtitle="For nine days in 1926, Britain simply stopped &mdash; and discovered what it was actually made of"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-general-strike-of-everything.webp"
+      nextReadTime="11 min"
     >
       <h2>The Hum</h2>
 

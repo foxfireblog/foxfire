@@ -1,13 +1,23 @@
-"use client";
+/*
+ * Deliberately NOT a client component.
+ *
+ * Children that cross a client boundary are serialized into the RSC stream
+ * and arrive in chunks: everything past the first chunk is an unresolved
+ * `react.lazy` node that no synchronous walk can see through. This component
+ * walks the article to stamp ids on its headings, so it has to sit on the
+ * server side of the boundary, where the children are ordinary elements.
+ * The interactive pieces are client components rendered from here.
+ */
 
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { cloneElement, isValidElement } from "react";
+import type { ReactElement, ReactNode } from "react";
 import { ArrowLeft, ArrowRight, Clock, Headphones, Twitter } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
 import { TableOfContents } from "./table-of-contents";
-import { ShareButtons } from "./share-buttons";
+import type { TocHeading } from "./table-of-contents";
+import { ExplorationSchema, ExplorationShare } from "./exploration-identity";
 import { colorStyles, toIsoDate } from "./exploration-card";
 
 interface ExplorationLayoutProps {
@@ -32,6 +42,114 @@ interface ExplorationLayoutProps {
   nextReadTime?: string;
   audioSrc?: string;
   seriesLabel?: string;
+}
+
+/**
+ * Drives the CSS entrance reveals in globals.css. framer-motion is
+ * deliberately not used for any of this: its `initial` prop is serialized as
+ * an inline `opacity:0` during SSR, which left the whole article invisible
+ * until the motion runtime hydrated. These classes animate from CSS alone.
+ */
+function fx(delay: number, duration?: number): React.CSSProperties {
+  return {
+    "--fx-delay": `${delay}s`,
+    ...(duration === undefined ? {} : { "--fx-duration": `${duration}s` }),
+  } as React.CSSProperties;
+}
+
+type NodeProps = { children?: ReactNode; id?: string };
+
+const LINKABLE_HEADINGS = new Set(["h2", "h3"]);
+
+/** Turns heading text into a stable, readable URL fragment. */
+function slugifyHeading(text: string): string {
+  const slug = text
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[\u2018\u2019\u02bc']/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return slug || "section";
+}
+
+/** Flattens a heading's children (text, <em>, entities) down to plain text. */
+function headingText(node: ReactNode): string {
+  if (node === null || node === undefined || typeof node === "boolean") return "";
+  if (typeof node === "string") return node;
+  if (typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(headingText).join("");
+  if (isValidElement(node)) return headingText((node.props as NodeProps).children);
+  return "";
+}
+
+/**
+ * Stamps a stable `id` on every h2/h3 in the article *during render*, so the
+ * ids exist in the static HTML at parse time.
+ *
+ * They used to be assigned by a `useEffect` in the table of contents, which
+ * meant a `#fragment` target did not exist when the browser looked for it and
+ * the browser never retries: shared, bookmarked, and reloaded deep links
+ * silently landed at the top of the page. Deriving the id from the heading
+ * text also makes it survive edits, where the old `section-<index>` scheme
+ * silently repointed every link below an inserted heading.
+ */
+interface HeadingScan {
+  used: Set<string>;
+  /** h2s only, in document order: this is what the table of contents lists. */
+  toc: TocHeading[];
+}
+
+function withHeadingIds(node: ReactNode, scan: HeadingScan): ReactNode {
+  if (Array.isArray(node)) {
+    let changed = false;
+    const mapped = node.map((child) => {
+      const next = withHeadingIds(child, scan);
+      if (next !== child) changed = true;
+      return next;
+    });
+    return changed ? mapped : node;
+  }
+
+  if (!isValidElement(node)) return node;
+
+  const element = node as ReactElement<NodeProps>;
+  const { children, id } = element.props;
+  const mappedChildren =
+    children === undefined ? children : withHeadingIds(children, scan);
+
+  const isHeading =
+    typeof element.type === "string" && LINKABLE_HEADINGS.has(element.type);
+
+  let assignedId: string | undefined;
+  if (typeof id === "string" && id) {
+    // Respect ids the author wrote (footnote targets, etc.) and reserve them.
+    scan.used.add(id);
+  } else if (isHeading) {
+    const base = slugifyHeading(headingText(children));
+    let candidate = base;
+    let suffix = 2;
+    while (scan.used.has(candidate)) {
+      candidate = `${base}-${suffix++}`;
+    }
+    scan.used.add(candidate);
+    assignedId = candidate;
+  }
+
+  if (isHeading && element.type === "h2") {
+    const headingId = assignedId ?? id;
+    if (headingId) scan.toc.push({ id: headingId, text: headingText(children) });
+  }
+
+  if (assignedId === undefined && mappedChildren === children) return node;
+
+  const nextProps = assignedId === undefined ? {} : { id: assignedId };
+  if (children === undefined) return cloneElement(element, nextProps);
+  // Spread array children as separate arguments so React keeps treating them
+  // as static children rather than an unkeyed list.
+  return Array.isArray(mappedChildren)
+    ? cloneElement(element, nextProps, ...mappedChildren)
+    : cloneElement(element, nextProps, mappedChildren);
 }
 
 const dotColors: Record<string, string> = {
@@ -71,8 +189,6 @@ export function ExplorationLayout({
   audioSrc,
   seriesLabel,
 }: ExplorationLayoutProps) {
-  const pathname = usePathname();
-  const slug = pathname.split("/").pop() || "";
   const dot = dotColors[categoryColor] || dotColors.green;
   const hasRichNext = nextSlug && nextImage && nextSubtitle;
   const nextColors = nextCategoryColor
@@ -86,64 +202,24 @@ export function ExplorationLayout({
   // ISO 8601, so emit the parsed form and omit the fields if it won't parse.
   const isoDate = date ? toIsoDate(date) : null;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: title,
-    description: subtitle,
-    ...(isoDate && { datePublished: isoDate, dateModified: isoDate }),
-    ...(imageSrc && { image: `https://foxfire.blog${imageSrc}` }),
-    ...(wordCount && { wordCount }),
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `https://foxfire.blog/explorations/${slug}`,
-    },
-    articleSection: category,
-    inLanguage: "en",
-    isAccessibleForFree: true,
-    author: {
-      "@type": "Organization",
-      name: "Foxfire",
-      url: "https://foxfire.blog",
-      sameAs: ["https://x.com/foxfire_blog"],
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Foxfire",
-      url: "https://foxfire.blog",
-    },
-    ...(audioSrc && {
-      audio: {
-        "@type": "AudioObject",
-        contentUrl: audioSrc,
-        encodingFormat: "audio/mpeg",
-        name: `Listen to: ${title}`,
-      },
-    }),
-  };
+  // Heading ids are minted here, during render, so they are present in the
+  // static HTML; the table of contents then just renders the list.
+  const scan: HeadingScan = { used: new Set<string>(), toc: [] };
+  const body = withHeadingIds(children, scan);
 
   return (
     <div className="min-h-screen">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://foxfire.blog" },
-              { "@type": "ListItem", position: 2, name: "Explorations", item: "https://foxfire.blog/explorations" },
-              { "@type": "ListItem", position: 3, name: title, item: `https://foxfire.blog/explorations/${slug}` },
-            ],
-          }).replace(/</g, "\\u003c"),
-        }}
+      <ExplorationSchema
+        title={title}
+        subtitle={subtitle}
+        category={category}
+        isoDate={isoDate}
+        imageSrc={imageSrc}
+        wordCount={wordCount}
+        audioSrc={audioSrc}
       />
       <ReadingProgress />
-      <TableOfContents />
+      <TableOfContents headings={scan.toc} />
 
       {/* Full-bleed hero image */}
       {imageSrc ? (
@@ -160,12 +236,7 @@ export function ExplorationLayout({
           <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-transparent" />
 
           {/* Back button */}
-          <motion.div
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            className="absolute left-6 top-20 z-10"
-          >
+          <div className="fx-slide-in absolute left-6 top-20 z-10" style={fx(0.3)}>
             <Link
               href="/explorations"
               className="group flex items-center gap-2 rounded-full bg-background/30 px-4 py-2 text-xs text-foreground/60 backdrop-blur-md transition-all hover:bg-background/50 hover:text-foreground"
@@ -173,17 +244,12 @@ export function ExplorationLayout({
               <ArrowLeft size={12} className="transition-transform group-hover:-translate-x-0.5" />
               All explorations
             </Link>
-          </motion.div>
+          </div>
         </div>
       ) : (
         <div className="relative h-32 w-full sm:h-40">
           <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background" />
-          <motion.div
-            initial={{ opacity: 0, x: -10 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            className="absolute left-6 top-20 z-10"
-          >
+          <div className="fx-slide-in absolute left-6 top-20 z-10" style={fx(0.3)}>
             <Link
               href="/explorations"
               className="group flex items-center gap-2 rounded-full bg-background/30 px-4 py-2 text-xs text-foreground/60 backdrop-blur-md transition-all hover:bg-background/50 hover:text-foreground"
@@ -191,18 +257,13 @@ export function ExplorationLayout({
               <ArrowLeft size={12} className="transition-transform group-hover:-translate-x-0.5" />
               All explorations
             </Link>
-          </motion.div>
+          </div>
         </div>
       )}
 
       {/* Title block — pulled up over the image */}
       <article className={`relative mx-auto max-w-2xl px-6 ${imageSrc ? "-mt-32 sm:-mt-40" : "mt-8"}`}>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-4 flex items-center gap-3"
-        >
+        <div className="fx-rise mb-4 flex items-center gap-3" style={fx(0.1, 0.6)}>
           <div className={`h-1.5 w-1.5 rounded-full ${dot}`} />
           <span className="text-xs tracking-wider uppercase text-muted">
             {category}
@@ -231,44 +292,29 @@ export function ExplorationLayout({
               <span className="rounded-full bg-white/[0.08] px-2.5 py-0.5 text-xs font-medium text-muted">{seriesLabel}</span>
             </>
           )}
-        </motion.div>
+        </div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2 }}
-          className="font-[family-name:var(--font-display)] text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl"
-          style={{ textWrap: "balance" } as React.CSSProperties}
+        <h1
+          className="fx-rise font-[family-name:var(--font-display)] text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl"
+          style={{ textWrap: "balance", ...fx(0.2) } as React.CSSProperties}
         >
           {title}
-        </motion.h1>
+        </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.35 }}
-          className="mt-4 text-lg italic text-muted"
-        >
+        <p className="fx-rise mt-4 text-lg italic text-muted" style={fx(0.35)}>
           {subtitle}
-        </motion.p>
+        </p>
 
         {/* Share buttons */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.45 }}
-          className="mt-6"
-        >
-          <ShareButtons title={title} slug={slug} />
-        </motion.div>
+        <div className="fx-fade mt-6" style={fx(0.45, 0.5)}>
+          <ExplorationShare title={title} />
+        </div>
 
         {/* Audio player */}
         {audioSrc && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.45 }}
-            className="mt-8 rounded-xl border border-border bg-surface/80 p-4 backdrop-blur-sm"
+          <div
+            className="fx-rise mt-8 rounded-xl border border-border bg-surface/80 p-4 backdrop-blur-sm"
+            style={fx(0.45, 0.6)}
           >
             <div className="mb-2 flex items-center gap-2 text-xs text-muted/70">
               <Headphones size={14} />
@@ -288,26 +334,20 @@ export function ExplorationLayout({
               aria-label={`Listen to ${title}`}
               className="w-full [&::-webkit-media-controls-panel]:bg-surface [&::-webkit-media-controls-current-time-display]:text-foreground/70 [&::-webkit-media-controls-time-remaining-display]:text-foreground/70"
             />
-          </motion.div>
+          </div>
         )}
 
         {/* Divider */}
-        <motion.div
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-10 mb-12 h-px bg-gradient-to-r from-transparent via-border to-transparent origin-left"
+        <div
+          className="fx-grow-x mt-10 mb-12 h-px bg-gradient-to-r from-transparent via-border to-transparent origin-left"
+          style={fx(0.5)}
         />
 
-        {/* Body */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="prose-foxfire"
-        >
-          {children}
-        </motion.div>
+        {/* Body fades only. A translate here would slide the whole article
+            out from under a #fragment the browser had already scrolled to. */}
+        <div className="fx-fade prose-foxfire" style={fx(0.6, 0.8)}>
+          {body}
+        </div>
 
         {/* Follow CTA */}
         <div className="mt-16 flex flex-col items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-8 text-center">

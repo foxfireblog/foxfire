@@ -33,16 +33,16 @@ export default function TheInventionOfWriting() {
       imageAlt="The Invention of Writing illustration"
       readTime="12 min"
       wordCount={2652}
+      prevSlug="dyatlov-pass"
+      prevTitle="The Dyatlov Pass Incident"
+      nextSlug="the-borrowing"
+      nextTitle="The Borrowing"
+      nextSubtitle="On the strange life of words that crossed borders uninvited"
+      nextCategory="Linguistic Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-borrowing.webp"
+      nextReadTime="12 min"
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-invention-of-writing.mp3"
-      prevSlug="the-forgotten-front-part-3"
-      prevTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
-    nextSlug="the-fall-of-constantinople"
-    nextTitle="The Fall of Constantinople"
-    nextSubtitle="The day the medieval world ended with a cannon that shouldn't have existed"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-fall-of-constantinople.webp"
-    nextReadTime="14 min"
     >
       <h2>The Accountant&apos;s Fingerprint</h2>
 

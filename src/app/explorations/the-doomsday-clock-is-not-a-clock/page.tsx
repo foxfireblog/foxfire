@@ -35,13 +35,13 @@ export default function TheDoomsdayClockIsNotAClock() {
       wordCount={2964}
       prevSlug="the-friendship-that-split-the-atom"
       prevTitle="The Friendship That Split the Atom"
-    nextSlug="the-panopticon-in-your-pocket"
-    nextTitle="The Panopticon in Your Pocket"
-    nextSubtitle="Jeremy Bentham dreamed of a prison where inmates would police themselves. We built it voluntarily and called it a smartphone."
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-panopticon-in-your-pocket.webp"
-    nextReadTime="13 min"
+      nextSlug="the-panopticon-in-your-pocket"
+      nextTitle="The Panopticon in Your Pocket"
+      nextSubtitle="Jeremy Bentham dreamed of a prison where inmates would police themselves. We built it voluntarily and called it a smartphone."
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-panopticon-in-your-pocket.webp"
+      nextReadTime="13 min"
     >
       <h2>It Looked Good to the Eye</h2>
 

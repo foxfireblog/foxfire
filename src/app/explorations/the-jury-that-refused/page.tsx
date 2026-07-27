@@ -35,13 +35,13 @@ export default function TheJuryThatRefused() {
       wordCount={3052}
       prevSlug="the-birthday-problem"
       prevTitle="The Birthday Problem"
-    nextSlug="the-voice-that-crossed-the-wire"
-    nextTitle="The Voice That Crossed the Wire"
-    nextSubtitle="On the day music stopped being mortal"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-voice-that-crossed-the-wire.webp"
-    nextReadTime="13 min"
+      nextSlug="the-voice-that-crossed-the-wire"
+      nextTitle="The Voice That Crossed the Wire"
+      nextSubtitle="On the day music stopped being mortal"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-voice-that-crossed-the-wire.webp"
+      nextReadTime="13 min"
     >
       <h2>The Cage at the Back of the Courtroom</h2>
 

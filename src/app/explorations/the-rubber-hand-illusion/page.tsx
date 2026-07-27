@@ -33,16 +33,16 @@ export default function TheRubberHandIllusion() {
       imageAlt="The Rubber Hand Illusion illustration"
       readTime="11 min"
       wordCount={2585}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-rubber-hand-illusion.mp3"
       prevSlug="the-ediacaran-garden"
       prevTitle="The Ediacaran Garden"
-    nextSlug="vivian-maiers-secret-eye"
-    nextTitle="Vivian Maier's Secret Eye"
-    nextSubtitle="On the woman who made 150,000 photographs and showed them to no one"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/vivian-maiers-secret-eye.webp"
-    nextReadTime="12 min"
+      nextSlug="vivian-maiers-secret-eye"
+      nextTitle="Vivian Maier's Secret Eye"
+      nextSubtitle="On the woman who made 150,000 photographs and showed them to no one"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/vivian-maiers-secret-eye.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-rubber-hand-illusion.mp3"
     >
       <h2>The Paintbrush and the Lie</h2>
 

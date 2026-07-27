@@ -33,15 +33,15 @@ export default function TheScientistsWhoSaidNo() {
       imageAlt="The Scientists Who Said No illustration"
       readTime="15 min"
       wordCount={3463}
-      prevSlug="the-suicide-note-of-a-language"
-      prevTitle="The Suicide Note of a Language"
-    nextSlug="the-felt-sense-of-time"
-    nextTitle="The Felt Sense of Time"
-    nextSubtitle="Why your body keeps a clock your mind can't read"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-felt-sense-of-time.webp"
-    nextReadTime="14 min"
+      prevSlug="the-rooms-you-cannot-leave"
+      prevTitle="The Rooms You Cannot Leave"
+      nextSlug="the-felt-sense-of-time"
+      nextTitle="The Felt Sense of Time"
+      nextSubtitle="Why your body keeps a clock your mind can't read"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-felt-sense-of-time.webp"
+      nextReadTime="14 min"
     >
       <h2>The Silence Before the Flash</h2>
 

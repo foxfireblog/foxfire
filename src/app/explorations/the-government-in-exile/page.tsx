@@ -35,13 +35,13 @@ export default function TheGovernmentInExile() {
       wordCount={2792}
       prevSlug="the-interpreter-at-the-end-of-the-world"
       prevTitle="The Interpreter at the End of the World"
-    nextSlug="the-involuntary-confession-of-the-body"
-    nextTitle="The Involuntary Confession of the Body"
-    nextSubtitle="How medicine learned to read what patients could not say &mdash; and what it took from them in the exchange"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-involuntary-confession-of-the-body.webp"
-    nextReadTime="15 min"
+      nextSlug="the-involuntary-confession-of-the-body"
+      nextTitle="The Involuntary Confession of the Body"
+      nextSubtitle="How medicine learned to read what patients could not say &mdash; and what it took from them in the exchange"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-involuntary-confession-of-the-body.webp"
+      nextReadTime="15 min"
     >
       <h2>The Phone That Kept Ringing</h2>
 

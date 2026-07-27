@@ -35,13 +35,13 @@ export default function TheHungerArtists() {
       wordCount={2481}
       prevSlug="the-general-strike-of-everything"
       prevTitle="The General Strike of Everything"
-    nextSlug="the-phantom-atlas"
-    nextTitle="The Phantom Atlas"
-    nextSubtitle="Islands that existed only in ink, and the centuries it took to drown them"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-phantom-atlas.webp"
-    nextReadTime="13 min"
+      nextSlug="the-phantom-atlas"
+      nextTitle="The Phantom Atlas"
+      nextSubtitle="Islands that existed only in ink, and the centuries it took to drown them"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-phantom-atlas.webp"
+      nextReadTime="13 min"
     >
 
       <p className="text-sm font-medium text-muted tracking-widest uppercase mb-2">Essay</p>

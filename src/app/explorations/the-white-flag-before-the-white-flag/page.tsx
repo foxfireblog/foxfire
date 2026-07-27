@@ -35,13 +35,13 @@ export default function TheWhiteFlagBeforeTheWhiteFlag() {
       wordCount={3311}
       prevSlug="the-birch-bark-letters-of-novgorod"
       prevTitle="The Birch Bark Letters of Novgorod"
-    nextSlug="the-woman-who-tasted-words"
-    nextTitle="The Woman Who Tasted Words"
-    nextSubtitle="On the rarest crossing of senses, and what it means to eat a sentence"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-woman-who-tasted-words.webp"
-    nextReadTime="12 min"
+      nextSlug="the-woman-who-tasted-words"
+      nextTitle="The Woman Who Tasted Words"
+      nextSubtitle="On the rarest crossing of senses, and what it means to eat a sentence"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-woman-who-tasted-words.webp"
+      nextReadTime="12 min"
     >
       <h2>The Spear and the Dirt</h2>
 

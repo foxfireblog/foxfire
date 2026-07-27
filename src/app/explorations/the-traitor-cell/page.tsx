@@ -35,13 +35,13 @@ export default function TheTraitorCell() {
       wordCount={2987}
       prevSlug="the-invention-of-the-addict"
       prevTitle="The Invention of the Addict"
-    nextSlug="the-brine-that-remembers"
-    nextTitle="The Brine That Remembers"
-    nextSubtitle="On the ancient oceans trapped beneath our feet, and the things that learned to live in them"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-brine-that-remembers.webp"
-    nextReadTime="12 min"
+      nextSlug="the-brine-that-remembers"
+      nextTitle="The Brine That Remembers"
+      nextSubtitle="On the ancient oceans trapped beneath our feet, and the things that learned to live in them"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-brine-that-remembers.webp"
+      nextReadTime="12 min"
     >
       <h2>Horror Autotoxicus</h2>
 

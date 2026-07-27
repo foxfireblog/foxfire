@@ -35,13 +35,13 @@ export default function TheAnatomyOfTheSnitch() {
       wordCount={3258}
       prevSlug="the-radium-girls"
       prevTitle="The Radium Girls"
-    nextSlug="the-body-that-taught-surgery"
-    nextTitle="The Body That Taught Surgery"
-    nextSubtitle="On the stolen dead, the science of the knife, and the debt anatomy owes to the grave"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-body-that-taught-surgery.webp"
-    nextReadTime="13 min"
+      nextSlug="the-body-that-taught-surgery"
+      nextTitle="The Body That Taught Surgery"
+      nextSubtitle="On the stolen dead, the science of the knife, and the debt anatomy owes to the grave"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-body-that-taught-surgery.webp"
+      nextReadTime="13 min"
     >
       <h2>The Language of Vermin</h2>
 

@@ -33,16 +33,16 @@ export default function TheParadoxOfTolerance() {
       imageAlt="The Paradox of Tolerance illustration"
       readTime="12 min"
       wordCount={2661}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-paradox-of-tolerance.mp3"
       prevSlug="the-architecture-of-control"
       prevTitle="The Architecture of Control"
-    nextSlug="the-monster-makers"
-    nextTitle="The Monster Makers"
-    nextSubtitle="A history of scientists who built creatures from ambition, bone dust, and lies"
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-monster-makers.webp"
-    nextReadTime="13 min"
+      nextSlug="the-monster-makers"
+      nextTitle="The Monster Makers"
+      nextSubtitle="A history of scientists who built creatures from ambition, bone dust, and lies"
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-monster-makers.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-paradox-of-tolerance.mp3"
     >
       <h2>The Paradox of Tolerance</h2>
       <h3>A society that tolerates everything will tolerate its own destruction</h3>

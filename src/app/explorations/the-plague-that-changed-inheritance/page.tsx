@@ -35,13 +35,13 @@ export default function ThePlagueThatChangedInheritance() {
       wordCount={3123}
       prevSlug="the-mathematics-of-the-heartbeat"
       prevTitle="The Mathematics of the Heartbeat"
-    nextSlug="the-grammar-of-time"
-    nextTitle="The Grammar of Time"
-    nextSubtitle="Some languages have no future tense. Their speakers live differently because of it."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-grammar-of-time.webp"
-    nextReadTime="11 min"
+      nextSlug="the-grammar-of-time"
+      nextTitle="The Grammar of Time"
+      nextSubtitle="Some languages have no future tense. Their speakers live differently because of it."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-grammar-of-time.webp"
+      nextReadTime="11 min"
     >
       <h2>The Audacity of Eating Well</h2>
 

@@ -35,13 +35,13 @@ export default function TheManhattanProject() {
       wordCount={3120}
       prevSlug="the-cabinet-of-dr-blumenbach"
       prevTitle="The Cabinet of Dr. Blumenbach"
-      nextSlug="the-manhattan-project-part-2"
-      nextTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
-      nextSubtitle="Life at Los Alamos, the personalities, the moral debates, and the Trinity test"
+      nextSlug="the-geometry-of-gerrymandering"
+      nextTitle="The Geometry of Gerrymandering"
+      nextSubtitle="How a shape can steal an election &mdash; and why mathematics might be democracy's last honest witness"
       nextCategory="Essay"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-manhattan-project-part-2.webp"
-      nextReadTime="17 min"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-geometry-of-gerrymandering.webp"
+      nextReadTime="13 min"
     >
       <h2>The Letter</h2>
 

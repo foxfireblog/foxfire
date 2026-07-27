@@ -33,16 +33,16 @@ export default function TheSnowballEarth() {
       imageAlt="The Snowball Earth illustration"
       readTime="13 min"
       wordCount={3028}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-snowball-earth.mp3"
       prevSlug="the-man-who-measured-suffering"
       prevTitle="The Man Who Measured Suffering"
-    nextSlug="the-secret-life-of-soil"
-    nextTitle="The Secret Life of Soil"
-    nextSubtitle="Beneath your feet is a civilization older than anything above ground &mdash; and we're destroying it faster than we can understand it."
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-secret-life-of-soil.webp"
-    nextReadTime="10 min"
+      nextSlug="the-secret-life-of-soil"
+      nextTitle="The Secret Life of Soil"
+      nextSubtitle="Beneath your feet is a civilization older than anything above ground &mdash; and we're destroying it faster than we can understand it."
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-secret-life-of-soil.webp"
+      nextReadTime="10 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-snowball-earth.mp3"
     >
       <h2>The Throwaway Line That Changed Everything</h2>
 

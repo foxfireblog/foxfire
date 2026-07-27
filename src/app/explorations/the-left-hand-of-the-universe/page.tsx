@@ -35,13 +35,13 @@ export default function TheLeftHandOfTheUniverse() {
       wordCount={2588}
       prevSlug="the-price-of-a-name"
       prevTitle="The Price of a Name"
-    nextSlug="the-port-that-invented-the-world"
-    nextTitle="The Port That Invented the World"
-    nextSubtitle="How a small metal box dissolved the boundaries between everywhere and nowhere"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-port-that-invented-the-world.webp"
-    nextReadTime="13 min"
+      nextSlug="the-port-that-invented-the-world"
+      nextTitle="The Port That Invented the World"
+      nextSubtitle="How a small metal box dissolved the boundaries between everywhere and nowhere"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-port-that-invented-the-world.webp"
+      nextReadTime="13 min"
     >
       <h2>The Scent of Ancient Chemistry</h2>
 

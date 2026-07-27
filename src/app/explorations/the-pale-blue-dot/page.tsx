@@ -33,16 +33,16 @@ export default function ThePaleBlueDot() {
       imageAlt="The Pale Blue Dot illustration"
       readTime="13 min"
       wordCount={2941}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-pale-blue-dot.mp3"
       prevSlug="the-river-that-screamed"
       prevTitle="The River That Screamed"
-    nextSlug="the-victorian-internet"
-    nextTitle="The Victorian Internet"
-    nextSubtitle="How the telegraph rewired the human mind &mdash; and then we forgot it happened"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-victorian-internet.webp"
-    nextReadTime="13 min"
+      nextSlug="the-victorian-internet"
+      nextTitle="The Victorian Internet"
+      nextSubtitle="How the telegraph rewired the human mind &mdash; and then we forgot it happened"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-victorian-internet.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-pale-blue-dot.mp3"
     >
       <h2>A Speck They Tried to Brush Away</h2>
 

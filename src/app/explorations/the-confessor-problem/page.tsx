@@ -33,16 +33,16 @@ export default function TheConfessorProblem() {
       imageAlt="The Confessor Problem illustration"
       readTime="13 min"
       wordCount={2960}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-confessor-problem.mp3"
       prevSlug="the-trials-of-the-dead"
       prevTitle="The Trials of the Dead"
-    nextSlug="the-great-filter"
-    nextTitle="The Great Filter"
-    nextSubtitle="Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead."
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-great-filter.webp"
-    nextReadTime="13 min"
+      nextSlug="the-great-filter"
+      nextTitle="The Great Filter"
+      nextSubtitle="Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead."
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-great-filter.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-confessor-problem.mp3"
     >
       <h2>The Meal on the Dead Man&apos;s Chest</h2>
 

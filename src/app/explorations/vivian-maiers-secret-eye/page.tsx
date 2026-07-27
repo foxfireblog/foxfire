@@ -33,16 +33,16 @@ export default function VivianMaiersSecretEye() {
       imageAlt="Vivian Maier's Secret Eye illustration"
       readTime="12 min"
       wordCount={2866}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/vivian-maiers-secret-eye.mp3"
       prevSlug="the-rubber-hand-illusion"
       prevTitle="The Rubber Hand Illusion"
-    nextSlug="the-moral-injury"
-    nextTitle="The Moral Injury"
-    nextSubtitle="The wound that has no bandage"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-moral-injury.webp"
-    nextReadTime="12 min"
+      nextSlug="the-moral-injury"
+      nextTitle="The Moral Injury"
+      nextSubtitle="The wound that has no bandage"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-moral-injury.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/vivian-maiers-secret-eye.mp3"
     >
       <h2>The Box at the Auction House</h2>
 

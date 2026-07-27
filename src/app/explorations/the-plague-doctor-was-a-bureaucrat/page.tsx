@@ -35,13 +35,13 @@ export default function ThePlagueDoctorWasABureaucrat() {
       wordCount={2720}
       prevSlug="the-indigo-conspiracy"
       prevTitle="The Indigo Conspiracy"
-    nextSlug="the-ovation-that-wouldnt-stop"
-    nextTitle="The Ovation That Wouldn't Stop"
-    nextSubtitle="On the terror of being the first person to stop clapping"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.webp"
-    nextReadTime="12 min"
+      nextSlug="the-ovation-that-wouldnt-stop"
+      nextTitle="The Ovation That Wouldn't Stop"
+      nextSubtitle="On the terror of being the first person to stop clapping"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-ovation-that-wouldnt-stop.webp"
+      nextReadTime="12 min"
     >
       <h2>The Contract</h2>
 

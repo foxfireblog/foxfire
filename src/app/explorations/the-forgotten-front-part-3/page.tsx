@@ -33,15 +33,15 @@ export default function TheForgottenFrontPart3() {
       imageAlt="The Forgotten Front: Revolution and Collapse (Part III of III) illustration"
       readTime="13 min"
       wordCount={3045}
-      prevSlug="the-forgotten-front-part-2"
-      prevTitle="The Forgotten Front: The Brusilov Offensive"
-    nextSlug="the-invention-of-writing"
-    nextTitle="The Invention of Writing"
-    nextSubtitle="Every time humanity learned to speak with its hands, it was counting sheep"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-invention-of-writing.webp"
-    nextReadTime="12 min"
+      prevSlug="the-holobiont"
+      prevTitle="The Holobiont"
+      nextSlug="dyatlov-pass"
+      nextTitle="The Dyatlov Pass Incident"
+      nextSubtitle="Nine hikers tore open their tent from the inside and fled barefoot into a Siberian blizzard. Sixty-five years later, we still can't agree on why."
+      nextCategory="Mystery"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/dyatlov-pass.webp"
+      nextReadTime="13 min"
     >
       <h2>The Unraveling</h2>
 

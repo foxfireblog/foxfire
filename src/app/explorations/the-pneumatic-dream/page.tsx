@@ -35,13 +35,13 @@ export default function ThePneumaticDream() {
       wordCount={2716}
       prevSlug="the-therapeutic-state"
       prevTitle="The Therapeutic State"
-    nextSlug="the-keening-women"
-    nextTitle="The Keening Women"
-    nextSubtitle="On the professionals who carried grief so others could survive it"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-keening-women.webp"
-    nextReadTime="12 min"
+      nextSlug="the-pain-that-has-no-language"
+      nextTitle="The Pain That Has No Language"
+      nextSubtitle="Why medicine couldn't describe what patients couldn't name &mdash; and the strange tools built to bridge the silence"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-pain-that-has-no-language.webp"
+      nextReadTime="12 min"
     >
       <h2>The Duke in the Tube</h2>
 

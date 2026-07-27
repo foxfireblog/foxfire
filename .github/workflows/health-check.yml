@@ -38,30 +38,41 @@ jobs:
             exit 1
           fi
 
+      # This job has no checkout — it only curls a public URL — so gh has no git
+      # remote to infer a repository from, and it does NOT fall back to
+      # GITHUB_REPOSITORY. Every gh call therefore passes --repo explicitly.
+      # Without it these two steps failed silently for 137 runs: dedupe always
+      # read "0" and auto-close never closed anything. Adding a checkout would
+      # also work, but this job would then need contents: read and a clone of
+      # the whole site to send one API call.
       - name: Close stale failure issues on success
         if: success()
         run: |
-          gh issue list --label "automation-failure" --state open --json number,title \
+          gh issue list --repo "$GH_REPO" --label "automation-failure" --state open --json number,title \
             --jq '.[] | select(.title | contains("health check")) | .number' \
-          | xargs -I{} gh issue close {} --comment "Auto-closed: site is healthy again as of $(date -u +%Y-%m-%d)" \
-          2>/dev/null || true
+          | xargs -I{} gh issue close {} --repo "$GH_REPO" --comment "Auto-closed: site is healthy again as of $(date -u +%Y-%m-%d)" \
+          || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
 
       - name: Notify on failure
         if: failure()
         run: |
-          EXISTING=$(gh issue list --label "automation-failure" --state open --json title \
-            --jq '[.[] | select(.title | contains("health check"))] | length' 2>/dev/null || echo "0")
+          EXISTING=$(gh issue list --repo "$GH_REPO" --label "automation-failure" --state open --json title \
+            --jq '[.[] | select(.title | contains("health check"))] | length' || echo "0")
           if [ "$EXISTING" -gt 0 ]; then
             echo "Open failure issue already exists, skipping duplicate"
           else
             gh issue create \
-              --repo ${{ github.repository }} \
+              --repo "$GH_REPO" \
               --title "🔴 Site health check failed ($(date -u +%Y-%m-%d))" \
-              --body "**Check:** foxfire.blog returned non-200 status\n**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n**Time:** $(date -u)" \
+              --body "$(printf '**Check:** foxfire.blog returned non-200 status\n**Run:** %s/%s/actions/runs/%s\n**Time:** %s\n' "$GH_SERVER_URL" "$GH_REPO" "$GH_RUN_ID" "$(date -u)")" \
               --label "automation-failure" \
-              2>/dev/null || echo "Could not create issue"
+              || echo "Could not create issue"
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          GH_SERVER_URL: ${{ github.server_url }}
+          GH_RUN_ID: ${{ github.run_id }}

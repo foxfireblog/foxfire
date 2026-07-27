@@ -35,13 +35,13 @@ export default function TheFeltSenseOfTime() {
       wordCount={3323}
       prevSlug="the-scientists-who-said-no"
       prevTitle="The Scientists Who Said No"
-    nextSlug="the-hawala-network"
-    nextTitle="The Hawala Network"
-    nextSubtitle="The oldest banking system in the world runs on nothing but trust"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hawala-network.webp"
-    nextReadTime="13 min"
+      nextSlug="the-hawala-network"
+      nextTitle="The Hawala Network"
+      nextSubtitle="The oldest banking system in the world runs on nothing but trust"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-hawala-network.webp"
+      nextReadTime="13 min"
     >
       <h2>The Wife with the Fever</h2>
 

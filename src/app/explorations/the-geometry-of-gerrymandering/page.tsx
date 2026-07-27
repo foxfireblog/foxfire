@@ -35,13 +35,13 @@ export default function TheGeometryOfGerrymandering() {
       wordCount={3051}
       prevSlug="the-manhattan-project"
       prevTitle="The Manhattan Project: The Physics of Desperation (Part I of IV)"
-    nextSlug="the-scramble-for-africa-part-3"
-    nextTitle="The Scramble for Africa: The Long Shadow (Part III of III)"
-    nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scramble-for-africa-part-3.webp"
-    nextReadTime="13 min"
+      nextSlug="the-scramble-for-africa-part-3"
+      nextTitle="The Scramble for Africa: The Long Shadow (Part III of III)"
+      nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-scramble-for-africa-part-3.webp"
+      nextReadTime="13 min"
     >
 
       <p className="text-sm font-medium text-accent mb-2 tracking-widest uppercase">Essay</p>

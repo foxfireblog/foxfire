@@ -35,13 +35,13 @@ export default function TheCityBeneathTheCity() {
       wordCount={2905}
       prevSlug="the-tulip-that-broke-an-empire"
       prevTitle="The Tulip That Broke an Empire"
-    nextSlug="the-scrapie-notebooks"
-    nextTitle="The Scrapie Notebooks"
-    nextSubtitle="For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened."
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scrapie-notebooks.webp"
-    nextReadTime="16 min"
+      nextSlug="the-scrapie-notebooks"
+      nextTitle="The Scrapie Notebooks"
+      nextSubtitle="For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened."
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-scrapie-notebooks.webp"
+      nextReadTime="24 min"
     >
       <h2>The Chickens That Vanished</h2>
 

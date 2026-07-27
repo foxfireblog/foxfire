@@ -33,16 +33,16 @@ export default function TheNightTheWarStoppedItself() {
       imageAlt="The Night the War Stopped Itself illustration"
       readTime="12 min"
       wordCount={2691}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-night-the-war-stopped-itself.mp3"
       prevSlug="the-chilean-experiment"
       prevTitle="The Chilean Experiment"
-    nextSlug="the-census-that-erased-people"
-    nextTitle="The Census That Erased People"
-    nextSubtitle="How counting became a weapon, and the quiet violence of being categorized out of existence"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-census-that-erased-people.webp"
-    nextReadTime="13 min"
+      nextSlug="the-census-that-erased-people"
+      nextTitle="The Census That Erased People"
+      nextSubtitle="How counting became a weapon, and the quiet violence of being categorized out of existence"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-census-that-erased-people.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-night-the-war-stopped-itself.mp3"
     >
       <h2>The Sound Before the Silence</h2>
 

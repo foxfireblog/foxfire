@@ -35,13 +35,13 @@ export default function TheFalseMemoryMachine() {
       wordCount={2935}
       prevSlug="the-talking-knots-of-the-andes"
       prevTitle="The Talking Knots of the Andes"
-    nextSlug="the-palace-that-erased-itself"
-    nextTitle="The Palace That Erased Itself"
-    nextSubtitle="On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-palace-that-erased-itself.webp"
-    nextReadTime="13 min"
+      nextSlug="the-palace-that-erased-itself"
+      nextTitle="The Palace That Erased Itself"
+      nextSubtitle="On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-palace-that-erased-itself.webp"
+      nextReadTime="13 min"
     >
       <h2>The Man on Television</h2>
 

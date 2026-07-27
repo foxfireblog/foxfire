@@ -33,16 +33,16 @@ export default function TheJewelWasp() {
       imageAlt="The Jewel Wasp and the Zombie Cockroach illustration"
       readTime="14 min"
       wordCount={3154}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-jewel-wasp.mp3"
       prevSlug="the-worlds-greatest-collision"
       prevTitle="The World's Greatest Collision: The Meeting (Part I of II)"
-    nextSlug="the-lloyds-of-london-ledger"
-    nextTitle="The Lloyd's of London Ledger"
-    nextSubtitle="How insurance made atrocity scalable"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-lloyds-of-london-ledger.webp"
-    nextReadTime="12 min"
+      nextSlug="the-lloyds-of-london-ledger"
+      nextTitle="The Lloyd's of London Ledger"
+      nextSubtitle="How insurance made atrocity scalable"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-lloyds-of-london-ledger.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-jewel-wasp.mp3"
     >
       <h2>The Most Beautiful Thing That Has Ever Happened to a Cockroach</h2>
 

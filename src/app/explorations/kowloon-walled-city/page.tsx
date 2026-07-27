@@ -35,13 +35,13 @@ export default function KowloonWalledCity() {
       wordCount={3022}
       prevSlug="the-forger-who-saved-himself"
       prevTitle="The Forger Who Saved Himself"
-    nextSlug="microchimerism"
-    nextTitle="Microchimerism"
-    nextSubtitle="You are not entirely yourself, and you never were"
-    nextCategory="Natural History"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/microchimerism.webp"
-    nextReadTime="11 min"
+      nextSlug="microchimerism"
+      nextTitle="Microchimerism"
+      nextSubtitle="You are not entirely yourself, and you never were"
+      nextCategory="Natural History"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/microchimerism.webp"
+      nextReadTime="11 min"
     ><article>
       <h2>The City That Refused to Be Governed</h2>
 

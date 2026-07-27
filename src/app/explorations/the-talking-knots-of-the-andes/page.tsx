@@ -35,13 +35,13 @@ export default function TheTalkingKnotsOfTheAndes() {
       wordCount={2960}
       prevSlug="the-mechanical-turk-problem"
       prevTitle="The Mechanical Turk Problem"
-    nextSlug="the-false-memory-machine"
-    nextTitle="The False Memory Machine"
-    nextSubtitle="We know how to implant memories that never happened &mdash; and we've been doing it by accident for centuries"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-false-memory-machine.webp"
-    nextReadTime="13 min"
+      nextSlug="the-false-memory-machine"
+      nextTitle="The False Memory Machine"
+      nextSubtitle="We know how to implant memories that never happened &mdash; and we've been doing it by accident for centuries"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-false-memory-machine.webp"
+      nextReadTime="13 min"
     >
       <h2>The Filing Cabinet in the Grave</h2>
 

@@ -35,13 +35,13 @@ export default function TheBirthdayProblem() {
       wordCount={2757}
       prevSlug="the-good-german-problem"
       prevTitle="The Good German Problem"
-    nextSlug="the-jury-that-refused"
-    nextTitle="The Jury That Refused"
-    nextSubtitle="On the strange, fragile power of twelve people who say no"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-jury-that-refused.webp"
-    nextReadTime="13 min"
+      nextSlug="the-jury-that-refused"
+      nextTitle="The Jury That Refused"
+      nextSubtitle="On the strange, fragile power of twelve people who say no"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-jury-that-refused.webp"
+      nextReadTime="13 min"
     >
       <h2>Twenty-Three Strangers Walk Into a Room</h2>
 

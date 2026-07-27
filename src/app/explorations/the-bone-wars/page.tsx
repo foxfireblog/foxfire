@@ -33,16 +33,16 @@ export default function TheBoneWars() {
       imageAlt="The Bone Wars illustration"
       readTime="12 min"
       wordCount={2857}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bone-wars.mp3"
       prevSlug="the-cambrian-explosion"
       prevTitle="The Cambrian Explosion"
-    nextSlug="the-centennial-light"
-    nextTitle="The Centennial Light"
-    nextSubtitle="On a light bulb that refuses to die and an economy that requires it to"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-centennial-light.webp"
-    nextReadTime="11 min"
+      nextSlug="the-centennial-light"
+      nextTitle="The Centennial Light"
+      nextSubtitle="On a light bulb that refuses to die and an economy that requires it to"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-centennial-light.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bone-wars.mp3"
     >
       <h2>The Head on the Wrong End</h2>
 

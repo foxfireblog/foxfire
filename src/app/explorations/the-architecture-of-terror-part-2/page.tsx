@@ -33,8 +33,8 @@ export default function TheArchitectureOfTerrorPart2() {
       imageAlt="The Architecture of Terror: The Purges (Part II of III) illustration"
       readTime="14 min"
       wordCount={3146}
-      prevSlug="the-architecture-of-terror"
-      prevTitle="The Architecture of Terror: The Apparatus (Part I of III)"
+      prevSlug="the-hired-mourners"
+      prevTitle="The Hired Mourners"
     >
       <h2>The Shot That Opened the Door</h2>
 

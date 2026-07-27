@@ -35,13 +35,13 @@ export default function TheLightThatBodiesMake() {
       wordCount={3010}
       prevSlug="the-stratigraphy-of-catastrophe"
       prevTitle="The Stratigraphy of Catastrophe"
-    nextSlug="the-retraction-problem"
-    nextTitle="The Retraction Problem"
-    nextSubtitle="Science corrects itself. The correction never catches up."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-retraction-problem.webp"
-    nextReadTime="12 min"
+      nextSlug="the-retraction-problem"
+      nextTitle="The Retraction Problem"
+      nextSubtitle="Science corrects itself. The correction never catches up."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-retraction-problem.webp"
+      nextReadTime="12 min"
     >
       <h2>The Onion and the Light</h2>
 

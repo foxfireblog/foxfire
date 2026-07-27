@@ -35,13 +35,13 @@ export default function TheBanalityOfEvil() {
       wordCount={2757}
       prevSlug="the-manhattan-project-part-2"
       prevTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
-    nextSlug="the-women-who-counted-stars"
-    nextTitle="The Women Who Counted Stars"
-    nextSubtitle="How a room of underpaid 'computers' catalogued the universe and were nearly erased from it"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-women-who-counted-stars.webp"
-    nextReadTime="13 min"
+      nextSlug="the-women-who-counted-stars"
+      nextTitle="The Women Who Counted Stars"
+      nextSubtitle="How a room of underpaid 'computers' catalogued the universe and were nearly erased from it"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-women-who-counted-stars.webp"
+      nextReadTime="13 min"
     >
       <h2>The Man in the Glass Booth</h2>
 

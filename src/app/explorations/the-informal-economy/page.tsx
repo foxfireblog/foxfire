@@ -35,13 +35,13 @@ export default function TheInformalEconomy() {
       wordCount={2555}
       prevSlug="the-man-who-mailed-himself-to-freedom"
       prevTitle="The Man Who Mailed Himself to Freedom"
-    nextSlug="the-body-that-grew-a-second-brain"
-    nextTitle="The Body That Grew a Second Brain"
-    nextSubtitle="There are more neurons in your gut than in the spine of a cat. They have opinions."
-    nextCategory="Natural History"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-body-that-grew-a-second-brain.webp"
-    nextReadTime="11 min"
+      nextSlug="the-tethys-ocean"
+      nextTitle="The Tethys Ocean"
+      nextSubtitle="A love letter to the sea the continents swallowed"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-tethys-ocean.webp"
+      nextReadTime="12 min"
     >
       <h2>The Economy That Wasn&apos;t Supposed to Exist</h2>
 

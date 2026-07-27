@@ -35,13 +35,13 @@ export default function TheDrumThatCrossedContinents() {
       wordCount={2730}
       prevSlug="the-debt-that-outlived-the-empire"
       prevTitle="The Debt That Outlived the Empire"
-    nextSlug="the-rooms-you-cannot-leave"
-    nextTitle="The Rooms You Cannot Leave"
-    nextSubtitle="On dark patterns, digital coercion, and the architecture of false consent"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-rooms-you-cannot-leave.webp"
-    nextReadTime="13 min"
+      nextSlug="the-rooms-you-cannot-leave"
+      nextTitle="The Rooms You Cannot Leave"
+      nextSubtitle="On dark patterns, digital coercion, and the architecture of false consent"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-rooms-you-cannot-leave.webp"
+      nextReadTime="13 min"
     >
 
       <p className="text-sm font-medium text-muted mb-2 tracking-widest uppercase">Essay</p>

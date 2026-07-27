@@ -35,13 +35,13 @@ export default function TheCadaverSynod() {
       wordCount={2844}
       prevSlug="the-sabotage-of-the-wooden-shoe"
       prevTitle="The Sabotage of the Wooden Shoe"
-    nextSlug="the-smell-that-preceded-electricity"
-    nextTitle="The Smell That Preceded Electricity"
-    nextSubtitle="On petrichor, ozone, and the scents that arrive before the world changes"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-smell-that-preceded-electricity.webp"
-    nextReadTime="12 min"
+      nextSlug="the-smell-that-preceded-electricity"
+      nextTitle="The Smell That Preceded Electricity"
+      nextSubtitle="On petrichor, ozone, and the scents that arrive before the world changes"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-smell-that-preceded-electricity.webp"
+      nextReadTime="12 min"
     >
 
 

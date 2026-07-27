@@ -33,16 +33,16 @@ export default function TheWorldEndingOnSchedule() {
       imageAlt="The World Ending on Schedule illustration"
       readTime="15 min"
       wordCount={3560}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-world-ending-on-schedule.mp3"
       prevSlug="the-overview-effect"
       prevTitle="The Overview Effect"
-    nextSlug="the-library-of-burned-books"
-    nextTitle="The Library of Burned Books"
-    nextSubtitle="Every civilization that burned books eventually burned people"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-library-of-burned-books.webp"
-    nextReadTime="13 min"
+      nextSlug="the-library-of-burned-books"
+      nextTitle="The Library of Burned Books"
+      nextSubtitle="Every civilization that burned books eventually burned people"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-library-of-burned-books.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-world-ending-on-schedule.mp3"
     >
       <h2>The Man in Times Square</h2>
 

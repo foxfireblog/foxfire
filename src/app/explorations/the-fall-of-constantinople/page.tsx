@@ -33,16 +33,16 @@ export default function TheFallOfConstantinople() {
       imageAlt="The Fall of Constantinople illustration"
       readTime="14 min"
       wordCount={3134}
+      prevSlug="the-borrowing"
+      prevTitle="The Borrowing"
+      nextSlug="the-oldest-technology-on-earth"
+      nextTitle="The Oldest Technology on Earth"
+      nextSubtitle="Before the wheel, before writing, before we were even quite human &mdash; we were fermenting."
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-oldest-technology-on-earth.webp"
+      nextReadTime="12 min"
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fall-of-constantinople.mp3"
-      prevSlug="the-invention-of-writing"
-      prevTitle="The Invention of Writing"
-    nextSlug="the-collaborators"
-    nextTitle="The Collaborators"
-    nextSubtitle="On the terrible reasonableness of saying yes"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-collaborators.webp"
-    nextReadTime="14 min"
     >
       <h2>The Mercenary Who Changed Sides</h2>
 

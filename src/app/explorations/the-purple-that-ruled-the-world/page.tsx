@@ -35,13 +35,13 @@ export default function ThePurpleThatRuledTheWorld() {
       wordCount={2564}
       prevSlug="the-suicide-of-the-aral-sea"
       prevTitle="The Suicide of the Aral Sea"
-    nextSlug="the-shape-of-a-smell"
-    nextTitle="The Shape of a Smell"
-    nextSubtitle="Why your nose might be reading molecular geometry like sheet music"
-    nextCategory="Natural Philosophy"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-shape-of-a-smell.webp"
-    nextReadTime="13 min"
+      nextSlug="the-shape-of-a-smell"
+      nextTitle="The Shape of a Smell"
+      nextSubtitle="Why your nose might be reading molecular geometry like sheet music"
+      nextCategory="Natural Philosophy"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-shape-of-a-smell.webp"
+      nextReadTime="13 min"
     >
       <h2>The Dog&apos;s Mouth</h2>
 

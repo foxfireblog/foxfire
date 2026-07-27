@@ -35,13 +35,13 @@ export default function TheGeneralStrikeOfEverything() {
       wordCount={2640}
       prevSlug="the-backrooms"
       prevTitle="The Backrooms"
-    nextSlug="the-hunger-artists"
-    nextTitle="The Hunger Artists"
-    nextSubtitle="When starvation became a spectacle, and the crowds who paid to watch"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hunger-artists.webp"
-    nextReadTime="11 min"
+      nextSlug="the-hunger-artists"
+      nextTitle="The Hunger Artists"
+      nextSubtitle="When starvation became a spectacle, and the crowds who paid to watch"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-hunger-artists.webp"
+      nextReadTime="11 min"
     >
       <h2>The Sound of Nothing</h2>
 

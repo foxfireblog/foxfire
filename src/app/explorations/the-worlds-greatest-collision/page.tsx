@@ -33,16 +33,16 @@ export default function TheWorldsGreatestCollision() {
       imageAlt="The World's Greatest Collision: The Meeting (Part I of II) illustration"
       readTime="13 min"
       wordCount={2962}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-worlds-greatest-collision.mp3"
       prevSlug="the-price-of-flavor"
       prevTitle="The Price of Flavor"
-      nextSlug="the-worlds-greatest-collision-part-2"
-      nextTitle="The World's Greatest Collision: The Catastrophe (Part II of II)"
-      nextSubtitle="Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange"
+      nextSlug="the-jewel-wasp"
+      nextTitle="The Jewel Wasp and the Zombie Cockroach"
+      nextSubtitle="A love story about neurosurgery, free will, and the most beautiful horror in nature"
       nextCategory="Natural History"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-worlds-greatest-collision-part-2.webp"
-      nextReadTime="12 min"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-jewel-wasp.webp"
+      nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-worlds-greatest-collision.mp3"
     >
       <h2>The Longest Goodbye</h2>
 

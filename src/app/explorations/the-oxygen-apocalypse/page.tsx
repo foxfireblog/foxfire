@@ -33,16 +33,16 @@ export default function TheOxygenApocalypse() {
       imageAlt="The Oxygen Apocalypse illustration"
       readTime="13 min"
       wordCount={3033}
+      prevSlug="the-map-of-every-death"
+      prevTitle="The Map of Every Death"
+      nextSlug="the-trolley-problem-is-real-now"
+      nextTitle="The Trolley Problem Is Real Now"
+      nextSubtitle="A thought experiment escaped the classroom. Now it has a software license."
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-trolley-problem-is-real-now.webp"
+      nextReadTime="14 min"
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-oxygen-apocalypse.mp3"
-      prevSlug="the-prion"
-      prevTitle="The Prion"
-    nextSlug="the-trolley-problem-is-real-now"
-    nextTitle="The Trolley Problem Is Real Now"
-    nextSubtitle="A thought experiment escaped the classroom. Now it has a software license."
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-trolley-problem-is-real-now.webp"
-    nextReadTime="14 min"
     ><article>
       <h2>The First Murderer Was a Microbe</h2>
 

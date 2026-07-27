@@ -35,13 +35,13 @@ export default function TheArchitectureOfTerror() {
       wordCount={2629}
       prevSlug="the-body-that-taught-surgery"
       prevTitle="The Body That Taught Surgery"
-      nextSlug="the-architecture-of-terror-part-2"
-      nextTitle="The Architecture of Terror: The Purges (Part II of III)"
-      nextSubtitle="The Great Terror of 1936-38, the show trials, the NKVD troikas, and the Gulag"
+      nextSlug="the-postal-roads-that-made-nations"
+      nextTitle="The Postal Roads That Made Nations"
+      nextSubtitle="Before there were countries, there were routes"
       nextCategory="Essay"
-      nextCategoryColor="red"
-      nextImage="/images/explorations/the-architecture-of-terror-part-2.webp"
-      nextReadTime="14 min"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-postal-roads-that-made-nations.webp"
+      nextReadTime="13 min"
     >
       <h2>Comrade Card-Index</h2>
 

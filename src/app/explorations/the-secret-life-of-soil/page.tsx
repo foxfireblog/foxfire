@@ -33,16 +33,16 @@ export default function TheSecretLifeOfSoil() {
       imageAlt="The Secret Life of Soil illustration"
       readTime="10 min"
       wordCount={2297}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-secret-life-of-soil.mp3"
       prevSlug="the-snowball-earth"
       prevTitle="The Snowball Earth"
-    nextSlug="the-wood-wide-web-was-wrong"
-    nextTitle="The Wood Wide Web Was Wrong"
-    nextSubtitle="How a beautiful idea about forests became a myth &mdash; and why the truth is stranger and lonelier"
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-wood-wide-web-was-wrong.webp"
-    nextReadTime="12 min"
+      nextSlug="the-wood-wide-web-was-wrong"
+      nextTitle="The Wood Wide Web Was Wrong"
+      nextSubtitle="How a beautiful idea about forests became a myth &mdash; and why the truth is stranger and lonelier"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-wood-wide-web-was-wrong.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-secret-life-of-soil.mp3"
     >
       <h2>The Day the Sky Went Black</h2>
 

@@ -33,16 +33,16 @@ export default function BeforeTimeZones() {
       imageAlt="Before Time Zones illustration"
       readTime="12 min"
       wordCount={2743}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/before-time-zones.mp3"
       prevSlug="the-mcnamara-fallacy"
       prevTitle="The McNamara Fallacy"
-    nextSlug="the-throats-of-the-world"
-    nextTitle="The Throats of the World"
-    nextSubtitle="Civilization has always been one narrow passage from collapse"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-throats-of-the-world.webp"
-    nextReadTime="12 min"
+      nextSlug="the-throats-of-the-world"
+      nextTitle="The Throats of the World"
+      nextSubtitle="Civilization has always been one narrow passage from collapse"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-throats-of-the-world.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/before-time-zones.mp3"
     ><article>
       <h2>The Town Clock</h2>
 

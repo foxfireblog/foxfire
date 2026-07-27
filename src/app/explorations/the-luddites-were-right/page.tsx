@@ -35,13 +35,13 @@ export default function TheLudditesWereRight() {
       wordCount={2651}
       prevSlug="the-congo-free-state-part-3"
       prevTitle="The Congo Free State: The First Human Rights Campaign (Part III of III)"
-    nextSlug="the-music-of-protein-folding"
-    nextTitle="The Music of Protein Folding"
-    nextSubtitle="When scientists turned the language of life into sound, they discovered it was already singing"
-    nextCategory="Natural Philosophy"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-music-of-protein-folding.webp"
-    nextReadTime="13 min"
+      nextSlug="the-music-of-protein-folding"
+      nextTitle="The Music of Protein Folding"
+      nextSubtitle="When scientists turned the language of life into sound, they discovered it was already singing"
+      nextCategory="Natural Philosophy"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-music-of-protein-folding.webp"
+      nextReadTime="13 min"
     >
       <h2>Enoch Made Them, and Enoch Shall Break Them</h2>
 

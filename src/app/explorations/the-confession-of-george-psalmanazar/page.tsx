@@ -35,13 +35,13 @@ export default function TheConfessionOfGeorgePsalmanazar() {
       wordCount={2951}
       prevSlug="the-hawala-network"
       prevTitle="The Hawala Network"
-    nextSlug="the-red-mercury-hoax"
-    nextTitle="The Red Mercury Hoax"
-    nextSubtitle="The phantom superweapon that fooled arms dealers, terrorists, and governments for decades"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-red-mercury-hoax.webp"
-    nextReadTime="12 min"
+      nextSlug="the-red-mercury-hoax"
+      nextTitle="The Red Mercury Hoax"
+      nextSubtitle="The phantom superweapon that fooled arms dealers, terrorists, and governments for decades"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-red-mercury-hoax.webp"
+      nextReadTime="12 min"
     >
       <h2>The Man from Nowhere</h2>
 

@@ -35,13 +35,13 @@ export default function TheAnthropometryOfEmpire() {
       wordCount={2800}
       prevSlug="the-parliament-inside-you"
       prevTitle="The Parliament Inside You"
-    nextSlug="the-fig-and-the-wasp"
-    nextTitle="The Fig and the Wasp"
-    nextSubtitle="An 80-million-year marriage written in flesh and flower"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-fig-and-the-wasp.webp"
-    nextReadTime="13 min"
+      nextSlug="the-fig-and-the-wasp"
+      nextTitle="The Fig and the Wasp"
+      nextSubtitle="An 80-million-year marriage written in flesh and flower"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-fig-and-the-wasp.webp"
+      nextReadTime="13 min"
     >
       <h2>The Mustard Seeds</h2>
 

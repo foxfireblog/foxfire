@@ -33,16 +33,16 @@ export default function TheSecondLaw() {
       imageAlt="The Second Law illustration"
       readTime="14 min"
       wordCount={3201}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-second-law.mp3"
       prevSlug="the-winchester-mystery-house"
       prevTitle="The Winchester Mystery House"
-    nextSlug="the-forgotten-front"
-    nextTitle="The Forgotten Front: The Tsar's Gamble"
-    nextSubtitle="Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller"
-    nextCategory="History & Erasure"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-forgotten-front.webp"
-    nextReadTime="13 min"
+      nextSlug="the-forgotten-front"
+      nextTitle="The Forgotten Front: The Tsar's Gamble (Part I of III)"
+      nextSubtitle="Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller"
+      nextCategory="History & Erasure"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-forgotten-front.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-second-law.mp3"
     ><article>
       <h2>The Equation on the Tombstone</h2>
 

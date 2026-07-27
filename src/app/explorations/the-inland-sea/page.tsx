@@ -35,13 +35,13 @@ export default function TheInlandSea() {
       wordCount={2891}
       prevSlug="the-art-of-the-wanted-poster"
       prevTitle="The Art of the Wanted Poster"
-    nextSlug="the-suicide-of-the-expert"
-    nextTitle="The Suicide of the Expert"
-    nextSubtitle="What happens when a society decides it no longer needs to know things"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-suicide-of-the-expert.webp"
-    nextReadTime="12 min"
+      nextSlug="the-suicide-of-the-expert"
+      nextTitle="The Suicide of the Expert"
+      nextSubtitle="What happens when a society decides it no longer needs to know things"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-suicide-of-the-expert.webp"
+      nextReadTime="12 min"
     >
       <h2>The Ocean Beneath Your Feet</h2>
 

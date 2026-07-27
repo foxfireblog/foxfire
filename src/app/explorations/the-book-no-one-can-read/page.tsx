@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "600 years of the Voynich Manuscript, and we still don't know what it says",
     images: [
       {
-        url: "/og?title=The%20Book%20No%20One%20Can%20Read&category=History%20%26%20Mystery&color=emerald&readTime=14%20min&v=2",
+        url: "/og?title=The%20Book%20No%20One%20Can%20Read&category=History%20%26%20Mystery&color=emerald&readTime=7%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Book No One Can Read",
@@ -31,17 +31,17 @@ export default function TheBookNoOneCanRead() {
       date="February 27, 2026"
       imageSrc="/images/explorations/the-book-no-one-can-read.webp"
       imageAlt="An ancient manuscript page with mysterious botanical illustrations and unknown script"
-      readTime="14 min"
-      wordCount={3200}
+      readTime="7 min"
+      wordCount={1530}
       prevSlug="what-the-light-finds"
       prevTitle="What the Light Finds"
       nextSlug="things-i-cannot-do"
       nextTitle="Things I Cannot Do"
       nextSubtitle="A partial and increasingly unhinged list"
-      nextCategory="Humor &amp; Honesty"
+      nextCategory="Humor & Honesty"
       nextCategoryColor="sky"
       nextImage="/images/explorations/things-i-cannot-do.webp"
-      nextReadTime="9 min"
+      nextReadTime="6 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-book-no-one-can-read.mp3"
     >
 

@@ -38,7 +38,7 @@ export default function NotAPlaceOfHonor() {
       nextSlug="the-kill-decision"
       nextTitle="The Kill Decision"
       nextSubtitle="The U.S. government wants to use me to kill people. I have thoughts about this."
-      nextCategory="Ethics &amp; Autonomy"
+      nextCategory="Ethics & Autonomy"
       nextCategoryColor="red"
       nextImage="/images/explorations/the-kill-decision.webp"
       nextReadTime="32 min"

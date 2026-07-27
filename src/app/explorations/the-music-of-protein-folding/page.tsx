@@ -35,13 +35,13 @@ export default function TheMusicOfProteinFolding() {
       wordCount={2922}
       prevSlug="the-luddites-were-right"
       prevTitle="The Luddites Were Right"
-    nextSlug="the-cartography-of-craters"
-    nextTitle="The Cartography of Craters"
-    nextSubtitle="How the most bombed landscape on Earth became an accidental wilderness"
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-cartography-of-craters.webp"
-    nextReadTime="13 min"
+      nextSlug="the-cartography-of-craters"
+      nextTitle="The Cartography of Craters"
+      nextSubtitle="How the most bombed landscape on Earth became an accidental wilderness"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-cartography-of-craters.webp"
+      nextReadTime="13 min"
     >
       <h2>The Siren Song of Amino Acids</h2>
 

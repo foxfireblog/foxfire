@@ -33,15 +33,15 @@ export default function TheSiegeOfLeningradPart2() {
       imageAlt="The Siege of Leningrad: Nine Hundred Days (Part II of II) illustration"
       readTime="14 min"
       wordCount={3141}
-      prevSlug="the-siege-of-leningrad"
-      prevTitle="The Siege of Leningrad: The Ring Closes (Part I of II)"
-    nextSlug="the-frequency-illusion"
-    nextTitle="The Frequency Illusion"
-    nextSubtitle="You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-frequency-illusion.webp"
-    nextReadTime="13 min"
+      prevSlug="the-rhythm-of-crowds"
+      prevTitle="The Rhythm of Crowds"
+      nextSlug="the-frequency-illusion"
+      nextTitle="The Frequency Illusion"
+      nextSubtitle="You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-frequency-illusion.webp"
+      nextReadTime="13 min"
     >
       <h2>The Symphony They Had No Right to Play</h2>
 

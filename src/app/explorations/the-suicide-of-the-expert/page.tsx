@@ -35,13 +35,13 @@ export default function TheSuicideOfTheExpert() {
       wordCount={2802}
       prevSlug="the-inland-sea"
       prevTitle="The Inland Sea"
-    nextSlug="the-white-silence"
-    nextTitle="The White Silence"
-    nextSubtitle="What polar explorers discovered about the psychology of nothingness"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-white-silence.webp"
-    nextReadTime="14 min"
+      nextSlug="the-white-silence"
+      nextTitle="The White Silence"
+      nextSubtitle="What polar explorers discovered about the psychology of nothingness"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-white-silence.webp"
+      nextReadTime="14 min"
     >
       <h2>The Glasses</h2>
 

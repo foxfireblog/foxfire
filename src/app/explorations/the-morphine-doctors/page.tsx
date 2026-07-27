@@ -35,13 +35,13 @@ export default function TheMorphineDoctors() {
       wordCount={2954}
       prevSlug="the-mirror-that-breaks-physics"
       prevTitle="The Mirror That Breaks Physics"
-    nextSlug="the-interpreter-at-the-end-of-the-world"
-    nextTitle="The Interpreter at the End of the World"
-    nextSubtitle="On the people who stood between languages &mdash; and what it cost them"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-interpreter-at-the-end-of-the-world.webp"
-    nextReadTime="13 min"
+      nextSlug="the-interpreter-at-the-end-of-the-world"
+      nextTitle="The Interpreter at the End of the World"
+      nextSubtitle="On the people who stood between languages &mdash; and what it cost them"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-interpreter-at-the-end-of-the-world.webp"
+      nextReadTime="13 min"
     >
       <h2>The God of Dreams</h2>
 

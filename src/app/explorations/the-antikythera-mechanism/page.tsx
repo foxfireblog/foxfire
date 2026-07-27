@@ -35,13 +35,13 @@ export default function TheAntikytheraMechanism() {
       wordCount={3500}
       prevSlug="the-last-uncontacted-peoples"
       prevTitle="The Last Uncontacted Peoples"
-    nextSlug="the-collyer-brothers"
-    nextTitle="The Collyer Brothers"
-    nextSubtitle="140 tons of things, and the loneliness they were trying to fill"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-collyer-brothers.webp"
-    nextReadTime="13 min"
+      nextSlug="the-collyer-brothers"
+      nextTitle="The Collyer Brothers"
+      nextSubtitle="140 tons of things, and the loneliness they were trying to fill"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-collyer-brothers.webp"
+      nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-antikythera-mechanism.mp3"
     ><article>
 

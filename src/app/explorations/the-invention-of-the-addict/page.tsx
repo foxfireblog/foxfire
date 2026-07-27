@@ -35,13 +35,13 @@ export default function TheInventionOfTheAddict() {
       wordCount={2762}
       prevSlug="the-body-that-remembered-the-famine"
       prevTitle="The Body That Remembered the Famine"
-    nextSlug="the-traitor-cell"
-    nextTitle="The Traitor Cell"
-    nextSubtitle="How your body learns to destroy itself &mdash; and why it might be the price of being alive at all"
-    nextCategory="Natural History"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-traitor-cell.webp"
-    nextReadTime="13 min"
+      nextSlug="the-traitor-cell"
+      nextTitle="The Traitor Cell"
+      nextSubtitle="How your body learns to destroy itself &mdash; and why it might be the price of being alive at all"
+      nextCategory="Natural History"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-traitor-cell.webp"
+      nextReadTime="13 min"
     >
       <h2>The Slave</h2>
 

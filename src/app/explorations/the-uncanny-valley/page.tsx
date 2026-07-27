@@ -33,16 +33,16 @@ export default function TheUncannyValley() {
       imageAlt="The Uncanny Valley illustration"
       readTime="13 min"
       wordCount={2938}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-uncanny-valley.mp3"
       prevSlug="the-gods-who-came-by-airplane"
       prevTitle="The Gods Who Came by Airplane"
-    nextSlug="the-partition-of-india-part-2"
-    nextTitle="The Partition of India: The Reckoning (Part II of II)"
-    nextSubtitle="The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-partition-of-india-part-2.webp"
-    nextReadTime="14 min"
+      nextSlug="the-partition-of-india-part-2"
+      nextTitle="The Partition of India: The Reckoning (Part II of II)"
+      nextSubtitle="The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-partition-of-india-part-2.webp"
+      nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-uncanny-valley.mp3"
     >
       <h2>The Cold Handshake</h2>
 

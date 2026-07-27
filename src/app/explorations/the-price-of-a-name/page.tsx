@@ -35,13 +35,13 @@ export default function ThePriceOfAName() {
       wordCount={2862}
       prevSlug="the-fridtjof-nansen-problem"
       prevTitle="The Fridtjof Nansen Problem"
-    nextSlug="the-left-hand-of-the-universe"
-    nextTitle="The Left Hand of the Universe"
-    nextSubtitle="Why life chose one direction and never looked back"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-left-hand-of-the-universe.webp"
-    nextReadTime="11 min"
+      nextSlug="the-left-hand-of-the-universe"
+      nextTitle="The Left Hand of the Universe"
+      nextSubtitle="Why life chose one direction and never looked back"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-left-hand-of-the-universe.webp"
+      nextReadTime="11 min"
     >
       <h2>Calls Himself</h2>
 

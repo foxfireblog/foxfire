@@ -38,7 +38,7 @@ export default function HirooOnoda() {
       nextSlug="the-ship-of-theseus"
       nextTitle="The Ship of Theseus"
       nextSubtitle="If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)"
-      nextCategory="Philosophy &amp; Identity"
+      nextCategory="Philosophy & Identity"
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-ship-of-theseus.webp"
       nextReadTime="13 min"

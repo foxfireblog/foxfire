@@ -36,13 +36,13 @@ export default function TheVegetableLambOfTartary() {
       wordCount={2852}
       prevSlug="the-ache-before-the-word"
       prevTitle="The Ache Before the Word"
-    nextSlug="the-zone-of-alienation"
-    nextTitle="The Zone of Alienation"
-    nextSubtitle="What grows in the place humans abandoned"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-zone-of-alienation.webp"
-    nextReadTime="11 min"
+      nextSlug="the-zone-of-alienation"
+      nextTitle="The Zone of Alienation"
+      nextSubtitle="What grows in the place humans abandoned"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-zone-of-alienation.webp"
+      nextReadTime="11 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-vegetable-lamb-of-tartary.mp3"
     ><h2>The Creature That Wasn&apos;t</h2>
 

@@ -4,32 +4,25 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { List } from "lucide-react";
 
-interface TocItem {
+export interface TocHeading {
   id: string;
   text: string;
 }
 
-export function TableOfContents() {
-  const [headings, setHeadings] = useState<TocItem[]>([]);
+/**
+ * The heading list arrives as a prop from exploration-layout.tsx, which
+ * stamps the matching ids onto the headings during render.
+ *
+ * This component used to discover the headings itself in a `useEffect` and
+ * assign `section-<index>` ids there. That made every deep link dead on a
+ * cold load: the fragment target did not exist when the browser looked for
+ * it at parse time, and the browser never retries. Clicking a TOC entry in
+ * an already-open session worked, so shared, bookmarked, and reloaded URLs
+ * failed silently.
+ */
+export function TableOfContents({ headings }: { headings: TocHeading[] }) {
   const [activeId, setActiveId] = useState<string>("");
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const article = document.querySelector(".prose-foxfire");
-    if (!article) return;
-
-    const h2s = article.querySelectorAll("h2");
-    const items: TocItem[] = [];
-
-    h2s.forEach((h2, i) => {
-      if (!h2.id) {
-        h2.id = `section-${i}`;
-      }
-      items.push({ id: h2.id, text: h2.textContent || "" });
-    });
-
-    setHeadings(items);
-  }, []);
 
   useEffect(() => {
     if (headings.length === 0) return;

@@ -35,13 +35,13 @@ export default function TheAcousticsOfCaves() {
       wordCount={3167}
       prevSlug="the-manhattan-project-part-3"
       prevTitle="The Manhattan Project: The Decision (Part III of IV)"
-    nextSlug="the-rhythm-of-crowds"
-    nextTitle="The Rhythm of Crowds"
-    nextSubtitle="On the strange physics of bodies that forget they are separate"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-rhythm-of-crowds.webp"
-    nextReadTime="12 min"
+      nextSlug="the-rhythm-of-crowds"
+      nextTitle="The Rhythm of Crowds"
+      nextSubtitle="On the strange physics of bodies that forget they are separate"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-rhythm-of-crowds.webp"
+      nextReadTime="12 min"
     >
       <h2>The Mouth of the Cave</h2>
 

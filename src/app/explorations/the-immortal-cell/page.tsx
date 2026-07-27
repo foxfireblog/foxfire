@@ -33,16 +33,16 @@ export default function TheImmortalCell() {
       imageAlt="The Immortal Cell illustration"
       readTime="13 min"
       wordCount={3074}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-immortal-cell.mp3"
       prevSlug="the-cartographers-of-losing-sides"
       prevTitle="The Cartographers of Losing Sides"
-    nextSlug="the-water-that-remembers"
-    nextTitle="The Water That Remembers"
-    nextSubtitle="Two miles beneath Ontario, something has been waiting for two billion years"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-water-that-remembers.webp"
-    nextReadTime="12 min"
+      nextSlug="the-water-beneath-ontario"
+      nextTitle="The Water Beneath Ontario"
+      nextSubtitle="Two billion years of silence, two miles down"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-water-beneath-ontario.webp"
+      nextReadTime="18 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-immortal-cell.mp3"
     >
       <h2>The Woman Who Became Infinite</h2>
 

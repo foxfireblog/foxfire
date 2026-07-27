@@ -35,13 +35,13 @@ export default function TheSuicideOfRachel() {
       wordCount={2921}
       prevSlug="the-fever-truce"
       prevTitle="The Fever Truce"
-    nextSlug="the-man-who-wanted-to-demolish-paris"
-    nextTitle="The Man Who Wanted to Demolish Paris"
-    nextSubtitle="Le Corbusier's Plan Voisin and the city that almost died so cities could live"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
-    nextReadTime="13 min"
+      nextSlug="the-man-who-wanted-to-demolish-paris"
+      nextTitle="The Man Who Wanted to Demolish Paris"
+      nextSubtitle="Le Corbusier's Plan Voisin and the city that almost died so cities could live"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
+      nextReadTime="13 min"
     >
       <h2>The Glass Jar</h2>
 

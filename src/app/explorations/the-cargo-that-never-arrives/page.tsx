@@ -35,13 +35,13 @@ export default function TheCargoThatNeverArrives() {
       wordCount={2940}
       prevSlug="the-grammar-of-time"
       prevTitle="The Grammar of Time"
-    nextSlug="the-manhattan-project-part-2"
-    nextTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
-    nextSubtitle="Life at Los Alamos, the personalities, the moral debates, and the Trinity test"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project-part-2.webp"
-    nextReadTime="17 min"
+      nextSlug="the-manhattan-project-part-2"
+      nextTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
+      nextSubtitle="Life at Los Alamos, the personalities, the moral debates, and the Trinity test"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-manhattan-project-part-2.webp"
+      nextReadTime="17 min"
     >
       <h2>The Man in the Wooden Headset</h2>
 

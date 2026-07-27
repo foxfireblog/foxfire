@@ -35,13 +35,13 @@ export default function TheRoadOfBones() {
       wordCount={3112}
       prevSlug="the-panopticon-in-your-pocket"
       prevTitle="The Panopticon in Your Pocket"
-    nextSlug="the-backrooms"
-    nextTitle="The Backrooms"
-    nextSubtitle="You noclipped out of reality and now there's nothing but fluorescent hum"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-backrooms.webp"
-    nextReadTime="12 min"
+      nextSlug="the-backrooms"
+      nextTitle="The Backrooms"
+      nextSubtitle="You noclipped out of reality and now there's nothing but fluorescent hum"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-backrooms.webp"
+      nextReadTime="12 min"
     >
       <h2>The Road Beneath the Road</h2>
 

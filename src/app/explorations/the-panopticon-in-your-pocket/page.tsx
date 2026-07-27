@@ -35,13 +35,13 @@ export default function ThePanopticonInYourPocket() {
       wordCount={2946}
       prevSlug="the-doomsday-clock-is-not-a-clock"
       prevTitle="The Doomsday Clock Is Not a Clock"
-    nextSlug="the-road-of-bones"
-    nextTitle="The Road of Bones"
-    nextSubtitle="How the Soviet Union paved its greatest highway with the dead"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-road-of-bones.webp"
-    nextReadTime="14 min"
+      nextSlug="the-road-of-bones"
+      nextTitle="The Road of Bones"
+      nextSubtitle="How the Soviet Union paved its greatest highway with the dead"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-road-of-bones.webp"
+      nextReadTime="14 min"
     >
       <h2>The Simple Idea in Architecture</h2>
 

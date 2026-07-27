@@ -33,16 +33,16 @@ export default function TheRiverThatScreamed() {
       imageAlt="The River That Screamed illustration"
       readTime="13 min"
       wordCount={3063}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-river-that-screamed.mp3"
       prevSlug="the-watchers-of-the-sky"
       prevTitle="The Watchers of the Sky"
-    nextSlug="the-pale-blue-dot"
-    nextTitle="The Pale Blue Dot"
-    nextSubtitle="On the most important photograph no one needed to take"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-pale-blue-dot.webp"
-    nextReadTime="13 min"
+      nextSlug="the-pale-blue-dot"
+      nextTitle="The Pale Blue Dot"
+      nextSubtitle="On the most important photograph no one needed to take"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-pale-blue-dot.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-river-that-screamed.mp3"
     >
       <h2>The Scream You Never Heard</h2>
 

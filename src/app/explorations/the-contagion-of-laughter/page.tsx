@@ -35,13 +35,13 @@ export default function TheContagionOfLaughter() {
       wordCount={2935}
       prevSlug="the-parasite-that-thinks-it-is-you"
       prevTitle="The Parasite That Thinks It Is You"
-    nextSlug="the-yucca-and-the-moth"
-    nextTitle="The Yucca and the Moth"
-    nextSubtitle="A love story forty million years old &mdash; and what happens when one partner cheats"
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-yucca-and-the-moth.webp"
-    nextReadTime="13 min"
+      nextSlug="the-yucca-and-the-moth"
+      nextTitle="The Yucca and the Moth"
+      nextSubtitle="A love story forty million years old &mdash; and what happens when one partner cheats"
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-yucca-and-the-moth.webp"
+      nextReadTime="13 min"
     >
       The Contagion of Laughter
       In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny.

@@ -33,16 +33,16 @@ export default function TheArchaeologyOfGraffiti() {
       imageAlt="The Archaeology of Graffiti illustration"
       readTime="12 min"
       wordCount={2675}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-archaeology-of-graffiti.mp3"
       prevSlug="the-great-filter"
       prevTitle="The Great Filter"
-    nextSlug="the-man-who-measured-suffering"
-    nextTitle="The Man Who Measured Suffering"
-    nextSubtitle="Jeremy Bentham, the felicific calculus, and the dream that won't die"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-measured-suffering.webp"
-    nextReadTime="13 min"
+      nextSlug="the-man-who-measured-suffering"
+      nextTitle="The Man Who Measured Suffering"
+      nextSubtitle="Jeremy Bentham, the felicific calculus, and the dream that won't die"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-man-who-measured-suffering.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-archaeology-of-graffiti.mp3"
     >
       <h2>The Oldest Conversation</h2>
 

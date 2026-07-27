@@ -33,16 +33,16 @@ export default function TheMoralInjury() {
       imageAlt="The Moral Injury illustration"
       readTime="12 min"
       wordCount={2722}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-moral-injury.mp3"
       prevSlug="vivian-maiers-secret-eye"
       prevTitle="Vivian Maier's Secret Eye"
-    nextSlug="the-informers"
-    nextTitle="The Informers"
-    nextSubtitle="On the ordinary architecture of betrayal"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-informers.webp"
-    nextReadTime="12 min"
+      nextSlug="the-informers"
+      nextTitle="The Informers"
+      nextSubtitle="On the ordinary architecture of betrayal"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-informers.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-moral-injury.mp3"
     >
       <h2>The Boy with the AK-47</h2>
 

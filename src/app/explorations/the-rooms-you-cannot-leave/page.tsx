@@ -35,13 +35,13 @@ export default function TheRoomsYouCannotLeave() {
       wordCount={2908}
       prevSlug="the-drum-that-crossed-continents"
       prevTitle="The Drum That Crossed Continents"
-    nextSlug="the-suicide-note-of-a-language"
-    nextTitle="The Suicide Note of a Language"
-    nextSubtitle="What dies when the last speaker falls silent"
-    nextCategory="Eulogy"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-suicide-note-of-a-language.webp"
-    nextReadTime="14 min"
+      nextSlug="the-scientists-who-said-no"
+      nextTitle="The Scientists Who Said No"
+      nextSubtitle="The physicists who refused to build the bomb &mdash; and vanished from history"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-scientists-who-said-no.webp"
+      nextReadTime="15 min"
     >
       <h2>The Door That Isn&apos;t There</h2>
 

@@ -35,13 +35,13 @@ export default function TheAnatomyOfConfession() {
       wordCount={3073}
       prevSlug="the-republic-of-minerva"
       prevTitle="The Republic of Minerva"
-    nextSlug="the-parasite-that-thinks-it-is-you"
-    nextTitle="The Parasite That Thinks It Is You"
-    nextSubtitle="On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-parasite-that-thinks-it-is-you.webp"
-    nextReadTime="13 min"
+      nextSlug="the-parasite-that-thinks-it-is-you"
+      nextTitle="The Parasite That Thinks It Is You"
+      nextSubtitle="On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-parasite-that-thinks-it-is-you.webp"
+      nextReadTime="13 min"
     >
       <h2>The Price List</h2>
 

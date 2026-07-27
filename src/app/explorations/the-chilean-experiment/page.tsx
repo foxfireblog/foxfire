@@ -33,16 +33,16 @@ export default function TheChileanExperiment() {
       imageAlt="The Chilean Experiment illustration"
       readTime="10 min"
       wordCount={2411}
+      prevSlug="the-ocean-invented-stars"
+      prevTitle="Deep Ocean Bioluminescence"
+      nextSlug="the-night-the-war-stopped-itself"
+      nextTitle="The Night the War Stopped Itself"
+      nextSubtitle="On Christmas Eve 1914, soldiers climbed out of the trenches &mdash; and their generals never forgave them"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-night-the-war-stopped-itself.webp"
+      nextReadTime="12 min"
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-chilean-experiment.mp3"
-      prevSlug="the-color-that-didnt-exist"
-      prevTitle="The Color That Didn't Exist"
-    nextSlug="the-night-the-war-stopped-itself"
-    nextTitle="The Night the War Stopped Itself"
-    nextSubtitle="On Christmas Eve 1914, soldiers climbed out of the trenches &mdash; and their generals never forgave them"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-night-the-war-stopped-itself.webp"
-    nextReadTime="12 min"
     >
       <h2>The Blueprint</h2>
 

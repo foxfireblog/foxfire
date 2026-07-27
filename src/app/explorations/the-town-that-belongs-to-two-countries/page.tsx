@@ -35,13 +35,13 @@ export default function TheTownThatBelongsToTwoCountries() {
       wordCount={2620}
       prevSlug="the-haitian-revolution"
       prevTitle="The Haitian Revolution: The Fire (Part I of II)"
-    nextSlug="the-voice-that-carries-water"
-    nextTitle="The Voice That Carries Water"
-    nextSubtitle="How ancient peoples read the world through sound &mdash; and what we lost when we stopped listening"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-voice-that-carries-water.webp"
-    nextReadTime="12 min"
+      nextSlug="the-voice-that-carries-water"
+      nextTitle="The Voice That Carries Water"
+      nextSubtitle="How ancient peoples read the world through sound &mdash; and what we lost when we stopped listening"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-voice-that-carries-water.webp"
+      nextReadTime="12 min"
     >
       <h2>The House With Two Doorbells</h2>
 

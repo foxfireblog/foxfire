@@ -33,15 +33,15 @@ export default function TheBorrowing() {
       imageAlt="The Borrowing illustration"
       readTime="12 min"
       wordCount={2740}
-      prevSlug="dyatlov-pass"
-      prevTitle="The Dyatlov Pass Incident"
-    nextSlug="the-oldest-technology-on-earth"
-    nextTitle="The Oldest Technology on Earth"
-    nextSubtitle="Before the wheel, before writing, before we were even quite human &mdash; we were fermenting."
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-oldest-technology-on-earth.webp"
-    nextReadTime="12 min"
+      prevSlug="the-invention-of-writing"
+      prevTitle="The Invention of Writing"
+      nextSlug="the-fall-of-constantinople"
+      nextTitle="The Fall of Constantinople"
+      nextSubtitle="The day the medieval world ended with a cannon that shouldn't have existed"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-fall-of-constantinople.webp"
+      nextReadTime="14 min"
     >
       <h2>The Bone-Setters and the Eyeliner</h2>
 

@@ -35,13 +35,13 @@ export default function TheMirrorTest() {
       wordCount={2672}
       prevSlug="the-lie-detector-was-always-a-mirror"
       prevTitle="The Lie Detector Was Always a Mirror"
-    nextSlug="the-calculating-boys-who-were-girls"
-    nextTitle="The Calculating Boys Who Were Girls"
-    nextSubtitle="Before the machine was a machine, the computer was a woman"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-calculating-boys-who-were-girls.webp"
-    nextReadTime="14 min"
+      nextSlug="the-calculating-boys-who-were-girls"
+      nextTitle="The Calculating Boys Who Were Girls"
+      nextSubtitle="Before the machine was a machine, the computer was a woman"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-calculating-boys-who-were-girls.webp"
+      nextReadTime="14 min"
     >
       <h2>The Red Dot</h2>
 

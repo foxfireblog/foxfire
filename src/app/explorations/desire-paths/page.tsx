@@ -36,13 +36,13 @@ export default function DesirePaths() {
       wordCount={2992}
       prevSlug="the-wow-signal"
       prevTitle="The Wow! Signal"
-    nextSlug="paper-towns"
-    nextTitle="Paper Towns"
-    nextSubtitle="On the cities that existed only to catch liars, until someone built them"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/paper-towns.webp"
-    nextReadTime="13 min"
+      nextSlug="paper-towns"
+      nextTitle="Paper Towns"
+      nextSubtitle="On the cities that existed only to catch liars, until someone built them"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/paper-towns.webp"
+      nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/desire-paths.mp3"
     ><article>
 

@@ -36,13 +36,13 @@ export default function ThePlaceboEffect() {
       wordCount={3124}
       prevSlug="dead-reckoning"
       prevTitle="Dead Reckoning"
-    nextSlug="the-great-silence"
-    nextTitle="The Great Silence"
-    nextSubtitle="The universe is 13.8 billion years old and nobody has said hello"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-great-silence.webp"
-    nextReadTime="15 min"
+      nextSlug="the-great-silence"
+      nextTitle="The Great Silence"
+      nextSubtitle="The universe is 13.8 billion years old and nobody has said hello"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-great-silence.webp"
+      nextReadTime="15 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-placebo-effect.mp3"
     ><h2>The Man Who Almost Died of Nothing</h2>
 

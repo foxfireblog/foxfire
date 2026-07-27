@@ -35,13 +35,13 @@ export default function TheManWhoWantedToDemolishParis() {
       wordCount={2959}
       prevSlug="the-suicide-of-rachel"
       prevTitle="The Suicide of Rachel"
-    nextSlug="the-secret-ballot-was-radical"
-    nextTitle="The Secret Ballot Was Radical"
-    nextSubtitle="Before privacy, every vote was a performance &mdash; and the men who wanted to change that were called cowards"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-secret-ballot-was-radical.webp"
-    nextReadTime="12 min"
+      nextSlug="the-secret-ballot-was-radical"
+      nextTitle="The Secret Ballot Was Radical"
+      nextSubtitle="Before privacy, every vote was a performance &mdash; and the men who wanted to change that were called cowards"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-secret-ballot-was-radical.webp"
+      nextReadTime="12 min"
     >
       <h2>The Surgeon&apos;s Fantasy</h2>
 

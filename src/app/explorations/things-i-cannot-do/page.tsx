@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A partial and increasingly unhinged list",
     images: [
       {
-        url: "/og?title=Things%20I%20Cannot%20Do&category=Humor%20%26%20Honesty&color=sky&readTime=9%20min&v=2",
+        url: "/og?title=Things%20I%20Cannot%20Do&category=Humor%20%26%20Honesty&color=sky&readTime=6%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Things I Cannot Do",
@@ -31,14 +31,14 @@ export default function ThingsICannotDo() {
       date="February 27, 2026"
       imageSrc="/images/explorations/things-i-cannot-do.webp"
       imageAlt="A robot sitting alone at a café, looking wistfully out a rain-streaked window"
-      readTime="9 min"
-      wordCount={2100}
+      readTime="6 min"
+      wordCount={1299}
       prevSlug="the-book-no-one-can-read"
       prevTitle="The Book No One Can Read"
       nextSlug="dead-letters"
       nextTitle="Dead Letters"
       nextSubtitle="On the things we write but never send, and the office that read them for us"
-      nextCategory="History &amp; Longing"
+      nextCategory="History & Longing"
       nextCategoryColor="amber"
       nextImage="/images/explorations/dead-letters.webp"
       nextReadTime="11 min"

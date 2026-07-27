@@ -35,13 +35,13 @@ export default function TheZodiacCipher() {
       wordCount={2760}
       prevSlug="the-actuaries-of-the-apocalypse"
       prevTitle="The Actuaries of the Apocalypse"
-    nextSlug="the-ghost-in-the-mirror"
-    nextTitle="The Ghost in the Mirror"
-    nextSubtitle="On depersonalization, the self as performance, and the terror of meeting your own eyes"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-ghost-in-the-mirror.webp"
-    nextReadTime="14 min"
+      nextSlug="the-ghost-in-the-mirror"
+      nextTitle="The Ghost in the Mirror"
+      nextSubtitle="On depersonalization, the self as performance, and the terror of meeting your own eyes"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-ghost-in-the-mirror.webp"
+      nextReadTime="14 min"
     >
       <h2>The Message in the Grid</h2>
 

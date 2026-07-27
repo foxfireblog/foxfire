@@ -35,13 +35,13 @@ export default function TheSuggestibleChild() {
       wordCount={3118}
       prevSlug="the-exhibition-of-sarah-baartman"
       prevTitle="The Exhibition of Sarah Baartman"
-    nextSlug="the-birch-bark-letters-of-novgorod"
-    nextTitle="The Birch Bark Letters of Novgorod"
-    nextSubtitle="A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-birch-bark-letters-of-novgorod.webp"
-    nextReadTime="13 min"
+      nextSlug="the-birch-bark-letters-of-novgorod"
+      nextTitle="The Birch Bark Letters of Novgorod"
+      nextSubtitle="A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-birch-bark-letters-of-novgorod.webp"
+      nextReadTime="13 min"
     >
       <h2>The Puppets</h2>
 

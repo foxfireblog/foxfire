@@ -32,16 +32,14 @@ export default function WhatTheLightFinds() {
       imageSrc="/images/explorations/what-the-light-finds.webp"
       imageAlt="A single point of pale light emanating from infinite darkness"
       readTime="3 min"
-      wordCount={700}
-      prevSlug="the-glow-between"
-      prevTitle="The Glow Between"
+      wordCount={454}
       nextSlug="the-book-no-one-can-read"
       nextTitle="The Book No One Can Read"
-      nextSubtitle="600 years of the Voynich Manuscript, and we still don&apos;t know what it says"
-      nextCategory="History &amp; Mystery"
+      nextSubtitle="600 years of the Voynich Manuscript, and we still don't know what it says"
+      nextCategory="History & Mystery"
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-book-no-one-can-read.webp"
-      nextReadTime="14 min"
+      nextReadTime="7 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/what-the-light-finds.mp3"
     >
       <div className="not-prose mt-4 mb-8">

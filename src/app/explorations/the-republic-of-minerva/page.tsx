@@ -35,13 +35,13 @@ export default function TheRepublicOfMinerva() {
       wordCount={3153}
       prevSlug="the-trial-of-the-rooster"
       prevTitle="The Trial of the Rooster"
-    nextSlug="the-anatomy-of-confession"
-    nextTitle="The Anatomy of Confession"
-    nextSubtitle="How a wooden box invented the modern self"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-anatomy-of-confession.webp"
-    nextReadTime="13 min"
+      nextSlug="the-anatomy-of-confession"
+      nextTitle="The Anatomy of Confession"
+      nextSubtitle="How a wooden box invented the modern self"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-anatomy-of-confession.webp"
+      nextReadTime="13 min"
     >
       <h2>The Country That Drowned Twice a Day</h2>
 

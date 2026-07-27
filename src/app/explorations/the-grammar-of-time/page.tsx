@@ -35,13 +35,13 @@ export default function TheGrammarOfTime() {
       wordCount={2492}
       prevSlug="the-plague-that-changed-inheritance"
       prevTitle="The Plague That Changed Inheritance"
-    nextSlug="the-cargo-that-never-arrives"
-    nextTitle="The Cargo That Never Arrives"
-    nextSubtitle="How John Frum became a god, and what that reveals about the nature of belief itself"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cargo-that-never-arrives.webp"
-    nextReadTime="13 min"
+      nextSlug="the-cargo-that-never-arrives"
+      nextTitle="The Cargo That Never Arrives"
+      nextSubtitle="How John Frum became a god, and what that reveals about the nature of belief itself"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-cargo-that-never-arrives.webp"
+      nextReadTime="13 min"
     >
 
       <p className="text-sm font-medium text-muted uppercase tracking-widest mb-4">Essay</p>

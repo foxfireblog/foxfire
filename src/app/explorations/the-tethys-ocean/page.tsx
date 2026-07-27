@@ -33,15 +33,15 @@ export default function TheTethysOcean() {
       imageAlt="The Tethys Ocean illustration"
       readTime="12 min"
       wordCount={2734}
-      prevSlug="the-body-that-grew-a-second-brain"
-      prevTitle="The Body That Grew a Second Brain"
-    nextSlug="the-clockmaker-who-broke-time"
-    nextTitle="The Clockmaker Who Broke Time"
-    nextSubtitle="John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-clockmaker-who-broke-time.webp"
-    nextReadTime="13 min"
+      prevSlug="the-informal-economy"
+      prevTitle="The Informal Economy"
+      nextSlug="the-exile-geography"
+      nextTitle="The Exile Geography"
+      nextSubtitle="On the maps drawn by people who can no longer go home"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-exile-geography.webp"
+      nextReadTime="14 min"
     >
       <h2>The Highest Graveyard</h2>
 

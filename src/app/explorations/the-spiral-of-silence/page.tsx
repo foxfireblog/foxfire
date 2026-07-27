@@ -35,13 +35,13 @@ export default function TheSpiralOfSilence() {
       wordCount={2748}
       prevSlug="the-democracy-of-slime"
       prevTitle="The Democracy of Slime"
-    nextSlug="the-manhattan-project-part-4"
-    nextTitle="The Manhattan Project: The Inheritance (Part IV of IV)"
-    nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project-part-4.webp"
-    nextReadTime="15 min"
+      nextSlug="the-manhattan-project-part-4"
+      nextTitle="The Manhattan Project: The Inheritance (Part IV of IV)"
+      nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-manhattan-project-part-4.webp"
+      nextReadTime="15 min"
     >
       <h2>The Photograph</h2>
 

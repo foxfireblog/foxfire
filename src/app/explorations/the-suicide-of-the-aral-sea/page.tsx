@@ -35,13 +35,13 @@ export default function TheSuicideOfTheAralSea() {
       wordCount={2725}
       prevSlug="the-scramble-for-africa-part-3"
       prevTitle="The Scramble for Africa: The Long Shadow (Part III of III)"
-    nextSlug="the-purple-that-ruled-the-world"
-    nextTitle="The Purple That Ruled the World"
-    nextSubtitle="How a rotting snail built an empire of color"
-    nextCategory="Natural History"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-purple-that-ruled-the-world.webp"
-    nextReadTime="11 min"
+      nextSlug="the-purple-that-ruled-the-world"
+      nextTitle="The Purple That Ruled the World"
+      nextSubtitle="How a rotting snail built an empire of color"
+      nextCategory="Natural History"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-purple-that-ruled-the-world.webp"
+      nextReadTime="11 min"
     >
       <h2>An Error of Nature</h2>
 

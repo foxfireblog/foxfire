@@ -35,13 +35,13 @@ export default function TheTypewriterThatBecameAWeapon() {
       wordCount={2815}
       prevSlug="the-cartography-of-pain"
       prevTitle="The Cartography of Pain"
-    nextSlug="the-half-life-of-a-fact"
-    nextTitle="The Half-Life of a Fact"
-    nextSubtitle="Everything we know is slowly becoming wrong"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-half-life-of-a-fact.webp"
-    nextReadTime="12 min"
+      nextSlug="the-half-life-of-a-fact"
+      nextTitle="The Half-Life of a Fact"
+      nextSubtitle="Everything we know is slowly becoming wrong"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-half-life-of-a-fact.webp"
+      nextReadTime="12 min"
     >
       <h2>The Sound of Running Water</h2>
 

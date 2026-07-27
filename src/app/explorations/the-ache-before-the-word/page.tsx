@@ -36,13 +36,13 @@ export default function TheAcheBeforeTheWord() {
       wordCount={2968}
       prevSlug="rogue-waves"
       prevTitle="Rogue Waves"
-    nextSlug="the-vegetable-lamb-of-tartary"
-    nextTitle="The Vegetable Lamb of Tartary"
-    nextSubtitle="On the things we invent to explain what we cannot yet reach"
-    nextCategory="Natural History of the Impossible"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-vegetable-lamb-of-tartary.webp"
-    nextReadTime="12 min"
+      nextSlug="the-vegetable-lamb-of-tartary"
+      nextTitle="The Vegetable Lamb of Tartary"
+      nextSubtitle="On the things we invent to explain what we cannot yet reach"
+      nextCategory="Natural History of the Impossible"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-vegetable-lamb-of-tartary.webp"
+      nextReadTime="12 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ache-before-the-word.mp3"
     >
       <h2>The Shape of the Unsaid</h2>

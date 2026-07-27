@@ -33,16 +33,16 @@ export default function TheGrammarOfSymmetry() {
       imageAlt="The Grammar of Symmetry illustration"
       readTime="14 min"
       wordCount={3119}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-grammar-of-symmetry.mp3"
       prevSlug="the-lloyds-of-london-ledger"
       prevTitle="The Lloyd's of London Ledger"
-    nextSlug="the-fever-truce"
-    nextTitle="The Fever Truce"
-    nextSubtitle="How disease ended wars that generals could not"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-fever-truce.webp"
-    nextReadTime="14 min"
+      nextSlug="the-fever-truce"
+      nextTitle="The Fever Truce"
+      nextSubtitle="How disease ended wars that generals could not"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-fever-truce.webp"
+      nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-grammar-of-symmetry.mp3"
     >
       <h2>The Meeting Place</h2>
 

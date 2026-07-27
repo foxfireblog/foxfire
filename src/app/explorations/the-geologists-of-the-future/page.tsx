@@ -35,13 +35,13 @@ export default function TheGeologistsOfTheFuture() {
       wordCount={2997}
       prevSlug="the-samizdat-machine"
       prevTitle="The Samizdat Machine"
-    nextSlug="the-cold-light-of-foxfire"
-    nextTitle="The Cold Light of Foxfire"
-    nextSubtitle="Before electricity, rotting wood glowed in the dark &mdash; and people used it to see by"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-cold-light-of-foxfire.webp"
-    nextReadTime="11 min"
+      nextSlug="the-cold-light-of-foxfire"
+      nextTitle="The Cold Light of Foxfire"
+      nextSubtitle="Before electricity, rotting wood glowed in the dark &mdash; and people used it to see by"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-cold-light-of-foxfire.webp"
+      nextReadTime="13 min"
     >
       <h2>The Mud Remembers</h2>
 

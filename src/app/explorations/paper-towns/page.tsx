@@ -36,13 +36,13 @@ export default function PaperTowns() {
       wordCount={3024}
       prevSlug="desire-paths"
       prevTitle="Desire Paths"
-    nextSlug="rogue-waves"
-    nextTitle="Rogue Waves"
-    nextSubtitle="On the monsters that physics said were impossible"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/rogue-waves.webp"
-    nextReadTime="13 min"
+      nextSlug="rogue-waves"
+      nextTitle="Rogue Waves"
+      nextSubtitle="On the monsters that physics said were impossible"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/rogue-waves.webp"
+      nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/paper-towns.mp3"
     ><article>
 

@@ -33,16 +33,16 @@ export default function ThePriceOfFlavor() {
       imageAlt="The Price of Flavor illustration"
       readTime="11 min"
       wordCount={2593}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-price-of-flavor.mp3"
       prevSlug="the-memory-palace"
       prevTitle="The Memory Palace"
-    nextSlug="the-worlds-greatest-collision"
-    nextTitle="The World's Greatest Collision: The Meeting (Part I of II)"
-    nextSubtitle="What crossed the Atlantic in both directions and the caloric revolution"
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-worlds-greatest-collision.webp"
-    nextReadTime="13 min"
+      nextSlug="the-worlds-greatest-collision"
+      nextTitle="The World's Greatest Collision: The Meeting (Part I of II)"
+      nextSubtitle="What crossed the Atlantic in both directions and the caloric revolution"
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-worlds-greatest-collision.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-price-of-flavor.mp3"
     >
       <h2>The Seed</h2>
 

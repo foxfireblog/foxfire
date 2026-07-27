@@ -33,16 +33,16 @@ export default function TheMolePeople() {
       imageAlt="The Mole People illustration"
       readTime="12 min"
       wordCount={2665}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-mole-people.mp3"
       prevSlug="the-water-beneath-ontario"
       prevTitle="The Water Beneath Ontario"
-    nextSlug="the-middle-passage-part-2"
-    nextTitle="The Middle Passage: The Afterlife (Part II of II)"
-    nextSubtitle="The wealth it built, the institutions that profited, and the ongoing reckoning"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-middle-passage-part-2.webp"
-    nextReadTime="12 min"
+      nextSlug="the-middle-passage-part-2"
+      nextTitle="The Middle Passage: The Afterlife (Part II of II)"
+      nextSubtitle="The wealth it built, the institutions that profited, and the ongoing reckoning"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-middle-passage-part-2.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-mole-people.mp3"
     >
       <h2>Seven Levels Down</h2>
 

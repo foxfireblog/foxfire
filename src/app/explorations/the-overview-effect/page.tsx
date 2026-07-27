@@ -33,16 +33,16 @@ export default function TheOverviewEffect() {
       imageAlt="The Overview Effect illustration"
       readTime="13 min"
       wordCount={2962}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-overview-effect.mp3"
       prevSlug="the-longitude-problem"
       prevTitle="The Longitude Problem"
-    nextSlug="the-world-ending-on-schedule"
-    nextTitle="The World Ending on Schedule"
-    nextSubtitle="Every generation names the date. Every generation sells everything."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-world-ending-on-schedule.webp"
-    nextReadTime="15 min"
+      nextSlug="the-world-ending-on-schedule"
+      nextTitle="The World Ending on Schedule"
+      nextSubtitle="Every generation names the date. Every generation sells everything."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-world-ending-on-schedule.webp"
+      nextReadTime="15 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-overview-effect.mp3"
     >
       <h2>The Thumb</h2>
 

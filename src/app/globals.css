@@ -260,6 +260,184 @@ body {
   font-feature-settings: "onum" 1;
 }
 
+/* ==========================================
+   ENTRANCE REVEALS
+
+   These deliberately do NOT go through framer-motion. framer-motion
+   serializes its `initial` prop as an inline style during SSR, so every
+   article body and every card used to ship as
+   style="opacity:0;transform:translateY(20px)" and stayed invisible until
+   the motion runtime hydrated. A dropped JS chunk, a content blocker, or a
+   reader with scripting off got a dark, empty column.
+
+   A CSS keyframe with `animation-fill-mode: both` gives the identical
+   effect and completes on its own with no JavaScript at all. If the
+   stylesheet itself fails, nothing sets opacity to 0 in the first place and
+   the content is simply visible. Both failure modes now degrade to
+   readable.
+   ========================================== */
+
+@keyframes fxFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fxRise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fxSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fxGrowX {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.fx-fade,
+.fx-rise,
+.fx-slide-in,
+.fx-grow-x,
+.fx-card {
+  animation-duration: var(--fx-duration, 0.7s);
+  animation-delay: var(--fx-delay, 0s);
+  animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+.fx-fade {
+  animation-name: fxFade;
+}
+
+.fx-rise {
+  animation-name: fxRise;
+}
+
+.fx-slide-in {
+  animation-name: fxSlideIn;
+  --fx-duration: 0.5s;
+}
+
+.fx-grow-x {
+  animation-name: fxGrowX;
+  transform-origin: left;
+  --fx-duration: 0.8s;
+}
+
+/* Cards reveal as they scroll into view. Where scroll-driven animations are
+   supported this is the exact `whileInView` behaviour with zero JS; older
+   engines fall back to the plain time-based rise above, which still ends
+   visible. */
+.fx-card {
+  animation-name: fxRise;
+  --fx-duration: 0.6s;
+}
+
+@supports (animation-timeline: view()) {
+  .fx-card {
+    animation-timeline: view();
+    animation-range: entry 0% entry 40%;
+    animation-delay: 0s;
+  }
+}
+
+/* Safety net for readers with scripting off. The article body and the cards
+   above reveal themselves from CSS alone, but any component still using a
+   framer-motion `initial` prop ships its hidden state as an inline style
+   during SSR and never recovers without the runtime. Matching the serialized
+   `opacity:0` (with its semicolon, so a real `opacity:0.5` is left alone)
+   puts that content back. */
+@media (scripting: none) {
+  [style*="opacity:0;"],
+  [style$="opacity:0"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ==========================================
+   REDUCED MOTION
+
+   Scrolling is the interaction model of a reading site, so a reader who
+   asked their OS for less motion gets native scrolling (see
+   lenis-provider.tsx), no framer-motion transforms (MotionConfig
+   reducedMotion="user"), and none of the perpetual background animations
+   below. The animations stay exactly as they were for everyone else.
+   ========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+  }
+
+  /* Entrance reveals resolve instantly to their finished state. */
+  .fx-fade,
+  .fx-rise,
+  .fx-slide-in,
+  .fx-card {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .fx-grow-x {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  /* Infinite loops: the two ambient blobs pinned to every page, the hero
+     shimmer, and Tailwind's ping on the hero dot. Each needs an explicit
+     resting state because the keyframes, not the base rules, carried the
+     positioning and opacity. */
+  .ambient-bg::before,
+  .ambient-bg::after {
+    animation: none !important;
+    opacity: 0.02;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-shimmer {
+    animation: none !important;
+    background: none;
+    -webkit-text-fill-color: var(--foreground);
+    color: var(--foreground);
+  }
+
+  .animate-ping {
+    animation: none !important;
+  }
+}
+
 
 /* ==========================================
    SCROLLBAR & SELECTION

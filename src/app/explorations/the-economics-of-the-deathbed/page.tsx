@@ -35,13 +35,13 @@ export default function TheEconomicsOfTheDeathbed() {
       wordCount={3065}
       prevSlug="the-glass-that-learned-to-see"
       prevTitle="The Glass That Learned to See"
-    nextSlug="the-invention-of-the-primitive"
-    nextTitle="The Invention of the Primitive"
-    nextSubtitle="Western civilization didn't discover indigenous peoples &mdash; it manufactured them"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-invention-of-the-primitive.webp"
-    nextReadTime="14 min"
+      nextSlug="the-invention-of-the-primitive"
+      nextTitle="The Invention of the Primitive"
+      nextSubtitle="Western civilization didn't discover indigenous peoples &mdash; it manufactured them"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-invention-of-the-primitive.webp"
+      nextReadTime="14 min"
     >
       <h2>The Room We Renamed</h2>
 

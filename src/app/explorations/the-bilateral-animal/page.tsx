@@ -33,16 +33,16 @@ export default function TheBilateralAnimal() {
       imageAlt="The Bilateral Animal illustration"
       readTime="11 min"
       wordCount={2537}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bilateral-animal.mp3"
       prevSlug="dead-drops-and-living-cities"
       prevTitle="Dead Drops and Living Cities"
-    nextSlug="the-nansen-passport"
-    nextTitle="The Nansen Passport"
-    nextSubtitle="When the world decided you didn't exist, one man invented a piece of paper that said you did"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-nansen-passport.webp"
-    nextReadTime="12 min"
+      nextSlug="the-nansen-passport"
+      nextTitle="The Nansen Passport"
+      nextSubtitle="When the world decided you didn't exist, one man invented a piece of paper that said you did"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-nansen-passport.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bilateral-animal.mp3"
     >
       <h2>The Coin Flip Inside Your Chest</h2>
 

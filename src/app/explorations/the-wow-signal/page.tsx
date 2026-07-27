@@ -36,13 +36,13 @@ export default function TheWowSignal() {
       wordCount={2721}
       prevSlug="the-dancing-plague"
       prevTitle="The Dancing Plague"
-    nextSlug="desire-paths"
-    nextTitle="Desire Paths"
-    nextSubtitle="On the trails we make when we refuse the ones made for us"
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/desire-paths.webp"
-    nextReadTime="13 min"
+      nextSlug="desire-paths"
+      nextTitle="Desire Paths"
+      nextSubtitle="On the trails we make when we refuse the ones made for us"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/desire-paths.webp"
+      nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wow-signal.mp3"
     ><article>
       <h2>The Margin</h2>

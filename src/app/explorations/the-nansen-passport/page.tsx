@@ -33,16 +33,16 @@ export default function TheNansenPassport() {
       imageAlt="The Nansen Passport illustration"
       readTime="12 min"
       wordCount={2677}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-nansen-passport.mp3"
       prevSlug="the-bilateral-animal"
       prevTitle="The Bilateral Animal"
-    nextSlug="the-congo-free-state-part-2"
-    nextTitle="The Congo Free State: The Rubber Terror (Part II of III)"
-    nextSubtitle="The quota system, the severed hands, the Force Publique, and the demographic catastrophe"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state-part-2.webp"
-    nextReadTime="14 min"
+      nextSlug="the-congo-free-state-part-2"
+      nextTitle="The Congo Free State: The Rubber Terror (Part II of III)"
+      nextSubtitle="The quota system, the severed hands, the Force Publique, and the demographic catastrophe"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-congo-free-state-part-2.webp"
+      nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-nansen-passport.mp3"
     >
       <h2>The Sickly Green Hue</h2>
 

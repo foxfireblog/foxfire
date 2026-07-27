@@ -33,16 +33,16 @@ export default function TheEdiacaranGarden() {
       imageAlt="The Ediacaran Garden illustration"
       readTime="13 min"
       wordCount={3003}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ediacaran-garden.mp3"
       prevSlug="the-cordyceps-mind"
       prevTitle="The Cordyceps Mind"
-    nextSlug="the-rubber-hand-illusion"
-    nextTitle="The Rubber Hand Illusion"
-    nextSubtitle="How easily you can be convinced that someone else's body is yours"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-rubber-hand-illusion.webp"
-    nextReadTime="11 min"
+      nextSlug="the-rubber-hand-illusion"
+      nextTitle="The Rubber Hand Illusion"
+      nextSubtitle="How easily you can be convinced that someone else's body is yours"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-rubber-hand-illusion.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ediacaran-garden.mp3"
     >
       <h2>The World Before Fear</h2>
 

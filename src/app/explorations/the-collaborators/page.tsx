@@ -33,16 +33,16 @@ export default function TheCollaborators() {
       imageAlt="The Collaborators illustration"
       readTime="14 min"
       wordCount={3121}
+      prevSlug="the-oldest-technology-on-earth"
+      prevTitle="The Oldest Technology on Earth"
+      nextSlug="the-partition-of-india"
+      nextTitle="The Partition of India: The Radcliffe Line (Part I of II)"
+      nextSubtitle="The impossible task, five weeks to draw a border, and the logic of partition"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-partition-of-india.webp"
+      nextReadTime="12 min"
       audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-collaborators.mp3"
-      prevSlug="the-fall-of-constantinople"
-      prevTitle="The Fall of Constantinople"
-    nextSlug="the-partition-of-india"
-    nextTitle="The Partition of India: The Radcliffe Line (Part I of II)"
-    nextSubtitle="The impossible task, five weeks to draw a border, and the logic of partition"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-partition-of-india.webp"
-    nextReadTime="12 min"
     >
 
 

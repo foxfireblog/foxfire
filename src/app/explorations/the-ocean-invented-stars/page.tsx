@@ -33,16 +33,16 @@ export default function TheOceanInventedStars() {
       imageAlt="Deep Ocean Bioluminescence illustration"
       readTime="13 min"
       wordCount={3100}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ocean-invented-stars.mp3"
       prevSlug="the-ransom-for-freedom"
       prevTitle="The Ransom for Freedom"
-    nextSlug="the-color-that-didnt-exist"
-    nextTitle="The Color That Didn't Exist"
-    nextSubtitle="How the mind learns to see what was always there"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-color-that-didnt-exist.webp"
-    nextReadTime="13 min"
+      nextSlug="the-chilean-experiment"
+      nextTitle="The Chilean Experiment"
+      nextSubtitle="When economists got a country to practice on"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-chilean-experiment.webp"
+      nextReadTime="10 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ocean-invented-stars.mp3"
     >
       <h2>The Flash at Nagasaki</h2>
 

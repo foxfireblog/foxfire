@@ -33,16 +33,16 @@ export default function TheCongoFreeStatePart2() {
       imageAlt="The Congo Free State: The Rubber Terror (Part II of III) illustration"
       readTime="14 min"
       wordCount={3246}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-congo-free-state-part-2.mp3"
-      prevSlug="the-congo-free-state"
-      prevTitle="The Congo Free State: The King's Private Country (Part I of III)"
-      nextSlug="the-congo-free-state-part-3"
-      nextTitle="The Congo Free State: The First Human Rights Campaign (Part III of III)"
-      nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
+      prevSlug="the-nansen-passport"
+      prevTitle="The Nansen Passport"
+      nextSlug="the-proprioceptive-self"
+      nextTitle="The Proprioceptive Self"
+      nextSubtitle="You have a secret sense that tells you where your body ends. It can be stolen."
       nextCategory="Essay"
-      nextCategoryColor="red"
-      nextImage="/images/explorations/the-congo-free-state-part-3.webp"
-      nextReadTime="13 min"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-proprioceptive-self.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-congo-free-state-part-2.mp3"
     >
       <h2>The Bullet Ledger</h2>
 

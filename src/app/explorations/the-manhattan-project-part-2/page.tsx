@@ -33,15 +33,15 @@ export default function TheManhattanProjectPart2() {
       imageAlt="The Manhattan Project: The City on the Hill (Part II of IV) illustration"
       readTime="17 min"
       wordCount={3973}
-      prevSlug="the-manhattan-project"
-      prevTitle="The Manhattan Project: The Physics of Desperation (Part I of IV)"
-      nextSlug="the-manhattan-project-part-3"
-      nextTitle="The Manhattan Project: The Decision (Part III of IV)"
-      nextSubtitle="Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki"
+      prevSlug="the-cargo-that-never-arrives"
+      prevTitle="The Cargo That Never Arrives"
+      nextSlug="the-banality-of-evil"
+      nextTitle="The Banality of Evil"
+      nextSubtitle="The most dangerous people in history were not monsters. They were middle managers."
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-manhattan-project-part-3.webp"
-      nextReadTime="14 min"
+      nextImage="/images/explorations/the-banality-of-evil.webp"
+      nextReadTime="12 min"
     >
       <h2>The Secret City</h2>
 

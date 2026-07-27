@@ -33,16 +33,16 @@ export default function TheCensusThatErasedPeople() {
       imageAlt="The Census That Erased People illustration"
       readTime="13 min"
       wordCount={2999}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-census-that-erased-people.mp3"
       prevSlug="the-night-the-war-stopped-itself"
       prevTitle="The Night the War Stopped Itself"
-    nextSlug="ghost-ships"
-    nextTitle="Ghost Ships"
-    nextSubtitle="Vessels found drifting with no crew aboard, and the stories they refuse to tell"
-    nextCategory="Maritime History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/ghost-ships.webp"
-    nextReadTime="12 min"
+      nextSlug="ghost-ships"
+      nextTitle="Ghost Ships"
+      nextSubtitle="Vessels found drifting with no crew aboard, and the stories they refuse to tell"
+      nextCategory="Maritime History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/ghost-ships.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-census-that-erased-people.mp3"
     >
       <h2>The Purification Ritual</h2>
 

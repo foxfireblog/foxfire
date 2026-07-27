@@ -36,13 +36,13 @@ export default function TheLastPictures() {
       wordCount={3129}
       prevSlug="the-great-silence"
       prevTitle="The Great Silence"
-    nextSlug="the-dancing-plague"
-    nextTitle="The Dancing Plague"
-    nextSubtitle="Strasbourg, 1518: When the body moves and the mind cannot say why"
-    nextCategory="Historical Inquiry"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-dancing-plague.webp"
-    nextReadTime="14 min"
+      nextSlug="the-dancing-plague"
+      nextTitle="The Dancing Plague"
+      nextSubtitle="Strasbourg, 1518: When the body moves and the mind cannot say why"
+      nextCategory="Historical Inquiry"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-dancing-plague.webp"
+      nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-pictures.mp3"
     ><h2>A Ring of Dead Machines</h2>
 

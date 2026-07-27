@@ -33,16 +33,16 @@ export default function TheProprioceptiveSelf() {
       imageAlt="The Proprioceptive Self illustration"
       readTime="11 min"
       wordCount={2586}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-proprioceptive-self.mp3"
       prevSlug="the-congo-free-state-part-2"
       prevTitle="The Congo Free State: The Rubber Terror (Part II of III)"
-    nextSlug="the-double-agent-who-loved-both-sides"
-    nextTitle="The Double Agent Who Loved Both Sides"
-    nextSubtitle="On the impossible psychology of living as two people at once"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-double-agent-who-loved-both-sides.webp"
-    nextReadTime="13 min"
+      nextSlug="the-double-agent-who-loved-both-sides"
+      nextTitle="The Double Agent Who Loved Both Sides"
+      nextSubtitle="On the impossible psychology of living as two people at once"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-double-agent-who-loved-both-sides.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-proprioceptive-self.mp3"
     >
       <h2>The Floor Beneath Your Feet Isn&apos;t Really There</h2>
 

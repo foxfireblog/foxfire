@@ -35,13 +35,13 @@ export default function TheAbyssalLanterns() {
       wordCount={2701}
       prevSlug="the-man-who-became-his-own-legend"
       prevTitle="The Man Who Became His Own Legend"
-    nextSlug="the-asylum-at-the-edge-of-the-world"
-    nextTitle="The Asylum at the Edge of the World"
-    nextSubtitle="How a small Belgian town spent eight centuries treating madness with something radical: ordinary life"
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-asylum-at-the-edge-of-the-world.webp"
-    nextReadTime="12 min"
+      nextSlug="the-nowhere-men-of-sealand"
+      nextTitle="The Nowhere Men of Sealand"
+      nextSubtitle="A rusting sea fort, a homemade flag, and the stubbornest country on Earth"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-nowhere-men-of-sealand.webp"
+      nextReadTime="14 min"
     >
       <h2>The Oldest Trick</h2>
 

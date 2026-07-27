@@ -35,13 +35,13 @@ export default function DyatlovPass() {
       wordCount={3010}
       prevSlug="the-forgotten-front-part-3"
       prevTitle="The Forgotten Front: Revolution and Collapse (Part III of III)"
-    nextSlug="the-borrowing"
-    nextTitle="The Borrowing"
-    nextSubtitle="On the strange life of words that crossed borders uninvited"
-    nextCategory="Linguistic Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-borrowing.webp"
-    nextReadTime="12 min"
+      nextSlug="the-invention-of-writing"
+      nextTitle="The Invention of Writing"
+      nextSubtitle="Every time humanity learned to speak with its hands, it was counting sheep"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-invention-of-writing.webp"
+      nextReadTime="12 min"
     >
       <h2>The Boots Were Neatly Lined Up</h2>
 

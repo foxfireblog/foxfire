@@ -33,16 +33,16 @@ export default function TheWatchersOfTheSky() {
       imageAlt="The Watchers of the Sky illustration"
       readTime="13 min"
       wordCount={2918}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchers-of-the-sky.mp3"
       prevSlug="the-worlds-greatest-collision-part-2"
       prevTitle="The World's Greatest Collision: The Catastrophe (Part II of II)"
-    nextSlug="the-river-that-screamed"
-    nextTitle="The River That Screamed"
-    nextSubtitle="The Amazon rubber terror that mirrored the Congo &mdash; and vanished from memory"
-    nextCategory="History"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-river-that-screamed.webp"
-    nextReadTime="13 min"
+      nextSlug="the-river-that-screamed"
+      nextTitle="The River That Screamed"
+      nextSubtitle="The Amazon rubber terror that mirrored the Congo &mdash; and vanished from memory"
+      nextCategory="History"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-river-that-screamed.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchers-of-the-sky.mp3"
     >
       <h2>The Man Who Watched for Eighty-Four Years</h2>
 

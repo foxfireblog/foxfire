@@ -35,13 +35,13 @@ export default function TheShapeOfASmell() {
       wordCount={3056}
       prevSlug="the-purple-that-ruled-the-world"
       prevTitle="The Purple That Ruled the World"
-    nextSlug="the-varangian-guard"
-    nextTitle="The Varangian Guard"
-    nextSubtitle="How Viking outcasts became the most feared soldiers in Constantinople"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-varangian-guard.webp"
-    nextReadTime="13 min"
+      nextSlug="the-varangian-guard"
+      nextTitle="The Varangian Guard"
+      nextSubtitle="How Viking outcasts became the most feared soldiers in Constantinople"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-varangian-guard.webp"
+      nextReadTime="13 min"
     >
       <h2>The Atoms Have Edges</h2>
 

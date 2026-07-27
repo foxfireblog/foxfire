@@ -33,7 +33,6 @@ export default function TheFlavorOfMusic() {
       imageAlt="The Flavor of Music illustration"
       readTime="15 min"
       wordCount={3487}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-flavor-of-music.mp3"
       prevSlug="the-codex-seraphinianus"
       prevTitle="The Codex Seraphinianus"
       nextSlug="the-winchester-mystery-house"
@@ -43,6 +42,7 @@ export default function TheFlavorOfMusic() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-winchester-mystery-house.webp"
       nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-flavor-of-music.mp3"
     ><article>
       <h2>The Trumpet and the Scarlet</h2>
 

@@ -33,16 +33,16 @@ export default function TheMiddlePassage() {
       imageAlt="The Middle Passage: The Crossing (Part I of II) illustration"
       readTime="14 min"
       wordCount={3202}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-middle-passage.mp3"
       prevSlug="the-geography-of-nowhere"
       prevTitle="The Geography of Nowhere"
-      nextSlug="the-middle-passage-part-2"
-      nextTitle="The Middle Passage: The Afterlife (Part II of II)"
-      nextSubtitle="The wealth it built, the institutions that profited, and the ongoing reckoning"
+      nextSlug="the-gods-who-came-by-airplane"
+      nextTitle="The Gods Who Came by Airplane"
+      nextSubtitle="Cargo cults, divine runways, and the terrifying logic of pattern recognition"
       nextCategory="Essay"
-      nextCategoryColor="indigo"
-      nextImage="/images/explorations/the-middle-passage-part-2.webp"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-gods-who-came-by-airplane.webp"
       nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-middle-passage.mp3"
     >
 
       <p className="text-sm uppercase tracking-widest text-muted mb-2">Part I of II &mdash; The Middle Passage</p>

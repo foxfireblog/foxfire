@@ -33,16 +33,16 @@ export default function TheMemoryPalace() {
       imageAlt="The Memory Palace illustration"
       readTime="13 min"
       wordCount={2972}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-memory-palace.mp3"
       prevSlug="the-iron-harvest"
       prevTitle="The Iron Harvest"
-    nextSlug="the-price-of-flavor"
-    nextTitle="The Price of Flavor"
-    nextSubtitle="How the pursuit of nutmeg turned paradise into a graveyard"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-price-of-flavor.webp"
-    nextReadTime="11 min"
+      nextSlug="the-price-of-flavor"
+      nextTitle="The Price of Flavor"
+      nextSubtitle="How the pursuit of nutmeg turned paradise into a graveyard"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-price-of-flavor.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-memory-palace.mp3"
     >
       <h2>The Collapse</h2>
 

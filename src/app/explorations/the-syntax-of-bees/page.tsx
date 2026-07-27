@@ -35,13 +35,13 @@ export default function TheSyntaxOfBees() {
       wordCount={3133}
       prevSlug="the-autopsy-of-cities"
       prevTitle="The Autopsy of Cities"
-    nextSlug="the-towns-at-the-bottom-of-reservoirs"
-    nextTitle="The Towns at the Bottom of Reservoirs"
-    nextSubtitle="What it means to drown an inhabited place &mdash; and the people who never forgave the water"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-towns-at-the-bottom-of-reservoirs.webp"
-    nextReadTime="13 min"
+      nextSlug="the-towns-at-the-bottom-of-reservoirs"
+      nextTitle="The Towns at the Bottom of Reservoirs"
+      nextSubtitle="What it means to drown an inhabited place &mdash; and the people who never forgave the water"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-towns-at-the-bottom-of-reservoirs.webp"
+      nextReadTime="13 min"
     >
       <h2>A Language Written in Darkness</h2>
 

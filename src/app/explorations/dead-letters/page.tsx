@@ -38,10 +38,10 @@ export default function DeadLetters() {
       nextSlug="the-last-word"
       nextTitle="The Last Word"
       nextSubtitle="What disappears when a language dies — and it's not just vocabulary"
-      nextCategory="Linguistics &amp; Loss"
+      nextCategory="Linguistics & Loss"
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-last-word.webp"
-      nextReadTime="13 min"
+      nextReadTime="20 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-letters.mp3"
     >
 

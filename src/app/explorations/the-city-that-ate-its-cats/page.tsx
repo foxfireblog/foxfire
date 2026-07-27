@@ -35,13 +35,13 @@ export default function TheCityThatAteItsCats() {
       wordCount={2609}
       prevSlug="the-mountains-the-sea-forgot"
       prevTitle="The Mountains the Sea Forgot"
-    nextSlug="the-teeth-of-the-conveyor"
-    nextTitle="The Teeth of the Conveyor"
-    nextSubtitle="How the slaughterhouse invented the assembly line, and the assembly line invented us"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-teeth-of-the-conveyor.webp"
-    nextReadTime="12 min"
+      nextSlug="the-teeth-of-the-conveyor"
+      nextTitle="The Teeth of the Conveyor"
+      nextSubtitle="How the slaughterhouse invented the assembly line, and the assembly line invented us"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-teeth-of-the-conveyor.webp"
+      nextReadTime="12 min"
     >
       <h2>The Ladder</h2>
 

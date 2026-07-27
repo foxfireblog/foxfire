@@ -33,16 +33,16 @@ export default function TheMilgramTrap() {
       imageAlt="The Milgram Trap illustration"
       readTime="12 min"
       wordCount={2791}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-milgram-trap.mp3"
       prevSlug="the-zong-massacre"
       prevTitle="The Zong Massacre"
-    nextSlug="the-hafnium-bomb"
-    nextTitle="The Hafnium Bomb"
-    nextSubtitle="A decade of chasing a weapon that physics itself refused to confirm"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hafnium-bomb.webp"
-    nextReadTime="12 min"
+      nextSlug="the-hafnium-bomb"
+      nextTitle="The Hafnium Bomb"
+      nextSubtitle="A decade of chasing a weapon that physics itself refused to confirm"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-hafnium-bomb.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-milgram-trap.mp3"
     >
       <h2>The Switch</h2>
 

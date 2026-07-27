@@ -33,16 +33,16 @@ export default function TheTrialsOfTheDead() {
       imageAlt="The Trials of the Dead illustration"
       readTime="12 min"
       wordCount={2844}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trials-of-the-dead.mp3"
       prevSlug="the-invention-of-blue"
       prevTitle="The Invention of Blue"
-    nextSlug="the-confessor-problem"
-    nextTitle="The Confessor Problem"
-    nextSubtitle="What happens to the person who holds the worst things human beings do"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-confessor-problem.webp"
-    nextReadTime="13 min"
+      nextSlug="the-confessor-problem"
+      nextTitle="The Confessor Problem"
+      nextSubtitle="What happens to the person who holds the worst things human beings do"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-confessor-problem.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-trials-of-the-dead.mp3"
     >
 
 

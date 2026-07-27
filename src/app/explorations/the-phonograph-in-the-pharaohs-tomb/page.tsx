@@ -35,13 +35,13 @@ export default function ThePhonographInThePharaohsTomb() {
       wordCount={2862}
       prevSlug="the-ghost-empire-of-trebizond"
       prevTitle="The Ghost Empire of Trebizond"
-    nextSlug="the-listeners"
-    nextTitle="The Listeners"
-    nextSubtitle="A history of people who devoted their lives to sounds no one else could hear"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-listeners.webp"
-    nextReadTime="14 min"
+      nextSlug="the-listeners"
+      nextTitle="The Listeners"
+      nextSubtitle="A history of people who devoted their lives to sounds no one else could hear"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-listeners.webp"
+      nextReadTime="14 min"
     >
 
       <p className="text-sm font-medium text-muted mb-2 uppercase tracking-wider">Essay</p>

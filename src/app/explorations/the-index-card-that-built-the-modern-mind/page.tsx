@@ -35,13 +35,13 @@ export default function TheIndexCardThatBuiltTheModernMind() {
       wordCount={2541}
       prevSlug="the-memory-of-paper"
       prevTitle="The Memory of Paper"
-    nextSlug="the-good-german-problem"
-    nextTitle="The Good German Problem"
-    nextSubtitle="What it actually took to resist &mdash; and why we should be suspicious of how easily we imagine we would have"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-good-german-problem.webp"
-    nextReadTime="13 min"
+      nextSlug="the-good-german-problem"
+      nextTitle="The Good German Problem"
+      nextSubtitle="What it actually took to resist &mdash; and why we should be suspicious of how easily we imagine we would have"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-good-german-problem.webp"
+      nextReadTime="13 min"
     >
       <h2>The Little Tyranny of the Rectangle</h2>
 

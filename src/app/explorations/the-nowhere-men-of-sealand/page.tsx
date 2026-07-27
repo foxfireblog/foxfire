@@ -33,15 +33,15 @@ export default function TheNowhereMenOfSealand() {
       imageAlt="The Nowhere Men of Sealand illustration"
       readTime="14 min"
       wordCount={3129}
-      prevSlug="the-asylum-at-the-edge-of-the-world"
-      prevTitle="The Asylum at the Edge of the World"
-    nextSlug="the-library-of-babel"
-    nextTitle="The Library of Babel"
-    nextSubtitle="A library containing every possible book already contains this sentence"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-library-of-babel.webp"
-    nextReadTime="12 min"
+      prevSlug="the-abyssal-lanterns"
+      prevTitle="The Abyssal Lanterns"
+      nextSlug="the-library-of-babel"
+      nextTitle="The Library of Babel"
+      nextSubtitle="A library containing every possible book already contains this sentence"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-library-of-babel.webp"
+      nextReadTime="12 min"
     >
       <h2>A Country the Size of a Living Room</h2>
 

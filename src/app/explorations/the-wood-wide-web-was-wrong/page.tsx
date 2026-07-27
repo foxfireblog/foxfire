@@ -33,16 +33,16 @@ export default function TheWoodWideWebWasWrong() {
       imageAlt="The Wood Wide Web Was Wrong illustration"
       readTime="12 min"
       wordCount={2702}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wood-wide-web-was-wrong.mp3"
       prevSlug="the-secret-life-of-soil"
       prevTitle="The Secret Life of Soil"
-    nextSlug="the-congo-free-state-part-3"
-    nextTitle="The Congo Free State: The First Human Rights Campaign (Part III of III)"
-    nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state-part-3.webp"
-    nextReadTime="13 min"
+      nextSlug="the-congo-free-state-part-3"
+      nextTitle="The Congo Free State: The First Human Rights Campaign (Part III of III)"
+      nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-congo-free-state-part-3.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wood-wide-web-was-wrong.mp3"
     >
       <h2>The Story We Wanted to Hear</h2>
 

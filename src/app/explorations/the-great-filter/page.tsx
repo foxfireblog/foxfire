@@ -33,16 +33,16 @@ export default function TheGreatFilter() {
       imageAlt="The Great Filter illustration"
       readTime="13 min"
       wordCount={2961}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-filter.mp3"
       prevSlug="the-confessor-problem"
       prevTitle="The Confessor Problem"
-    nextSlug="the-archaeology-of-graffiti"
-    nextTitle="The Archaeology of Graffiti"
-    nextSubtitle="What the walls remember when no one is watching"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-archaeology-of-graffiti.webp"
-    nextReadTime="12 min"
+      nextSlug="the-archaeology-of-graffiti"
+      nextTitle="The Archaeology of Graffiti"
+      nextSubtitle="What the walls remember when no one is watching"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-archaeology-of-graffiti.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-filter.mp3"
     >
       <h2>The Cartoon That Started Everything</h2>
 

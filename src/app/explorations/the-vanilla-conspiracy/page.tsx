@@ -35,13 +35,13 @@ export default function TheVanillaConspiracy() {
       wordCount={2842}
       prevSlug="the-library-of-babel"
       prevTitle="The Library of Babel"
-    nextSlug="how-many-piano-tuners-are-in-chicago"
-    nextTitle="How Many Piano Tuners Are in Chicago?"
-    nextSubtitle="The art of answering impossible questions with nothing but logic"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/how-many-piano-tuners-are-in-chicago.webp"
-    nextReadTime="13 min"
+      nextSlug="how-many-piano-tuners-are-in-chicago"
+      nextTitle="How Many Piano Tuners Are in Chicago?"
+      nextSubtitle="The art of answering impossible questions with nothing but logic"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/how-many-piano-tuners-are-in-chicago.webp"
+      nextReadTime="13 min"
     >
       <h2>Blood in the Soil</h2>
 

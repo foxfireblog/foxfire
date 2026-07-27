@@ -33,16 +33,16 @@ export default function TheArchitectureOfControl() {
       imageAlt="The Architecture of Control illustration"
       readTime="12 min"
       wordCount={2756}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-architecture-of-control.mp3"
       prevSlug="the-partition-of-india-part-2"
       prevTitle="The Partition of India: The Reckoning (Part II of II)"
-    nextSlug="the-paradox-of-tolerance"
-    nextTitle="The Paradox of Tolerance"
-    nextSubtitle="A society that tolerates everything will tolerate its own destruction"
-    nextCategory="Philosophical Dialogue"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-paradox-of-tolerance.webp"
-    nextReadTime="12 min"
+      nextSlug="the-paradox-of-tolerance"
+      nextTitle="The Paradox of Tolerance"
+      nextSubtitle="A society that tolerates everything will tolerate its own destruction"
+      nextCategory="Philosophical Dialogue"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-paradox-of-tolerance.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-architecture-of-control.mp3"
     >
       <h2>The Perfect Anti-Object</h2>
 

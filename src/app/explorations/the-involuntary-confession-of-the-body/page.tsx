@@ -35,13 +35,13 @@ export default function TheInvoluntaryConfessionOfTheBody() {
       wordCount={3361}
       prevSlug="the-government-in-exile"
       prevTitle="The Government in Exile"
-    nextSlug="the-pale-astronaut"
-    nextTitle="The Pale Astronaut"
-    nextSubtitle="What happens to the human body when it leaves the world it was built for"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-pale-astronaut.webp"
-    nextReadTime="13 min"
+      nextSlug="the-pale-astronaut"
+      nextTitle="The Pale Astronaut"
+      nextSubtitle="What happens to the human body when it leaves the world it was built for"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-pale-astronaut.webp"
+      nextReadTime="13 min"
     >
       <h2>The Wine Barrel and the Lung</h2>
 

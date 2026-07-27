@@ -35,13 +35,13 @@ export default function ThePaleAstronaut() {
       wordCount={2947}
       prevSlug="the-involuntary-confession-of-the-body"
       prevTitle="The Involuntary Confession of the Body"
-    nextSlug="the-indigo-conspiracy"
-    nextTitle="The Indigo Conspiracy"
-    nextSubtitle="The dye that built empires, enslaved millions, and was murdered by a molecule"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-indigo-conspiracy.webp"
-    nextReadTime="15 min"
+      nextSlug="the-indigo-conspiracy"
+      nextTitle="The Indigo Conspiracy"
+      nextSubtitle="The dye that built empires, enslaved millions, and was murdered by a molecule"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-indigo-conspiracy.webp"
+      nextReadTime="15 min"
     >
       <h2>The Soles of His Feet</h2>
 

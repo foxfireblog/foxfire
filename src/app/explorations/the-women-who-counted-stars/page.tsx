@@ -35,13 +35,13 @@ export default function TheWomenWhoCountedStars() {
       wordCount={2910}
       prevSlug="the-banality-of-evil"
       prevTitle="The Banality of Evil"
-    nextSlug="the-siege-of-leningrad"
-    nextTitle="The Siege of Leningrad: The Ring Closes (Part I of II)"
-    nextSubtitle="The German strategy, the first winter, and the Road of Life"
-    nextCategory="History"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-siege-of-leningrad.webp"
-    nextReadTime="14 min"
+      nextSlug="the-siege-of-leningrad"
+      nextTitle="The Siege of Leningrad: The Ring Closes (Part I of II)"
+      nextSubtitle="The German strategy, the first winter, and the Road of Life"
+      nextCategory="History"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-siege-of-leningrad.webp"
+      nextReadTime="14 min"
     >
       <h2>The Maid and the Stars</h2>
 

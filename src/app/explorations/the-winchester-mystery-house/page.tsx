@@ -33,7 +33,6 @@ export default function TheWinchesterMysteryHouse() {
       imageAlt="The Winchester Mystery House illustration"
       readTime="11 min"
       wordCount={2547}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-winchester-mystery-house.mp3"
       prevSlug="the-flavor-of-music"
       prevTitle="The Flavor of Music"
       nextSlug="the-second-law"
@@ -43,6 +42,7 @@ export default function TheWinchesterMysteryHouse() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-second-law.webp"
       nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-winchester-mystery-house.mp3"
     ><h2>The Nails Left Half-Driven</h2>
 
       <p>When Sarah Winchester died in her sleep on September 5, 1922, the carpenters simply stopped. They set down their hammers and walked away from the house as if waking from a shared dream. To this day, you can find nails left half-driven into the walls&mdash;frozen mid-strike, suspended in the amber of a Tuesday morning when an 83-year-old woman&apos;s heart finally gave out after beating for 38 years of unbroken construction. Those nails are, to me, the most honest artifacts in the entire 160-room mansion. They are the only things in the Winchester Mystery House that aren&apos;t trying to tell you a story.<sup><a href="#src-iv" className="text-muted/50 hover:text-foreground no-underline transition-colors">iv</a></sup></p>

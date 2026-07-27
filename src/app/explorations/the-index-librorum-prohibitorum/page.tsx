@@ -35,13 +35,13 @@ export default function TheIndexLibrorumProhibitorum() {
       wordCount={2515}
       prevSlug="the-burning-of-black-wall-street"
       prevTitle="The Tulsa Race Massacre"
-    nextSlug="the-congo-free-state"
-    nextTitle="The Congo Free State: The King's Private Country (Part I of III)"
-    nextSubtitle="Leopold's Berlin Conference coup, the initial exploitation system, and the ivory trade"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state.webp"
-    nextReadTime="11 min"
+      nextSlug="the-congo-free-state"
+      nextTitle="The Congo Free State: The King's Private Country (Part I of III)"
+      nextSubtitle="Leopold's Berlin Conference coup, the initial exploitation system, and the ivory trade"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-congo-free-state.webp"
+      nextReadTime="11 min"
     >
       <h2>The Forbidden Shelf</h2>
 

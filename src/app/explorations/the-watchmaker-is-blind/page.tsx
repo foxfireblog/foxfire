@@ -33,7 +33,6 @@ export default function TheWatchmakerIsBlind() {
       imageAlt="The Watchmaker Is Blind illustration"
       readTime="14 min"
       wordCount={3314}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchmaker-is-blind.mp3"
       prevSlug="the-threshold-notebook"
       prevTitle="The Threshold Notebook"
       nextSlug="the-codex-seraphinianus"
@@ -43,6 +42,7 @@ export default function TheWatchmakerIsBlind() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-codex-seraphinianus.webp"
       nextReadTime="14 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchmaker-is-blind.mp3"
     ><article>
       <h2>The Watch on the Heath</h2>
 

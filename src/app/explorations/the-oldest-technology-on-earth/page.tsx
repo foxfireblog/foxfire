@@ -33,8 +33,15 @@ export default function TheOldestTechnologyOnEarth() {
       imageAlt="The Oldest Technology on Earth illustration"
       readTime="12 min"
       wordCount={2699}
-      prevSlug="the-borrowing"
-      prevTitle="The Borrowing"
+      prevSlug="the-fall-of-constantinople"
+      prevTitle="The Fall of Constantinople"
+      nextSlug="the-collaborators"
+      nextTitle="The Collaborators"
+      nextSubtitle="On the terrible reasonableness of saying yes"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-collaborators.webp"
+      nextReadTime="14 min"
     >
       <h2>The Drunk Monkey Hypothesis</h2>
 

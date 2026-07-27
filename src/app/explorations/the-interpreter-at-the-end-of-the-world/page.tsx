@@ -35,13 +35,13 @@ export default function TheInterpreterAtTheEndOfTheWorld() {
       wordCount={3040}
       prevSlug="the-morphine-doctors"
       prevTitle="The Morphine Doctors"
-    nextSlug="the-government-in-exile"
-    nextTitle="The Government in Exile"
-    nextSubtitle="On the strange persistence of nations that no longer exist"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-government-in-exile.webp"
-    nextReadTime="12 min"
+      nextSlug="the-government-in-exile"
+      nextTitle="The Government in Exile"
+      nextSubtitle="On the strange persistence of nations that no longer exist"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-government-in-exile.webp"
+      nextReadTime="12 min"
     >
       <h2>The Word That Ended the World</h2>
 

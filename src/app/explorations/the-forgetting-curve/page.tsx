@@ -35,13 +35,13 @@ export default function TheForgettingCurve() {
       wordCount={2538}
       prevSlug="the-man-who-ate-everything"
       prevTitle="The Man Who Ate Everything"
-    nextSlug="the-autopsy-of-cities"
-    nextTitle="The Autopsy of Cities"
-    nextSubtitle="What happens when a city dies &mdash; and who decides it's dead"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-autopsy-of-cities.webp"
-    nextReadTime="13 min"
+      nextSlug="the-autopsy-of-cities"
+      nextTitle="The Autopsy of Cities"
+      nextSubtitle="What happens when a city dies &mdash; and who decides it's dead"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-autopsy-of-cities.webp"
+      nextReadTime="13 min"
     >
       <h2>The Sound of Nothing</h2>
 

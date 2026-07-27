@@ -33,16 +33,16 @@ export default function TheLighthouseKeepersLastWatch() {
       imageAlt="The Lighthouse Keepers' Last Watch illustration"
       readTime="11 min"
       wordCount={2606}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-lighthouse-keepers-last-watch.mp3"
       prevSlug="the-library-of-burned-books"
       prevTitle="The Library of Burned Books"
-    nextSlug="the-iron-harvest"
-    nextTitle="The Iron Harvest"
-    nextSubtitle="A century later, the Western Front is still killing people"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-iron-harvest.webp"
-    nextReadTime="11 min"
+      nextSlug="the-iron-harvest"
+      nextTitle="The Iron Harvest"
+      nextSubtitle="A century later, the Western Front is still killing people"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-iron-harvest.webp"
+      nextReadTime="11 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-lighthouse-keepers-last-watch.mp3"
     >
       <h2>The Silence at the Top of the Stairs</h2>
 

@@ -33,15 +33,15 @@ export default function TheManhattanProjectPart3() {
       imageAlt="The Manhattan Project: The Decision (Part III of IV) illustration"
       readTime="14 min"
       wordCount={3323}
-      prevSlug="the-manhattan-project-part-2"
-      prevTitle="The Manhattan Project: The City on the Hill (Part II of IV)"
-      nextSlug="the-manhattan-project-part-4"
-      nextTitle="The Manhattan Project: The Inheritance (Part IV of IV)"
-      nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
+      prevSlug="how-many-piano-tuners-are-in-chicago"
+      prevTitle="How Many Piano Tuners Are in Chicago?"
+      nextSlug="the-acoustics-of-caves"
+      nextTitle="The Acoustics of Caves"
+      nextSubtitle="Why our oldest art was made where the walls sing back"
       nextCategory="Essay"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-manhattan-project-part-4.webp"
-      nextReadTime="15 min"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-acoustics-of-caves.webp"
+      nextReadTime="14 min"
     >
       <h2>The Targeting Committee</h2>
 

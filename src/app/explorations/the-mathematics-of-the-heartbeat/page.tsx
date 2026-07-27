@@ -35,13 +35,13 @@ export default function TheMathematicsOfTheHeartbeat() {
       wordCount={2815}
       prevSlug="the-varangian-guard"
       prevTitle="The Varangian Guard"
-    nextSlug="the-plague-that-changed-inheritance"
-    nextTitle="The Plague That Changed Inheritance"
-    nextSubtitle="How the Black Death rewrote who owns land, who holds power, and what a life is worth"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-plague-that-changed-inheritance.webp"
-    nextReadTime="14 min"
+      nextSlug="the-plague-that-changed-inheritance"
+      nextTitle="The Plague That Changed Inheritance"
+      nextSubtitle="How the Black Death rewrote who owns land, who holds power, and what a life is worth"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-plague-that-changed-inheritance.webp"
+      nextReadTime="14 min"
     >
       <h2>The Invention of Listening</h2>
 

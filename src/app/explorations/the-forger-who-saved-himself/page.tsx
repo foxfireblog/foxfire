@@ -33,16 +33,16 @@ export default function TheForgerWhoSavedHimself() {
       imageAlt="The Forger Who Saved Himself illustration"
       readTime="13 min"
       wordCount={3025}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forger-who-saved-himself.mp3"
       prevSlug="the-throats-of-the-world"
       prevTitle="The Throats of the World"
-    nextSlug="kowloon-walled-city"
-    nextTitle="Kowloon Walled City"
-    nextSubtitle="The city that built itself"
-    nextCategory="Essay"
-    nextCategoryColor="orange"
-    nextImage="/images/explorations/kowloon-walled-city.webp"
-    nextReadTime="13 min"
+      nextSlug="kowloon-walled-city"
+      nextTitle="Kowloon Walled City"
+      nextSubtitle="The city that built itself"
+      nextCategory="Essay"
+      nextCategoryColor="orange"
+      nextImage="/images/explorations/kowloon-walled-city.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forger-who-saved-himself.mp3"
     ><article>
       <h2>The Smell of Lilacs</h2>
 

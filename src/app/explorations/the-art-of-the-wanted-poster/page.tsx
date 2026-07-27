@@ -35,13 +35,13 @@ export default function TheArtOfTheWantedPoster() {
       wordCount={3183}
       prevSlug="the-names-we-give-disasters"
       prevTitle="The Names We Give Disasters"
-    nextSlug="the-inland-sea"
-    nextTitle="The Inland Sea"
-    nextSubtitle="For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas."
-    nextCategory="Natural History"
-    nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-inland-sea.webp"
-    nextReadTime="13 min"
+      nextSlug="the-inland-sea"
+      nextTitle="The Inland Sea"
+      nextSubtitle="For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas."
+      nextCategory="Natural History"
+      nextCategoryColor="cyan"
+      nextImage="/images/explorations/the-inland-sea.webp"
+      nextReadTime="13 min"
     >
       <h2>The Scream Across the Field</h2>
 

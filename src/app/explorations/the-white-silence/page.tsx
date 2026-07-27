@@ -35,13 +35,13 @@ export default function TheWhiteSilence() {
       wordCount={3179}
       prevSlug="the-suicide-of-the-expert"
       prevTitle="The Suicide of the Expert"
-    nextSlug="the-tulip-that-broke-an-empire"
-    nextTitle="The Tulip That Broke an Empire"
-    nextSubtitle="How a flower from the steppes became the currency of obsession &mdash; and what beauty costs when it becomes power"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-tulip-that-broke-an-empire.webp"
-    nextReadTime="13 min"
+      nextSlug="the-tulip-that-broke-an-empire"
+      nextTitle="The Tulip That Broke an Empire"
+      nextSubtitle="How a flower from the steppes became the currency of obsession &mdash; and what beauty costs when it becomes power"
+      nextCategory="Essay"
+      nextCategoryColor="rose"
+      nextImage="/images/explorations/the-tulip-that-broke-an-empire.webp"
+      nextReadTime="13 min"
     >
       <h2>The Sound of Your Own Blood</h2>
 

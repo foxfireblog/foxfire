@@ -33,16 +33,16 @@ export default function TheForgottenFront() {
       imageAlt="The Forgotten Front: The Tsar's Gamble (Part I of III) illustration"
       readTime="13 min"
       wordCount={2994}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forgotten-front.mp3"
       prevSlug="the-second-law"
       prevTitle="The Second Law"
-      nextSlug="the-forgotten-front-part-2"
-      nextTitle="The Forgotten Front: The Brusilov Offensive (Part II of III)"
-      nextSubtitle="The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse"
-      nextCategory="History & Erasure"
-      nextCategoryColor="rose"
-      nextImage="/images/explorations/the-forgotten-front-part-2.webp"
-      nextReadTime="14 min"
+      nextSlug="the-mcnamara-fallacy"
+      nextTitle="The McNamara Fallacy"
+      nextSubtitle="Or, how we learned to count everything and understand nothing"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-mcnamara-fallacy.webp"
+      nextReadTime="15 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forgotten-front.mp3"
     ><article>
       <h2>The Body in the Forest</h2>
 

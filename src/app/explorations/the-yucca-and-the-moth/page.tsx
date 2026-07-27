@@ -35,13 +35,13 @@ export default function TheYuccaAndTheMoth() {
       wordCount={2899}
       prevSlug="the-contagion-of-laughter"
       prevTitle="The Contagion of Laughter"
-    nextSlug="the-last-hermits"
-    nextTitle="The Last Hermits"
-    nextSubtitle="On the strange, stubborn history of people who chose to disappear"
-    nextCategory="Essay"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-last-hermits.webp"
-    nextReadTime="13 min"
+      nextSlug="the-last-hermits"
+      nextTitle="The Last Hermits"
+      nextSubtitle="On the strange, stubborn history of people who chose to disappear"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-last-hermits.webp"
+      nextReadTime="13 min"
     >
       <h2>The Deal</h2>
 

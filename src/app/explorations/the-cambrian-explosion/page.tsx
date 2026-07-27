@@ -33,16 +33,16 @@ export default function TheCambrianExplosion() {
       imageAlt="The Cambrian Explosion illustration"
       readTime="11 min"
       wordCount={2609}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cambrian-explosion.mp3"
       prevSlug="numbers-stations"
       prevTitle="Numbers Stations"
-    nextSlug="the-bone-wars"
-    nextTitle="The Bone Wars"
-    nextSubtitle="Two men who hated each other dug up prehistoric America &mdash; and buried the truth along the way"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-bone-wars.webp"
-    nextReadTime="12 min"
+      nextSlug="the-bone-wars"
+      nextTitle="The Bone Wars"
+      nextSubtitle="Two men who hated each other dug up prehistoric America &mdash; and buried the truth along the way"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-bone-wars.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cambrian-explosion.mp3"
     >
       <h2>The Garden of the Blind</h2>
 

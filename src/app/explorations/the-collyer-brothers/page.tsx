@@ -35,13 +35,13 @@ export default function TheCollyerBrothers() {
       wordCount={2956}
       prevSlug="the-antikythera-mechanism"
       prevTitle="The Antikythera Mechanism"
-    nextSlug="the-hum"
-    nextTitle="The Hum"
-    nextSubtitle="A love letter to the sound no one can find"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-hum.webp"
-    nextReadTime="14 min"
+      nextSlug="the-hum"
+      nextTitle="The Hum"
+      nextSubtitle="A love letter to the sound no one can find"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-hum.webp"
+      nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-collyer-brothers.mp3"
     ><article>
       <h2>The Fortress</h2>

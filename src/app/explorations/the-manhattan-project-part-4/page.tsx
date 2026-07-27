@@ -33,15 +33,15 @@ export default function TheManhattanProjectPart4() {
       imageAlt="The Manhattan Project: The Inheritance (Part IV of IV) illustration"
       readTime="15 min"
       wordCount={3359}
-      prevSlug="the-manhattan-project-part-3"
-      prevTitle="The Manhattan Project: The Decision (Part III of IV)"
-    nextSlug="the-actuaries-of-the-apocalypse"
-    nextTitle="The Actuaries of the Apocalypse"
-    nextSubtitle="How the mathematics of risk quietly became the operating system of civilization"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-actuaries-of-the-apocalypse.webp"
-    nextReadTime="14 min"
+      prevSlug="the-spiral-of-silence"
+      prevTitle="The Spiral of Silence"
+      nextSlug="the-actuaries-of-the-apocalypse"
+      nextTitle="The Actuaries of the Apocalypse"
+      nextSubtitle="How the mathematics of risk quietly became the operating system of civilization"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-actuaries-of-the-apocalypse.webp"
+      nextReadTime="14 min"
     >
       <h2>The Green Glass</h2>
 

@@ -33,16 +33,16 @@ export default function TheMapOfEveryDeath() {
       imageAlt="The Map of Every Death illustration"
       readTime="13 min"
       wordCount={2972}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-map-of-every-death.mp3"
       prevSlug="microchimerism"
       prevTitle="Microchimerism"
-    nextSlug="the-prion"
-    nextTitle="The Prion"
-    nextSubtitle="A protein that learned one terrible trick"
-    nextCategory="Natural Horror"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-prion.webp"
-    nextReadTime="12 min"
+      nextSlug="the-oxygen-apocalypse"
+      nextTitle="The Oxygen Apocalypse"
+      nextSubtitle="Two billion years ago, life invented breathing and nearly destroyed itself"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-oxygen-apocalypse.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-map-of-every-death.mp3"
     ><h2>The Sweetness in the Water</h2>
 
       <p>The water from the Broad Street pump was famous for its taste. Locals in Soho described it as cold, slightly carbonated, faintly sweet&mdash;a rare pleasure in a city where most well water tasted of iron and clay. People walked extra blocks for it. A widow named Susannah Eley, who had moved miles away to the leafy suburb of Hampstead, loved it so much that she had a large bottle carted across London to her doorstep every single day. She drank from her delivery on August 31, 1854. She was dead by September 2.</p>

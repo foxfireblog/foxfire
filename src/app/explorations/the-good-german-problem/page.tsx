@@ -35,13 +35,13 @@ export default function TheGoodGermanProblem() {
       wordCount={2967}
       prevSlug="the-index-card-that-built-the-modern-mind"
       prevTitle="The Index Card That Built the Modern Mind"
-    nextSlug="the-birthday-problem"
-    nextTitle="The Birthday Problem"
-    nextSubtitle="Why your brain is a terrible statistician, and what that means for everything else"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-birthday-problem.webp"
-    nextReadTime="12 min"
+      nextSlug="the-birthday-problem"
+      nextTitle="The Birthday Problem"
+      nextSubtitle="Why your brain is a terrible statistician, and what that means for everything else"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-birthday-problem.webp"
+      nextReadTime="12 min"
     >
       <h2>The Comfortable Fantasy</h2>
 

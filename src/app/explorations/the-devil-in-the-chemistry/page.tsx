@@ -33,16 +33,16 @@ export default function TheDevilInTheChemistry() {
       imageAlt="The Devil in the Chemistry illustration"
       readTime="12 min"
       wordCount={2814}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-devil-in-the-chemistry.mp3"
       prevSlug="the-stanford-collapse"
       prevTitle="The Stanford Collapse"
-    nextSlug="dead-drops-and-living-cities"
-    nextTitle="Dead Drops and Living Cities"
-    nextSubtitle="How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/dead-drops-and-living-cities.webp"
-    nextReadTime="12 min"
+      nextSlug="dead-drops-and-living-cities"
+      nextTitle="Dead Drops and Living Cities"
+      nextSubtitle="How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/dead-drops-and-living-cities.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-devil-in-the-chemistry.mp3"
     >
       <h2>Full Bellies, Empty Lives</h2>
 

@@ -33,16 +33,16 @@ export default function TheRansomForFreedom() {
       imageAlt="The Ransom for Freedom illustration"
       readTime="12 min"
       wordCount={2711}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ransom-for-freedom.mp3"
       prevSlug="the-middle-passage-part-2"
       prevTitle="The Middle Passage: The Afterlife (Part II of II)"
-    nextSlug="the-ocean-invented-stars"
-    nextTitle="Deep Ocean Bioluminescence"
-    nextSubtitle="Below the sunlight, the ocean invented its own stars"
-    nextCategory="Natural History"
-    nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-ocean-invented-stars.webp"
-    nextReadTime="13 min"
+      nextSlug="the-ocean-invented-stars"
+      nextTitle="Deep Ocean Bioluminescence"
+      nextSubtitle="Below the sunlight, the ocean invented its own stars"
+      nextCategory="Natural History"
+      nextCategoryColor="cyan"
+      nextImage="/images/explorations/the-ocean-invented-stars.webp"
+      nextReadTime="13 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ransom-for-freedom.mp3"
     >
       <h2>The Invoice</h2>
 

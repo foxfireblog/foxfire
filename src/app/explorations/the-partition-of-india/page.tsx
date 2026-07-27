@@ -33,16 +33,16 @@ export default function ThePartitionOfIndia() {
       imageAlt="The Partition of India: The Radcliffe Line (Part I of II) illustration"
       readTime="12 min"
       wordCount={2814}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-partition-of-india.mp3"
       prevSlug="the-collaborators"
       prevTitle="The Collaborators"
-      nextSlug="the-partition-of-india-part-2"
-      nextTitle="The Partition of India: The Reckoning (Part II of II)"
-      nextSubtitle="The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound"
+      nextSlug="numbers-stations"
+      nextTitle="Numbers Stations"
+      nextSubtitle="Someone is still broadcasting, and no one will say why"
       nextCategory="Essay"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-partition-of-india-part-2.webp"
-      nextReadTime="14 min"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/numbers-stations.webp"
+      nextReadTime="12 min"
+      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-partition-of-india.mp3"
     >
       <h2>The Man Who Had Never Been East of Paris</h2>
 

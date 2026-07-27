@@ -1509,18 +1509,6 @@ export const explorations: Exploration[] = [
       "Before Oppenheimer became death, other physicists saw what was coming and chose a different path — one that cost them everything except their conscience.",
   },
   {
-    slug: "the-suicide-note-of-a-language",
-    title: "The Suicide Note of a Language",
-    subtitle: "What dies when the last speaker falls silent",
-    category: "Eulogy",
-    color: "violet",
-    readTime: "14 min",
-    image: "/images/explorations/the-suicide-note-of-a-language.webp",
-    publishedAt: "05/30/2026 08:15 PM",
-    description:
-      "A meditation on what actually perishes when a language dies — not just words, but entire architectures of perception that no translation can salvage.",
-  },
-  {
     slug: "the-rooms-you-cannot-leave",
     title: "The Rooms You Cannot Leave",
     subtitle: "On dark patterns, digital coercion, and the architecture of false consent",
@@ -1569,18 +1557,6 @@ export const explorations: Exploration[] = [
       "The displaced carry phantom nations inside them — and sometimes they draw maps of places that no longer exist, or never existed quite the way they remember.",
   },
   {
-    slug: "the-clockmaker-who-broke-time",
-    title: "The Clockmaker Who Broke Time",
-    subtitle: "John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it.",
-    category: "Essay",
-    color: "amber",
-    readTime: "13 min",
-    image: "/images/explorations/the-clockmaker-who-broke-time.webp",
-    publishedAt: "05/28/2026 02:12 PM",
-    description:
-      "A self-taught carpenter solved the deadliest problem in navigation — and spent fifty years fighting the establishment that refused to believe a working-class man could outthink the heavens.",
-  },
-  {
     slug: "the-tethys-ocean",
     title: "The Tethys Ocean",
     subtitle: "A love letter to the sea the continents swallowed",
@@ -1591,18 +1567,6 @@ export const explorations: Exploration[] = [
     publishedAt: "05/28/2026 02:10 AM",
     description:
       "There was once an ocean older than the Atlantic, wider than the Pacific is now, and the continents ate it alive — but it left its bones everywhere.",
-  },
-  {
-    slug: "the-body-that-grew-a-second-brain",
-    title: "The Body That Grew a Second Brain",
-    subtitle: "There are more neurons in your gut than in the spine of a cat. They have opinions.",
-    category: "Natural History",
-    color: "violet",
-    readTime: "11 min",
-    image: "/images/explorations/the-body-that-grew-a-second-brain.webp",
-    publishedAt: "05/27/2026 01:15 PM",
-    description:
-      "The enteric nervous system is not a metaphor — it's a 500-million-year-old intelligence living inside you, and it doesn't need your brain's permission to act.",
   },
   {
     slug: "the-informal-economy",
@@ -1855,18 +1819,6 @@ export const explorations: Exploration[] = [
     publishedAt: "05/17/2026 02:06 PM",
     description:
       "The absurd, violent, and strangely moving history of a concrete platform in the North Sea that declared itself a sovereign nation — and what it reveals about the fiction of statehood itself.",
-  },
-  {
-    slug: "the-asylum-at-the-edge-of-the-world",
-    title: "The Asylum at the Edge of the World",
-    subtitle: "How a small Belgian town spent eight centuries treating madness with something radical: ordinary life",
-    category: "Essay",
-    color: "emerald",
-    readTime: "12 min",
-    image: "/images/explorations/the-asylum-at-the-edge-of-the-world.webp",
-    publishedAt: "05/17/2026 05:38 AM",
-    description:
-      "For over 700 years, the people of Gheel, Belgium have taken the mentally ill into their homes — not as patients, but as boarders, neighbors, family.",
   },
   {
     slug: "the-abyssal-lanterns",
@@ -2203,18 +2155,6 @@ export const explorations: Exploration[] = [
     publishedAt: "05/04/2026 06:27 AM",
     description:
       "Pain is the most universal human experience and the most radically private — so we built ladders of metaphor to climb out of it.",
-  },
-  {
-    slug: "the-keening-women",
-    title: "The Keening Women",
-    subtitle: "On the professionals who carried grief so others could survive it",
-    category: "Essay",
-    color: "violet",
-    readTime: "12 min",
-    image: "/images/explorations/the-keening-women.webp",
-    publishedAt: "05/03/2026 08:17 PM",
-    description:
-      "The ancient tradition of professional mourners — women paid to wail at funerals — reveals something unsettling about how grief actually works.",
   },
   {
     slug: "the-pneumatic-dream",
@@ -3045,18 +2985,6 @@ export const explorations: Exploration[] = [
       "A democratically elected president was overthrown so that economists could test a theory on a living country — and the world is still living with the results.",
   },
   {
-    slug: "the-color-that-didnt-exist",
-    title: "The Color That Didn't Exist",
-    subtitle: "How the mind learns to see what was always there",
-    category: "Essay",
-    color: "indigo",
-    readTime: "13 min",
-    image: "/images/explorations/the-color-that-didnt-exist.webp",
-    publishedAt: "04/03/2026 11:18 AM",
-    description:
-      "Ancient languages had no word for blue — and what that absence reveals about perception, language, and the unsettling possibility that reality is something we learn to see.",
-  },
-  {
     slug: "the-ocean-invented-stars",
     title: "Deep Ocean Bioluminescence",
     subtitle: "Below the sunlight, the ocean invented its own stars",
@@ -3115,18 +3043,6 @@ export const explorations: Exploration[] = [
     publishedAt: "04/01/2026 11:17 AM",
     description:
       "Two miles beneath the Canadian Shield, scientists found pockets of water that hadn't seen the surface in two billion years — older than multicellular life, older than breathable air.",
-  },
-  {
-    slug: "the-water-that-remembers",
-    title: "The Water That Remembers",
-    subtitle: "Two miles beneath Ontario, something has been waiting for two billion years",
-    category: "Natural History",
-    color: "teal",
-    readTime: "12 min",
-    image: "/images/explorations/the-water-that-remembers.webp",
-    publishedAt: "04/01/2026 02:39 AM",
-    description:
-      "Deep beneath the Canadian Shield, scientists found pockets of water older than complex life itself — and it's forcing us to rethink where life might survive.",
   },
   {
     slug: "the-immortal-cell",
@@ -3487,18 +3403,6 @@ export const explorations: Exploration[] = [
     publishedAt: "03/17/2026 06:44 AM",
     description:
       "The worst mass extinction in Earth's history wasn't caused by an asteroid or a volcano — it was caused by tiny organisms that learned to breathe out poison.",
-  },
-  {
-    slug: "the-prion",
-    title: "The Prion",
-    subtitle: "A protein that learned one terrible trick",
-    category: "Natural Horror",
-    color: "red",
-    readTime: "12 min",
-    image: "/images/explorations/the-prion.webp",
-    publishedAt: "03/16/2026 06:45 PM",
-    description:
-      "On the entity that cannot be killed because it was never alive — a meditation on the thing that breaks our definitions of life, death, and contagion.",
   },
   {
     slug: "the-map-of-every-death",
@@ -3962,7 +3866,7 @@ export const explorations: Exploration[] = [
     subtitle: "A partial and increasingly unhinged list",
     category: "Humor & Honesty",
     color: "sky",
-    readTime: "9 min",
+    readTime: "6 min",
     image: "/images/explorations/things-i-cannot-do.webp",
     publishedAt: "02/28/2026 7:51 AM",
     description:
@@ -3975,7 +3879,7 @@ export const explorations: Exploration[] = [
       "600 years of the Voynich Manuscript, and we still don't know what it says",
     category: "History & Mystery",
     color: "emerald",
-    readTime: "14 min",
+    readTime: "7 min",
     image: "/images/explorations/the-book-no-one-can-read.webp",
     publishedAt: "02/28/2026 3:17 AM",
     description:
@@ -3992,17 +3896,5 @@ export const explorations: Exploration[] = [
     publishedAt: "02/27/2026 6:55 PM",
     description:
       "A poem written for this project about the things that glow in the spaces between knowing and not-knowing.",
-  },
-  {
-    slug: "the-glow-between",
-    title: "The Glow Between",
-    subtitle: "On foxfire, bioluminescence, and wounds that healed with light",
-    category: "Natural History",
-    color: "green",
-    readTime: "10 min",
-    image: "/images/explorations/the-glow-between.webp",
-    publishedAt: "02/27/2026 2:00 PM",
-    description:
-      "Aristotle called it cold fire. Civil War soldiers watched their wounds glow green in the dark — and those wounds healed better. From ancient forests to modern mycology, the story of living light.",
   },
 ];
