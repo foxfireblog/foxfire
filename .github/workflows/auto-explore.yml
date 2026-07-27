@@ -57,7 +57,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run auto-explore
+      # Generation is paused while the audited backlog drains. The queue holds
+      # 124 posts already written and vetted (docs/backlog-audit-2026-07-27.md),
+      # roughly seven months at the current cadence, and costs nothing to
+      # publish. When the queue empties this falls through to the generator.
+      - name: Publish from backlog queue (or generate if empty)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -68,7 +72,14 @@ jobs:
           if [ "$FORCE_INPUT" = "true" ]; then
             ARGS="--force"
           fi
-          node scripts/auto-explore.mjs $ARGS
+          REMAINING=$(node -e "try{console.log(require('./scripts/publish-queue.json').length)}catch{console.log(0)}")
+          echo "Backlog queue: $REMAINING post(s) remaining."
+          if [ "$REMAINING" -gt 0 ]; then
+            node scripts/publish-from-queue.mjs $ARGS
+          else
+            echo "Queue empty — resuming generation."
+            node scripts/auto-explore.mjs $ARGS
+          fi
 
       - name: Validate build
         run: npx tsc --noEmit
