@@ -35,6 +35,13 @@ export default function TheHiredMourners() {
       wordCount={2880}
       prevSlug="the-woman-who-tasted-words"
       prevTitle="The Woman Who Tasted Words"
+    nextSlug="the-architecture-of-terror-part-2"
+    nextTitle="The Architecture of Terror: The Purges (Part II of III)"
+    nextSubtitle="The Great Terror of 1936-38, the show trials, the NKVD troikas, and the Gulag"
+    nextCategory="Essay"
+    nextCategoryColor="red"
+    nextImage="/images/explorations/the-architecture-of-terror-part-2.webp"
+    nextReadTime="14 min"
     >
       <h2>The Only Emotion We Outsource</h2>
 

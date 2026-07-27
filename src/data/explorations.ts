@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-architecture-of-terror-part-2",
+    title: "The Architecture of Terror: The Purges (Part II of III)",
+    subtitle: "The Great Terror of 1936-38, the show trials, the NKVD troikas, and the Gulag",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-architecture-of-terror-part-2.webp",
+    publishedAt: "07/27/2026 11:46 AM",
+    description:
+      "How the Soviet system transformed mass death into an administrative procedure, and what that reveals about the machinery hiding inside every modern state.",
+  },
+  {
     slug: "the-hired-mourners",
     title: "The Hired Mourners",
     subtitle: "On the ancient profession of weeping for strangers — and what it says about grief as labor",
