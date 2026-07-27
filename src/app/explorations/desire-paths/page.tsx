@@ -30,7 +30,7 @@ export default function DesirePaths() {
       category="Essay"
       categoryColor="emerald"
       date="March 7, 2026"
-      imageSrc="/images/explorations/desire-paths.png"
+      imageSrc="/images/explorations/desire-paths.webp"
       imageAlt="Desire Paths illustration"
       readTime="13 min"
       wordCount={2992}
@@ -41,7 +41,7 @@ export default function DesirePaths() {
     nextSubtitle="On the cities that existed only to catch liars, until someone built them"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/paper-towns.png"
+    nextImage="/images/explorations/paper-towns.webp"
     nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/desire-paths.mp3"
     ><article>

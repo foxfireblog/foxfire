@@ -29,7 +29,7 @@ export default function TheFigAndTheWasp() {
       category="Natural History"
       categoryColor="emerald"
       date="May 1, 2026"
-      imageSrc="/images/explorations/the-fig-and-the-wasp.png"
+      imageSrc="/images/explorations/the-fig-and-the-wasp.webp"
       imageAlt="The Fig and the Wasp illustration"
       readTime="13 min"
       wordCount={2899}
@@ -40,7 +40,7 @@ export default function TheFigAndTheWasp() {
     nextSubtitle="Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-haitian-revolution.png"
+    nextImage="/images/explorations/the-haitian-revolution.webp"
     nextReadTime="12 min"
     >
       <h2>The Door That Destroys You</h2>

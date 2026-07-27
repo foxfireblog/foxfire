@@ -29,7 +29,7 @@ export default function ThePolywaterDelusion() {
       category="Essay"
       categoryColor="cyan"
       date="July 2, 2026"
-      imageSrc="/images/explorations/the-polywater-delusion.png"
+      imageSrc="/images/explorations/the-polywater-delusion.webp"
       imageAlt="The Polywater Delusion illustration"
       readTime="11 min"
       wordCount={2627}
@@ -40,7 +40,7 @@ export default function ThePolywaterDelusion() {
     nextSubtitle="A history of scientific forgery is really a history of what we desperately want to be true"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scientists-who-built-a-fake-past.png"
+    nextImage="/images/explorations/the-scientists-who-built-a-fake-past.webp"
     nextReadTime="14 min"
     >
       <h2>The Sweat of a Handball Player</h2>

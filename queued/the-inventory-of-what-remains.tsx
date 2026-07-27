@@ -29,7 +29,7 @@ export default function TheInventoryOfWhatRemains() {
       category="Field Guide"
       categoryColor="amber"
       date="July 1, 2026"
-      imageSrc="/images/explorations/the-inventory-of-what-remains.png"
+      imageSrc="/images/explorations/the-inventory-of-what-remains.webp"
       imageAlt="The Inventory of What Remains illustration"
       readTime="18 min"
       wordCount={4155}
@@ -40,7 +40,7 @@ export default function TheInventoryOfWhatRemains() {
     nextSubtitle="Every civilization that burned books eventually burned people"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-library-of-burned-books.png"
+    nextImage="/images/explorations/the-library-of-burned-books.webp"
     nextReadTime="12 min"
     >
       <h2>The Inventory of What Remains</h2>

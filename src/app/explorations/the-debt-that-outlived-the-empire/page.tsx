@@ -29,7 +29,7 @@ export default function TheDebtThatOutlivedTheEmpire() {
       category="Essay"
       categoryColor="amber"
       date="May 29, 2026"
-      imageSrc="/images/explorations/the-debt-that-outlived-the-empire.png"
+      imageSrc="/images/explorations/the-debt-that-outlived-the-empire.webp"
       imageAlt="The Debt That Outlived the Empire illustration"
       readTime="12 min"
       wordCount={2690}
@@ -40,7 +40,7 @@ export default function TheDebtThatOutlivedTheEmpire() {
     nextSubtitle="How African talking drums encode language in rhythm &mdash; and why empires tried to silence them"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-drum-that-crossed-continents.png"
+    nextImage="/images/explorations/the-drum-that-crossed-continents.webp"
     nextReadTime="12 min"
     >
       <h2>The Invoice</h2>

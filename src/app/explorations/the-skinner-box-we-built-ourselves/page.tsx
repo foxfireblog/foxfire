@@ -29,7 +29,7 @@ export default function TheSkinnerBoxWeBuiltOurselves() {
       category="Essay"
       categoryColor="amber"
       date="July 18, 2026"
-      imageSrc="/images/explorations/the-skinner-box-we-built-ourselves.png"
+      imageSrc="/images/explorations/the-skinner-box-we-built-ourselves.webp"
       imageAlt="The Skinner Box We Built Ourselves illustration"
       readTime="13 min"
       wordCount={2976}
@@ -40,7 +40,7 @@ export default function TheSkinnerBoxWeBuiltOurselves() {
     nextSubtitle="Every apocalypse leaves a thin line in the rock. You just have to know how to read it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-stratigraphy-of-catastrophe.png"
+    nextImage="/images/explorations/the-stratigraphy-of-catastrophe.webp"
     nextReadTime="12 min"
     >
       <h2>The Pellet and the Peck</h2>

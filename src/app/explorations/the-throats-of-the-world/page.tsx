@@ -29,7 +29,7 @@ export default function TheThroatsOfTheWorld() {
       category="Essay"
       categoryColor="teal"
       date="March 14, 2026"
-      imageSrc="/images/explorations/the-throats-of-the-world.png"
+      imageSrc="/images/explorations/the-throats-of-the-world.webp"
       imageAlt="The Throats of the World illustration"
       readTime="12 min"
       wordCount={2849}
@@ -41,7 +41,7 @@ export default function TheThroatsOfTheWorld() {
     nextSubtitle="Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-forger-who-saved-himself.png"
+    nextImage="/images/explorations/the-forger-who-saved-himself.webp"
     nextReadTime="13 min"
     ><article>
 

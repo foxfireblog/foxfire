@@ -29,7 +29,7 @@ export default function TheEnclosureOfEverything() {
       category="Essay"
       categoryColor="amber"
       date="May 22, 2026"
-      imageSrc="/images/explorations/the-enclosure-of-everything.png"
+      imageSrc="/images/explorations/the-enclosure-of-everything.webp"
       imageAlt="The Enclosure of Everything illustration"
       readTime="12 min"
       wordCount={2832}
@@ -40,7 +40,7 @@ export default function TheEnclosureOfEverything() {
     nextSubtitle="On the strange physics of almost-beginning"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-silence-before-the-breath.png"
+    nextImage="/images/explorations/the-silence-before-the-breath.webp"
     nextReadTime="11 min"
     >
       <h2>The Bankrupt Cloth Merchant&apos;s Vision</h2>

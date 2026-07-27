@@ -29,7 +29,7 @@ export default function TheInventionOfTheAddict() {
       category="Essay"
       categoryColor="amber"
       date="June 18, 2026"
-      imageSrc="/images/explorations/the-invention-of-the-addict.png"
+      imageSrc="/images/explorations/the-invention-of-the-addict.webp"
       imageAlt="The Invention of the Addict illustration"
       readTime="12 min"
       wordCount={2762}
@@ -40,7 +40,7 @@ export default function TheInventionOfTheAddict() {
     nextSubtitle="How your body learns to destroy itself &mdash; and why it might be the price of being alive at all"
     nextCategory="Natural History"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-traitor-cell.png"
+    nextImage="/images/explorations/the-traitor-cell.webp"
     nextReadTime="13 min"
     >
       <h2>The Slave</h2>

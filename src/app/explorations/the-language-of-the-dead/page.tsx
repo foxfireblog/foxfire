@@ -29,7 +29,7 @@ export default function TheLanguageOfTheDead() {
       category="Essay"
       categoryColor="violet"
       date="July 4, 2026"
-      imageSrc="/images/explorations/the-language-of-the-dead.png"
+      imageSrc="/images/explorations/the-language-of-the-dead.webp"
       imageAlt="The Language of the Dead illustration"
       readTime="13 min"
       wordCount={2893}
@@ -40,7 +40,7 @@ export default function TheLanguageOfTheDead() {
     nextSubtitle="When Europe put animals on trial &mdash; and what it says about the stories we need justice to tell"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-trial-of-the-rooster.png"
+    nextImage="/images/explorations/the-trial-of-the-rooster.webp"
     nextReadTime="14 min"
     >
       <h2>The Tomb Speaks First</h2>

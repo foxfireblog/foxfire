@@ -29,7 +29,7 @@ export default function TheLightThatBodiesMake() {
       category="Essay"
       categoryColor="amber"
       date="July 19, 2026"
-      imageSrc="/images/explorations/the-light-that-bodies-make.png"
+      imageSrc="/images/explorations/the-light-that-bodies-make.webp"
       imageAlt="The Light That Bodies Make illustration"
       readTime="13 min"
       wordCount={3010}
@@ -40,7 +40,7 @@ export default function TheLightThatBodiesMake() {
     nextSubtitle="Science corrects itself. The correction never catches up."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-retraction-problem.png"
+    nextImage="/images/explorations/the-retraction-problem.webp"
     nextReadTime="12 min"
     >
       <h2>The Onion and the Light</h2>

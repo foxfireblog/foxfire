@@ -29,7 +29,7 @@ export default function TheThresholdOfSignificance() {
       category="Essay"
       categoryColor="amber"
       date="July 24, 2026"
-      imageSrc="/images/explorations/the-threshold-of-significance.png"
+      imageSrc="/images/explorations/the-threshold-of-significance.webp"
       imageAlt="The Threshold of Significance illustration"
       readTime="13 min"
       wordCount={2946}
@@ -40,7 +40,7 @@ export default function TheThresholdOfSignificance() {
     nextSubtitle="On the ancient logic of destroying the body to transcend it"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-ascetics-who-became-gods.png"
+    nextImage="/images/explorations/the-ascetics-who-became-gods.webp"
     nextReadTime="14 min"
     >
       <h2>The Lady and the Tea</h2>

@@ -30,7 +30,7 @@ export default function DeadReckoning() {
       category="Essay"
       categoryColor="indigo"
       date="March 5, 2026"
-      imageSrc="/images/explorations/dead-reckoning.png"
+      imageSrc="/images/explorations/dead-reckoning.webp"
       imageAlt="Dead Reckoning illustration"
       readTime="15 min"
       wordCount={3395}
@@ -41,7 +41,7 @@ export default function DeadReckoning() {
     nextSubtitle="A meditation on the body's conspiracy with belief"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-placebo-effect.png"
+    nextImage="/images/explorations/the-placebo-effect.webp"
     nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-reckoning.mp3"
     >

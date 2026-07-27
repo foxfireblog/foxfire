@@ -29,7 +29,7 @@ export default function TheSmellThatPrecededDiagnosis() {
       category="Natural History"
       categoryColor="amber"
       date="May 21, 2026"
-      imageSrc="/images/explorations/the-smell-that-preceded-diagnosis.png"
+      imageSrc="/images/explorations/the-smell-that-preceded-diagnosis.webp"
       imageAlt="The Smell That Preceded Diagnosis illustration"
       readTime="11 min"
       wordCount={2528}
@@ -40,7 +40,7 @@ export default function TheSmellThatPrecededDiagnosis() {
     nextSubtitle="On the most beautiful idea in modern ecology &mdash; and the grief of letting it go"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-wood-wide-web-was-wrong.png"
+    nextImage="/images/explorations/the-wood-wide-web-was-wrong.webp"
     nextReadTime="11 min"
     >
       <h2>The Woman Who Smelled the Future</h2>

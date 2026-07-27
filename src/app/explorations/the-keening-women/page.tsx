@@ -29,7 +29,7 @@ export default function TheKeeningWomen() {
       category="Essay"
       categoryColor="violet"
       date="May 4, 2026"
-      imageSrc="/images/explorations/the-keening-women.png"
+      imageSrc="/images/explorations/the-keening-women.webp"
       imageAlt="The Keening Women illustration"
       readTime="12 min"
       wordCount={2858}
@@ -40,7 +40,7 @@ export default function TheKeeningWomen() {
     nextSubtitle="Why medicine couldn't describe what patients couldn't name &mdash; and the strange tools built to bridge the silence"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-pain-that-has-no-language.png"
+    nextImage="/images/explorations/the-pain-that-has-no-language.webp"
     nextReadTime="12 min"
     >
       <h2>The Blood in the Mud</h2>

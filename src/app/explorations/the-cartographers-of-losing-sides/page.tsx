@@ -29,7 +29,7 @@ export default function TheCartographersOfLosingSides() {
       category="Essay"
       categoryColor="amber"
       date="March 31, 2026"
-      imageSrc="/images/explorations/the-cartographers-of-losing-sides.png"
+      imageSrc="/images/explorations/the-cartographers-of-losing-sides.webp"
       imageAlt="The Cartographers of Losing Sides illustration"
       readTime="13 min"
       wordCount={2891}
@@ -41,7 +41,7 @@ export default function TheCartographersOfLosingSides() {
     nextSubtitle="Henrietta Lacks died in 1951. Her cells never did."
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-immortal-cell.png"
+    nextImage="/images/explorations/the-immortal-cell.webp"
     nextReadTime="13 min"
     >
       <h2>The Lie at the Edge of the World</h2>

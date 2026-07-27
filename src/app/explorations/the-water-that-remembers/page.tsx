@@ -29,7 +29,7 @@ export default function TheWaterThatRemembers() {
       category="Natural History"
       categoryColor="teal"
       date="April 1, 2026"
-      imageSrc="/images/explorations/the-water-that-remembers.png"
+      imageSrc="/images/explorations/the-water-that-remembers.webp"
       imageAlt="The Water That Remembers illustration"
       readTime="12 min"
       wordCount={2654}
@@ -41,7 +41,7 @@ export default function TheWaterThatRemembers() {
     nextSubtitle="Two billion years of silence, two miles down"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-water-beneath-ontario.png"
+    nextImage="/images/explorations/the-water-beneath-ontario.webp"
     nextReadTime="12 min"
     >
       <h2>The Broken Machine</h2>

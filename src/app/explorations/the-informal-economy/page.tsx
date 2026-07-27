@@ -29,7 +29,7 @@ export default function TheInformalEconomy() {
       category="Essay"
       categoryColor="amber"
       date="May 27, 2026"
-      imageSrc="/images/explorations/the-informal-economy.png"
+      imageSrc="/images/explorations/the-informal-economy.webp"
       imageAlt="The Informal Economy illustration"
       readTime="11 min"
       wordCount={2555}
@@ -40,7 +40,7 @@ export default function TheInformalEconomy() {
     nextSubtitle="There are more neurons in your gut than in the spine of a cat. They have opinions."
     nextCategory="Natural History"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-body-that-grew-a-second-brain.png"
+    nextImage="/images/explorations/the-body-that-grew-a-second-brain.webp"
     nextReadTime="11 min"
     >
       <h2>The Economy That Wasn&apos;t Supposed to Exist</h2>

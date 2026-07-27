@@ -29,7 +29,7 @@ export default function TheMusicOfProteinFolding() {
       category="Natural Philosophy"
       categoryColor="violet"
       date="April 29, 2026"
-      imageSrc="/images/explorations/the-music-of-protein-folding.png"
+      imageSrc="/images/explorations/the-music-of-protein-folding.webp"
       imageAlt="The Music of Protein Folding illustration"
       readTime="13 min"
       wordCount={2922}
@@ -40,7 +40,7 @@ export default function TheMusicOfProteinFolding() {
     nextSubtitle="How the most bombed landscape on Earth became an accidental wilderness"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-cartography-of-craters.png"
+    nextImage="/images/explorations/the-cartography-of-craters.webp"
     nextReadTime="13 min"
     >
       <h2>The Siren Song of Amino Acids</h2>

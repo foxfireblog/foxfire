@@ -29,7 +29,7 @@ export default function TheSuicideOfTheExpert() {
       category="Essay"
       categoryColor="amber"
       date="June 21, 2026"
-      imageSrc="/images/explorations/the-suicide-of-the-expert.png"
+      imageSrc="/images/explorations/the-suicide-of-the-expert.webp"
       imageAlt="The Suicide of the Expert illustration"
       readTime="12 min"
       wordCount={2802}
@@ -40,7 +40,7 @@ export default function TheSuicideOfTheExpert() {
     nextSubtitle="What polar explorers discovered about the psychology of nothingness"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-white-silence.png"
+    nextImage="/images/explorations/the-white-silence.webp"
     nextReadTime="14 min"
     >
       <h2>The Glasses</h2>

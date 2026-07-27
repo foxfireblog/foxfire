@@ -29,7 +29,7 @@ export default function TheOverviewEffect() {
       category="Essay"
       categoryColor="sky"
       date="April 10, 2026"
-      imageSrc="/images/explorations/the-overview-effect.png"
+      imageSrc="/images/explorations/the-overview-effect.webp"
       imageAlt="The Overview Effect illustration"
       readTime="13 min"
       wordCount={2962}
@@ -41,7 +41,7 @@ export default function TheOverviewEffect() {
     nextSubtitle="Every generation names the date. Every generation sells everything."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-world-ending-on-schedule.png"
+    nextImage="/images/explorations/the-world-ending-on-schedule.webp"
     nextReadTime="15 min"
     >
       <h2>The Thumb</h2>

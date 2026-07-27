@@ -29,7 +29,7 @@ export default function TheFeltSenseOfTime() {
       category="Essay"
       categoryColor="amber"
       date="May 31, 2026"
-      imageSrc="/images/explorations/the-felt-sense-of-time.png"
+      imageSrc="/images/explorations/the-felt-sense-of-time.webp"
       imageAlt="The Felt Sense of Time illustration"
       readTime="14 min"
       wordCount={3323}
@@ -40,7 +40,7 @@ export default function TheFeltSenseOfTime() {
     nextSubtitle="The oldest banking system in the world runs on nothing but trust"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hawala-network.png"
+    nextImage="/images/explorations/the-hawala-network.webp"
     nextReadTime="13 min"
     >
       <h2>The Wife with the Fever</h2>

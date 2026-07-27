@@ -29,7 +29,7 @@ export default function TheTherapeuticState() {
       category="Essay"
       categoryColor="violet"
       date="May 3, 2026"
-      imageSrc="/images/explorations/the-therapeutic-state.png"
+      imageSrc="/images/explorations/the-therapeutic-state.webp"
       imageAlt="The Therapeutic State illustration"
       readTime="12 min"
       wordCount={2724}
@@ -40,7 +40,7 @@ export default function TheTherapeuticState() {
     nextSubtitle="The forgotten future that ran on compressed air"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-pneumatic-dream.png"
+    nextImage="/images/explorations/the-pneumatic-dream.webp"
     nextReadTime="12 min"
     >
       <p className="text-lg italic text-muted mb-8">

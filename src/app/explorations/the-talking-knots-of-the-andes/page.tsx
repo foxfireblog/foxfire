@@ -29,7 +29,7 @@ export default function TheTalkingKnotsOfTheAndes() {
       category="Essay"
       categoryColor="amber"
       date="June 16, 2026"
-      imageSrc="/images/explorations/the-talking-knots-of-the-andes.png"
+      imageSrc="/images/explorations/the-talking-knots-of-the-andes.webp"
       imageAlt="The Talking Knots of the Andes illustration"
       readTime="13 min"
       wordCount={2960}
@@ -40,7 +40,7 @@ export default function TheTalkingKnotsOfTheAndes() {
     nextSubtitle="We know how to implant memories that never happened &mdash; and we've been doing it by accident for centuries"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-false-memory-machine.png"
+    nextImage="/images/explorations/the-false-memory-machine.webp"
     nextReadTime="13 min"
     >
       <h2>The Filing Cabinet in the Grave</h2>

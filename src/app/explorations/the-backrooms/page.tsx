@@ -29,7 +29,7 @@ export default function TheBackrooms() {
       category="Essay"
       categoryColor="amber"
       date="June 26, 2026"
-      imageSrc="/images/explorations/the-backrooms.png"
+      imageSrc="/images/explorations/the-backrooms.webp"
       imageAlt="The Backrooms illustration"
       readTime="12 min"
       wordCount={2852}
@@ -40,7 +40,7 @@ export default function TheBackrooms() {
     nextSubtitle="For nine days in 1926, Britain simply stopped &mdash; and discovered what it was actually made of"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-general-strike-of-everything.png"
+    nextImage="/images/explorations/the-general-strike-of-everything.webp"
     nextReadTime="11 min"
     >
       <h2>The Hum</h2>

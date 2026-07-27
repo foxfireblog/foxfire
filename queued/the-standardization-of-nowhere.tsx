@@ -29,7 +29,7 @@ export default function TheStandardizationOfNowhere() {
       category="Essay"
       categoryColor="amber"
       date="June 8, 2026"
-      imageSrc="/images/explorations/the-standardization-of-nowhere.png"
+      imageSrc="/images/explorations/the-standardization-of-nowhere.webp"
       imageAlt="The Standardization of Nowhere illustration"
       readTime="12 min"
       wordCount={2774}
@@ -40,7 +40,7 @@ export default function TheStandardizationOfNowhere() {
     nextSubtitle="Before the metaphor, before the movies, there was a pharmacology of erasure"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-zombie-archive.png"
+    nextImage="/images/explorations/the-zombie-archive.webp"
     nextReadTime="14 min"
     >
       <h2>The Room You&apos;ve Already Been In</h2>

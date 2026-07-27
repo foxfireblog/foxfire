@@ -29,7 +29,7 @@ export default function TheRoomsWhereNobodyDied() {
       category="Essay"
       categoryColor="teal"
       date="June 11, 2026"
-      imageSrc="/images/explorations/the-rooms-where-nobody-died.png"
+      imageSrc="/images/explorations/the-rooms-where-nobody-died.webp"
       imageAlt="The Rooms Where Nobody Died illustration"
       readTime="13 min"
       wordCount={2931}
@@ -40,7 +40,7 @@ export default function TheRoomsWhereNobodyDied() {
     nextSubtitle="On the strange mercy of not knowing what is about to end"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-last-ordinary-day.png"
+    nextImage="/images/explorations/the-last-ordinary-day.webp"
     nextReadTime="14 min"
     >
       <h2>The Room That Forgets You</h2>

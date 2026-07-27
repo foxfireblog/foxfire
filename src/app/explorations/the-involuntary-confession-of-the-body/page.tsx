@@ -29,7 +29,7 @@ export default function TheInvoluntaryConfessionOfTheBody() {
       category="Essay"
       categoryColor="rose"
       date="July 12, 2026"
-      imageSrc="/images/explorations/the-involuntary-confession-of-the-body.png"
+      imageSrc="/images/explorations/the-involuntary-confession-of-the-body.webp"
       imageAlt="The Involuntary Confession of the Body illustration"
       readTime="15 min"
       wordCount={3361}
@@ -40,7 +40,7 @@ export default function TheInvoluntaryConfessionOfTheBody() {
     nextSubtitle="What happens to the human body when it leaves the world it was built for"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-pale-astronaut.png"
+    nextImage="/images/explorations/the-pale-astronaut.webp"
     nextReadTime="13 min"
     >
       <h2>The Wine Barrel and the Lung</h2>

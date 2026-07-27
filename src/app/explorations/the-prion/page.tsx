@@ -29,7 +29,7 @@ export default function ThePrion() {
       category="Natural Horror"
       categoryColor="red"
       date="March 16, 2026"
-      imageSrc="/images/explorations/the-prion.png"
+      imageSrc="/images/explorations/the-prion.webp"
       imageAlt="The Prion illustration"
       readTime="12 min"
       wordCount={2794}
@@ -41,7 +41,7 @@ export default function ThePrion() {
     nextSubtitle="Two billion years ago, life invented breathing and nearly destroyed itself"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-oxygen-apocalypse.png"
+    nextImage="/images/explorations/the-oxygen-apocalypse.webp"
     nextReadTime="13 min"
     ><article>
       <h2>The Shape of Ruin</h2>

@@ -29,7 +29,7 @@ export default function TheInventedLanguages() {
       category="Essay"
       categoryColor="violet"
       date="May 10, 2026"
-      imageSrc="/images/explorations/the-invented-languages.png"
+      imageSrc="/images/explorations/the-invented-languages.webp"
       imageAlt="The Invented Languages illustration"
       readTime="13 min"
       wordCount={2967}
@@ -40,7 +40,7 @@ export default function TheInventedLanguages() {
     nextSubtitle="August Sander photographed every kind of German. The Nazis understood exactly what he was doing."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-census-taker-who-drew-what-he-saw.png"
+    nextImage="/images/explorations/the-census-taker-who-drew-what-he-saw.webp"
     nextReadTime="10 min"
     >
       <h2>The God Who Spoke in Monosyllables</h2>

@@ -29,7 +29,7 @@ export default function TheWeepingRooms() {
       category="Essay"
       categoryColor="violet"
       date="May 21, 2026"
-      imageSrc="/images/explorations/the-weeping-rooms.png"
+      imageSrc="/images/explorations/the-weeping-rooms.webp"
       imageAlt="The Weeping Rooms illustration"
       readTime="14 min"
       wordCount={3106}
@@ -40,7 +40,7 @@ export default function TheWeepingRooms() {
     nextSubtitle="How the act of looking changes what is found"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-experimenter-effect.png"
+    nextImage="/images/explorations/the-experimenter-effect.webp"
     nextReadTime="14 min"
     >
       <h2>The Room Where You Were Allowed to Break</h2>

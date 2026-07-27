@@ -29,7 +29,7 @@ export default function TheForgottenFrontPart3() {
       category="History & Erasure"
       categoryColor="rose"
       date="March 22, 2026"
-      imageSrc="/images/explorations/the-forgotten-front-part-3.png"
+      imageSrc="/images/explorations/the-forgotten-front-part-3.webp"
       imageAlt="The Forgotten Front: Revolution and Collapse (Part III of III) illustration"
       readTime="13 min"
       wordCount={3045}
@@ -40,7 +40,7 @@ export default function TheForgottenFrontPart3() {
     nextSubtitle="Every time humanity learned to speak with its hands, it was counting sheep"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-invention-of-writing.png"
+    nextImage="/images/explorations/the-invention-of-writing.webp"
     nextReadTime="12 min"
     >
       <h2>The Unraveling</h2>

@@ -29,7 +29,7 @@ export default function TheWhiteFeather() {
       category="History"
       categoryColor="rose"
       date="March 24, 2026"
-      imageSrc="/images/explorations/the-white-feather.png"
+      imageSrc="/images/explorations/the-white-feather.webp"
       imageAlt="The White Feather illustration"
       readTime="13 min"
       wordCount={2904}
@@ -40,7 +40,7 @@ export default function TheWhiteFeather() {
     nextSubtitle="When history puts corpses in the dock"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-trials-of-the-dead.png"
+    nextImage="/images/explorations/the-trials-of-the-dead.webp"
     nextReadTime="12 min"
     >
       <h2>The Crossbreed</h2>

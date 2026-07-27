@@ -29,7 +29,7 @@ export default function TheHaitianRevolution() {
       category="Essay"
       categoryColor="red"
       date="May 2, 2026"
-      imageSrc="/images/explorations/the-haitian-revolution.png"
+      imageSrc="/images/explorations/the-haitian-revolution.webp"
       imageAlt="The Haitian Revolution: The Fire (Part I of II) illustration"
       readTime="12 min"
       wordCount={2785}
@@ -40,7 +40,7 @@ export default function TheHaitianRevolution() {
       nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
       nextCategory="Essay"
       nextCategoryColor="red"
-      nextImage="/images/explorations/the-haitian-revolution-part-2.png"
+      nextImage="/images/explorations/the-haitian-revolution-part-2.webp"
       nextReadTime="13 min"
     >
       <h2>The Pearl of the Antilles</h2>

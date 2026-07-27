@@ -29,7 +29,7 @@ export default function ThePlagueThatChangedInheritance() {
       category="Essay"
       categoryColor="amber"
       date="May 13, 2026"
-      imageSrc="/images/explorations/the-plague-that-changed-inheritance.png"
+      imageSrc="/images/explorations/the-plague-that-changed-inheritance.webp"
       imageAlt="The Plague That Changed Inheritance illustration"
       readTime="14 min"
       wordCount={3123}
@@ -40,7 +40,7 @@ export default function ThePlagueThatChangedInheritance() {
     nextSubtitle="Some languages have no future tense. Their speakers live differently because of it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-grammar-of-time.png"
+    nextImage="/images/explorations/the-grammar-of-time.webp"
     nextReadTime="11 min"
     >
       <h2>The Audacity of Eating Well</h2>

@@ -29,7 +29,7 @@ export default function TheWomanWhoCountedTheUncountable() {
       category="Essay"
       categoryColor="rose"
       date="June 7, 2026"
-      imageSrc="/images/explorations/the-woman-who-counted-the-uncountable.png"
+      imageSrc="/images/explorations/the-woman-who-counted-the-uncountable.webp"
       imageAlt="The Woman Who Counted the Uncountable illustration"
       readTime="12 min"
       wordCount={2699}
@@ -40,7 +40,7 @@ export default function TheWomanWhoCountedTheUncountable() {
     nextSubtitle="On falling in love with a voice you would never see"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-face-on-the-radio.png"
+    nextImage="/images/explorations/the-face-on-the-radio.webp"
     nextReadTime="13 min"
     >
       <h2>The Dead Were the Data</h2>

@@ -29,7 +29,7 @@ export default function TheManhattanProjectPart4() {
       category="Essay"
       categoryColor="amber"
       date="May 24, 2026"
-      imageSrc="/images/explorations/the-manhattan-project-part-4.png"
+      imageSrc="/images/explorations/the-manhattan-project-part-4.webp"
       imageAlt="The Manhattan Project: The Inheritance (Part IV of IV) illustration"
       readTime="15 min"
       wordCount={3359}
@@ -40,7 +40,7 @@ export default function TheManhattanProjectPart4() {
     nextSubtitle="How the mathematics of risk quietly became the operating system of civilization"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-actuaries-of-the-apocalypse.png"
+    nextImage="/images/explorations/the-actuaries-of-the-apocalypse.webp"
     nextReadTime="14 min"
     >
       <h2>The Green Glass</h2>

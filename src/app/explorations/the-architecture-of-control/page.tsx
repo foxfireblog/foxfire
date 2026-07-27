@@ -29,7 +29,7 @@ export default function TheArchitectureOfControl() {
       category="Essay"
       categoryColor="red"
       date="March 29, 2026"
-      imageSrc="/images/explorations/the-architecture-of-control.png"
+      imageSrc="/images/explorations/the-architecture-of-control.webp"
       imageAlt="The Architecture of Control illustration"
       readTime="12 min"
       wordCount={2756}
@@ -41,7 +41,7 @@ export default function TheArchitectureOfControl() {
     nextSubtitle="A society that tolerates everything will tolerate its own destruction"
     nextCategory="Philosophical Dialogue"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-paradox-of-tolerance.png"
+    nextImage="/images/explorations/the-paradox-of-tolerance.webp"
     nextReadTime="12 min"
     >
       <h2>The Perfect Anti-Object</h2>

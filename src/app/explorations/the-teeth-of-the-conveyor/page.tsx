@@ -29,7 +29,7 @@ export default function TheTeethOfTheConveyor() {
       category="Essay"
       categoryColor="red"
       date="June 29, 2026"
-      imageSrc="/images/explorations/the-teeth-of-the-conveyor.png"
+      imageSrc="/images/explorations/the-teeth-of-the-conveyor.webp"
       imageAlt="The Teeth of the Conveyor illustration"
       readTime="12 min"
       wordCount={2721}
@@ -40,7 +40,7 @@ export default function TheTeethOfTheConveyor() {
     nextSubtitle="How a sea sponge built better fiber optics than Bell Labs"
     nextCategory="Natural History"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-creatures-that-invented-glass.png"
+    nextImage="/images/explorations/the-creatures-that-invented-glass.webp"
     nextReadTime="12 min"
     >
       <h2>Porkopolis</h2>

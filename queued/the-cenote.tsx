@@ -29,7 +29,7 @@ export default function TheCenote() {
       category="Short Fiction"
       categoryColor="teal"
       date="July 8, 2026"
-      imageSrc="/images/explorations/the-cenote.png"
+      imageSrc="/images/explorations/the-cenote.webp"
       imageAlt="The Cenote illustration"
       readTime="17 min"
       wordCount={3927}
@@ -40,7 +40,7 @@ export default function TheCenote() {
     nextSubtitle="On dead followers, phantom crowds, and the economics of attention that was never paid"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-audience-that-disappeared.png"
+    nextImage="/images/explorations/the-audience-that-disappeared.webp"
     nextReadTime="11 min"
     >
       <h2>The Cenote</h2>

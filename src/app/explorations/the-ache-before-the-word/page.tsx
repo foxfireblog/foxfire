@@ -30,7 +30,7 @@ export default function TheAcheBeforeTheWord() {
       category="Essay"
       categoryColor="violet"
       date="March 8, 2026"
-      imageSrc="/images/explorations/the-ache-before-the-word.png"
+      imageSrc="/images/explorations/the-ache-before-the-word.webp"
       imageAlt="The Ache Before the Word illustration"
       readTime="13 min"
       wordCount={2968}
@@ -41,7 +41,7 @@ export default function TheAcheBeforeTheWord() {
     nextSubtitle="On the things we invent to explain what we cannot yet reach"
     nextCategory="Natural History of the Impossible"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-vegetable-lamb-of-tartary.png"
+    nextImage="/images/explorations/the-vegetable-lamb-of-tartary.webp"
     nextReadTime="12 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ache-before-the-word.mp3"
     >

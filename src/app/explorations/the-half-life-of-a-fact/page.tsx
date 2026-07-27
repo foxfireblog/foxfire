@@ -29,7 +29,7 @@ export default function TheHalfLifeOfAFact() {
       category="Essay"
       categoryColor="amber"
       date="June 5, 2026"
-      imageSrc="/images/explorations/the-half-life-of-a-fact.png"
+      imageSrc="/images/explorations/the-half-life-of-a-fact.webp"
       imageAlt="The Half-Life of a Fact illustration"
       readTime="12 min"
       wordCount={2653}
@@ -40,7 +40,7 @@ export default function TheHalfLifeOfAFact() {
     nextSubtitle="What happens when a hero becomes a bureaucrat of mercy?"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-fridtjof-nansen-problem.png"
+    nextImage="/images/explorations/the-fridtjof-nansen-problem.webp"
     nextReadTime="12 min"
     >
       <h2>The Dean&apos;s Warning</h2>

@@ -29,7 +29,7 @@ export default function TheNightTheWarStoppedItself() {
       category="Essay"
       categoryColor="amber"
       date="April 4, 2026"
-      imageSrc="/images/explorations/the-night-the-war-stopped-itself.png"
+      imageSrc="/images/explorations/the-night-the-war-stopped-itself.webp"
       imageAlt="The Night the War Stopped Itself illustration"
       readTime="12 min"
       wordCount={2691}
@@ -41,7 +41,7 @@ export default function TheNightTheWarStoppedItself() {
     nextSubtitle="How counting became a weapon, and the quiet violence of being categorized out of existence"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-census-that-erased-people.png"
+    nextImage="/images/explorations/the-census-that-erased-people.webp"
     nextReadTime="13 min"
     >
       <h2>The Sound Before the Silence</h2>

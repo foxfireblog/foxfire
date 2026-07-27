@@ -29,7 +29,7 @@ export default function TheLongitudeProblem() {
       category="Essay"
       categoryColor="sky"
       date="April 10, 2026"
-      imageSrc="/images/explorations/the-longitude-problem.png"
+      imageSrc="/images/explorations/the-longitude-problem.webp"
       imageAlt="The Longitude Problem illustration"
       readTime="13 min"
       wordCount={2951}
@@ -41,7 +41,7 @@ export default function TheLongitudeProblem() {
     nextSubtitle="What happens when you finally see where you live"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-overview-effect.png"
+    nextImage="/images/explorations/the-overview-effect.webp"
     nextReadTime="13 min"
     >
       <h2>The Night Two Thousand Men Drowned in the Dark</h2>

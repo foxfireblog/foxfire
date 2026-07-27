@@ -29,7 +29,7 @@ export default function TheStanfordCollapse() {
       category="Essay"
       categoryColor="red"
       date="April 20, 2026"
-      imageSrc="/images/explorations/the-stanford-collapse.png"
+      imageSrc="/images/explorations/the-stanford-collapse.webp"
       imageAlt="The Stanford Collapse illustration"
       readTime="12 min"
       wordCount={2856}
@@ -41,7 +41,7 @@ export default function TheStanfordCollapse() {
     nextSubtitle="Some plants don't want to be eaten. They want to be remembered."
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-devil-in-the-chemistry.png"
+    nextImage="/images/explorations/the-devil-in-the-chemistry.webp"
     nextReadTime="12 min"
     >
       <h2>The Scream</h2>

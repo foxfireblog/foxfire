@@ -29,7 +29,7 @@ export default function TheColonyOfTheReasonable() {
       category="Essay"
       categoryColor="emerald"
       date="July 20, 2026"
-      imageSrc="/images/explorations/the-colony-of-the-reasonable.png"
+      imageSrc="/images/explorations/the-colony-of-the-reasonable.webp"
       imageAlt="The Colony of the Reasonable illustration"
       readTime="13 min"
       wordCount={2951}
@@ -40,7 +40,7 @@ export default function TheColonyOfTheReasonable() {
     nextSubtitle="Seven physicists wrote a secret memo to stop the bomb. Nobody read it in time."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-franck-report.png"
+    nextImage="/images/explorations/the-franck-report.webp"
     nextReadTime="12 min"
     >
       <h2>The Furrow</h2>

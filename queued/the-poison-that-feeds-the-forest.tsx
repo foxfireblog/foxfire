@@ -29,7 +29,7 @@ export default function ThePoisonThatFeedsTheForest() {
       category="Natural History"
       categoryColor="emerald"
       date="July 5, 2026"
-      imageSrc="/images/explorations/the-poison-that-feeds-the-forest.png"
+      imageSrc="/images/explorations/the-poison-that-feeds-the-forest.webp"
       imageAlt="The Poison That Feeds the Forest illustration"
       readTime="12 min"
       wordCount={2667}
@@ -40,7 +40,7 @@ export default function ThePoisonThatFeedsTheForest() {
     nextSubtitle="On the island where everyone signed, and what it revealed about the birth of language"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-geography-of-deaf.png"
+    nextImage="/images/explorations/the-geography-of-deaf.webp"
     nextReadTime="13 min"
     >
       <h2>Jupiter&apos;s Nut</h2>

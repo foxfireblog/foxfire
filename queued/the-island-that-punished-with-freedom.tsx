@@ -29,7 +29,7 @@ export default function TheIslandThatPunishedWithFreedom() {
       category="Essay"
       categoryColor="teal"
       date="May 28, 2026"
-      imageSrc="/images/explorations/the-island-that-punished-with-freedom.png"
+      imageSrc="/images/explorations/the-island-that-punished-with-freedom.webp"
       imageAlt="The Island That Punished With Freedom illustration"
       readTime="11 min"
       wordCount={2552}
@@ -40,7 +40,7 @@ export default function TheIslandThatPunishedWithFreedom() {
     nextSubtitle="On the medieval trade in holy bodies &mdash; and what it meant to own a piece of the sacred dead"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-relics-industry.png"
+    nextImage="/images/explorations/the-relics-industry.webp"
     nextReadTime="12 min"
     >
       <h2>The Ocean Hell Gets a Librarian</h2>

@@ -29,7 +29,7 @@ export default function TheMathematicsOfDemocracy() {
       category="Essay"
       categoryColor="indigo"
       date="April 16, 2026"
-      imageSrc="/images/explorations/the-mathematics-of-democracy.png"
+      imageSrc="/images/explorations/the-mathematics-of-democracy.webp"
       imageAlt="The Mathematics of Democracy illustration"
       readTime="12 min"
       wordCount={2818}
@@ -40,7 +40,7 @@ export default function TheMathematicsOfDemocracy() {
     nextSubtitle="The burning of Black Wall Street and the century of silence that followed"
     nextCategory="History"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-burning-of-black-wall-street.png"
+    nextImage="/images/explorations/the-burning-of-black-wall-street.webp"
     nextReadTime="12 min"
     >
       <h2>The Pie at the End of the World</h2>

@@ -29,7 +29,7 @@ export default function TheVoiceThatCarriesWater() {
       category="Natural History"
       categoryColor="teal"
       date="May 2, 2026"
-      imageSrc="/images/explorations/the-voice-that-carries-water.png"
+      imageSrc="/images/explorations/the-voice-that-carries-water.webp"
       imageAlt="The Voice That Carries Water illustration"
       readTime="12 min"
       wordCount={2853}
@@ -40,7 +40,7 @@ export default function TheVoiceThatCarriesWater() {
     nextSubtitle="When healing became a cage with better lighting"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-therapeutic-state.png"
+    nextImage="/images/explorations/the-therapeutic-state.webp"
     nextReadTime="12 min"
     >
       <h2>The Football Field of Whispers</h2>

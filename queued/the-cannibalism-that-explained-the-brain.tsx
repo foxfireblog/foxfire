@@ -29,7 +29,7 @@ export default function TheCannibalismThatExplainedTheBrain() {
       category="Natural History"
       categoryColor="amber"
       date="May 30, 2026"
-      imageSrc="/images/explorations/the-cannibalism-that-explained-the-brain.png"
+      imageSrc="/images/explorations/the-cannibalism-that-explained-the-brain.webp"
       imageAlt="The Cannibalism That Explained the Brain illustration"
       readTime="13 min"
       wordCount={2945}
@@ -40,7 +40,7 @@ export default function TheCannibalismThatExplainedTheBrain() {
     nextSubtitle="At the edge of matter, a shore no one has reached"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-island-of-stability.png"
+    nextImage="/images/explorations/the-island-of-stability.webp"
     nextReadTime="13 min"
     >
       <h2>The Shaking</h2>

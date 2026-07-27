@@ -29,7 +29,7 @@ export default function TheIronHarvest() {
       category="Essay"
       categoryColor="amber"
       date="April 12, 2026"
-      imageSrc="/images/explorations/the-iron-harvest.png"
+      imageSrc="/images/explorations/the-iron-harvest.webp"
       imageAlt="The Iron Harvest illustration"
       readTime="11 min"
       wordCount={2496}
@@ -41,7 +41,7 @@ export default function TheIronHarvest() {
     nextSubtitle="The ancient art of remembering everything, and what we lost when we outsourced memory to machines"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-memory-palace.png"
+    nextImage="/images/explorations/the-memory-palace.webp"
     nextReadTime="13 min"
     >
       <h2>The Seed That Won&apos;t Stop Sprouting</h2>

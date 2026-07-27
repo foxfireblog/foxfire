@@ -29,7 +29,7 @@ export default function TheInspectionParadox() {
       category="Essay"
       categoryColor="amber"
       date="June 26, 2026"
-      imageSrc="/images/explorations/the-inspection-paradox.png"
+      imageSrc="/images/explorations/the-inspection-paradox.webp"
       imageAlt="The Inspection Paradox illustration"
       readTime="13 min"
       wordCount={3053}
@@ -40,7 +40,7 @@ export default function TheInspectionParadox() {
     nextSubtitle="When the world learned to see, everything went mad"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-cambrian-explosion.png"
+    nextImage="/images/explorations/the-cambrian-explosion.webp"
     nextReadTime="14 min"
     >
       <h2>The 35-Minute Gap</h2>

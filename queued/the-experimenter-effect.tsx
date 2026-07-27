@@ -29,7 +29,7 @@ export default function TheExperimenterEffect() {
       category="Essay"
       categoryColor="violet"
       date="May 22, 2026"
-      imageSrc="/images/explorations/the-experimenter-effect.png"
+      imageSrc="/images/explorations/the-experimenter-effect.webp"
       imageAlt="The Experimenter Effect illustration"
       readTime="14 min"
       wordCount={3263}
@@ -40,7 +40,7 @@ export default function TheExperimenterEffect() {
     nextSubtitle="Why the house always wins, even when the game is fair"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-gamblers-ruin.png"
+    nextImage="/images/explorations/the-gamblers-ruin.webp"
     nextReadTime="11 min"
     >
       <h2>The Prism in the Pocket</h2>

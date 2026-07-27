@@ -29,7 +29,7 @@ export default function TheLastUncontactedPeoples() {
       category="Essay"
       categoryColor="emerald"
       date="March 1, 2026"
-      imageSrc="/images/explorations/the-last-uncontacted-peoples.png"
+      imageSrc="/images/explorations/the-last-uncontacted-peoples.webp"
       imageAlt="The Last Uncontacted Peoples illustration"
       readTime="13 min"
       wordCount={3000}
@@ -40,7 +40,7 @@ export default function TheLastUncontactedPeoples() {
       nextSubtitle="A 2,000-year-old computer, a shipwreck, and the futures that rust"
       nextCategory="Essay"
       nextCategoryColor="teal"
-      nextImage="/images/explorations/the-antikythera-mechanism.png"
+      nextImage="/images/explorations/the-antikythera-mechanism.webp"
       nextReadTime="15 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-uncontacted-peoples.mp3"
     ><article>

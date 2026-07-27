@@ -29,7 +29,7 @@ export default function TheDrownedForests() {
       category="Natural History"
       categoryColor="teal"
       date="June 11, 2026"
-      imageSrc="/images/explorations/the-drowned-forests.png"
+      imageSrc="/images/explorations/the-drowned-forests.webp"
       imageAlt="The Drowned Forests illustration"
       readTime="13 min"
       wordCount={2939}
@@ -40,7 +40,7 @@ export default function TheDrownedForests() {
     nextSubtitle="How the desire to possess the last of something became the engine of its destruction"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-great-auk-conspiracy.png"
+    nextImage="/images/explorations/the-great-auk-conspiracy.webp"
     nextReadTime="13 min"
     >
       <h2>The Lobster&apos;s Archaeology</h2>

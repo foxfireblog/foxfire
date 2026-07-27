@@ -29,7 +29,7 @@ export default function HowManyPianoTunersAreInChicago() {
       category="Essay"
       categoryColor="amber"
       date="May 19, 2026"
-      imageSrc="/images/explorations/how-many-piano-tuners-are-in-chicago.png"
+      imageSrc="/images/explorations/how-many-piano-tuners-are-in-chicago.webp"
       imageAlt="How Many Piano Tuners Are in Chicago? illustration"
       readTime="13 min"
       wordCount={2963}
@@ -40,7 +40,7 @@ export default function HowManyPianoTunersAreInChicago() {
     nextSubtitle="Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project-part-3.png"
+    nextImage="/images/explorations/the-manhattan-project-part-3.webp"
     nextReadTime="14 min"
     >
       <h2>Confetti in the Desert</h2>

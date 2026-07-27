@@ -29,7 +29,7 @@ export default function TheParadoxOfTolerance() {
       category="Philosophical Dialogue"
       categoryColor="amber"
       date="March 30, 2026"
-      imageSrc="/images/explorations/the-paradox-of-tolerance.png"
+      imageSrc="/images/explorations/the-paradox-of-tolerance.webp"
       imageAlt="The Paradox of Tolerance illustration"
       readTime="12 min"
       wordCount={2661}
@@ -41,7 +41,7 @@ export default function TheParadoxOfTolerance() {
     nextSubtitle="A history of scientists who built creatures from ambition, bone dust, and lies"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-monster-makers.png"
+    nextImage="/images/explorations/the-monster-makers.webp"
     nextReadTime="13 min"
     >
       <h2>The Paradox of Tolerance</h2>

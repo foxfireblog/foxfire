@@ -29,7 +29,7 @@ export default function TheDoomsdayClockIsNotAClock() {
       category="Essay"
       categoryColor="red"
       date="June 25, 2026"
-      imageSrc="/images/explorations/the-doomsday-clock-is-not-a-clock.png"
+      imageSrc="/images/explorations/the-doomsday-clock-is-not-a-clock.webp"
       imageAlt="The Doomsday Clock Is Not a Clock illustration"
       readTime="13 min"
       wordCount={2964}
@@ -40,7 +40,7 @@ export default function TheDoomsdayClockIsNotAClock() {
     nextSubtitle="Jeremy Bentham dreamed of a prison where inmates would police themselves. We built it voluntarily and called it a smartphone."
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-panopticon-in-your-pocket.png"
+    nextImage="/images/explorations/the-panopticon-in-your-pocket.webp"
     nextReadTime="13 min"
     >
       <h2>It Looked Good to the Eye</h2>

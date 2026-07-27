@@ -29,7 +29,7 @@ export default function TheFlavorOfMusic() {
       category="Essay"
       categoryColor="violet"
       date="March 11, 2026"
-      imageSrc="/images/explorations/the-flavor-of-music.png"
+      imageSrc="/images/explorations/the-flavor-of-music.webp"
       imageAlt="The Flavor of Music illustration"
       readTime="15 min"
       wordCount={3487}
@@ -41,7 +41,7 @@ export default function TheFlavorOfMusic() {
       nextSubtitle="A woman built a labyrinth of guilt, and it never stopped growing"
       nextCategory="Essay"
       nextCategoryColor="violet"
-      nextImage="/images/explorations/the-winchester-mystery-house.png"
+      nextImage="/images/explorations/the-winchester-mystery-house.webp"
       nextReadTime="11 min"
     ><article>
       <h2>The Trumpet and the Scarlet</h2>

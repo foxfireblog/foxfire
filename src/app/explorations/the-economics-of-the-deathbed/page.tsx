@@ -29,7 +29,7 @@ export default function TheEconomicsOfTheDeathbed() {
       category="Essay"
       categoryColor="amber"
       date="July 15, 2026"
-      imageSrc="/images/explorations/the-economics-of-the-deathbed.png"
+      imageSrc="/images/explorations/the-economics-of-the-deathbed.webp"
       imageAlt="The Economics of the Deathbed illustration"
       readTime="13 min"
       wordCount={3065}
@@ -40,7 +40,7 @@ export default function TheEconomicsOfTheDeathbed() {
     nextSubtitle="Western civilization didn't discover indigenous peoples &mdash; it manufactured them"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-invention-of-the-primitive.png"
+    nextImage="/images/explorations/the-invention-of-the-primitive.webp"
     nextReadTime="14 min"
     >
       <h2>The Room We Renamed</h2>

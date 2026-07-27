@@ -29,7 +29,7 @@ export default function TheCorpseThatMadeLaw() {
       category="Essay"
       categoryColor="red"
       date="July 3, 2026"
-      imageSrc="/images/explorations/the-corpse-that-made-law.png"
+      imageSrc="/images/explorations/the-corpse-that-made-law.webp"
       imageAlt="The Corpse That Made Law illustration"
       readTime="15 min"
       wordCount={3368}
@@ -40,7 +40,7 @@ export default function TheCorpseThatMadeLaw() {
     nextSubtitle="How the living have always put words in the mouths of the departed"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-language-of-the-dead.png"
+    nextImage="/images/explorations/the-language-of-the-dead.webp"
     nextReadTime="13 min"
     >
 

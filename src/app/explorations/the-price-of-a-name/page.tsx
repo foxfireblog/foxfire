@@ -29,7 +29,7 @@ export default function ThePriceOfAName() {
       category="Essay"
       categoryColor="amber"
       date="June 6, 2026"
-      imageSrc="/images/explorations/the-price-of-a-name.png"
+      imageSrc="/images/explorations/the-price-of-a-name.webp"
       imageAlt="The Price of a Name illustration"
       readTime="12 min"
       wordCount={2862}
@@ -40,7 +40,7 @@ export default function ThePriceOfAName() {
     nextSubtitle="Why life chose one direction and never looked back"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-left-hand-of-the-universe.png"
+    nextImage="/images/explorations/the-left-hand-of-the-universe.webp"
     nextReadTime="11 min"
     >
       <h2>Calls Himself</h2>

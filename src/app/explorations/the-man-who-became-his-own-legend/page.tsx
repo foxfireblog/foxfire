@@ -29,7 +29,7 @@ export default function TheManWhoBecameHisOwnLegend() {
       category="Essay"
       categoryColor="amber"
       date="May 16, 2026"
-      imageSrc="/images/explorations/the-man-who-became-his-own-legend.png"
+      imageSrc="/images/explorations/the-man-who-became-his-own-legend.webp"
       imageAlt="The Man Who Became His Own Legend illustration"
       readTime="14 min"
       wordCount={3312}
@@ -40,7 +40,7 @@ export default function TheManWhoBecameHisOwnLegend() {
     nextSubtitle="In the deep ocean, light is hunger wearing a halo"
     nextCategory="Natural History"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-abyssal-lanterns.png"
+    nextImage="/images/explorations/the-abyssal-lanterns.webp"
     nextReadTime="12 min"
     >
       <h2>The Costume That Wore the Man</h2>

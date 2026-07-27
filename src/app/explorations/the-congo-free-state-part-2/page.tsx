@@ -29,7 +29,7 @@ export default function TheCongoFreeStatePart2() {
       category="Essay"
       categoryColor="red"
       date="April 23, 2026"
-      imageSrc="/images/explorations/the-congo-free-state-part-2.png"
+      imageSrc="/images/explorations/the-congo-free-state-part-2.webp"
       imageAlt="The Congo Free State: The Rubber Terror (Part II of III) illustration"
       readTime="14 min"
       wordCount={3246}
@@ -41,7 +41,7 @@ export default function TheCongoFreeStatePart2() {
       nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
       nextCategory="Essay"
       nextCategoryColor="red"
-      nextImage="/images/explorations/the-congo-free-state-part-3.png"
+      nextImage="/images/explorations/the-congo-free-state-part-3.webp"
       nextReadTime="13 min"
     >
       <h2>The Bullet Ledger</h2>

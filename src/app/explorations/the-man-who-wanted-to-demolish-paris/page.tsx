@@ -29,7 +29,7 @@ export default function TheManWhoWantedToDemolishParis() {
       category="Essay"
       categoryColor="amber"
       date="April 16, 2026"
-      imageSrc="/images/explorations/the-man-who-wanted-to-demolish-paris.png"
+      imageSrc="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
       imageAlt="The Man Who Wanted to Demolish Paris illustration"
       readTime="13 min"
       wordCount={2959}
@@ -40,7 +40,7 @@ export default function TheManWhoWantedToDemolishParis() {
     nextSubtitle="Before privacy, every vote was a performance &mdash; and the men who wanted to change that were called cowards"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-secret-ballot-was-radical.png"
+    nextImage="/images/explorations/the-secret-ballot-was-radical.webp"
     nextReadTime="12 min"
     >
       <h2>The Surgeon&apos;s Fantasy</h2>

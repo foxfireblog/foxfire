@@ -29,7 +29,7 @@ export default function TheBorderThatMoves() {
       category="Essay"
       categoryColor="amber"
       date="July 7, 2026"
-      imageSrc="/images/explorations/the-border-that-moves.png"
+      imageSrc="/images/explorations/the-border-that-moves.webp"
       imageAlt="The Border That Moves illustration"
       readTime="11 min"
       wordCount={2631}
@@ -40,7 +40,7 @@ export default function TheBorderThatMoves() {
     nextSubtitle="On bioluminescence, foxfire, and the glow at the border of living and not"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-light-that-eats-the-dead.png"
+    nextImage="/images/explorations/the-light-that-eats-the-dead.webp"
     nextReadTime="11 min"
     >
       <h2>The River Does Not Care</h2>

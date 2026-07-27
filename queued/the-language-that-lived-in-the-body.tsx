@@ -29,7 +29,7 @@ export default function TheLanguageThatLivedInTheBody() {
       category="Natural History"
       categoryColor="teal"
       date="May 15, 2026"
-      imageSrc="/images/explorations/the-language-that-lived-in-the-body.png"
+      imageSrc="/images/explorations/the-language-that-lived-in-the-body.webp"
       imageAlt="The Language That Lived in the Body illustration"
       readTime="14 min"
       wordCount={3156}
@@ -40,7 +40,7 @@ export default function TheLanguageThatLivedInTheBody() {
     nextSubtitle="Who tells, and why &mdash; and the silence that follows"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-informers.png"
+    nextImage="/images/explorations/the-informers.webp"
     nextReadTime="12 min"
     >
       <h2>A Silence That Was Never Silent</h2>

@@ -29,7 +29,7 @@ export default function TheSmellThatPrecededElectricity() {
       category="Essay"
       categoryColor="violet"
       date="June 8, 2026"
-      imageSrc="/images/explorations/the-smell-that-preceded-electricity.png"
+      imageSrc="/images/explorations/the-smell-that-preceded-electricity.webp"
       imageAlt="The Smell That Preceded Electricity illustration"
       readTime="12 min"
       wordCount={2668}
@@ -40,7 +40,7 @@ export default function TheSmellThatPrecededElectricity() {
     nextSubtitle="William Buckland tasted his way through the animal kingdom, licked cathedral floors, and accidentally helped invent geology"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-ate-everything.png"
+    nextImage="/images/explorations/the-man-who-ate-everything.webp"
     nextReadTime="12 min"
     >
       <h2>The Blood of the Stone</h2>

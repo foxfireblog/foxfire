@@ -29,7 +29,7 @@ export default function TheVoiceThatCrossedTheWire() {
       category="Essay"
       categoryColor="amber"
       date="June 15, 2026"
-      imageSrc="/images/explorations/the-voice-that-crossed-the-wire.png"
+      imageSrc="/images/explorations/the-voice-that-crossed-the-wire.webp"
       imageAlt="The Voice That Crossed the Wire illustration"
       readTime="13 min"
       wordCount={3044}
@@ -40,7 +40,7 @@ export default function TheVoiceThatCrossedTheWire() {
     nextSubtitle="The humans hiding inside the machine, and the machine hiding inside the humans"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-mechanical-turk-problem.png"
+    nextImage="/images/explorations/the-mechanical-turk-problem.webp"
     nextReadTime="13 min"
     >
       <h2>The Silence Before</h2>

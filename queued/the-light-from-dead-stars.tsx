@@ -29,7 +29,7 @@ export default function TheLightFromDeadStars() {
       category="Essay"
       categoryColor="indigo"
       date="May 25, 2026"
-      imageSrc="/images/explorations/the-light-from-dead-stars.png"
+      imageSrc="/images/explorations/the-light-from-dead-stars.webp"
       imageAlt="The Light From Dead Stars illustration"
       readTime="12 min"
       wordCount={2752}
@@ -40,7 +40,7 @@ export default function TheLightFromDeadStars() {
     nextSubtitle="On creating matter the universe forgot to make, and the strange grief of watching it vanish"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-elements-that-shouldnt-exist.png"
+    nextImage="/images/explorations/the-elements-that-shouldnt-exist.webp"
     nextReadTime="13 min"
     >
       <h2>The Beautiful Lie</h2>

@@ -427,7 +427,7 @@ async function publishSeriesPart(seriesEntry, partEntry, existingSlugs) {
       SERIES_QUEUE_PATH,
     ];
     // Add image if it exists
-    const imgPath = `public/images/explorations/${topic.slug}.png`;
+    const imgPath = `public/images/explorations/${topic.slug}.webp`;
     if (fs.existsSync(path.join(ROOT, imgPath))) filesToAdd.push(imgPath);
     // Add prev part page if we updated its navigation
     if (partEntry.prevPartSlug) {
@@ -646,7 +646,7 @@ async function generateImage(topic) {
 
   const outputDir = path.join(ROOT, "public", "images", "explorations");
   fs.mkdirSync(outputDir, { recursive: true });
-  const outputPath = path.join(outputDir, `${topic.slug}.png`);
+  const outputPath = path.join(outputDir, `${topic.slug}.webp`);
 
   if (fs.existsSync(outputPath)) {
     console.log(`Image already exists: ${outputPath}`);
@@ -667,9 +667,13 @@ async function generateImage(topic) {
   for (const part of response.candidates[0].content.parts) {
     if (part.inlineData) {
       const buffer = Buffer.from(part.inlineData.data, "base64");
-      fs.writeFileSync(outputPath, buffer);
+      // Gemini returns PNG. Hero images are ~760KB as PNG and ~90KB as WebP at
+      // q80 with no visible difference, so re-encode before writing rather than
+      // shipping the PNG. Every image in public/images/explorations is WebP.
+      const { default: sharp } = await import("sharp");
+      const info = await sharp(buffer).webp({ quality: 80, effort: 6 }).toFile(outputPath);
       console.log(
-        `Saved image: ${outputPath} (${(buffer.length / 1024).toFixed(0)}KB)`
+        `Saved image: ${outputPath} (${(info.size / 1024).toFixed(0)}KB WebP, from ${(buffer.length / 1024).toFixed(0)}KB PNG)`
       );
       return;
     }
@@ -805,7 +809,7 @@ function createPage(topic, content, audioUrl = null, seriesPrev = null) {
     day: "numeric",
   });
 
-  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.webp`));
 
   const pageContent = `import { ExplorationLayout } from "@/components/exploration-layout";
 import type { Metadata } from "next";
@@ -837,7 +841,7 @@ export default function ${slugToComponentName(topic.slug)}() {
       subtitle="${escapeJsx(topic.subtitle)}"
       category="${escapeJsx(topic.category)}"
       categoryColor="${topic.color}"
-      date="${dateStr}"${imageExists ? `\n      imageSrc="/images/explorations/${topic.slug}.png"\n      imageAlt="${escapeJsx(topic.title)} illustration"` : ""}
+      date="${dateStr}"${imageExists ? `\n      imageSrc="/images/explorations/${topic.slug}.webp"\n      imageAlt="${escapeJsx(topic.title)} illustration"` : ""}
       readTime="${readTime}"
       wordCount={${wordCount}}${audioUrl ? `\n      audioSrc="${escapeJsx(audioUrl)}"` : ""}${prevNav}
     >
@@ -856,7 +860,7 @@ ${indentContent(content, 6)}
 
 // ── Update explorations data file ────────────────────────────────────
 function updateIndexPages(topic, readTime) {
-  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.webp`));
   const publishedAt = new Date().toLocaleString("en-US", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: true }).replace(",", "");
   const entry = `  {
     slug: "${topic.slug}",
@@ -864,7 +868,7 @@ function updateIndexPages(topic, readTime) {
     subtitle: "${escapeJs(topic.subtitle)}",
     category: "${escapeJs(topic.category)}",
     color: "${topic.color}",
-    readTime: "${readTime}",${imageExists ? `\n    image: "/images/explorations/${topic.slug}.png",` : ""}
+    readTime: "${readTime}",${imageExists ? `\n    image: "/images/explorations/${topic.slug}.webp",` : ""}
     publishedAt: "${publishedAt}",
     description:
       "${escapeJs(topic.description)}",
@@ -898,14 +902,14 @@ function updateNavigation(topic, currentNewestSlug, readTime) {
   let prevContent = fs.readFileSync(prevPagePath, "utf-8");
   if (prevContent.includes("nextSlug=")) return;
 
-  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.webp`));
   const richNextProps = [
     `nextSlug="${topic.slug}"`,
     `nextTitle="${escapeJsx(topic.title)}"`,
     `nextSubtitle="${escapeJsx(topic.subtitle)}"`,
     `nextCategory="${escapeJsx(topic.category)}"`,
     `nextCategoryColor="${topic.color}"`,
-    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.png"`] : []),
+    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.webp"`] : []),
     `nextReadTime="${readTime}"`,
   ].map((p) => `$3${p}`).join("\n");
 
@@ -961,14 +965,14 @@ function updateSeriesPartNavigation(prevPartSlug, nextPartTopic, nextPartReadTim
 }
 
 function buildNextNavProps(topic, readTime) {
-  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.png`));
+  const imageExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${topic.slug}.webp`));
   const props = [
     `nextSlug="${topic.slug}"`,
     `nextTitle="${escapeJsx(topic.title)}"`,
     `nextSubtitle="${escapeJsx(topic.subtitle)}"`,
     `nextCategory="${escapeJsx(topic.category)}"`,
     `nextCategoryColor="${topic.color}"`,
-    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.png"`] : []),
+    ...(imageExists ? [`nextImage="/images/explorations/${topic.slug}.webp"`] : []),
     `nextReadTime="${readTime}"`,
   ];
   return "\n      " + props.join("\n      ");
@@ -1054,7 +1058,7 @@ function gitCommit(topic, currentNewestSlug = null) {
       `src/app/explorations/${topic.slug}/page.tsx`,
       "src/data/explorations.ts",
     ];
-    const imgPath = `public/images/explorations/${topic.slug}.png`;
+    const imgPath = `public/images/explorations/${topic.slug}.webp`;
     if (fs.existsSync(path.join(ROOT, imgPath))) filesToAdd.push(imgPath);
     if (fs.existsSync(SERIES_QUEUE_PATH)) filesToAdd.push(SERIES_QUEUE_PATH);
     // Add the previous exploration's page if we updated its navigation
@@ -1260,7 +1264,7 @@ async function main() {
 
     // Stage images for queued series parts so they exist in future CI clones
     const queuedImageFiles = parts.slice(1)
-      .map((p) => `public/images/explorations/${p.slug}.png`)
+      .map((p) => `public/images/explorations/${p.slug}.webp`)
       .filter((imgPath) => fs.existsSync(path.join(ROOT, imgPath)));
     if (queuedImageFiles.length > 0) {
       safeGitAdd(queuedImageFiles);

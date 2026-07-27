@@ -29,7 +29,7 @@ export default function TheLloydsOfLondonLedger() {
       category="Essay"
       categoryColor="amber"
       date="April 14, 2026"
-      imageSrc="/images/explorations/the-lloyds-of-london-ledger.png"
+      imageSrc="/images/explorations/the-lloyds-of-london-ledger.webp"
       imageAlt="The Lloyd's of London Ledger illustration"
       readTime="12 min"
       wordCount={2711}
@@ -41,7 +41,7 @@ export default function TheLloydsOfLondonLedger() {
     nextSubtitle="Why nearly every animal on Earth agreed on the same body plan &mdash; and what it means that they did"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-grammar-of-symmetry.png"
+    nextImage="/images/explorations/the-grammar-of-symmetry.webp"
     nextReadTime="14 min"
     >
       <h2>The Pulpit</h2>

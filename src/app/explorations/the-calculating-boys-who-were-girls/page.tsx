@@ -29,7 +29,7 @@ export default function TheCalculatingBoysWhoWereGirls() {
       category="Essay"
       categoryColor="amber"
       date="July 24, 2026"
-      imageSrc="/images/explorations/the-calculating-boys-who-were-girls.png"
+      imageSrc="/images/explorations/the-calculating-boys-who-were-girls.webp"
       imageAlt="The Calculating Boys Who Were Girls illustration"
       readTime="14 min"
       wordCount={3169}
@@ -40,7 +40,7 @@ export default function TheCalculatingBoysWhoWereGirls() {
     nextSubtitle="A woman displayed as a specimen, and the long science that made it respectable"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-exhibition-of-sarah-baartman.png"
+    nextImage="/images/explorations/the-exhibition-of-sarah-baartman.webp"
     nextReadTime="13 min"
     >
       <h2>The Table at the Palais Luxembourg</h2>

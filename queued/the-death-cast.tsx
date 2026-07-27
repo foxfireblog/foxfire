@@ -29,7 +29,7 @@ export default function TheDeathCast() {
       category="Essay"
       categoryColor="violet"
       date="June 23, 2026"
-      imageSrc="/images/explorations/the-death-cast.png"
+      imageSrc="/images/explorations/the-death-cast.webp"
       imageAlt="The Death Cast illustration"
       readTime="12 min"
       wordCount={2817}

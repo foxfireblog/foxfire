@@ -29,7 +29,7 @@ export default function TheRiverThatScreamed() {
       category="History"
       categoryColor="red"
       date="April 19, 2026"
-      imageSrc="/images/explorations/the-river-that-screamed.png"
+      imageSrc="/images/explorations/the-river-that-screamed.webp"
       imageAlt="The River That Screamed illustration"
       readTime="13 min"
       wordCount={3063}
@@ -41,7 +41,7 @@ export default function TheRiverThatScreamed() {
     nextSubtitle="On the most important photograph no one needed to take"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-pale-blue-dot.png"
+    nextImage="/images/explorations/the-pale-blue-dot.webp"
     nextReadTime="13 min"
     >
       <h2>The Scream You Never Heard</h2>

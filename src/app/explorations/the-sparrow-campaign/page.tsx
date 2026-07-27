@@ -29,7 +29,7 @@ export default function TheSparrowCampaign() {
       category="Essay"
       categoryColor="amber"
       date="July 8, 2026"
-      imageSrc="/images/explorations/the-sparrow-campaign.png"
+      imageSrc="/images/explorations/the-sparrow-campaign.webp"
       imageAlt="The Sparrow Campaign illustration"
       readTime="10 min"
       wordCount={2355}
@@ -40,7 +40,7 @@ export default function TheSparrowCampaign() {
     nextSubtitle="After the war ended, thousands of German children walked alone into the forests of Lithuania. Most never came back."
     nextCategory="History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-wolf-children-of-east-prussia.png"
+    nextImage="/images/explorations/the-wolf-children-of-east-prussia.webp"
     nextReadTime="10 min"
     >
       <h2>The Arithmetic of Sparrows</h2>

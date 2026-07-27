@@ -29,7 +29,7 @@ export default function TheCabinetOfDrBlumenbach() {
       category="Essay"
       categoryColor="amber"
       date="May 9, 2026"
-      imageSrc="/images/explorations/the-cabinet-of-dr-blumenbach.png"
+      imageSrc="/images/explorations/the-cabinet-of-dr-blumenbach.webp"
       imageAlt="The Cabinet of Dr. Blumenbach illustration"
       readTime="13 min"
       wordCount={2884}
@@ -40,7 +40,7 @@ export default function TheCabinetOfDrBlumenbach() {
     nextSubtitle="Einstein's letter, the fear of a German bomb, and the gathering at Los Alamos"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project.png"
+    nextImage="/images/explorations/the-manhattan-project.webp"
     nextReadTime="14 min"
     >
       <h2>The Skull That Launched a Thousand Categories</h2>

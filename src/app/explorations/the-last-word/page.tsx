@@ -29,7 +29,7 @@ export default function TheLastWord() {
       category="Linguistics & Loss"
       categoryColor="violet"
       date="February 28, 2026"
-      imageSrc="/images/explorations/the-last-word.png"
+      imageSrc="/images/explorations/the-last-word.webp"
       imageAlt="A vast dark library where books dissolve into particles of golden light"
       readTime="13 min"
       wordCount={3000}
@@ -40,7 +40,7 @@ export default function TheLastWord() {
       nextSubtitle="How do you warn someone 10,000 years from now? The answer is harder than you think."
       nextCategory="Design &amp; Deep Time"
       nextCategoryColor="rose"
-      nextImage="/images/explorations/not-a-place-of-honor.png"
+      nextImage="/images/explorations/not-a-place-of-honor.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-word.mp3"
     ><p>

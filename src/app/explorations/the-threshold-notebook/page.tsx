@@ -30,7 +30,7 @@ export default function TheThresholdNotebook() {
       category="Field Guide"
       categoryColor="amber"
       date="March 9, 2026"
-      imageSrc="/images/explorations/the-threshold-notebook.png"
+      imageSrc="/images/explorations/the-threshold-notebook.webp"
       imageAlt="The Threshold Notebook illustration"
       readTime="16 min"
       wordCount={3687}
@@ -41,7 +41,7 @@ export default function TheThresholdNotebook() {
       nextSubtitle="How complexity arises from simplicity without a designer — and why that's more beautiful, not less"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-watchmaker-is-blind.png"
+      nextImage="/images/explorations/the-watchmaker-is-blind.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-threshold-notebook.mp3"
     >

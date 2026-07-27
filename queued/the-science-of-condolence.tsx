@@ -29,7 +29,7 @@ export default function TheScienceOfCondolence() {
       category="Essay"
       categoryColor="rose"
       date="June 24, 2026"
-      imageSrc="/images/explorations/the-science-of-condolence.png"
+      imageSrc="/images/explorations/the-science-of-condolence.webp"
       imageAlt="The Science of Condolence illustration"
       readTime="14 min"
       wordCount={3192}
@@ -40,7 +40,7 @@ export default function TheScienceOfCondolence() {
     nextSubtitle="How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe &mdash; and sometimes over it"
     nextCategory="Natural History"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-parallax-hunters.png"
+    nextImage="/images/explorations/the-parallax-hunters.webp"
     nextReadTime="13 min"
     >
       <h2>The Silence Before Speaking</h2>

@@ -29,7 +29,7 @@ export default function ThePermianSilence() {
       category="Natural History"
       categoryColor="red"
       date="May 23, 2026"
-      imageSrc="/images/explorations/the-permian-silence.png"
+      imageSrc="/images/explorations/the-permian-silence.webp"
       imageAlt="The Permian Silence illustration"
       readTime="12 min"
       wordCount={2745}
@@ -40,7 +40,7 @@ export default function ThePermianSilence() {
     nextSubtitle="How a brainless organism solves problems that stump engineers, and what it means for the nature of mind"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-democracy-of-slime.png"
+    nextImage="/images/explorations/the-democracy-of-slime.webp"
     nextReadTime="12 min"
     >
       <h2>The Worst Day</h2>

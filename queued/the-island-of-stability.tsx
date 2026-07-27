@@ -29,7 +29,7 @@ export default function TheIslandOfStability() {
       category="Essay"
       categoryColor="indigo"
       date="May 30, 2026"
-      imageSrc="/images/explorations/the-island-of-stability.png"
+      imageSrc="/images/explorations/the-island-of-stability.webp"
       imageAlt="The Island of Stability illustration"
       readTime="13 min"
       wordCount={3068}
@@ -40,7 +40,7 @@ export default function TheIslandOfStability() {
     nextSubtitle="Why more witnesses means less help &mdash; and what that reveals about the shape of human attention"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-bystander-geometry.png"
+    nextImage="/images/explorations/the-bystander-geometry.webp"
     nextReadTime="13 min"
     >
       <h2>Three Atoms in Four Months</h2>

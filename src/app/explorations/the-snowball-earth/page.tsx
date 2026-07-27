@@ -29,7 +29,7 @@ export default function TheSnowballEarth() {
       category="Deep Time"
       categoryColor="sky"
       date="April 27, 2026"
-      imageSrc="/images/explorations/the-snowball-earth.png"
+      imageSrc="/images/explorations/the-snowball-earth.webp"
       imageAlt="The Snowball Earth illustration"
       readTime="13 min"
       wordCount={3028}
@@ -41,7 +41,7 @@ export default function TheSnowballEarth() {
     nextSubtitle="Beneath your feet is a civilization older than anything above ground &mdash; and we're destroying it faster than we can understand it."
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-secret-life-of-soil.png"
+    nextImage="/images/explorations/the-secret-life-of-soil.webp"
     nextReadTime="10 min"
     >
       <h2>The Throwaway Line That Changed Everything</h2>

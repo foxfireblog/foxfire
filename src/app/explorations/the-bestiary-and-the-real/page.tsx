@@ -29,7 +29,7 @@ export default function TheBestiaryAndTheReal() {
       category="Essay"
       categoryColor="amber"
       date="July 2, 2026"
-      imageSrc="/images/explorations/the-bestiary-and-the-real.png"
+      imageSrc="/images/explorations/the-bestiary-and-the-real.webp"
       imageAlt="The Bestiary and the Real illustration"
       readTime="13 min"
       wordCount={2944}
@@ -40,7 +40,7 @@ export default function TheBestiaryAndTheReal() {
     nextSubtitle="How the world's best scientists convinced themselves that water had a dangerous twin"
     nextCategory="Essay"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-polywater-delusion.png"
+    nextImage="/images/explorations/the-polywater-delusion.webp"
     nextReadTime="11 min"
     >
       <h2>The Crocodile That Looked Like a Wolf</h2>

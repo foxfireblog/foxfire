@@ -29,7 +29,7 @@ export default function TheScrapieNotebooks() {
       category="Natural History"
       categoryColor="amber"
       date="June 23, 2026"
-      imageSrc="/images/explorations/the-scrapie-notebooks.png"
+      imageSrc="/images/explorations/the-scrapie-notebooks.webp"
       imageAlt="The Scrapie Notebooks illustration"
       readTime="16 min"
       wordCount={3713}
@@ -40,7 +40,7 @@ export default function TheScrapieNotebooks() {
     nextSubtitle="On the moment a surgeon realizes they cannot cut"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-trembling-hand.png"
+    nextImage="/images/explorations/the-trembling-hand.webp"
     nextReadTime="14 min"
     >
       <h2>The Itch That Would Not Stop</h2>

@@ -29,7 +29,7 @@ export default function TheParallaxHunters() {
       category="Natural History"
       categoryColor="indigo"
       date="June 25, 2026"
-      imageSrc="/images/explorations/the-parallax-hunters.png"
+      imageSrc="/images/explorations/the-parallax-hunters.webp"
       imageAlt="The Parallax Hunters illustration"
       readTime="13 min"
       wordCount={3061}
@@ -40,7 +40,7 @@ export default function TheParallaxHunters() {
     nextSubtitle="How plague, famine, and epidemic disease left their fingerprints in your DNA &mdash; and why your genome is a graveyard"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-body-that-kept-the-score.png"
+    nextImage="/images/explorations/the-body-that-kept-the-score.webp"
     nextReadTime="13 min"
     >
       <h2>The Width of a Hair at Two Hundred Meters</h2>

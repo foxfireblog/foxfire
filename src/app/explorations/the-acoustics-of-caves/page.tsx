@@ -29,7 +29,7 @@ export default function TheAcousticsOfCaves() {
       category="Essay"
       categoryColor="indigo"
       date="May 20, 2026"
-      imageSrc="/images/explorations/the-acoustics-of-caves.png"
+      imageSrc="/images/explorations/the-acoustics-of-caves.webp"
       imageAlt="The Acoustics of Caves illustration"
       readTime="14 min"
       wordCount={3167}
@@ -40,7 +40,7 @@ export default function TheAcousticsOfCaves() {
     nextSubtitle="On the strange physics of bodies that forget they are separate"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-rhythm-of-crowds.png"
+    nextImage="/images/explorations/the-rhythm-of-crowds.webp"
     nextReadTime="12 min"
     >
       <h2>The Mouth of the Cave</h2>

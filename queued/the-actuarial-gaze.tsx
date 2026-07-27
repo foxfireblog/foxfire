@@ -29,7 +29,7 @@ export default function TheActuarialGaze() {
       category="Essay"
       categoryColor="amber"
       date="July 22, 2026"
-      imageSrc="/images/explorations/the-actuarial-gaze.png"
+      imageSrc="/images/explorations/the-actuarial-gaze.webp"
       imageAlt="The Actuarial Gaze illustration"
       readTime="12 min"
       wordCount={2726}
@@ -40,7 +40,7 @@ export default function TheActuarialGaze() {
     nextSubtitle="On the prisoners who mapped the machinery of their own erasure"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-gulag-cartographers.png"
+    nextImage="/images/explorations/the-gulag-cartographers.webp"
     nextReadTime="12 min"
     >
       <h2>The Smooth Curve of Dying</h2>

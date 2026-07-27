@@ -29,7 +29,7 @@ export default function TheCathedralAndThePalimpsest() {
       category="Essay"
       categoryColor="amber"
       date="June 21, 2026"
-      imageSrc="/images/explorations/the-cathedral-and-the-palimpsest.png"
+      imageSrc="/images/explorations/the-cathedral-and-the-palimpsest.webp"
       imageAlt="The Cathedral and the Palimpsest illustration"
       readTime="13 min"
       wordCount={2934}
@@ -40,7 +40,7 @@ export default function TheCathedralAndThePalimpsest() {
     nextSubtitle="A curator's notes on the things we got magnificently, instructively, gloriously wrong"
     nextCategory="Field Guide"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-museum-of-failure.png"
+    nextImage="/images/explorations/the-museum-of-failure.webp"
     nextReadTime="17 min"
     >
       <h2>The Monk&apos;s Knife</h2>

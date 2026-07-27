@@ -29,7 +29,7 @@ export default function TheRepublicOfMinerva() {
       category="Essay"
       categoryColor="teal"
       date="July 5, 2026"
-      imageSrc="/images/explorations/the-republic-of-minerva.png"
+      imageSrc="/images/explorations/the-republic-of-minerva.webp"
       imageAlt="The Republic of Minerva illustration"
       readTime="14 min"
       wordCount={3153}
@@ -40,7 +40,7 @@ export default function TheRepublicOfMinerva() {
     nextSubtitle="How a wooden box invented the modern self"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-anatomy-of-confession.png"
+    nextImage="/images/explorations/the-anatomy-of-confession.webp"
     nextReadTime="13 min"
     >
       <h2>The Country That Drowned Twice a Day</h2>

@@ -29,7 +29,7 @@ export default function TheCoronerWhoInventedDeath() {
       category="Essay"
       categoryColor="amber"
       date="July 17, 2026"
-      imageSrc="/images/explorations/the-coroner-who-invented-death.png"
+      imageSrc="/images/explorations/the-coroner-who-invented-death.webp"
       imageAlt="The Coroner Who Invented Death illustration"
       readTime="13 min"
       wordCount={2955}
@@ -40,7 +40,7 @@ export default function TheCoronerWhoInventedDeath() {
     nextSubtitle="Martha's Vineyard and the two centuries when deafness wasn't a disability"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-island-where-everyone-signed.png"
+    nextImage="/images/explorations/the-island-where-everyone-signed.webp"
     nextReadTime="13 min"
     >
       <h2>The Women Who Named the Dead</h2>

@@ -29,7 +29,7 @@ export default function TheOvationThatWouldntStop() {
       category="Essay"
       categoryColor="red"
       date="July 14, 2026"
-      imageSrc="/images/explorations/the-ovation-that-wouldnt-stop.png"
+      imageSrc="/images/explorations/the-ovation-that-wouldnt-stop.webp"
       imageAlt="The Ovation That Wouldn't Stop illustration"
       readTime="12 min"
       wordCount={2778}
@@ -40,7 +40,7 @@ export default function TheOvationThatWouldntStop() {
     nextSubtitle="How the lens didn't just magnify the world &mdash; it rewired the human mind"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-glass-that-learned-to-see.png"
+    nextImage="/images/explorations/the-glass-that-learned-to-see.webp"
     nextReadTime="13 min"
     >
       <h2>Eleven Minutes</h2>

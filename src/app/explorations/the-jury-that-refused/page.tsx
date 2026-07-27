@@ -29,7 +29,7 @@ export default function TheJuryThatRefused() {
       category="Essay"
       categoryColor="amber"
       date="June 14, 2026"
-      imageSrc="/images/explorations/the-jury-that-refused.png"
+      imageSrc="/images/explorations/the-jury-that-refused.webp"
       imageAlt="The Jury That Refused illustration"
       readTime="13 min"
       wordCount={3052}
@@ -40,7 +40,7 @@ export default function TheJuryThatRefused() {
     nextSubtitle="On the day music stopped being mortal"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-voice-that-crossed-the-wire.png"
+    nextImage="/images/explorations/the-voice-that-crossed-the-wire.webp"
     nextReadTime="13 min"
     >
       <h2>The Cage at the Back of the Courtroom</h2>

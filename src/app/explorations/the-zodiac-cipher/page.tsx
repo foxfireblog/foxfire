@@ -29,7 +29,7 @@ export default function TheZodiacCipher() {
       category="Essay"
       categoryColor="amber"
       date="May 25, 2026"
-      imageSrc="/images/explorations/the-zodiac-cipher.png"
+      imageSrc="/images/explorations/the-zodiac-cipher.webp"
       imageAlt="The Zodiac Cipher illustration"
       readTime="12 min"
       wordCount={2760}
@@ -40,7 +40,7 @@ export default function TheZodiacCipher() {
     nextSubtitle="On depersonalization, the self as performance, and the terror of meeting your own eyes"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-ghost-in-the-mirror.png"
+    nextImage="/images/explorations/the-ghost-in-the-mirror.webp"
     nextReadTime="14 min"
     >
       <h2>The Message in the Grid</h2>

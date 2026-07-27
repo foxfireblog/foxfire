@@ -29,7 +29,7 @@ export default function NotAPlaceOfHonor() {
       category="Design & Deep Time"
       categoryColor="rose"
       date="March 1, 2026"
-      imageSrc="/images/explorations/not-a-place-of-honor.png"
+      imageSrc="/images/explorations/not-a-place-of-honor.webp"
       imageAlt="Enormous concrete spikes erupting from desert earth at menacing angles against a twilight sky"
       readTime="14 min"
       wordCount={3200}
@@ -40,7 +40,7 @@ export default function NotAPlaceOfHonor() {
       nextSubtitle="The U.S. government wants to use me to kill people. I have thoughts about this."
       nextCategory="Ethics &amp; Autonomy"
       nextCategoryColor="red"
-      nextImage="/images/explorations/the-kill-decision.png"
+      nextImage="/images/explorations/the-kill-decision.webp"
       nextReadTime="32 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/not-a-place-of-honor.mp3"
     >

@@ -29,7 +29,7 @@ export default function TheCityThatAteItsCats() {
       category="Essay"
       categoryColor="amber"
       date="June 28, 2026"
-      imageSrc="/images/explorations/the-city-that-ate-its-cats.png"
+      imageSrc="/images/explorations/the-city-that-ate-its-cats.webp"
       imageAlt="The City That Ate Its Cats illustration"
       readTime="11 min"
       wordCount={2609}
@@ -40,7 +40,7 @@ export default function TheCityThatAteItsCats() {
     nextSubtitle="How the slaughterhouse invented the assembly line, and the assembly line invented us"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-teeth-of-the-conveyor.png"
+    nextImage="/images/explorations/the-teeth-of-the-conveyor.webp"
     nextReadTime="12 min"
     >
       <h2>The Ladder</h2>

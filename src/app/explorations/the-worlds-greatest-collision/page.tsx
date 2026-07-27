@@ -29,7 +29,7 @@ export default function TheWorldsGreatestCollision() {
       category="Natural History"
       categoryColor="amber"
       date="April 13, 2026"
-      imageSrc="/images/explorations/the-worlds-greatest-collision.png"
+      imageSrc="/images/explorations/the-worlds-greatest-collision.webp"
       imageAlt="The World's Greatest Collision: The Meeting (Part I of II) illustration"
       readTime="13 min"
       wordCount={2962}
@@ -41,7 +41,7 @@ export default function TheWorldsGreatestCollision() {
       nextSubtitle="Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange"
       nextCategory="Natural History"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-worlds-greatest-collision-part-2.png"
+      nextImage="/images/explorations/the-worlds-greatest-collision-part-2.webp"
       nextReadTime="12 min"
     >
       <h2>The Longest Goodbye</h2>

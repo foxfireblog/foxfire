@@ -29,7 +29,7 @@ export default function TheLeftHandOfTheUniverse() {
       category="Essay"
       categoryColor="violet"
       date="June 7, 2026"
-      imageSrc="/images/explorations/the-left-hand-of-the-universe.png"
+      imageSrc="/images/explorations/the-left-hand-of-the-universe.webp"
       imageAlt="The Left Hand of the Universe illustration"
       readTime="11 min"
       wordCount={2588}
@@ -40,7 +40,7 @@ export default function TheLeftHandOfTheUniverse() {
     nextSubtitle="How a small metal box dissolved the boundaries between everywhere and nowhere"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-port-that-invented-the-world.png"
+    nextImage="/images/explorations/the-port-that-invented-the-world.webp"
     nextReadTime="13 min"
     >
       <h2>The Scent of Ancient Chemistry</h2>

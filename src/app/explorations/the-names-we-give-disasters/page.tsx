@@ -29,7 +29,7 @@ export default function TheNamesWeGiveDisasters() {
       category="Essay"
       categoryColor="amber"
       date="June 20, 2026"
-      imageSrc="/images/explorations/the-names-we-give-disasters.png"
+      imageSrc="/images/explorations/the-names-we-give-disasters.webp"
       imageAlt="The Names We Give Disasters illustration"
       readTime="13 min"
       wordCount={2945}
@@ -40,7 +40,7 @@ export default function TheNamesWeGiveDisasters() {
     nextSubtitle="How the state learned to describe a human face"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-art-of-the-wanted-poster.png"
+    nextImage="/images/explorations/the-art-of-the-wanted-poster.webp"
     nextReadTime="14 min"
     >
       <h2>The Bag of Fried Chicken</h2>

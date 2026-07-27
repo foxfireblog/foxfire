@@ -29,7 +29,7 @@ export default function TheWhiteRose() {
       category="Essay"
       categoryColor="rose"
       date="March 28, 2026"
-      imageSrc="/images/explorations/the-white-rose.png"
+      imageSrc="/images/explorations/the-white-rose.webp"
       imageAlt="The Order of the White Rose illustration"
       readTime="14 min"
       wordCount={3146}
@@ -40,7 +40,7 @@ export default function TheWhiteRose() {
     nextSubtitle="Every possible book already exists. Most of them are screaming."
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-library-of-babel.png"
+    nextImage="/images/explorations/the-library-of-babel.webp"
     nextReadTime="13 min"
     >
       <h2>A Snowstorm of Paper</h2>

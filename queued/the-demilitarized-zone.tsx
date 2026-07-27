@@ -29,7 +29,7 @@ export default function TheDemilitarizedZone() {
       category="Natural History"
       categoryColor="emerald"
       date="May 15, 2026"
-      imageSrc="/images/explorations/the-demilitarized-zone.png"
+      imageSrc="/images/explorations/the-demilitarized-zone.webp"
       imageAlt="The Demilitarized Zone illustration"
       readTime="14 min"
       wordCount={3170}
@@ -40,7 +40,7 @@ export default function TheDemilitarizedZone() {
     nextSubtitle="Martha's Vineyard, where deafness was not a condition but a dialect"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-language-that-lived-in-the-body.png"
+    nextImage="/images/explorations/the-language-that-lived-in-the-body.webp"
     nextReadTime="14 min"
     >
       <h2>The Iron Horse Wants to Run Again</h2>

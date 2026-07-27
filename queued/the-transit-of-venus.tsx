@@ -29,7 +29,7 @@ export default function TheTransitOfVenus() {
       category="Essay"
       categoryColor="amber"
       date="June 1, 2026"
-      imageSrc="/images/explorations/the-transit-of-venus.png"
+      imageSrc="/images/explorations/the-transit-of-venus.webp"
       imageAlt="The Transit of Venus illustration"
       readTime="13 min"
       wordCount={2941}
@@ -40,7 +40,7 @@ export default function TheTransitOfVenus() {
     nextSubtitle="Every abandoned place was once somebody's address"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-census-of-the-vanished.png"
+    nextImage="/images/explorations/the-census-of-the-vanished.webp"
     nextReadTime="10 min"
     >
       <h2>A Letter to the Unborn</h2>

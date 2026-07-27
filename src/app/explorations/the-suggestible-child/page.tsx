@@ -29,7 +29,7 @@ export default function TheSuggestibleChild() {
       category="Essay"
       categoryColor="rose"
       date="July 25, 2026"
-      imageSrc="/images/explorations/the-suggestible-child.png"
+      imageSrc="/images/explorations/the-suggestible-child.webp"
       imageAlt="The Suggestible Child illustration"
       readTime="14 min"
       wordCount={3118}
@@ -40,7 +40,7 @@ export default function TheSuggestibleChild() {
     nextSubtitle="A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-birch-bark-letters-of-novgorod.png"
+    nextImage="/images/explorations/the-birch-bark-letters-of-novgorod.webp"
     nextReadTime="13 min"
     >
       <h2>The Puppets</h2>

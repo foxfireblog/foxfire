@@ -29,7 +29,7 @@ export default function TheColorThatDidntExist() {
       category="Essay"
       categoryColor="indigo"
       date="April 3, 2026"
-      imageSrc="/images/explorations/the-color-that-didnt-exist.png"
+      imageSrc="/images/explorations/the-color-that-didnt-exist.webp"
       imageAlt="The Color That Didn't Exist illustration"
       readTime="13 min"
       wordCount={2926}
@@ -41,7 +41,7 @@ export default function TheColorThatDidntExist() {
     nextSubtitle="When economists got a country to practice on"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-chilean-experiment.png"
+    nextImage="/images/explorations/the-chilean-experiment.webp"
     nextReadTime="10 min"
     >
       <h2>The Wine-Dark Sea</h2>

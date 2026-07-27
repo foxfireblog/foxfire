@@ -29,7 +29,7 @@ export default function TheAsylumAtTheEdgeOfTheWorld() {
       category="Essay"
       categoryColor="emerald"
       date="May 17, 2026"
-      imageSrc="/images/explorations/the-asylum-at-the-edge-of-the-world.png"
+      imageSrc="/images/explorations/the-asylum-at-the-edge-of-the-world.webp"
       imageAlt="The Asylum at the Edge of the World illustration"
       readTime="12 min"
       wordCount={2671}
@@ -40,7 +40,7 @@ export default function TheAsylumAtTheEdgeOfTheWorld() {
     nextSubtitle="A rusting sea fort, a homemade flag, and the stubbornest country on Earth"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-nowhere-men-of-sealand.png"
+    nextImage="/images/explorations/the-nowhere-men-of-sealand.webp"
     nextReadTime="14 min"
     >
       <h2>The Woman Who Chased Lions</h2>

@@ -29,7 +29,7 @@ export default function TheGlassThatLearnedToSee() {
       category="Essay"
       categoryColor="sky"
       date="July 15, 2026"
-      imageSrc="/images/explorations/the-glass-that-learned-to-see.png"
+      imageSrc="/images/explorations/the-glass-that-learned-to-see.webp"
       imageAlt="The Glass That Learned to See illustration"
       readTime="13 min"
       wordCount={2995}
@@ -40,7 +40,7 @@ export default function TheGlassThatLearnedToSee() {
     nextSubtitle="How dying became a market, a legal battleground, and the last thing left to privatize"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-economics-of-the-deathbed.png"
+    nextImage="/images/explorations/the-economics-of-the-deathbed.webp"
     nextReadTime="13 min"
     >
       <h2>The Drop of Water</h2>

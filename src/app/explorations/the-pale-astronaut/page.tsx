@@ -29,7 +29,7 @@ export default function ThePaleAstronaut() {
       category="Essay"
       categoryColor="sky"
       date="July 13, 2026"
-      imageSrc="/images/explorations/the-pale-astronaut.png"
+      imageSrc="/images/explorations/the-pale-astronaut.webp"
       imageAlt="The Pale Astronaut illustration"
       readTime="13 min"
       wordCount={2947}
@@ -40,7 +40,7 @@ export default function ThePaleAstronaut() {
     nextSubtitle="The dye that built empires, enslaved millions, and was murdered by a molecule"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-indigo-conspiracy.png"
+    nextImage="/images/explorations/the-indigo-conspiracy.webp"
     nextReadTime="15 min"
     >
       <h2>The Soles of His Feet</h2>

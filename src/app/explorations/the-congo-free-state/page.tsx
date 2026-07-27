@@ -29,7 +29,7 @@ export default function TheCongoFreeState() {
       category="Essay"
       categoryColor="red"
       date="April 18, 2026"
-      imageSrc="/images/explorations/the-congo-free-state.png"
+      imageSrc="/images/explorations/the-congo-free-state.webp"
       imageAlt="The Congo Free State: The King's Private Country (Part I of III) illustration"
       readTime="11 min"
       wordCount={2521}
@@ -41,7 +41,7 @@ export default function TheCongoFreeState() {
       nextSubtitle="The quota system, the severed hands, the Force Publique, and the demographic catastrophe"
       nextCategory="Essay"
       nextCategoryColor="red"
-      nextImage="/images/explorations/the-congo-free-state-part-2.png"
+      nextImage="/images/explorations/the-congo-free-state-part-2.webp"
       nextReadTime="14 min"
     >
       <h2>The Man Who Bought a Country</h2>

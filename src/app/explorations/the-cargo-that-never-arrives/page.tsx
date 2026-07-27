@@ -29,7 +29,7 @@ export default function TheCargoThatNeverArrives() {
       category="Essay"
       categoryColor="amber"
       date="May 14, 2026"
-      imageSrc="/images/explorations/the-cargo-that-never-arrives.png"
+      imageSrc="/images/explorations/the-cargo-that-never-arrives.webp"
       imageAlt="The Cargo That Never Arrives illustration"
       readTime="13 min"
       wordCount={2940}
@@ -40,7 +40,7 @@ export default function TheCargoThatNeverArrives() {
     nextSubtitle="Life at Los Alamos, the personalities, the moral debates, and the Trinity test"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project-part-2.png"
+    nextImage="/images/explorations/the-manhattan-project-part-2.webp"
     nextReadTime="17 min"
     >
       <h2>The Man in the Wooden Headset</h2>

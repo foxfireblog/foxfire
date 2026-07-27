@@ -29,7 +29,7 @@ export default function TheTownThatBelongsToTwoCountries() {
       category="Essay"
       categoryColor="amber"
       date="May 2, 2026"
-      imageSrc="/images/explorations/the-town-that-belongs-to-two-countries.png"
+      imageSrc="/images/explorations/the-town-that-belongs-to-two-countries.webp"
       imageAlt="The Town That Belongs to Two Countries illustration"
       readTime="11 min"
       wordCount={2620}
@@ -40,7 +40,7 @@ export default function TheTownThatBelongsToTwoCountries() {
     nextSubtitle="How ancient peoples read the world through sound &mdash; and what we lost when we stopped listening"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-voice-that-carries-water.png"
+    nextImage="/images/explorations/the-voice-that-carries-water.webp"
     nextReadTime="12 min"
     >
       <h2>The House With Two Doorbells</h2>

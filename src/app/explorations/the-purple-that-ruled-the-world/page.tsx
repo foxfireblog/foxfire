@@ -29,7 +29,7 @@ export default function ThePurpleThatRuledTheWorld() {
       category="Natural History"
       categoryColor="violet"
       date="May 11, 2026"
-      imageSrc="/images/explorations/the-purple-that-ruled-the-world.png"
+      imageSrc="/images/explorations/the-purple-that-ruled-the-world.webp"
       imageAlt="The Purple That Ruled the World illustration"
       readTime="11 min"
       wordCount={2564}
@@ -40,7 +40,7 @@ export default function ThePurpleThatRuledTheWorld() {
     nextSubtitle="Why your nose might be reading molecular geometry like sheet music"
     nextCategory="Natural Philosophy"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-shape-of-a-smell.png"
+    nextImage="/images/explorations/the-shape-of-a-smell.webp"
     nextReadTime="13 min"
     >
       <h2>The Dog&apos;s Mouth</h2>

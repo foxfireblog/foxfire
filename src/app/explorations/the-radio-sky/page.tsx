@@ -29,7 +29,7 @@ export default function TheRadioSky() {
       category="Natural History"
       categoryColor="indigo"
       date="June 2, 2026"
-      imageSrc="/images/explorations/the-radio-sky.png"
+      imageSrc="/images/explorations/the-radio-sky.webp"
       imageAlt="The Radio Sky illustration"
       readTime="13 min"
       wordCount={3100}
@@ -40,7 +40,7 @@ export default function TheRadioSky() {
     nextSubtitle="The secret plan to nuke the Moon, and the young astronomer who almost revealed it"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/project-a119.png"
+    nextImage="/images/explorations/project-a119.webp"
     nextReadTime="13 min"
     >
       <h2>The Hiss</h2>

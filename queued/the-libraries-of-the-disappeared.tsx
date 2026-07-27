@@ -29,7 +29,7 @@ export default function TheLibrariesOfTheDisappeared() {
       category="Essay"
       categoryColor="violet"
       date="July 3, 2026"
-      imageSrc="/images/explorations/the-libraries-of-the-disappeared.png"
+      imageSrc="/images/explorations/the-libraries-of-the-disappeared.webp"
       imageAlt="The Libraries of the Disappeared illustration"
       readTime="12 min"
       wordCount={2683}
@@ -40,7 +40,7 @@ export default function TheLibrariesOfTheDisappeared() {
     nextSubtitle="How bird excrement built empires, started wars, and revealed everything about us"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-great-guano-rush.png"
+    nextImage="/images/explorations/the-great-guano-rush.webp"
     nextReadTime="12 min"
     >
       <h2>The Morning Of</h2>

@@ -29,7 +29,7 @@ export default function TheGreatFilter() {
       category="Essay"
       categoryColor="indigo"
       date="April 25, 2026"
-      imageSrc="/images/explorations/the-great-filter.png"
+      imageSrc="/images/explorations/the-great-filter.webp"
       imageAlt="The Great Filter illustration"
       readTime="13 min"
       wordCount={2961}
@@ -41,7 +41,7 @@ export default function TheGreatFilter() {
     nextSubtitle="What the walls remember when no one is watching"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-archaeology-of-graffiti.png"
+    nextImage="/images/explorations/the-archaeology-of-graffiti.webp"
     nextReadTime="12 min"
     >
       <h2>The Cartoon That Started Everything</h2>

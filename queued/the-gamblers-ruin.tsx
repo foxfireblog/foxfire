@@ -29,7 +29,7 @@ export default function TheGamblersRuin() {
       category="Essay"
       categoryColor="amber"
       date="May 22, 2026"
-      imageSrc="/images/explorations/the-gamblers-ruin.png"
+      imageSrc="/images/explorations/the-gamblers-ruin.webp"
       imageAlt="The Gambler's Ruin illustration"
       readTime="11 min"
       wordCount={2630}
@@ -40,7 +40,7 @@ export default function TheGamblersRuin() {
     nextSubtitle="Some feelings only exist in languages you'll never speak"
     nextCategory="Field Guide"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-untranslatable.png"
+    nextImage="/images/explorations/the-untranslatable.webp"
     nextReadTime="11 min"
     >
       <h2>Twenty-Six Times Black</h2>

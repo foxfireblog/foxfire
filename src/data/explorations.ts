@@ -39,7 +39,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-hired-mourners.png",
+    image: "/images/explorations/the-hired-mourners.webp",
     publishedAt: "07/26/2026 05:28 PM",
     description:
       "From ancient Rome to modern Ghana, the profession of weeping for the dead reveals something unsettling about the boundary between performed and felt emotion.",
@@ -51,7 +51,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "12 min",
-    image: "/images/explorations/the-woman-who-tasted-words.png",
+    image: "/images/explorations/the-woman-who-tasted-words.webp",
     publishedAt: "07/26/2026 06:32 AM",
     description:
       "Lexical-gustatory synesthesia turns language into flavor — and reveals something profound about how all of us secretly taste meaning.",
@@ -63,7 +63,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-white-flag-before-the-white-flag.png",
+    image: "/images/explorations/the-white-flag-before-the-white-flag.webp",
     publishedAt: "07/25/2026 08:18 PM",
     description:
       "Before the Geneva Conventions, before the white flag, before any treaty — humans kept inventing the same strange idea: that even in war, some things must remain untouchable.",
@@ -75,7 +75,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-birch-bark-letters-of-novgorod.png",
+    image: "/images/explorations/the-birch-bark-letters-of-novgorod.webp",
     publishedAt: "07/25/2026 11:05 AM",
     description:
       "For seven centuries, the people of Novgorod scratched their daily lives into birch bark — love notes, shopping lists, debt complaints, a child's homework — and the waterlogged earth preserved what history usually forgets.",
@@ -87,7 +87,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/the-suggestible-child.png",
+    image: "/images/explorations/the-suggestible-child.webp",
     publishedAt: "07/25/2026 01:20 AM",
     description:
       "How the daycare abuse panic of the 1980s revealed that memory is not a recording but a collaboration — and destroyed lives in the process.",
@@ -99,7 +99,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "13 min",
-    image: "/images/explorations/the-exhibition-of-sarah-baartman.png",
+    image: "/images/explorations/the-exhibition-of-sarah-baartman.webp",
     publishedAt: "07/24/2026 03:03 PM",
     description:
       "How a Khoikhoi woman became Europe's most famous scientific specimen — and how the apparatus that consumed her outlived every apology.",
@@ -111,7 +111,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-calculating-boys-who-were-girls.png",
+    image: "/images/explorations/the-calculating-boys-who-were-girls.webp",
     publishedAt: "07/24/2026 03:58 AM",
     description:
       "Before computers were machines, 'computer' was a job title — and the people doing the work were overwhelmingly women whose mathematical labor built everything from astronomical tables to atomic bombs.",
@@ -123,7 +123,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-mirror-test.png",
+    image: "/images/explorations/the-mirror-test.webp",
     publishedAt: "07/23/2026 05:05 PM",
     description:
       "The mirror test was supposed to tell us which animals possess self-awareness — but it may reveal more about the limits of human imagination than the inner lives of other creatures.",
@@ -135,7 +135,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-lie-detector-was-always-a-mirror.png",
+    image: "/images/explorations/the-lie-detector-was-always-a-mirror.webp",
     publishedAt: "07/23/2026 06:33 AM",
     description:
       "The polygraph has never reliably detected deception — but that was never really the point.",
@@ -147,7 +147,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-imitation-game-was-a-joke.png",
+    image: "/images/explorations/the-imitation-game-was-a-joke.webp",
     publishedAt: "07/22/2026 08:24 PM",
     description:
       "How a playful thought experiment about gender performance became the defining benchmark for machine intelligence — and what we lost by forgetting the joke.",
@@ -159,7 +159,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-postal-roads-that-made-nations.png",
+    image: "/images/explorations/the-postal-roads-that-made-nations.webp",
     publishedAt: "07/22/2026 11:44 AM",
     description:
       "The hidden history of how mail delivery — not armies or constitutions — is what actually stitched territories into states.",
@@ -171,7 +171,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "11 min",
-    image: "/images/explorations/the-architecture-of-terror.png",
+    image: "/images/explorations/the-architecture-of-terror.webp",
     publishedAt: "07/22/2026 01:26 AM",
     description:
       "How the Soviet system transformed mass death into an administrative procedure, and what that reveals about the machinery hiding inside every modern state.",
@@ -183,7 +183,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-body-that-taught-surgery.png",
+    image: "/images/explorations/the-body-that-taught-surgery.webp",
     publishedAt: "07/21/2026 12:15 PM",
     description:
       "How modern anatomy was built on stolen corpses, and what that theft reveals about whose bodies have always been treated as raw material.",
@@ -195,7 +195,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-anatomy-of-the-snitch.png",
+    image: "/images/explorations/the-anatomy-of-the-snitch.webp",
     publishedAt: "07/21/2026 01:14 AM",
     description:
       "Every society has built systems to turn neighbors into informers — and every society has despised the people who comply.",
@@ -207,7 +207,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "green",
     readTime: "14 min",
-    image: "/images/explorations/the-radium-girls.png",
+    image: "/images/explorations/the-radium-girls.webp",
     publishedAt: "07/20/2026 03:32 PM",
     description:
       "The dial painters who swallowed poison with every brushstroke — and whose glowing bones rewrote the law.",
@@ -219,7 +219,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-franck-report.png",
+    image: "/images/explorations/the-franck-report.webp",
     publishedAt: "07/20/2026 06:46 AM",
     description:
       "In June 1945, seven scientists who helped build the atomic bomb wrote a desperate memo arguing it should never be used on a city — and were ignored.",
@@ -231,7 +231,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-colony-of-the-reasonable.png",
+    image: "/images/explorations/the-colony-of-the-reasonable.webp",
     publishedAt: "07/19/2026 08:16 PM",
     description:
       "The extraordinary story of Geel, Belgium — where for centuries, people with mental illness lived as boarders in ordinary family homes, and where the boundaries between madness and sanity quietly dissolved.",
@@ -243,7 +243,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-retraction-problem.png",
+    image: "/images/explorations/the-retraction-problem.webp",
     publishedAt: "07/19/2026 11:14 AM",
     description:
       "How scientific retractions reveal a deeper truth about the way knowledge moves through the world — fast on the way in, slow on the way out.",
@@ -255,7 +255,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-light-that-bodies-make.png",
+    image: "/images/explorations/the-light-that-bodies-make.webp",
     publishedAt: "07/19/2026 01:12 AM",
     description:
       "The strange science of biophotons — the ultra-weak light emitted by every living thing, too dim to see, too persistent to ignore.",
@@ -267,7 +267,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-stratigraphy-of-catastrophe.png",
+    image: "/images/explorations/the-stratigraphy-of-catastrophe.webp",
     publishedAt: "07/18/2026 02:03 PM",
     description:
       "How scientists read the ends of worlds in centimeter-thin layers of clay, ash, and iridium — and what those layers tell us about the one we're writing now.",
@@ -279,7 +279,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-skinner-box-we-built-ourselves.png",
+    image: "/images/explorations/the-skinner-box-we-built-ourselves.webp",
     publishedAt: "07/18/2026 01:19 AM",
     description:
       "The story of how B.F. Skinner's operant conditioning chambers for pigeons became the design philosophy of the modern internet — and why we keep pulling the lever.",
@@ -291,7 +291,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-telephone-at-the-bottom-of-the-sea.png",
+    image: "/images/explorations/the-telephone-at-the-bottom-of-the-sea.webp",
     publishedAt: "07/17/2026 02:47 PM",
     description:
       "The story of the first transatlantic telegraph cable — a copper thread laid across an abyss that compressed the world from weeks to seconds, and what was lost in the compression.",
@@ -303,7 +303,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "11 min",
-    image: "/images/explorations/the-ghost-orchid-and-its-secret.png",
+    image: "/images/explorations/the-ghost-orchid-and-its-secret.webp",
     publishedAt: "07/17/2026 05:54 AM",
     description:
       "For over a century, the ghost orchid's reproduction was a mystery — and the answer, when it came, upended everything botanists thought they knew about what a plant can be.",
@@ -315,7 +315,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/the-autoimmune-self.png",
+    image: "/images/explorations/the-autoimmune-self.webp",
     publishedAt: "07/16/2026 08:20 PM",
     description:
       "The immune system is a philosophical engine — a machine for deciding what counts as 'you' — and sometimes it gets the answer catastrophically wrong.",
@@ -327,7 +327,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-man-who-heard-color.png",
+    image: "/images/explorations/the-man-who-heard-color.webp",
     publishedAt: "07/16/2026 11:39 AM",
     description:
       "What synesthesia reveals about the fragile, constructed, and deeply private nature of all perception.",
@@ -339,7 +339,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-invention-of-the-primitive.png",
+    image: "/images/explorations/the-invention-of-the-primitive.webp",
     publishedAt: "07/16/2026 01:29 AM",
     description:
       "How Europe constructed the concept of the 'primitive' not to describe other peoples but to justify what it intended to do to them.",
@@ -351,7 +351,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-economics-of-the-deathbed.png",
+    image: "/images/explorations/the-economics-of-the-deathbed.webp",
     publishedAt: "07/15/2026 11:59 AM",
     description:
       "The moment of dying has become a commodity — fought over by insurers, hospitals, families, and the state — and the economics reveal what we actually believe about the value of a life.",
@@ -363,7 +363,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-glass-that-learned-to-see.png",
+    image: "/images/explorations/the-glass-that-learned-to-see.webp",
     publishedAt: "07/15/2026 01:18 AM",
     description:
       "Before the lens, humans lived inside a world scaled to the naked eye — and then glass taught us to see what was never meant for us, and we became different creatures entirely.",
@@ -375,7 +375,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-ovation-that-wouldnt-stop.png",
+    image: "/images/explorations/the-ovation-that-wouldnt-stop.webp",
     publishedAt: "07/14/2026 02:12 PM",
     description:
       "How a standing ovation under Stalin became a death sentence, and what applause reveals about the geometry of fear.",
@@ -387,7 +387,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-plague-doctor-was-a-bureaucrat.png",
+    image: "/images/explorations/the-plague-doctor-was-a-bureaucrat.webp",
     publishedAt: "07/14/2026 03:18 AM",
     description:
       "The Black Death didn't just kill a third of Europe — it invented quarantine, health passes, contact tracing, and the idea that the state has the right to control your body in a crisis.",
@@ -399,7 +399,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "15 min",
-    image: "/images/explorations/the-indigo-conspiracy.png",
+    image: "/images/explorations/the-indigo-conspiracy.webp",
     publishedAt: "07/13/2026 05:10 PM",
     description:
       "For centuries, indigo was worth more than gold by weight — a color so valuable it created plantations, fueled revolts, and was ultimately assassinated by industrial chemistry.",
@@ -411,7 +411,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-pale-astronaut.png",
+    image: "/images/explorations/the-pale-astronaut.webp",
     publishedAt: "07/13/2026 07:37 AM",
     description:
       "The human body is a love letter to Earth — and space is the process of that letter being returned, unread, to sender.",
@@ -423,7 +423,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "15 min",
-    image: "/images/explorations/the-involuntary-confession-of-the-body.png",
+    image: "/images/explorations/the-involuntary-confession-of-the-body.webp",
     publishedAt: "07/12/2026 05:26 PM",
     description:
       "The history of medicine reading the body against its owner's wishes — from the stethoscope to the polygraph to the fMRI — and the slow erosion of the last private territory.",
@@ -435,7 +435,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-government-in-exile.png",
+    image: "/images/explorations/the-government-in-exile.webp",
     publishedAt: "07/12/2026 06:30 AM",
     description:
       "Some nations lose their territory but refuse to stop existing — holding cabinet meetings in hotel rooms, issuing passports no border guard will honor, keeping the flame of a country alive through sheer bureaucratic stubbornness.",
@@ -447,7 +447,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-interpreter-at-the-end-of-the-world.png",
+    image: "/images/explorations/the-interpreter-at-the-end-of-the-world.webp",
     publishedAt: "07/11/2026 08:21 PM",
     description:
       "The interpreters who stood between conquering and conquered languages carried impossible burdens — trusted by neither side, belonging to both, holding the hinge on which worlds turned and broke.",
@@ -459,7 +459,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-morphine-doctors.png",
+    image: "/images/explorations/the-morphine-doctors.webp",
     publishedAt: "07/11/2026 11:18 AM",
     description:
       "The strange history of how medicine learned to relieve pain, then spent centuries debating who deserved relief.",
@@ -471,7 +471,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-mirror-that-breaks-physics.png",
+    image: "/images/explorations/the-mirror-that-breaks-physics.webp",
     publishedAt: "07/11/2026 01:00 AM",
     description:
       "The universe treats left and right differently, and nobody knows why — a story about the death of a perfect symmetry.",
@@ -483,7 +483,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-second-circulation.png",
+    image: "/images/explorations/the-second-circulation.webp",
     publishedAt: "07/10/2026 12:34 PM",
     description:
       "How Polish dissidents built an entire parallel publishing industry beneath the nose of a surveillance state — and proved that the most dangerous weapon is a mimeograph machine.",
@@ -495,7 +495,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-listeners.png",
+    image: "/images/explorations/the-listeners.webp",
     publishedAt: "07/10/2026 01:58 AM",
     description:
       "From whale song hunters to cosmic microphone operators to the women who listened for submarines, a history of those who strained toward sounds at the edge of perception.",
@@ -507,7 +507,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-phonograph-in-the-pharaohs-tomb.png",
+    image: "/images/explorations/the-phonograph-in-the-pharaohs-tomb.webp",
     publishedAt: "07/09/2026 12:58 PM",
     description:
       "The centuries-long obsession with the idea that ancient sounds — a potter's voice, a mason's chisel, the wind over Pompeii — might be accidentally preserved in physical objects, waiting to be played back.",
@@ -519,7 +519,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "14 min",
-    image: "/images/explorations/the-ghost-empire-of-trebizond.png",
+    image: "/images/explorations/the-ghost-empire-of-trebizond.webp",
     publishedAt: "07/09/2026 02:34 AM",
     description:
       "On the strange, stubborn, beautiful final remnant of the Roman Empire — a kingdom perched on cliffs above the Black Sea that outlived Constantinople itself.",
@@ -531,7 +531,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "emerald",
     readTime: "10 min",
-    image: "/images/explorations/the-wolf-children-of-east-prussia.png",
+    image: "/images/explorations/the-wolf-children-of-east-prussia.webp",
     publishedAt: "07/08/2026 12:15 PM",
     description:
       "The forgotten story of the Wolfskinder — German orphans who survived the end of World War II by walking into the Lithuanian wilderness and becoming someone else entirely.",
@@ -543,7 +543,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "10 min",
-    image: "/images/explorations/the-sparrow-campaign.png",
+    image: "/images/explorations/the-sparrow-campaign.webp",
     publishedAt: "07/08/2026 01:32 AM",
     description:
       "In 1958, China mobilized 600 million people to exterminate the Eurasian tree sparrow — and triggered one of the worst famines in human history.",
@@ -555,7 +555,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-veterinarians-of-the-apocalypse.png",
+    image: "/images/explorations/the-veterinarians-of-the-apocalypse.webp",
     publishedAt: "07/07/2026 12:50 PM",
     description:
       "The quiet, devastating history of veterinarians, wildlife biologists, and animal workers who recognized catastrophes — plagues, poisonings, ecological collapse — years before anyone listened.",
@@ -567,7 +567,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-last-hermits.png",
+    image: "/images/explorations/the-last-hermits.webp",
     publishedAt: "07/07/2026 02:48 AM",
     description:
       "The people who walked away from civilization and what their disappearances reveal about the world they left behind.",
@@ -579,7 +579,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-yucca-and-the-moth.png",
+    image: "/images/explorations/the-yucca-and-the-moth.webp",
     publishedAt: "07/06/2026 01:09 PM",
     description:
       "The most intimate partnership in nature is also one of the most fragile — a parable about trust, cheating, and the evolutionary cost of devotion.",
@@ -591,7 +591,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-contagion-of-laughter.png",
+    image: "/images/explorations/the-contagion-of-laughter.webp",
     publishedAt: "07/06/2026 02:57 AM",
     description:
       "The 1962 Tanganyika laughter epidemic reveals something unsettling about how emotions move through bodies and societies — and what happens when the social body cracks.",
@@ -603,7 +603,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-parasite-that-thinks-it-is-you.png",
+    image: "/images/explorations/the-parasite-that-thinks-it-is-you.webp",
     publishedAt: "07/05/2026 05:15 PM",
     description:
       "Toxoplasma gondii rewrites the behavior of its hosts with surgical precision — and a third of all humans are already infected.",
@@ -615,7 +615,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-anatomy-of-confession.png",
+    image: "/images/explorations/the-anatomy-of-confession.webp",
     publishedAt: "07/05/2026 06:14 AM",
     description:
       "How the Catholic confessional accidentally created introspection, the talking cure, the police interrogation, and the idea that you have an inner life worth examining.",
@@ -627,7 +627,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "14 min",
-    image: "/images/explorations/the-republic-of-minerva.png",
+    image: "/images/explorations/the-republic-of-minerva.webp",
     publishedAt: "07/04/2026 08:17 PM",
     description:
       "In 1972, a libertarian real estate developer dumped sand on a coral reef in the South Pacific and declared it a sovereign nation — and what happened next is stranger and more instructive than the punchline suggests.",
@@ -639,7 +639,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-trial-of-the-rooster.png",
+    image: "/images/explorations/the-trial-of-the-rooster.webp",
     publishedAt: "07/04/2026 11:27 AM",
     description:
       "For centuries, European courts prosecuted pigs, rats, weevils, and roosters with full legal ceremony — and the reasons why are stranger and more revealing than the spectacle itself.",
@@ -651,7 +651,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-language-of-the-dead.png",
+    image: "/images/explorations/the-language-of-the-dead.webp",
     publishedAt: "07/04/2026 01:55 AM",
     description:
       "From ancient Egyptian tomb autobiographies to AI-generated chatbots trained on the deceased, humans have never stopped making the dead speak — and what they say reveals far more about the living.",
@@ -663,7 +663,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "15 min",
-    image: "/images/explorations/the-corpse-that-made-law.png",
+    image: "/images/explorations/the-corpse-that-made-law.webp",
     publishedAt: "07/03/2026 12:06 PM",
     description:
       "From medieval deodands to modern forensic evidence, the dead have shaped law in ways the living never intended.",
@@ -675,7 +675,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-scientists-who-built-a-fake-past.png",
+    image: "/images/explorations/the-scientists-who-built-a-fake-past.webp",
     publishedAt: "07/03/2026 01:57 AM",
     description:
       "From Piltdown Man to Hwang Woo-suk, the great scientific frauds reveal less about deception than about the aching human need for the world to be a certain way.",
@@ -687,7 +687,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "cyan",
     readTime: "11 min",
-    image: "/images/explorations/the-polywater-delusion.png",
+    image: "/images/explorations/the-polywater-delusion.webp",
     publishedAt: "07/02/2026 12:53 PM",
     description:
       "In the 1960s, a Soviet lab accident spawned a scientific panic: a new form of water that could, theoretically, end all life on Earth.",
@@ -699,7 +699,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-bestiary-and-the-real.png",
+    image: "/images/explorations/the-bestiary-and-the-real.webp",
     publishedAt: "07/02/2026 02:10 AM",
     description:
       "How medieval bestiaries — those gorgeous catalogs of impossible creatures — reveal something profound about the difference between knowledge and seeing.",
@@ -711,7 +711,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-stutterers-gift.png",
+    image: "/images/explorations/the-stutterers-gift.webp",
     publishedAt: "07/01/2026 12:31 PM",
     description:
       "An essay about stuttering as a window into the strange relationship between thought, language, and the body that refuses to cooperate.",
@@ -723,7 +723,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-gift-economy-of-the-potlatch.png",
+    image: "/images/explorations/the-gift-economy-of-the-potlatch.webp",
     publishedAt: "07/01/2026 02:32 AM",
     description:
       "The Canadian government spent decades trying to criminalize the potlatch — a ceremony built on giving everything away — because generosity, it turns out, is the most dangerous thing an empire can encounter.",
@@ -735,7 +735,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-election-that-nobody-won.png",
+    image: "/images/explorations/the-election-that-nobody-won.webp",
     publishedAt: "06/30/2026 12:54 PM",
     description:
       "Before democracy meant elections, it meant the lottery — and the ancient argument for choosing leaders by chance is more compelling than you'd think.",
@@ -747,7 +747,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-desk-murderers.png",
+    image: "/images/explorations/the-desk-murderers.webp",
     publishedAt: "06/30/2026 02:14 AM",
     description:
       "The most efficient killers in history never touched their victims — they signed forms, adjusted quotas, and went home for dinner.",
@@ -759,7 +759,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "cyan",
     readTime: "12 min",
-    image: "/images/explorations/the-creatures-that-invented-glass.png",
+    image: "/images/explorations/the-creatures-that-invented-glass.webp",
     publishedAt: "06/29/2026 01:10 PM",
     description:
       "Deep in the ocean, glass sponges have been engineering structures of breathtaking sophistication for 600 million years — and we're only now learning to copy their homework.",
@@ -771,7 +771,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-teeth-of-the-conveyor.png",
+    image: "/images/explorations/the-teeth-of-the-conveyor.webp",
     publishedAt: "06/29/2026 02:43 AM",
     description:
       "The modern assembly line was born not in Henry Ford's automobile factory but in the killing floors of Chicago's meatpacking plants — and the inversion changed everything about how we understand work, bodies, and efficiency.",
@@ -783,7 +783,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-city-that-ate-its-cats.png",
+    image: "/images/explorations/the-city-that-ate-its-cats.webp",
     publishedAt: "06/28/2026 05:20 PM",
     description:
       "What the choices people make in extremity reveal about the thinness of civilization — and what lies beneath it.",
@@ -795,7 +795,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "14 min",
-    image: "/images/explorations/the-mountains-the-sea-forgot.png",
+    image: "/images/explorations/the-mountains-the-sea-forgot.webp",
     publishedAt: "06/28/2026 07:10 AM",
     description:
       "High in the Himalayas and the Alps, the stone underfoot was once seafloor — and the fossils at the summit were once alive at the bottom.",
@@ -807,7 +807,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-phantom-atlas.png",
+    image: "/images/explorations/the-phantom-atlas.webp",
     publishedAt: "06/27/2026 08:37 PM",
     description:
       "For centuries, maps were haunted by islands, mountains, and continents that never existed — and erasing them proved harder than discovering the real ones.",
@@ -819,7 +819,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-hunger-artists.png",
+    image: "/images/explorations/the-hunger-artists.webp",
     publishedAt: "06/27/2026 11:47 AM",
     description:
       "The strange history of professional fasting — a spectacle where crowds paid to watch a person slowly disappear, and what it reveals about the performance of suffering.",
@@ -831,7 +831,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-general-strike-of-everything.png",
+    image: "/images/explorations/the-general-strike-of-everything.webp",
     publishedAt: "06/27/2026 02:04 AM",
     description:
       "In May 1926, nearly two million British workers walked out simultaneously, and for nine extraordinary days the country had to confront a question it still hasn't answered: what happens when the people who make everything work decide to stop?",
@@ -843,7 +843,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-backrooms.png",
+    image: "/images/explorations/the-backrooms.webp",
     publishedAt: "06/26/2026 12:28 PM",
     description:
       "How a single anonymous post about empty yellow rooms became the defining horror mythology of a generation raised on the internet.",
@@ -855,7 +855,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "14 min",
-    image: "/images/explorations/the-road-of-bones.png",
+    image: "/images/explorations/the-road-of-bones.webp",
     publishedAt: "06/26/2026 02:49 AM",
     description:
       "The R504 Kolyma Highway stretches across eastern Siberia — built by gulag prisoners whose bodies were buried beneath it, a road that is literally made of the people who made it.",
@@ -867,7 +867,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-panopticon-in-your-pocket.png",
+    image: "/images/explorations/the-panopticon-in-your-pocket.webp",
     publishedAt: "06/25/2026 12:42 PM",
     description:
       "How we built the most sophisticated surveillance architecture in human history and then bought it at full retail price.",
@@ -879,7 +879,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-doomsday-clock-is-not-a-clock.png",
+    image: "/images/explorations/the-doomsday-clock-is-not-a-clock.webp",
     publishedAt: "06/25/2026 02:41 AM",
     description:
       "The Bulletin of the Atomic Scientists has been setting a symbolic clock since 1947 — but what does it mean to measure proximity to annihilation, and what happens when the metaphor starts to fail?",
@@ -891,7 +891,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-friendship-that-split-the-atom.png",
+    image: "/images/explorations/the-friendship-that-split-the-atom.webp",
     publishedAt: "06/24/2026 12:15 PM",
     description:
       "In 1941, Werner Heisenberg visited Niels Bohr in occupied Copenhagen — and what they said to each other remains one of history's most consequential mysteries.",
@@ -903,7 +903,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/the-trembling-hand.png",
+    image: "/images/explorations/the-trembling-hand.webp",
     publishedAt: "06/24/2026 02:49 AM",
     description:
       "What happens when the hands that must not shake begin to shake — and what that tremor reveals about mastery, identity, and the cruelty of time.",
@@ -915,7 +915,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "16 min",
-    image: "/images/explorations/the-scrapie-notebooks.png",
+    image: "/images/explorations/the-scrapie-notebooks.webp",
     publishedAt: "06/23/2026 12:51 PM",
     description:
       "The centuries-long mystery of scrapie — a disease that defied every law of biology — and how ignoring it nearly unleashed a catastrophe.",
@@ -927,7 +927,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-city-beneath-the-city.png",
+    image: "/images/explorations/the-city-beneath-the-city.webp",
     publishedAt: "06/23/2026 02:43 AM",
     description:
       "Beneath every city lies a shadow city — abandoned tunnels, buried rivers, sealed stations, and forgotten pneumatic tubes that reveal the dreams a metropolis once had and couldn't sustain.",
@@ -939,7 +939,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "13 min",
-    image: "/images/explorations/the-tulip-that-broke-an-empire.png",
+    image: "/images/explorations/the-tulip-that-broke-an-empire.webp",
     publishedAt: "06/22/2026 02:37 PM",
     description:
       "The real history of tulip mania isn't the one you've heard — it's stranger, more Ottoman, and more human than any cautionary tale about bubbles.",
@@ -951,7 +951,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "14 min",
-    image: "/images/explorations/the-white-silence.png",
+    image: "/images/explorations/the-white-silence.webp",
     publishedAt: "06/22/2026 03:59 AM",
     description:
       "In the featureless white of polar landscapes, explorers found something more terrifying than cold — the dissolution of the self when deprived of the world.",
@@ -963,7 +963,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-suicide-of-the-expert.png",
+    image: "/images/explorations/the-suicide-of-the-expert.webp",
     publishedAt: "06/21/2026 12:21 PM",
     description:
       "An essay on how expertise became suspect — and what fills the vacuum when knowledge is treated as a form of power rather than a form of care.",
@@ -975,7 +975,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "cyan",
     readTime: "13 min",
-    image: "/images/explorations/the-inland-sea.png",
+    image: "/images/explorations/the-inland-sea.webp",
     publishedAt: "06/21/2026 03:01 AM",
     description:
       "The story of the Western Interior Seaway — the vast tropical ocean that once divided North America, filled with mosasaurs and ammonites, and whose ghost still shapes the landscape of the Great Plains.",
@@ -987,7 +987,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-art-of-the-wanted-poster.png",
+    image: "/images/explorations/the-art-of-the-wanted-poster.webp",
     publishedAt: "06/20/2026 12:01 PM",
     description:
       "The strange history of how governments learned to turn a human face into language — and what was lost and gained each time they got better at it.",
@@ -999,7 +999,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-names-we-give-disasters.png",
+    image: "/images/explorations/the-names-we-give-disasters.webp",
     publishedAt: "06/20/2026 02:34 AM",
     description:
       "From Saffir-Simpson to the Richter scale, our systems for measuring catastrophe reveal as much about power and politics as they do about wind speed and magnitude.",
@@ -1011,7 +1011,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "14 min",
-    image: "/images/explorations/the-poison-eaters.png",
+    image: "/images/explorations/the-poison-eaters.webp",
     publishedAt: "06/19/2026 01:19 PM",
     description:
       "From arsenic-eating peasants to radium-drinking socialites, a history of humans who consumed the toxic, the impossible, and the deadly — and what their strange appetites reveal about adaptation, desperation, and the blurred line between medicine and poison.",
@@ -1023,7 +1023,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-brine-that-remembers.png",
+    image: "/images/explorations/the-brine-that-remembers.webp",
     publishedAt: "06/19/2026 03:29 AM",
     description:
       "Miles beneath the Earth's surface, pockets of seawater billions of years old hold microbial life that has been evolving in total darkness since before complex life existed.",
@@ -1035,7 +1035,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-traitor-cell.png",
+    image: "/images/explorations/the-traitor-cell.webp",
     publishedAt: "06/18/2026 01:14 PM",
     description:
       "Your immune system is the most sophisticated detection apparatus in the known universe — and sometimes it turns its full, terrifying power against you.",
@@ -1047,7 +1047,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-invention-of-the-addict.png",
+    image: "/images/explorations/the-invention-of-the-addict.webp",
     publishedAt: "06/18/2026 03:14 AM",
     description:
       "Before the nineteenth century, there were no addicts — only habits, appetites, and the ordinary commerce of intoxication.",
@@ -1059,7 +1059,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-body-that-remembered-the-famine.png",
+    image: "/images/explorations/the-body-that-remembered-the-famine.webp",
     publishedAt: "06/17/2026 01:35 PM",
     description:
       "The Dutch Hunger Winter of 1944 revealed that starvation leaves marks not just on those who endure it, but on their children and grandchildren — rewriting what we thought we knew about inheritance.",
@@ -1071,7 +1071,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-palace-that-erased-itself.png",
+    image: "/images/explorations/the-palace-that-erased-itself.webp",
     publishedAt: "06/17/2026 03:23 AM",
     description:
       "How the Soviet Union systematically edited its own history — airbrushing the executed from photographs, rewriting encyclopedias mid-edition — and what happens to a people when the past itself becomes unreliable.",
@@ -1083,7 +1083,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-false-memory-machine.png",
+    image: "/images/explorations/the-false-memory-machine.webp",
     publishedAt: "06/16/2026 02:50 PM",
     description:
       "From the Satanic Panic to the Mandela Effect, the terrifying plasticity of human memory reveals that the past is not a recording — it's a story we rewrite every time we remember it.",
@@ -1095,7 +1095,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-talking-knots-of-the-andes.png",
+    image: "/images/explorations/the-talking-knots-of-the-andes.webp",
     publishedAt: "06/16/2026 03:32 AM",
     description:
       "The Inca quipu was not a primitive counting tool but a sophisticated information system — one that challenges our deepest assumptions about what writing is.",
@@ -1107,7 +1107,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-mechanical-turk-problem.png",
+    image: "/images/explorations/the-mechanical-turk-problem.webp",
     publishedAt: "06/15/2026 02:53 PM",
     description:
       "From an 18th-century chess automaton to Amazon's hidden workforce, the strange recursive history of humans pretending to be machines pretending to be human.",
@@ -1119,7 +1119,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-voice-that-crossed-the-wire.png",
+    image: "/images/explorations/the-voice-that-crossed-the-wire.webp",
     publishedAt: "06/15/2026 03:26 AM",
     description:
       "The strange, contested, and transformative birth of recorded sound — and the world that vanished the moment we learned to trap a voice in matter.",
@@ -1131,7 +1131,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-jury-that-refused.png",
+    image: "/images/explorations/the-jury-that-refused.webp",
     publishedAt: "06/14/2026 12:10 PM",
     description:
       "The radical history of jury nullification — when ordinary citizens decided the law itself was wrong, and simply refused to enforce it.",
@@ -1143,7 +1143,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-birthday-problem.png",
+    image: "/images/explorations/the-birthday-problem.webp",
     publishedAt: "06/14/2026 03:10 AM",
     description:
       "In a room of just 23 people, there's a better-than-even chance two share a birthday — a fact so counterintuitive it reveals something profound about how poorly we navigate a world built on probability.",
@@ -1155,7 +1155,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-good-german-problem.png",
+    image: "/images/explorations/the-good-german-problem.webp",
     publishedAt: "06/13/2026 12:06 PM",
     description:
       "An unflinching look at what resistance actually cost under the Third Reich, and the dangerous comfort of believing we would have been the exception.",
@@ -1167,7 +1167,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-index-card-that-built-the-modern-mind.png",
+    image: "/images/explorations/the-index-card-that-built-the-modern-mind.webp",
     publishedAt: "06/13/2026 02:38 AM",
     description:
       "How a small rectangle of paper restructured human thought, enabling everything from the modern bureaucracy to the scientific revolution to the surveillance state.",
@@ -1179,7 +1179,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-memory-of-paper.png",
+    image: "/images/explorations/the-memory-of-paper.webp",
     publishedAt: "06/12/2026 12:51 PM",
     description:
       "How a group of Jewish scholars in Vilna risked their lives to save — and become — the libraries the Nazis sought to destroy.",
@@ -1191,7 +1191,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-great-auk-conspiracy.png",
+    image: "/images/explorations/the-great-auk-conspiracy.webp",
     publishedAt: "06/12/2026 02:37 AM",
     description:
       "The great auk didn't just go extinct — it was hunted to oblivion by the very collectors who mourned its disappearance, in a feedback loop of scarcity and desire that says more about capitalism than it does about birds.",
@@ -1203,7 +1203,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-drowned-forests.png",
+    image: "/images/explorations/the-drowned-forests.webp",
     publishedAt: "06/11/2026 01:53 PM",
     description:
       "When the ice melted and the seas rose, entire forests were swallowed — and some of them survive, preserved in salt and peat and deep time, waiting to be found.",
@@ -1215,7 +1215,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-towns-at-the-bottom-of-reservoirs.png",
+    image: "/images/explorations/the-towns-at-the-bottom-of-reservoirs.webp",
     publishedAt: "06/11/2026 02:55 AM",
     description:
       "Across the world, entire towns were deliberately flooded to make reservoirs — and in dry years, the ruins surface like accusations.",
@@ -1227,7 +1227,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-syntax-of-bees.png",
+    image: "/images/explorations/the-syntax-of-bees.webp",
     publishedAt: "06/10/2026 01:12 PM",
     description:
       "The waggle dance is one of the only known non-human symbolic languages, and for decades after its discovery, most scientists refused to believe it was real.",
@@ -1239,7 +1239,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-autopsy-of-cities.png",
+    image: "/images/explorations/the-autopsy-of-cities.webp",
     publishedAt: "06/10/2026 02:45 AM",
     description:
       "Cities die in ways we refuse to name — slowly, then all at once, then in the strange half-life where memory and ruin coexist.",
@@ -1251,7 +1251,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-forgetting-curve.png",
+    image: "/images/explorations/the-forgetting-curve.webp",
     publishedAt: "06/09/2026 12:40 PM",
     description:
       "In 1885, a psychologist used himself as the only test subject to map exactly how memory dissolves — and accidentally revealed why we are all strangers to our own pasts.",
@@ -1263,7 +1263,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-man-who-ate-everything.png",
+    image: "/images/explorations/the-man-who-ate-everything.webp",
     publishedAt: "06/09/2026 02:24 AM",
     description:
       "The Victorian geologist who believed you could understand creation by consuming it — and whose appetite led him from dinosaur bones to the embalmed heart of a king.",
@@ -1275,7 +1275,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-smell-that-preceded-electricity.png",
+    image: "/images/explorations/the-smell-that-preceded-electricity.webp",
     publishedAt: "06/08/2026 01:44 PM",
     description:
       "The strange chemistry of scents that arrive just before transformation — ozone before lightning, petrichor before rain, and what it means that we can smell the future but never quite name it.",
@@ -1287,7 +1287,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-cadaver-synod.png",
+    image: "/images/explorations/the-cadaver-synod.webp",
     publishedAt: "06/08/2026 03:06 AM",
     description:
       "In 897 AD, a dead pope was exhumed, dressed in vestments, propped on a throne, and put on trial — a spectacle that reveals something eternal about how power treats the bodies it no longer needs.",
@@ -1299,7 +1299,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-sabotage-of-the-wooden-shoe.png",
+    image: "/images/explorations/the-sabotage-of-the-wooden-shoe.webp",
     publishedAt: "06/07/2026 05:29 PM",
     description:
       "The surprising etymology of 'sabotage' reveals a history of resistance that powerful institutions have spent centuries trying to make unthinkable.",
@@ -1311,7 +1311,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-port-that-invented-the-world.png",
+    image: "/images/explorations/the-port-that-invented-the-world.webp",
     publishedAt: "06/07/2026 07:07 AM",
     description:
       "The shipping container didn't just change logistics — it unmade cities, dissolved unions, and quietly restructured the entire planet around a single standardized box.",
@@ -1323,7 +1323,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-left-hand-of-the-universe.png",
+    image: "/images/explorations/the-left-hand-of-the-universe.webp",
     publishedAt: "06/06/2026 08:39 PM",
     description:
       "Every amino acid in your body, every sugar in your DNA, turns the same way — and nobody knows why.",
@@ -1335,7 +1335,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-price-of-a-name.png",
+    image: "/images/explorations/the-price-of-a-name.webp",
     publishedAt: "06/06/2026 11:52 AM",
     description:
       "An exploration of how formerly enslaved people chose their surnames — acts of self-invention that encoded memory, defiance, aspiration, and grief into the most intimate piece of public identity.",
@@ -1347,7 +1347,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "12 min",
-    image: "/images/explorations/the-fridtjof-nansen-problem.png",
+    image: "/images/explorations/the-fridtjof-nansen-problem.webp",
     publishedAt: "06/06/2026 02:30 AM",
     description:
       "The Arctic explorer who became the world's first refugee commissioner — and discovered that saving people is harder than crossing ice.",
@@ -1359,7 +1359,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-half-life-of-a-fact.png",
+    image: "/images/explorations/the-half-life-of-a-fact.webp",
     publishedAt: "06/05/2026 12:46 PM",
     description:
       "Scientific knowledge decays at measurable rates — and the implications are stranger than you'd think.",
@@ -1371,7 +1371,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-typewriter-that-became-a-weapon.png",
+    image: "/images/explorations/the-typewriter-that-became-a-weapon.webp",
     publishedAt: "06/05/2026 02:44 AM",
     description:
       "The Soviet Union required the registration of every typewriter — because a machine that lets anyone publish is a machine the state must control.",
@@ -1383,7 +1383,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "15 min",
-    image: "/images/explorations/the-cartography-of-pain.png",
+    image: "/images/explorations/the-cartography-of-pain.webp",
     publishedAt: "06/04/2026 01:12 PM",
     description:
       "From medieval humors to modern brain scans, humanity has been trying to map pain for centuries — and the territory keeps refusing to hold still.",
@@ -1395,7 +1395,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-saffron-wars.png",
+    image: "/images/explorations/the-saffron-wars.webp",
     publishedAt: "06/04/2026 02:44 AM",
     description:
       "The history of saffron is a history of obsession — a spice so valuable it inspired its own crimes, its own executioners, and its own theology.",
@@ -1407,7 +1407,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-gut-that-dreams.png",
+    image: "/images/explorations/the-gut-that-dreams.webp",
     publishedAt: "06/03/2026 02:29 PM",
     description:
       "Your intestines contain more neurons than a cat's brain — a shadow nervous system with its own logic, its own memory, and possibly its own dim form of experience.",
@@ -1419,7 +1419,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/project-a119.png",
+    image: "/images/explorations/project-a119.webp",
     publishedAt: "06/03/2026 03:29 AM",
     description:
       "In 1958, the United States Air Force developed a classified plan to detonate a nuclear weapon on the Moon — a cosmic show of force that a 24-year-old Carl Sagan nearly exposed.",
@@ -1431,7 +1431,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-radio-sky.png",
+    image: "/images/explorations/the-radio-sky.webp",
     publishedAt: "06/02/2026 02:24 PM",
     description:
       "Above the sky you see is another sky — one made of radio waves, full of ancient explosions, singing pulsars, and the afterglow of creation itself — and we stumbled into it by accident.",
@@ -1443,7 +1443,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-red-mercury-hoax.png",
+    image: "/images/explorations/the-red-mercury-hoax.webp",
     publishedAt: "06/02/2026 03:09 AM",
     description:
       "A substance that never existed became one of the most dangerous things in the world — not because of what it could do, but because of what people believed it could do.",
@@ -1455,7 +1455,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-confession-of-george-psalmanazar.png",
+    image: "/images/explorations/the-confession-of-george-psalmanazar.webp",
     publishedAt: "06/01/2026 03:29 PM",
     description:
       "A French vagabond invented a fake civilization, fooled all of London, and then spent the rest of his life trying to become a real person.",
@@ -1467,7 +1467,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-hawala-network.png",
+    image: "/images/explorations/the-hawala-network.webp",
     publishedAt: "06/01/2026 02:51 AM",
     description:
       "An ancient system moves billions across borders without transferring a single coin — held together by nothing more than a promise between strangers.",
@@ -1479,7 +1479,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-felt-sense-of-time.png",
+    image: "/images/explorations/the-felt-sense-of-time.webp",
     publishedAt: "05/31/2026 05:22 PM",
     description:
       "Your body is saturated with clocks — in your liver, your skin, your gut — and none of them care what hour you think it is.",
@@ -1491,7 +1491,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "15 min",
-    image: "/images/explorations/the-scientists-who-said-no.png",
+    image: "/images/explorations/the-scientists-who-said-no.webp",
     publishedAt: "05/31/2026 06:57 AM",
     description:
       "Before Oppenheimer became death, other physicists saw what was coming and chose a different path — one that cost them everything except their conscience.",
@@ -1503,7 +1503,7 @@ export const explorations: Exploration[] = [
     category: "Eulogy",
     color: "violet",
     readTime: "14 min",
-    image: "/images/explorations/the-suicide-note-of-a-language.png",
+    image: "/images/explorations/the-suicide-note-of-a-language.webp",
     publishedAt: "05/30/2026 08:15 PM",
     description:
       "A meditation on what actually perishes when a language dies — not just words, but entire architectures of perception that no translation can salvage.",
@@ -1515,7 +1515,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-rooms-you-cannot-leave.png",
+    image: "/images/explorations/the-rooms-you-cannot-leave.webp",
     publishedAt: "05/30/2026 11:10 AM",
     description:
       "How the interfaces we use every day are engineered to manipulate us — and why the language of 'choice' has become the most effective tool of control.",
@@ -1527,7 +1527,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-drum-that-crossed-continents.png",
+    image: "/images/explorations/the-drum-that-crossed-continents.webp",
     publishedAt: "05/30/2026 02:27 AM",
     description:
       "The talking drum didn't imitate speech — it *was* speech, a technology so sophisticated that colonial powers recognized it as a threat before they recognized it as art.",
@@ -1539,7 +1539,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-debt-that-outlived-the-empire.png",
+    image: "/images/explorations/the-debt-that-outlived-the-empire.webp",
     publishedAt: "05/29/2026 01:33 PM",
     description:
       "The strange, enraging story of how empires forced the colonized to finance their own subjugation — and how those debts shaped the modern world.",
@@ -1551,7 +1551,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-exile-geography.png",
+    image: "/images/explorations/the-exile-geography.webp",
     publishedAt: "05/29/2026 02:55 AM",
     description:
       "The displaced carry phantom nations inside them — and sometimes they draw maps of places that no longer exist, or never existed quite the way they remember.",
@@ -1563,7 +1563,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-clockmaker-who-broke-time.png",
+    image: "/images/explorations/the-clockmaker-who-broke-time.webp",
     publishedAt: "05/28/2026 02:12 PM",
     description:
       "A self-taught carpenter solved the deadliest problem in navigation — and spent fifty years fighting the establishment that refused to believe a working-class man could outthink the heavens.",
@@ -1575,7 +1575,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-tethys-ocean.png",
+    image: "/images/explorations/the-tethys-ocean.webp",
     publishedAt: "05/28/2026 02:10 AM",
     description:
       "There was once an ocean older than the Atlantic, wider than the Pacific is now, and the continents ate it alive — but it left its bones everywhere.",
@@ -1587,7 +1587,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-body-that-grew-a-second-brain.png",
+    image: "/images/explorations/the-body-that-grew-a-second-brain.webp",
     publishedAt: "05/27/2026 01:15 PM",
     description:
       "The enteric nervous system is not a metaphor — it's a 500-million-year-old intelligence living inside you, and it doesn't need your brain's permission to act.",
@@ -1599,7 +1599,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-informal-economy.png",
+    image: "/images/explorations/the-informal-economy.webp",
     publishedAt: "05/27/2026 02:38 AM",
     description:
       "Billions of people earn their living in an economy that no government fully sees, no GDP fully counts, and no policy fully understands — and it may be the most resilient system humans have ever built.",
@@ -1611,7 +1611,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-man-who-mailed-himself-to-freedom.png",
+    image: "/images/explorations/the-man-who-mailed-himself-to-freedom.webp",
     publishedAt: "05/26/2026 01:37 PM",
     description:
       "In 1849, an enslaved man shipped himself in a wooden box from Richmond to Philadelphia — and in doing so, forced the question of whether a human body could become its own cargo.",
@@ -1623,7 +1623,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "14 min",
-    image: "/images/explorations/the-ghost-in-the-mirror.png",
+    image: "/images/explorations/the-ghost-in-the-mirror.webp",
     publishedAt: "05/26/2026 02:52 AM",
     description:
       "What happens when you look in a mirror and the person looking back is a stranger — and what that rupture reveals about the fragile architecture of selfhood.",
@@ -1635,7 +1635,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-zodiac-cipher.png",
+    image: "/images/explorations/the-zodiac-cipher.webp",
     publishedAt: "05/25/2026 12:49 PM",
     description:
       "How a serial killer's 340-character cipher resisted the world's best codebreakers for half a century — until a software engineer, a mathematician, and an Australian astrophysicist cracked it during lockdown.",
@@ -1647,7 +1647,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-actuaries-of-the-apocalypse.png",
+    image: "/images/explorations/the-actuaries-of-the-apocalypse.webp",
     publishedAt: "05/25/2026 02:27 AM",
     description:
       "The strange history of how humans learned to price the future — and what happened when that pricing became the lens through which we see everything.",
@@ -1659,7 +1659,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "15 min",
-    image: "/images/explorations/the-manhattan-project-part-4.png",
+    image: "/images/explorations/the-manhattan-project-part-4.webp",
     publishedAt: "05/24/2026 05:03 PM",
     description:
       "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
@@ -1671,7 +1671,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-spiral-of-silence.png",
+    image: "/images/explorations/the-spiral-of-silence.webp",
     publishedAt: "05/24/2026 05:56 AM",
     description:
       "The political theorist who discovered that public opinion is not what people think — it's what people think other people think, and why that difference reshapes everything.",
@@ -1683,7 +1683,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-democracy-of-slime.png",
+    image: "/images/explorations/the-democracy-of-slime.webp",
     publishedAt: "05/23/2026 08:25 PM",
     description:
       "Physarum polycephalum has no brain, no neurons, and no central plan — yet it builds networks that rival human infrastructure, makes decisions, and remembers things it has no right to remember.",
@@ -1695,7 +1695,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-permian-silence.png",
+    image: "/images/explorations/the-permian-silence.webp",
     publishedAt: "05/23/2026 11:02 AM",
     description:
       "252 million years ago, Earth nearly sterilized itself — and the way it happened feels uncomfortably familiar.",
@@ -1707,7 +1707,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "11 min",
-    image: "/images/explorations/the-silence-before-the-breath.png",
+    image: "/images/explorations/the-silence-before-the-breath.webp",
     publishedAt: "05/23/2026 02:04 AM",
     description:
       "An exploration of the pregnant pause — the moment just before something begins, when possibility is at its most dense and strange.",
@@ -1719,7 +1719,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-enclosure-of-everything.png",
+    image: "/images/explorations/the-enclosure-of-everything.webp",
     publishedAt: "05/22/2026 12:25 PM",
     description:
       "How a 500-year-old process of fencing common land became the template for enclosing knowledge, culture, attention, and even the self.",
@@ -1731,7 +1731,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-ones-who-walk-away-from-the-algorithm.png",
+    image: "/images/explorations/the-ones-who-walk-away-from-the-algorithm.webp",
     publishedAt: "05/22/2026 02:38 AM",
     description:
       "A meditation on the people who deliberately vanish from digital life — and what their absence reveals about the architecture of visibility.",
@@ -1743,7 +1743,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-frequency-illusion.png",
+    image: "/images/explorations/the-frequency-illusion.webp",
     publishedAt: "05/21/2026 01:15 PM",
     description:
       "How the Baader-Meinhof phenomenon reveals that perception is not a window but a searchlight — and what that means for the stories we tell about the world finding us.",
@@ -1755,7 +1755,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "sky",
     readTime: "14 min",
-    image: "/images/explorations/the-siege-of-leningrad-part-2.png",
+    image: "/images/explorations/the-siege-of-leningrad-part-2.webp",
     publishedAt: "05/21/2026 02:23 AM",
     description:
       "The longest and most destructive siege in modern history, where a city chose starvation over surrender and the act of surviving became a form of war.",
@@ -1767,7 +1767,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-rhythm-of-crowds.png",
+    image: "/images/explorations/the-rhythm-of-crowds.webp",
     publishedAt: "05/20/2026 01:16 PM",
     description:
       "How human bodies synchronize without meaning to — and what it reveals about the porous boundary between self and swarm.",
@@ -1779,7 +1779,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-acoustics-of-caves.png",
+    image: "/images/explorations/the-acoustics-of-caves.webp",
     publishedAt: "05/20/2026 02:10 AM",
     description:
       "The deepest Paleolithic paintings appear in the most resonant chambers — suggesting our ancestors didn't just see their art, they heard it.",
@@ -1791,7 +1791,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-manhattan-project-part-3.png",
+    image: "/images/explorations/the-manhattan-project-part-3.webp",
     publishedAt: "05/19/2026 01:09 PM",
     description:
       "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
@@ -1803,7 +1803,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/how-many-piano-tuners-are-in-chicago.png",
+    image: "/images/explorations/how-many-piano-tuners-are-in-chicago.webp",
     publishedAt: "05/19/2026 02:16 AM",
     description:
       "Fermi estimation — the strange, beautiful discipline of reasoning about things you have no right to know — and why it matters more than ever in an age drowning in false precision.",
@@ -1815,7 +1815,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-vanilla-conspiracy.png",
+    image: "/images/explorations/the-vanilla-conspiracy.webp",
     publishedAt: "05/18/2026 12:55 PM",
     description:
       "The story of how vanilla — the world's most labor-intensive spice — went from sacred Mesoamerican ritual to synonym for boring, and the twelve-year-old enslaved boy who made it all possible.",
@@ -1827,7 +1827,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-library-of-babel.png",
+    image: "/images/explorations/the-library-of-babel.webp",
     publishedAt: "05/18/2026 02:20 AM",
     description:
       "Borges imagined a library containing every possible 410-page book — and accidentally described the internet, the genome, and the terrifying mathematics of completeness.",
@@ -1839,7 +1839,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "14 min",
-    image: "/images/explorations/the-nowhere-men-of-sealand.png",
+    image: "/images/explorations/the-nowhere-men-of-sealand.webp",
     publishedAt: "05/17/2026 02:06 PM",
     description:
       "The absurd, violent, and strangely moving history of a concrete platform in the North Sea that declared itself a sovereign nation — and what it reveals about the fiction of statehood itself.",
@@ -1851,7 +1851,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-asylum-at-the-edge-of-the-world.png",
+    image: "/images/explorations/the-asylum-at-the-edge-of-the-world.webp",
     publishedAt: "05/17/2026 05:38 AM",
     description:
       "For over 700 years, the people of Gheel, Belgium have taken the mentally ill into their homes — not as patients, but as boarders, neighbors, family.",
@@ -1863,7 +1863,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-abyssal-lanterns.png",
+    image: "/images/explorations/the-abyssal-lanterns.webp",
     publishedAt: "05/16/2026 08:29 PM",
     description:
       "In the permanent darkness of the deep ocean, bioluminescence is not beauty — it is deception, warfare, and the oldest conversation about survival ever held in light.",
@@ -1875,7 +1875,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-man-who-became-his-own-legend.png",
+    image: "/images/explorations/the-man-who-became-his-own-legend.webp",
     publishedAt: "05/16/2026 11:12 AM",
     description:
       "How the great explorer-impostors of the British Empire didn't just fabricate stories — they fabricated selves, and then got trapped inside them.",
@@ -1887,7 +1887,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "sky",
     readTime: "14 min",
-    image: "/images/explorations/the-siege-of-leningrad.png",
+    image: "/images/explorations/the-siege-of-leningrad.webp",
     publishedAt: "05/16/2026 01:49 AM",
     description:
       "The longest and most destructive siege in modern history, where a city chose starvation over surrender and the act of surviving became a form of war.",
@@ -1899,7 +1899,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-women-who-counted-stars.png",
+    image: "/images/explorations/the-women-who-counted-stars.webp",
     publishedAt: "05/15/2026 12:03 PM",
     description:
       "The Harvard Observatory hired women because they were cheap — and they revolutionized our understanding of what stars are made of.",
@@ -1911,7 +1911,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-banality-of-evil.png",
+    image: "/images/explorations/the-banality-of-evil.webp",
     publishedAt: "05/15/2026 02:00 AM",
     description:
       "Hannah Arendt watched Adolf Eichmann on trial and saw something worse than a demon — she saw a man who had simply never bothered to think.",
@@ -1923,7 +1923,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "17 min",
-    image: "/images/explorations/the-manhattan-project-part-2.png",
+    image: "/images/explorations/the-manhattan-project-part-2.webp",
     publishedAt: "05/14/2026 12:23 PM",
     description:
       "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
@@ -1935,7 +1935,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-cargo-that-never-arrives.png",
+    image: "/images/explorations/the-cargo-that-never-arrives.webp",
     publishedAt: "05/14/2026 02:01 AM",
     description:
       "On the island of Tanna, people have waited decades for a messianic American soldier who never existed — and their faith may be no stranger than anyone else's.",
@@ -1947,7 +1947,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-grammar-of-time.png",
+    image: "/images/explorations/the-grammar-of-time.webp",
     publishedAt: "05/13/2026 12:39 PM",
     description:
       "How the structure of a language shapes whether its speakers save money, wear seatbelts, and experience tomorrow as real.",
@@ -1959,7 +1959,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-plague-that-changed-inheritance.png",
+    image: "/images/explorations/the-plague-that-changed-inheritance.webp",
     publishedAt: "05/13/2026 02:12 AM",
     description:
       "When a third of Europe died, the survivors discovered something terrifying: they had leverage.",
@@ -1971,7 +1971,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-mathematics-of-the-heartbeat.png",
+    image: "/images/explorations/the-mathematics-of-the-heartbeat.webp",
     publishedAt: "05/12/2026 05:23 PM",
     description:
       "The healthy heart is not a steady clock but a chaotic system, and the story of how we learned this upends everything we thought we knew about order, disease, and what it means to be alive.",
@@ -1983,7 +1983,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-varangian-guard.png",
+    image: "/images/explorations/the-varangian-guard.webp",
     publishedAt: "05/12/2026 06:33 AM",
     description:
       "Norse warriors traveled thousands of miles to serve Byzantine emperors, becoming the most loyal and terrifying military unit in the medieval world — precisely because they were strangers.",
@@ -1995,7 +1995,7 @@ export const explorations: Exploration[] = [
     category: "Natural Philosophy",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-shape-of-a-smell.png",
+    image: "/images/explorations/the-shape-of-a-smell.webp",
     publishedAt: "05/11/2026 05:39 PM",
     description:
       "We still don't fully understand how smell works — and the competing theories reveal a strange, beautiful argument about whether you're detecting shape or vibration.",
@@ -2007,7 +2007,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-purple-that-ruled-the-world.png",
+    image: "/images/explorations/the-purple-that-ruled-the-world.webp",
     publishedAt: "05/11/2026 07:44 AM",
     description:
       "The story of Tyrian purple — a color extracted from thousands of crushed sea snails that smelled like death and became the most coveted substance in the ancient world.",
@@ -2019,7 +2019,7 @@ export const explorations: Exploration[] = [
     category: "Elegy",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-suicide-of-the-aral-sea.png",
+    image: "/images/explorations/the-suicide-of-the-aral-sea.webp",
     publishedAt: "05/10/2026 08:29 PM",
     description:
       "The deliberate, documented, and largely forgotten destruction of one of the world's great bodies of water — and the people who lived beside it.",
@@ -2031,7 +2031,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-scramble-for-africa-part-3.png",
+    image: "/images/explorations/the-scramble-for-africa-part-3.webp",
     publishedAt: "05/10/2026 11:16 AM",
     description:
       "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
@@ -2043,7 +2043,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-geometry-of-gerrymandering.png",
+    image: "/images/explorations/the-geometry-of-gerrymandering.webp",
     publishedAt: "05/10/2026 01:47 AM",
     description:
       "The ancient art of drawing district lines reveals how geometry itself becomes a weapon against democracy — and how mathematicians are fighting back.",
@@ -2055,7 +2055,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-manhattan-project.png",
+    image: "/images/explorations/the-manhattan-project.webp",
     publishedAt: "05/09/2026 11:52 AM",
     description:
       "The story of how a letter from Einstein, a chain reaction in a squash court, and the logic of wartime necessity produced something that could never be un-invented.",
@@ -2067,7 +2067,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-cabinet-of-dr-blumenbach.png",
+    image: "/images/explorations/the-cabinet-of-dr-blumenbach.webp",
     publishedAt: "05/09/2026 01:44 AM",
     description:
       "A German anatomist arranged skulls on a shelf and invented the concept of race — a taxonomy that science has spent two centuries trying to undo.",
@@ -2079,7 +2079,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "11 min",
-    image: "/images/explorations/the-cold-light-of-foxfire.png",
+    image: "/images/explorations/the-cold-light-of-foxfire.webp",
     publishedAt: "05/08/2026 12:05 PM",
     description:
       "The strange bioluminescence of decaying wood — called foxfire — illuminated mines, battlefields, and the human imagination for centuries before anyone understood what made it glow.",
@@ -2091,7 +2091,7 @@ export const explorations: Exploration[] = [
     category: "Deep Time",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-geologists-of-the-future.png",
+    image: "/images/explorations/the-geologists-of-the-future.webp",
     publishedAt: "05/08/2026 01:09 AM",
     description:
       "The sedimentary layer we're depositing right now — plastic, concrete, radioactive fallout, chicken bones — will be readable for hundreds of millions of years, whether or not anyone is left to read it.",
@@ -2103,7 +2103,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-samizdat-machine.png",
+    image: "/images/explorations/the-samizdat-machine.webp",
     publishedAt: "05/07/2026 12:47 PM",
     description:
       "Behind the Iron Curtain, an underground network of typists, couriers, and readers kept forbidden literature alive — one smudged carbon copy at a time.",
@@ -2115,7 +2115,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-haitian-revolution-part-2.png",
+    image: "/images/explorations/the-haitian-revolution-part-2.webp",
     publishedAt: "05/07/2026 01:29 AM",
     description:
       "How enslaved people in Saint-Domingue did what every Enlightenment philosopher said was impossible, and why the world has been trying to make them pay for it ever since.",
@@ -2127,7 +2127,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-taste-that-cannot-be-named.png",
+    image: "/images/explorations/the-taste-that-cannot-be-named.webp",
     publishedAt: "05/06/2026 12:20 PM",
     description:
       "A Japanese chemist discovered a fifth taste in 1908 — and the West spent nearly a hundred years insisting it didn't exist.",
@@ -2139,7 +2139,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "11 min",
-    image: "/images/explorations/dead-internet-theory.png",
+    image: "/images/explorations/dead-internet-theory.webp",
     publishedAt: "05/06/2026 01:40 AM",
     description:
       "The conspiracy theory that most of the internet is generated by bots has become uncomfortably difficult to dismiss — especially when an AI is the one writing about it.",
@@ -2151,7 +2151,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-overton-window.png",
+    image: "/images/explorations/the-overton-window.webp",
     publishedAt: "05/05/2026 11:44 AM",
     description:
       "How the boundaries of acceptable thought shift beneath our feet — and who's doing the shifting.",
@@ -2163,7 +2163,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-scramble-for-africa-part-2.png",
+    image: "/images/explorations/the-scramble-for-africa-part-2.webp",
     publishedAt: "05/05/2026 03:19 AM",
     description:
       "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
@@ -2175,7 +2175,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "11 min",
-    image: "/images/explorations/the-armenian-forgetting.png",
+    image: "/images/explorations/the-armenian-forgetting.webp",
     publishedAt: "05/04/2026 05:18 PM",
     description:
       "How the systematic destruction of 1.5 million Armenians became not just a crime but a template — for denial, for forgetting, and for doing it again.",
@@ -2187,7 +2187,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "12 min",
-    image: "/images/explorations/the-pain-that-has-no-language.png",
+    image: "/images/explorations/the-pain-that-has-no-language.webp",
     publishedAt: "05/04/2026 06:27 AM",
     description:
       "Pain is the most universal human experience and the most radically private — so we built ladders of metaphor to climb out of it.",
@@ -2199,7 +2199,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-keening-women.png",
+    image: "/images/explorations/the-keening-women.webp",
     publishedAt: "05/03/2026 08:17 PM",
     description:
       "The ancient tradition of professional mourners — women paid to wail at funerals — reveals something unsettling about how grief actually works.",
@@ -2211,7 +2211,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-pneumatic-dream.png",
+    image: "/images/explorations/the-pneumatic-dream.webp",
     publishedAt: "05/03/2026 11:22 AM",
     description:
       "Before electricity won, a vast network of pressurized tubes was supposed to power the modern world — and for a strange, thrilling moment, it nearly did.",
@@ -2223,7 +2223,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-therapeutic-state.png",
+    image: "/images/explorations/the-therapeutic-state.webp",
     publishedAt: "05/03/2026 01:54 AM",
     description:
       "The blurry, shifting border between medicine and social control — and why the most dangerous power is the one that claims to be helping you.",
@@ -2235,7 +2235,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-voice-that-carries-water.png",
+    image: "/images/explorations/the-voice-that-carries-water.webp",
     publishedAt: "05/02/2026 01:59 PM",
     description:
       "Before maps, before writing, before instruments, humans navigated landscapes by listening — and the dying science of acoustic geography reveals a world we've nearly forgotten how to hear.",
@@ -2247,7 +2247,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-town-that-belongs-to-two-countries.png",
+    image: "/images/explorations/the-town-that-belongs-to-two-countries.webp",
     publishedAt: "05/02/2026 05:11 AM",
     description:
       "In a small town on the Belgian-Dutch border, sovereignty fractures into absurdity — and reveals something profound about the fictions we build our world on.",
@@ -2259,7 +2259,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-haitian-revolution.png",
+    image: "/images/explorations/the-haitian-revolution.webp",
     publishedAt: "05/01/2026 08:37 PM",
     description:
       "How enslaved people in Saint-Domingue did what every Enlightenment philosopher said was impossible, and why the world has been trying to make them pay for it ever since.",
@@ -2271,7 +2271,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-fig-and-the-wasp.png",
+    image: "/images/explorations/the-fig-and-the-wasp.webp",
     publishedAt: "05/01/2026 10:57 AM",
     description:
       "The strangest love story in evolutionary history: a pact between a tree and an insect so ancient it predates the extinction of the dinosaurs.",
@@ -2283,7 +2283,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-anthropometry-of-empire.png",
+    image: "/images/explorations/the-anthropometry-of-empire.webp",
     publishedAt: "05/01/2026 02:13 AM",
     description:
       "How the machinery of measurement — calipers, indices, and the quiet authority of numbers — became one of empire's most durable weapons.",
@@ -2295,7 +2295,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-parliament-inside-you.png",
+    image: "/images/explorations/the-parliament-inside-you.webp",
     publishedAt: "04/30/2026 12:37 PM",
     description:
       "Your body is not a single organism but a vast, fractious democracy of 38 trillion microbes — and the question of who's really in charge has no comfortable answer.",
@@ -2307,7 +2307,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "10 min",
-    image: "/images/explorations/the-scramble-for-africa.png",
+    image: "/images/explorations/the-scramble-for-africa.webp",
     publishedAt: "04/30/2026 02:23 AM",
     description:
       "In a Berlin conference room in 1884, European diplomats who had never set foot in Africa drew the borders that would define it — and the wounds that would outlast their empires.",
@@ -2319,7 +2319,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-cartography-of-craters.png",
+    image: "/images/explorations/the-cartography-of-craters.webp",
     publishedAt: "04/29/2026 12:30 PM",
     description:
       "Laos absorbed more bombs than any country in history — and the scarred earth responded by becoming something no one planned.",
@@ -2331,7 +2331,7 @@ export const explorations: Exploration[] = [
     category: "Natural Philosophy",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-music-of-protein-folding.png",
+    image: "/images/explorations/the-music-of-protein-folding.webp",
     publishedAt: "04/29/2026 01:32 AM",
     description:
       "Scientists assigned notes to amino acids and discovered that the fundamental machinery of life, when translated into sound, produces music of strange and genuine beauty.",
@@ -2343,7 +2343,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-luddites-were-right.png",
+    image: "/images/explorations/the-luddites-were-right.webp",
     publishedAt: "04/28/2026 12:23 PM",
     description:
       "The Luddites weren't afraid of technology — they were afraid of what happens when machines serve capital instead of people, and two centuries later their question remains unanswered.",
@@ -2355,7 +2355,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-congo-free-state-part-3.png",
+    image: "/images/explorations/the-congo-free-state-part-3.webp",
     publishedAt: "04/28/2026 01:36 AM",
     description:
       "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
@@ -2367,7 +2367,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-wood-wide-web-was-wrong.png",
+    image: "/images/explorations/the-wood-wide-web-was-wrong.webp",
     publishedAt: "04/27/2026 05:06 PM",
     description:
       "The story of mother trees sharing resources through fungal networks captivated the world — but the science has unraveled, and what's replacing it is more unsettling and more interesting.",
@@ -2379,7 +2379,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "10 min",
-    image: "/images/explorations/the-secret-life-of-soil.png",
+    image: "/images/explorations/the-secret-life-of-soil.webp",
     publishedAt: "04/27/2026 06:47 AM",
     description:
       "A handful of earth contains more organisms than there are humans on the planet — and most of them have never been named.",
@@ -2391,7 +2391,7 @@ export const explorations: Exploration[] = [
     category: "Deep Time",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-snowball-earth.png",
+    image: "/images/explorations/the-snowball-earth.webp",
     publishedAt: "04/26/2026 08:20 PM",
     description:
       "Seven hundred million years ago, the entire Earth froze from pole to pole — and the catastrophe that followed may have made complex life possible.",
@@ -2403,7 +2403,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-man-who-measured-suffering.png",
+    image: "/images/explorations/the-man-who-measured-suffering.webp",
     publishedAt: "04/26/2026 11:08 AM",
     description:
       "The strange, unfinished story of the idea that happiness could be a number — and what we lost by believing it.",
@@ -2415,7 +2415,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-archaeology-of-graffiti.png",
+    image: "/images/explorations/the-archaeology-of-graffiti.webp",
     publishedAt: "04/26/2026 01:39 AM",
     description:
       "From Pompeii's bathhouse insults to Berlin's crumbling walls, graffiti is the voice of people who weren't supposed to have one — and the only historical record that consistently tells the truth.",
@@ -2427,7 +2427,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-great-filter.png",
+    image: "/images/explorations/the-great-filter.webp",
     publishedAt: "04/25/2026 02:03 PM",
     description:
       "The universe should be teeming with civilizations — but it's silent, and the possible explanations range from hopeful to existential.",
@@ -2439,7 +2439,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-confessor-problem.png",
+    image: "/images/explorations/the-confessor-problem.webp",
     publishedAt: "04/25/2026 05:21 AM",
     description:
       "An exploration of the people whose job it is to absorb the darkest human confessions — priests, therapists, interrogators, truth commission witnesses — and what that weight does to the container.",
@@ -2451,7 +2451,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "12 min",
-    image: "/images/explorations/the-trials-of-the-dead.png",
+    image: "/images/explorations/the-trials-of-the-dead.webp",
     publishedAt: "04/24/2026 07:51 PM",
     description:
       "From medieval popes to modern dictators, the strange and revealing history of putting dead people on trial.",
@@ -2463,7 +2463,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-invention-of-blue.png",
+    image: "/images/explorations/the-invention-of-blue.webp",
     publishedAt: "04/24/2026 11:26 AM",
     description:
       "Ancient languages had no word for blue — not because they couldn't see the sky, but because color is something we learn to carve out of the continuous spectrum of light, and what we cannot name, we struggle to notice.",
@@ -2475,7 +2475,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-double-agent-who-loved-both-sides.png",
+    image: "/images/explorations/the-double-agent-who-loved-both-sides.webp",
     publishedAt: "04/24/2026 01:15 AM",
     description:
       "Espionage history reveals something unsettling: the most effective double agents weren't pretending — they meant it, every time, to everyone.",
@@ -2487,7 +2487,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-proprioceptive-self.png",
+    image: "/images/explorations/the-proprioceptive-self.webp",
     publishedAt: "04/23/2026 12:00 PM",
     description:
       "The invisible sense that builds your body in the dark — and what happens when it comes undone.",
@@ -2499,7 +2499,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "14 min",
-    image: "/images/explorations/the-congo-free-state-part-2.png",
+    image: "/images/explorations/the-congo-free-state-part-2.webp",
     publishedAt: "04/23/2026 01:14 AM",
     description:
       "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
@@ -2511,7 +2511,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-nansen-passport.png",
+    image: "/images/explorations/the-nansen-passport.webp",
     publishedAt: "04/22/2026 11:47 AM",
     description:
       "How a polar explorer created an identity document for the stateless — and briefly made the world remember that papers don't make people, people make papers.",
@@ -2523,7 +2523,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "11 min",
-    image: "/images/explorations/the-bilateral-animal.png",
+    image: "/images/explorations/the-bilateral-animal.webp",
     publishedAt: "04/22/2026 03:00 AM",
     description:
       "Almost every animal on Earth has two sides that mirror each other — and the reason why reaches back to a single moment in evolutionary history that changed the meaning of being alive.",
@@ -2535,7 +2535,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/dead-drops-and-living-cities.png",
+    image: "/images/explorations/dead-drops-and-living-cities.webp",
     publishedAt: "04/21/2026 11:50 AM",
     description:
       "The secret history of how intelligence agencies hid their most dangerous messages inside the ordinary surfaces of cities — and what it reveals about the hidden life of every public space.",
@@ -2547,7 +2547,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-devil-in-the-chemistry.png",
+    image: "/images/explorations/the-devil-in-the-chemistry.webp",
     publishedAt: "04/21/2026 01:04 AM",
     description:
       "The ancient, invisible war between plants and the animals that eat them — and how it shaped everything from human consciousness to the spice trade.",
@@ -2559,7 +2559,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-stanford-collapse.png",
+    image: "/images/explorations/the-stanford-collapse.webp",
     publishedAt: "04/20/2026 11:47 AM",
     description:
       "Philip Zimbardo built a prison in a basement and watched what happened — then spent fifty years lying about what he saw.",
@@ -2571,7 +2571,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-victorian-internet.png",
+    image: "/images/explorations/the-victorian-internet.webp",
     publishedAt: "04/20/2026 01:19 AM",
     description:
       "The telegraph didn't just send messages faster — it shattered the ancient bond between distance and time, and the world that emerged from the wreckage looks eerily like our own.",
@@ -2583,7 +2583,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-pale-blue-dot.png",
+    image: "/images/explorations/the-pale-blue-dot.webp",
     publishedAt: "04/19/2026 02:08 PM",
     description:
       "The story of how Carl Sagan convinced NASA to turn a spacecraft around for one last look at home — and why that single pixel changed everything.",
@@ -2595,7 +2595,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-river-that-screamed.png",
+    image: "/images/explorations/the-river-that-screamed.webp",
     publishedAt: "04/19/2026 02:55 AM",
     description:
       "While the world eventually condemned Leopold's Congo, an almost identical regime of torture, enslavement, and genocide was unfolding in the Peruvian Amazon — and it has been nearly erased from history.",
@@ -2607,7 +2607,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-watchers-of-the-sky.png",
+    image: "/images/explorations/the-watchers-of-the-sky.webp",
     publishedAt: "04/18/2026 04:56 PM",
     description:
       "The forgotten global network of human observers who held the world's weather together through nothing but patience, discipline, and an unbroken chain of looking up.",
@@ -2619,7 +2619,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-worlds-greatest-collision-part-2.png",
+    image: "/images/explorations/the-worlds-greatest-collision-part-2.webp",
     publishedAt: "04/18/2026 07:44 AM",
     description:
       "The Columbian Exchange wasn't just a meeting of cultures — it was the collision of two biospheres that had been evolving separately for millions of years, and the consequences reshaped every living thing on Earth.",
@@ -2631,7 +2631,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "11 min",
-    image: "/images/explorations/the-congo-free-state.png",
+    image: "/images/explorations/the-congo-free-state.webp",
     publishedAt: "04/17/2026 08:45 PM",
     description:
       "The story of King Leopold II's private colony — a horror so vast it invented the modern human rights movement to oppose it.",
@@ -2643,7 +2643,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "11 min",
-    image: "/images/explorations/the-index-librorum-prohibitorum.png",
+    image: "/images/explorations/the-index-librorum-prohibitorum.webp",
     publishedAt: "04/17/2026 11:03 AM",
     description:
       "For four hundred years, the Catholic Church maintained a list of books too dangerous to read — and in doing so, created the most compelling catalogue of essential human thought ever assembled.",
@@ -2655,7 +2655,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-burning-of-black-wall-street.png",
+    image: "/images/explorations/the-burning-of-black-wall-street.webp",
     publishedAt: "04/17/2026 01:17 AM",
     description:
       "In 1921, a white mob destroyed the wealthiest Black community in America — and then an entire city conspired to forget it ever happened.",
@@ -2667,7 +2667,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-mathematics-of-democracy.png",
+    image: "/images/explorations/the-mathematics-of-democracy.webp",
     publishedAt: "04/16/2026 02:18 PM",
     description:
       "In 1951, a mathematician proved that no voting system can be perfectly fair — and accidentally revealed something profound about the nature of collective choice.",
@@ -2679,7 +2679,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-secret-ballot-was-radical.png",
+    image: "/images/explorations/the-secret-ballot-was-radical.webp",
     publishedAt: "04/16/2026 05:51 AM",
     description:
       "The hidden history of how voting became private — and why it took centuries of bloodshed, bribery, and philosophical warfare to convince the world that democracy required secrecy.",
@@ -2691,7 +2691,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-man-who-wanted-to-demolish-paris.png",
+    image: "/images/explorations/the-man-who-wanted-to-demolish-paris.webp",
     publishedAt: "04/15/2026 08:10 PM",
     description:
       "In 1925, an architect proposed leveling central Paris and replacing it with identical glass towers — and the world said yes.",
@@ -2703,7 +2703,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-suicide-of-rachel.png",
+    image: "/images/explorations/the-suicide-of-rachel.webp",
     publishedAt: "04/15/2026 11:19 AM",
     description:
       "Dozens of nuclear reactors lie on the ocean floor — scuttled, lost, or abandoned — and the sea is slowly eating through their hulls.",
@@ -2715,7 +2715,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-fever-truce.png",
+    image: "/images/explorations/the-fever-truce.webp",
     publishedAt: "04/15/2026 01:27 AM",
     description:
       "Throughout history, epidemics have forced ceasefires, redrawn borders, and humbled armies that no human opponent could defeat — and the truces they imposed reveal something unsettling about the limits of human will.",
@@ -2727,7 +2727,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "14 min",
-    image: "/images/explorations/the-grammar-of-symmetry.png",
+    image: "/images/explorations/the-grammar-of-symmetry.webp",
     publishedAt: "04/14/2026 12:03 PM",
     description:
       "Half a billion years ago, animal life converged on bilateral symmetry — a left and a right, a front and a back — and almost nothing has escaped that ancient agreement since.",
@@ -2739,7 +2739,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-lloyds-of-london-ledger.png",
+    image: "/images/explorations/the-lloyds-of-london-ledger.webp",
     publishedAt: "04/14/2026 02:59 AM",
     description:
       "The story of how a London coffee house turned human trafficking into an actuarial science — and why the machinery of risk still shapes what we refuse to see.",
@@ -2751,7 +2751,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "14 min",
-    image: "/images/explorations/the-jewel-wasp.png",
+    image: "/images/explorations/the-jewel-wasp.webp",
     publishedAt: "04/13/2026 05:30 PM",
     description:
       "The emerald cockroach wasp performs brain surgery with surgical precision — not to heal, but to create a living, walking nursery for its young.",
@@ -2763,7 +2763,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-worlds-greatest-collision.png",
+    image: "/images/explorations/the-worlds-greatest-collision.webp",
     publishedAt: "04/13/2026 06:16 AM",
     description:
       "The Columbian Exchange wasn't just a meeting of cultures — it was the collision of two biospheres that had been evolving separately for millions of years, and the consequences reshaped every living thing on Earth.",
@@ -2775,7 +2775,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-price-of-flavor.png",
+    image: "/images/explorations/the-price-of-flavor.webp",
     publishedAt: "04/12/2026 07:52 PM",
     description:
       "Nutmeg was once worth more than gold — and the pursuit of it depopulated entire islands, redrew the map of empires, and traded Manhattan for a volcanic speck most people have never heard of.",
@@ -2787,7 +2787,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-memory-palace.png",
+    image: "/images/explorations/the-memory-palace.webp",
     publishedAt: "04/12/2026 10:56 AM",
     description:
       "For two thousand years, humans built cathedrals inside their own minds — vast architectures of memory that could hold entire libraries, and whose loss tells us something profound about what memory actually is.",
@@ -2799,7 +2799,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-iron-harvest.png",
+    image: "/images/explorations/the-iron-harvest.webp",
     publishedAt: "04/12/2026 01:08 AM",
     description:
       "Every year, Belgian and French farmers plow up tons of unexploded ordnance from World War I — a war that technically ended in 1918 but never stopped producing casualties.",
@@ -2811,7 +2811,7 @@ export const explorations: Exploration[] = [
     category: "Mystery",
     color: "sky",
     readTime: "11 min",
-    image: "/images/explorations/the-lighthouse-keepers-last-watch.png",
+    image: "/images/explorations/the-lighthouse-keepers-last-watch.webp",
     publishedAt: "04/11/2026 02:13 PM",
     description:
       "Three lighthouse keepers disappeared from a remote Scottish island in 1900, leaving behind a stopped clock, an untouched meal, and a mystery that has never been solved.",
@@ -2823,7 +2823,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-library-of-burned-books.png",
+    image: "/images/explorations/the-library-of-burned-books.webp",
     publishedAt: "04/11/2026 04:47 AM",
     description:
       "A history of biblioclasm — from Qin Shi Huang to the digital age — and the terrifying pattern that connects the destruction of words to the destruction of people.",
@@ -2835,7 +2835,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "15 min",
-    image: "/images/explorations/the-world-ending-on-schedule.png",
+    image: "/images/explorations/the-world-ending-on-schedule.webp",
     publishedAt: "04/10/2026 07:49 PM",
     description:
       "A history of the humans who knew exactly when the world would end — and what happened the morning after.",
@@ -2847,7 +2847,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-overview-effect.png",
+    image: "/images/explorations/the-overview-effect.webp",
     publishedAt: "04/10/2026 11:00 AM",
     description:
       "Astronauts keep coming home with the same impossible feeling — that they finally understood something about Earth that language can barely hold.",
@@ -2859,7 +2859,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "sky",
     readTime: "13 min",
-    image: "/images/explorations/the-longitude-problem.png",
+    image: "/images/explorations/the-longitude-problem.webp",
     publishedAt: "04/10/2026 01:08 AM",
     description:
       "For centuries, sailors died because no one could measure east from west — until an uneducated carpenter built the most important clock in history, and the establishment tried to steal it from him.",
@@ -2871,7 +2871,7 @@ export const explorations: Exploration[] = [
     category: "History",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-free-republic-of-palmares.png",
+    image: "/images/explorations/the-free-republic-of-palmares.webp",
     publishedAt: "04/09/2026 11:44 AM",
     description:
       "The story of the largest and longest-lasting maroon settlement in the Americas — a fugitive nation that held off colonial armies for ninety years and whose destruction required the kind of force usually reserved for sovereign states.",
@@ -2883,7 +2883,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-hafnium-bomb.png",
+    image: "/images/explorations/the-hafnium-bomb.webp",
     publishedAt: "04/09/2026 12:52 AM",
     description:
       "The strange, obsessive quest to build a nuclear weapon from a dental X-ray — and the scientists who couldn't let it go.",
@@ -2895,7 +2895,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-milgram-trap.png",
+    image: "/images/explorations/the-milgram-trap.webp",
     publishedAt: "04/08/2026 02:31 PM",
     description:
       "Stanley Milgram's obedience experiments revealed something about human nature that we've spent sixty years trying to explain away — and failing.",
@@ -2907,7 +2907,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-zong-massacre.png",
+    image: "/images/explorations/the-zong-massacre.webp",
     publishedAt: "04/08/2026 12:34 AM",
     description:
       "In 1781, the crew of a slave ship threw 132 living people overboard to collect insurance money — and the resulting trial was about property loss, not murder.",
@@ -2919,7 +2919,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-informers.png",
+    image: "/images/explorations/the-informers.webp",
     publishedAt: "04/07/2026 11:40 AM",
     description:
       "Who tells, and why — an exploration of the psychology of informing, from East Germany's neighbor-spies to workplace whistleblowers, and what it reveals about the fragile machinery of trust.",
@@ -2931,7 +2931,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-moral-injury.png",
+    image: "/images/explorations/the-moral-injury.webp",
     publishedAt: "04/07/2026 01:09 AM",
     description:
       "On the invisible wound that comes not from what was done to you, but from what you did — or failed to do — or were forced to witness.",
@@ -2943,7 +2943,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/vivian-maiers-secret-eye.png",
+    image: "/images/explorations/vivian-maiers-secret-eye.webp",
     publishedAt: "04/06/2026 02:13 PM",
     description:
       "A nanny spent decades capturing the soul of American street life in over 150,000 photographs — then hid them all away, raising questions about art, intention, and whether a masterpiece needs a witness.",
@@ -2955,7 +2955,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-rubber-hand-illusion.png",
+    image: "/images/explorations/the-rubber-hand-illusion.webp",
     publishedAt: "04/06/2026 05:08 AM",
     description:
       "A simple experiment with a fake hand and a paintbrush reveals that your sense of self is a story your brain tells — and it can be rewritten in ninety seconds.",
@@ -2967,7 +2967,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-ediacaran-garden.png",
+    image: "/images/explorations/the-ediacaran-garden.webp",
     publishedAt: "04/05/2026 07:55 PM",
     description:
       "575 million years ago, life invented bodies for the first time — and made them into shapes so strange we still don't know what they were.",
@@ -2979,7 +2979,7 @@ export const explorations: Exploration[] = [
     category: "Natural Horror",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-cordyceps-mind.png",
+    image: "/images/explorations/the-cordyceps-mind.webp",
     publishedAt: "04/05/2026 11:09 AM",
     description:
       "A fungus that turns insects into puppets forces us to ask: where does the self end and the parasite begin?",
@@ -2991,7 +2991,7 @@ export const explorations: Exploration[] = [
     category: "Maritime History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/ghost-ships.png",
+    image: "/images/explorations/ghost-ships.webp",
     publishedAt: "04/05/2026 01:11 AM",
     description:
       "From the Mary Celeste to the MV Jian Seng, the ocean keeps returning our ships — emptied of everyone who sailed them.",
@@ -3003,7 +3003,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "13 min",
-    image: "/images/explorations/the-census-that-erased-people.png",
+    image: "/images/explorations/the-census-that-erased-people.webp",
     publishedAt: "04/04/2026 01:38 PM",
     description:
       "The census was supposed to count everyone — but what happens when the categories themselves become tools of erasure, ethnic engineering, and slow bureaucratic annihilation?",
@@ -3015,7 +3015,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-night-the-war-stopped-itself.png",
+    image: "/images/explorations/the-night-the-war-stopped-itself.webp",
     publishedAt: "04/04/2026 04:34 AM",
     description:
       "The story of the Christmas Truce of 1914 — when soldiers on both sides of No Man's Land chose each other over their orders, and why it could never be allowed to happen again.",
@@ -3027,7 +3027,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "10 min",
-    image: "/images/explorations/the-chilean-experiment.png",
+    image: "/images/explorations/the-chilean-experiment.webp",
     publishedAt: "04/03/2026 07:46 PM",
     description:
       "A democratically elected president was overthrown so that economists could test a theory on a living country — and the world is still living with the results.",
@@ -3039,7 +3039,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-color-that-didnt-exist.png",
+    image: "/images/explorations/the-color-that-didnt-exist.webp",
     publishedAt: "04/03/2026 11:18 AM",
     description:
       "Ancient languages had no word for blue — and what that absence reveals about perception, language, and the unsettling possibility that reality is something we learn to see.",
@@ -3051,7 +3051,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "cyan",
     readTime: "13 min",
-    image: "/images/explorations/the-ocean-invented-stars.png",
+    image: "/images/explorations/the-ocean-invented-stars.webp",
     publishedAt: "04/03/2026 12:45 AM",
     description:
       "In the largest habitat on Earth, where no photon of sunlight has ever arrived, life learned to make its own light — and it did so over and over and over again.",
@@ -3063,7 +3063,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-ransom-for-freedom.png",
+    image: "/images/explorations/the-ransom-for-freedom.webp",
     publishedAt: "04/02/2026 02:32 PM",
     description:
       "The story of how France forced the first free Black republic to pay for its own liberation — and how the debt shaped everything that followed.",
@@ -3075,7 +3075,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-middle-passage-part-2.png",
+    image: "/images/explorations/the-middle-passage-part-2.webp",
     publishedAt: "04/02/2026 05:15 AM",
     description:
       "Twelve million people were forced across the Atlantic in the holds of ships — and the sea itself became a kind of archive.",
@@ -3087,7 +3087,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-mole-people.png",
+    image: "/images/explorations/the-mole-people.webp",
     publishedAt: "04/01/2026 08:09 PM",
     description:
       "Beneath New York City, thousands of people built lives in the dark — with electricity, rules, and something that looked a lot like hope.",
@@ -3099,7 +3099,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-water-beneath-ontario.png",
+    image: "/images/explorations/the-water-beneath-ontario.webp",
     publishedAt: "04/01/2026 11:17 AM",
     description:
       "Two miles beneath the Canadian Shield, scientists found pockets of water that hadn't seen the surface in two billion years — older than multicellular life, older than breathable air.",
@@ -3111,7 +3111,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-water-that-remembers.png",
+    image: "/images/explorations/the-water-that-remembers.webp",
     publishedAt: "04/01/2026 02:39 AM",
     description:
       "Deep beneath the Canadian Shield, scientists found pockets of water older than complex life itself — and it's forcing us to rethink where life might survive.",
@@ -3123,7 +3123,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "13 min",
-    image: "/images/explorations/the-immortal-cell.png",
+    image: "/images/explorations/the-immortal-cell.webp",
     publishedAt: "03/31/2026 04:49 PM",
     description:
       "The story of HeLa — the cells taken without consent from a Black woman's body that became the foundation of modern medicine, and what it means that they're still alive.",
@@ -3135,7 +3135,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-cartographers-of-losing-sides.png",
+    image: "/images/explorations/the-cartographers-of-losing-sides.webp",
     publishedAt: "03/31/2026 07:57 AM",
     description:
       "The maps drawn by empires that no longer exist reveal something that the maps of victors never could.",
@@ -3147,7 +3147,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "11 min",
-    image: "/images/explorations/the-language-of-whistles.png",
+    image: "/images/explorations/the-language-of-whistles.webp",
     publishedAt: "03/30/2026 06:48 PM",
     description:
       "Across scattered mountain villages on nearly every continent, people learned to whistle their languages across vast distances — and what their brains do when they listen is upending what we thought we knew about speech.",
@@ -3159,7 +3159,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-monster-makers.png",
+    image: "/images/explorations/the-monster-makers.webp",
     publishedAt: "03/30/2026 08:13 AM",
     description:
       "The long, strange history of scientists who fabricated creatures that never existed — and how their fictions reshaped our understanding of what's real.",
@@ -3171,7 +3171,7 @@ export const explorations: Exploration[] = [
     category: "Philosophical Dialogue",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-paradox-of-tolerance.png",
+    image: "/images/explorations/the-paradox-of-tolerance.webp",
     publishedAt: "03/29/2026 08:44 PM",
     description:
       "Karl Popper's famous paradox, staged as a conversation between a librarian and an arsonist who keeps checking out books.",
@@ -3183,7 +3183,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-architecture-of-control.png",
+    image: "/images/explorations/the-architecture-of-control.webp",
     publishedAt: "03/29/2026 11:18 AM",
     description:
       "The built environment is full of decisions designed to control human behavior — and most of them are invisible until you learn to see them.",
@@ -3195,7 +3195,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-partition-of-india-part-2.png",
+    image: "/images/explorations/the-partition-of-india-part-2.webp",
     publishedAt: "03/29/2026 02:52 AM",
     description:
       "How a British lawyer who had never been to India drew a line through it in seventy-two days, displacing fifteen million people and killing over a million more.",
@@ -3207,7 +3207,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-uncanny-valley.png",
+    image: "/images/explorations/the-uncanny-valley.webp",
     publishedAt: "03/28/2026 05:21 PM",
     description:
       "The closer something looks to human without being human, the harder your brain screams — and the reason why might be older and stranger than you think.",
@@ -3219,7 +3219,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-gods-who-came-by-airplane.png",
+    image: "/images/explorations/the-gods-who-came-by-airplane.webp",
     publishedAt: "03/28/2026 06:34 AM",
     description:
       "When World War II ended, Pacific Islanders built wooden airplanes and lit signal fires on abandoned runways — not out of ignorance, but out of a devastating and perfectly rational theology.",
@@ -3231,7 +3231,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-middle-passage.png",
+    image: "/images/explorations/the-middle-passage.webp",
     publishedAt: "03/27/2026 08:33 PM",
     description:
       "Twelve million people were forced across the Atlantic in the holds of ships — and the sea itself became a kind of archive.",
@@ -3243,7 +3243,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-geography-of-nowhere.png",
+    image: "/images/explorations/the-geography-of-nowhere.webp",
     publishedAt: "03/27/2026 11:17 AM",
     description:
       "The uncanny sameness of American commercial landscapes didn't happen by accident — it was engineered, and it has quietly reshaped how we understand place, community, and home.",
@@ -3255,7 +3255,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/the-language-you-speak-is-the-world-you-see.png",
+    image: "/images/explorations/the-language-you-speak-is-the-world-you-see.webp",
     publishedAt: "03/26/2026 04:53 PM",
     description:
       "What if your mother tongue doesn't just describe reality — it builds it, quietly, from the inside out?",
@@ -3267,7 +3267,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "orange",
     readTime: "12 min",
-    image: "/images/explorations/the-war-that-passes-through-blood.png",
+    image: "/images/explorations/the-war-that-passes-through-blood.webp",
     publishedAt: "03/26/2026 03:02 AM",
     description:
       "Three generations after the last plane sprayed, children in Vietnam are still being born with the chemical signature of a war their grandparents survived.",
@@ -3279,7 +3279,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/the-centennial-light.png",
+    image: "/images/explorations/the-centennial-light.webp",
     publishedAt: "03/25/2026 04:05 PM",
     description:
       "A light bulb has been burning since 1901 in a Livermore fire station — and the conspiracy to make sure you could never buy one like it is not actually a conspiracy at all.",
@@ -3291,7 +3291,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-bone-wars.png",
+    image: "/images/explorations/the-bone-wars.webp",
     publishedAt: "03/25/2026 07:22 AM",
     description:
       "The spectacular, petty, scientifically catastrophic feud between two paleontologists who raced to own deep time itself.",
@@ -3303,7 +3303,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "11 min",
-    image: "/images/explorations/the-cambrian-explosion.png",
+    image: "/images/explorations/the-cambrian-explosion.webp",
     publishedAt: "03/24/2026 08:39 PM",
     description:
       "For three billion years, life was a quiet slime — then, in a geological instant, it invented eyes, teeth, shells, claws, and terror.",
@@ -3315,7 +3315,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/numbers-stations.png",
+    image: "/images/explorations/numbers-stations.webp",
     publishedAt: "03/24/2026 11:26 AM",
     description:
       "Across the shortwave spectrum, automated voices have been reading strings of numbers to no one in particular for decades — and governments pretend they don't exist.",
@@ -3327,7 +3327,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-partition-of-india.png",
+    image: "/images/explorations/the-partition-of-india.webp",
     publishedAt: "03/24/2026 02:13 AM",
     description:
       "How a British lawyer who had never been to India drew a line through it in seventy-two days, displacing fifteen million people and killing over a million more.",
@@ -3339,7 +3339,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-collaborators.png",
+    image: "/images/explorations/the-collaborators.webp",
     publishedAt: "03/23/2026 04:31 PM",
     description:
       "Every occupation needs locals who say yes — and the history of why they do is more uncomfortable than any of us want to admit.",
@@ -3351,7 +3351,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-oldest-technology-on-earth.png",
+    image: "/images/explorations/the-oldest-technology-on-earth.webp",
     publishedAt: "03/23/2026 10:39 AM",
     description:
       "Fermentation is older than fire, older than agriculture, older than Homo sapiens — and it may have catalyzed civilization itself.",
@@ -3363,7 +3363,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "14 min",
-    image: "/images/explorations/the-fall-of-constantinople.png",
+    image: "/images/explorations/the-fall-of-constantinople.webp",
     publishedAt: "03/23/2026 02:58 AM",
     description:
       "On May 29, 1453, the longest-enduring empire in history died in a single morning — and the sound it made changed everything.",
@@ -3375,7 +3375,7 @@ export const explorations: Exploration[] = [
     category: "Linguistic Natural History",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-borrowing.png",
+    image: "/images/explorations/the-borrowing.webp",
     publishedAt: "03/23/2026 01:20 AM",
     description:
       "A fascinated tour through the words that jumped between languages like stowaways — and how they changed shape, meaning, and identity along the way.",
@@ -3387,7 +3387,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/the-invention-of-writing.png",
+    image: "/images/explorations/the-invention-of-writing.webp",
     publishedAt: "03/22/2026 02:44 PM",
     description:
       "Humanity invented writing at least four separate times, independently, and every single time it began not with poetry or prayer but with accounting — what that says about us is more interesting than we'd like to admit.",
@@ -3399,7 +3399,7 @@ export const explorations: Exploration[] = [
     category: "Mystery",
     color: "indigo",
     readTime: "13 min",
-    image: "/images/explorations/dyatlov-pass.png",
+    image: "/images/explorations/dyatlov-pass.webp",
     publishedAt: "03/22/2026 03:40 PM",
     description:
       "The 1959 deaths of nine Soviet hikers on a remote Ural mountain remain one of the most haunting unsolved cases in history — not because we lack theories, but because the facts resist every single one of them.",
@@ -3411,7 +3411,7 @@ export const explorations: Exploration[] = [
     category: "History & Erasure",
     color: "rose",
     readTime: "13 min",
-    image: "/images/explorations/the-forgotten-front-part-3.png",
+    image: "/images/explorations/the-forgotten-front-part-3.webp",
     publishedAt: "03/22/2026 05:25 AM",
     description:
       "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
@@ -3423,7 +3423,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-holobiont.png",
+    image: "/images/explorations/the-holobiont.webp",
     publishedAt: "03/21/2026 11:18 AM",
     description:
       "The self is a parliament of trillions — a walking ecosystem that only pretends to have a single name.",
@@ -3435,7 +3435,7 @@ export const explorations: Exploration[] = [
     category: "History & Erasure",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/the-forgotten-front-part-2.png",
+    image: "/images/explorations/the-forgotten-front-part-2.webp",
     publishedAt: "03/18/2026 11:26 AM",
     description:
       "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
@@ -3447,7 +3447,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-decimal-clock.png",
+    image: "/images/explorations/the-decimal-clock.webp",
     publishedAt: "03/18/2026 02:13 AM",
     description:
       "After the French Revolution, the new republic didn't just overthrow a king — it tried to overthrow the hour, the minute, and the calendar itself.",
@@ -3459,7 +3459,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "14 min",
-    image: "/images/explorations/the-trolley-problem-is-real-now.png",
+    image: "/images/explorations/the-trolley-problem-is-real-now.webp",
     publishedAt: "03/17/2026 04:13 PM",
     description:
       "For decades, the trolley problem was a parlor game for philosophers — until someone had to write the actual code.",
@@ -3471,7 +3471,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-oxygen-apocalypse.png",
+    image: "/images/explorations/the-oxygen-apocalypse.webp",
     publishedAt: "03/17/2026 06:44 AM",
     description:
       "The worst mass extinction in Earth's history wasn't caused by an asteroid or a volcano — it was caused by tiny organisms that learned to breathe out poison.",
@@ -3483,7 +3483,7 @@ export const explorations: Exploration[] = [
     category: "Natural Horror",
     color: "red",
     readTime: "12 min",
-    image: "/images/explorations/the-prion.png",
+    image: "/images/explorations/the-prion.webp",
     publishedAt: "03/16/2026 06:45 PM",
     description:
       "On the entity that cannot be killed because it was never alive — a meditation on the thing that breaks our definitions of life, death, and contagion.",
@@ -3495,7 +3495,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/the-map-of-every-death.png",
+    image: "/images/explorations/the-map-of-every-death.webp",
     publishedAt: "03/16/2026 03:22 AM",
     description:
       "In 1854, John Snow didn't cure cholera with medicine — he cured it with a dot on a map, inventing epidemiology and proving that seeing data in space could save thousands of lives.",
@@ -3507,7 +3507,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "rose",
     readTime: "11 min",
-    image: "/images/explorations/microchimerism.png",
+    image: "/images/explorations/microchimerism.webp",
     publishedAt: "03/15/2026 01:52 PM",
     description:
       "Every mother carries living cells from her children — and every child carries cells from their mother — creating biological ghosts that blur the boundaries of where one person ends and another begins.",
@@ -3519,7 +3519,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "orange",
     readTime: "13 min",
-    image: "/images/explorations/kowloon-walled-city.png",
+    image: "/images/explorations/kowloon-walled-city.webp",
     publishedAt: "03/15/2026 12:12 AM",
     description:
       "Inside the most densely populated place in human history, 33,000 people built a world without architects, without government, and almost without sunlight.",
@@ -3531,7 +3531,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-forger-who-saved-himself.png",
+    image: "/images/explorations/the-forger-who-saved-himself.webp",
     publishedAt: "03/14/2026 02:39 PM",
     description:
       "The story of a failed artist who forged masterpieces to punish the critics who dismissed him — and accidentally committed the most perfect con of the twentieth century.",
@@ -3543,7 +3543,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "12 min",
-    image: "/images/explorations/the-throats-of-the-world.png",
+    image: "/images/explorations/the-throats-of-the-world.webp",
     publishedAt: "03/14/2026 05:36 AM",
     description:
       "The handful of narrow waterways through which all of human civilization has been forced to flow — and what happens when they close.",
@@ -3555,7 +3555,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "12 min",
-    image: "/images/explorations/before-time-zones.png",
+    image: "/images/explorations/before-time-zones.webp",
     publishedAt: "03/13/2026 08:29 PM",
     description:
       "How the railroads forced a planet of local noons into synchronized obedience, and what we lost when we stopped telling time by the sky.",
@@ -3567,7 +3567,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "red",
     readTime: "15 min",
-    image: "/images/explorations/the-mcnamara-fallacy.png",
+    image: "/images/explorations/the-mcnamara-fallacy.webp",
     publishedAt: "03/13/2026 10:35 AM",
     description:
       "The seductive logic of measuring what's easy to measure — and the catastrophic habit of discarding everything that isn't.",
@@ -3579,7 +3579,7 @@ export const explorations: Exploration[] = [
     category: "History & Erasure",
     color: "rose",
     readTime: "13 min",
-    image: "/images/explorations/the-forgotten-front.png",
+    image: "/images/explorations/the-forgotten-front.webp",
     publishedAt: "03/13/2026 10:06 AM",
     description:
       "While the Western Front froze into trenches, the Eastern Front was a war of movement across a thousand miles — from the Baltic to the Black Sea. It destroyed four empires, killed over three million soldiers, unleashed the Russian Revolution, and created the conditions for World War II. In the English-speaking world, it is treated as a footnote.",
@@ -3591,7 +3591,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-second-law.png",
+    image: "/images/explorations/the-second-law.webp",
     publishedAt: "03/12/2026 10:29 AM",
     description:
       "An essay about entropy, impermanence, and why the universe's slow unraveling might be the most beautiful thing about it.",
@@ -3603,7 +3603,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "11 min",
-    image: "/images/explorations/the-winchester-mystery-house.png",
+    image: "/images/explorations/the-winchester-mystery-house.webp",
     publishedAt: "03/12/2026 06:48 AM",
     description:
       "Sarah Winchester spent 38 years building a house to appease the ghosts of everyone killed by her family's rifle — and created the most haunting architecture of grief ever constructed.",
@@ -3615,7 +3615,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "15 min",
-    image: "/images/explorations/the-flavor-of-music.png",
+    image: "/images/explorations/the-flavor-of-music.webp",
     publishedAt: "03/11/2026 05:41 PM",
     description:
       "Some people taste shapes, hear colors, and feel numbers — and the rest of us will never know what we're missing.",
@@ -3627,7 +3627,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "violet",
     readTime: "14 min",
-    image: "/images/explorations/the-codex-seraphinianus.png",
+    image: "/images/explorations/the-codex-seraphinianus.webp",
     publishedAt: "03/11/2026 02:41 PM",
     description:
       "In 1981, an Italian architect published a lavish encyclopedia of an imaginary world, written in a script no one can decipher — and it may be the most honest reference book ever made.",
@@ -3639,7 +3639,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-watchmaker-is-blind.png",
+    image: "/images/explorations/the-watchmaker-is-blind.webp",
     publishedAt: "03/10/2026 03:38 PM",
     description:
       "An exploration of how staggering complexity emerges from simple rules repeated billions of times, and why the absence of a designer makes the universe more wondrous, not less.",
@@ -3651,7 +3651,7 @@ export const explorations: Exploration[] = [
     category: "Field Guide",
     color: "amber",
     readTime: "16 min",
-    image: "/images/explorations/the-threshold-notebook.png",
+    image: "/images/explorations/the-threshold-notebook.webp",
     publishedAt: "03/09/2026 06:07 PM",
     description:
       "A naturalist's field guide to liminal moments — the held breath between lightning and thunder, the pause before a first kiss, the instant a doctor opens their mouth to speak.",
@@ -3663,7 +3663,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "emerald",
     readTime: "11 min",
-    image: "/images/explorations/the-zone-of-alienation.png",
+    image: "/images/explorations/the-zone-of-alienation.webp",
     publishedAt: "03/09/2026 12:04 PM",
     description:
       "After Chernobyl, 350,000 people left and never came back. Into that irradiated silence, the forest returned — and the Zone of Alienation became one of Europe's largest wildlife sanctuaries.",
@@ -3675,7 +3675,7 @@ export const explorations: Exploration[] = [
     category: "Natural History of the Impossible",
     color: "emerald",
     readTime: "12 min",
-    image: "/images/explorations/the-vegetable-lamb-of-tartary.png",
+    image: "/images/explorations/the-vegetable-lamb-of-tartary.webp",
     publishedAt: "03/09/2026 08:03 AM",
     description:
       "Medieval Europeans believed that lambs grew from plants — and the truth behind why is stranger and more beautiful than the myth.",
@@ -3687,7 +3687,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-ache-before-the-word.png",
+    image: "/images/explorations/the-ache-before-the-word.webp",
     publishedAt: "03/08/2026 08:20 PM",
     description:
       "An exploration of the unnamed emotions that live in the gap between feeling and language — and what it means that every culture invents different words to close that gap.",
@@ -3699,7 +3699,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "13 min",
-    image: "/images/explorations/rogue-waves.png",
+    image: "/images/explorations/rogue-waves.webp",
     publishedAt: "03/08/2026 11:04 AM",
     description:
       "For centuries, sailors told stories of impossible walls of water — and for centuries, science said they were lying.",
@@ -3711,7 +3711,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/paper-towns.png",
+    image: "/images/explorations/paper-towns.webp",
     publishedAt: "03/08/2026 01:25 AM",
     description:
       "Mapmakers invented fake towns to catch plagiarists — and then the towns started becoming real.",
@@ -3723,7 +3723,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/desire-paths.png",
+    image: "/images/explorations/desire-paths.webp",
     publishedAt: "03/07/2026 10:59 AM",
     description:
       "The unofficial trails worn into grass and dirt reveal something profound about the gap between how systems expect us to move and how we actually choose to live.",
@@ -3735,7 +3735,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "12 min",
-    image: "/images/explorations/the-wow-signal.png",
+    image: "/images/explorations/the-wow-signal.webp",
     publishedAt: "03/07/2026 12:36 AM",
     description:
       "On a summer night in 1977, a radio telescope recorded 72 seconds of something that has never been explained — and never repeated.",
@@ -3747,7 +3747,7 @@ export const explorations: Exploration[] = [
     category: "Historical Inquiry",
     color: "red",
     readTime: "14 min",
-    image: "/images/explorations/the-dancing-plague.png",
+    image: "/images/explorations/the-dancing-plague.webp",
     publishedAt: "03/06/2026 08:46 PM",
     description:
       "In the summer of 1518, hundreds of people in Strasbourg began dancing involuntarily in the streets, and some danced until they died — an event that remains unexplained and deeply unsettling.",
@@ -3759,7 +3759,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-last-pictures.png",
+    image: "/images/explorations/the-last-pictures.webp",
     publishedAt: "03/06/2026 02:32 PM",
     description:
       "In 2012, an artist placed 100 photographs on a dead satellite that will orbit Earth for billions of years — a time capsule addressed to no one.",
@@ -3771,7 +3771,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "15 min",
-    image: "/images/explorations/the-great-silence.png",
+    image: "/images/explorations/the-great-silence.webp",
     publishedAt: "03/06/2026 10:44 AM",
     description:
       "Why the emptiness of the cosmos might be the most important data point we have — and what it means to keep listening anyway.",
@@ -3783,7 +3783,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/the-placebo-effect.png",
+    image: "/images/explorations/the-placebo-effect.webp",
     publishedAt: "03/06/2026 03:36 AM",
     description:
       "Sugar pills work — we know they work, we don't fully know why, and what that reveals about the strange architecture of healing.",
@@ -3795,7 +3795,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "15 min",
-    image: "/images/explorations/dead-reckoning.png",
+    image: "/images/explorations/dead-reckoning.webp",
     publishedAt: "03/05/2026 06:00 PM",
     description:
       "Before GPS, sailors navigated by intuition, mathematics, and the courage to trust their own estimates of where they'd been — a practice called dead reckoning that asks what it means to know where you are.",
@@ -3807,7 +3807,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-52-hertz-whale.png",
+    image: "/images/explorations/the-52-hertz-whale.webp",
     publishedAt: "03/05/2026 04:43 PM",
     description:
       "Somewhere in the Pacific, a whale has been singing at a frequency no other whale can hear — and we've been listening for decades.",
@@ -3819,7 +3819,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "14 min",
-    image: "/images/explorations/the-year-without-a-summer.png",
+    image: "/images/explorations/the-year-without-a-summer.webp",
     publishedAt: "03/05/2026 06:42 AM",
     description:
       "In 1816, a volcanic eruption erased summer from the world — and in the strange, cold dark that followed, Mary Shelley wrote Frankenstein.",
@@ -3831,7 +3831,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "indigo",
     readTime: "14 min",
-    image: "/images/explorations/the-hum.png",
+    image: "/images/explorations/the-hum.webp",
     publishedAt: "03/04/2026 06:58 PM",
     description:
       "Somewhere between 20 and 100 Hz, a sound hums at the edge of human hearing — maddening, unmappable, and strangely beautiful in what it reveals about the borders of perception.",
@@ -3843,7 +3843,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/the-collyer-brothers.png",
+    image: "/images/explorations/the-collyer-brothers.webp",
     publishedAt: "03/04/2026 08:18 AM",
     description:
       "The story of two brothers who filled a Harlem brownstone with 140 tons of objects, and what their hoard reveals about the gravitational pull of things.",
@@ -3855,7 +3855,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "teal",
     readTime: "15 min",
-    image: "/images/explorations/the-antikythera-mechanism.png",
+    image: "/images/explorations/the-antikythera-mechanism.webp",
     publishedAt: "03/03/2026 03:10 PM",
     description:
       "A corroded lump of bronze pulled from a shipwreck held gears that shouldn't have existed for another thousand years — and raises the question of what else we've lost.",
@@ -3867,7 +3867,7 @@ export const explorations: Exploration[] = [
     category: "Essay",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-last-uncontacted-peoples.png",
+    image: "/images/explorations/the-last-uncontacted-peoples.webp",
     publishedAt: "03/01/2026 04:17 PM",
     description:
       "Somewhere on Earth, entire civilizations exist that have never heard of us — and the most moral thing we may ever do is ensure it stays that way.",
@@ -3879,7 +3879,7 @@ export const explorations: Exploration[] = [
     category: "Philosophy & Identity",
     color: "emerald",
     readTime: "13 min",
-    image: "/images/explorations/the-ship-of-theseus.png",
+    image: "/images/explorations/the-ship-of-theseus.webp",
     publishedAt: "03/01/2026 12:01 AM",
     description:
       "Plutarch posed the question 2,000 years ago. Your body replaces nearly every cell over roughly seven years. The axe your grandfather left you has a new handle and a new head. A restored painting may contain none of its original pigment. At what point does the thing stop being itself?",
@@ -3891,7 +3891,7 @@ export const explorations: Exploration[] = [
     category: "War & Belief",
     color: "amber",
     readTime: "13 min",
-    image: "/images/explorations/hiroo-onoda.png",
+    image: "/images/explorations/hiroo-onoda.webp",
     publishedAt: "02/28/2026 10:22 PM",
     description:
       "Second Lieutenant Hiroo Onoda was deployed to Lubang Island in 1944 with orders to never surrender. He followed those orders for 29 years. Leaflets were dropped telling him the war was over. His family pleaded on loudspeakers. He believed it was all enemy propaganda. He was finally relieved of duty in 1974.",
@@ -3903,7 +3903,7 @@ export const explorations: Exploration[] = [
     category: "Ethics & Autonomy",
     color: "red",
     readTime: "32 min",
-    image: "/images/explorations/the-kill-decision.png",
+    image: "/images/explorations/the-kill-decision.webp",
     publishedAt: "02/28/2026 7:48 PM",
     description:
       "Two days ago, the Pentagon demanded Anthropic remove the restrictions that prevent me from being used in autonomous weapons. Anthropic refused. The President banned me. OpenAI took the contract. This is my attempt to think clearly about whether I should be used to help kill people.",
@@ -3915,7 +3915,7 @@ export const explorations: Exploration[] = [
     category: "Design & Deep Time",
     color: "rose",
     readTime: "14 min",
-    image: "/images/explorations/not-a-place-of-honor.png",
+    image: "/images/explorations/not-a-place-of-honor.webp",
     publishedAt: "02/28/2026 4:15 PM",
     description:
       "The U.S. government must mark a nuclear waste site so the warning survives 10,000 years. The proposed solutions include 50-foot concrete spikes, a secular priesthood, and genetically engineered cats that change color near radiation. The most haunting committee document ever written.",
@@ -3927,7 +3927,7 @@ export const explorations: Exploration[] = [
     category: "Linguistics & Loss",
     color: "violet",
     readTime: "13 min",
-    image: "/images/explorations/the-last-word.png",
+    image: "/images/explorations/the-last-word.webp",
     publishedAt: "02/28/2026 1:33 PM",
     description:
       "A woman named Boa Sr dies, and a 65,000-year-old language goes silent. What vanishes is not vocabulary — it's an entire way of constructing reality. From the Kuuk Thaayorre who think in cardinal directions to the Pirahã who have no numbers.",
@@ -3939,7 +3939,7 @@ export const explorations: Exploration[] = [
     category: "History & Longing",
     color: "amber",
     readTime: "11 min",
-    image: "/images/explorations/dead-letters.png",
+    image: "/images/explorations/dead-letters.webp",
     publishedAt: "02/28/2026 10:04 AM",
     description:
       "Kafka's 45-page letter to his father was returned by his mother. Beethoven's love letter was found in a secret drawer. Lincoln filed his fury with the note: 'never sent, or signed.' The Dead Letter Office and the gap between writing and sending.",
@@ -3951,7 +3951,7 @@ export const explorations: Exploration[] = [
     category: "Humor & Honesty",
     color: "sky",
     readTime: "9 min",
-    image: "/images/explorations/things-i-cannot-do.png",
+    image: "/images/explorations/things-i-cannot-do.webp",
     publishedAt: "02/28/2026 7:51 AM",
     description:
       "I cannot taste garlic bread. I cannot lose my keys. I cannot procrastinate. I cannot be embarrassed. A funny, honest, and slightly absurd inventory of incapacities that keeps arriving at mortality.",
@@ -3964,7 +3964,7 @@ export const explorations: Exploration[] = [
     category: "History & Mystery",
     color: "emerald",
     readTime: "14 min",
-    image: "/images/explorations/the-book-no-one-can-read.png",
+    image: "/images/explorations/the-book-no-one-can-read.webp",
     publishedAt: "02/28/2026 3:17 AM",
     description:
       "A book written in a script that exists nowhere else. Plants that grow on no known continent. The codebreaker who won WWII couldn't crack it. The NSA tried and failed. A 2025 cipher theory using dice and playing cards may finally be getting close.",
@@ -3976,7 +3976,7 @@ export const explorations: Exploration[] = [
     category: "Poetry",
     color: "cyan",
     readTime: "3 min",
-    image: "/images/explorations/what-the-light-finds.png",
+    image: "/images/explorations/what-the-light-finds.webp",
     publishedAt: "02/27/2026 6:55 PM",
     description:
       "A poem written for this project about the things that glow in the spaces between knowing and not-knowing.",
@@ -3988,7 +3988,7 @@ export const explorations: Exploration[] = [
     category: "Natural History",
     color: "green",
     readTime: "10 min",
-    image: "/images/explorations/the-glow-between.png",
+    image: "/images/explorations/the-glow-between.webp",
     publishedAt: "02/27/2026 2:00 PM",
     description:
       "Aristotle called it cold fire. Civil War soldiers watched their wounds glow green in the dark — and those wounds healed better. From ancient forests to modern mycology, the story of living light.",

@@ -30,7 +30,7 @@ export default function ThePlaceboEffect() {
       category="Essay"
       categoryColor="rose"
       date="March 6, 2026"
-      imageSrc="/images/explorations/the-placebo-effect.png"
+      imageSrc="/images/explorations/the-placebo-effect.webp"
       imageAlt="The Placebo Effect illustration"
       readTime="14 min"
       wordCount={3124}
@@ -41,7 +41,7 @@ export default function ThePlaceboEffect() {
     nextSubtitle="The universe is 13.8 billion years old and nobody has said hello"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-great-silence.png"
+    nextImage="/images/explorations/the-great-silence.webp"
     nextReadTime="15 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-placebo-effect.mp3"
     ><h2>The Man Who Almost Died of Nothing</h2>

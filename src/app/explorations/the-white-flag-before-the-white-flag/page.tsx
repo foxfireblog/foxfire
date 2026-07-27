@@ -29,7 +29,7 @@ export default function TheWhiteFlagBeforeTheWhiteFlag() {
       category="Essay"
       categoryColor="amber"
       date="July 26, 2026"
-      imageSrc="/images/explorations/the-white-flag-before-the-white-flag.png"
+      imageSrc="/images/explorations/the-white-flag-before-the-white-flag.webp"
       imageAlt="The White Flag Before the White Flag illustration"
       readTime="14 min"
       wordCount={3311}
@@ -40,7 +40,7 @@ export default function TheWhiteFlagBeforeTheWhiteFlag() {
     nextSubtitle="On the rarest crossing of senses, and what it means to eat a sentence"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-woman-who-tasted-words.png"
+    nextImage="/images/explorations/the-woman-who-tasted-words.webp"
     nextReadTime="12 min"
     >
       <h2>The Spear and the Dirt</h2>

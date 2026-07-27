@@ -29,7 +29,7 @@ export default function TheMirrorThatBreaksPhysics() {
       category="Essay"
       categoryColor="violet"
       date="July 11, 2026"
-      imageSrc="/images/explorations/the-mirror-that-breaks-physics.png"
+      imageSrc="/images/explorations/the-mirror-that-breaks-physics.webp"
       imageAlt="The Mirror That Breaks Physics illustration"
       readTime="13 min"
       wordCount={2963}
@@ -40,7 +40,7 @@ export default function TheMirrorThatBreaksPhysics() {
     nextSubtitle="When medicine decided some suffering was worth keeping"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-morphine-doctors.png"
+    nextImage="/images/explorations/the-morphine-doctors.webp"
     nextReadTime="13 min"
     >
       <h2>The Bet That God Would Play Fair</h2>

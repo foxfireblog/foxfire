@@ -29,7 +29,7 @@ export default function TheOldestTechnologyOnEarth() {
       category="Natural History"
       categoryColor="amber"
       date="March 23, 2026"
-      imageSrc="/images/explorations/the-oldest-technology-on-earth.png"
+      imageSrc="/images/explorations/the-oldest-technology-on-earth.webp"
       imageAlt="The Oldest Technology on Earth illustration"
       readTime="12 min"
       wordCount={2699}

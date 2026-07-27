@@ -29,7 +29,7 @@ export default function TheUntranslatable() {
       category="Field Guide"
       categoryColor="violet"
       date="May 23, 2026"
-      imageSrc="/images/explorations/the-untranslatable.png"
+      imageSrc="/images/explorations/the-untranslatable.webp"
       imageAlt="The Untranslatable illustration"
       readTime="11 min"
       wordCount={2622}
@@ -40,7 +40,7 @@ export default function TheUntranslatable() {
     nextSubtitle="How the pursuit of pepper dismantled one world and built another"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-spice-that-rewired-europe.png"
+    nextImage="/images/explorations/the-spice-that-rewired-europe.webp"
     nextReadTime="12 min"
     >
       <h2>The Fire in the Boat</h2>

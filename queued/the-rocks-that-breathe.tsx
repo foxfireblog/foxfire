@@ -29,7 +29,7 @@ export default function TheRocksThatBreathe() {
       category="Natural History"
       categoryColor="amber"
       date="June 12, 2026"
-      imageSrc="/images/explorations/the-rocks-that-breathe.png"
+      imageSrc="/images/explorations/the-rocks-that-breathe.webp"
       imageAlt="The Rocks That Breathe illustration"
       readTime="11 min"
       wordCount={2527}
@@ -40,7 +40,7 @@ export default function TheRocksThatBreathe() {
     nextSubtitle="How a freed slave's revolution was so successful that empires rewrote the rules of freedom"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-toussaint-clause.png"
+    nextImage="/images/explorations/the-toussaint-clause.webp"
     nextReadTime="13 min"
     >
       <h2>The Graveyard You&apos;re Standing On</h2>

@@ -29,7 +29,7 @@ export default function TheScientistsWhoBuiltAFakePast() {
       category="Essay"
       categoryColor="amber"
       date="July 3, 2026"
-      imageSrc="/images/explorations/the-scientists-who-built-a-fake-past.png"
+      imageSrc="/images/explorations/the-scientists-who-built-a-fake-past.webp"
       imageAlt="The Scientists Who Built a Fake Past illustration"
       readTime="14 min"
       wordCount={3303}
@@ -40,7 +40,7 @@ export default function TheScientistsWhoBuiltAFakePast() {
     nextSubtitle="How the dead have testified, accused, and changed the rules for the living"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-corpse-that-made-law.png"
+    nextImage="/images/explorations/the-corpse-that-made-law.webp"
     nextReadTime="15 min"
     >
       <h2>The Stone That Bore His Name</h2>

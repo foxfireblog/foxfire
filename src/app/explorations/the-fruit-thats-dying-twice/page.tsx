@@ -29,7 +29,7 @@ export default function TheFruitThatsDyingTwice() {
       category="Natural History"
       categoryColor="amber"
       date="March 15, 2026"
-      imageSrc="/images/explorations/the-fruit-thats-dying-twice.png"
+      imageSrc="/images/explorations/the-fruit-thats-dying-twice.webp"
       imageAlt="The Fruit That's Dying Twice illustration"
       readTime="13 min"
       wordCount={2888}
@@ -41,7 +41,7 @@ export default function TheFruitThatsDyingTwice() {
     nextSubtitle="The brain keeps writing letters to a body part that no longer has an address"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-phantom-limb.png"
+    nextImage="/images/explorations/the-phantom-limb.webp"
     nextReadTime="13 min"
     ><article>
       <h2>The Ghost in the Candy</h2>

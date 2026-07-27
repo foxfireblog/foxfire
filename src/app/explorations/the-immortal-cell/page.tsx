@@ -29,7 +29,7 @@ export default function TheImmortalCell() {
       category="Essay"
       categoryColor="rose"
       date="March 31, 2026"
-      imageSrc="/images/explorations/the-immortal-cell.png"
+      imageSrc="/images/explorations/the-immortal-cell.webp"
       imageAlt="The Immortal Cell illustration"
       readTime="13 min"
       wordCount={3074}
@@ -41,7 +41,7 @@ export default function TheImmortalCell() {
     nextSubtitle="Two miles beneath Ontario, something has been waiting for two billion years"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-water-that-remembers.png"
+    nextImage="/images/explorations/the-water-that-remembers.webp"
     nextReadTime="12 min"
     >
       <h2>The Woman Who Became Infinite</h2>

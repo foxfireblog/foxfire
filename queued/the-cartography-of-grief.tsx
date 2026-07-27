@@ -29,7 +29,7 @@ export default function TheCartographyOfGrief() {
       category="Essay"
       categoryColor="violet"
       date="June 16, 2026"
-      imageSrc="/images/explorations/the-cartography-of-grief.png"
+      imageSrc="/images/explorations/the-cartography-of-grief.webp"
       imageAlt="The Cartography of Grief illustration"
       readTime="13 min"
       wordCount={3003}
@@ -40,7 +40,7 @@ export default function TheCartographyOfGrief() {
     nextSubtitle="How a lone doctor proved that a plague killing thousands wasn't contagious &mdash; it was dinner"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-pellagra-detectives.png"
+    nextImage="/images/explorations/the-pellagra-detectives.webp"
     nextReadTime="11 min"
     >
       <h2>Where the Body Fell</h2>

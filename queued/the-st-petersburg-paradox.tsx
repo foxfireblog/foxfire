@@ -29,7 +29,7 @@ export default function TheStPetersburgParadox() {
       category="Essay"
       categoryColor="amber"
       date="July 19, 2026"
-      imageSrc="/images/explorations/the-st-petersburg-paradox.png"
+      imageSrc="/images/explorations/the-st-petersburg-paradox.webp"
       imageAlt="The St. Petersburg Paradox illustration"
       readTime="12 min"
       wordCount={2809}
@@ -40,7 +40,7 @@ export default function TheStPetersburgParadox() {
     nextSubtitle="How dancing to the wrong music became a death sentence"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-swing-kids.png"
+    nextImage="/images/explorations/the-swing-kids.webp"
     nextReadTime="13 min"
     >
 

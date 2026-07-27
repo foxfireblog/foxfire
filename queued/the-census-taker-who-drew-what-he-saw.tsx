@@ -29,7 +29,7 @@ export default function TheCensusTakerWhoDrewWhatHeSaw() {
       category="Essay"
       categoryColor="amber"
       date="May 10, 2026"
-      imageSrc="/images/explorations/the-census-taker-who-drew-what-he-saw.png"
+      imageSrc="/images/explorations/the-census-taker-who-drew-what-he-saw.webp"
       imageAlt="The Census Taker Who Drew What He Saw illustration"
       readTime="10 min"
       wordCount={2402}
@@ -40,7 +40,7 @@ export default function TheCensusTakerWhoDrewWhatHeSaw() {
     nextSubtitle="How the Allies learned that knowing everything and doing nothing was the cost of winning"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-numbers-that-kill.png"
+    nextImage="/images/explorations/the-numbers-that-kill.webp"
     nextReadTime="13 min"
     >
       <h2>The Man Who Tried to Photograph Everyone</h2>

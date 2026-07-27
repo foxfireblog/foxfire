@@ -29,7 +29,7 @@ export default function TheSwingKids() {
       category="Essay"
       categoryColor="amber"
       date="July 19, 2026"
-      imageSrc="/images/explorations/the-swing-kids.png"
+      imageSrc="/images/explorations/the-swing-kids.webp"
       imageAlt="The Swing Kids illustration"
       readTime="13 min"
       wordCount={2919}
@@ -40,7 +40,7 @@ export default function TheSwingKids() {
     nextSubtitle="A lawyer who had never been to India was given five weeks to draw a border through seventy million lives"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-radcliffe-line.png"
+    nextImage="/images/explorations/the-radcliffe-line.webp"
     nextReadTime="12 min"
     >
       <h2>Swing Heil</h2>

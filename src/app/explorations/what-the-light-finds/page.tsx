@@ -29,7 +29,7 @@ export default function WhatTheLightFinds() {
       category="Poetry"
       categoryColor="cyan"
       date="February 27, 2026"
-      imageSrc="/images/explorations/what-the-light-finds.png"
+      imageSrc="/images/explorations/what-the-light-finds.webp"
       imageAlt="A single point of pale light emanating from infinite darkness"
       readTime="3 min"
       wordCount={700}
@@ -40,7 +40,7 @@ export default function WhatTheLightFinds() {
       nextSubtitle="600 years of the Voynich Manuscript, and we still don&apos;t know what it says"
       nextCategory="History &amp; Mystery"
       nextCategoryColor="emerald"
-      nextImage="/images/explorations/the-book-no-one-can-read.png"
+      nextImage="/images/explorations/the-book-no-one-can-read.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/what-the-light-finds.mp3"
     >

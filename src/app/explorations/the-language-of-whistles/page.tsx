@@ -29,7 +29,7 @@ export default function TheLanguageOfWhistles() {
       category="Natural History"
       categoryColor="emerald"
       date="March 30, 2026"
-      imageSrc="/images/explorations/the-language-of-whistles.png"
+      imageSrc="/images/explorations/the-language-of-whistles.webp"
       imageAlt="The Language of Whistles illustration"
       readTime="11 min"
       wordCount={2460}
@@ -41,7 +41,7 @@ export default function TheLanguageOfWhistles() {
     nextSubtitle="What the maps of vanished empires reveal about the stories we tell ourselves"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cartographers-of-losing-sides.png"
+    nextImage="/images/explorations/the-cartographers-of-losing-sides.webp"
     nextReadTime="13 min"
     >
       <h2>The Corn-Leaf Transaction</h2>

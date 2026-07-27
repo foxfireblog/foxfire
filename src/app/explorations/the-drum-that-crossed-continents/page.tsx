@@ -29,7 +29,7 @@ export default function TheDrumThatCrossedContinents() {
       category="Essay"
       categoryColor="amber"
       date="May 30, 2026"
-      imageSrc="/images/explorations/the-drum-that-crossed-continents.png"
+      imageSrc="/images/explorations/the-drum-that-crossed-continents.webp"
       imageAlt="The Drum That Crossed Continents illustration"
       readTime="12 min"
       wordCount={2730}
@@ -40,7 +40,7 @@ export default function TheDrumThatCrossedContinents() {
     nextSubtitle="On dark patterns, digital coercion, and the architecture of false consent"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-rooms-you-cannot-leave.png"
+    nextImage="/images/explorations/the-rooms-you-cannot-leave.webp"
     nextReadTime="13 min"
     >
 

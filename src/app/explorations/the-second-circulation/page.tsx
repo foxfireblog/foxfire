@@ -29,7 +29,7 @@ export default function TheSecondCirculation() {
       category="Essay"
       categoryColor="amber"
       date="July 10, 2026"
-      imageSrc="/images/explorations/the-second-circulation.png"
+      imageSrc="/images/explorations/the-second-circulation.webp"
       imageAlt="The Second Circulation illustration"
       readTime="13 min"
       wordCount={2963}
@@ -40,7 +40,7 @@ export default function TheSecondCirculation() {
     nextSubtitle="How nature's secret handedness shattered the most beautiful assumption in science"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-mirror-that-breaks-physics.png"
+    nextImage="/images/explorations/the-mirror-that-breaks-physics.webp"
     nextReadTime="13 min"
     >
       <h2>The Smell of Freedom</h2>

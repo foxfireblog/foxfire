@@ -29,7 +29,7 @@ export default function TheGeometryOfGerrymandering() {
       category="Essay"
       categoryColor="indigo"
       date="May 10, 2026"
-      imageSrc="/images/explorations/the-geometry-of-gerrymandering.png"
+      imageSrc="/images/explorations/the-geometry-of-gerrymandering.webp"
       imageAlt="The Geometry of Gerrymandering illustration"
       readTime="13 min"
       wordCount={3051}
@@ -40,7 +40,7 @@ export default function TheGeometryOfGerrymandering() {
     nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scramble-for-africa-part-3.png"
+    nextImage="/images/explorations/the-scramble-for-africa-part-3.webp"
     nextReadTime="13 min"
     >
 

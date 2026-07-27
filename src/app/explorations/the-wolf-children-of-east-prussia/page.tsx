@@ -29,7 +29,7 @@ export default function TheWolfChildrenOfEastPrussia() {
       category="History"
       categoryColor="emerald"
       date="July 8, 2026"
-      imageSrc="/images/explorations/the-wolf-children-of-east-prussia.png"
+      imageSrc="/images/explorations/the-wolf-children-of-east-prussia.webp"
       imageAlt="The Wolf Children of East Prussia illustration"
       readTime="10 min"
       wordCount={2414}
@@ -40,7 +40,7 @@ export default function TheWolfChildrenOfEastPrussia() {
     nextSubtitle="The last fragment of Byzantium that refused to die"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-ghost-empire-of-trebizond.png"
+    nextImage="/images/explorations/the-ghost-empire-of-trebizond.webp"
     nextReadTime="14 min"
     >
       <h2>The Ban on Running</h2>

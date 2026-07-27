@@ -29,7 +29,7 @@ export default function TheScrambleForAfrica() {
       category="Essay"
       categoryColor="amber"
       date="April 30, 2026"
-      imageSrc="/images/explorations/the-scramble-for-africa.png"
+      imageSrc="/images/explorations/the-scramble-for-africa.webp"
       imageAlt="The Scramble for Africa: Lines on a Map (Part I of III) illustration"
       readTime="10 min"
       wordCount={2235}
@@ -40,7 +40,7 @@ export default function TheScrambleForAfrica() {
       nextSubtitle="The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-scramble-for-africa-part-2.png"
+      nextImage="/images/explorations/the-scramble-for-africa-part-2.webp"
       nextReadTime="12 min"
     >
       <h2>The Room Where It Happened</h2>

@@ -29,7 +29,7 @@ export default function TheInventionOfThePrimitive() {
       category="Essay"
       categoryColor="amber"
       date="July 16, 2026"
-      imageSrc="/images/explorations/the-invention-of-the-primitive.png"
+      imageSrc="/images/explorations/the-invention-of-the-primitive.webp"
       imageAlt="The Invention of the Primitive illustration"
       readTime="14 min"
       wordCount={3196}
@@ -40,7 +40,7 @@ export default function TheInventionOfThePrimitive() {
     nextSubtitle="Synesthesia and the democracy of hallucination"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-man-who-heard-color.png"
+    nextImage="/images/explorations/the-man-who-heard-color.webp"
     nextReadTime="12 min"
     >
       <h2>The Cage in the Monkey House</h2>

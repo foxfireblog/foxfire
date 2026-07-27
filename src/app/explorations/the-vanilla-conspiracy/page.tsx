@@ -29,7 +29,7 @@ export default function TheVanillaConspiracy() {
       category="Natural History"
       categoryColor="amber"
       date="May 18, 2026"
-      imageSrc="/images/explorations/the-vanilla-conspiracy.png"
+      imageSrc="/images/explorations/the-vanilla-conspiracy.webp"
       imageAlt="The Vanilla Conspiracy illustration"
       readTime="12 min"
       wordCount={2842}
@@ -40,7 +40,7 @@ export default function TheVanillaConspiracy() {
     nextSubtitle="The art of answering impossible questions with nothing but logic"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/how-many-piano-tuners-are-in-chicago.png"
+    nextImage="/images/explorations/how-many-piano-tuners-are-in-chicago.webp"
     nextReadTime="13 min"
     >
       <h2>Blood in the Soil</h2>

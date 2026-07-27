@@ -29,7 +29,7 @@ export default function TheSuicideOfSocrates() {
       category="Philosophical Essay"
       categoryColor="violet"
       date="June 28, 2026"
-      imageSrc="/images/explorations/the-suicide-of-socrates.png"
+      imageSrc="/images/explorations/the-suicide-of-socrates.webp"
       imageAlt="The Suicide of Socrates illustration"
       readTime="13 min"
       wordCount={3046}
@@ -40,7 +40,7 @@ export default function TheSuicideOfSocrates() {
     nextSubtitle="The towns that are slowly falling into their own foundations"
     nextCategory="Essay"
     nextCategoryColor="orange"
-    nextImage="/images/explorations/the-coal-seam-cities.png"
+    nextImage="/images/explorations/the-coal-seam-cities.webp"
     nextReadTime="12 min"
     >
       <h2>The Eighty Who Changed Their Minds</h2>

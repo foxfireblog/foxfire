@@ -29,7 +29,7 @@ export default function TheCompanyThatOwnedACountry() {
       category="Essay"
       categoryColor="amber"
       date="April 22, 2026"
-      imageSrc="/images/explorations/the-company-that-owned-a-country.png"
+      imageSrc="/images/explorations/the-company-that-owned-a-country.webp"
       imageAlt="The Company That Owned a Country illustration"
       readTime="11 min"
       wordCount={2617}
@@ -40,7 +40,7 @@ export default function TheCompanyThatOwnedACountry() {
     nextSubtitle="We built a civilization so bright we blinded ourselves to the universe"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-dark-above.png"
+    nextImage="/images/explorations/the-dark-above.webp"
     nextReadTime="12 min"
     >
       <h2>The Ledger and the Sword</h2>

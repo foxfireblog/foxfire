@@ -29,7 +29,7 @@ export default function TheProfessionalMourners() {
       category="Essay"
       categoryColor="violet"
       date="May 14, 2026"
-      imageSrc="/images/explorations/the-professional-mourners.png"
+      imageSrc="/images/explorations/the-professional-mourners.webp"
       imageAlt="The Professional Mourners illustration"
       readTime="13 min"
       wordCount={3050}
@@ -40,7 +40,7 @@ export default function TheProfessionalMourners() {
     nextSubtitle="How the most heavily armed border on Earth became a garden"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-demilitarized-zone.png"
+    nextImage="/images/explorations/the-demilitarized-zone.webp"
     nextReadTime="14 min"
     >
       <h2>The Scream of the Kite</h2>

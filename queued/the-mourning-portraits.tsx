@@ -29,7 +29,7 @@ export default function TheMourningPortraits() {
       category="Essay"
       categoryColor="violet"
       date="April 29, 2026"
-      imageSrc="/images/explorations/the-mourning-portraits.png"
+      imageSrc="/images/explorations/the-mourning-portraits.webp"
       imageAlt="The Mourning Portraits illustration"
       readTime="14 min"
       wordCount={3109}
@@ -40,7 +40,7 @@ export default function TheMourningPortraits() {
     nextSubtitle="On the terrifying mathematics of applause under Stalin"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.png"
+    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.webp"
     nextReadTime="13 min"
     >
       <h2>The Sharpest Figure in the Room</h2>

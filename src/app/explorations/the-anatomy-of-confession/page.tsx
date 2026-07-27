@@ -29,7 +29,7 @@ export default function TheAnatomyOfConfession() {
       category="Essay"
       categoryColor="violet"
       date="July 5, 2026"
-      imageSrc="/images/explorations/the-anatomy-of-confession.png"
+      imageSrc="/images/explorations/the-anatomy-of-confession.webp"
       imageAlt="The Anatomy of Confession illustration"
       readTime="13 min"
       wordCount={3073}
@@ -40,7 +40,7 @@ export default function TheAnatomyOfConfession() {
     nextSubtitle="On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-parasite-that-thinks-it-is-you.png"
+    nextImage="/images/explorations/the-parasite-that-thinks-it-is-you.webp"
     nextReadTime="13 min"
     >
       <h2>The Price List</h2>

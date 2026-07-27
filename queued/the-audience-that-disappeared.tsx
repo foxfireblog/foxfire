@@ -29,7 +29,7 @@ export default function TheAudienceThatDisappeared() {
       category="Essay"
       categoryColor="violet"
       date="July 9, 2026"
-      imageSrc="/images/explorations/the-audience-that-disappeared.png"
+      imageSrc="/images/explorations/the-audience-that-disappeared.webp"
       imageAlt="The Audience That Disappeared illustration"
       readTime="11 min"
       wordCount={2514}
@@ -40,7 +40,7 @@ export default function TheAudienceThatDisappeared() {
     nextSubtitle="On bodies that refuse to rot, and what we need them to mean"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-incorruptibles.png"
+    nextImage="/images/explorations/the-incorruptibles.webp"
     nextReadTime="13 min"
     >
       <h2>The Emperor&apos;s New Crowd</h2>

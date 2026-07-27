@@ -29,7 +29,7 @@ export default function ThePhantomLimb() {
       category="Essay"
       categoryColor="violet"
       date="March 15, 2026"
-      imageSrc="/images/explorations/the-phantom-limb.png"
+      imageSrc="/images/explorations/the-phantom-limb.webp"
       imageAlt="The Phantom Limb illustration"
       readTime="13 min"
       wordCount={3097}

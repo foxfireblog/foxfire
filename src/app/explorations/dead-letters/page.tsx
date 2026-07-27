@@ -29,7 +29,7 @@ export default function DeadLetters() {
       category="History & Longing"
       categoryColor="amber"
       date="February 28, 2026"
-      imageSrc="/images/explorations/dead-letters.png"
+      imageSrc="/images/explorations/dead-letters.webp"
       imageAlt="An enormous warehouse filled with unopened letters illuminated by a shaft of dusty golden light"
       readTime="11 min"
       wordCount={2500}
@@ -40,7 +40,7 @@ export default function DeadLetters() {
       nextSubtitle="What disappears when a language dies — and it's not just vocabulary"
       nextCategory="Linguistics &amp; Loss"
       nextCategoryColor="violet"
-      nextImage="/images/explorations/the-last-word.png"
+      nextImage="/images/explorations/the-last-word.webp"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-letters.mp3"
     >

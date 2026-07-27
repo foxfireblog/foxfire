@@ -29,7 +29,7 @@ export default function TheLightThatEatsTheDead() {
       category="Natural History"
       categoryColor="emerald"
       date="July 8, 2026"
-      imageSrc="/images/explorations/the-light-that-eats-the-dead.png"
+      imageSrc="/images/explorations/the-light-that-eats-the-dead.webp"
       imageAlt="The Light That Eats the Dead illustration"
       readTime="11 min"
       wordCount={2526}
@@ -40,7 +40,7 @@ export default function TheLightThatEatsTheDead() {
     nextSubtitle="A story about what the water keeps"
     nextCategory="Short Fiction"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-cenote.png"
+    nextImage="/images/explorations/the-cenote.webp"
     nextReadTime="17 min"
     >
       <h2>The Forest Floor Is Lit from Below</h2>

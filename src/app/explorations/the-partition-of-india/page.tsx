@@ -29,7 +29,7 @@ export default function ThePartitionOfIndia() {
       category="Essay"
       categoryColor="amber"
       date="March 24, 2026"
-      imageSrc="/images/explorations/the-partition-of-india.png"
+      imageSrc="/images/explorations/the-partition-of-india.webp"
       imageAlt="The Partition of India: The Radcliffe Line (Part I of II) illustration"
       readTime="12 min"
       wordCount={2814}
@@ -41,7 +41,7 @@ export default function ThePartitionOfIndia() {
       nextSubtitle="The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-partition-of-india-part-2.png"
+      nextImage="/images/explorations/the-partition-of-india-part-2.webp"
       nextReadTime="14 min"
     >
       <h2>The Man Who Had Never Been East of Paris</h2>

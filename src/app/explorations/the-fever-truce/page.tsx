@@ -29,7 +29,7 @@ export default function TheFeverTruce() {
       category="Essay"
       categoryColor="amber"
       date="April 15, 2026"
-      imageSrc="/images/explorations/the-fever-truce.png"
+      imageSrc="/images/explorations/the-fever-truce.webp"
       imageAlt="The Fever Truce illustration"
       readTime="14 min"
       wordCount={3252}
@@ -41,7 +41,7 @@ export default function TheFeverTruce() {
     nextSubtitle="On the deliberate sinking of the world's nuclear fleet"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-suicide-of-rachel.png"
+    nextImage="/images/explorations/the-suicide-of-rachel.webp"
     nextReadTime="13 min"
     >
       <h2>The General Who Lost to a Mosquito</h2>

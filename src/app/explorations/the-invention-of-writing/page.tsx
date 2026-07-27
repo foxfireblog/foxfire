@@ -29,7 +29,7 @@ export default function TheInventionOfWriting() {
       category="Essay"
       categoryColor="amber"
       date="March 22, 2026"
-      imageSrc="/images/explorations/the-invention-of-writing.png"
+      imageSrc="/images/explorations/the-invention-of-writing.webp"
       imageAlt="The Invention of Writing illustration"
       readTime="12 min"
       wordCount={2652}
@@ -41,7 +41,7 @@ export default function TheInventionOfWriting() {
     nextSubtitle="The day the medieval world ended with a cannon that shouldn't have existed"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-fall-of-constantinople.png"
+    nextImage="/images/explorations/the-fall-of-constantinople.webp"
     nextReadTime="14 min"
     >
       <h2>The Accountant&apos;s Fingerprint</h2>

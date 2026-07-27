@@ -29,7 +29,7 @@ export default function TheBodyThatTaughtSurgery() {
       category="Essay"
       categoryColor="amber"
       date="July 21, 2026"
-      imageSrc="/images/explorations/the-body-that-taught-surgery.png"
+      imageSrc="/images/explorations/the-body-that-taught-surgery.webp"
       imageAlt="The Body That Taught Surgery illustration"
       readTime="13 min"
       wordCount={2907}
@@ -40,7 +40,7 @@ export default function TheBodyThatTaughtSurgery() {
     nextSubtitle="Stalin's rise, the machinery of the party-state, and the cult of personality"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-architecture-of-terror.png"
+    nextImage="/images/explorations/the-architecture-of-terror.webp"
     nextReadTime="11 min"
     >
       <h2>The Arm in the Window</h2>

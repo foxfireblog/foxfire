@@ -29,7 +29,7 @@ export default function TheShipOfTheseus() {
       category="Philosophy & Identity"
       categoryColor="emerald"
       date="March 1, 2026"
-      imageSrc="/images/explorations/the-ship-of-theseus.png"
+      imageSrc="/images/explorations/the-ship-of-theseus.webp"
       imageAlt="The Ship of Theseus illustration"
       readTime="13 min"
       wordCount={3000}
@@ -40,7 +40,7 @@ export default function TheShipOfTheseus() {
       nextSubtitle="On the ethics of leaving a door closed forever"
       nextCategory="Essay"
       nextCategoryColor="emerald"
-      nextImage="/images/explorations/the-last-uncontacted-peoples.png"
+      nextImage="/images/explorations/the-last-uncontacted-peoples.webp"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ship-of-theseus.mp3"
     ><h2>The Planks</h2>

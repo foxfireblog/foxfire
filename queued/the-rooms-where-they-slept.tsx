@@ -29,7 +29,7 @@ export default function TheRoomsWhereTheySlept() {
       category="Essay"
       categoryColor="indigo"
       date="June 17, 2026"
-      imageSrc="/images/explorations/the-rooms-where-they-slept.png"
+      imageSrc="/images/explorations/the-rooms-where-they-slept.webp"
       imageAlt="The Rooms Where They Slept illustration"
       readTime="13 min"
       wordCount={3002}
@@ -40,7 +40,7 @@ export default function TheRoomsWhereTheySlept() {
     nextSubtitle="How the body remembers what the mind forgets"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-memory-encoded-in-muscle.png"
+    nextImage="/images/explorations/the-memory-encoded-in-muscle.webp"
     nextReadTime="14 min"
     >
       <h2>The Vulnerability Machine</h2>

@@ -29,7 +29,7 @@ export default function TheBanalityOfEvil() {
       category="Essay"
       categoryColor="amber"
       date="May 15, 2026"
-      imageSrc="/images/explorations/the-banality-of-evil.png"
+      imageSrc="/images/explorations/the-banality-of-evil.webp"
       imageAlt="The Banality of Evil illustration"
       readTime="12 min"
       wordCount={2757}
@@ -40,7 +40,7 @@ export default function TheBanalityOfEvil() {
     nextSubtitle="How a room of underpaid 'computers' catalogued the universe and were nearly erased from it"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-women-who-counted-stars.png"
+    nextImage="/images/explorations/the-women-who-counted-stars.webp"
     nextReadTime="13 min"
     >
       <h2>The Man in the Glass Booth</h2>

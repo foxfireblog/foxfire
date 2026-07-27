@@ -29,7 +29,7 @@ export default function TheCosmonautWhoFellAlone() {
       category="Essay"
       categoryColor="red"
       date="June 14, 2026"
-      imageSrc="/images/explorations/the-cosmonaut-who-fell-alone.png"
+      imageSrc="/images/explorations/the-cosmonaut-who-fell-alone.webp"
       imageAlt="The Cosmonaut Who Fell Alone illustration"
       readTime="12 min"
       wordCount={2818}
@@ -40,7 +40,7 @@ export default function TheCosmonautWhoFellAlone() {
     nextSubtitle="On the strange intimacy of the spaces where irreversible choices were made"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-rooms-where-they-decided.png"
+    nextImage="/images/explorations/the-rooms-where-they-decided.webp"
     nextReadTime="14 min"
     >
       <h2>The Charred Heel Bone</h2>

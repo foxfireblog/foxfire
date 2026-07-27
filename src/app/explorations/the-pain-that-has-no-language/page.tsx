@@ -29,7 +29,7 @@ export default function ThePainThatHasNoLanguage() {
       category="Essay"
       categoryColor="rose"
       date="May 4, 2026"
-      imageSrc="/images/explorations/the-pain-that-has-no-language.png"
+      imageSrc="/images/explorations/the-pain-that-has-no-language.webp"
       imageAlt="The Pain That Has No Language illustration"
       readTime="12 min"
       wordCount={2815}
@@ -40,7 +40,7 @@ export default function ThePainThatHasNoLanguage() {
     nextSubtitle="The twentieth century's first genocide was also its first lesson in how to make a genocide disappear"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-armenian-forgetting.png"
+    nextImage="/images/explorations/the-armenian-forgetting.webp"
     nextReadTime="11 min"
     >
       <h2>The Scale of One to Ten</h2>

@@ -29,7 +29,7 @@ export default function TheGreatGuanoRush() {
       category="Essay"
       categoryColor="amber"
       date="July 4, 2026"
-      imageSrc="/images/explorations/the-great-guano-rush.png"
+      imageSrc="/images/explorations/the-great-guano-rush.webp"
       imageAlt="The Great Guano Rush illustration"
       readTime="12 min"
       wordCount={2845}
@@ -40,7 +40,7 @@ export default function TheGreatGuanoRush() {
     nextSubtitle="On allelopathy, chemical warfare, and the life that thrives in the kill zone"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-poison-that-feeds-the-forest.png"
+    nextImage="/images/explorations/the-poison-that-feeds-the-forest.webp"
     nextReadTime="12 min"
     >
       <h2>The Smell at the Docks</h2>

@@ -29,7 +29,7 @@ export default function TheManWhoMailedHimselfToFreedom() {
       category="Essay"
       categoryColor="amber"
       date="May 26, 2026"
-      imageSrc="/images/explorations/the-man-who-mailed-himself-to-freedom.png"
+      imageSrc="/images/explorations/the-man-who-mailed-himself-to-freedom.webp"
       imageAlt="The Man Who Mailed Himself to Freedom illustration"
       readTime="13 min"
       wordCount={2892}
@@ -40,7 +40,7 @@ export default function TheManWhoMailedHimselfToFreedom() {
     nextSubtitle="Half the world works in an economy that officially doesn't exist"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-informal-economy.png"
+    nextImage="/images/explorations/the-informal-economy.webp"
     nextReadTime="11 min"
     >
       <h2>Dry Goods</h2>

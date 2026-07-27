@@ -29,7 +29,7 @@ export default function TheCambrianExplosion() {
       category="Natural History"
       categoryColor="teal"
       date="March 25, 2026"
-      imageSrc="/images/explorations/the-cambrian-explosion.png"
+      imageSrc="/images/explorations/the-cambrian-explosion.webp"
       imageAlt="The Cambrian Explosion illustration"
       readTime="11 min"
       wordCount={2609}
@@ -41,7 +41,7 @@ export default function TheCambrianExplosion() {
     nextSubtitle="Two men who hated each other dug up prehistoric America &mdash; and buried the truth along the way"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-bone-wars.png"
+    nextImage="/images/explorations/the-bone-wars.webp"
     nextReadTime="12 min"
     >
       <h2>The Garden of the Blind</h2>

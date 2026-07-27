@@ -29,7 +29,7 @@ export default function TheFridtjofNansenProblem() {
       category="Essay"
       categoryColor="sky"
       date="June 6, 2026"
-      imageSrc="/images/explorations/the-fridtjof-nansen-problem.png"
+      imageSrc="/images/explorations/the-fridtjof-nansen-problem.webp"
       imageAlt="The Fridtjof Nansen Problem illustration"
       readTime="12 min"
       wordCount={2661}
@@ -40,7 +40,7 @@ export default function TheFridtjofNansenProblem() {
     nextSubtitle="How freed people bought, borrowed, and invented their surnames &mdash; and what those names still carry"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-price-of-a-name.png"
+    nextImage="/images/explorations/the-price-of-a-name.webp"
     nextReadTime="12 min"
     >
       <h2>The Man Who Skied Across Greenland and Then Tried to Ski Across Human Cruelty</h2>

@@ -29,7 +29,7 @@ export default function TheTelephoneAtTheBottomOfTheSea() {
       category="Essay"
       categoryColor="teal"
       date="July 17, 2026"
-      imageSrc="/images/explorations/the-telephone-at-the-bottom-of-the-sea.png"
+      imageSrc="/images/explorations/the-telephone-at-the-bottom-of-the-sea.webp"
       imageAlt="The Telephone at the Bottom of the Sea illustration"
       readTime="13 min"
       wordCount={2938}
@@ -40,7 +40,7 @@ export default function TheTelephoneAtTheBottomOfTheSea() {
     nextSubtitle="How a psychologist's pigeon experiments became the blueprint for the slot machine in your pocket"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-skinner-box-we-built-ourselves.png"
+    nextImage="/images/explorations/the-skinner-box-we-built-ourselves.webp"
     nextReadTime="13 min"
     >
       <h2>The Sigh</h2>

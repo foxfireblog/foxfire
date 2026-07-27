@@ -29,7 +29,7 @@ export default function TheInformers() {
       category="Essay"
       categoryColor="indigo"
       date="April 7, 2026"
-      imageSrc="/images/explorations/the-informers.png"
+      imageSrc="/images/explorations/the-informers.webp"
       imageAlt="The Informers illustration"
       readTime="12 min"
       wordCount={2713}
@@ -41,7 +41,7 @@ export default function TheInformers() {
     nextSubtitle="The day 132 people were thrown into the sea, and the courts argued about cargo"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-zong-massacre.png"
+    nextImage="/images/explorations/the-zong-massacre.webp"
     nextReadTime="13 min"
     >
       <h2>The Chicken Liver Report</h2>

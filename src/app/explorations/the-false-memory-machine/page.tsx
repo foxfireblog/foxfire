@@ -29,7 +29,7 @@ export default function TheFalseMemoryMachine() {
       category="Essay"
       categoryColor="violet"
       date="June 16, 2026"
-      imageSrc="/images/explorations/the-false-memory-machine.png"
+      imageSrc="/images/explorations/the-false-memory-machine.webp"
       imageAlt="The False Memory Machine illustration"
       readTime="13 min"
       wordCount={2935}
@@ -40,7 +40,7 @@ export default function TheFalseMemoryMachine() {
     nextSubtitle="On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-palace-that-erased-itself.png"
+    nextImage="/images/explorations/the-palace-that-erased-itself.webp"
     nextReadTime="13 min"
     >
       <h2>The Man on Television</h2>

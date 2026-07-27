@@ -29,7 +29,7 @@ export default function GhostShips() {
       category="Maritime History"
       categoryColor="teal"
       date="April 5, 2026"
-      imageSrc="/images/explorations/ghost-ships.png"
+      imageSrc="/images/explorations/ghost-ships.webp"
       imageAlt="Ghost Ships illustration"
       readTime="12 min"
       wordCount={2693}
@@ -41,7 +41,7 @@ export default function GhostShips() {
     nextSubtitle="The fungus that hijacks the living &mdash; and the question it leaves rotting in the brain"
     nextCategory="Natural Horror"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cordyceps-mind.png"
+    nextImage="/images/explorations/the-cordyceps-mind.webp"
     nextReadTime="14 min"
     >
       <h2>The Ship That Kept Going</h2>

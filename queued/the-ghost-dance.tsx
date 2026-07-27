@@ -29,7 +29,7 @@ export default function TheGhostDance() {
       category="Essay"
       categoryColor="amber"
       date="April 25, 2026"
-      imageSrc="/images/explorations/the-ghost-dance.png"
+      imageSrc="/images/explorations/the-ghost-dance.webp"
       imageAlt="The Ghost Dance illustration"
       readTime="13 min"
       wordCount={2967}
@@ -40,7 +40,7 @@ export default function TheGhostDance() {
     nextSubtitle="Tycho Brahe built the most precise observatory in the pre-telescopic world &mdash; and spent his life denying what his own data proved"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-astronomer-who-refused-the-sky.png"
+    nextImage="/images/explorations/the-astronomer-who-refused-the-sky.webp"
     nextReadTime="12 min"
     >
       <h2>When the Sun Died</h2>

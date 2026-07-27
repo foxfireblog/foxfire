@@ -29,7 +29,7 @@ export default function Microchimerism() {
       category="Natural History"
       categoryColor="rose"
       date="March 15, 2026"
-      imageSrc="/images/explorations/microchimerism.png"
+      imageSrc="/images/explorations/microchimerism.webp"
       imageAlt="Microchimerism illustration"
       readTime="11 min"
       wordCount={2611}
@@ -40,7 +40,7 @@ export default function Microchimerism() {
     nextSubtitle="How a physician drew dots on a map and invented a way of seeing"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-map-of-every-death.png"
+    nextImage="/images/explorations/the-map-of-every-death.webp"
     nextReadTime="13 min"
     >
 

@@ -29,7 +29,7 @@ export default function TheBorrowing() {
       category="Linguistic Natural History"
       categoryColor="amber"
       date="March 23, 2026"
-      imageSrc="/images/explorations/the-borrowing.png"
+      imageSrc="/images/explorations/the-borrowing.webp"
       imageAlt="The Borrowing illustration"
       readTime="12 min"
       wordCount={2740}
@@ -40,7 +40,7 @@ export default function TheBorrowing() {
     nextSubtitle="Before the wheel, before writing, before we were even quite human &mdash; we were fermenting."
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-oldest-technology-on-earth.png"
+    nextImage="/images/explorations/the-oldest-technology-on-earth.webp"
     nextReadTime="12 min"
     >
       <h2>The Bone-Setters and the Eyeliner</h2>

@@ -29,7 +29,7 @@ export default function TheMountainsTheSeaForgot() {
       category="Natural History"
       categoryColor="teal"
       date="June 28, 2026"
-      imageSrc="/images/explorations/the-mountains-the-sea-forgot.png"
+      imageSrc="/images/explorations/the-mountains-the-sea-forgot.webp"
       imageAlt="The Mountains the Sea Forgot illustration"
       readTime="14 min"
       wordCount={3156}
@@ -40,7 +40,7 @@ export default function TheMountainsTheSeaForgot() {
     nextSubtitle="On what happens when civilization reaches the bone"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-city-that-ate-its-cats.png"
+    nextImage="/images/explorations/the-city-that-ate-its-cats.webp"
     nextReadTime="11 min"
     >
       <h2>The Roof of the World Is a Seabed</h2>

@@ -29,7 +29,7 @@ export default function TheMemoryPalace() {
       category="Essay"
       categoryColor="amber"
       date="April 12, 2026"
-      imageSrc="/images/explorations/the-memory-palace.png"
+      imageSrc="/images/explorations/the-memory-palace.webp"
       imageAlt="The Memory Palace illustration"
       readTime="13 min"
       wordCount={2972}
@@ -41,7 +41,7 @@ export default function TheMemoryPalace() {
     nextSubtitle="How the pursuit of nutmeg turned paradise into a graveyard"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-price-of-flavor.png"
+    nextImage="/images/explorations/the-price-of-flavor.webp"
     nextReadTime="11 min"
     >
       <h2>The Collapse</h2>

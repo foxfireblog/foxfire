@@ -29,7 +29,7 @@ export default function TheGovernmentInExile() {
       category="Essay"
       categoryColor="violet"
       date="July 12, 2026"
-      imageSrc="/images/explorations/the-government-in-exile.png"
+      imageSrc="/images/explorations/the-government-in-exile.webp"
       imageAlt="The Government in Exile illustration"
       readTime="12 min"
       wordCount={2792}
@@ -40,7 +40,7 @@ export default function TheGovernmentInExile() {
     nextSubtitle="How medicine learned to read what patients could not say &mdash; and what it took from them in the exchange"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-involuntary-confession-of-the-body.png"
+    nextImage="/images/explorations/the-involuntary-confession-of-the-body.webp"
     nextReadTime="15 min"
     >
       <h2>The Phone That Kept Ringing</h2>

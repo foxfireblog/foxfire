@@ -29,7 +29,7 @@ export default function TheCensusThatErasedPeople() {
       category="Essay"
       categoryColor="red"
       date="April 4, 2026"
-      imageSrc="/images/explorations/the-census-that-erased-people.png"
+      imageSrc="/images/explorations/the-census-that-erased-people.webp"
       imageAlt="The Census That Erased People illustration"
       readTime="13 min"
       wordCount={2999}
@@ -41,7 +41,7 @@ export default function TheCensusThatErasedPeople() {
     nextSubtitle="Vessels found drifting with no crew aboard, and the stories they refuse to tell"
     nextCategory="Maritime History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/ghost-ships.png"
+    nextImage="/images/explorations/ghost-ships.webp"
     nextReadTime="12 min"
     >
       <h2>The Purification Ritual</h2>

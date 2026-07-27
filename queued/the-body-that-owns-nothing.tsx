@@ -29,7 +29,7 @@ export default function TheBodyThatOwnsNothing() {
       category="Essay"
       categoryColor="red"
       date="July 20, 2026"
-      imageSrc="/images/explorations/the-body-that-owns-nothing.png"
+      imageSrc="/images/explorations/the-body-that-owns-nothing.webp"
       imageAlt="The Body That Owns Nothing illustration"
       readTime="12 min"
       wordCount={2673}
@@ -40,7 +40,7 @@ export default function TheBodyThatOwnsNothing() {
     nextSubtitle="The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-despotate-of-the-morea.png"
+    nextImage="/images/explorations/the-despotate-of-the-morea.webp"
     nextReadTime="13 min"
     >
       <h2>The Sheets, Not the Body</h2>

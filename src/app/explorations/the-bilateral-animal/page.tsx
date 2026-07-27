@@ -29,7 +29,7 @@ export default function TheBilateralAnimal() {
       category="Natural History"
       categoryColor="emerald"
       date="April 22, 2026"
-      imageSrc="/images/explorations/the-bilateral-animal.png"
+      imageSrc="/images/explorations/the-bilateral-animal.webp"
       imageAlt="The Bilateral Animal illustration"
       readTime="11 min"
       wordCount={2537}
@@ -41,7 +41,7 @@ export default function TheBilateralAnimal() {
     nextSubtitle="When the world decided you didn't exist, one man invented a piece of paper that said you did"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-nansen-passport.png"
+    nextImage="/images/explorations/the-nansen-passport.webp"
     nextReadTime="12 min"
     >
       <h2>The Coin Flip Inside Your Chest</h2>

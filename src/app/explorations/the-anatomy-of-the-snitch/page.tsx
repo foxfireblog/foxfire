@@ -29,7 +29,7 @@ export default function TheAnatomyOfTheSnitch() {
       category="Essay"
       categoryColor="amber"
       date="July 21, 2026"
-      imageSrc="/images/explorations/the-anatomy-of-the-snitch.png"
+      imageSrc="/images/explorations/the-anatomy-of-the-snitch.webp"
       imageAlt="The Anatomy of the Snitch illustration"
       readTime="14 min"
       wordCount={3258}
@@ -40,7 +40,7 @@ export default function TheAnatomyOfTheSnitch() {
     nextSubtitle="On the stolen dead, the science of the knife, and the debt anatomy owes to the grave"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-body-that-taught-surgery.png"
+    nextImage="/images/explorations/the-body-that-taught-surgery.webp"
     nextReadTime="13 min"
     >
       <h2>The Language of Vermin</h2>

@@ -29,7 +29,7 @@ export default function TheFrequencyIllusion() {
       category="Essay"
       categoryColor="amber"
       date="May 21, 2026"
-      imageSrc="/images/explorations/the-frequency-illusion.png"
+      imageSrc="/images/explorations/the-frequency-illusion.webp"
       imageAlt="The Frequency Illusion illustration"
       readTime="13 min"
       wordCount={3014}
@@ -40,7 +40,7 @@ export default function TheFrequencyIllusion() {
     nextSubtitle="On choosing to be unfindable"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-ones-who-walk-away-from-the-algorithm.png"
+    nextImage="/images/explorations/the-ones-who-walk-away-from-the-algorithm.webp"
     nextReadTime="12 min"
     >
       <h2>The Word That Was Already There</h2>

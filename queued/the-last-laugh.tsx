@@ -29,7 +29,7 @@ export default function TheLastLaugh() {
       category="Essay"
       categoryColor="amber"
       date="May 9, 2026"
-      imageSrc="/images/explorations/the-last-laugh.png"
+      imageSrc="/images/explorations/the-last-laugh.webp"
       imageAlt="The Last Laugh illustration"
       readTime="13 min"
       wordCount={2973}
@@ -40,7 +40,7 @@ export default function TheLastLaugh() {
     nextSubtitle="On the strange dream of building a tongue from nothing"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-invented-languages.png"
+    nextImage="/images/explorations/the-invented-languages.webp"
     nextReadTime="13 min"
     >
       <h2>The Donkey, the Figs, and the Dying Philosopher</h2>

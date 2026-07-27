@@ -29,7 +29,7 @@ export default function TheFastingGirls() {
       category="Essay"
       categoryColor="rose"
       date="June 23, 2026"
-      imageSrc="/images/explorations/the-fasting-girls.png"
+      imageSrc="/images/explorations/the-fasting-girls.webp"
       imageAlt="The Fasting Girls illustration"
       readTime="13 min"
       wordCount={2999}
@@ -40,7 +40,7 @@ export default function TheFastingGirls() {
     nextSubtitle="On pressing your face into plaster and calling it memory"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-death-cast.png"
+    nextImage="/images/explorations/the-death-cast.webp"
     nextReadTime="12 min"
     >
 

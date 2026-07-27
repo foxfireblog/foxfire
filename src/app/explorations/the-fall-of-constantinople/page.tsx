@@ -29,7 +29,7 @@ export default function TheFallOfConstantinople() {
       category="Essay"
       categoryColor="red"
       date="March 23, 2026"
-      imageSrc="/images/explorations/the-fall-of-constantinople.png"
+      imageSrc="/images/explorations/the-fall-of-constantinople.webp"
       imageAlt="The Fall of Constantinople illustration"
       readTime="14 min"
       wordCount={3134}
@@ -41,7 +41,7 @@ export default function TheFallOfConstantinople() {
     nextSubtitle="On the terrible reasonableness of saying yes"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-collaborators.png"
+    nextImage="/images/explorations/the-collaborators.webp"
     nextReadTime="14 min"
     >
       <h2>The Mercenary Who Changed Sides</h2>

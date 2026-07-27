@@ -29,7 +29,7 @@ export default function ThePaleBlueDot() {
       category="Essay"
       categoryColor="sky"
       date="April 19, 2026"
-      imageSrc="/images/explorations/the-pale-blue-dot.png"
+      imageSrc="/images/explorations/the-pale-blue-dot.webp"
       imageAlt="The Pale Blue Dot illustration"
       readTime="13 min"
       wordCount={2941}
@@ -41,7 +41,7 @@ export default function ThePaleBlueDot() {
     nextSubtitle="How the telegraph rewired the human mind &mdash; and then we forgot it happened"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-victorian-internet.png"
+    nextImage="/images/explorations/the-victorian-internet.webp"
     nextReadTime="13 min"
     >
       <h2>A Speck They Tried to Brush Away</h2>

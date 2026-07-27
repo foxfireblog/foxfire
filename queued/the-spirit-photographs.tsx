@@ -29,7 +29,7 @@ export default function TheSpiritPhotographs() {
       category="Essay"
       categoryColor="violet"
       date="April 9, 2026"
-      imageSrc="/images/explorations/the-spirit-photographs.png"
+      imageSrc="/images/explorations/the-spirit-photographs.webp"
       imageAlt="The Spirit Photographs illustration"
       readTime="13 min"
       wordCount={2947}
@@ -40,7 +40,7 @@ export default function TheSpiritPhotographs() {
     nextSubtitle="How Le Corbusier's dream of erasing the past became the blueprint for a century of broken cities"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.png"
+    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
     nextReadTime="13 min"
     >
       <h2>The Ghost in the Machine</h2>

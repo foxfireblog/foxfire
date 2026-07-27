@@ -29,7 +29,7 @@ export default function TheRubberHandIllusion() {
       category="Essay"
       categoryColor="violet"
       date="April 6, 2026"
-      imageSrc="/images/explorations/the-rubber-hand-illusion.png"
+      imageSrc="/images/explorations/the-rubber-hand-illusion.webp"
       imageAlt="The Rubber Hand Illusion illustration"
       readTime="11 min"
       wordCount={2585}
@@ -41,7 +41,7 @@ export default function TheRubberHandIllusion() {
     nextSubtitle="On the woman who made 150,000 photographs and showed them to no one"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/vivian-maiers-secret-eye.png"
+    nextImage="/images/explorations/vivian-maiers-secret-eye.webp"
     nextReadTime="12 min"
     >
       <h2>The Paintbrush and the Lie</h2>

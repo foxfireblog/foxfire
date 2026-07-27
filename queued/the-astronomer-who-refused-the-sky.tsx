@@ -29,7 +29,7 @@ export default function TheAstronomerWhoRefusedTheSky() {
       category="Essay"
       categoryColor="indigo"
       date="April 25, 2026"
-      imageSrc="/images/explorations/the-astronomer-who-refused-the-sky.png"
+      imageSrc="/images/explorations/the-astronomer-who-refused-the-sky.webp"
       imageAlt="The Astronomer Who Refused the Sky illustration"
       readTime="12 min"
       wordCount={2764}
@@ -40,7 +40,7 @@ export default function TheAstronomerWhoRefusedTheSky() {
     nextSubtitle="On the strangeness of meeting yourself"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-doppelganger-effect.png"
+    nextImage="/images/explorations/the-doppelganger-effect.webp"
     nextReadTime="13 min"
     >
       <h2>The Nose, the Stars, the Stubbornness</h2>

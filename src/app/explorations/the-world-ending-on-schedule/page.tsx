@@ -29,7 +29,7 @@ export default function TheWorldEndingOnSchedule() {
       category="Essay"
       categoryColor="amber"
       date="April 10, 2026"
-      imageSrc="/images/explorations/the-world-ending-on-schedule.png"
+      imageSrc="/images/explorations/the-world-ending-on-schedule.webp"
       imageAlt="The World Ending on Schedule illustration"
       readTime="15 min"
       wordCount={3560}
@@ -41,7 +41,7 @@ export default function TheWorldEndingOnSchedule() {
     nextSubtitle="Every civilization that burned books eventually burned people"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-library-of-burned-books.png"
+    nextImage="/images/explorations/the-library-of-burned-books.webp"
     nextReadTime="13 min"
     >
       <h2>The Man in Times Square</h2>

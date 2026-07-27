@@ -29,7 +29,7 @@ export default function TheSuicideOfTheAralSea() {
       category="Elegy"
       categoryColor="amber"
       date="May 11, 2026"
-      imageSrc="/images/explorations/the-suicide-of-the-aral-sea.png"
+      imageSrc="/images/explorations/the-suicide-of-the-aral-sea.webp"
       imageAlt="The Suicide of the Aral Sea illustration"
       readTime="12 min"
       wordCount={2725}
@@ -40,7 +40,7 @@ export default function TheSuicideOfTheAralSea() {
     nextSubtitle="How a rotting snail built an empire of color"
     nextCategory="Natural History"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-purple-that-ruled-the-world.png"
+    nextImage="/images/explorations/the-purple-that-ruled-the-world.webp"
     nextReadTime="11 min"
     >
       <h2>An Error of Nature</h2>

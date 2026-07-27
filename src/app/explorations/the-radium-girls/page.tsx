@@ -29,7 +29,7 @@ export default function TheRadiumGirls() {
       category="Essay"
       categoryColor="green"
       date="July 20, 2026"
-      imageSrc="/images/explorations/the-radium-girls.png"
+      imageSrc="/images/explorations/the-radium-girls.webp"
       imageAlt="The Radium Girls illustration"
       readTime="14 min"
       wordCount={3174}
@@ -40,7 +40,7 @@ export default function TheRadiumGirls() {
     nextSubtitle="On informers, collaborators, and the architecture of betrayal"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-anatomy-of-the-snitch.png"
+    nextImage="/images/explorations/the-anatomy-of-the-snitch.webp"
     nextReadTime="14 min"
     >
       <h2>The Women Who Glowed</h2>

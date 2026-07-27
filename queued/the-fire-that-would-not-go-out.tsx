@@ -29,7 +29,7 @@ export default function TheFireThatWouldNotGoOut() {
       category="Natural History"
       categoryColor="orange"
       date="May 19, 2026"
-      imageSrc="/images/explorations/the-fire-that-would-not-go-out.png"
+      imageSrc="/images/explorations/the-fire-that-would-not-go-out.webp"
       imageAlt="The Fire That Would Not Go Out illustration"
       readTime="12 min"
       wordCount={2715}
@@ -40,7 +40,7 @@ export default function TheFireThatWouldNotGoOut() {
     nextSubtitle="Everything you know has an expiration date. Most of them have already passed."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-half-life-of-facts.png"
+    nextImage="/images/explorations/the-half-life-of-facts.webp"
     nextReadTime="13 min"
     >
       <h2>The Boy Who Almost Fell Into the Earth</h2>

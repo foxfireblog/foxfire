@@ -29,7 +29,7 @@ export default function TheConfessionsOfTheInnocent() {
       category="Essay"
       categoryColor="red"
       date="April 14, 2026"
-      imageSrc="/images/explorations/the-confessions-of-the-innocent.png"
+      imageSrc="/images/explorations/the-confessions-of-the-innocent.webp"
       imageAlt="The Confessions of the Innocent illustration"
       readTime="14 min"
       wordCount={3194}
@@ -40,7 +40,7 @@ export default function TheConfessionsOfTheInnocent() {
     nextSubtitle="Every uncomfortable bench is a sentence handed down without a trial"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-architecture-of-control.png"
+    nextImage="/images/explorations/the-architecture-of-control.webp"
     nextReadTime="12 min"
     >
       <h2>The Boy Who Wanted to Make It to Sixth Hour</h2>

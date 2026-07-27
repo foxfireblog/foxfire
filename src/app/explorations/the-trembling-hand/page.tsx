@@ -29,7 +29,7 @@ export default function TheTremblingHand() {
       category="Essay"
       categoryColor="rose"
       date="June 24, 2026"
-      imageSrc="/images/explorations/the-trembling-hand.png"
+      imageSrc="/images/explorations/the-trembling-hand.webp"
       imageAlt="The Trembling Hand illustration"
       readTime="14 min"
       wordCount={3325}
@@ -40,7 +40,7 @@ export default function TheTremblingHand() {
     nextSubtitle="Heisenberg, Bohr, and the conversation that haunts physics"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-friendship-that-split-the-atom.png"
+    nextImage="/images/explorations/the-friendship-that-split-the-atom.webp"
     nextReadTime="14 min"
     >
       <h2>The Cup</h2>

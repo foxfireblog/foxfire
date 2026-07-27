@@ -29,7 +29,7 @@ export default function DeadDropsAndLivingCities() {
       category="Essay"
       categoryColor="teal"
       date="April 21, 2026"
-      imageSrc="/images/explorations/dead-drops-and-living-cities.png"
+      imageSrc="/images/explorations/dead-drops-and-living-cities.webp"
       imageAlt="Dead Drops and Living Cities illustration"
       readTime="12 min"
       wordCount={2660}
@@ -41,7 +41,7 @@ export default function DeadDropsAndLivingCities() {
     nextSubtitle="Why almost every creature with a face is a mirror of itself"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-bilateral-animal.png"
+    nextImage="/images/explorations/the-bilateral-animal.webp"
     nextReadTime="11 min"
     >
       <h2>The Nickel That Told a Story</h2>

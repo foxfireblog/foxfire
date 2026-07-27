@@ -29,7 +29,7 @@ export default function ThePhysiciansOfTheUrineWheel() {
       category="Medical History"
       categoryColor="amber"
       date="May 27, 2026"
-      imageSrc="/images/explorations/the-physicians-of-the-urine-wheel.png"
+      imageSrc="/images/explorations/the-physicians-of-the-urine-wheel.webp"
       imageAlt="The Physicians of the Urine Wheel illustration"
       readTime="13 min"
       wordCount={2878}
@@ -40,7 +40,7 @@ export default function ThePhysiciansOfTheUrineWheel() {
     nextSubtitle="Your focus is the most valuable commodity on earth. You've been giving it away for free."
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-attention-merchants.png"
+    nextImage="/images/explorations/the-attention-merchants.webp"
     nextReadTime="12 min"
     >
       <h2>The Flask Held Up to the Light</h2>

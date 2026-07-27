@@ -29,7 +29,7 @@ export default function TheBirchBarkLettersOfNovgorod() {
       category="Essay"
       categoryColor="amber"
       date="July 25, 2026"
-      imageSrc="/images/explorations/the-birch-bark-letters-of-novgorod.png"
+      imageSrc="/images/explorations/the-birch-bark-letters-of-novgorod.webp"
       imageAlt="The Birch Bark Letters of Novgorod illustration"
       readTime="13 min"
       wordCount={3014}
@@ -40,7 +40,7 @@ export default function TheBirchBarkLettersOfNovgorod() {
     nextSubtitle="How humanity invented the idea that some moments are too sacred for killing"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-white-flag-before-the-white-flag.png"
+    nextImage="/images/explorations/the-white-flag-before-the-white-flag.webp"
     nextReadTime="14 min"
     >
       <h2>What the Mud Kept</h2>

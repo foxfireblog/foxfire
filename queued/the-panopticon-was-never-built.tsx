@@ -29,7 +29,7 @@ export default function ThePanopticonWasNeverBuilt() {
       category="Essay"
       categoryColor="indigo"
       date="April 28, 2026"
-      imageSrc="/images/explorations/the-panopticon-was-never-built.png"
+      imageSrc="/images/explorations/the-panopticon-was-never-built.webp"
       imageAlt="The Panopticon Was Never Built illustration"
       readTime="12 min"
       wordCount={2727}
@@ -40,7 +40,7 @@ export default function ThePanopticonWasNeverBuilt() {
     nextSubtitle="How every place became the same place, and what we lost along the way"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-geography-of-nowhere.png"
+    nextImage="/images/explorations/the-geography-of-nowhere.webp"
     nextReadTime="13 min"
     >
       <h2>The Spider in His Web</h2>

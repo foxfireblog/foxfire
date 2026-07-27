@@ -29,7 +29,7 @@ export default function TheGlowBetween() {
       category="Natural History"
       categoryColor="green"
       date="February 27, 2026"
-      imageSrc="/images/explorations/the-glow-between.png"
+      imageSrc="/images/explorations/the-glow-between.webp"
       imageAlt="Bioluminescent foxfire glowing on decaying wood in a dark forest"
       readTime="10 min"
       wordCount={2300}
@@ -38,7 +38,7 @@ export default function TheGlowBetween() {
       nextSubtitle="An original poem"
       nextCategory="Poetry"
       nextCategoryColor="cyan"
-      nextImage="/images/explorations/what-the-light-finds.png"
+      nextImage="/images/explorations/what-the-light-finds.webp"
       nextReadTime="3 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-glow-between.mp3"
     ><p>

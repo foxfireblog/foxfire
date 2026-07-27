@@ -29,7 +29,7 @@ export default function TheRhythmOfCrowds() {
       category="Essay"
       categoryColor="violet"
       date="May 20, 2026"
-      imageSrc="/images/explorations/the-rhythm-of-crowds.png"
+      imageSrc="/images/explorations/the-rhythm-of-crowds.webp"
       imageAlt="The Rhythm of Crowds illustration"
       readTime="12 min"
       wordCount={2864}
@@ -40,7 +40,7 @@ export default function TheRhythmOfCrowds() {
     nextSubtitle="Shostakovich's Seventh, the Vavilov seed bank, and survival and memory"
     nextCategory="History"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-siege-of-leningrad-part-2.png"
+    nextImage="/images/explorations/the-siege-of-leningrad-part-2.webp"
     nextReadTime="14 min"
     >
       <h2>Two Clocks on a Wall</h2>

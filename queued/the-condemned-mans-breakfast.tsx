@@ -29,7 +29,7 @@ export default function TheCondemnedMansBreakfast() {
       category="Essay"
       categoryColor="amber"
       date="June 5, 2026"
-      imageSrc="/images/explorations/the-condemned-mans-breakfast.png"
+      imageSrc="/images/explorations/the-condemned-mans-breakfast.webp"
       imageAlt="The Condemned Man's Breakfast illustration"
       readTime="12 min"
       wordCount={2772}
@@ -40,7 +40,7 @@ export default function TheCondemnedMansBreakfast() {
     nextSubtitle="The day 132 people became a line item in an insurance ledger"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-zong-massacre.png"
+    nextImage="/images/explorations/the-zong-massacre.webp"
     nextReadTime="12 min"
     >
       <h2>The Olive Pit</h2>

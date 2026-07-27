@@ -29,7 +29,7 @@ export default function TheElectionThatNobodyWon() {
       category="Essay"
       categoryColor="amber"
       date="June 30, 2026"
-      imageSrc="/images/explorations/the-election-that-nobody-won.png"
+      imageSrc="/images/explorations/the-election-that-nobody-won.webp"
       imageAlt="The Election That Nobody Won illustration"
       readTime="11 min"
       wordCount={2597}
@@ -40,7 +40,7 @@ export default function TheElectionThatNobodyWon() {
     nextSubtitle="Why the Canadian government made generosity illegal"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-gift-economy-of-the-potlatch.png"
+    nextImage="/images/explorations/the-gift-economy-of-the-potlatch.webp"
     nextReadTime="13 min"
     >
       <h2>The Boy in the Piazza</h2>

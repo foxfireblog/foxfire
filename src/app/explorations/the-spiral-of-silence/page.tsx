@@ -29,7 +29,7 @@ export default function TheSpiralOfSilence() {
       category="Essay"
       categoryColor="violet"
       date="May 24, 2026"
-      imageSrc="/images/explorations/the-spiral-of-silence.png"
+      imageSrc="/images/explorations/the-spiral-of-silence.webp"
       imageAlt="The Spiral of Silence illustration"
       readTime="12 min"
       wordCount={2748}
@@ -40,7 +40,7 @@ export default function TheSpiralOfSilence() {
     nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-manhattan-project-part-4.png"
+    nextImage="/images/explorations/the-manhattan-project-part-4.webp"
     nextReadTime="15 min"
     >
       <h2>The Photograph</h2>

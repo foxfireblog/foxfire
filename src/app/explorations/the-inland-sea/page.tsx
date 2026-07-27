@@ -29,7 +29,7 @@ export default function TheInlandSea() {
       category="Natural History"
       categoryColor="cyan"
       date="June 21, 2026"
-      imageSrc="/images/explorations/the-inland-sea.png"
+      imageSrc="/images/explorations/the-inland-sea.webp"
       imageAlt="The Inland Sea illustration"
       readTime="13 min"
       wordCount={2891}
@@ -40,7 +40,7 @@ export default function TheInlandSea() {
     nextSubtitle="What happens when a society decides it no longer needs to know things"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-suicide-of-the-expert.png"
+    nextImage="/images/explorations/the-suicide-of-the-expert.webp"
     nextReadTime="12 min"
     >
       <h2>The Ocean Beneath Your Feet</h2>

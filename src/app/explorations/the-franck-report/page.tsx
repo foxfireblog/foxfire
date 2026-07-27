@@ -29,7 +29,7 @@ export default function TheFranckReport() {
       category="Essay"
       categoryColor="amber"
       date="July 20, 2026"
-      imageSrc="/images/explorations/the-franck-report.png"
+      imageSrc="/images/explorations/the-franck-report.webp"
       imageAlt="The Franck Report illustration"
       readTime="12 min"
       wordCount={2851}
@@ -40,7 +40,7 @@ export default function TheFranckReport() {
     nextSubtitle="The women whose bones became the evidence"
     nextCategory="Essay"
     nextCategoryColor="green"
-    nextImage="/images/explorations/the-radium-girls.png"
+    nextImage="/images/explorations/the-radium-girls.webp"
     nextReadTime="14 min"
     >
       <h2>The Waiting Room</h2>

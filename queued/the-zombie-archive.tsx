@@ -29,7 +29,7 @@ export default function TheZombieArchive() {
       category="Essay"
       categoryColor="violet"
       date="June 9, 2026"
-      imageSrc="/images/explorations/the-zombie-archive.png"
+      imageSrc="/images/explorations/the-zombie-archive.webp"
       imageAlt="The Zombie Archive illustration"
       readTime="14 min"
       wordCount={3150}
@@ -40,7 +40,7 @@ export default function TheZombieArchive() {
     nextSubtitle="On the architecture of anticipation &mdash; waiting rooms, antechambers, and the spaces designed to hold people in suspension"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-rooms-where-they-waited.png"
+    nextImage="/images/explorations/the-rooms-where-they-waited.webp"
     nextReadTime="12 min"
     >
       <h2>The Man Who Heard the Dirt</h2>

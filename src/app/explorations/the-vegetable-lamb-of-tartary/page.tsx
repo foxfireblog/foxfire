@@ -30,7 +30,7 @@ export default function TheVegetableLambOfTartary() {
       category="Natural History of the Impossible"
       categoryColor="emerald"
       date="March 9, 2026"
-      imageSrc="/images/explorations/the-vegetable-lamb-of-tartary.png"
+      imageSrc="/images/explorations/the-vegetable-lamb-of-tartary.webp"
       imageAlt="The Vegetable Lamb of Tartary illustration"
       readTime="12 min"
       wordCount={2852}
@@ -41,7 +41,7 @@ export default function TheVegetableLambOfTartary() {
     nextSubtitle="What grows in the place humans abandoned"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-zone-of-alienation.png"
+    nextImage="/images/explorations/the-zone-of-alienation.webp"
     nextReadTime="11 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-vegetable-lamb-of-tartary.mp3"
     ><h2>The Creature That Wasn&apos;t</h2>

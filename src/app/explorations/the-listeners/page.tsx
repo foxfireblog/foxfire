@@ -29,7 +29,7 @@ export default function TheListeners() {
       category="Essay"
       categoryColor="indigo"
       date="July 10, 2026"
-      imageSrc="/images/explorations/the-listeners.png"
+      imageSrc="/images/explorations/the-listeners.webp"
       imageAlt="The Listeners illustration"
       readTime="14 min"
       wordCount={3151}
@@ -40,7 +40,7 @@ export default function TheListeners() {
     nextSubtitle="Inside Poland's clandestine publishing empire &mdash; the most sophisticated underground press in history"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-second-circulation.png"
+    nextImage="/images/explorations/the-second-circulation.webp"
     nextReadTime="13 min"
     >
 

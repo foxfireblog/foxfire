@@ -29,7 +29,7 @@ export default function TheHawalaNetwork() {
       category="Essay"
       categoryColor="amber"
       date="June 1, 2026"
-      imageSrc="/images/explorations/the-hawala-network.png"
+      imageSrc="/images/explorations/the-hawala-network.webp"
       imageAlt="The Hawala Network illustration"
       readTime="13 min"
       wordCount={2934}
@@ -40,7 +40,7 @@ export default function TheHawalaNetwork() {
     nextSubtitle="The man who invented an entire civilization &mdash; and spent fifty years living inside the lie"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-confession-of-george-psalmanazar.png"
+    nextImage="/images/explorations/the-confession-of-george-psalmanazar.webp"
     nextReadTime="13 min"
     >
       <h2>The Invisible Ledger</h2>

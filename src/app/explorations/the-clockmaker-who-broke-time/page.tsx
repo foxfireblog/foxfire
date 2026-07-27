@@ -29,7 +29,7 @@ export default function TheClockmakerWhoBrokeTime() {
       category="Essay"
       categoryColor="amber"
       date="May 28, 2026"
-      imageSrc="/images/explorations/the-clockmaker-who-broke-time.png"
+      imageSrc="/images/explorations/the-clockmaker-who-broke-time.webp"
       imageAlt="The Clockmaker Who Broke Time illustration"
       readTime="13 min"
       wordCount={2944}
@@ -40,7 +40,7 @@ export default function TheClockmakerWhoBrokeTime() {
     nextSubtitle="On the maps drawn by people who can no longer go home"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-exile-geography.png"
+    nextImage="/images/explorations/the-exile-geography.webp"
     nextReadTime="14 min"
     >
       <h2>The Drowned Men</h2>

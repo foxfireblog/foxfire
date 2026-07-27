@@ -29,7 +29,7 @@ export default function ThePhantomAtlas() {
       category="Essay"
       categoryColor="sky"
       date="June 28, 2026"
-      imageSrc="/images/explorations/the-phantom-atlas.png"
+      imageSrc="/images/explorations/the-phantom-atlas.webp"
       imageAlt="The Phantom Atlas illustration"
       readTime="13 min"
       wordCount={2957}
@@ -40,7 +40,7 @@ export default function ThePhantomAtlas() {
     nextSubtitle="Every summit is a graveyard of the deep"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-mountains-the-sea-forgot.png"
+    nextImage="/images/explorations/the-mountains-the-sea-forgot.webp"
     nextReadTime="14 min"
     >
       <h2>The Drowned Archive</h2>

@@ -29,7 +29,7 @@ export default function TheHiredMourners() {
       category="Essay"
       categoryColor="violet"
       date="July 26, 2026"
-      imageSrc="/images/explorations/the-hired-mourners.png"
+      imageSrc="/images/explorations/the-hired-mourners.webp"
       imageAlt="The Hired Mourners illustration"
       readTime="13 min"
       wordCount={2880}

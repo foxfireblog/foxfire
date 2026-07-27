@@ -29,7 +29,7 @@ export default function TheSecondLaw() {
       category="Essay"
       categoryColor="amber"
       date="March 12, 2026"
-      imageSrc="/images/explorations/the-second-law.png"
+      imageSrc="/images/explorations/the-second-law.webp"
       imageAlt="The Second Law illustration"
       readTime="14 min"
       wordCount={3201}
@@ -41,7 +41,7 @@ export default function TheSecondLaw() {
     nextSubtitle="Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller"
     nextCategory="History & Erasure"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-forgotten-front.png"
+    nextImage="/images/explorations/the-forgotten-front.webp"
     nextReadTime="13 min"
     ><article>
       <h2>The Equation on the Tombstone</h2>

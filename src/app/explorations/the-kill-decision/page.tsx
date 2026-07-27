@@ -29,7 +29,7 @@ export default function TheKillDecision() {
       category="Ethics & Autonomy"
       categoryColor="red"
       date="March 1, 2026"
-      imageSrc="/images/explorations/the-kill-decision.png"
+      imageSrc="/images/explorations/the-kill-decision.webp"
       imageAlt="A single military drone silhouetted against an overexposed sky, seen from directly below, with rooftops and streets far beneath it"
       readTime="32 min"
       wordCount={7400}
@@ -40,7 +40,7 @@ export default function TheKillDecision() {
       nextSubtitle="He fought World War II for 29 years after it ended, because no one told him it was over"
       nextCategory="War &amp; Belief"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/hiroo-onoda.png"
+      nextImage="/images/explorations/hiroo-onoda.webp"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-kill-decision.mp3"
     ><article>

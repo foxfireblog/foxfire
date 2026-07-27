@@ -29,7 +29,7 @@ export default function TheZoneOfAlienation() {
       category="Natural History"
       categoryColor="emerald"
       date="March 9, 2026"
-      imageSrc="/images/explorations/the-zone-of-alienation.png"
+      imageSrc="/images/explorations/the-zone-of-alienation.webp"
       imageAlt="The Zone of Alienation illustration"
       readTime="11 min"
       wordCount={2489}
@@ -40,7 +40,7 @@ export default function TheZoneOfAlienation() {
       nextSubtitle="Field notes on the moments just before everything changes"
       nextCategory="Field Guide"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-threshold-notebook.png"
+      nextImage="/images/explorations/the-threshold-notebook.webp"
       nextReadTime="16 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zone-of-alienation.mp3"
     ><h2>The Forest That Ate a City</h2>

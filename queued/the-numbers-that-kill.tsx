@@ -29,7 +29,7 @@ export default function TheNumbersThatKill() {
       category="Essay"
       categoryColor="indigo"
       date="May 10, 2026"
-      imageSrc="/images/explorations/the-numbers-that-kill.png"
+      imageSrc="/images/explorations/the-numbers-that-kill.webp"
       imageAlt="The Numbers That Kill illustration"
       readTime="13 min"
       wordCount={2951}
@@ -40,7 +40,7 @@ export default function TheNumbersThatKill() {
     nextSubtitle="When wisdom requires a cruelty only the wise can afford"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-judgment-of-solomon-problem.png"
+    nextImage="/images/explorations/the-judgment-of-solomon-problem.webp"
     nextReadTime="13 min"
     >
 

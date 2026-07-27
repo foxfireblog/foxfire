@@ -29,7 +29,7 @@ export default function TheStratigraphyOfCatastrophe() {
       category="Essay"
       categoryColor="amber"
       date="July 18, 2026"
-      imageSrc="/images/explorations/the-stratigraphy-of-catastrophe.png"
+      imageSrc="/images/explorations/the-stratigraphy-of-catastrophe.webp"
       imageAlt="The Stratigraphy of Catastrophe illustration"
       readTime="12 min"
       wordCount={2805}
@@ -40,7 +40,7 @@ export default function TheStratigraphyOfCatastrophe() {
     nextSubtitle="Every living cell emits photons too faint for the eye to see. What does it mean that we are all, literally, glowing?"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-light-that-bodies-make.png"
+    nextImage="/images/explorations/the-light-that-bodies-make.webp"
     nextReadTime="13 min"
     >
       <h2>The One-Centimeter Testament</h2>

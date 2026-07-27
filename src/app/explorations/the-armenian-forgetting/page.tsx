@@ -29,7 +29,7 @@ export default function TheArmenianForgetting() {
       category="Essay"
       categoryColor="red"
       date="May 4, 2026"
-      imageSrc="/images/explorations/the-armenian-forgetting.png"
+      imageSrc="/images/explorations/the-armenian-forgetting.webp"
       imageAlt="The Armenian Forgetting illustration"
       readTime="11 min"
       wordCount={2611}
@@ -40,7 +40,7 @@ export default function TheArmenianForgetting() {
     nextSubtitle="The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scramble-for-africa-part-2.png"
+    nextImage="/images/explorations/the-scramble-for-africa-part-2.webp"
     nextReadTime="12 min"
     >
       <h2>The Insurance Claim</h2>

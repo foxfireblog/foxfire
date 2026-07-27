@@ -29,7 +29,7 @@ export default function DyatlovPass() {
       category="Mystery"
       categoryColor="indigo"
       date="March 22, 2026"
-      imageSrc="/images/explorations/dyatlov-pass.png"
+      imageSrc="/images/explorations/dyatlov-pass.webp"
       imageAlt="The Dyatlov Pass Incident illustration"
       readTime="13 min"
       wordCount={3010}
@@ -40,7 +40,7 @@ export default function DyatlovPass() {
     nextSubtitle="On the strange life of words that crossed borders uninvited"
     nextCategory="Linguistic Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-borrowing.png"
+    nextImage="/images/explorations/the-borrowing.webp"
     nextReadTime="12 min"
     >
       <h2>The Boots Were Neatly Lined Up</h2>

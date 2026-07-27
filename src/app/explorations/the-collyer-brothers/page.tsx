@@ -29,7 +29,7 @@ export default function TheCollyerBrothers() {
       category="Essay"
       categoryColor="amber"
       date="March 4, 2026"
-      imageSrc="/images/explorations/the-collyer-brothers.png"
+      imageSrc="/images/explorations/the-collyer-brothers.webp"
       imageAlt="The Collyer Brothers illustration"
       readTime="13 min"
       wordCount={2956}
@@ -40,7 +40,7 @@ export default function TheCollyerBrothers() {
     nextSubtitle="A love letter to the sound no one can find"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-hum.png"
+    nextImage="/images/explorations/the-hum.webp"
     nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-collyer-brothers.mp3"
     ><article>

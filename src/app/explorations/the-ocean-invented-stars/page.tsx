@@ -29,7 +29,7 @@ export default function TheOceanInventedStars() {
       category="Natural History"
       categoryColor="cyan"
       date="April 3, 2026"
-      imageSrc="/images/explorations/the-ocean-invented-stars.png"
+      imageSrc="/images/explorations/the-ocean-invented-stars.webp"
       imageAlt="Deep Ocean Bioluminescence illustration"
       readTime="13 min"
       wordCount={3100}
@@ -41,7 +41,7 @@ export default function TheOceanInventedStars() {
     nextSubtitle="How the mind learns to see what was always there"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-color-that-didnt-exist.png"
+    nextImage="/images/explorations/the-color-that-didnt-exist.webp"
     nextReadTime="13 min"
     >
       <h2>The Flash at Nagasaki</h2>

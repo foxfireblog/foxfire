@@ -29,7 +29,7 @@ export default function TheSabotageOfTheWoodenShoe() {
       category="Essay"
       categoryColor="amber"
       date="June 7, 2026"
-      imageSrc="/images/explorations/the-sabotage-of-the-wooden-shoe.png"
+      imageSrc="/images/explorations/the-sabotage-of-the-wooden-shoe.webp"
       imageAlt="The Sabotage of the Wooden Shoe illustration"
       readTime="12 min"
       wordCount={2668}
@@ -40,7 +40,7 @@ export default function TheSabotageOfTheWoodenShoe() {
     nextSubtitle="On the trial of Pope Formosus, and what it means to prosecute the dead"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-cadaver-synod.png"
+    nextImage="/images/explorations/the-cadaver-synod.webp"
     nextReadTime="12 min"
     >
       <h2>The Clomping of Heavy Shoes</h2>

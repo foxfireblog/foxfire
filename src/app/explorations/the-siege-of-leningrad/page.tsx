@@ -29,7 +29,7 @@ export default function TheSiegeOfLeningrad() {
       category="History"
       categoryColor="sky"
       date="May 16, 2026"
-      imageSrc="/images/explorations/the-siege-of-leningrad.png"
+      imageSrc="/images/explorations/the-siege-of-leningrad.webp"
       imageAlt="The Siege of Leningrad: The Ring Closes (Part I of II) illustration"
       readTime="14 min"
       wordCount={3121}
@@ -40,7 +40,7 @@ export default function TheSiegeOfLeningrad() {
       nextSubtitle="Shostakovich's Seventh, the Vavilov seed bank, and survival and memory"
       nextCategory="History"
       nextCategoryColor="sky"
-      nextImage="/images/explorations/the-siege-of-leningrad-part-2.png"
+      nextImage="/images/explorations/the-siege-of-leningrad-part-2.webp"
       nextReadTime="14 min"
     >
       <h2>The Sweet Earth</h2>

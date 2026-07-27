@@ -29,7 +29,7 @@ export default function TheTrolleyProblemIsRealNow() {
       category="Essay"
       categoryColor="red"
       date="March 17, 2026"
-      imageSrc="/images/explorations/the-trolley-problem-is-real-now.png"
+      imageSrc="/images/explorations/the-trolley-problem-is-real-now.webp"
       imageAlt="The Trolley Problem Is Real Now illustration"
       readTime="14 min"
       wordCount={3278}
@@ -41,7 +41,7 @@ export default function TheTrolleyProblemIsRealNow() {
     nextSubtitle="When revolutionaries tried to remake time itself"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-decimal-clock.png"
+    nextImage="/images/explorations/the-decimal-clock.webp"
     nextReadTime="14 min"
     ><h2>The Machine That Could Not See a Woman</h2>
 

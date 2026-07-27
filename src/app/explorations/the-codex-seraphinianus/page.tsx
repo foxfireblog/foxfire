@@ -29,7 +29,7 @@ export default function TheCodexSeraphinianus() {
       category="Natural History"
       categoryColor="violet"
       date="March 11, 2026"
-      imageSrc="/images/explorations/the-codex-seraphinianus.png"
+      imageSrc="/images/explorations/the-codex-seraphinianus.webp"
       imageAlt="The Codex Seraphinianus illustration"
       readTime="14 min"
       wordCount={3134}
@@ -41,7 +41,7 @@ export default function TheCodexSeraphinianus() {
       nextSubtitle="On synesthesia, the borders between senses, and what it means that perception is private"
       nextCategory="Essay"
       nextCategoryColor="violet"
-      nextImage="/images/explorations/the-flavor-of-music.png"
+      nextImage="/images/explorations/the-flavor-of-music.webp"
       nextReadTime="15 min"
     ><article>
       <h2>The Book That Reads You</h2>

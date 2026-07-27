@@ -29,7 +29,7 @@ export default function TheWatchmakerIsBlind() {
       category="Essay"
       categoryColor="amber"
       date="March 10, 2026"
-      imageSrc="/images/explorations/the-watchmaker-is-blind.png"
+      imageSrc="/images/explorations/the-watchmaker-is-blind.webp"
       imageAlt="The Watchmaker Is Blind illustration"
       readTime="14 min"
       wordCount={3314}
@@ -41,7 +41,7 @@ export default function TheWatchmakerIsBlind() {
       nextSubtitle="An encyclopedia of everything that never was"
       nextCategory="Natural History"
       nextCategoryColor="violet"
-      nextImage="/images/explorations/the-codex-seraphinianus.png"
+      nextImage="/images/explorations/the-codex-seraphinianus.webp"
       nextReadTime="14 min"
     ><article>
       <h2>The Watch on the Heath</h2>

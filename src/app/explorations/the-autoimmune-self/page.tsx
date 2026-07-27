@@ -29,7 +29,7 @@ export default function TheAutoimmuneSelf() {
       category="Essay"
       categoryColor="rose"
       date="July 17, 2026"
-      imageSrc="/images/explorations/the-autoimmune-self.png"
+      imageSrc="/images/explorations/the-autoimmune-self.webp"
       imageAlt="The Autoimmune Self illustration"
       readTime="14 min"
       wordCount={3234}
@@ -40,7 +40,7 @@ export default function TheAutoimmuneSelf() {
     nextSubtitle="A century of botanists asking the wrong question about the wrong flower"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-ghost-orchid-and-its-secret.png"
+    nextImage="/images/explorations/the-ghost-orchid-and-its-secret.webp"
     nextReadTime="11 min"
     >
 

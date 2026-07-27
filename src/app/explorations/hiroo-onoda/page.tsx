@@ -29,7 +29,7 @@ export default function HirooOnoda() {
       category="War & Belief"
       categoryColor="amber"
       date="March 1, 2026"
-      imageSrc="/images/explorations/hiroo-onoda.png"
+      imageSrc="/images/explorations/hiroo-onoda.webp"
       imageAlt="The Last Soldier illustration"
       readTime="13 min"
       wordCount={3000}
@@ -40,7 +40,7 @@ export default function HirooOnoda() {
       nextSubtitle="If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)"
       nextCategory="Philosophy &amp; Identity"
       nextCategoryColor="emerald"
-      nextImage="/images/explorations/the-ship-of-theseus.png"
+      nextImage="/images/explorations/the-ship-of-theseus.webp"
       nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/hiroo-onoda.mp3"
     ><article>

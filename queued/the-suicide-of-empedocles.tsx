@@ -29,7 +29,7 @@ export default function TheSuicideOfEmpedocles() {
       category="Essay"
       categoryColor="red"
       date="April 19, 2026"
-      imageSrc="/images/explorations/the-suicide-of-empedocles.png"
+      imageSrc="/images/explorations/the-suicide-of-empedocles.webp"
       imageAlt="The Suicide of Empedocles illustration"
       readTime="13 min"
       wordCount={3027}
@@ -40,7 +40,7 @@ export default function TheSuicideOfEmpedocles() {
     nextSubtitle="When the French Revolution tried to delete time itself"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-calendar-that-ate-history.png"
+    nextImage="/images/explorations/the-calendar-that-ate-history.webp"
     nextReadTime="11 min"
     >
       <h2>The Sandal</h2>

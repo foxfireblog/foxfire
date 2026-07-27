@@ -29,7 +29,7 @@ export default function NumbersStations() {
       category="Essay"
       categoryColor="indigo"
       date="March 24, 2026"
-      imageSrc="/images/explorations/numbers-stations.png"
+      imageSrc="/images/explorations/numbers-stations.webp"
       imageAlt="Numbers Stations illustration"
       readTime="12 min"
       wordCount={2795}
@@ -41,7 +41,7 @@ export default function NumbersStations() {
     nextSubtitle="When the world learned to see, and everything changed"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-cambrian-explosion.png"
+    nextImage="/images/explorations/the-cambrian-explosion.webp"
     nextReadTime="11 min"
     >
       <h2>The Sound of No One Talking to Someone</h2>

@@ -29,7 +29,7 @@ export default function TheSecretBallotWasRadical() {
       category="Essay"
       categoryColor="amber"
       date="April 16, 2026"
-      imageSrc="/images/explorations/the-secret-ballot-was-radical.png"
+      imageSrc="/images/explorations/the-secret-ballot-was-radical.webp"
       imageAlt="The Secret Ballot Was Radical illustration"
       readTime="12 min"
       wordCount={2724}
@@ -41,7 +41,7 @@ export default function TheSecretBallotWasRadical() {
     nextSubtitle="Arrow's impossibility theorem and the beautiful stubbornness of voting anyway"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-mathematics-of-democracy.png"
+    nextImage="/images/explorations/the-mathematics-of-democracy.webp"
     nextReadTime="12 min"
     >
       <h2>The Poet in the Gutter</h2>

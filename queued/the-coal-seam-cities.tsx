@@ -29,7 +29,7 @@ export default function TheCoalSeamCities() {
       category="Essay"
       categoryColor="orange"
       date="June 29, 2026"
-      imageSrc="/images/explorations/the-coal-seam-cities.png"
+      imageSrc="/images/explorations/the-coal-seam-cities.webp"
       imageAlt="The Coal Seam Cities illustration"
       readTime="12 min"
       wordCount={2806}
@@ -40,7 +40,7 @@ export default function TheCoalSeamCities() {
     nextSubtitle="On being the last fluent speaker of a language that was never meant to be spoken"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-keeper-of-silbo.png"
+    nextImage="/images/explorations/the-keeper-of-silbo.webp"
     nextReadTime="13 min"
     >
       <h2>The Fire Beneath Everything</h2>

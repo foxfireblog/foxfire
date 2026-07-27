@@ -29,7 +29,7 @@ export default function TheRoomsWhereTheyDecided() {
       category="Essay"
       categoryColor="indigo"
       date="June 15, 2026"
-      imageSrc="/images/explorations/the-rooms-where-they-decided.png"
+      imageSrc="/images/explorations/the-rooms-where-they-decided.webp"
       imageAlt="The Rooms Where They Decided illustration"
       readTime="14 min"
       wordCount={3206}
@@ -40,7 +40,7 @@ export default function TheRoomsWhereTheyDecided() {
     nextSubtitle="How the overcrowded graves beneath Europe's great cities quietly shaped the world above"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-subterranean-cities-of-the-dead.png"
+    nextImage="/images/explorations/the-subterranean-cities-of-the-dead.webp"
     nextReadTime="13 min"
     >
       <h2>The Rooms</h2>

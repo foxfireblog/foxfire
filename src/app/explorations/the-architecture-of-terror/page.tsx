@@ -29,7 +29,7 @@ export default function TheArchitectureOfTerror() {
       category="Essay"
       categoryColor="red"
       date="July 22, 2026"
-      imageSrc="/images/explorations/the-architecture-of-terror.png"
+      imageSrc="/images/explorations/the-architecture-of-terror.webp"
       imageAlt="The Architecture of Terror: The Apparatus (Part I of III) illustration"
       readTime="11 min"
       wordCount={2629}
@@ -40,7 +40,7 @@ export default function TheArchitectureOfTerror() {
     nextSubtitle="Before there were countries, there were routes"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-postal-roads-that-made-nations.png"
+    nextImage="/images/explorations/the-postal-roads-that-made-nations.webp"
     nextReadTime="13 min"
     >
       <h2>Comrade Card-Index</h2>

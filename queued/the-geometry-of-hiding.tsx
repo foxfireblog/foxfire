@@ -29,7 +29,7 @@ export default function TheGeometryOfHiding() {
       category="Essay"
       categoryColor="amber"
       date="April 24, 2026"
-      imageSrc="/images/explorations/the-geometry-of-hiding.png"
+      imageSrc="/images/explorations/the-geometry-of-hiding.webp"
       imageAlt="The Geometry of Hiding illustration"
       readTime="14 min"
       wordCount={3229}
@@ -40,7 +40,7 @@ export default function TheGeometryOfHiding() {
     nextSubtitle="A people danced to bring back the dead. America sent soldiers."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-ghost-dance.png"
+    nextImage="/images/explorations/the-ghost-dance.webp"
     nextReadTime="13 min"
     >
       <h2>The Thickness of a Wall</h2>

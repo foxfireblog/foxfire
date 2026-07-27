@@ -29,7 +29,7 @@ export default function TheRoomsYouCannotLeave() {
       category="Essay"
       categoryColor="red"
       date="May 30, 2026"
-      imageSrc="/images/explorations/the-rooms-you-cannot-leave.png"
+      imageSrc="/images/explorations/the-rooms-you-cannot-leave.webp"
       imageAlt="The Rooms You Cannot Leave illustration"
       readTime="13 min"
       wordCount={2908}
@@ -40,7 +40,7 @@ export default function TheRoomsYouCannotLeave() {
     nextSubtitle="What dies when the last speaker falls silent"
     nextCategory="Eulogy"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-suicide-note-of-a-language.png"
+    nextImage="/images/explorations/the-suicide-note-of-a-language.webp"
     nextReadTime="14 min"
     >
       <h2>The Door That Isn&apos;t There</h2>

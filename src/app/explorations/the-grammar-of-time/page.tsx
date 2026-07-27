@@ -29,7 +29,7 @@ export default function TheGrammarOfTime() {
       category="Essay"
       categoryColor="amber"
       date="May 13, 2026"
-      imageSrc="/images/explorations/the-grammar-of-time.png"
+      imageSrc="/images/explorations/the-grammar-of-time.webp"
       imageAlt="The Grammar of Time illustration"
       readTime="11 min"
       wordCount={2492}
@@ -40,7 +40,7 @@ export default function TheGrammarOfTime() {
     nextSubtitle="How John Frum became a god, and what that reveals about the nature of belief itself"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cargo-that-never-arrives.png"
+    nextImage="/images/explorations/the-cargo-that-never-arrives.webp"
     nextReadTime="13 min"
     >
 

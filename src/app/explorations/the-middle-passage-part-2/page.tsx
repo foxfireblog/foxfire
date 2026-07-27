@@ -29,7 +29,7 @@ export default function TheMiddlePassagePart2() {
       category="Essay"
       categoryColor="indigo"
       date="April 2, 2026"
-      imageSrc="/images/explorations/the-middle-passage-part-2.png"
+      imageSrc="/images/explorations/the-middle-passage-part-2.webp"
       imageAlt="The Middle Passage: The Afterlife (Part II of II) illustration"
       readTime="12 min"
       wordCount={2846}
@@ -41,7 +41,7 @@ export default function TheMiddlePassagePart2() {
     nextSubtitle="Haiti won its revolution. Then it spent 122 years paying France for the privilege of having done so."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-ransom-for-freedom.png"
+    nextImage="/images/explorations/the-ransom-for-freedom.webp"
     nextReadTime="12 min"
     >
       <h2>I. The Debt That Was Paid in 2015</h2>

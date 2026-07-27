@@ -29,7 +29,7 @@ export default function TheMirrorTest() {
       category="Essay"
       categoryColor="violet"
       date="July 23, 2026"
-      imageSrc="/images/explorations/the-mirror-test.png"
+      imageSrc="/images/explorations/the-mirror-test.webp"
       imageAlt="The Mirror Test illustration"
       readTime="12 min"
       wordCount={2672}
@@ -40,7 +40,7 @@ export default function TheMirrorTest() {
     nextSubtitle="Before the machine was a machine, the computer was a woman"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-calculating-boys-who-were-girls.png"
+    nextImage="/images/explorations/the-calculating-boys-who-were-girls.webp"
     nextReadTime="14 min"
     >
       <h2>The Red Dot</h2>

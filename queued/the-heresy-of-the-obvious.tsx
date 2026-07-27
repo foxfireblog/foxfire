@@ -29,7 +29,7 @@ export default function TheHeresyOfTheObvious() {
       category="Essay"
       categoryColor="amber"
       date="May 20, 2026"
-      imageSrc="/images/explorations/the-heresy-of-the-obvious.png"
+      imageSrc="/images/explorations/the-heresy-of-the-obvious.webp"
       imageAlt="The Heresy of the Obvious illustration"
       readTime="15 min"
       wordCount={3435}
@@ -40,7 +40,7 @@ export default function TheHeresyOfTheObvious() {
     nextSubtitle="For centuries, doctors knew disease by its scent. They were not wrong."
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-smell-that-preceded-diagnosis.png"
+    nextImage="/images/explorations/the-smell-that-preceded-diagnosis.webp"
     nextReadTime="11 min"
     >
       <h2>The Blade in the Bible</h2>

@@ -29,7 +29,7 @@ export default function TheCordycepsMind() {
       category="Natural Horror"
       categoryColor="amber"
       date="April 5, 2026"
-      imageSrc="/images/explorations/the-cordyceps-mind.png"
+      imageSrc="/images/explorations/the-cordyceps-mind.webp"
       imageAlt="The Cordyceps Mind illustration"
       readTime="14 min"
       wordCount={3138}
@@ -41,7 +41,7 @@ export default function TheCordycepsMind() {
     nextSubtitle="Before predators, before fear, before anything had learned to run"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-ediacaran-garden.png"
+    nextImage="/images/explorations/the-ediacaran-garden.webp"
     nextReadTime="13 min"
     >
       <h2>The Puppet Show</h2>

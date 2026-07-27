@@ -29,7 +29,7 @@ export default function TheCadaverSynod() {
       category="Essay"
       categoryColor="violet"
       date="June 8, 2026"
-      imageSrc="/images/explorations/the-cadaver-synod.png"
+      imageSrc="/images/explorations/the-cadaver-synod.webp"
       imageAlt="The Cadaver Synod illustration"
       readTime="12 min"
       wordCount={2844}
@@ -40,7 +40,7 @@ export default function TheCadaverSynod() {
     nextSubtitle="On petrichor, ozone, and the scents that arrive before the world changes"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-smell-that-preceded-electricity.png"
+    nextImage="/images/explorations/the-smell-that-preceded-electricity.webp"
     nextReadTime="12 min"
     >
 

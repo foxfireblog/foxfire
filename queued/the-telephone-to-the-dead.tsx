@@ -29,7 +29,7 @@ export default function TheTelephoneToTheDead() {
       category="Essay"
       categoryColor="violet"
       date="March 27, 2026"
-      imageSrc="/images/explorations/the-telephone-to-the-dead.png"
+      imageSrc="/images/explorations/the-telephone-to-the-dead.webp"
       imageAlt="The Telephone to the Dead illustration"
       readTime="13 min"
       wordCount={2948}
@@ -40,7 +40,7 @@ export default function TheTelephoneToTheDead() {
     nextSubtitle="Six pamphlets, three months, and the students who said no"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-white-rose.png"
+    nextImage="/images/explorations/the-white-rose.webp"
     nextReadTime="14 min"
     >
       <h2>The Empty Tomb</h2>

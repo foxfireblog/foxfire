@@ -29,7 +29,7 @@ export default function TheArsenicEatersOfStyria() {
       category="Natural History"
       categoryColor="emerald"
       date="June 2, 2026"
-      imageSrc="/images/explorations/the-arsenic-eaters-of-styria.png"
+      imageSrc="/images/explorations/the-arsenic-eaters-of-styria.webp"
       imageAlt="The Arsenic Eaters of Styria illustration"
       readTime="12 min"
       wordCount={2724}
@@ -40,7 +40,7 @@ export default function TheArsenicEatersOfStyria() {
     nextSubtitle="Inside the ruined reactor, something was growing toward the danger"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-fungi-that-eat-radiation.png"
+    nextImage="/images/explorations/the-fungi-that-eat-radiation.webp"
     nextReadTime="12 min"
     >
       <h2>The Poison Breakfast</h2>

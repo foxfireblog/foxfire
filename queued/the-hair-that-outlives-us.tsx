@@ -29,7 +29,7 @@ export default function TheHairThatOutlivesUs() {
       category="Essay"
       categoryColor="amber"
       date="May 7, 2026"
-      imageSrc="/images/explorations/the-hair-that-outlives-us.png"
+      imageSrc="/images/explorations/the-hair-that-outlives-us.webp"
       imageAlt="The Hair That Outlives Us illustration"
       readTime="12 min"
       wordCount={2697}
@@ -40,7 +40,7 @@ export default function TheHairThatOutlivesUs() {
     nextSubtitle="On Martha's Vineyard, everyone spoke sign language &mdash; and no one was disabled."
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-geography-of-silence.png"
+    nextImage="/images/explorations/the-geography-of-silence.webp"
     nextReadTime="11 min"
     >
       <h2>The Last Thing to Go</h2>

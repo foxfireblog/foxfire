@@ -29,7 +29,7 @@ export default function TheGhostEmpireOfTrebizond() {
       category="Essay"
       categoryColor="violet"
       date="July 9, 2026"
-      imageSrc="/images/explorations/the-ghost-empire-of-trebizond.png"
+      imageSrc="/images/explorations/the-ghost-empire-of-trebizond.webp"
       imageAlt="The Ghost Empire of Trebizond illustration"
       readTime="14 min"
       wordCount={3328}
@@ -40,7 +40,7 @@ export default function TheGhostEmpireOfTrebizond() {
     nextSubtitle="On the dream of recovering sounds that were never recorded"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-phonograph-in-the-pharaohs-tomb.png"
+    nextImage="/images/explorations/the-phonograph-in-the-pharaohs-tomb.webp"
     nextReadTime="12 min"
     >
       <h2>The Secretary&apos;s Grief</h2>

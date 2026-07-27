@@ -29,7 +29,7 @@ export default function TheForgottenFrontPart2() {
       category="History & Erasure"
       categoryColor="rose"
       date="March 18, 2026"
-      imageSrc="/images/explorations/the-forgotten-front-part-2.png"
+      imageSrc="/images/explorations/the-forgotten-front-part-2.webp"
       imageAlt="The Forgotten Front: The Brusilov Offensive (Part II of III) illustration"
       readTime="14 min"
       wordCount={3282}
@@ -40,7 +40,7 @@ export default function TheForgottenFrontPart2() {
       nextSubtitle="How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum"
       nextCategory="History & Erasure"
       nextCategoryColor="rose"
-      nextImage="/images/explorations/the-forgotten-front-part-3.png"
+      nextImage="/images/explorations/the-forgotten-front-part-3.webp"
       nextReadTime="13 min"
     ><h2>The Conductor</h2>
 

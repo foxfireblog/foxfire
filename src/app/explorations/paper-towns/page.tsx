@@ -30,7 +30,7 @@ export default function PaperTowns() {
       category="Essay"
       categoryColor="amber"
       date="March 8, 2026"
-      imageSrc="/images/explorations/paper-towns.png"
+      imageSrc="/images/explorations/paper-towns.webp"
       imageAlt="Paper Towns illustration"
       readTime="13 min"
       wordCount={3024}
@@ -41,7 +41,7 @@ export default function PaperTowns() {
     nextSubtitle="On the monsters that physics said were impossible"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/rogue-waves.png"
+    nextImage="/images/explorations/rogue-waves.webp"
     nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/paper-towns.mp3"
     ><article>

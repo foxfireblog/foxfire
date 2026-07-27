@@ -29,7 +29,7 @@ export default function TheBodyThatKeptTheScore() {
       category="Essay"
       categoryColor="red"
       date="June 25, 2026"
-      imageSrc="/images/explorations/the-body-that-kept-the-score.png"
+      imageSrc="/images/explorations/the-body-that-kept-the-score.webp"
       imageAlt="The Body That Kept the Score illustration"
       readTime="13 min"
       wordCount={2890}
@@ -40,7 +40,7 @@ export default function TheBodyThatKeptTheScore() {
     nextSubtitle="Why the bus is always late, the average class is always large, and you are always unlucky &mdash; except you're not"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-inspection-paradox.png"
+    nextImage="/images/explorations/the-inspection-paradox.webp"
     nextReadTime="13 min"
     >
       <h2>A Parcel of Cloth from London</h2>

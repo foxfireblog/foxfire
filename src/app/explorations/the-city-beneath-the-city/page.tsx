@@ -29,7 +29,7 @@ export default function TheCityBeneathTheCity() {
       category="Essay"
       categoryColor="indigo"
       date="June 23, 2026"
-      imageSrc="/images/explorations/the-city-beneath-the-city.png"
+      imageSrc="/images/explorations/the-city-beneath-the-city.webp"
       imageAlt="The City Beneath the City illustration"
       readTime="13 min"
       wordCount={2905}
@@ -40,7 +40,7 @@ export default function TheCityBeneathTheCity() {
     nextSubtitle="For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened."
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scrapie-notebooks.png"
+    nextImage="/images/explorations/the-scrapie-notebooks.webp"
     nextReadTime="16 min"
     >
       <h2>The Chickens That Vanished</h2>

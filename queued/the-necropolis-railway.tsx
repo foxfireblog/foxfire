@@ -29,7 +29,7 @@ export default function TheNecropolisRailway() {
       category="Essay"
       categoryColor="violet"
       date="June 19, 2026"
-      imageSrc="/images/explorations/the-necropolis-railway.png"
+      imageSrc="/images/explorations/the-necropolis-railway.webp"
       imageAlt="The Necropolis Railway illustration"
       readTime="10 min"
       wordCount={2364}
@@ -40,7 +40,7 @@ export default function TheNecropolisRailway() {
     nextSubtitle="How a room of underpaid women accidentally rewrote the architecture of the universe"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-women-who-counted-stars.png"
+    nextImage="/images/explorations/the-women-who-counted-stars.webp"
     nextReadTime="12 min"
     >
       <h2>The Skin Slipped Off</h2>

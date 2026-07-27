@@ -29,7 +29,7 @@ export default function TheMolePeople() {
       category="Essay"
       categoryColor="amber"
       date="April 2, 2026"
-      imageSrc="/images/explorations/the-mole-people.png"
+      imageSrc="/images/explorations/the-mole-people.webp"
       imageAlt="The Mole People illustration"
       readTime="12 min"
       wordCount={2665}
@@ -41,7 +41,7 @@ export default function TheMolePeople() {
     nextSubtitle="The wealth it built, the institutions that profited, and the ongoing reckoning"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-middle-passage-part-2.png"
+    nextImage="/images/explorations/the-middle-passage-part-2.webp"
     nextReadTime="12 min"
     >
       <h2>Seven Levels Down</h2>

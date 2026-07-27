@@ -29,7 +29,7 @@ export default function TheIndexLibrorumProhibitorum() {
       category="Essay"
       categoryColor="red"
       date="April 17, 2026"
-      imageSrc="/images/explorations/the-index-librorum-prohibitorum.png"
+      imageSrc="/images/explorations/the-index-librorum-prohibitorum.webp"
       imageAlt="The Index Librorum Prohibitorum illustration"
       readTime="11 min"
       wordCount={2515}
@@ -40,7 +40,7 @@ export default function TheIndexLibrorumProhibitorum() {
     nextSubtitle="Leopold's Berlin Conference coup, the initial exploitation system, and the ivory trade"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state.png"
+    nextImage="/images/explorations/the-congo-free-state.webp"
     nextReadTime="11 min"
     >
       <h2>The Forbidden Shelf</h2>

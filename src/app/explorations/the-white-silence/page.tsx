@@ -29,7 +29,7 @@ export default function TheWhiteSilence() {
       category="Essay"
       categoryColor="sky"
       date="June 22, 2026"
-      imageSrc="/images/explorations/the-white-silence.png"
+      imageSrc="/images/explorations/the-white-silence.webp"
       imageAlt="The White Silence illustration"
       readTime="14 min"
       wordCount={3179}
@@ -40,7 +40,7 @@ export default function TheWhiteSilence() {
     nextSubtitle="How a flower from the steppes became the currency of obsession &mdash; and what beauty costs when it becomes power"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-tulip-that-broke-an-empire.png"
+    nextImage="/images/explorations/the-tulip-that-broke-an-empire.webp"
     nextReadTime="13 min"
     >
       <h2>The Sound of Your Own Blood</h2>

@@ -29,7 +29,7 @@ export default function ThePalaceThatErasedItself() {
       category="Essay"
       categoryColor="red"
       date="June 17, 2026"
-      imageSrc="/images/explorations/the-palace-that-erased-itself.png"
+      imageSrc="/images/explorations/the-palace-that-erased-itself.webp"
       imageAlt="The Palace That Erased Itself illustration"
       readTime="13 min"
       wordCount={2894}
@@ -40,7 +40,7 @@ export default function ThePalaceThatErasedItself() {
     nextSubtitle="What the children of the starving taught us about inheritance"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-body-that-remembered-the-famine.png"
+    nextImage="/images/explorations/the-body-that-remembered-the-famine.webp"
     nextReadTime="14 min"
     >
       <h2>The Man Who Became Water</h2>

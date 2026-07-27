@@ -29,7 +29,7 @@ export default function TheSuicideNoteOfALanguage() {
       category="Eulogy"
       categoryColor="violet"
       date="May 31, 2026"
-      imageSrc="/images/explorations/the-suicide-note-of-a-language.png"
+      imageSrc="/images/explorations/the-suicide-note-of-a-language.webp"
       imageAlt="The Suicide Note of a Language illustration"
       readTime="14 min"
       wordCount={3167}
@@ -40,7 +40,7 @@ export default function TheSuicideNoteOfALanguage() {
     nextSubtitle="The physicists who refused to build the bomb &mdash; and vanished from history"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-scientists-who-said-no.png"
+    nextImage="/images/explorations/the-scientists-who-said-no.webp"
     nextReadTime="15 min"
     >
       <h2>A Sound That Calls People from Afar</h2>

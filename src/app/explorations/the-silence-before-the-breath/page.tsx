@@ -29,7 +29,7 @@ export default function TheSilenceBeforeTheBreath() {
       category="Essay"
       categoryColor="indigo"
       date="May 23, 2026"
-      imageSrc="/images/explorations/the-silence-before-the-breath.png"
+      imageSrc="/images/explorations/the-silence-before-the-breath.webp"
       imageAlt="The Silence Before the Breath illustration"
       readTime="11 min"
       wordCount={2546}
@@ -40,7 +40,7 @@ export default function TheSilenceBeforeTheBreath() {
     nextSubtitle="The day 96% of everything alive stopped breathing"
     nextCategory="Natural History"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-permian-silence.png"
+    nextImage="/images/explorations/the-permian-silence.webp"
     nextReadTime="12 min"
     >
       <h2>The Gun That Hasn&apos;t Fired</h2>

@@ -29,7 +29,7 @@ export default function TheCensusOfTheVanished() {
       category="Essay"
       categoryColor="amber"
       date="June 1, 2026"
-      imageSrc="/images/explorations/the-census-of-the-vanished.png"
+      imageSrc="/images/explorations/the-census-of-the-vanished.webp"
       imageAlt="The Census of the Vanished illustration"
       readTime="10 min"
       wordCount={2361}
@@ -40,7 +40,7 @@ export default function TheCensusOfTheVanished() {
     nextSubtitle="On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-arsenic-eaters-of-styria.png"
+    nextImage="/images/explorations/the-arsenic-eaters-of-styria.webp"
     nextReadTime="12 min"
     >
       <h2>The Letter That Arrived at Midnight</h2>

@@ -29,7 +29,7 @@ export default function TheHum() {
       category="Essay"
       categoryColor="indigo"
       date="March 4, 2026"
-      imageSrc="/images/explorations/the-hum.png"
+      imageSrc="/images/explorations/the-hum.webp"
       imageAlt="The Hum illustration"
       readTime="14 min"
       wordCount={3110}
@@ -40,7 +40,7 @@ export default function TheHum() {
       nextSubtitle="How a volcano swallowed the sun and darkness learned to dream"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-year-without-a-summer.png"
+      nextImage="/images/explorations/the-year-without-a-summer.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-hum.mp3"
     ><article>

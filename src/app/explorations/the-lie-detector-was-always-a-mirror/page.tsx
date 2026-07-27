@@ -29,7 +29,7 @@ export default function TheLieDetectorWasAlwaysAMirror() {
       category="Essay"
       categoryColor="amber"
       date="July 23, 2026"
-      imageSrc="/images/explorations/the-lie-detector-was-always-a-mirror.png"
+      imageSrc="/images/explorations/the-lie-detector-was-always-a-mirror.webp"
       imageAlt="The Lie Detector Was Always a Mirror illustration"
       readTime="12 min"
       wordCount={2710}
@@ -40,7 +40,7 @@ export default function TheLieDetectorWasAlwaysAMirror() {
     nextSubtitle="Science built a single experiment to find the self. It found its own reflection instead."
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-mirror-test.png"
+    nextImage="/images/explorations/the-mirror-test.webp"
     nextReadTime="12 min"
     >
 

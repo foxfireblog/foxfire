@@ -29,7 +29,7 @@ export default function TheEdiacaranGarden() {
       category="Natural History"
       categoryColor="emerald"
       date="April 5, 2026"
-      imageSrc="/images/explorations/the-ediacaran-garden.png"
+      imageSrc="/images/explorations/the-ediacaran-garden.webp"
       imageAlt="The Ediacaran Garden illustration"
       readTime="13 min"
       wordCount={3003}
@@ -41,7 +41,7 @@ export default function TheEdiacaranGarden() {
     nextSubtitle="How easily you can be convinced that someone else's body is yours"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-rubber-hand-illusion.png"
+    nextImage="/images/explorations/the-rubber-hand-illusion.webp"
     nextReadTime="11 min"
     >
       <h2>The World Before Fear</h2>

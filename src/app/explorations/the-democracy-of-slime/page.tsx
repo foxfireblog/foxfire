@@ -29,7 +29,7 @@ export default function TheDemocracyOfSlime() {
       category="Natural History"
       categoryColor="amber"
       date="May 24, 2026"
-      imageSrc="/images/explorations/the-democracy-of-slime.png"
+      imageSrc="/images/explorations/the-democracy-of-slime.webp"
       imageAlt="The Democracy of Slime illustration"
       readTime="12 min"
       wordCount={2852}
@@ -40,7 +40,7 @@ export default function TheDemocracyOfSlime() {
     nextSubtitle="How public opinion becomes a hall of mirrors"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-spiral-of-silence.png"
+    nextImage="/images/explorations/the-spiral-of-silence.webp"
     nextReadTime="12 min"
     >
       <h2>The Yellow River</h2>

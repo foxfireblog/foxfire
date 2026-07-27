@@ -29,7 +29,7 @@ export default function The52HertzWhale() {
       category="Essay"
       categoryColor="indigo"
       date="March 5, 2026"
-      imageSrc="/images/explorations/the-52-hertz-whale.png"
+      imageSrc="/images/explorations/the-52-hertz-whale.webp"
       imageAlt="The 52-Hertz Whale illustration"
       readTime="14 min"
       wordCount={3270}
@@ -40,7 +40,7 @@ export default function The52HertzWhale() {
       nextSubtitle="How we found our way before we outsourced it to the sky"
       nextCategory="Essay"
       nextCategoryColor="indigo"
-      nextImage="/images/explorations/dead-reckoning.png"
+      nextImage="/images/explorations/dead-reckoning.webp"
       nextReadTime="15 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-52-hertz-whale.mp3"
     >

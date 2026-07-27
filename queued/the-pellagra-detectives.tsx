@@ -29,7 +29,7 @@ export default function ThePellagraDetectives() {
       category="Essay"
       categoryColor="amber"
       date="June 17, 2026"
-      imageSrc="/images/explorations/the-pellagra-detectives.png"
+      imageSrc="/images/explorations/the-pellagra-detectives.webp"
       imageAlt="The Pellagra Detectives illustration"
       readTime="11 min"
       wordCount={2604}
@@ -40,7 +40,7 @@ export default function ThePellagraDetectives() {
     nextSubtitle="On dormitories, barracks, asylums, and the politics of sleeping next to strangers"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-rooms-where-they-slept.png"
+    nextImage="/images/explorations/the-rooms-where-they-slept.webp"
     nextReadTime="13 min"
     >
       <h2>The Dinner That Killed</h2>

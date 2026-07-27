@@ -29,7 +29,7 @@ export default function TheMechanicalTurkProblem() {
       category="Essay"
       categoryColor="amber"
       date="June 15, 2026"
-      imageSrc="/images/explorations/the-mechanical-turk-problem.png"
+      imageSrc="/images/explorations/the-mechanical-turk-problem.webp"
       imageAlt="The Mechanical Turk Problem illustration"
       readTime="13 min"
       wordCount={2924}
@@ -40,7 +40,7 @@ export default function TheMechanicalTurkProblem() {
     nextSubtitle="How the Inca encoded a civilization in string &mdash; and why we still cannot fully read it"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-talking-knots-of-the-andes.png"
+    nextImage="/images/explorations/the-talking-knots-of-the-andes.webp"
     nextReadTime="13 min"
     >
       <h2>The Man Inside the Machine</h2>

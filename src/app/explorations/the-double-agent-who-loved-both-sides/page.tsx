@@ -29,7 +29,7 @@ export default function TheDoubleAgentWhoLovedBothSides() {
       category="Essay"
       categoryColor="violet"
       date="April 24, 2026"
-      imageSrc="/images/explorations/the-double-agent-who-loved-both-sides.png"
+      imageSrc="/images/explorations/the-double-agent-who-loved-both-sides.webp"
       imageAlt="The Double Agent Who Loved Both Sides illustration"
       readTime="13 min"
       wordCount={3049}
@@ -41,7 +41,7 @@ export default function TheDoubleAgentWhoLovedBothSides() {
     nextSubtitle="Why Homer's sea was wine-dark, and what that tells us about the eye, the mind, and the world"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-invention-of-blue.png"
+    nextImage="/images/explorations/the-invention-of-blue.webp"
     nextReadTime="13 min"
     >
       <h2>The Man Who Wept for Cricket</h2>

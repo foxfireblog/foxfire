@@ -29,7 +29,7 @@ export default function TheLostRiversOfLondon() {
       category="Natural History"
       categoryColor="teal"
       date="May 27, 2026"
-      imageSrc="/images/explorations/the-lost-rivers-of-london.png"
+      imageSrc="/images/explorations/the-lost-rivers-of-london.webp"
       imageAlt="The Lost Rivers of London illustration"
       readTime="13 min"
       wordCount={3025}
@@ -40,7 +40,7 @@ export default function TheLostRiversOfLondon() {
     nextSubtitle="For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong."
     nextCategory="Medical History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-physicians-of-the-urine-wheel.png"
+    nextImage="/images/explorations/the-physicians-of-the-urine-wheel.webp"
     nextReadTime="13 min"
     >
       <h2>Beneath Your Feet, the Sound of Water</h2>

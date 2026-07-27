@@ -29,7 +29,7 @@ export default function TheInsuranceOfTheBody() {
       category="Essay"
       categoryColor="red"
       date="July 6, 2026"
-      imageSrc="/images/explorations/the-insurance-of-the-body.png"
+      imageSrc="/images/explorations/the-insurance-of-the-body.webp"
       imageAlt="The Insurance of the Body illustration"
       readTime="14 min"
       wordCount={3230}
@@ -40,7 +40,7 @@ export default function TheInsuranceOfTheBody() {
     nextSubtitle="On the river that redrew nations while people slept"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-border-that-moves.png"
+    nextImage="/images/explorations/the-border-that-moves.webp"
     nextReadTime="11 min"
     >
       <h2>The Cushion of the Sea</h2>

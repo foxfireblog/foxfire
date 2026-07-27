@@ -29,7 +29,7 @@ export default function TheLastHermits() {
       category="Essay"
       categoryColor="emerald"
       date="July 7, 2026"
-      imageSrc="/images/explorations/the-last-hermits.png"
+      imageSrc="/images/explorations/the-last-hermits.webp"
       imageAlt="The Last Hermits illustration"
       readTime="13 min"
       wordCount={3094}
@@ -40,7 +40,7 @@ export default function TheLastHermits() {
     nextSubtitle="How the people who watch animals die have always seen the future first"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-veterinarians-of-the-apocalypse.png"
+    nextImage="/images/explorations/the-veterinarians-of-the-apocalypse.webp"
     nextReadTime="13 min"
     >
       <h2>The Man in the Walk-In Freezer</h2>

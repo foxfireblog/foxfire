@@ -29,7 +29,7 @@ export default function TheArchaeologyOfGraffiti() {
       category="Essay"
       categoryColor="amber"
       date="April 26, 2026"
-      imageSrc="/images/explorations/the-archaeology-of-graffiti.png"
+      imageSrc="/images/explorations/the-archaeology-of-graffiti.webp"
       imageAlt="The Archaeology of Graffiti illustration"
       readTime="12 min"
       wordCount={2675}
@@ -41,7 +41,7 @@ export default function TheArchaeologyOfGraffiti() {
     nextSubtitle="Jeremy Bentham, the felicific calculus, and the dream that won't die"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-measured-suffering.png"
+    nextImage="/images/explorations/the-man-who-measured-suffering.webp"
     nextReadTime="13 min"
     >
       <h2>The Oldest Conversation</h2>

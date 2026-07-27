@@ -29,7 +29,7 @@ export default function TheNansenPassport() {
       category="Essay"
       categoryColor="teal"
       date="April 22, 2026"
-      imageSrc="/images/explorations/the-nansen-passport.png"
+      imageSrc="/images/explorations/the-nansen-passport.webp"
       imageAlt="The Nansen Passport illustration"
       readTime="12 min"
       wordCount={2677}
@@ -41,7 +41,7 @@ export default function TheNansenPassport() {
     nextSubtitle="The quota system, the severed hands, the Force Publique, and the demographic catastrophe"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state-part-2.png"
+    nextImage="/images/explorations/the-congo-free-state-part-2.webp"
     nextReadTime="14 min"
     >
       <h2>The Sickly Green Hue</h2>

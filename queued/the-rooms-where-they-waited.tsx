@@ -29,7 +29,7 @@ export default function TheRoomsWhereTheyWaited() {
       category="Essay"
       categoryColor="amber"
       date="June 9, 2026"
-      imageSrc="/images/explorations/the-rooms-where-they-waited.png"
+      imageSrc="/images/explorations/the-rooms-where-they-waited.webp"
       imageAlt="The Rooms Where They Waited illustration"
       readTime="12 min"
       wordCount={2739}
@@ -40,7 +40,7 @@ export default function TheRoomsWhereTheyWaited() {
     nextSubtitle="The last fragment of Byzantium that refused to die"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-ghost-empire-of-trebizond.png"
+    nextImage="/images/explorations/the-ghost-empire-of-trebizond.webp"
     nextReadTime="12 min"
     >
       <h2>The Room Before the Room</h2>

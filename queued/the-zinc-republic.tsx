@@ -29,7 +29,7 @@ export default function TheZincRepublic() {
       category="Essay"
       categoryColor="amber"
       date="June 6, 2026"
-      imageSrc="/images/explorations/the-zinc-republic.png"
+      imageSrc="/images/explorations/the-zinc-republic.webp"
       imageAlt="The Zinc Republic illustration"
       readTime="10 min"
       wordCount={2340}
@@ -40,7 +40,7 @@ export default function TheZincRepublic() {
     nextSubtitle="On Aokigahara, the grammar of despair, and the people who walk in to listen"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-suicide-forest.png"
+    nextImage="/images/explorations/the-suicide-forest.webp"
     nextReadTime="14 min"
     >
 

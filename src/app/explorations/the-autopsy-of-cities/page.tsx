@@ -29,7 +29,7 @@ export default function TheAutopsyOfCities() {
       category="Essay"
       categoryColor="amber"
       date="June 10, 2026"
-      imageSrc="/images/explorations/the-autopsy-of-cities.png"
+      imageSrc="/images/explorations/the-autopsy-of-cities.webp"
       imageAlt="The Autopsy of Cities illustration"
       readTime="13 min"
       wordCount={3010}
@@ -40,7 +40,7 @@ export default function TheAutopsyOfCities() {
     nextSubtitle="How a language of dance went unheard for millennia &mdash; and what it means that we almost never listened"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-syntax-of-bees.png"
+    nextImage="/images/explorations/the-syntax-of-bees.webp"
     nextReadTime="14 min"
     >
       <h2>The Boy Who Fell Into the Earth</h2>

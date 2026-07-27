@@ -29,7 +29,7 @@ export default function TheIceShips() {
       category="Essay"
       categoryColor="sky"
       date="April 20, 2026"
-      imageSrc="/images/explorations/the-ice-ships.png"
+      imageSrc="/images/explorations/the-ice-ships.webp"
       imageAlt="The Ice Ships illustration"
       readTime="13 min"
       wordCount={2883}
@@ -40,7 +40,7 @@ export default function TheIceShips() {
     nextSubtitle="On cold light, rotting wood, and the things that glow without burning"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-foxfire-phenomenon.png"
+    nextImage="/images/explorations/the-foxfire-phenomenon.webp"
     nextReadTime="10 min"
     >
       <h2>The Goodbye</h2>

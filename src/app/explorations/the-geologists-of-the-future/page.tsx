@@ -29,7 +29,7 @@ export default function TheGeologistsOfTheFuture() {
       category="Deep Time"
       categoryColor="amber"
       date="May 8, 2026"
-      imageSrc="/images/explorations/the-geologists-of-the-future.png"
+      imageSrc="/images/explorations/the-geologists-of-the-future.webp"
       imageAlt="The Geologists of the Future illustration"
       readTime="13 min"
       wordCount={2997}
@@ -40,7 +40,7 @@ export default function TheGeologistsOfTheFuture() {
     nextSubtitle="Before electricity, rotting wood glowed in the dark &mdash; and people used it to see by"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-cold-light-of-foxfire.png"
+    nextImage="/images/explorations/the-cold-light-of-foxfire.webp"
     nextReadTime="11 min"
     >
       <h2>The Mud Remembers</h2>

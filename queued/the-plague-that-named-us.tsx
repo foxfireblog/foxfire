@@ -29,7 +29,7 @@ export default function ThePlagueThatNamedUs() {
       category="Essay"
       categoryColor="amber"
       date="May 12, 2026"
-      imageSrc="/images/explorations/the-plague-that-named-us.png"
+      imageSrc="/images/explorations/the-plague-that-named-us.webp"
       imageAlt="The Plague That Named Us illustration"
       readTime="13 min"
       wordCount={2967}
@@ -40,7 +40,7 @@ export default function ThePlagueThatNamedUs() {
     nextSubtitle="On petrichor, and the hidden sensory languages written into the earth"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-smell-of-rain-before-it-falls.png"
+    nextImage="/images/explorations/the-smell-of-rain-before-it-falls.webp"
     nextReadTime="12 min"
     >
       <h2>The Names of the Dead</h2>

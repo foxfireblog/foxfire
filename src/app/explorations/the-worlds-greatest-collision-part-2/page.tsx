@@ -29,7 +29,7 @@ export default function TheWorldsGreatestCollisionPart2() {
       category="Natural History"
       categoryColor="amber"
       date="April 18, 2026"
-      imageSrc="/images/explorations/the-worlds-greatest-collision-part-2.png"
+      imageSrc="/images/explorations/the-worlds-greatest-collision-part-2.webp"
       imageAlt="The World's Greatest Collision: The Catastrophe (Part II of II) illustration"
       readTime="12 min"
       wordCount={2764}
@@ -41,7 +41,7 @@ export default function TheWorldsGreatestCollisionPart2() {
     nextSubtitle="Before satellites, the weather belonged to people who never stopped looking up"
     nextCategory="Natural History"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-watchers-of-the-sky.png"
+    nextImage="/images/explorations/the-watchers-of-the-sky.webp"
     nextReadTime="13 min"
     >
       <h2>The Vanguard Was Invisible</h2>

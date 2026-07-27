@@ -29,7 +29,7 @@ export default function TheObsolescenceOfExperts() {
       category="Essay"
       categoryColor="amber"
       date="July 10, 2026"
-      imageSrc="/images/explorations/the-obsolescence-of-experts.png"
+      imageSrc="/images/explorations/the-obsolescence-of-experts.webp"
       imageAlt="The Obsolescence of Experts illustration"
       readTime="13 min"
       wordCount={3077}
@@ -40,7 +40,7 @@ export default function TheObsolescenceOfExperts() {
     nextSubtitle="How scientists learned to plant memories that never happened &mdash; and what that means for everything you think you remember"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-false-memory-machine.png"
+    nextImage="/images/explorations/the-false-memory-machine.webp"
     nextReadTime="15 min"
     >
       <h2>The Eyes That Cannot See</h2>

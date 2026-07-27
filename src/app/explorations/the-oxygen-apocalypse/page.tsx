@@ -29,7 +29,7 @@ export default function TheOxygenApocalypse() {
       category="Natural History"
       categoryColor="teal"
       date="March 17, 2026"
-      imageSrc="/images/explorations/the-oxygen-apocalypse.png"
+      imageSrc="/images/explorations/the-oxygen-apocalypse.webp"
       imageAlt="The Oxygen Apocalypse illustration"
       readTime="13 min"
       wordCount={3033}
@@ -41,7 +41,7 @@ export default function TheOxygenApocalypse() {
     nextSubtitle="A thought experiment escaped the classroom. Now it has a software license."
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-trolley-problem-is-real-now.png"
+    nextImage="/images/explorations/the-trolley-problem-is-real-now.webp"
     nextReadTime="14 min"
     ><article>
       <h2>The First Murderer Was a Microbe</h2>

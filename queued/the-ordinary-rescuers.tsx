@@ -29,7 +29,7 @@ export default function TheOrdinaryRescuers() {
       category="Essay"
       categoryColor="amber"
       date="March 31, 2026"
-      imageSrc="/images/explorations/the-ordinary-rescuers.png"
+      imageSrc="/images/explorations/the-ordinary-rescuers.webp"
       imageAlt="The Ordinary Rescuers illustration"
       readTime="12 min"
       wordCount={2828}
@@ -40,7 +40,7 @@ export default function TheOrdinaryRescuers() {
     nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-haitian-revolution-part-2.png"
+    nextImage="/images/explorations/the-haitian-revolution-part-2.webp"
     nextReadTime="13 min"
     >
       <h2>The Knock</h2>

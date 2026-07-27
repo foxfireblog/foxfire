@@ -29,7 +29,7 @@ export default function TheDemandCharacteristics() {
       category="Essay"
       categoryColor="violet"
       date="May 31, 2026"
-      imageSrc="/images/explorations/the-demand-characteristics.png"
+      imageSrc="/images/explorations/the-demand-characteristics.webp"
       imageAlt="The Demand Characteristics illustration"
       readTime="14 min"
       wordCount={3170}
@@ -40,7 +40,7 @@ export default function TheDemandCharacteristics() {
     nextSubtitle="How the world conspired to measure the solar system &mdash; and almost failed"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-transit-of-venus.png"
+    nextImage="/images/explorations/the-transit-of-venus.webp"
     nextReadTime="13 min"
     >
       <h2>The Sisyphean Pencil</h2>

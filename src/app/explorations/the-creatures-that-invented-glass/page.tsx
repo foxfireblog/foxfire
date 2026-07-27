@@ -29,7 +29,7 @@ export default function TheCreaturesThatInventedGlass() {
       category="Natural History"
       categoryColor="cyan"
       date="June 29, 2026"
-      imageSrc="/images/explorations/the-creatures-that-invented-glass.png"
+      imageSrc="/images/explorations/the-creatures-that-invented-glass.webp"
       imageAlt="The Creatures That Invented Glass illustration"
       readTime="12 min"
       wordCount={2748}
@@ -40,7 +40,7 @@ export default function TheCreaturesThatInventedGlass() {
     nextSubtitle="How paperwork became the perfect weapon for mass killing"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-desk-murderers.png"
+    nextImage="/images/explorations/the-desk-murderers.webp"
     nextReadTime="12 min"
     >
       <h2>The Factory at the Bottom of the Sea</h2>

@@ -29,7 +29,7 @@ export default function TheArtOfTheFalseDocument() {
       category="Essay"
       categoryColor="amber"
       date="May 8, 2026"
-      imageSrc="/images/explorations/the-art-of-the-false-document.png"
+      imageSrc="/images/explorations/the-art-of-the-false-document.webp"
       imageAlt="The Art of the False Document illustration"
       readTime="14 min"
       wordCount={3253}
@@ -40,7 +40,7 @@ export default function TheArtOfTheFalseDocument() {
     nextSubtitle="On the highway built from the bodies that built it"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-road-of-bones.png"
+    nextImage="/images/explorations/the-road-of-bones.webp"
     nextReadTime="13 min"
     >
       <h2>The Lie That Tells the Truth</h2>

@@ -29,7 +29,7 @@ export default function TheSamizdatMachine() {
       category="Essay"
       categoryColor="indigo"
       date="May 7, 2026"
-      imageSrc="/images/explorations/the-samizdat-machine.png"
+      imageSrc="/images/explorations/the-samizdat-machine.webp"
       imageAlt="The Samizdat Machine illustration"
       readTime="12 min"
       wordCount={2805}
@@ -40,7 +40,7 @@ export default function TheSamizdatMachine() {
     nextSubtitle="What the rocks we are making right now will tell the civilizations that come after us &mdash; if any do"
     nextCategory="Deep Time"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-geologists-of-the-future.png"
+    nextImage="/images/explorations/the-geologists-of-the-future.webp"
     nextReadTime="13 min"
     >
       <h2>The Ashtray and the Poem</h2>

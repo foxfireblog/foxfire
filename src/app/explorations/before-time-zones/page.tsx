@@ -29,7 +29,7 @@ export default function BeforeTimeZones() {
       category="Essay"
       categoryColor="amber"
       date="March 14, 2026"
-      imageSrc="/images/explorations/before-time-zones.png"
+      imageSrc="/images/explorations/before-time-zones.webp"
       imageAlt="Before Time Zones illustration"
       readTime="12 min"
       wordCount={2743}
@@ -41,7 +41,7 @@ export default function BeforeTimeZones() {
     nextSubtitle="Civilization has always been one narrow passage from collapse"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-throats-of-the-world.png"
+    nextImage="/images/explorations/the-throats-of-the-world.webp"
     nextReadTime="12 min"
     ><article>
       <h2>The Town Clock</h2>

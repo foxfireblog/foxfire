@@ -29,7 +29,7 @@ export default function TheVarangianGuard() {
       category="Essay"
       categoryColor="amber"
       date="May 12, 2026"
-      imageSrc="/images/explorations/the-varangian-guard.png"
+      imageSrc="/images/explorations/the-varangian-guard.webp"
       imageAlt="The Varangian Guard illustration"
       readTime="13 min"
       wordCount={2895}
@@ -40,7 +40,7 @@ export default function TheVarangianGuard() {
     nextSubtitle="Your heart is not a metronome. It is a chaos engine &mdash; and the irregularity is what keeps you alive."
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-mathematics-of-the-heartbeat.png"
+    nextImage="/images/explorations/the-mathematics-of-the-heartbeat.webp"
     nextReadTime="12 min"
     >
       <h2>Halfdan Was Here</h2>

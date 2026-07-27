@@ -29,7 +29,7 @@ export default function TheGutThatDreams() {
       category="Essay"
       categoryColor="violet"
       date="June 3, 2026"
-      imageSrc="/images/explorations/the-gut-that-dreams.png"
+      imageSrc="/images/explorations/the-gut-that-dreams.webp"
       imageAlt="The Gut That Dreams illustration"
       readTime="13 min"
       wordCount={3056}
@@ -40,7 +40,7 @@ export default function TheGutThatDreams() {
     nextSubtitle="How the world's most expensive spice built empires of fraud, devotion, and paranoia"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-saffron-wars.png"
+    nextImage="/images/explorations/the-saffron-wars.webp"
     nextReadTime="12 min"
     >
       <h2>The Window in the Stomach</h2>

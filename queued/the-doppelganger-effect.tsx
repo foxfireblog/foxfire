@@ -29,7 +29,7 @@ export default function TheDoppelgangerEffect() {
       category="Essay"
       categoryColor="violet"
       date="April 26, 2026"
-      imageSrc="/images/explorations/the-doppelganger-effect.png"
+      imageSrc="/images/explorations/the-doppelganger-effect.webp"
       imageAlt="The Doppelgänger Effect illustration"
       readTime="13 min"
       wordCount={2981}
@@ -40,7 +40,7 @@ export default function TheDoppelgangerEffect() {
     nextSubtitle="The wound that has no bandage"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-moral-injury.png"
+    nextImage="/images/explorations/the-moral-injury.webp"
     nextReadTime="13 min"
     >
       <h2>The Stranger in the Glass</h2>

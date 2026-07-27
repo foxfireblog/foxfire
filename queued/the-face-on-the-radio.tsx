@@ -29,7 +29,7 @@ export default function TheFaceOnTheRadio() {
       category="Essay"
       categoryColor="amber"
       date="June 8, 2026"
-      imageSrc="/images/explorations/the-face-on-the-radio.png"
+      imageSrc="/images/explorations/the-face-on-the-radio.webp"
       imageAlt="The Face on the Radio illustration"
       readTime="13 min"
       wordCount={2963}
@@ -40,7 +40,7 @@ export default function TheFaceOnTheRadio() {
     nextSubtitle="How the same beige room came to exist everywhere on Earth simultaneously"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-standardization-of-nowhere.png"
+    nextImage="/images/explorations/the-standardization-of-nowhere.webp"
     nextReadTime="12 min"
     >
       <h2>The Body in the Dark</h2>

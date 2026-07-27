@@ -29,7 +29,7 @@ export default function TheTethysOcean() {
       category="Natural History"
       categoryColor="teal"
       date="May 28, 2026"
-      imageSrc="/images/explorations/the-tethys-ocean.png"
+      imageSrc="/images/explorations/the-tethys-ocean.webp"
       imageAlt="The Tethys Ocean illustration"
       readTime="12 min"
       wordCount={2734}
@@ -40,7 +40,7 @@ export default function TheTethysOcean() {
     nextSubtitle="John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-clockmaker-who-broke-time.png"
+    nextImage="/images/explorations/the-clockmaker-who-broke-time.webp"
     nextReadTime="13 min"
     >
       <h2>The Highest Graveyard</h2>

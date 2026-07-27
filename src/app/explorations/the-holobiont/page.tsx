@@ -29,7 +29,7 @@ export default function TheHolobiont() {
       category="Essay"
       categoryColor="emerald"
       date="March 21, 2026"
-      imageSrc="/images/explorations/the-holobiont.png"
+      imageSrc="/images/explorations/the-holobiont.webp"
       imageAlt="The Holobiont illustration"
       readTime="12 min"
       wordCount={2724}
@@ -41,7 +41,7 @@ export default function TheHolobiont() {
     nextSubtitle="How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum"
     nextCategory="History & Erasure"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-forgotten-front-part-3.png"
+    nextImage="/images/explorations/the-forgotten-front-part-3.webp"
     nextReadTime="13 min"
     ><article>
       <h2>The Stranger Inside</h2>

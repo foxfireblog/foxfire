@@ -29,7 +29,7 @@ export default function TheRedMercuryHoax() {
       category="Essay"
       categoryColor="red"
       date="June 2, 2026"
-      imageSrc="/images/explorations/the-red-mercury-hoax.png"
+      imageSrc="/images/explorations/the-red-mercury-hoax.webp"
       imageAlt="The Red Mercury Hoax illustration"
       readTime="12 min"
       wordCount={2647}
@@ -40,7 +40,7 @@ export default function TheRedMercuryHoax() {
     nextSubtitle="There is a second sky above the visible one, and it is screaming"
     nextCategory="Natural History"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-radio-sky.png"
+    nextImage="/images/explorations/the-radio-sky.webp"
     nextReadTime="13 min"
     >
       <h2>The Substance That Wasn&apos;t There</h2>

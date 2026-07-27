@@ -29,7 +29,7 @@ export default function TheHafniumBomb() {
       category="Essay"
       categoryColor="amber"
       date="April 9, 2026"
-      imageSrc="/images/explorations/the-hafnium-bomb.png"
+      imageSrc="/images/explorations/the-hafnium-bomb.webp"
       imageAlt="The Hafnium Bomb illustration"
       readTime="12 min"
       wordCount={2707}
@@ -41,7 +41,7 @@ export default function TheHafniumBomb() {
     nextSubtitle="For nearly a century, escaped slaves built a nation inside Brazil &mdash; and the Portuguese couldn't destroy it"
     nextCategory="History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-free-republic-of-palmares.png"
+    nextImage="/images/explorations/the-free-republic-of-palmares.webp"
     nextReadTime="12 min"
     >
       <h2>The Coffee Cup and the End of the World</h2>

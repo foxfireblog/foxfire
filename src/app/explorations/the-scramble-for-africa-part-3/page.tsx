@@ -29,7 +29,7 @@ export default function TheScrambleForAfricaPart3() {
       category="Essay"
       categoryColor="amber"
       date="May 10, 2026"
-      imageSrc="/images/explorations/the-scramble-for-africa-part-3.png"
+      imageSrc="/images/explorations/the-scramble-for-africa-part-3.webp"
       imageAlt="The Scramble for Africa: The Long Shadow (Part III of III) illustration"
       readTime="13 min"
       wordCount={3018}
@@ -40,7 +40,7 @@ export default function TheScrambleForAfricaPart3() {
     nextSubtitle="How to kill the fourth-largest lake on Earth in a single generation"
     nextCategory="Elegy"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-suicide-of-the-aral-sea.png"
+    nextImage="/images/explorations/the-suicide-of-the-aral-sea.webp"
     nextReadTime="12 min"
     >
       <h2>The Trap of Freedom</h2>

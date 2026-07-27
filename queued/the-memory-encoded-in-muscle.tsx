@@ -29,7 +29,7 @@ export default function TheMemoryEncodedInMuscle() {
       category="Essay"
       categoryColor="rose"
       date="June 18, 2026"
-      imageSrc="/images/explorations/the-memory-encoded-in-muscle.png"
+      imageSrc="/images/explorations/the-memory-encoded-in-muscle.webp"
       imageAlt="The Memory Encoded in Muscle illustration"
       readTime="14 min"
       wordCount={3130}
@@ -40,7 +40,7 @@ export default function TheMemoryEncodedInMuscle() {
     nextSubtitle="How a medieval land grab became the template for owning the world"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-enclosure-of-everything.png"
+    nextImage="/images/explorations/the-enclosure-of-everything.webp"
     nextReadTime="13 min"
     >
       <h2>The Man Who Learned What He Could Never Remember</h2>

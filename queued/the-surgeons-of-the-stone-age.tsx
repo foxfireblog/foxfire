@@ -29,7 +29,7 @@ export default function TheSurgeonsOfTheStoneAge() {
       category="Natural History"
       categoryColor="amber"
       date="May 31, 2026"
-      imageSrc="/images/explorations/the-surgeons-of-the-stone-age.png"
+      imageSrc="/images/explorations/the-surgeons-of-the-stone-age.webp"
       imageAlt="The Surgeon's Fingers Remember illustration"
       readTime="12 min"
       wordCount={2729}
@@ -40,7 +40,7 @@ export default function TheSurgeonsOfTheStoneAge() {
     nextSubtitle="On the impossibility of observing a human without changing what you see"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-demand-characteristics.png"
+    nextImage="/images/explorations/the-demand-characteristics.webp"
     nextReadTime="14 min"
     >
       <h2>The Child in the Cave</h2>

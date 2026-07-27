@@ -29,7 +29,7 @@ export default function TheNightOfThePencils() {
       category="History"
       categoryColor="red"
       date="April 8, 2026"
-      imageSrc="/images/explorations/the-night-of-the-pencils.png"
+      imageSrc="/images/explorations/the-night-of-the-pencils.webp"
       imageAlt="The Night of the Pencils illustration"
       readTime="10 min"
       wordCount={2323}
@@ -40,7 +40,7 @@ export default function TheNightOfThePencils() {
     nextSubtitle="Agent Orange and the inheritance no treaty can undo"
     nextCategory="Essay"
     nextCategoryColor="orange"
-    nextImage="/images/explorations/the-war-that-passes-through-blood.png"
+    nextImage="/images/explorations/the-war-that-passes-through-blood.webp"
     nextReadTime="12 min"
     >
 

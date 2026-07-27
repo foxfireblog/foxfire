@@ -29,7 +29,7 @@ export default function TheSiegeOfLeningradPart2() {
       category="History"
       categoryColor="sky"
       date="May 21, 2026"
-      imageSrc="/images/explorations/the-siege-of-leningrad-part-2.png"
+      imageSrc="/images/explorations/the-siege-of-leningrad-part-2.webp"
       imageAlt="The Siege of Leningrad: Nine Hundred Days (Part II of II) illustration"
       readTime="14 min"
       wordCount={3141}
@@ -40,7 +40,7 @@ export default function TheSiegeOfLeningradPart2() {
     nextSubtitle="You learn a new word and suddenly it's everywhere. It was always everywhere. You just couldn't see it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-frequency-illusion.png"
+    nextImage="/images/explorations/the-frequency-illusion.webp"
     nextReadTime="13 min"
     >
       <h2>The Symphony They Had No Right to Play</h2>

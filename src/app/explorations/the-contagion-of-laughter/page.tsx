@@ -29,7 +29,7 @@ export default function TheContagionOfLaughter() {
       category="Essay"
       categoryColor="amber"
       date="July 6, 2026"
-      imageSrc="/images/explorations/the-contagion-of-laughter.png"
+      imageSrc="/images/explorations/the-contagion-of-laughter.webp"
       imageAlt="The Contagion of Laughter illustration"
       readTime="13 min"
       wordCount={2935}
@@ -40,7 +40,7 @@ export default function TheContagionOfLaughter() {
     nextSubtitle="A love story forty million years old &mdash; and what happens when one partner cheats"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-yucca-and-the-moth.png"
+    nextImage="/images/explorations/the-yucca-and-the-moth.webp"
     nextReadTime="13 min"
     >
       The Contagion of Laughter

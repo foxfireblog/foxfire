@@ -29,7 +29,7 @@ export default function TheActuariesOfTheApocalypse() {
       category="Essay"
       categoryColor="amber"
       date="May 25, 2026"
-      imageSrc="/images/explorations/the-actuaries-of-the-apocalypse.png"
+      imageSrc="/images/explorations/the-actuaries-of-the-apocalypse.webp"
       imageAlt="The Actuaries of the Apocalypse illustration"
       readTime="14 min"
       wordCount={3278}
@@ -40,7 +40,7 @@ export default function TheActuariesOfTheApocalypse() {
     nextSubtitle="A killer's coded message sat unsolved for 51 years. Then three amateurs cracked it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-zodiac-cipher.png"
+    nextImage="/images/explorations/the-zodiac-cipher.webp"
     nextReadTime="12 min"
     >
       <h2>The Dusty Papers</h2>

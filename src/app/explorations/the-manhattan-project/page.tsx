@@ -29,7 +29,7 @@ export default function TheManhattanProject() {
       category="Essay"
       categoryColor="amber"
       date="May 9, 2026"
-      imageSrc="/images/explorations/the-manhattan-project.png"
+      imageSrc="/images/explorations/the-manhattan-project.webp"
       imageAlt="The Manhattan Project: The Physics of Desperation (Part I of IV) illustration"
       readTime="14 min"
       wordCount={3120}
@@ -40,7 +40,7 @@ export default function TheManhattanProject() {
       nextSubtitle="Life at Los Alamos, the personalities, the moral debates, and the Trinity test"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-manhattan-project-part-2.png"
+      nextImage="/images/explorations/the-manhattan-project-part-2.webp"
       nextReadTime="17 min"
     >
       <h2>The Letter</h2>

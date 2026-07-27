@@ -30,7 +30,7 @@ export default function TheWowSignal() {
       category="Essay"
       categoryColor="indigo"
       date="March 7, 2026"
-      imageSrc="/images/explorations/the-wow-signal.png"
+      imageSrc="/images/explorations/the-wow-signal.webp"
       imageAlt="The Wow! Signal illustration"
       readTime="12 min"
       wordCount={2721}
@@ -41,7 +41,7 @@ export default function TheWowSignal() {
     nextSubtitle="On the trails we make when we refuse the ones made for us"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/desire-paths.png"
+    nextImage="/images/explorations/desire-paths.webp"
     nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wow-signal.mp3"
     ><article>

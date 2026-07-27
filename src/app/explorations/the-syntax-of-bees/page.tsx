@@ -29,7 +29,7 @@ export default function TheSyntaxOfBees() {
       category="Natural History"
       categoryColor="amber"
       date="June 10, 2026"
-      imageSrc="/images/explorations/the-syntax-of-bees.png"
+      imageSrc="/images/explorations/the-syntax-of-bees.webp"
       imageAlt="The Syntax of Bees illustration"
       readTime="14 min"
       wordCount={3133}
@@ -40,7 +40,7 @@ export default function TheSyntaxOfBees() {
     nextSubtitle="What it means to drown an inhabited place &mdash; and the people who never forgave the water"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-towns-at-the-bottom-of-reservoirs.png"
+    nextImage="/images/explorations/the-towns-at-the-bottom-of-reservoirs.webp"
     nextReadTime="13 min"
     >
       <h2>A Language Written in Darkness</h2>

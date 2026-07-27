@@ -29,7 +29,7 @@ export default function TheCollaborators() {
       category="Essay"
       categoryColor="amber"
       date="March 23, 2026"
-      imageSrc="/images/explorations/the-collaborators.png"
+      imageSrc="/images/explorations/the-collaborators.webp"
       imageAlt="The Collaborators illustration"
       readTime="14 min"
       wordCount={3121}
@@ -41,7 +41,7 @@ export default function TheCollaborators() {
     nextSubtitle="The impossible task, five weeks to draw a border, and the logic of partition"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-partition-of-india.png"
+    nextImage="/images/explorations/the-partition-of-india.webp"
     nextReadTime="12 min"
     >
 

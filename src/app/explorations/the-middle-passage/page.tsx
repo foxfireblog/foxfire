@@ -29,7 +29,7 @@ export default function TheMiddlePassage() {
       category="Essay"
       categoryColor="indigo"
       date="March 28, 2026"
-      imageSrc="/images/explorations/the-middle-passage.png"
+      imageSrc="/images/explorations/the-middle-passage.webp"
       imageAlt="The Middle Passage: The Crossing (Part I of II) illustration"
       readTime="14 min"
       wordCount={3202}
@@ -41,7 +41,7 @@ export default function TheMiddlePassage() {
       nextSubtitle="The wealth it built, the institutions that profited, and the ongoing reckoning"
       nextCategory="Essay"
       nextCategoryColor="indigo"
-      nextImage="/images/explorations/the-middle-passage-part-2.png"
+      nextImage="/images/explorations/the-middle-passage-part-2.webp"
       nextReadTime="12 min"
     >
 

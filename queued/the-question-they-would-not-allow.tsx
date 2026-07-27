@@ -29,7 +29,7 @@ export default function TheQuestionTheyWouldNotAllow() {
       category="Essay"
       categoryColor="amber"
       date="July 25, 2026"
-      imageSrc="/images/explorations/the-question-they-would-not-allow.png"
+      imageSrc="/images/explorations/the-question-they-would-not-allow.webp"
       imageAlt="The Question They Would Not Allow illustration"
       readTime="13 min"
       wordCount={2975}
@@ -40,7 +40,7 @@ export default function TheQuestionTheyWouldNotAllow() {
     nextSubtitle="Why we trust images more than memory &mdash; and why we probably shouldn't"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-alibi-of-the-photograph.png"
+    nextImage="/images/explorations/the-alibi-of-the-photograph.webp"
     nextReadTime="14 min"
     >
       <h2>The Dirty Hands</h2>

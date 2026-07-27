@@ -29,7 +29,7 @@ export default function TheImitationGameWasAJoke() {
       category="Essay"
       categoryColor="violet"
       date="July 23, 2026"
-      imageSrc="/images/explorations/the-imitation-game-was-a-joke.png"
+      imageSrc="/images/explorations/the-imitation-game-was-a-joke.webp"
       imageAlt="The Imitation Game Was a Joke illustration"
       readTime="12 min"
       wordCount={2704}
@@ -40,7 +40,7 @@ export default function TheImitationGameWasAJoke() {
     nextSubtitle="How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-lie-detector-was-always-a-mirror.png"
+    nextImage="/images/explorations/the-lie-detector-was-always-a-mirror.webp"
     nextReadTime="12 min"
     >
       <h2>The Joke Nobody Got</h2>

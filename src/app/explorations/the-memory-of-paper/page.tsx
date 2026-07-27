@@ -29,7 +29,7 @@ export default function TheMemoryOfPaper() {
       category="Essay"
       categoryColor="amber"
       date="June 12, 2026"
-      imageSrc="/images/explorations/the-memory-of-paper.png"
+      imageSrc="/images/explorations/the-memory-of-paper.webp"
       imageAlt="The Memory of Paper illustration"
       readTime="13 min"
       wordCount={3032}
@@ -40,7 +40,7 @@ export default function TheMemoryOfPaper() {
     nextSubtitle="Before the database, before the spreadsheet, before the search engine &mdash; there was a small rectangle of paper. It changed how humans thought."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-index-card-that-built-the-modern-mind.png"
+    nextImage="/images/explorations/the-index-card-that-built-the-modern-mind.webp"
     nextReadTime="11 min"
     >
       <h2>The Diaper Made of Torah</h2>

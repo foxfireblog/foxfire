@@ -29,7 +29,7 @@ export default function TheTrialOfTheRooster() {
       category="Essay"
       categoryColor="amber"
       date="July 4, 2026"
-      imageSrc="/images/explorations/the-trial-of-the-rooster.png"
+      imageSrc="/images/explorations/the-trial-of-the-rooster.webp"
       imageAlt="The Trial of the Rooster illustration"
       readTime="14 min"
       wordCount={3126}
@@ -40,7 +40,7 @@ export default function TheTrialOfTheRooster() {
     nextSubtitle="A millionaire, a coral reef, and the loneliest nation on Earth"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-republic-of-minerva.png"
+    nextImage="/images/explorations/the-republic-of-minerva.webp"
     nextReadTime="14 min"
     >
       <h2>The Egg That Hatched a Monster</h2>

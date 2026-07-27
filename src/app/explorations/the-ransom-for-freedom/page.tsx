@@ -29,7 +29,7 @@ export default function TheRansomForFreedom() {
       category="Essay"
       categoryColor="amber"
       date="April 2, 2026"
-      imageSrc="/images/explorations/the-ransom-for-freedom.png"
+      imageSrc="/images/explorations/the-ransom-for-freedom.webp"
       imageAlt="The Ransom for Freedom illustration"
       readTime="12 min"
       wordCount={2711}
@@ -41,7 +41,7 @@ export default function TheRansomForFreedom() {
     nextSubtitle="Below the sunlight, the ocean invented its own stars"
     nextCategory="Natural History"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-ocean-invented-stars.png"
+    nextImage="/images/explorations/the-ocean-invented-stars.webp"
     nextReadTime="13 min"
     >
       <h2>The Invoice</h2>

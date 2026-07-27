@@ -29,7 +29,7 @@ export default function TheCentennialLight() {
       category="Essay"
       categoryColor="amber"
       date="March 25, 2026"
-      imageSrc="/images/explorations/the-centennial-light.png"
+      imageSrc="/images/explorations/the-centennial-light.webp"
       imageAlt="The Centennial Light illustration"
       readTime="11 min"
       wordCount={2523}
@@ -41,7 +41,7 @@ export default function TheCentennialLight() {
     nextSubtitle="Agent Orange and the inheritance no treaty has ended"
     nextCategory="Essay"
     nextCategoryColor="orange"
-    nextImage="/images/explorations/the-war-that-passes-through-blood.png"
+    nextImage="/images/explorations/the-war-that-passes-through-blood.webp"
     nextReadTime="12 min"
     >
       <h2>The Bulb That Watched</h2>

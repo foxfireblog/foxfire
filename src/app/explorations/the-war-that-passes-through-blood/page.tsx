@@ -29,7 +29,7 @@ export default function TheWarThatPassesThroughBlood() {
       category="Essay"
       categoryColor="orange"
       date="March 26, 2026"
-      imageSrc="/images/explorations/the-war-that-passes-through-blood.png"
+      imageSrc="/images/explorations/the-war-that-passes-through-blood.webp"
       imageAlt="The War That Passes Through Blood illustration"
       readTime="12 min"
       wordCount={2715}
@@ -41,7 +41,7 @@ export default function TheWarThatPassesThroughBlood() {
     nextSubtitle="On the prison and the palace of your mother tongue"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-language-you-speak-is-the-world-you-see.png"
+    nextImage="/images/explorations/the-language-you-speak-is-the-world-you-see.webp"
     nextReadTime="13 min"
     >
       <h2>The Smell of Ripe Guava</h2>

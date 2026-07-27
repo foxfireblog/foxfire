@@ -29,7 +29,7 @@ export default function TheAttentionMerchants() {
       category="Essay"
       categoryColor="red"
       date="May 28, 2026"
-      imageSrc="/images/explorations/the-attention-merchants.png"
+      imageSrc="/images/explorations/the-attention-merchants.webp"
       imageAlt="The Attention Merchants illustration"
       readTime="12 min"
       wordCount={2816}
@@ -40,7 +40,7 @@ export default function TheAttentionMerchants() {
     nextSubtitle="Inside the strangest penal experiment ever attempted"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-island-that-punished-with-freedom.png"
+    nextImage="/images/explorations/the-island-that-punished-with-freedom.webp"
     nextReadTime="11 min"
     >
       <h2>The Penny Paper</h2>

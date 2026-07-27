@@ -29,7 +29,7 @@ export default function TheTownsAtTheBottomOfReservoirs() {
       category="Essay"
       categoryColor="sky"
       date="June 11, 2026"
-      imageSrc="/images/explorations/the-towns-at-the-bottom-of-reservoirs.png"
+      imageSrc="/images/explorations/the-towns-at-the-bottom-of-reservoirs.webp"
       imageAlt="The Towns at the Bottom of Reservoirs illustration"
       readTime="13 min"
       wordCount={3072}
@@ -40,7 +40,7 @@ export default function TheTownsAtTheBottomOfReservoirs() {
     nextSubtitle="The world that vanished beneath the waves is still standing"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-drowned-forests.png"
+    nextImage="/images/explorations/the-drowned-forests.webp"
     nextReadTime="13 min"
     >
       <h2>The Farewell Ball</h2>

@@ -29,7 +29,7 @@ export default function TheSoldiersWhoRefusedToStop() {
       category="Essay"
       categoryColor="amber"
       date="June 10, 2026"
-      imageSrc="/images/explorations/the-soldiers-who-refused-to-stop.png"
+      imageSrc="/images/explorations/the-soldiers-who-refused-to-stop.webp"
       imageAlt="The Soldiers Who Refused to Stop illustration"
       readTime="13 min"
       wordCount={3002}
@@ -40,7 +40,7 @@ export default function TheSoldiersWhoRefusedToStop() {
     nextSubtitle="On hotel rooms, hospital beds, and the architecture of anonymous passage"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-rooms-where-nobody-died.png"
+    nextImage="/images/explorations/the-rooms-where-nobody-died.webp"
     nextReadTime="13 min"
     >
       <h2>The Last Minute</h2>

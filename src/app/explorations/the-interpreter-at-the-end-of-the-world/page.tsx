@@ -29,7 +29,7 @@ export default function TheInterpreterAtTheEndOfTheWorld() {
       category="Essay"
       categoryColor="violet"
       date="July 12, 2026"
-      imageSrc="/images/explorations/the-interpreter-at-the-end-of-the-world.png"
+      imageSrc="/images/explorations/the-interpreter-at-the-end-of-the-world.webp"
       imageAlt="The Interpreter at the End of the World illustration"
       readTime="13 min"
       wordCount={3040}
@@ -40,7 +40,7 @@ export default function TheInterpreterAtTheEndOfTheWorld() {
     nextSubtitle="On the strange persistence of nations that no longer exist"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-government-in-exile.png"
+    nextImage="/images/explorations/the-government-in-exile.webp"
     nextReadTime="12 min"
     >
       <h2>The Word That Ended the World</h2>

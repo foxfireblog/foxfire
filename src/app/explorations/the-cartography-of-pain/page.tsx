@@ -29,7 +29,7 @@ export default function TheCartographyOfPain() {
       category="Essay"
       categoryColor="rose"
       date="June 4, 2026"
-      imageSrc="/images/explorations/the-cartography-of-pain.png"
+      imageSrc="/images/explorations/the-cartography-of-pain.webp"
       imageAlt="The Cartography of Pain illustration"
       readTime="15 min"
       wordCount={3363}
@@ -40,7 +40,7 @@ export default function TheCartographyOfPain() {
     nextSubtitle="How the Soviet state tried to fingerprint every keystroke &mdash; and why typography was always political"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-typewriter-that-became-a-weapon.png"
+    nextImage="/images/explorations/the-typewriter-that-became-a-weapon.webp"
     nextReadTime="12 min"
     >
       <h2>The Boy with His Foot in the Fire</h2>

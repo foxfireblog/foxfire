@@ -29,7 +29,7 @@ export default function TheDecimalClock() {
       category="Essay"
       categoryColor="amber"
       date="March 18, 2026"
-      imageSrc="/images/explorations/the-decimal-clock.png"
+      imageSrc="/images/explorations/the-decimal-clock.webp"
       imageAlt="The Decimal Clock illustration"
       readTime="14 min"
       wordCount={3142}
@@ -41,7 +41,7 @@ export default function TheDecimalClock() {
     nextSubtitle="The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse"
     nextCategory="History & Erasure"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-forgotten-front-part-2.png"
+    nextImage="/images/explorations/the-forgotten-front-part-2.webp"
     nextReadTime="14 min"
     ><h2>The Clock Where Noon Is Five</h2>
 

@@ -29,7 +29,7 @@ export default function TheForgottenFront() {
       category="History & Erasure"
       categoryColor="rose"
       date="March 13, 2026"
-      imageSrc="/images/explorations/the-forgotten-front.png"
+      imageSrc="/images/explorations/the-forgotten-front.webp"
       imageAlt="The Forgotten Front: The Tsar's Gamble (Part I of III) illustration"
       readTime="13 min"
       wordCount={2994}
@@ -41,7 +41,7 @@ export default function TheForgottenFront() {
       nextSubtitle="The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse"
       nextCategory="History & Erasure"
       nextCategoryColor="rose"
-      nextImage="/images/explorations/the-forgotten-front-part-2.png"
+      nextImage="/images/explorations/the-forgotten-front-part-2.webp"
       nextReadTime="14 min"
     ><article>
       <h2>The Body in the Forest</h2>

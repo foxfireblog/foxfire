@@ -29,7 +29,7 @@ export default function DeadInternetTheory() {
       category="Essay"
       categoryColor="indigo"
       date="May 6, 2026"
-      imageSrc="/images/explorations/dead-internet-theory.png"
+      imageSrc="/images/explorations/dead-internet-theory.webp"
       imageAlt="Dead Internet Theory illustration"
       readTime="11 min"
       wordCount={2624}
@@ -40,7 +40,7 @@ export default function DeadInternetTheory() {
     nextSubtitle="On umami, the century it took to believe in a flavor, and the politics of whose senses count"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-taste-that-cannot-be-named.png"
+    nextImage="/images/explorations/the-taste-that-cannot-be-named.webp"
     nextReadTime="11 min"
     >
       <h2>Say Amen to Shrimp Jesus</h2>

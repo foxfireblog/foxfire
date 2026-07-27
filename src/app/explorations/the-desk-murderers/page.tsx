@@ -29,7 +29,7 @@ export default function TheDeskMurderers() {
       category="Essay"
       categoryColor="red"
       date="June 30, 2026"
-      imageSrc="/images/explorations/the-desk-murderers.png"
+      imageSrc="/images/explorations/the-desk-murderers.webp"
       imageAlt="The Desk Murderers illustration"
       readTime="12 min"
       wordCount={2805}
@@ -40,7 +40,7 @@ export default function TheDeskMurderers() {
     nextSubtitle="On sortition, democracy's forgotten twin, and the strange wisdom of choosing by chance"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-election-that-nobody-won.png"
+    nextImage="/images/explorations/the-election-that-nobody-won.webp"
     nextReadTime="11 min"
     >
       <h2>The Price of a Ticket</h2>

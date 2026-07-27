@@ -29,7 +29,7 @@ export default function TheFreeRepublicOfPalmares() {
       category="History"
       categoryColor="emerald"
       date="April 9, 2026"
-      imageSrc="/images/explorations/the-free-republic-of-palmares.png"
+      imageSrc="/images/explorations/the-free-republic-of-palmares.webp"
       imageAlt="The Free Republic of Palmares illustration"
       readTime="12 min"
       wordCount={2802}
@@ -41,7 +41,7 @@ export default function TheFreeRepublicOfPalmares() {
     nextSubtitle="The clockmaker who saved a million sailors and died waiting for his reward"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-longitude-problem.png"
+    nextImage="/images/explorations/the-longitude-problem.webp"
     nextReadTime="13 min"
     >
       <h2>The Altar Boy Who Burned It All Down</h2>

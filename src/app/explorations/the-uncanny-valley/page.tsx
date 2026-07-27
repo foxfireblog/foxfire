@@ -29,7 +29,7 @@ export default function TheUncannyValley() {
       category="Essay"
       categoryColor="violet"
       date="March 28, 2026"
-      imageSrc="/images/explorations/the-uncanny-valley.png"
+      imageSrc="/images/explorations/the-uncanny-valley.webp"
       imageAlt="The Uncanny Valley illustration"
       readTime="13 min"
       wordCount={2938}
@@ -41,7 +41,7 @@ export default function TheUncannyValley() {
     nextSubtitle="The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-partition-of-india-part-2.png"
+    nextImage="/images/explorations/the-partition-of-india-part-2.webp"
     nextReadTime="14 min"
     >
       <h2>The Cold Handshake</h2>

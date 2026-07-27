@@ -29,7 +29,7 @@ export default function TheSleepingSicknessDetectives() {
       category="Natural History"
       categoryColor="violet"
       date="May 27, 2026"
-      imageSrc="/images/explorations/the-sleeping-sickness-detectives.png"
+      imageSrc="/images/explorations/the-sleeping-sickness-detectives.webp"
       imageAlt="The Sleeping Sickness Detectives illustration"
       readTime="12 min"
       wordCount={2708}
@@ -40,7 +40,7 @@ export default function TheSleepingSicknessDetectives() {
     nextSubtitle="The buried waterways still shaping a city that forgot them"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-lost-rivers-of-london.png"
+    nextImage="/images/explorations/the-lost-rivers-of-london.webp"
     nextReadTime="13 min"
     >
       <h2>A Slumber Fell Upon the Kingdom</h2>

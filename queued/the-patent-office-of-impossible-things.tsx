@@ -29,7 +29,7 @@ export default function ThePatentOfficeOfImpossibleThings() {
       category="Essay"
       categoryColor="amber"
       date="July 13, 2026"
-      imageSrc="/images/explorations/the-patent-office-of-impossible-things.png"
+      imageSrc="/images/explorations/the-patent-office-of-impossible-things.webp"
       imageAlt="The Patent Office of Impossible Things illustration"
       readTime="13 min"
       wordCount={2991}
@@ -40,7 +40,7 @@ export default function ThePatentOfficeOfImpossibleThings() {
     nextSubtitle="A million people fell asleep after the Great War. We still don't know why."
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-sleepers.png"
+    nextImage="/images/explorations/the-sleepers.webp"
     nextReadTime="11 min"
     >
       <h2>The Clerk at the Gate</h2>

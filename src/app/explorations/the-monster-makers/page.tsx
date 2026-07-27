@@ -29,7 +29,7 @@ export default function TheMonsterMakers() {
       category="Natural History"
       categoryColor="amber"
       date="March 30, 2026"
-      imageSrc="/images/explorations/the-monster-makers.png"
+      imageSrc="/images/explorations/the-monster-makers.webp"
       imageAlt="The Monster Makers illustration"
       readTime="13 min"
       wordCount={2934}
@@ -41,7 +41,7 @@ export default function TheMonsterMakers() {
     nextSubtitle="In the mountains where human speech became birdsong, the brain reveals one of its strangest talents"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-language-of-whistles.png"
+    nextImage="/images/explorations/the-language-of-whistles.webp"
     nextReadTime="11 min"
     >
       <h2>The Stones That Spelled His Name</h2>

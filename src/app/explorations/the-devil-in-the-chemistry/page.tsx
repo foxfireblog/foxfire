@@ -29,7 +29,7 @@ export default function TheDevilInTheChemistry() {
       category="Natural History"
       categoryColor="emerald"
       date="April 21, 2026"
-      imageSrc="/images/explorations/the-devil-in-the-chemistry.png"
+      imageSrc="/images/explorations/the-devil-in-the-chemistry.webp"
       imageAlt="The Devil in the Chemistry illustration"
       readTime="12 min"
       wordCount={2814}
@@ -41,7 +41,7 @@ export default function TheDevilInTheChemistry() {
     nextSubtitle="How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/dead-drops-and-living-cities.png"
+    nextImage="/images/explorations/dead-drops-and-living-cities.webp"
     nextReadTime="12 min"
     >
       <h2>Full Bellies, Empty Lives</h2>

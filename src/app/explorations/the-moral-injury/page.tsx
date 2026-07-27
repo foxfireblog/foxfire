@@ -29,7 +29,7 @@ export default function TheMoralInjury() {
       category="Essay"
       categoryColor="indigo"
       date="April 7, 2026"
-      imageSrc="/images/explorations/the-moral-injury.png"
+      imageSrc="/images/explorations/the-moral-injury.webp"
       imageAlt="The Moral Injury illustration"
       readTime="12 min"
       wordCount={2722}
@@ -41,7 +41,7 @@ export default function TheMoralInjury() {
     nextSubtitle="On the ordinary architecture of betrayal"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-informers.png"
+    nextImage="/images/explorations/the-informers.webp"
     nextReadTime="12 min"
     >
       <h2>The Boy with the AK-47</h2>

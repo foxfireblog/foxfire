@@ -29,7 +29,7 @@ export default function TheTulipThatBrokeAnEmpire() {
       category="Essay"
       categoryColor="rose"
       date="June 22, 2026"
-      imageSrc="/images/explorations/the-tulip-that-broke-an-empire.png"
+      imageSrc="/images/explorations/the-tulip-that-broke-an-empire.webp"
       imageAlt="The Tulip That Broke an Empire illustration"
       readTime="13 min"
       wordCount={3010}
@@ -40,7 +40,7 @@ export default function TheTulipThatBrokeAnEmpire() {
     nextSubtitle="Every metropolis is haunted by the infrastructure of its own ambitions"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-city-beneath-the-city.png"
+    nextImage="/images/explorations/the-city-beneath-the-city.webp"
     nextReadTime="13 min"
     >
       <h2>The Tortoise and the Flame</h2>

@@ -29,7 +29,7 @@ export default function TheSaffronWars() {
       category="Essay"
       categoryColor="amber"
       date="June 4, 2026"
-      imageSrc="/images/explorations/the-saffron-wars.png"
+      imageSrc="/images/explorations/the-saffron-wars.webp"
       imageAlt="The Saffron Wars illustration"
       readTime="12 min"
       wordCount={2868}
@@ -40,7 +40,7 @@ export default function TheSaffronWars() {
     nextSubtitle="How scientists learned to draw what the body feels &mdash; and why the map keeps changing"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-cartography-of-pain.png"
+    nextImage="/images/explorations/the-cartography-of-pain.webp"
     nextReadTime="15 min"
     >
       <h2>The Flower That Cannot Escape Us</h2>

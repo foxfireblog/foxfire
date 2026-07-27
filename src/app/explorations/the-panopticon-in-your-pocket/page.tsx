@@ -29,7 +29,7 @@ export default function ThePanopticonInYourPocket() {
       category="Essay"
       categoryColor="violet"
       date="June 25, 2026"
-      imageSrc="/images/explorations/the-panopticon-in-your-pocket.png"
+      imageSrc="/images/explorations/the-panopticon-in-your-pocket.webp"
       imageAlt="The Panopticon in Your Pocket illustration"
       readTime="13 min"
       wordCount={2946}
@@ -40,7 +40,7 @@ export default function ThePanopticonInYourPocket() {
     nextSubtitle="How the Soviet Union paved its greatest highway with the dead"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-road-of-bones.png"
+    nextImage="/images/explorations/the-road-of-bones.webp"
     nextReadTime="14 min"
     >
       <h2>The Simple Idea in Architecture</h2>

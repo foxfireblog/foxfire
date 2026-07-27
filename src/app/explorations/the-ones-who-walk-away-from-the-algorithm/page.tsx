@@ -29,7 +29,7 @@ export default function TheOnesWhoWalkAwayFromTheAlgorithm() {
       category="Essay"
       categoryColor="teal"
       date="May 22, 2026"
-      imageSrc="/images/explorations/the-ones-who-walk-away-from-the-algorithm.png"
+      imageSrc="/images/explorations/the-ones-who-walk-away-from-the-algorithm.webp"
       imageAlt="The Ones Who Walk Away from the Algorithm illustration"
       readTime="12 min"
       wordCount={2814}
@@ -40,7 +40,7 @@ export default function TheOnesWhoWalkAwayFromTheAlgorithm() {
     nextSubtitle="They fenced the land first. Then they fenced the rest of human experience."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-enclosure-of-everything.png"
+    nextImage="/images/explorations/the-enclosure-of-everything.webp"
     nextReadTime="12 min"
     >
       <h2>The Child in the Basement</h2>

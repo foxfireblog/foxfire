@@ -29,7 +29,7 @@ export default function TheSuicideForest() {
       category="Essay"
       categoryColor="emerald"
       date="June 6, 2026"
-      imageSrc="/images/explorations/the-suicide-forest.png"
+      imageSrc="/images/explorations/the-suicide-forest.webp"
       imageAlt="The Suicide Forest illustration"
       readTime="14 min"
       wordCount={3235}
@@ -40,7 +40,7 @@ export default function TheSuicideForest() {
     nextSubtitle="How Viking warriors became the last line of defense for an empire they barely understood"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-varangian-guard.png"
+    nextImage="/images/explorations/the-varangian-guard.webp"
     nextReadTime="14 min"
     >
       <h2>The Sound That Isn&apos;t There</h2>

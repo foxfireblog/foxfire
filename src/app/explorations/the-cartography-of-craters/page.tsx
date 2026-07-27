@@ -29,7 +29,7 @@ export default function TheCartographyOfCraters() {
       category="Essay"
       categoryColor="emerald"
       date="April 29, 2026"
-      imageSrc="/images/explorations/the-cartography-of-craters.png"
+      imageSrc="/images/explorations/the-cartography-of-craters.webp"
       imageAlt="The Cartography of Craters illustration"
       readTime="13 min"
       wordCount={2914}
@@ -40,7 +40,7 @@ export default function TheCartographyOfCraters() {
     nextSubtitle="The Berlin Conference, the rules of the game, and how borders were drawn"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-scramble-for-africa.png"
+    nextImage="/images/explorations/the-scramble-for-africa.webp"
     nextReadTime="10 min"
     >
       <h2>The Planes Needed Somewhere to Go</h2>

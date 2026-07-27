@@ -29,7 +29,7 @@ export default function TheChileanExperiment() {
       category="Essay"
       categoryColor="red"
       date="April 3, 2026"
-      imageSrc="/images/explorations/the-chilean-experiment.png"
+      imageSrc="/images/explorations/the-chilean-experiment.webp"
       imageAlt="The Chilean Experiment illustration"
       readTime="10 min"
       wordCount={2411}
@@ -41,7 +41,7 @@ export default function TheChileanExperiment() {
     nextSubtitle="On Christmas Eve 1914, soldiers climbed out of the trenches &mdash; and their generals never forgave them"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-night-the-war-stopped-itself.png"
+    nextImage="/images/explorations/the-night-the-war-stopped-itself.webp"
     nextReadTime="12 min"
     >
       <h2>The Blueprint</h2>

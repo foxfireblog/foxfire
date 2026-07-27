@@ -29,7 +29,7 @@ export default function TheSubterraneanCitiesOfTheDead() {
       category="Essay"
       categoryColor="violet"
       date="June 16, 2026"
-      imageSrc="/images/explorations/the-subterranean-cities-of-the-dead.png"
+      imageSrc="/images/explorations/the-subterranean-cities-of-the-dead.webp"
       imageAlt="The Subterranean Cities of the Dead illustration"
       readTime="13 min"
       wordCount={2930}
@@ -40,7 +40,7 @@ export default function TheSubterraneanCitiesOfTheDead() {
     nextSubtitle="How the living mark the places where they lost someone"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-cartography-of-grief.png"
+    nextImage="/images/explorations/the-cartography-of-grief.webp"
     nextReadTime="13 min"
     >
       <h2>The Basement Wall</h2>

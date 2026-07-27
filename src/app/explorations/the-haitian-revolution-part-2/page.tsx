@@ -29,7 +29,7 @@ export default function TheHaitianRevolutionPart2() {
       category="Essay"
       categoryColor="red"
       date="May 7, 2026"
-      imageSrc="/images/explorations/the-haitian-revolution-part-2.png"
+      imageSrc="/images/explorations/the-haitian-revolution-part-2.webp"
       imageAlt="The Haitian Revolution: The Price of Freedom (Part II of II) illustration"
       readTime="13 min"
       wordCount={3097}
@@ -40,7 +40,7 @@ export default function TheHaitianRevolutionPart2() {
     nextSubtitle="How forbidden words survived on carbon paper and nerve"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-samizdat-machine.png"
+    nextImage="/images/explorations/the-samizdat-machine.webp"
     nextReadTime="12 min"
     >
       <h2>The Trunk of the Tree</h2>

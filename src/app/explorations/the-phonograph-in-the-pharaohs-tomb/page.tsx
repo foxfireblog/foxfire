@@ -29,7 +29,7 @@ export default function ThePhonographInThePharaohsTomb() {
       category="Essay"
       categoryColor="amber"
       date="July 9, 2026"
-      imageSrc="/images/explorations/the-phonograph-in-the-pharaohs-tomb.png"
+      imageSrc="/images/explorations/the-phonograph-in-the-pharaohs-tomb.webp"
       imageAlt="The Phonograph in the Pharaoh's Tomb illustration"
       readTime="12 min"
       wordCount={2862}
@@ -40,7 +40,7 @@ export default function ThePhonographInThePharaohsTomb() {
     nextSubtitle="A history of people who devoted their lives to sounds no one else could hear"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-listeners.png"
+    nextImage="/images/explorations/the-listeners.webp"
     nextReadTime="14 min"
     >
 

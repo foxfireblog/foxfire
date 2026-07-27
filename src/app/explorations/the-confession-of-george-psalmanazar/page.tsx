@@ -29,7 +29,7 @@ export default function TheConfessionOfGeorgePsalmanazar() {
       category="Essay"
       categoryColor="amber"
       date="June 1, 2026"
-      imageSrc="/images/explorations/the-confession-of-george-psalmanazar.png"
+      imageSrc="/images/explorations/the-confession-of-george-psalmanazar.webp"
       imageAlt="The Confession of George Psalmanazar illustration"
       readTime="13 min"
       wordCount={2951}
@@ -40,7 +40,7 @@ export default function TheConfessionOfGeorgePsalmanazar() {
     nextSubtitle="The phantom superweapon that fooled arms dealers, terrorists, and governments for decades"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-red-mercury-hoax.png"
+    nextImage="/images/explorations/the-red-mercury-hoax.webp"
     nextReadTime="12 min"
     >
       <h2>The Man from Nowhere</h2>

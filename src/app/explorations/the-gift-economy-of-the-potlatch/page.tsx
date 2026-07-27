@@ -29,7 +29,7 @@ export default function TheGiftEconomyOfThePotlatch() {
       category="Essay"
       categoryColor="amber"
       date="July 1, 2026"
-      imageSrc="/images/explorations/the-gift-economy-of-the-potlatch.png"
+      imageSrc="/images/explorations/the-gift-economy-of-the-potlatch.webp"
       imageAlt="The Gift Economy of the Potlatch illustration"
       readTime="13 min"
       wordCount={2985}
@@ -40,7 +40,7 @@ export default function TheGiftEconomyOfThePotlatch() {
     nextSubtitle="On the eloquence of broken speech"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-stutterers-gift.png"
+    nextImage="/images/explorations/the-stutterers-gift.webp"
     nextReadTime="14 min"
     >
       <h2>The Crime of Giving Everything Away</h2>

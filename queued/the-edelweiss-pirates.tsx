@@ -29,7 +29,7 @@ export default function TheEdelweissPirates() {
       category="Essay"
       categoryColor="amber"
       date="May 4, 2026"
-      imageSrc="/images/explorations/the-edelweiss-pirates.png"
+      imageSrc="/images/explorations/the-edelweiss-pirates.webp"
       imageAlt="The Edelweiss Pirates illustration"
       readTime="12 min"
       wordCount={2791}
@@ -40,7 +40,7 @@ export default function TheEdelweissPirates() {
     nextSubtitle="When scientists turned the architecture of life into sound, what they heard was stranger than silence"
     nextCategory="Natural Philosophy"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-music-of-protein-folding.png"
+    nextImage="/images/explorations/the-music-of-protein-folding.webp"
     nextReadTime="11 min"
     >
       <h2>The Flower That Hitler Loved</h2>

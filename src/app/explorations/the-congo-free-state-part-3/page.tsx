@@ -29,7 +29,7 @@ export default function TheCongoFreeStatePart3() {
       category="Essay"
       categoryColor="red"
       date="April 28, 2026"
-      imageSrc="/images/explorations/the-congo-free-state-part-3.png"
+      imageSrc="/images/explorations/the-congo-free-state-part-3.webp"
       imageAlt="The Congo Free State: The First Human Rights Campaign (Part III of III) illustration"
       readTime="13 min"
       wordCount={2894}
@@ -40,7 +40,7 @@ export default function TheCongoFreeStatePart3() {
     nextSubtitle="The most misunderstood protest movement in history had a point we still haven't reckoned with"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-luddites-were-right.png"
+    nextImage="/images/explorations/the-luddites-were-right.webp"
     nextReadTime="12 min"
     >
       <h2>The Shipping Clerk Who Saw Everything</h2>

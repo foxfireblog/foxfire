@@ -29,7 +29,7 @@ export default function TheSargassoSea() {
       category="Natural History"
       categoryColor="emerald"
       date="April 30, 2026"
-      imageSrc="/images/explorations/the-sargasso-sea.png"
+      imageSrc="/images/explorations/the-sargasso-sea.webp"
       imageAlt="The Sargasso Sea illustration"
       readTime="13 min"
       wordCount={2919}
@@ -40,7 +40,7 @@ export default function TheSargassoSea() {
     nextSubtitle="The German strategy, the first winter, and the Road of Life"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-siege-of-leningrad.png"
+    nextImage="/images/explorations/the-siege-of-leningrad.webp"
     nextReadTime="13 min"
     >
       <h2>The Sea Curdled with It</h2>

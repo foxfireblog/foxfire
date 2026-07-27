@@ -29,7 +29,7 @@ export default function TheBirthdayProblem() {
       category="Essay"
       categoryColor="amber"
       date="June 14, 2026"
-      imageSrc="/images/explorations/the-birthday-problem.png"
+      imageSrc="/images/explorations/the-birthday-problem.webp"
       imageAlt="The Birthday Problem illustration"
       readTime="12 min"
       wordCount={2757}
@@ -40,7 +40,7 @@ export default function TheBirthdayProblem() {
     nextSubtitle="On the strange, fragile power of twelve people who say no"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-jury-that-refused.png"
+    nextImage="/images/explorations/the-jury-that-refused.webp"
     nextReadTime="13 min"
     >
       <h2>Twenty-Three Strangers Walk Into a Room</h2>

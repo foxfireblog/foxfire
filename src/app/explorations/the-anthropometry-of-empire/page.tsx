@@ -29,7 +29,7 @@ export default function TheAnthropometryOfEmpire() {
       category="Essay"
       categoryColor="red"
       date="May 1, 2026"
-      imageSrc="/images/explorations/the-anthropometry-of-empire.png"
+      imageSrc="/images/explorations/the-anthropometry-of-empire.webp"
       imageAlt="The Anthropometry of Empire illustration"
       readTime="12 min"
       wordCount={2800}
@@ -40,7 +40,7 @@ export default function TheAnthropometryOfEmpire() {
     nextSubtitle="An 80-million-year marriage written in flesh and flower"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-fig-and-the-wasp.png"
+    nextImage="/images/explorations/the-fig-and-the-wasp.webp"
     nextReadTime="13 min"
     >
       <h2>The Mustard Seeds</h2>

@@ -29,7 +29,7 @@ export default function TheBureaucracyOfAtrocity() {
       category="Essay"
       categoryColor="red"
       date="May 1, 2026"
-      imageSrc="/images/explorations/the-bureaucracy-of-atrocity.png"
+      imageSrc="/images/explorations/the-bureaucracy-of-atrocity.webp"
       imageAlt="The Bureaucracy of Atrocity illustration"
       readTime="14 min"
       wordCount={3183}
@@ -40,7 +40,7 @@ export default function TheBureaucracyOfAtrocity() {
     nextSubtitle="Umami was discovered in 1908. It took the West nearly a century to believe it."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-taste-that-does-not-exist.png"
+    nextImage="/images/explorations/the-taste-that-does-not-exist.webp"
     nextReadTime="11 min"
     >
       <h2>The Ticket Was One-Way</h2>

@@ -29,7 +29,7 @@ export default function TheAschLines() {
       category="Essay"
       categoryColor="indigo"
       date="May 2, 2026"
-      imageSrc="/images/explorations/the-asch-lines.png"
+      imageSrc="/images/explorations/the-asch-lines.webp"
       imageAlt="The Asch Lines illustration"
       readTime="14 min"
       wordCount={3333}
@@ -40,7 +40,7 @@ export default function TheAschLines() {
     nextSubtitle="On the day humanity finally learned to see blue"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-color-that-didnt-exist.png"
+    nextImage="/images/explorations/the-color-that-didnt-exist.webp"
     nextReadTime="12 min"
     >
       <h2>The Cup of Elijah</h2>

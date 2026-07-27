@@ -29,7 +29,7 @@ export default function TheWinchesterMysteryHouse() {
       category="Essay"
       categoryColor="violet"
       date="March 12, 2026"
-      imageSrc="/images/explorations/the-winchester-mystery-house.png"
+      imageSrc="/images/explorations/the-winchester-mystery-house.webp"
       imageAlt="The Winchester Mystery House illustration"
       readTime="11 min"
       wordCount={2547}
@@ -41,7 +41,7 @@ export default function TheWinchesterMysteryHouse() {
       nextSubtitle="Everything falls apart. This is not pessimism. It is physics."
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-second-law.png"
+      nextImage="/images/explorations/the-second-law.webp"
       nextReadTime="14 min"
     ><h2>The Nails Left Half-Driven</h2>
 

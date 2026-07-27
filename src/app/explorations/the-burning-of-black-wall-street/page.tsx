@@ -29,7 +29,7 @@ export default function TheBurningOfBlackWallStreet() {
       category="History"
       categoryColor="red"
       date="April 17, 2026"
-      imageSrc="/images/explorations/the-burning-of-black-wall-street.png"
+      imageSrc="/images/explorations/the-burning-of-black-wall-street.webp"
       imageAlt="The Tulsa Race Massacre illustration"
       readTime="12 min"
       wordCount={2752}
@@ -41,7 +41,7 @@ export default function TheBurningOfBlackWallStreet() {
     nextSubtitle="The Catholic Church spent four centuries curating history's greatest reading list"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-index-librorum-prohibitorum.png"
+    nextImage="/images/explorations/the-index-librorum-prohibitorum.webp"
     nextReadTime="11 min"
     >
       <h2>A Dollar Circulates</h2>

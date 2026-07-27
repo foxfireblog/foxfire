@@ -29,7 +29,7 @@ export default function TheMuseumOfFailure() {
       category="Field Guide"
       categoryColor="amber"
       date="June 22, 2026"
-      imageSrc="/images/explorations/the-museum-of-failure.png"
+      imageSrc="/images/explorations/the-museum-of-failure.webp"
       imageAlt="The Museum of Failure illustration"
       readTime="17 min"
       wordCount={3872}
@@ -40,7 +40,7 @@ export default function TheMuseumOfFailure() {
     nextSubtitle="Victorian saints, medical spectacles, and the girls who disappeared in plain sight"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-fasting-girls.png"
+    nextImage="/images/explorations/the-fasting-girls.webp"
     nextReadTime="13 min"
     >
       <h2>Welcome to the Museum</h2>

@@ -29,7 +29,7 @@ export default function TheInlandSeas() {
       category="Natural History"
       categoryColor="sky"
       date="May 25, 2026"
-      imageSrc="/images/explorations/the-inland-seas.png"
+      imageSrc="/images/explorations/the-inland-seas.webp"
       imageAlt="The Inland Seas illustration"
       readTime="13 min"
       wordCount={2881}
@@ -40,7 +40,7 @@ export default function TheInlandSeas() {
     nextSubtitle="When you look up at the night sky, almost everything you see no longer exists"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-light-from-dead-stars.png"
+    nextImage="/images/explorations/the-light-from-dead-stars.webp"
     nextReadTime="12 min"
     >
       <h2>The Water That Doesn&apos;t Know It&apos;s Trapped</h2>

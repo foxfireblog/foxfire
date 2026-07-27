@@ -29,7 +29,7 @@ export default function TheAsceticsWhoBecameGods() {
       category="Essay"
       categoryColor="amber"
       date="July 24, 2026"
-      imageSrc="/images/explorations/the-ascetics-who-became-gods.png"
+      imageSrc="/images/explorations/the-ascetics-who-became-gods.webp"
       imageAlt="The Ascetics Who Became Gods illustration"
       readTime="14 min"
       wordCount={3223}
@@ -40,7 +40,7 @@ export default function TheAsceticsWhoBecameGods() {
     nextSubtitle="When economists treated a country like a laboratory"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-chilean-experiment.png"
+    nextImage="/images/explorations/the-chilean-experiment.webp"
     nextReadTime="12 min"
     >
       <h2>The Bell in the Earth</h2>

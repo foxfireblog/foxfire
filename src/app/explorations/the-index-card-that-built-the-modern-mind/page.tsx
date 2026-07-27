@@ -29,7 +29,7 @@ export default function TheIndexCardThatBuiltTheModernMind() {
       category="Essay"
       categoryColor="amber"
       date="June 13, 2026"
-      imageSrc="/images/explorations/the-index-card-that-built-the-modern-mind.png"
+      imageSrc="/images/explorations/the-index-card-that-built-the-modern-mind.webp"
       imageAlt="The Index Card That Built the Modern Mind illustration"
       readTime="11 min"
       wordCount={2541}
@@ -40,7 +40,7 @@ export default function TheIndexCardThatBuiltTheModernMind() {
     nextSubtitle="What it actually took to resist &mdash; and why we should be suspicious of how easily we imagine we would have"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-good-german-problem.png"
+    nextImage="/images/explorations/the-good-german-problem.webp"
     nextReadTime="13 min"
     >
       <h2>The Little Tyranny of the Rectangle</h2>

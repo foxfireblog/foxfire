@@ -29,7 +29,7 @@ export default function TheWoodWideWebWasWrong() {
       category="Essay"
       categoryColor="emerald"
       date="April 27, 2026"
-      imageSrc="/images/explorations/the-wood-wide-web-was-wrong.png"
+      imageSrc="/images/explorations/the-wood-wide-web-was-wrong.webp"
       imageAlt="The Wood Wide Web Was Wrong illustration"
       readTime="12 min"
       wordCount={2702}
@@ -41,7 +41,7 @@ export default function TheWoodWideWebWasWrong() {
     nextSubtitle="E.D. Morel, Roger Casement, the Kodak camera, and the aftermath"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-congo-free-state-part-3.png"
+    nextImage="/images/explorations/the-congo-free-state-part-3.webp"
     nextReadTime="13 min"
     >
       <h2>The Story We Wanted to Hear</h2>

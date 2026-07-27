@@ -29,7 +29,7 @@ export default function TheForgettingCurve() {
       category="Essay"
       categoryColor="violet"
       date="June 9, 2026"
-      imageSrc="/images/explorations/the-forgetting-curve.png"
+      imageSrc="/images/explorations/the-forgetting-curve.webp"
       imageAlt="The Forgetting Curve illustration"
       readTime="11 min"
       wordCount={2538}
@@ -40,7 +40,7 @@ export default function TheForgettingCurve() {
     nextSubtitle="What happens when a city dies &mdash; and who decides it's dead"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-autopsy-of-cities.png"
+    nextImage="/images/explorations/the-autopsy-of-cities.webp"
     nextReadTime="13 min"
     >
       <h2>The Sound of Nothing</h2>

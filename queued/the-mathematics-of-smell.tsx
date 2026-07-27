@@ -29,7 +29,7 @@ export default function TheMathematicsOfSmell() {
       category="Essay"
       categoryColor="violet"
       date="July 1, 2026"
-      imageSrc="/images/explorations/the-mathematics-of-smell.png"
+      imageSrc="/images/explorations/the-mathematics-of-smell.webp"
       imageAlt="The Mathematics of Smell illustration"
       readTime="11 min"
       wordCount={2637}
@@ -40,7 +40,7 @@ export default function TheMathematicsOfSmell() {
     nextSubtitle="A field guide to the objects that outlast us, and what they know"
     nextCategory="Field Guide"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-inventory-of-what-remains.png"
+    nextImage="/images/explorations/the-inventory-of-what-remains.webp"
     nextReadTime="18 min"
     >
       <h2>The Oldest Language</h2>

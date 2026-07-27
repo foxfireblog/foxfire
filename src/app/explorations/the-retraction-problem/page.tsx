@@ -29,7 +29,7 @@ export default function TheRetractionProblem() {
       category="Essay"
       categoryColor="amber"
       date="July 19, 2026"
-      imageSrc="/images/explorations/the-retraction-problem.png"
+      imageSrc="/images/explorations/the-retraction-problem.webp"
       imageAlt="The Retraction Problem illustration"
       readTime="12 min"
       wordCount={2855}
@@ -40,7 +40,7 @@ export default function TheRetractionProblem() {
     nextSubtitle="In a Belgian village, the mad lived freely among the sane for seven hundred years. It worked."
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-colony-of-the-reasonable.png"
+    nextImage="/images/explorations/the-colony-of-the-reasonable.webp"
     nextReadTime="13 min"
     >
       <h2>The Birthday Party</h2>

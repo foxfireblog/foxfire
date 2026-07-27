@@ -29,7 +29,7 @@ export default function TheScientistsWhoSaidNo() {
       category="Essay"
       categoryColor="indigo"
       date="May 31, 2026"
-      imageSrc="/images/explorations/the-scientists-who-said-no.png"
+      imageSrc="/images/explorations/the-scientists-who-said-no.webp"
       imageAlt="The Scientists Who Said No illustration"
       readTime="15 min"
       wordCount={3463}
@@ -40,7 +40,7 @@ export default function TheScientistsWhoSaidNo() {
     nextSubtitle="Why your body keeps a clock your mind can't read"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-felt-sense-of-time.png"
+    nextImage="/images/explorations/the-felt-sense-of-time.webp"
     nextReadTime="14 min"
     >
       <h2>The Silence Before the Flash</h2>

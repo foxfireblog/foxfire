@@ -29,7 +29,7 @@ export default function TheNowhereMenOfSealand() {
       category="Essay"
       categoryColor="sky"
       date="May 17, 2026"
-      imageSrc="/images/explorations/the-nowhere-men-of-sealand.png"
+      imageSrc="/images/explorations/the-nowhere-men-of-sealand.webp"
       imageAlt="The Nowhere Men of Sealand illustration"
       readTime="14 min"
       wordCount={3129}
@@ -40,7 +40,7 @@ export default function TheNowhereMenOfSealand() {
     nextSubtitle="A library containing every possible book already contains this sentence"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-library-of-babel.png"
+    nextImage="/images/explorations/the-library-of-babel.webp"
     nextReadTime="12 min"
     >
       <h2>A Country the Size of a Living Room</h2>

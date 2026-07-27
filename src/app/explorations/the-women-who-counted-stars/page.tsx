@@ -29,7 +29,7 @@ export default function TheWomenWhoCountedStars() {
       category="Essay"
       categoryColor="indigo"
       date="May 15, 2026"
-      imageSrc="/images/explorations/the-women-who-counted-stars.png"
+      imageSrc="/images/explorations/the-women-who-counted-stars.webp"
       imageAlt="The Women Who Counted Stars illustration"
       readTime="13 min"
       wordCount={2910}
@@ -40,7 +40,7 @@ export default function TheWomenWhoCountedStars() {
     nextSubtitle="The German strategy, the first winter, and the Road of Life"
     nextCategory="History"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-siege-of-leningrad.png"
+    nextImage="/images/explorations/the-siege-of-leningrad.webp"
     nextReadTime="14 min"
     >
       <h2>The Maid and the Stars</h2>

@@ -29,7 +29,7 @@ export default function TheAntikytheraMechanism() {
       category="Essay"
       categoryColor="teal"
       date="March 3, 2026"
-      imageSrc="/images/explorations/the-antikythera-mechanism.png"
+      imageSrc="/images/explorations/the-antikythera-mechanism.webp"
       imageAlt="The Antikythera Mechanism illustration"
       readTime="15 min"
       wordCount={3500}
@@ -40,7 +40,7 @@ export default function TheAntikytheraMechanism() {
     nextSubtitle="140 tons of things, and the loneliness they were trying to fill"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-collyer-brothers.png"
+    nextImage="/images/explorations/the-collyer-brothers.webp"
     nextReadTime="13 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-antikythera-mechanism.mp3"
     ><article>

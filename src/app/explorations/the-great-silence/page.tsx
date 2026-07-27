@@ -29,7 +29,7 @@ export default function TheGreatSilence() {
       category="Essay"
       categoryColor="indigo"
       date="March 6, 2026"
-      imageSrc="/images/explorations/the-great-silence.png"
+      imageSrc="/images/explorations/the-great-silence.webp"
       imageAlt="The Great Silence illustration"
       readTime="15 min"
       wordCount={3401}
@@ -40,7 +40,7 @@ export default function TheGreatSilence() {
       nextSubtitle="What do you put on a satellite that will outlast the Earth?"
       nextCategory="Essay"
       nextCategoryColor="indigo"
-      nextImage="/images/explorations/the-last-pictures.png"
+      nextImage="/images/explorations/the-last-pictures.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-great-silence.mp3"
     >

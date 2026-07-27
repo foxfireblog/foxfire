@@ -29,7 +29,7 @@ export default function TheDarkAbove() {
       category="Essay"
       categoryColor="indigo"
       date="April 22, 2026"
-      imageSrc="/images/explorations/the-dark-above.png"
+      imageSrc="/images/explorations/the-dark-above.webp"
       imageAlt="The Dark Above illustration"
       readTime="12 min"
       wordCount={2821}
@@ -40,7 +40,7 @@ export default function TheDarkAbove() {
     nextSubtitle="The man who invented a country made of paper"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-nansen-passport.png"
+    nextImage="/images/explorations/the-nansen-passport.webp"
     nextReadTime="11 min"
     >
       <h2>The Strange Silvery Cloud</h2>

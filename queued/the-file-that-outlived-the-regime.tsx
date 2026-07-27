@@ -29,7 +29,7 @@ export default function TheFileThatOutlivedTheRegime() {
       category="Essay"
       categoryColor="amber"
       date="May 13, 2026"
-      imageSrc="/images/explorations/the-file-that-outlived-the-regime.png"
+      imageSrc="/images/explorations/the-file-that-outlived-the-regime.webp"
       imageAlt="The File That Outlived the Regime illustration"
       readTime="13 min"
       wordCount={2996}
@@ -40,7 +40,7 @@ export default function TheFileThatOutlivedTheRegime() {
     nextSubtitle="The triangular trade, the conditions aboard, and resistance at sea"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-middle-passage.png"
+    nextImage="/images/explorations/the-middle-passage.webp"
     nextReadTime="15 min"
     >
       <h2>The Weight of Paper</h2>

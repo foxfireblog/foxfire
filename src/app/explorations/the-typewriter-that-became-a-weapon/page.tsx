@@ -29,7 +29,7 @@ export default function TheTypewriterThatBecameAWeapon() {
       category="Essay"
       categoryColor="red"
       date="June 5, 2026"
-      imageSrc="/images/explorations/the-typewriter-that-became-a-weapon.png"
+      imageSrc="/images/explorations/the-typewriter-that-became-a-weapon.webp"
       imageAlt="The Typewriter That Became a Weapon illustration"
       readTime="12 min"
       wordCount={2815}
@@ -40,7 +40,7 @@ export default function TheTypewriterThatBecameAWeapon() {
     nextSubtitle="Everything we know is slowly becoming wrong"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-half-life-of-a-fact.png"
+    nextImage="/images/explorations/the-half-life-of-a-fact.webp"
     nextReadTime="12 min"
     >
       <h2>The Sound of Running Water</h2>

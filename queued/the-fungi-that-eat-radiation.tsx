@@ -29,7 +29,7 @@ export default function TheFungiThatEatRadiation() {
       category="Natural History"
       categoryColor="emerald"
       date="June 3, 2026"
-      imageSrc="/images/explorations/the-fungi-that-eat-radiation.png"
+      imageSrc="/images/explorations/the-fungi-that-eat-radiation.webp"
       imageAlt="The Fungi That Eat Radiation illustration"
       readTime="12 min"
       wordCount={2667}
@@ -40,7 +40,7 @@ export default function TheFungiThatEatRadiation() {
     nextSubtitle="How the Catholic Church accidentally built the world's greatest reading list"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-index-that-tried-to-stop-time.png"
+    nextImage="/images/explorations/the-index-that-tried-to-stop-time.webp"
     nextReadTime="11 min"
     >
       <h2>What the Robots Saw</h2>

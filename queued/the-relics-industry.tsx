@@ -29,7 +29,7 @@ export default function TheRelicsIndustry() {
       category="Essay"
       categoryColor="amber"
       date="May 29, 2026"
-      imageSrc="/images/explorations/the-relics-industry.png"
+      imageSrc="/images/explorations/the-relics-industry.webp"
       imageAlt="The Relics Industry illustration"
       readTime="12 min"
       wordCount={2771}
@@ -40,7 +40,7 @@ export default function TheRelicsIndustry() {
     nextSubtitle="How a laughing death among the Fore people unlocked the strangest secret in biology"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cannibalism-that-explained-the-brain.png"
+    nextImage="/images/explorations/the-cannibalism-that-explained-the-brain.webp"
     nextReadTime="13 min"
     >
       <h2>The Doorstep</h2>

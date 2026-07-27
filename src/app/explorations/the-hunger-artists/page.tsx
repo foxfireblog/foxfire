@@ -29,7 +29,7 @@ export default function TheHungerArtists() {
       category="Essay"
       categoryColor="amber"
       date="June 27, 2026"
-      imageSrc="/images/explorations/the-hunger-artists.png"
+      imageSrc="/images/explorations/the-hunger-artists.webp"
       imageAlt="The Hunger Artists illustration"
       readTime="11 min"
       wordCount={2481}
@@ -40,7 +40,7 @@ export default function TheHungerArtists() {
     nextSubtitle="Islands that existed only in ink, and the centuries it took to drown them"
     nextCategory="Essay"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-phantom-atlas.png"
+    nextImage="/images/explorations/the-phantom-atlas.webp"
     nextReadTime="13 min"
     >
 

@@ -29,7 +29,7 @@ export default function TheGreatAukConspiracy() {
       category="Natural History"
       categoryColor="teal"
       date="June 12, 2026"
-      imageSrc="/images/explorations/the-great-auk-conspiracy.png"
+      imageSrc="/images/explorations/the-great-auk-conspiracy.webp"
       imageAlt="The Great Auk Conspiracy illustration"
       readTime="13 min"
       wordCount={2900}
@@ -40,7 +40,7 @@ export default function TheGreatAukConspiracy() {
     nextSubtitle="When the Nazis came for the books, the books climbed into human bodies"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-memory-of-paper.png"
+    nextImage="/images/explorations/the-memory-of-paper.webp"
     nextReadTime="13 min"
     >
       <h2>The Boot</h2>

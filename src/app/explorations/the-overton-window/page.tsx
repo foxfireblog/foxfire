@@ -29,7 +29,7 @@ export default function TheOvertonWindow() {
       category="Essay"
       categoryColor="indigo"
       date="May 5, 2026"
-      imageSrc="/images/explorations/the-overton-window.png"
+      imageSrc="/images/explorations/the-overton-window.webp"
       imageAlt="The Overton Window illustration"
       readTime="12 min"
       wordCount={2751}
@@ -40,7 +40,7 @@ export default function TheOvertonWindow() {
     nextSubtitle="What if the web already ended and nobody noticed?"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/dead-internet-theory.png"
+    nextImage="/images/explorations/dead-internet-theory.webp"
     nextReadTime="11 min"
     >
       <h2>The Cardboard Slider</h2>

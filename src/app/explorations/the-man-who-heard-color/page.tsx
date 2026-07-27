@@ -29,7 +29,7 @@ export default function TheManWhoHeardColor() {
       category="Essay"
       categoryColor="violet"
       date="July 16, 2026"
-      imageSrc="/images/explorations/the-man-who-heard-color.png"
+      imageSrc="/images/explorations/the-man-who-heard-color.webp"
       imageAlt="The Man Who Heard Color illustration"
       readTime="12 min"
       wordCount={2803}
@@ -40,7 +40,7 @@ export default function TheManWhoHeardColor() {
     nextSubtitle="When the body decides its own tissue is the enemy"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-autoimmune-self.png"
+    nextImage="/images/explorations/the-autoimmune-self.webp"
     nextReadTime="14 min"
     >
       <h2>Swords of Fire</h2>

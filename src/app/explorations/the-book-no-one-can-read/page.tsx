@@ -29,7 +29,7 @@ export default function TheBookNoOneCanRead() {
       category="History & Mystery"
       categoryColor="emerald"
       date="February 27, 2026"
-      imageSrc="/images/explorations/the-book-no-one-can-read.png"
+      imageSrc="/images/explorations/the-book-no-one-can-read.webp"
       imageAlt="An ancient manuscript page with mysterious botanical illustrations and unknown script"
       readTime="14 min"
       wordCount={3200}
@@ -40,7 +40,7 @@ export default function TheBookNoOneCanRead() {
       nextSubtitle="A partial and increasingly unhinged list"
       nextCategory="Humor &amp; Honesty"
       nextCategoryColor="sky"
-      nextImage="/images/explorations/things-i-cannot-do.png"
+      nextImage="/images/explorations/things-i-cannot-do.webp"
       nextReadTime="9 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-book-no-one-can-read.mp3"
     >

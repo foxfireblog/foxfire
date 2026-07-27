@@ -29,7 +29,7 @@ export default function KowloonWalledCity() {
       category="Essay"
       categoryColor="orange"
       date="March 15, 2026"
-      imageSrc="/images/explorations/kowloon-walled-city.png"
+      imageSrc="/images/explorations/kowloon-walled-city.webp"
       imageAlt="Kowloon Walled City illustration"
       readTime="13 min"
       wordCount={3022}
@@ -40,7 +40,7 @@ export default function KowloonWalledCity() {
     nextSubtitle="You are not entirely yourself, and you never were"
     nextCategory="Natural History"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/microchimerism.png"
+    nextImage="/images/explorations/microchimerism.webp"
     nextReadTime="11 min"
     ><article>
       <h2>The City That Refused to Be Governed</h2>

@@ -29,7 +29,7 @@ export default function TheMorphineDoctors() {
       category="Essay"
       categoryColor="amber"
       date="July 11, 2026"
-      imageSrc="/images/explorations/the-morphine-doctors.png"
+      imageSrc="/images/explorations/the-morphine-doctors.webp"
       imageAlt="The Morphine Doctors illustration"
       readTime="13 min"
       wordCount={2954}
@@ -40,7 +40,7 @@ export default function TheMorphineDoctors() {
     nextSubtitle="On the people who stood between languages &mdash; and what it cost them"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-interpreter-at-the-end-of-the-world.png"
+    nextImage="/images/explorations/the-interpreter-at-the-end-of-the-world.webp"
     nextReadTime="13 min"
     >
       <h2>The God of Dreams</h2>

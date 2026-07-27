@@ -29,7 +29,7 @@ export default function VivianMaiersSecretEye() {
       category="Essay"
       categoryColor="amber"
       date="April 6, 2026"
-      imageSrc="/images/explorations/vivian-maiers-secret-eye.png"
+      imageSrc="/images/explorations/vivian-maiers-secret-eye.webp"
       imageAlt="Vivian Maier's Secret Eye illustration"
       readTime="12 min"
       wordCount={2866}
@@ -41,7 +41,7 @@ export default function VivianMaiersSecretEye() {
     nextSubtitle="The wound that has no bandage"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-moral-injury.png"
+    nextImage="/images/explorations/the-moral-injury.webp"
     nextReadTime="12 min"
     >
       <h2>The Box at the Auction House</h2>

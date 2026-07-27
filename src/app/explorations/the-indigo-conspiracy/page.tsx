@@ -29,7 +29,7 @@ export default function TheIndigoConspiracy() {
       category="Essay"
       categoryColor="indigo"
       date="July 13, 2026"
-      imageSrc="/images/explorations/the-indigo-conspiracy.png"
+      imageSrc="/images/explorations/the-indigo-conspiracy.webp"
       imageAlt="The Indigo Conspiracy illustration"
       readTime="15 min"
       wordCount={3345}
@@ -40,7 +40,7 @@ export default function TheIndigoConspiracy() {
     nextSubtitle="How the Black Death invented public health &mdash; and the surveillance state that came with it"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-plague-doctor-was-a-bureaucrat.png"
+    nextImage="/images/explorations/the-plague-doctor-was-a-bureaucrat.webp"
     nextReadTime="12 min"
     >
 

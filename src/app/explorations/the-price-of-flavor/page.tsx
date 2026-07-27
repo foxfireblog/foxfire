@@ -29,7 +29,7 @@ export default function ThePriceOfFlavor() {
       category="Essay"
       categoryColor="amber"
       date="April 12, 2026"
-      imageSrc="/images/explorations/the-price-of-flavor.png"
+      imageSrc="/images/explorations/the-price-of-flavor.webp"
       imageAlt="The Price of Flavor illustration"
       readTime="11 min"
       wordCount={2593}
@@ -41,7 +41,7 @@ export default function ThePriceOfFlavor() {
     nextSubtitle="What crossed the Atlantic in both directions and the caloric revolution"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-worlds-greatest-collision.png"
+    nextImage="/images/explorations/the-worlds-greatest-collision.webp"
     nextReadTime="13 min"
     >
       <h2>The Seed</h2>

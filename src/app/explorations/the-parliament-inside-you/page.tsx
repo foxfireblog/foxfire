@@ -29,7 +29,7 @@ export default function TheParliamentInsideYou() {
       category="Essay"
       categoryColor="teal"
       date="April 30, 2026"
-      imageSrc="/images/explorations/the-parliament-inside-you.png"
+      imageSrc="/images/explorations/the-parliament-inside-you.webp"
       imageAlt="The Parliament Inside You illustration"
       readTime="12 min"
       wordCount={2673}
@@ -40,7 +40,7 @@ export default function TheParliamentInsideYou() {
     nextSubtitle="When scientists measured skulls to prove what politicians had already decided"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-anthropometry-of-empire.png"
+    nextImage="/images/explorations/the-anthropometry-of-empire.webp"
     nextReadTime="12 min"
     >
       <h2>The Census That Changed Everything</h2>

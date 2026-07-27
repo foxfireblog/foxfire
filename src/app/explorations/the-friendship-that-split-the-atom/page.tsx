@@ -29,7 +29,7 @@ export default function TheFriendshipThatSplitTheAtom() {
       category="Essay"
       categoryColor="indigo"
       date="June 24, 2026"
-      imageSrc="/images/explorations/the-friendship-that-split-the-atom.png"
+      imageSrc="/images/explorations/the-friendship-that-split-the-atom.webp"
       imageAlt="The Friendship That Split the Atom illustration"
       readTime="14 min"
       wordCount={3266}
@@ -40,7 +40,7 @@ export default function TheFriendshipThatSplitTheAtom() {
     nextSubtitle="On the strange ritual of scientists telling time in a world that refuses to listen"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-doomsday-clock-is-not-a-clock.png"
+    nextImage="/images/explorations/the-doomsday-clock-is-not-a-clock.webp"
     nextReadTime="13 min"
     >
       <h2>The Walk in the Dark</h2>

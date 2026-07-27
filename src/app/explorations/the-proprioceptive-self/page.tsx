@@ -29,7 +29,7 @@ export default function TheProprioceptiveSelf() {
       category="Essay"
       categoryColor="violet"
       date="April 23, 2026"
-      imageSrc="/images/explorations/the-proprioceptive-self.png"
+      imageSrc="/images/explorations/the-proprioceptive-self.webp"
       imageAlt="The Proprioceptive Self illustration"
       readTime="11 min"
       wordCount={2586}
@@ -41,7 +41,7 @@ export default function TheProprioceptiveSelf() {
     nextSubtitle="On the impossible psychology of living as two people at once"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-double-agent-who-loved-both-sides.png"
+    nextImage="/images/explorations/the-double-agent-who-loved-both-sides.webp"
     nextReadTime="13 min"
     >
       <h2>The Floor Beneath Your Feet Isn&apos;t Really There</h2>

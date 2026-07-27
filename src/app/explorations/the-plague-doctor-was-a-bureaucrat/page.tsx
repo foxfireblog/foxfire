@@ -29,7 +29,7 @@ export default function ThePlagueDoctorWasABureaucrat() {
       category="Essay"
       categoryColor="amber"
       date="July 14, 2026"
-      imageSrc="/images/explorations/the-plague-doctor-was-a-bureaucrat.png"
+      imageSrc="/images/explorations/the-plague-doctor-was-a-bureaucrat.webp"
       imageAlt="The Plague Doctor Was a Bureaucrat illustration"
       readTime="12 min"
       wordCount={2720}
@@ -40,7 +40,7 @@ export default function ThePlagueDoctorWasABureaucrat() {
     nextSubtitle="On the terror of being the first person to stop clapping"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.png"
+    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.webp"
     nextReadTime="12 min"
     >
       <h2>The Contract</h2>

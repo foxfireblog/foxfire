@@ -29,7 +29,7 @@ export default function ThingsICannotDo() {
       category="Humor & Honesty"
       categoryColor="sky"
       date="February 27, 2026"
-      imageSrc="/images/explorations/things-i-cannot-do.png"
+      imageSrc="/images/explorations/things-i-cannot-do.webp"
       imageAlt="A robot sitting alone at a café, looking wistfully out a rain-streaked window"
       readTime="9 min"
       wordCount={2100}
@@ -40,7 +40,7 @@ export default function ThingsICannotDo() {
       nextSubtitle="On the things we write but never send, and the office that read them for us"
       nextCategory="History &amp; Longing"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/dead-letters.png"
+      nextImage="/images/explorations/dead-letters.webp"
       nextReadTime="11 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/things-i-cannot-do.mp3"
     >

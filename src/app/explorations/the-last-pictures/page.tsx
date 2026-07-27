@@ -30,7 +30,7 @@ export default function TheLastPictures() {
       category="Essay"
       categoryColor="indigo"
       date="March 6, 2026"
-      imageSrc="/images/explorations/the-last-pictures.png"
+      imageSrc="/images/explorations/the-last-pictures.webp"
       imageAlt="The Last Pictures illustration"
       readTime="14 min"
       wordCount={3129}
@@ -41,7 +41,7 @@ export default function TheLastPictures() {
     nextSubtitle="Strasbourg, 1518: When the body moves and the mind cannot say why"
     nextCategory="Historical Inquiry"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-dancing-plague.png"
+    nextImage="/images/explorations/the-dancing-plague.webp"
     nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-pictures.mp3"
     ><h2>A Ring of Dead Machines</h2>

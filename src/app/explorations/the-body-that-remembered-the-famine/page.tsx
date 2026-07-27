@@ -29,7 +29,7 @@ export default function TheBodyThatRememberedTheFamine() {
       category="Essay"
       categoryColor="amber"
       date="June 17, 2026"
-      imageSrc="/images/explorations/the-body-that-remembered-the-famine.png"
+      imageSrc="/images/explorations/the-body-that-remembered-the-famine.webp"
       imageAlt="The Body That Remembered the Famine illustration"
       readTime="14 min"
       wordCount={3299}
@@ -40,7 +40,7 @@ export default function TheBodyThatRememberedTheFamine() {
     nextSubtitle="How a medical category became a moral verdict became a war"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-invention-of-the-addict.png"
+    nextImage="/images/explorations/the-invention-of-the-addict.webp"
     nextReadTime="12 min"
     >
       <h2>The Spoons</h2>

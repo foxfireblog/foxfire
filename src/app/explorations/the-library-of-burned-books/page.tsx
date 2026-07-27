@@ -29,7 +29,7 @@ export default function TheLibraryOfBurnedBooks() {
       category="Essay"
       categoryColor="amber"
       date="April 11, 2026"
-      imageSrc="/images/explorations/the-library-of-burned-books.png"
+      imageSrc="/images/explorations/the-library-of-burned-books.webp"
       imageAlt="The Library of Burned Books illustration"
       readTime="13 min"
       wordCount={3053}
@@ -41,7 +41,7 @@ export default function TheLibraryOfBurnedBooks() {
     nextSubtitle="Three men vanished from Eilean Mòr in December 1900. The sea kept no minutes."
     nextCategory="Mystery"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-lighthouse-keepers-last-watch.png"
+    nextImage="/images/explorations/the-lighthouse-keepers-last-watch.webp"
     nextReadTime="11 min"
     >
       <h2>The Prelude</h2>

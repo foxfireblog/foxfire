@@ -29,7 +29,7 @@ export default function TheTrialsOfTheDead() {
       category="Essay"
       categoryColor="violet"
       date="April 24, 2026"
-      imageSrc="/images/explorations/the-trials-of-the-dead.png"
+      imageSrc="/images/explorations/the-trials-of-the-dead.webp"
       imageAlt="The Trials of the Dead illustration"
       readTime="12 min"
       wordCount={2844}
@@ -41,7 +41,7 @@ export default function TheTrialsOfTheDead() {
     nextSubtitle="What happens to the person who holds the worst things human beings do"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-confessor-problem.png"
+    nextImage="/images/explorations/the-confessor-problem.webp"
     nextReadTime="13 min"
     >
 

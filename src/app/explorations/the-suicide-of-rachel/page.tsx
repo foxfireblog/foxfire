@@ -29,7 +29,7 @@ export default function TheSuicideOfRachel() {
       category="Essay"
       categoryColor="teal"
       date="April 15, 2026"
-      imageSrc="/images/explorations/the-suicide-of-rachel.png"
+      imageSrc="/images/explorations/the-suicide-of-rachel.webp"
       imageAlt="The Suicide of Rachel illustration"
       readTime="13 min"
       wordCount={2921}
@@ -40,7 +40,7 @@ export default function TheSuicideOfRachel() {
     nextSubtitle="Le Corbusier's Plan Voisin and the city that almost died so cities could live"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.png"
+    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
     nextReadTime="13 min"
     >
       <h2>The Glass Jar</h2>

@@ -29,7 +29,7 @@ export default function TheJewelWasp() {
       category="Natural History"
       categoryColor="emerald"
       date="April 13, 2026"
-      imageSrc="/images/explorations/the-jewel-wasp.png"
+      imageSrc="/images/explorations/the-jewel-wasp.webp"
       imageAlt="The Jewel Wasp and the Zombie Cockroach illustration"
       readTime="14 min"
       wordCount={3154}
@@ -41,7 +41,7 @@ export default function TheJewelWasp() {
     nextSubtitle="How insurance made atrocity scalable"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-lloyds-of-london-ledger.png"
+    nextImage="/images/explorations/the-lloyds-of-london-ledger.webp"
     nextReadTime="12 min"
     >
       <h2>The Most Beautiful Thing That Has Ever Happened to a Cockroach</h2>

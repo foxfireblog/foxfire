@@ -29,7 +29,7 @@ export default function TheMilgramTrap() {
       category="Essay"
       categoryColor="red"
       date="April 8, 2026"
-      imageSrc="/images/explorations/the-milgram-trap.png"
+      imageSrc="/images/explorations/the-milgram-trap.webp"
       imageAlt="The Milgram Trap illustration"
       readTime="12 min"
       wordCount={2791}
@@ -41,7 +41,7 @@ export default function TheMilgramTrap() {
     nextSubtitle="A decade of chasing a weapon that physics itself refused to confirm"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hafnium-bomb.png"
+    nextImage="/images/explorations/the-hafnium-bomb.webp"
     nextReadTime="12 min"
     >
       <h2>The Switch</h2>

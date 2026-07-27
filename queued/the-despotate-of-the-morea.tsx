@@ -29,7 +29,7 @@ export default function TheDespotateOfTheMorea() {
       category="Essay"
       categoryColor="violet"
       date="July 21, 2026"
-      imageSrc="/images/explorations/the-despotate-of-the-morea.png"
+      imageSrc="/images/explorations/the-despotate-of-the-morea.webp"
       imageAlt="The Despotate of the Morea illustration"
       readTime="13 min"
       wordCount={2935}
@@ -40,7 +40,7 @@ export default function TheDespotateOfTheMorea() {
     nextSubtitle="John Snow, the Broad Street pump, and the birth of thinking in maps"
     nextCategory="Essay"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-man-who-removed-the-handle.png"
+    nextImage="/images/explorations/the-man-who-removed-the-handle.webp"
     nextReadTime="13 min"
     >
       <h2>The Old Man on the Hill</h2>

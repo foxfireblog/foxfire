@@ -29,7 +29,7 @@ export default function TheKeepersOfTheFlame() {
       category="Essay"
       categoryColor="amber"
       date="May 16, 2026"
-      imageSrc="/images/explorations/the-keepers-of-the-flame.png"
+      imageSrc="/images/explorations/the-keepers-of-the-flame.webp"
       imageAlt="The Keepers of the Flame illustration"
       readTime="13 min"
       wordCount={3049}
@@ -40,7 +40,7 @@ export default function TheKeepersOfTheFlame() {
     nextSubtitle="You noclipped out of reality into six hundred million square feet of damp carpet and fluorescent hum"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-backrooms.png"
+    nextImage="/images/explorations/the-backrooms.webp"
     nextReadTime="12 min"
     >
       <h2>The Girl and the Embers</h2>

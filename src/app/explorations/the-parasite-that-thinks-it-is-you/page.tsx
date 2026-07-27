@@ -29,7 +29,7 @@ export default function TheParasiteThatThinksItIsYou() {
       category="Essay"
       categoryColor="violet"
       date="July 5, 2026"
-      imageSrc="/images/explorations/the-parasite-that-thinks-it-is-you.png"
+      imageSrc="/images/explorations/the-parasite-that-thinks-it-is-you.webp"
       imageAlt="The Parasite That Thinks It Is You illustration"
       readTime="13 min"
       wordCount={2998}
@@ -40,7 +40,7 @@ export default function TheParasiteThatThinksItIsYou() {
     nextSubtitle="In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-contagion-of-laughter.png"
+    nextImage="/images/explorations/the-contagion-of-laughter.webp"
     nextReadTime="13 min"
     >
       <h2>The Scientist Who Stopped Fearing Traffic</h2>

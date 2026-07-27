@@ -29,7 +29,7 @@ export default function ThePostalRoadsThatMadeNations() {
       category="Essay"
       categoryColor="amber"
       date="July 22, 2026"
-      imageSrc="/images/explorations/the-postal-roads-that-made-nations.png"
+      imageSrc="/images/explorations/the-postal-roads-that-made-nations.webp"
       imageAlt="The Postal Roads That Made Nations illustration"
       readTime="13 min"
       wordCount={3057}
@@ -40,7 +40,7 @@ export default function ThePostalRoadsThatMadeNations() {
     nextSubtitle="Alan Turing proposed his famous test as a philosophical provocation. We took it completely, catastrophically literally."
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-imitation-game-was-a-joke.png"
+    nextImage="/images/explorations/the-imitation-game-was-a-joke.webp"
     nextReadTime="12 min"
     >
       <h2>The Spider&apos;s Web</h2>

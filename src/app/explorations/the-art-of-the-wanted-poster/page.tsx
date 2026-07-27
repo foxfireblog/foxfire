@@ -29,7 +29,7 @@ export default function TheArtOfTheWantedPoster() {
       category="Essay"
       categoryColor="amber"
       date="June 20, 2026"
-      imageSrc="/images/explorations/the-art-of-the-wanted-poster.png"
+      imageSrc="/images/explorations/the-art-of-the-wanted-poster.webp"
       imageAlt="The Art of the Wanted Poster illustration"
       readTime="14 min"
       wordCount={3183}
@@ -40,7 +40,7 @@ export default function TheArtOfTheWantedPoster() {
     nextSubtitle="For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas."
     nextCategory="Natural History"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-inland-sea.png"
+    nextImage="/images/explorations/the-inland-sea.webp"
     nextReadTime="13 min"
     >
       <h2>The Scream Across the Field</h2>

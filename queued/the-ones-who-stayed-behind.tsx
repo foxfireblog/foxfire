@@ -29,7 +29,7 @@ export default function TheOnesWhoStayedBehind() {
       category="Essay"
       categoryColor="amber"
       date="July 12, 2026"
-      imageSrc="/images/explorations/the-ones-who-stayed-behind.png"
+      imageSrc="/images/explorations/the-ones-who-stayed-behind.webp"
       imageAlt="The Ones Who Stayed Behind illustration"
       readTime="14 min"
       wordCount={3197}
@@ -40,7 +40,7 @@ export default function TheOnesWhoStayedBehind() {
     nextSubtitle="On the strange persistence of knowing exactly when everything stops"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-world-ending-on-schedule.png"
+    nextImage="/images/explorations/the-world-ending-on-schedule.webp"
     nextReadTime="14 min"
     >
       <h2>The Sharpie Protocol</h2>

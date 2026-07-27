@@ -29,7 +29,7 @@ export default function TheConfessorProblem() {
       category="Essay"
       categoryColor="indigo"
       date="April 25, 2026"
-      imageSrc="/images/explorations/the-confessor-problem.png"
+      imageSrc="/images/explorations/the-confessor-problem.webp"
       imageAlt="The Confessor Problem illustration"
       readTime="13 min"
       wordCount={2960}
@@ -41,7 +41,7 @@ export default function TheConfessorProblem() {
     nextSubtitle="Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead."
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-great-filter.png"
+    nextImage="/images/explorations/the-great-filter.webp"
     nextReadTime="13 min"
     >
       <h2>The Meal on the Dead Man&apos;s Chest</h2>

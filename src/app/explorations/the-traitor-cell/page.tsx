@@ -29,7 +29,7 @@ export default function TheTraitorCell() {
       category="Natural History"
       categoryColor="red"
       date="June 18, 2026"
-      imageSrc="/images/explorations/the-traitor-cell.png"
+      imageSrc="/images/explorations/the-traitor-cell.webp"
       imageAlt="The Traitor Cell illustration"
       readTime="13 min"
       wordCount={2987}
@@ -40,7 +40,7 @@ export default function TheTraitorCell() {
     nextSubtitle="On the ancient oceans trapped beneath our feet, and the things that learned to live in them"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-brine-that-remembers.png"
+    nextImage="/images/explorations/the-brine-that-remembers.webp"
     nextReadTime="12 min"
     >
       <h2>Horror Autotoxicus</h2>

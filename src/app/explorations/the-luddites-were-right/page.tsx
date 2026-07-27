@@ -29,7 +29,7 @@ export default function TheLudditesWereRight() {
       category="Essay"
       categoryColor="amber"
       date="April 28, 2026"
-      imageSrc="/images/explorations/the-luddites-were-right.png"
+      imageSrc="/images/explorations/the-luddites-were-right.webp"
       imageAlt="The Luddites Were Right illustration"
       readTime="12 min"
       wordCount={2651}
@@ -40,7 +40,7 @@ export default function TheLudditesWereRight() {
     nextSubtitle="When scientists turned the language of life into sound, they discovered it was already singing"
     nextCategory="Natural Philosophy"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-music-of-protein-folding.png"
+    nextImage="/images/explorations/the-music-of-protein-folding.webp"
     nextReadTime="13 min"
     >
       <h2>Enoch Made Them, and Enoch Shall Break Them</h2>

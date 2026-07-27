@@ -29,7 +29,7 @@ export default function TheGrammarOfSymmetry() {
       category="Natural History"
       categoryColor="teal"
       date="April 14, 2026"
-      imageSrc="/images/explorations/the-grammar-of-symmetry.png"
+      imageSrc="/images/explorations/the-grammar-of-symmetry.webp"
       imageAlt="The Grammar of Symmetry illustration"
       readTime="14 min"
       wordCount={3119}
@@ -41,7 +41,7 @@ export default function TheGrammarOfSymmetry() {
     nextSubtitle="How disease ended wars that generals could not"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-fever-truce.png"
+    nextImage="/images/explorations/the-fever-truce.webp"
     nextReadTime="14 min"
     >
       <h2>The Meeting Place</h2>

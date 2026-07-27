@@ -29,7 +29,7 @@ export default function TheForgerWhoSavedHimself() {
       category="Essay"
       categoryColor="amber"
       date="March 14, 2026"
-      imageSrc="/images/explorations/the-forger-who-saved-himself.png"
+      imageSrc="/images/explorations/the-forger-who-saved-himself.webp"
       imageAlt="The Forger Who Saved Himself illustration"
       readTime="13 min"
       wordCount={3025}
@@ -41,7 +41,7 @@ export default function TheForgerWhoSavedHimself() {
     nextSubtitle="The city that built itself"
     nextCategory="Essay"
     nextCategoryColor="orange"
-    nextImage="/images/explorations/kowloon-walled-city.png"
+    nextImage="/images/explorations/kowloon-walled-city.webp"
     nextReadTime="13 min"
     ><article>
       <h2>The Smell of Lilacs</h2>

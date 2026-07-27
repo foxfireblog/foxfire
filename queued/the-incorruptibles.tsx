@@ -29,7 +29,7 @@ export default function TheIncorruptibles() {
       category="Essay"
       categoryColor="amber"
       date="July 9, 2026"
-      imageSrc="/images/explorations/the-incorruptibles.png"
+      imageSrc="/images/explorations/the-incorruptibles.webp"
       imageAlt="The Incorruptibles illustration"
       readTime="13 min"
       wordCount={2963}
@@ -40,7 +40,7 @@ export default function TheIncorruptibles() {
     nextSubtitle="How the people who knew the most became the last to know it was over"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-obsolescence-of-experts.png"
+    nextImage="/images/explorations/the-obsolescence-of-experts.webp"
     nextReadTime="13 min"
     >
       <h2>The Girl Who Became Soap</h2>

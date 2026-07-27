@@ -29,7 +29,7 @@ export default function TheAlibiOfThePhotograph() {
       category="Essay"
       categoryColor="amber"
       date="July 26, 2026"
-      imageSrc="/images/explorations/the-alibi-of-the-photograph.png"
+      imageSrc="/images/explorations/the-alibi-of-the-photograph.webp"
       imageAlt="The Alibi of the Photograph illustration"
       readTime="14 min"
       wordCount={3177}

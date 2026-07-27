@@ -29,7 +29,7 @@ export default function TheMathematicsOfTheHeartbeat() {
       category="Essay"
       categoryColor="red"
       date="May 12, 2026"
-      imageSrc="/images/explorations/the-mathematics-of-the-heartbeat.png"
+      imageSrc="/images/explorations/the-mathematics-of-the-heartbeat.webp"
       imageAlt="The Mathematics of the Heartbeat illustration"
       readTime="12 min"
       wordCount={2815}
@@ -40,7 +40,7 @@ export default function TheMathematicsOfTheHeartbeat() {
     nextSubtitle="How the Black Death rewrote who owns land, who holds power, and what a life is worth"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-plague-that-changed-inheritance.png"
+    nextImage="/images/explorations/the-plague-that-changed-inheritance.webp"
     nextReadTime="14 min"
     >
       <h2>The Invention of Listening</h2>

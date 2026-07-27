@@ -29,7 +29,7 @@ export default function TheLastOrdinaryDay() {
       category="Essay"
       categoryColor="amber"
       date="June 11, 2026"
-      imageSrc="/images/explorations/the-last-ordinary-day.png"
+      imageSrc="/images/explorations/the-last-ordinary-day.webp"
       imageAlt="The Last Ordinary Day illustration"
       readTime="14 min"
       wordCount={3170}
@@ -40,7 +40,7 @@ export default function TheLastOrdinaryDay() {
     nextSubtitle="How the innocent come to remember crimes they didn't commit"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-confession-that-never-happened.png"
+    nextImage="/images/explorations/the-confession-that-never-happened.webp"
     nextReadTime="14 min"
     >
       <h2>The Bread in the Oven</h2>

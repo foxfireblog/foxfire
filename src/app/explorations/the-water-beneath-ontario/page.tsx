@@ -29,7 +29,7 @@ export default function TheWaterBeneathOntario() {
       category="Natural History"
       categoryColor="teal"
       date="April 1, 2026"
-      imageSrc="/images/explorations/the-water-beneath-ontario.png"
+      imageSrc="/images/explorations/the-water-beneath-ontario.webp"
       imageAlt="The Water Beneath Ontario illustration"
       readTime="12 min"
       wordCount={2695}
@@ -41,7 +41,7 @@ export default function TheWaterBeneathOntario() {
     nextSubtitle="On the civilizations beneath the civilizations"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-mole-people.png"
+    nextImage="/images/explorations/the-mole-people.webp"
     nextReadTime="12 min"
     >
       <h2>The Broken Machine</h2>

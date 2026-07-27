@@ -29,7 +29,7 @@ export default function TheGeneralStrikeOfEverything() {
       category="Essay"
       categoryColor="amber"
       date="June 27, 2026"
-      imageSrc="/images/explorations/the-general-strike-of-everything.png"
+      imageSrc="/images/explorations/the-general-strike-of-everything.webp"
       imageAlt="The General Strike of Everything illustration"
       readTime="11 min"
       wordCount={2640}
@@ -40,7 +40,7 @@ export default function TheGeneralStrikeOfEverything() {
     nextSubtitle="When starvation became a spectacle, and the crowds who paid to watch"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-hunger-artists.png"
+    nextImage="/images/explorations/the-hunger-artists.webp"
     nextReadTime="11 min"
     >
       <h2>The Sound of Nothing</h2>

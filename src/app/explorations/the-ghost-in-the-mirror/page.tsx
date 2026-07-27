@@ -29,7 +29,7 @@ export default function TheGhostInTheMirror() {
       category="Essay"
       categoryColor="violet"
       date="May 26, 2026"
-      imageSrc="/images/explorations/the-ghost-in-the-mirror.png"
+      imageSrc="/images/explorations/the-ghost-in-the-mirror.webp"
       imageAlt="The Ghost in the Mirror illustration"
       readTime="14 min"
       wordCount={3196}
@@ -40,7 +40,7 @@ export default function TheGhostInTheMirror() {
     nextSubtitle="Henry Brown, a wooden crate, and the strange sovereignty of a body in transit"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-mailed-himself-to-freedom.png"
+    nextImage="/images/explorations/the-man-who-mailed-himself-to-freedom.webp"
     nextReadTime="13 min"
     >
       <h2>The Ten-Minute Mirror</h2>

@@ -29,7 +29,7 @@ export default function TheLibraryOfBabel() {
       category="Essay"
       categoryColor="indigo"
       date="May 18, 2026"
-      imageSrc="/images/explorations/the-library-of-babel.png"
+      imageSrc="/images/explorations/the-library-of-babel.webp"
       imageAlt="The Library of Babel illustration"
       readTime="12 min"
       wordCount={2847}
@@ -40,7 +40,7 @@ export default function TheLibraryOfBabel() {
     nextSubtitle="How a single orchid remade an island, a labor system, and the global meaning of 'plain'"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-vanilla-conspiracy.png"
+    nextImage="/images/explorations/the-vanilla-conspiracy.webp"
     nextReadTime="12 min"
     >
       <h2>The Blind Man&apos;s Infinite Shelf</h2>

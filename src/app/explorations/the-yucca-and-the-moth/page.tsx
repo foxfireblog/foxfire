@@ -29,7 +29,7 @@ export default function TheYuccaAndTheMoth() {
       category="Natural History"
       categoryColor="amber"
       date="July 6, 2026"
-      imageSrc="/images/explorations/the-yucca-and-the-moth.png"
+      imageSrc="/images/explorations/the-yucca-and-the-moth.webp"
       imageAlt="The Yucca and the Moth illustration"
       readTime="13 min"
       wordCount={2899}
@@ -40,7 +40,7 @@ export default function TheYuccaAndTheMoth() {
     nextSubtitle="On the strange, stubborn history of people who chose to disappear"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-last-hermits.png"
+    nextImage="/images/explorations/the-last-hermits.webp"
     nextReadTime="13 min"
     >
       <h2>The Deal</h2>

@@ -29,7 +29,7 @@ export default function TheInstrumentMakers() {
       category="Essay"
       categoryColor="amber"
       date="July 2, 2026"
-      imageSrc="/images/explorations/the-instrument-makers.png"
+      imageSrc="/images/explorations/the-instrument-makers.webp"
       imageAlt="The Instrument Makers illustration"
       readTime="13 min"
       wordCount={3061}
@@ -40,7 +40,7 @@ export default function TheInstrumentMakers() {
     nextSubtitle="When regimes vanished people, their books stayed behind"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-libraries-of-the-disappeared.png"
+    nextImage="/images/explorations/the-libraries-of-the-disappeared.webp"
     nextReadTime="12 min"
     >
 

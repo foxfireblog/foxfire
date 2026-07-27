@@ -29,7 +29,7 @@ export default function TheZongMassacre() {
       category="Essay"
       categoryColor="red"
       date="April 8, 2026"
-      imageSrc="/images/explorations/the-zong-massacre.png"
+      imageSrc="/images/explorations/the-zong-massacre.webp"
       imageAlt="The Zong Massacre illustration"
       readTime="13 min"
       wordCount={3023}
@@ -41,7 +41,7 @@ export default function TheZongMassacre() {
     nextSubtitle="The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you."
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-milgram-trap.png"
+    nextImage="/images/explorations/the-milgram-trap.webp"
     nextReadTime="12 min"
     >
       <h2>Care</h2>

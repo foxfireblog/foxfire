@@ -29,7 +29,7 @@ export default function TheMaroonRepublics() {
       category="Essay"
       categoryColor="emerald"
       date="April 16, 2026"
-      imageSrc="/images/explorations/the-maroon-republics.png"
+      imageSrc="/images/explorations/the-maroon-republics.webp"
       imageAlt="The Maroon Republics illustration"
       readTime="13 min"
       wordCount={2941}
@@ -40,7 +40,7 @@ export default function TheMaroonRepublics() {
     nextSubtitle="On the civilization beneath civilization"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-mole-people.png"
+    nextImage="/images/explorations/the-mole-people.webp"
     nextReadTime="12 min"
     >
       <h2>The Word for Wild</h2>

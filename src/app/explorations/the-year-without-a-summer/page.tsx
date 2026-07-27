@@ -30,7 +30,7 @@ export default function TheYearWithoutASummer() {
       category="Essay"
       categoryColor="amber"
       date="March 5, 2026"
-      imageSrc="/images/explorations/the-year-without-a-summer.png"
+      imageSrc="/images/explorations/the-year-without-a-summer.webp"
       imageAlt="The Year Without a Summer illustration"
       readTime="14 min"
       wordCount={3273}
@@ -41,7 +41,7 @@ export default function TheYearWithoutASummer() {
       nextSubtitle="A frequency study in loneliness, listening, and the songs we send into the void"
       nextCategory="Essay"
       nextCategoryColor="indigo"
-      nextImage="/images/explorations/the-52-hertz-whale.png"
+      nextImage="/images/explorations/the-52-hertz-whale.webp"
       nextReadTime="14 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-year-without-a-summer.mp3"
     ><article>

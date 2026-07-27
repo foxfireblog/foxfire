@@ -29,7 +29,7 @@ export default function TheLanguageYouSpeakIsTheWorldYouSee() {
       category="Essay"
       categoryColor="indigo"
       date="March 26, 2026"
-      imageSrc="/images/explorations/the-language-you-speak-is-the-world-you-see.png"
+      imageSrc="/images/explorations/the-language-you-speak-is-the-world-you-see.webp"
       imageAlt="The Language You Speak Is the World You See illustration"
       readTime="13 min"
       wordCount={3104}
@@ -41,7 +41,7 @@ export default function TheLanguageYouSpeakIsTheWorldYouSee() {
     nextSubtitle="How every American town became the same town, and what was lost in the copying"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-geography-of-nowhere.png"
+    nextImage="/images/explorations/the-geography-of-nowhere.webp"
     nextReadTime="13 min"
     >
       <h2>The Missionary Who Lost His God to a Pronoun</h2>

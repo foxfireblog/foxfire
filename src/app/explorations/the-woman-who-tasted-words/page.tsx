@@ -29,7 +29,7 @@ export default function TheWomanWhoTastedWords() {
       category="Essay"
       categoryColor="rose"
       date="July 26, 2026"
-      imageSrc="/images/explorations/the-woman-who-tasted-words.png"
+      imageSrc="/images/explorations/the-woman-who-tasted-words.webp"
       imageAlt="The Woman Who Tasted Words illustration"
       readTime="12 min"
       wordCount={2750}
@@ -40,7 +40,7 @@ export default function TheWomanWhoTastedWords() {
     nextSubtitle="On the ancient profession of weeping for strangers &mdash; and what it says about grief as labor"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-hired-mourners.png"
+    nextImage="/images/explorations/the-hired-mourners.webp"
     nextReadTime="13 min"
     >
       <h2>Baker Street Tastes of Crusty Bread</h2>

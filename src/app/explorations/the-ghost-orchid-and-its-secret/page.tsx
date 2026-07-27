@@ -29,7 +29,7 @@ export default function TheGhostOrchidAndItsSecret() {
       category="Natural History"
       categoryColor="emerald"
       date="July 17, 2026"
-      imageSrc="/images/explorations/the-ghost-orchid-and-its-secret.png"
+      imageSrc="/images/explorations/the-ghost-orchid-and-its-secret.webp"
       imageAlt="The Ghost Orchid and Its Secret illustration"
       readTime="11 min"
       wordCount={2555}
@@ -40,7 +40,7 @@ export default function TheGhostOrchidAndItsSecret() {
     nextSubtitle="On the first transatlantic cable, the voices it carried, and the silence it replaced"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-telephone-at-the-bottom-of-the-sea.png"
+    nextImage="/images/explorations/the-telephone-at-the-bottom-of-the-sea.webp"
     nextReadTime="13 min"
     >
       <h2>The Wrong Moth</h2>

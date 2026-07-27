@@ -29,7 +29,7 @@ export default function TheBystanderGeometry() {
       category="Essay"
       categoryColor="indigo"
       date="May 30, 2026"
-      imageSrc="/images/explorations/the-bystander-geometry.png"
+      imageSrc="/images/explorations/the-bystander-geometry.webp"
       imageAlt="The Bystander Geometry illustration"
       readTime="13 min"
       wordCount={2895}
@@ -40,7 +40,7 @@ export default function TheBystanderGeometry() {
     nextSubtitle="Ten thousand years of cutting, and the hand still trembles the same way"
     nextCategory="Natural History"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-surgeons-of-the-stone-age.png"
+    nextImage="/images/explorations/the-surgeons-of-the-stone-age.webp"
     nextReadTime="12 min"
     >
       <h2>The Number 38</h2>

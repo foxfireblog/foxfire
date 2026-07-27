@@ -29,7 +29,7 @@ export default function ThePortThatInventedTheWorld() {
       category="Essay"
       categoryColor="teal"
       date="June 7, 2026"
-      imageSrc="/images/explorations/the-port-that-invented-the-world.png"
+      imageSrc="/images/explorations/the-port-that-invented-the-world.webp"
       imageAlt="The Port That Invented the World illustration"
       readTime="13 min"
       wordCount={2881}
@@ -40,7 +40,7 @@ export default function ThePortThatInventedTheWorld() {
     nextSubtitle="How workers invented a word &mdash; and a weapon &mdash; that still frightens power"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-sabotage-of-the-wooden-shoe.png"
+    nextImage="/images/explorations/the-sabotage-of-the-wooden-shoe.webp"
     nextReadTime="12 min"
     >
       <h2>The Waiting</h2>

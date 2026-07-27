@@ -29,7 +29,7 @@ export default function TheManhattanProjectPart3() {
       category="Essay"
       categoryColor="amber"
       date="May 19, 2026"
-      imageSrc="/images/explorations/the-manhattan-project-part-3.png"
+      imageSrc="/images/explorations/the-manhattan-project-part-3.webp"
       imageAlt="The Manhattan Project: The Decision (Part III of IV) illustration"
       readTime="14 min"
       wordCount={3323}
@@ -40,7 +40,7 @@ export default function TheManhattanProjectPart3() {
       nextSubtitle="The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-manhattan-project-part-4.png"
+      nextImage="/images/explorations/the-manhattan-project-part-4.webp"
       nextReadTime="15 min"
     >
       <h2>The Targeting Committee</h2>

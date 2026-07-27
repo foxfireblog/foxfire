@@ -29,7 +29,7 @@ export default function TheGodsWhoCameByAirplane() {
       category="Essay"
       categoryColor="amber"
       date="March 28, 2026"
-      imageSrc="/images/explorations/the-gods-who-came-by-airplane.png"
+      imageSrc="/images/explorations/the-gods-who-came-by-airplane.webp"
       imageAlt="The Gods Who Came by Airplane illustration"
       readTime="12 min"
       wordCount={2802}
@@ -41,7 +41,7 @@ export default function TheGodsWhoCameByAirplane() {
     nextSubtitle="Why the almost-human is more terrifying than the inhuman"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-uncanny-valley.png"
+    nextImage="/images/explorations/the-uncanny-valley.webp"
     nextReadTime="13 min"
     >
       <h2>The Coconut Headphones</h2>

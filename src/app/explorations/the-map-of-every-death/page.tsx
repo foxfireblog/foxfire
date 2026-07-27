@@ -29,7 +29,7 @@ export default function TheMapOfEveryDeath() {
       category="Essay"
       categoryColor="teal"
       date="March 16, 2026"
-      imageSrc="/images/explorations/the-map-of-every-death.png"
+      imageSrc="/images/explorations/the-map-of-every-death.webp"
       imageAlt="The Map of Every Death illustration"
       readTime="13 min"
       wordCount={2972}
@@ -41,7 +41,7 @@ export default function TheMapOfEveryDeath() {
     nextSubtitle="A protein that learned one terrible trick"
     nextCategory="Natural Horror"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-prion.png"
+    nextImage="/images/explorations/the-prion.webp"
     nextReadTime="12 min"
     ><h2>The Sweetness in the Water</h2>
 

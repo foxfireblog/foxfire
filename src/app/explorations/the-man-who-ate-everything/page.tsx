@@ -29,7 +29,7 @@ export default function TheManWhoAteEverything() {
       category="Natural History"
       categoryColor="amber"
       date="June 9, 2026"
-      imageSrc="/images/explorations/the-man-who-ate-everything.png"
+      imageSrc="/images/explorations/the-man-who-ate-everything.webp"
       imageAlt="The Man Who Ate Everything illustration"
       readTime="12 min"
       wordCount={2871}
@@ -40,7 +40,7 @@ export default function TheManWhoAteEverything() {
     nextSubtitle="Hermann Ebbinghaus sat alone in a room and memorized nonsense until he discovered the shape of oblivion"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-forgetting-curve.png"
+    nextImage="/images/explorations/the-forgetting-curve.webp"
     nextReadTime="11 min"
     >
       <h2>The Tongue as Instrument</h2>

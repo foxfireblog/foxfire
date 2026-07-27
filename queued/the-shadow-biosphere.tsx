@@ -29,7 +29,7 @@ export default function TheShadowBiosphere() {
       category="Natural History"
       categoryColor="violet"
       date="May 6, 2026"
-      imageSrc="/images/explorations/the-shadow-biosphere.png"
+      imageSrc="/images/explorations/the-shadow-biosphere.webp"
       imageAlt="The Shadow Biosphere illustration"
       readTime="12 min"
       wordCount={2683}
@@ -40,7 +40,7 @@ export default function TheShadowBiosphere() {
     nextSubtitle="The most misunderstood protest movement in history had a point we still haven't reckoned with"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-luddites-were-right.png"
+    nextImage="/images/explorations/the-luddites-were-right.webp"
     nextReadTime="11 min"
     >
       <h2>The Roommate You Never Met</h2>

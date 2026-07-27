@@ -29,7 +29,7 @@ export default function TheDancingPlague() {
       category="Historical Inquiry"
       categoryColor="red"
       date="March 6, 2026"
-      imageSrc="/images/explorations/the-dancing-plague.png"
+      imageSrc="/images/explorations/the-dancing-plague.webp"
       imageAlt="The Dancing Plague illustration"
       readTime="14 min"
       wordCount={3229}
@@ -40,7 +40,7 @@ export default function TheDancingPlague() {
     nextSubtitle="Seventy-two seconds of maybe"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-wow-signal.png"
+    nextImage="/images/explorations/the-wow-signal.webp"
     nextReadTime="12 min"
     audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-dancing-plague.mp3"
     ><article>

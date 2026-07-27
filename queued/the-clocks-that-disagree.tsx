@@ -29,7 +29,7 @@ export default function TheClocksThatDisagree() {
       category="Essay"
       categoryColor="indigo"
       date="June 27, 2026"
-      imageSrc="/images/explorations/the-clocks-that-disagree.png"
+      imageSrc="/images/explorations/the-clocks-that-disagree.webp"
       imageAlt="The Clocks That Disagree illustration"
       readTime="12 min"
       wordCount={2689}
@@ -40,7 +40,7 @@ export default function TheClocksThatDisagree() {
     nextSubtitle="On choosing to drink when you could have run"
     nextCategory="Philosophical Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-suicide-of-socrates.png"
+    nextImage="/images/explorations/the-suicide-of-socrates.webp"
     nextReadTime="13 min"
     >
       <h2>Mr. Clock Takes a Seat</h2>

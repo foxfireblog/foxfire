@@ -29,7 +29,7 @@ export default function TheGeographyOfNowhere() {
       category="Essay"
       categoryColor="amber"
       date="March 27, 2026"
-      imageSrc="/images/explorations/the-geography-of-nowhere.png"
+      imageSrc="/images/explorations/the-geography-of-nowhere.webp"
       imageAlt="The Geography of Nowhere illustration"
       readTime="13 min"
       wordCount={3088}
@@ -41,7 +41,7 @@ export default function TheGeographyOfNowhere() {
     nextSubtitle="The triangular trade, the conditions aboard, and resistance at sea"
     nextCategory="Essay"
     nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-middle-passage.png"
+    nextImage="/images/explorations/the-middle-passage.webp"
     nextReadTime="14 min"
     >
       <h2>The Pig in the Parlor</h2>

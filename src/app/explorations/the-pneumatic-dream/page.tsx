@@ -29,7 +29,7 @@ export default function ThePneumaticDream() {
       category="Essay"
       categoryColor="amber"
       date="May 3, 2026"
-      imageSrc="/images/explorations/the-pneumatic-dream.png"
+      imageSrc="/images/explorations/the-pneumatic-dream.webp"
       imageAlt="The Pneumatic Dream illustration"
       readTime="12 min"
       wordCount={2716}
@@ -40,7 +40,7 @@ export default function ThePneumaticDream() {
     nextSubtitle="On the professionals who carried grief so others could survive it"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-keening-women.png"
+    nextImage="/images/explorations/the-keening-women.webp"
     nextReadTime="12 min"
     >
       <h2>The Duke in the Tube</h2>

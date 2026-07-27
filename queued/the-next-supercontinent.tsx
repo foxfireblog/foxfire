@@ -29,7 +29,7 @@ export default function TheNextSupercontinent() {
       category="Deep Time"
       categoryColor="indigo"
       date="July 14, 2026"
-      imageSrc="/images/explorations/the-next-supercontinent.png"
+      imageSrc="/images/explorations/the-next-supercontinent.webp"
       imageAlt="The Next Supercontinent illustration"
       readTime="13 min"
       wordCount={2990}
@@ -40,7 +40,7 @@ export default function TheNextSupercontinent() {
     nextSubtitle="The world's greatest wilderness is a garden someone planted"
     nextCategory="Natural History"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-fire-that-made-the-amazon.png"
+    nextImage="/images/explorations/the-fire-that-made-the-amazon.webp"
     nextReadTime="13 min"
     >
       <h2>The Giddiness</h2>

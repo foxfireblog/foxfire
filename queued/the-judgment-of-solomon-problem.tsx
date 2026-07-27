@@ -29,7 +29,7 @@ export default function TheJudgmentOfSolomonProblem() {
       category="Essay"
       categoryColor="amber"
       date="May 11, 2026"
-      imageSrc="/images/explorations/the-judgment-of-solomon-problem.png"
+      imageSrc="/images/explorations/the-judgment-of-solomon-problem.webp"
       imageAlt="The Judgment of Solomon Problem illustration"
       readTime="13 min"
       wordCount={3001}
@@ -40,7 +40,7 @@ export default function TheJudgmentOfSolomonProblem() {
     nextSubtitle="Why coincidence is more inevitable than you think, and why that terrifies us"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-birthday-problem.png"
+    nextImage="/images/explorations/the-birthday-problem.webp"
     nextReadTime="11 min"
     >
       <h2>The Sword That Reveals</h2>

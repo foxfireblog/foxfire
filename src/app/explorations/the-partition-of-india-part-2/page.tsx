@@ -29,7 +29,7 @@ export default function ThePartitionOfIndiaPart2() {
       category="Essay"
       categoryColor="amber"
       date="March 29, 2026"
-      imageSrc="/images/explorations/the-partition-of-india-part-2.png"
+      imageSrc="/images/explorations/the-partition-of-india-part-2.webp"
       imageAlt="The Partition of India: The Reckoning (Part II of II) illustration"
       readTime="14 min"
       wordCount={3129}
@@ -41,7 +41,7 @@ export default function ThePartitionOfIndiaPart2() {
     nextSubtitle="Every hostile bench is a sentence written in concrete"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-architecture-of-control.png"
+    nextImage="/images/explorations/the-architecture-of-control.webp"
     nextReadTime="12 min"
     >
       <h2>The Trains</h2>

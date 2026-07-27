@@ -29,7 +29,7 @@ export default function ThePoisonEaters() {
       category="Natural History"
       categoryColor="emerald"
       date="June 19, 2026"
-      imageSrc="/images/explorations/the-poison-eaters.png"
+      imageSrc="/images/explorations/the-poison-eaters.webp"
       imageAlt="The Poison Eaters illustration"
       readTime="14 min"
       wordCount={3245}
@@ -40,7 +40,7 @@ export default function ThePoisonEaters() {
     nextSubtitle="How we classify catastrophe &mdash; and what we lose in the counting"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-names-we-give-disasters.png"
+    nextImage="/images/explorations/the-names-we-give-disasters.webp"
     nextReadTime="13 min"
     >
       <h2>The King Who Could Not Die</h2>

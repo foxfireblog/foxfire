@@ -29,7 +29,7 @@ export default function TheExhibitionOfSarahBaartman() {
       category="Essay"
       categoryColor="rose"
       date="July 24, 2026"
-      imageSrc="/images/explorations/the-exhibition-of-sarah-baartman.png"
+      imageSrc="/images/explorations/the-exhibition-of-sarah-baartman.webp"
       imageAlt="The Exhibition of Sarah Baartman illustration"
       readTime="13 min"
       wordCount={2922}
@@ -40,7 +40,7 @@ export default function TheExhibitionOfSarahBaartman() {
     nextSubtitle="The daycare panic, the archaeology of memory, and the things we made children remember"
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-suggestible-child.png"
+    nextImage="/images/explorations/the-suggestible-child.webp"
     nextReadTime="14 min"
     >
       <h2>The Charming Hands</h2>

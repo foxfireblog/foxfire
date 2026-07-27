@@ -29,7 +29,7 @@ export default function TheGulagCartographers() {
       category="Essay"
       categoryColor="indigo"
       date="July 23, 2026"
-      imageSrc="/images/explorations/the-gulag-cartographers.png"
+      imageSrc="/images/explorations/the-gulag-cartographers.webp"
       imageAlt="The Gulag Cartographers illustration"
       readTime="12 min"
       wordCount={2850}
@@ -40,7 +40,7 @@ export default function TheGulagCartographers() {
     nextSubtitle="How an arbitrary number became the gatekeeper of truth"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-threshold-of-significance.png"
+    nextImage="/images/explorations/the-threshold-of-significance.webp"
     nextReadTime="13 min"
     >
       <h2>The Checkered Socks</h2>

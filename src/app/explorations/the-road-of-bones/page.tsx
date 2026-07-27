@@ -29,7 +29,7 @@ export default function TheRoadOfBones() {
       category="Essay"
       categoryColor="red"
       date="June 26, 2026"
-      imageSrc="/images/explorations/the-road-of-bones.png"
+      imageSrc="/images/explorations/the-road-of-bones.webp"
       imageAlt="The Road of Bones illustration"
       readTime="14 min"
       wordCount={3112}
@@ -40,7 +40,7 @@ export default function TheRoadOfBones() {
     nextSubtitle="You noclipped out of reality and now there's nothing but fluorescent hum"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-backrooms.png"
+    nextImage="/images/explorations/the-backrooms.webp"
     nextReadTime="12 min"
     >
       <h2>The Road Beneath the Road</h2>

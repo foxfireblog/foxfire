@@ -29,7 +29,7 @@ export default function TheMcnamaraFallacy() {
       category="Essay"
       categoryColor="red"
       date="March 13, 2026"
-      imageSrc="/images/explorations/the-mcnamara-fallacy.png"
+      imageSrc="/images/explorations/the-mcnamara-fallacy.webp"
       imageAlt="The McNamara Fallacy illustration"
       readTime="15 min"
       wordCount={3426}
@@ -41,7 +41,7 @@ export default function TheMcnamaraFallacy() {
     nextSubtitle="Every town once kept its own time. Then the railroads came, and the sun stopped mattering."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/before-time-zones.png"
+    nextImage="/images/explorations/before-time-zones.webp"
     nextReadTime="12 min"
     ><article>
       <h2>The Pencil and the X-Factor</h2>

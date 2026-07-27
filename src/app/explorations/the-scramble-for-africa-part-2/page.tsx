@@ -29,7 +29,7 @@ export default function TheScrambleForAfricaPart2() {
       category="Essay"
       categoryColor="amber"
       date="May 5, 2026"
-      imageSrc="/images/explorations/the-scramble-for-africa-part-2.png"
+      imageSrc="/images/explorations/the-scramble-for-africa-part-2.webp"
       imageAlt="The Scramble for Africa: The Violence of Conquest (Part II of III) illustration"
       readTime="12 min"
       wordCount={2795}
@@ -40,7 +40,7 @@ export default function TheScrambleForAfricaPart2() {
       nextSubtitle="Independence movements, inherited borders, and the DRC as the ultimate case study"
       nextCategory="Essay"
       nextCategoryColor="amber"
-      nextImage="/images/explorations/the-scramble-for-africa-part-3.png"
+      nextImage="/images/explorations/the-scramble-for-africa-part-3.webp"
       nextReadTime="13 min"
     >
       <h2>The Extermination Order</h2>

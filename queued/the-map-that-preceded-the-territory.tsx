@@ -29,7 +29,7 @@ export default function TheMapThatPrecededTheTerritory() {
       category="Essay"
       categoryColor="amber"
       date="April 18, 2026"
-      imageSrc="/images/explorations/the-map-that-preceded-the-territory.png"
+      imageSrc="/images/explorations/the-map-that-preceded-the-territory.webp"
       imageAlt="The Map That Preceded the Territory illustration"
       readTime="12 min"
       wordCount={2858}
@@ -40,7 +40,7 @@ export default function TheMapThatPrecededTheTerritory() {
     nextSubtitle="Henrietta Lacks died in 1951. Her cells never did."
     nextCategory="Essay"
     nextCategoryColor="rose"
-    nextImage="/images/explorations/the-immortal-cell.png"
+    nextImage="/images/explorations/the-immortal-cell.webp"
     nextReadTime="12 min"
     >
       <h2>The Territory of Lies</h2>

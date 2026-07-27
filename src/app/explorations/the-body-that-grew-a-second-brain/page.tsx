@@ -29,7 +29,7 @@ export default function TheBodyThatGrewASecondBrain() {
       category="Natural History"
       categoryColor="violet"
       date="May 27, 2026"
-      imageSrc="/images/explorations/the-body-that-grew-a-second-brain.png"
+      imageSrc="/images/explorations/the-body-that-grew-a-second-brain.webp"
       imageAlt="The Body That Grew a Second Brain illustration"
       readTime="11 min"
       wordCount={2455}
@@ -40,7 +40,7 @@ export default function TheBodyThatGrewASecondBrain() {
     nextSubtitle="A love letter to the sea the continents swallowed"
     nextCategory="Natural History"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-tethys-ocean.png"
+    nextImage="/images/explorations/the-tethys-ocean.webp"
     nextReadTime="12 min"
     >
       <h2>The Tube That Thinks</h2>

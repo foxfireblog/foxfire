@@ -29,7 +29,7 @@ export default function TheManWhoMeasuredSuffering() {
       category="Essay"
       categoryColor="amber"
       date="April 26, 2026"
-      imageSrc="/images/explorations/the-man-who-measured-suffering.png"
+      imageSrc="/images/explorations/the-man-who-measured-suffering.webp"
       imageAlt="The Man Who Measured Suffering illustration"
       readTime="13 min"
       wordCount={3082}
@@ -41,7 +41,7 @@ export default function TheManWhoMeasuredSuffering() {
     nextSubtitle="When the planet froze solid and life refused to die"
     nextCategory="Deep Time"
     nextCategoryColor="sky"
-    nextImage="/images/explorations/the-snowball-earth.png"
+    nextImage="/images/explorations/the-snowball-earth.webp"
     nextReadTime="13 min"
     >
       <h2>The Dead Man in the Glass Case</h2>

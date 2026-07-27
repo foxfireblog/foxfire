@@ -29,7 +29,7 @@ export default function TheGoodGermanProblem() {
       category="Essay"
       categoryColor="red"
       date="June 13, 2026"
-      imageSrc="/images/explorations/the-good-german-problem.png"
+      imageSrc="/images/explorations/the-good-german-problem.webp"
       imageAlt="The Good German Problem illustration"
       readTime="13 min"
       wordCount={2967}
@@ -40,7 +40,7 @@ export default function TheGoodGermanProblem() {
     nextSubtitle="Why your brain is a terrible statistician, and what that means for everything else"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-birthday-problem.png"
+    nextImage="/images/explorations/the-birthday-problem.webp"
     nextReadTime="12 min"
     >
       <h2>The Comfortable Fantasy</h2>

@@ -29,7 +29,7 @@ export default function TheSecretLifeOfSoil() {
       category="Natural History"
       categoryColor="amber"
       date="April 27, 2026"
-      imageSrc="/images/explorations/the-secret-life-of-soil.png"
+      imageSrc="/images/explorations/the-secret-life-of-soil.webp"
       imageAlt="The Secret Life of Soil illustration"
       readTime="10 min"
       wordCount={2297}
@@ -41,7 +41,7 @@ export default function TheSecretLifeOfSoil() {
     nextSubtitle="How a beautiful idea about forests became a myth &mdash; and why the truth is stranger and lonelier"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-wood-wide-web-was-wrong.png"
+    nextImage="/images/explorations/the-wood-wide-web-was-wrong.webp"
     nextReadTime="12 min"
     >
       <h2>The Day the Sky Went Black</h2>

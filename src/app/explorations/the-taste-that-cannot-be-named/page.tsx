@@ -29,7 +29,7 @@ export default function TheTasteThatCannotBeNamed() {
       category="Essay"
       categoryColor="amber"
       date="May 6, 2026"
-      imageSrc="/images/explorations/the-taste-that-cannot-be-named.png"
+      imageSrc="/images/explorations/the-taste-that-cannot-be-named.webp"
       imageAlt="The Taste That Cannot Be Named illustration"
       readTime="11 min"
       wordCount={2502}
@@ -40,7 +40,7 @@ export default function TheTasteThatCannotBeNamed() {
     nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-haitian-revolution-part-2.png"
+    nextImage="/images/explorations/the-haitian-revolution-part-2.webp"
     nextReadTime="13 min"
     >
       <h2>The Flavor Hiding in Plain Sight</h2>

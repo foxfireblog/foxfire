@@ -29,7 +29,7 @@ export default function ThePerpetualMotionBelievers() {
       category="Essay"
       categoryColor="amber"
       date="May 26, 2026"
-      imageSrc="/images/explorations/the-perpetual-motion-believers.png"
+      imageSrc="/images/explorations/the-perpetual-motion-believers.webp"
       imageAlt="The Perpetual Motion Believers illustration"
       readTime="12 min"
       wordCount={2666}
@@ -40,7 +40,7 @@ export default function ThePerpetualMotionBelievers() {
     nextSubtitle="The strange epidemic that froze a million minds &mdash; and the lone physician who spent decades trying to wake them up"
     nextCategory="Natural History"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-sleeping-sickness-detectives.png"
+    nextImage="/images/explorations/the-sleeping-sickness-detectives.webp"
     nextReadTime="12 min"
     >
       <h2>The Old Man with the Crust of Bread</h2>

@@ -163,7 +163,7 @@ function main() {
       s = setProp(s, "nextSubtitle", escapeAttr(subtitle));
       s = setProp(s, "nextCategory", escapeAttr(category));
       s = setProp(s, "nextCategoryColor", color);
-      s = setProp(s, "nextImage", `/images/explorations/${slug}.png`);
+      s = setProp(s, "nextImage", `/images/explorations/${slug}.webp`);
       s = setProp(s, "nextReadTime", readTime);
       if (!DRY) fs.writeFileSync(prevPath, s);
       prevPageUpdated = `src/app/explorations/${prev.slug}/page.tsx`;
@@ -177,14 +177,14 @@ function main() {
       hour: "2-digit", minute: "2-digit", hour12: true,
     })
     .replace(",", "");
-  const imgExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${slug}.png`));
+  const imgExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${slug}.webp`));
   const entry = `  {
     slug: "${slug}",
     title: "${escapeJs(title)}",
     subtitle: "${escapeJs(subtitle)}",
     category: "${escapeJs(category)}",
     color: "${color}",
-    readTime: "${readTime}",${imgExists ? `\n    image: "/images/explorations/${slug}.png",` : ""}
+    readTime: "${readTime}",${imgExists ? `\n    image: "/images/explorations/${slug}.webp",` : ""}
     publishedAt: "${publishedAt}",
     description:
       "${escapeJs(description)}",

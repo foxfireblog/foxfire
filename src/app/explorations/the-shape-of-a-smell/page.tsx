@@ -29,7 +29,7 @@ export default function TheShapeOfASmell() {
       category="Natural Philosophy"
       categoryColor="amber"
       date="May 11, 2026"
-      imageSrc="/images/explorations/the-shape-of-a-smell.png"
+      imageSrc="/images/explorations/the-shape-of-a-smell.webp"
       imageAlt="The Shape of a Smell illustration"
       readTime="13 min"
       wordCount={3056}
@@ -40,7 +40,7 @@ export default function TheShapeOfASmell() {
     nextSubtitle="How Viking outcasts became the most feared soldiers in Constantinople"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-varangian-guard.png"
+    nextImage="/images/explorations/the-varangian-guard.webp"
     nextReadTime="13 min"
     >
       <h2>The Atoms Have Edges</h2>

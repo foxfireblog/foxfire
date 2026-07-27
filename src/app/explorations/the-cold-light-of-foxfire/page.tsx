@@ -29,7 +29,7 @@ export default function TheColdLightOfFoxfire() {
       category="Natural History"
       categoryColor="emerald"
       date="May 8, 2026"
-      imageSrc="/images/explorations/the-cold-light-of-foxfire.png"
+      imageSrc="/images/explorations/the-cold-light-of-foxfire.webp"
       imageAlt="The Cold Light of Foxfire illustration"
       readTime="11 min"
       wordCount={2467}
@@ -40,7 +40,7 @@ export default function TheColdLightOfFoxfire() {
     nextSubtitle="How five skulls became five races, and why the bones won't stay quiet"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-cabinet-of-dr-blumenbach.png"
+    nextImage="/images/explorations/the-cabinet-of-dr-blumenbach.webp"
     nextReadTime="13 min"
     >
       <h2>False Fire</h2>

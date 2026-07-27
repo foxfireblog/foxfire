@@ -29,7 +29,7 @@ export default function TheSpiceThatRewiredEurope() {
       category="Essay"
       categoryColor="amber"
       date="May 23, 2026"
-      imageSrc="/images/explorations/the-spice-that-rewired-europe.png"
+      imageSrc="/images/explorations/the-spice-that-rewired-europe.webp"
       imageAlt="The Spice That Rewired Europe illustration"
       readTime="12 min"
       wordCount={2660}
@@ -40,7 +40,7 @@ export default function TheSpiceThatRewiredEurope() {
     nextSubtitle="When the planet froze solid and life had to reinvent itself"
     nextCategory="Deep History"
     nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-snowball-earth.png"
+    nextImage="/images/explorations/the-snowball-earth.webp"
     nextReadTime="13 min"
     >
       <h2>The Ransom</h2>

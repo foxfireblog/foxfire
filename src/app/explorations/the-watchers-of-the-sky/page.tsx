@@ -29,7 +29,7 @@ export default function TheWatchersOfTheSky() {
       category="Natural History"
       categoryColor="sky"
       date="April 18, 2026"
-      imageSrc="/images/explorations/the-watchers-of-the-sky.png"
+      imageSrc="/images/explorations/the-watchers-of-the-sky.webp"
       imageAlt="The Watchers of the Sky illustration"
       readTime="13 min"
       wordCount={2918}
@@ -41,7 +41,7 @@ export default function TheWatchersOfTheSky() {
     nextSubtitle="The Amazon rubber terror that mirrored the Congo &mdash; and vanished from memory"
     nextCategory="History"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-river-that-screamed.png"
+    nextImage="/images/explorations/the-river-that-screamed.webp"
     nextReadTime="13 min"
     >
       <h2>The Man Who Watched for Eighty-Four Years</h2>

@@ -29,7 +29,7 @@ export default function TheManWhoCataloguedFaces() {
       category="Essay"
       categoryColor="amber"
       date="May 16, 2026"
-      imageSrc="/images/explorations/the-man-who-catalogued-faces.png"
+      imageSrc="/images/explorations/the-man-who-catalogued-faces.webp"
       imageAlt="The Man Who Catalogued Faces illustration"
       readTime="12 min"
       wordCount={2713}
@@ -40,7 +40,7 @@ export default function TheManWhoCataloguedFaces() {
     nextSubtitle="On fires that must never go out, and what it costs to tend them"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-keepers-of-the-flame.png"
+    nextImage="/images/explorations/the-keepers-of-the-flame.webp"
     nextReadTime="13 min"
     >
       <h2>The Face That Wasn&apos;t There</h2>

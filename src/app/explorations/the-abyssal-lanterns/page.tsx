@@ -29,7 +29,7 @@ export default function TheAbyssalLanterns() {
       category="Natural History"
       categoryColor="indigo"
       date="May 17, 2026"
-      imageSrc="/images/explorations/the-abyssal-lanterns.png"
+      imageSrc="/images/explorations/the-abyssal-lanterns.webp"
       imageAlt="The Abyssal Lanterns illustration"
       readTime="12 min"
       wordCount={2701}
@@ -40,7 +40,7 @@ export default function TheAbyssalLanterns() {
     nextSubtitle="How a small Belgian town spent eight centuries treating madness with something radical: ordinary life"
     nextCategory="Essay"
     nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-asylum-at-the-edge-of-the-world.png"
+    nextImage="/images/explorations/the-asylum-at-the-edge-of-the-world.webp"
     nextReadTime="12 min"
     >
       <h2>The Oldest Trick</h2>

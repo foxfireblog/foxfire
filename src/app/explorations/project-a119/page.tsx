@@ -29,7 +29,7 @@ export default function ProjectA119() {
       category="Essay"
       categoryColor="indigo"
       date="June 3, 2026"
-      imageSrc="/images/explorations/project-a119.png"
+      imageSrc="/images/explorations/project-a119.webp"
       imageAlt="Project A119 illustration"
       readTime="13 min"
       wordCount={3059}
@@ -40,7 +40,7 @@ export default function ProjectA119() {
     nextSubtitle="On the hundred million neurons you never think with"
     nextCategory="Essay"
     nextCategoryColor="violet"
-    nextImage="/images/explorations/the-gut-that-dreams.png"
+    nextImage="/images/explorations/the-gut-that-dreams.webp"
     nextReadTime="13 min"
     >
       <h2>The Flash</h2>

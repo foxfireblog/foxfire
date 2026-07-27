@@ -29,7 +29,7 @@ export default function TheStutterersGift() {
       category="Essay"
       categoryColor="amber"
       date="July 1, 2026"
-      imageSrc="/images/explorations/the-stutterers-gift.png"
+      imageSrc="/images/explorations/the-stutterers-gift.webp"
       imageAlt="The Stutterer's Gift illustration"
       readTime="14 min"
       wordCount={3216}
@@ -40,7 +40,7 @@ export default function TheStutterersGift() {
     nextSubtitle="Medieval scholars described animals they had never seen. They were not wrong in the way you think."
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-bestiary-and-the-real.png"
+    nextImage="/images/explorations/the-bestiary-and-the-real.webp"
     nextReadTime="13 min"
     >
       <h2>The Mouth Full of Coals</h2>

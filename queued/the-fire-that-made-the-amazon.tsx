@@ -29,7 +29,7 @@ export default function TheFireThatMadeTheAmazon() {
       category="Natural History"
       categoryColor="emerald"
       date="July 15, 2026"
-      imageSrc="/images/explorations/the-fire-that-made-the-amazon.png"
+      imageSrc="/images/explorations/the-fire-that-made-the-amazon.webp"
       imageAlt="The Fire That Made the Amazon illustration"
       readTime="13 min"
       wordCount={2985}
@@ -40,7 +40,7 @@ export default function TheFireThatMadeTheAmazon() {
     nextSubtitle="On the 38 trillion citizens of the body politic &mdash; and what democracy looks like when you are the state"
     nextCategory="Essay"
     nextCategoryColor="teal"
-    nextImage="/images/explorations/the-parliament-inside-you.png"
+    nextImage="/images/explorations/the-parliament-inside-you.webp"
     nextReadTime="12 min"
     >
       <h2>The One-Eyed Friar and the Empty Jungle</h2>

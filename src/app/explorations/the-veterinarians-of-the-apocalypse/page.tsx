@@ -29,7 +29,7 @@ export default function TheVeterinariansOfTheApocalypse() {
       category="Essay"
       categoryColor="amber"
       date="July 7, 2026"
-      imageSrc="/images/explorations/the-veterinarians-of-the-apocalypse.png"
+      imageSrc="/images/explorations/the-veterinarians-of-the-apocalypse.webp"
       imageAlt="The Veterinarians of the Apocalypse illustration"
       readTime="13 min"
       wordCount={2908}
@@ -40,7 +40,7 @@ export default function TheVeterinariansOfTheApocalypse() {
     nextSubtitle="How Mao declared war on a bird &mdash; and the bird won"
     nextCategory="Essay"
     nextCategoryColor="amber"
-    nextImage="/images/explorations/the-sparrow-campaign.png"
+    nextImage="/images/explorations/the-sparrow-campaign.webp"
     nextReadTime="10 min"
     >
       <h2>The Dancing Cats</h2>

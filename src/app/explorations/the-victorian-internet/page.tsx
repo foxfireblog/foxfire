@@ -29,7 +29,7 @@ export default function TheVictorianInternet() {
       category="Essay"
       categoryColor="amber"
       date="April 20, 2026"
-      imageSrc="/images/explorations/the-victorian-internet.png"
+      imageSrc="/images/explorations/the-victorian-internet.webp"
       imageAlt="The Victorian Internet illustration"
       readTime="13 min"
       wordCount={3006}
@@ -41,7 +41,7 @@ export default function TheVictorianInternet() {
     nextSubtitle="How a fake prison became a real lie"
     nextCategory="Essay"
     nextCategoryColor="red"
-    nextImage="/images/explorations/the-stanford-collapse.png"
+    nextImage="/images/explorations/the-stanford-collapse.webp"
     nextReadTime="12 min"
     >
       <h2>The Murder That Proved Everything</h2>
