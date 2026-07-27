@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How dying became a market, a legal battleground, and the last thing left to privatize",
     images: [
       {
-        url: "/og?title=The%20Economics%20of%20the%20Deathbed&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Economics%20of%20the%20Deathbed&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Economics of the Deathbed",

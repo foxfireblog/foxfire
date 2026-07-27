@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Argentina, 1976. They were teenagers. They wanted a bus discount.",
     images: [
       {
-        url: "/og?title=The%20Night%20of%20the%20Pencils&category=History&color=red&readTime=10%20min",
+        url: "/og?title=The%20Night%20of%20the%20Pencils&category=History&color=red&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Night of the Pencils",

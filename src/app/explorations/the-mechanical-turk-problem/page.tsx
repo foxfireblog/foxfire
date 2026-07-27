@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The humans hiding inside the machine, and the machine hiding inside the humans",
     images: [
       {
-        url: "/og?title=The%20Mechanical%20Turk%20Problem&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Mechanical%20Turk%20Problem&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mechanical Turk Problem",

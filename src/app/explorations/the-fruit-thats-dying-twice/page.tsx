@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a monoculture's sweetest creation keeps writing the same tragedy",
     images: [
       {
-        url: "/og?title=The%20Fruit%20That's%20Dying%20Twice&category=Natural%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Fruit%20That's%20Dying%20Twice&category=Natural%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fruit That's Dying Twice",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Russia's entry into WWI, the disaster at Tannenberg, and the myth of the Russian steamroller",
     images: [
       {
-        url: "/og?title=The%20Forgotten%20Front%3A%20The%20Tsar's%20Gamble&category=History%20%26%20Erasure&color=rose&readTime=13%20min",
+        url: "/og?title=The%20Forgotten%20Front%3A%20The%20Tsar's%20Gamble&category=History%20%26%20Erasure&color=rose&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Forgotten Front: The Tsar's Gamble (Part I of III)",

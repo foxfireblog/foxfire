@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the clerks who stood between madness and invention, and couldn't always tell which was which",
     images: [
       {
-        url: "/og?title=The%20Patent%20Office%20of%20Impossible%20Things&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Patent%20Office%20of%20Impossible%20Things&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Patent Office of Impossible Things",

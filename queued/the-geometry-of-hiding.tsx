@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On priest holes, false walls, and the architecture of survival",
     images: [
       {
-        url: "/og?title=The%20Geometry%20of%20Hiding&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Geometry%20of%20Hiding&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Geometry of Hiding",

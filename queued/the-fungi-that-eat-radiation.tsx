@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Inside the ruined reactor, something was growing toward the danger",
     images: [
       {
-        url: "/og?title=The%20Fungi%20That%20Eat%20Radiation&category=Natural%20History&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Fungi%20That%20Eat%20Radiation&category=Natural%20History&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fungi That Eat Radiation",

@@ -50,10 +50,57 @@ function readQueue() {
 
 const writeQueue = (q) => fs.writeFileSync(QUEUE_FILE, JSON.stringify(q, null, 2) + "\n");
 
-/** Pull one attribute out of the ExplorationLayout props. */
+// The queued pages are JSX, so their attribute values are HTML-entity encoded
+// (&mdash;, &rsquo;, &amp;). The JSX compiler decodes those when it builds the
+// page, but src/data/explorations.ts is plain JS — a string copied verbatim out
+// of an attribute renders as the literal text "&mdash;" on the index card.
+// Anything read out of a page must therefore be decoded back to real characters.
+const NAMED_ENTITIES = {
+  amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ",
+  mdash: "—", ndash: "–", hellip: "…", middot: "·",
+  lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”",
+  sbquo: "‚", bdquo: "„", laquo: "«", raquo: "»",
+  deg: "°", times: "×", divide: "÷", plusmn: "±",
+  frac12: "½", frac14: "¼", frac34: "¾", prime: "′",
+  Prime: "″", dagger: "†", Dagger: "‡", bull: "•",
+  copy: "©", reg: "®", trade: "™", sect: "§", para: "¶",
+  eacute: "é", egrave: "è", ecirc: "ê", agrave: "à",
+  aacute: "á", acirc: "â", iacute: "í", oacute: "ó",
+  ocirc: "ô", ouml: "ö", uuml: "ü", auml: "ä",
+  ntilde: "ñ", ccedil: "ç", szlig: "ß", aring: "å",
+  oslash: "ø", ae: "æ", pound: "£", euro: "€", yen: "¥",
+};
+
+// One combined pattern, decoded in a single pass. That matters: a two-pass
+// decoder that expands &amp; before named entities turns "&amp;mdash;" into an
+// em dash instead of the literal text "&mdash;". Because replace() resumes
+// scanning after each match, output is never re-read, so double-decoding
+// cannot happen no matter what order the entities appear in.
+const ENTITY_RE = /&(?:#(\d+)|#[xX]([0-9a-fA-F]+)|([a-zA-Z][a-zA-Z0-9]*));/g;
+
+function fromCodePoint(code, original) {
+  if (!Number.isFinite(code) || code < 0 || code > 0x10ffff) return original;
+  try {
+    return String.fromCodePoint(code);
+  } catch {
+    return original;
+  }
+}
+
+function decodeEntities(s) {
+  if (s === null || s === undefined) return s;
+  return String(s).replace(ENTITY_RE, (match, dec, hex, name) => {
+    if (dec !== undefined) return fromCodePoint(Number(dec), match);
+    if (hex !== undefined) return fromCodePoint(parseInt(hex, 16), match);
+    const value = NAMED_ENTITIES[name] ?? NAMED_ENTITIES[name.toLowerCase()];
+    return value === undefined ? match : value;
+  });
+}
+
+/** Pull one attribute out of the ExplorationLayout props, as real characters. */
 function attr(src, name) {
   const m = src.match(new RegExp(`\\b${name}="([^"]*)"`));
-  return m ? m[1] : null;
+  return m ? decodeEntities(m[1]) : null;
 }
 
 /** Newest currently-published exploration, by registry order (newest first). */
@@ -67,23 +114,106 @@ function currentNewest() {
   return { slug, title: attr(fs.readFileSync(page, "utf-8"), "title") };
 }
 
-/** Replace a JSX string prop, or insert it before the closing `>` of the tag. */
+/**
+ * Replace a JSX string prop, or insert it before the closing `>` of the tag.
+ *
+ * The replacement is a function, not a string: values reach this from decoded
+ * page attributes, and replace() expands `$&`, `` $` ``, `$'` and `$1` inside a
+ * replacement *string*, which would silently splice chunks of the file into the
+ * prop. A function replacement is taken literally.
+ */
 function setProp(src, name, value) {
+  const v = String(value ?? "");
   const re = new RegExp(`(\\b${name}=")[^"]*(")`);
-  if (re.test(src)) return src.replace(re, `$1${value}$2`);
-  return src.replace(/(\n\s*)>\n(\s*<)/, `$1  ${name}="${value}"$1>\n$2`);
+  if (re.test(src)) return src.replace(re, (_m, open, close) => `${open}${v}${close}`);
+  return src.replace(
+    /(\n\s*)>\n(\s*<)/,
+    (_m, indent, tail) => `${indent}  ${name}="${v}"${indent}>\n${tail}`
+  );
 }
 
 const removeProp = (src, name) => src.replace(new RegExp(`\\n\\s*${name}="[^"]*"`), "");
 const escapeJs = (s) => String(s ?? "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
-/** Attribute values live inside double quotes in JSX. */
-const escapeAttr = (s) => String(s ?? "").replace(/"/g, "&quot;");
+/**
+ * Attribute values live inside double quotes in JSX. Values arriving here have
+ * already been decoded to real characters, so re-encode the ones that would
+ * end the attribute or be re-read as markup. Dashes are encoded too — not for
+ * correctness, but so the pages this script writes stay byte-consistent with
+ * the rest of the corpus, which spells them &mdash;/&ndash;. `&` goes first or
+ * it would mangle the entities the later replacements introduce.
+ */
+const escapeAttr = (s) =>
+  String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/—/g, "&mdash;")
+    .replace(/–/g, "&ndash;");
+
+// ── Registry insertion ──────────────────────────────────────────────
+const REGISTRY_ANCHOR = "export const explorations: Exploration[] = [\n";
+const SLUG_LINE_RE = /^ {4}slug: "([^"]+)",$/gm;
+
+const registrySlugs = (src) => [...src.matchAll(SLUG_LINE_RE)].map((m) => m[1]);
+
+/**
+ * Prepend an entry to the explorations array and prove nothing else moved.
+ *
+ * A generated commit once wrote a new entry *over* the two existing head
+ * entries, and the two posts have been unreachable ever since. Nothing checked,
+ * so nothing complained. This does the splice with indexOf/slice — no
+ * replace(), so no `$&`/`$'` expansion — and then re-parses the result and
+ * asserts the slug list is exactly the old list with the new slug in front.
+ * Any other outcome aborts before a byte is written.
+ */
+function insertRegistryEntry(source, entry, slug) {
+  const at = source.indexOf(REGISTRY_ANCHOR);
+  if (at === -1) {
+    throw new Error("could not find the explorations array — explorations.ts format changed");
+  }
+  if (source.indexOf(REGISTRY_ANCHOR, at + 1) !== -1) {
+    throw new Error("the explorations array header appears more than once — refusing to guess");
+  }
+
+  const before = registrySlugs(source);
+  if (before.length === 0) {
+    throw new Error("parsed zero existing entries out of explorations.ts — refusing to write");
+  }
+  if (before.includes(slug)) {
+    throw new Error(`"${slug}" is already in the registry`);
+  }
+
+  const cut = at + REGISTRY_ANCHOR.length;
+  const next = source.slice(0, cut) + entry + "\n" + source.slice(cut);
+
+  const after = registrySlugs(next);
+  if (after.length !== before.length + 1) {
+    throw new Error(
+      `entry count went ${before.length} -> ${after.length}, expected ${before.length + 1}`
+    );
+  }
+  if (after[0] !== slug) {
+    throw new Error(`new entry did not land at the head (head is "${after[0]}")`);
+  }
+  const lost = before.filter((s, i) => after[i + 1] !== s);
+  if (lost.length > 0) {
+    throw new Error(`insertion displaced existing entries: ${lost.join(", ")}`);
+  }
+  return next;
+}
 
 function pacingAllows() {
   if (FORCE) return true;
   let hours;
   try {
-    const last = git(["log", "-1", "--format=%ct", "--", "src/app/explorations/*/page.tsx"]).trim();
+    // Anchor on the last actual publish, not the last commit that happened to
+    // touch a page file. Pathspec matching counted the bulk WebP conversion
+    // (332 pages in one commit) as "the last post" and slid the whole ramp by
+    // 16.5 hours; any future sweep over the pages would do it again. Every
+    // publish path — this script, auto-explore, series parts — writes a commit
+    // subject starting "Add exploration:", so that is the durable signal.
+    const last = git(["log", "-1", "--format=%ct", "--grep=^Add exploration:"]).trim();
     if (!last) return true;
     hours = (Date.now() / 1000 - Number(last)) / 3600;
   } catch {
@@ -142,6 +272,33 @@ function main() {
   console.log(`\n${stamp()} Publishing from backlog: "${title}" (${slug})`);
   console.log(`  ${queue.length - 1} remaining after this one.`);
 
+  // The release date is what the reader sees, not the authoring date. These
+  // pages were written between March and July 2026 and drain over months, in an
+  // order that is not chronological — 63 of the 123 adjacent pairs run
+  // backwards. Left alone, the index card would show today while the article
+  // showed a date months earlier, and exploration-layout spreads the same prop
+  // into schema.org datePublished. One clock, read once, for both.
+  const now = new Date();
+  const releaseDate = now.toLocaleDateString("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric", month: "long", day: "numeric",
+  });
+  const publishedAt = now
+    .toLocaleString("en-US", {
+      timeZone: "America/New_York",
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", hour12: true,
+    })
+    .replace(",", "");
+
+  const authoredDate = attr(page, "date");
+  page = setProp(page, "date", releaseDate);
+  if (!page.includes(`date="${releaseDate}"`)) {
+    console.error(`ERROR: could not stamp the release date onto queued/${slug}.tsx. Aborting.`);
+    process.exit(1);
+  }
+  console.log(`  Dated ${releaseDate} (written ${authoredDate ?? "unknown"}).`);
+
   // This post becomes the newest: it points back at the previous newest and
   // carries no "next" until something is published after it.
   if (prev?.slug) {
@@ -170,13 +327,6 @@ function main() {
     }
   }
 
-  const publishedAt = new Date()
-    .toLocaleString("en-US", {
-      timeZone: "America/New_York",
-      year: "numeric", month: "2-digit", day: "2-digit",
-      hour: "2-digit", minute: "2-digit", hour12: true,
-    })
-    .replace(",", "");
   const imgExists = fs.existsSync(path.join(ROOT, "public", "images", "explorations", `${slug}.webp`));
   const entry = `  {
     slug: "${slug}",
@@ -191,17 +341,19 @@ function main() {
   },`;
 
   const before = fs.readFileSync(DATA_FILE, "utf-8");
-  const data = before.replace(
-    /export const explorations: Exploration\[\] = \[\n/,
-    `export const explorations: Exploration[] = [\n${entry}\n`
-  );
-  if (data === before) {
-    console.error("ERROR: could not insert into explorations.ts — format changed. Aborting.");
+  let data;
+  try {
+    data = insertRegistryEntry(before, entry, slug);
+  } catch (err) {
+    console.error(`ERROR: refusing to write explorations.ts — ${err.message}`);
     process.exit(1);
   }
 
   if (DRY) {
-    console.log("  [dry run] would write the page, registry entry, and navigation.");
+    console.log(
+      `  [dry run] would write the page, the registry entry ` +
+        `(${registrySlugs(before).length} -> ${registrySlugs(data).length}), and navigation.`
+    );
     return;
   }
 

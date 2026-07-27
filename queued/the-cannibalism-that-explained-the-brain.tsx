@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a laughing death among the Fore people unlocked the strangest secret in biology",
     images: [
       {
-        url: "/og?title=The%20Cannibalism%20That%20Explained%20the%20Brain&category=Natural%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Cannibalism%20That%20Explained%20the%20Brain&category=Natural%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cannibalism That Explained the Brain",

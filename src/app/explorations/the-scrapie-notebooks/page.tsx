@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For two centuries, a sheep disease whispered the secret of a new kind of death. Almost no one listened.",
     images: [
       {
-        url: "/og?title=The%20Scrapie%20Notebooks&category=Natural%20History&color=amber&readTime=16%20min",
+        url: "/og?title=The%20Scrapie%20Notebooks&category=Natural%20History&color=amber&readTime=16%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scrapie Notebooks",

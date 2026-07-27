@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For a hundred million years, a warm shallow ocean split North America in two. Then it vanished, and left behind Kansas.",
     images: [
       {
-        url: "/og?title=The%20Inland%20Sea&category=Natural%20History&color=cyan&readTime=13%20min",
+        url: "/og?title=The%20Inland%20Sea&category=Natural%20History&color=cyan&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Inland Sea",

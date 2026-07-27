@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Victorian saints, medical spectacles, and the girls who disappeared in plain sight",
     images: [
       {
-        url: "/og?title=The%20Fasting%20Girls&category=Essay&color=rose&readTime=13%20min",
+        url: "/og?title=The%20Fasting%20Girls&category=Essay&color=rose&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fasting Girls",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Stalin's rise, the machinery of the party-state, and the cult of personality",
     images: [
       {
-        url: "/og?title=The%20Architecture%20of%20Terror%3A%20The%20Apparatus%20(Part%20I%20of%20III)&category=Essay&color=red&readTime=11%20min",
+        url: "/og?title=The%20Architecture%20of%20Terror%3A%20The%20Apparatus%20(Part%20I%20of%20III)&category=Essay&color=red&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Architecture of Terror: The Apparatus (Part I of III)",

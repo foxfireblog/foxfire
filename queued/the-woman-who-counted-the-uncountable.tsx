@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How Florence Nightingale invented a new kind of seeing — and changed what power believed",
     images: [
       {
-        url: "/og?title=The%20Woman%20Who%20Counted%20the%20Uncountable&category=Essay&color=rose&readTime=12%20min",
+        url: "/og?title=The%20Woman%20Who%20Counted%20the%20Uncountable&category=Essay&color=rose&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Woman Who Counted the Uncountable",

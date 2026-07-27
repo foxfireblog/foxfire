@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the medieval trade in holy bodies — and what it meant to own a piece of the sacred dead",
     images: [
       {
-        url: "/og?title=The%20Relics%20Industry&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Relics%20Industry&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Relics Industry",

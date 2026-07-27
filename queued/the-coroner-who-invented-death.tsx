@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before cause of death existed as a category, nobody officially died of anything",
     images: [
       {
-        url: "/og?title=The%20Coroner%20Who%20Invented%20Death&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Coroner%20Who%20Invented%20Death&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Coroner Who Invented Death",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How African talking drums encode language in rhythm — and why empires tried to silence them",
     images: [
       {
-        url: "/og?title=The%20Drum%20That%20Crossed%20Continents&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Drum%20That%20Crossed%20Continents&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Drum That Crossed Continents",

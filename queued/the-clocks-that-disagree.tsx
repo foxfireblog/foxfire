@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Time runs faster on mountaintops. What does that mean for the rest of us?",
     images: [
       {
-        url: "/og?title=The%20Clocks%20That%20Disagree&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Clocks%20That%20Disagree&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Clocks That Disagree",

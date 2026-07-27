@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before electricity, rotting wood glowed in the dark — and people used it to see by",
     images: [
       {
-        url: "/og?title=The%20Cold%20Light%20of%20Foxfire&category=Natural%20History&color=emerald&readTime=11%20min",
+        url: "/og?title=The%20Cold%20Light%20of%20Foxfire&category=Natural%20History&color=emerald&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cold Light of Foxfire",

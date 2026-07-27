@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "He fought World War II for 29 years after it ended, because no one told him it was over",
     images: [
       {
-        url: "/og?title=The%20Last%20Soldier&category=War%20%26%20Belief&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Last%20Soldier&category=War%20%26%20Belief&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Last Soldier",

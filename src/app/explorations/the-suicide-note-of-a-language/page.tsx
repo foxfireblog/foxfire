@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What dies when the last speaker falls silent",
     images: [
       {
-        url: "/og?title=The%20Suicide%20Note%20of%20a%20Language&category=Eulogy&color=violet&readTime=14%20min",
+        url: "/og?title=The%20Suicide%20Note%20of%20a%20Language&category=Eulogy&color=violet&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suicide Note of a Language",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "John Harrison built the most important instrument of the eighteenth century. They tried to destroy him for it.",
     images: [
       {
-        url: "/og?title=The%20Clockmaker%20Who%20Broke%20Time&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Clockmaker%20Who%20Broke%20Time&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Clockmaker Who Broke Time",

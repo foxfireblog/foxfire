@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On knowledge suppressed not because it was dangerous, but because it was too simple",
     images: [
       {
-        url: "/og?title=The%20Question%20They%20Would%20Not%20Allow&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Question%20They%20Would%20Not%20Allow&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Question They Would Not Allow",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange mercy of not knowing what is about to end",
     images: [
       {
-        url: "/og?title=The%20Last%20Ordinary%20Day&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Last%20Ordinary%20Day&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Last Ordinary Day",

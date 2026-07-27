@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Some plants don't want to be eaten. They want to be remembered.",
     images: [
       {
-        url: "/og?title=The%20Devil%20in%20the%20Chemistry&category=Natural%20History&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Devil%20in%20the%20Chemistry&category=Natural%20History&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Devil in the Chemistry",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Someone is still broadcasting, and no one will say why",
     images: [
       {
-        url: "/og?title=Numbers%20Stations&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=Numbers%20Stations&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Numbers Stations",

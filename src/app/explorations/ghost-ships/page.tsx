@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Vessels found drifting with no crew aboard, and the stories they refuse to tell",
     images: [
       {
-        url: "/og?title=Ghost%20Ships&category=Maritime%20History&color=teal&readTime=12%20min",
+        url: "/og?title=Ghost%20Ships&category=Maritime%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Ghost Ships",

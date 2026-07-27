@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Medieval scholars described animals they had never seen. They were not wrong in the way you think.",
     images: [
       {
-        url: "/og?title=The%20Bestiary%20and%20the%20Real&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Bestiary%20and%20the%20Real&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Bestiary and the Real",

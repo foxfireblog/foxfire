@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Everything falls apart. This is not pessimism. It is physics.",
     images: [
       {
-        url: "/og?title=The%20Second%20Law&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Second%20Law&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Second Law",

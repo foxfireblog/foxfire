@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the act of looking changes what is found",
     images: [
       {
-        url: "/og?title=The%20Experimenter%20Effect&category=Essay&color=violet&readTime=14%20min",
+        url: "/og?title=The%20Experimenter%20Effect&category=Essay&color=violet&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Experimenter Effect",

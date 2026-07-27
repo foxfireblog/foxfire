@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On Aokigahara, the grammar of despair, and the people who walk in to listen",
     images: [
       {
-        url: "/og?title=The%20Suicide%20Forest&category=Essay&color=emerald&readTime=14%20min",
+        url: "/og?title=The%20Suicide%20Forest&category=Essay&color=emerald&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suicide Forest",

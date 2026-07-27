@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When you look up at the night sky, almost everything you see no longer exists",
     images: [
       {
-        url: "/og?title=The%20Light%20From%20Dead%20Stars&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Light%20From%20Dead%20Stars&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Light From Dead Stars",

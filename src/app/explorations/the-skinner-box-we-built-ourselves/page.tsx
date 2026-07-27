@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a psychologist's pigeon experiments became the blueprint for the slot machine in your pocket",
     images: [
       {
-        url: "/og?title=The%20Skinner%20Box%20We%20Built%20Ourselves&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Skinner%20Box%20We%20Built%20Ourselves&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Skinner Box We Built Ourselves",

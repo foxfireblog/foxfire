@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On being the last fluent speaker of a language that was never meant to be spoken",
     images: [
       {
-        url: "/og?title=The%20Keeper%20of%20Silbo&category=Essay&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Keeper%20of%20Silbo&category=Essay&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Keeper of Silbo",

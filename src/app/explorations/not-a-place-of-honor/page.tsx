@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How do you warn someone 10,000 years from now? The answer is harder than you think.",
     images: [
       {
-        url: "/og?title=Not%20a%20Place%20of%20Honor&category=Design%20%26%20Deep%20Time&color=rose&readTime=14%20min",
+        url: "/og?title=Not%20a%20Place%20of%20Honor&category=Design%20%26%20Deep%20Time&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Not a Place of Honor",

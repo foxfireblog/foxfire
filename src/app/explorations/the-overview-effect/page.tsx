@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What happens when you finally see where you live",
     images: [
       {
-        url: "/og?title=The%20Overview%20Effect&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Overview%20Effect&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Overview Effect",

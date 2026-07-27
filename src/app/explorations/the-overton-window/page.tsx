@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The invisible frame around every idea you're allowed to have",
     images: [
       {
-        url: "/og?title=The%20Overton%20Window&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Overton%20Window&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Overton Window",

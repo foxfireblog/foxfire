@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a corporation became the most powerful state on Earth, and what it teaches us about the line between commerce and conquest",
     images: [
       {
-        url: "/og?title=The%20Company%20That%20Owned%20a%20Country&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Company%20That%20Owned%20a%20Country&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Company That Owned a Country",

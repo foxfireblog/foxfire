@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the pursuit of nutmeg turned paradise into a graveyard",
     images: [
       {
-        url: "/og?title=The%20Price%20of%20Flavor&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Price%20of%20Flavor&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Price of Flavor",

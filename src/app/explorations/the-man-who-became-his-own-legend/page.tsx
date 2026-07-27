@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On T.E. Lawrence, Wilfred Thesiger, and the impossible art of inventing a self",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Became%20His%20Own%20Legend&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Man%20Who%20Became%20His%20Own%20Legend&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Became His Own Legend",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a room of underpaid 'computers' catalogued the universe and were nearly erased from it",
     images: [
       {
-        url: "/og?title=The%20Women%20Who%20Counted%20Stars&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Women%20Who%20Counted%20Stars&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Women Who Counted Stars",

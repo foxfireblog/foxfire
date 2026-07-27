@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Three centuries of men sailing into white silence, and what they were really looking for",
     images: [
       {
-        url: "/og?title=The%20Ice%20Ships&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Ice%20Ships&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ice Ships",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the living have always put words in the mouths of the departed",
     images: [
       {
-        url: "/og?title=The%20Language%20of%20the%20Dead&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Language%20of%20the%20Dead&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Language of the Dead",

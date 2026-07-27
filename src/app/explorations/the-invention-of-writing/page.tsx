@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every time humanity learned to speak with its hands, it was counting sheep",
     images: [
       {
-        url: "/og?title=The%20Invention%20of%20Writing&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Invention%20of%20Writing&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Invention of Writing",

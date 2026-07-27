@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Independence movements, inherited borders, and the DRC as the ultimate case study",
     images: [
       {
-        url: "/og?title=The%20Scramble%20for%20Africa%3A%20The%20Long%20Shadow%20(Part%20III%20of%20III)&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Scramble%20for%20Africa%3A%20The%20Long%20Shadow%20(Part%20III%20of%20III)&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scramble for Africa: The Long Shadow (Part III of III)",

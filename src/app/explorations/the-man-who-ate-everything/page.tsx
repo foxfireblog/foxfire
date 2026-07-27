@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "William Buckland tasted his way through the animal kingdom, licked cathedral floors, and accidentally helped invent geology",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Ate%20Everything&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Man%20Who%20Ate%20Everything&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Ate Everything",

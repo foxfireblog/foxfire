@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Or, how we learned to count everything and understand nothing",
     images: [
       {
-        url: "/og?title=The%20McNamara%20Fallacy&category=Essay&color=red&readTime=15%20min",
+        url: "/og?title=The%20McNamara%20Fallacy&category=Essay&color=red&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The McNamara Fallacy",

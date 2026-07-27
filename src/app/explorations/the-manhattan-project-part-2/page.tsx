@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Life at Los Alamos, the personalities, the moral debates, and the Trinity test",
     images: [
       {
-        url: "/og?title=The%20Manhattan%20Project%3A%20The%20City%20on%20the%20Hill%20(Part%20II%20of%20IV)&category=Essay&color=amber&readTime=17%20min",
+        url: "/og?title=The%20Manhattan%20Project%3A%20The%20City%20on%20the%20Hill%20(Part%20II%20of%20IV)&category=Essay&color=amber&readTime=17%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Manhattan Project: The City on the Hill (Part II of IV)",

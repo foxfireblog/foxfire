@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The secret plan to nuke the Moon, and the young astronomer who almost revealed it",
     images: [
       {
-        url: "/og?title=Project%20A119&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=Project%20A119&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Project A119",

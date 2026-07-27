@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On toxoplasma, cordyceps, and the terrifying question of where you end and your passengers begin",
     images: [
       {
-        url: "/og?title=The%20Parasite%20That%20Thinks%20It%20Is%20You&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Parasite%20That%20Thinks%20It%20Is%20You&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Parasite That Thinks It Is You",

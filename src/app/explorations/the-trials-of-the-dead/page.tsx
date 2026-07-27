@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When history puts corpses in the dock",
     images: [
       {
-        url: "/og?title=The%20Trials%20of%20the%20Dead&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Trials%20of%20the%20Dead&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Trials of the Dead",

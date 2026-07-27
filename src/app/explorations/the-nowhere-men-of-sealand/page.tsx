@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A rusting sea fort, a homemade flag, and the stubbornest country on Earth",
     images: [
       {
-        url: "/og?title=The%20Nowhere%20Men%20of%20Sealand&category=Essay&color=sky&readTime=14%20min",
+        url: "/og?title=The%20Nowhere%20Men%20of%20Sealand&category=Essay&color=sky&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Nowhere Men of Sealand",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Tycho Brahe built the most precise observatory in the pre-telescopic world — and spent his life denying what his own data proved",
     images: [
       {
-        url: "/og?title=The%20Astronomer%20Who%20Refused%20the%20Sky&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Astronomer%20Who%20Refused%20the%20Sky&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Astronomer Who Refused the Sky",

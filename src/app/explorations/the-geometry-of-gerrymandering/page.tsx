@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a shape can steal an election — and why mathematics might be democracy's last honest witness",
     images: [
       {
-        url: "/og?title=The%20Geometry%20of%20Gerrymandering&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Geometry%20of%20Gerrymandering&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Geometry of Gerrymandering",

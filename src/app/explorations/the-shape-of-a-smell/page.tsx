@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why your nose might be reading molecular geometry like sheet music",
     images: [
       {
-        url: "/og?title=The%20Shape%20of%20a%20Smell&category=Natural%20Philosophy&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Shape%20of%20a%20Smell&category=Natural%20Philosophy&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Shape of a Smell",

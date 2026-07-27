@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Francis Galton wanted to find the criminal type. What he found instead was a ghost.",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Catalogued%20Faces&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Man%20Who%20Catalogued%20Faces&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Catalogued Faces",

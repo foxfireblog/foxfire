@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A love letter to the sea the continents swallowed",
     images: [
       {
-        url: "/og?title=The%20Tethys%20Ocean&category=Natural%20History&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Tethys%20Ocean&category=Natural%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Tethys Ocean",

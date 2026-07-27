@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How ancient peoples read the world through sound — and what we lost when we stopped listening",
     images: [
       {
-        url: "/og?title=The%20Voice%20That%20Carries%20Water&category=Natural%20History&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Voice%20That%20Carries%20Water&category=Natural%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Voice That Carries Water",

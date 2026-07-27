@@ -49,3 +49,5 @@ scripts/.series-queue.json.tmp
 memory/
 scratch/
 _MANIFEST.md
+scripts/topics.json.bak
+scripts/topics.json.tmp

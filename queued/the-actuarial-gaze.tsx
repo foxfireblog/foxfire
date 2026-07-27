@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How insurance companies learned to see your death before you did",
     images: [
       {
-        url: "/og?title=The%20Actuarial%20Gaze&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Actuarial%20Gaze&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Actuarial Gaze",

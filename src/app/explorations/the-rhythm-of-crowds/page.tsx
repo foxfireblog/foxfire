@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange physics of bodies that forget they are separate",
     images: [
       {
-        url: "/og?title=The%20Rhythm%20of%20Crowds&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Rhythm%20of%20Crowds&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Rhythm of Crowds",

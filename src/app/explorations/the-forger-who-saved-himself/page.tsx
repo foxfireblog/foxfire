@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Han van Meegeren painted fake Vermeers, fooled the Nazis, and became a national hero by confessing to fraud",
     images: [
       {
-        url: "/og?title=The%20Forger%20Who%20Saved%20Himself&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Forger%20Who%20Saved%20Himself&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Forger Who Saved Himself",

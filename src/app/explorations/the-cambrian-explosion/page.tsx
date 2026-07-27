@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When the world learned to see, and everything changed",
     images: [
       {
-        url: "/og?title=The%20Cambrian%20Explosion&category=Natural%20History&color=teal&readTime=11%20min",
+        url: "/og?title=The%20Cambrian%20Explosion&category=Natural%20History&color=teal&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cambrian Explosion",

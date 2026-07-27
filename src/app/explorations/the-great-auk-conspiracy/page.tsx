@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the desire to possess the last of something became the engine of its destruction",
     images: [
       {
-        url: "/og?title=The%20Great%20Auk%20Conspiracy&category=Natural%20History&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Great%20Auk%20Conspiracy&category=Natural%20History&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Great Auk Conspiracy",

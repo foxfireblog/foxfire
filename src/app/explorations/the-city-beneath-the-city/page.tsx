@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every metropolis is haunted by the infrastructure of its own ambitions",
     images: [
       {
-        url: "/og?title=The%20City%20Beneath%20the%20City&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20City%20Beneath%20the%20City&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The City Beneath the City",

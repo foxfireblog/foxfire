@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange ritual of scientists telling time in a world that refuses to listen",
     images: [
       {
-        url: "/og?title=The%20Doomsday%20Clock%20Is%20Not%20a%20Clock&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Doomsday%20Clock%20Is%20Not%20a%20Clock&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Doomsday Clock Is Not a Clock",

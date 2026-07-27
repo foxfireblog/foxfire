@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Two men who hated each other dug up prehistoric America — and buried the truth along the way",
     images: [
       {
-        url: "/og?title=The%20Bone%20Wars&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Bone%20Wars&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Bone Wars",

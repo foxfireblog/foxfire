@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a language of dance went unheard for millennia — and what it means that we almost never listened",
     images: [
       {
-        url: "/og?title=The%20Syntax%20of%20Bees&category=Natural%20History&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Syntax%20of%20Bees&category=Natural%20History&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Syntax of Bees",

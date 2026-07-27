@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe — and sometimes over it",
     images: [
       {
-        url: "/og?title=The%20Parallax%20Hunters&category=Natural%20History&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Parallax%20Hunters&category=Natural%20History&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Parallax Hunters",

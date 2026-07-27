@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A love story about neurosurgery, free will, and the most beautiful horror in nature",
     images: [
       {
-        url: "/og?title=The%20Jewel%20Wasp%20and%20the%20Zombie%20Cockroach&category=Natural%20History&color=emerald&readTime=14%20min",
+        url: "/og?title=The%20Jewel%20Wasp%20and%20the%20Zombie%20Cockroach&category=Natural%20History&color=emerald&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Jewel Wasp and the Zombie Cockroach",

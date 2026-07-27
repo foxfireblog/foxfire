@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the most ancient sense may hide the deepest geometry in biology",
     images: [
       {
-        url: "/og?title=The%20Mathematics%20of%20Smell&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Mathematics%20of%20Smell&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mathematics of Smell",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange mathematics of evacuation — who leaves, who doesn't, and what that tells us about being human",
     images: [
       {
-        url: "/og?title=The%20Ones%20Who%20Stayed%20Behind&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Ones%20Who%20Stayed%20Behind&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ones Who Stayed Behind",

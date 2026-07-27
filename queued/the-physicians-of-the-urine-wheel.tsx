@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong.",
     images: [
       {
-        url: "/og?title=The%20Physicians%20of%20the%20Urine%20Wheel&category=Medical%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Physicians%20of%20the%20Urine%20Wheel&category=Medical%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Physicians of the Urine Wheel",

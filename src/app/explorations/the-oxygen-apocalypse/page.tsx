@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Two billion years ago, life invented breathing and nearly destroyed itself",
     images: [
       {
-        url: "/og?title=The%20Oxygen%20Apocalypse&category=Natural%20History&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Oxygen%20Apocalypse&category=Natural%20History&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Oxygen Apocalypse",

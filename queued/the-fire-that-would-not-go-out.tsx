@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On eternal flames, burning mountains, and the things we cannot extinguish",
     images: [
       {
-        url: "/og?title=The%20Fire%20That%20Would%20Not%20Go%20Out&category=Natural%20History&color=orange&readTime=12%20min",
+        url: "/og?title=The%20Fire%20That%20Would%20Not%20Go%20Out&category=Natural%20History&color=orange&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fire That Would Not Go Out",

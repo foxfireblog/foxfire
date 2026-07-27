@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Einstein's letter, the fear of a German bomb, and the gathering at Los Alamos",
     images: [
       {
-        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Physics%20of%20Desperation%20(Part%20I%20of%20IV)&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Physics%20of%20Desperation%20(Part%20I%20of%20IV)&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Manhattan Project: The Physics of Desperation (Part I of IV)",

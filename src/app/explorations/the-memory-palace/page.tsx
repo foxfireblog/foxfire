@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The ancient art of remembering everything, and what we lost when we outsourced memory to machines",
     images: [
       {
-        url: "/og?title=The%20Memory%20Palace&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Memory%20Palace&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Memory Palace",

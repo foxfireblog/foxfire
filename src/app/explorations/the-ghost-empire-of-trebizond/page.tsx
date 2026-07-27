@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The last fragment of Byzantium that refused to die",
     images: [
       {
-        url: "/og?title=The%20Ghost%20Empire%20of%20Trebizond&category=Essay&color=violet&readTime=14%20min",
+        url: "/og?title=The%20Ghost%20Empire%20of%20Trebizond&category=Essay&color=violet&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ghost Empire of Trebizond",

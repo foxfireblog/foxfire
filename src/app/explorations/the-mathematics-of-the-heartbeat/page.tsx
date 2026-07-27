@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Your heart is not a metronome. It is a chaos engine — and the irregularity is what keeps you alive.",
     images: [
       {
-        url: "/og?title=The%20Mathematics%20of%20the%20Heartbeat&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Mathematics%20of%20the%20Heartbeat&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mathematics of the Heartbeat",

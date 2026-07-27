@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What it means to drown an inhabited place — and the people who never forgave the water",
     images: [
       {
-        url: "/og?title=The%20Towns%20at%20the%20Bottom%20of%20Reservoirs&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Towns%20at%20the%20Bottom%20of%20Reservoirs&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Towns at the Bottom of Reservoirs",

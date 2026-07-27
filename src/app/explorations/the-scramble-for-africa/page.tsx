@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The Berlin Conference, the rules of the game, and how borders were drawn",
     images: [
       {
-        url: "/og?title=The%20Scramble%20for%20Africa%3A%20Lines%20on%20a%20Map%20(Part%20I%20of%20III)&category=Essay&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Scramble%20for%20Africa%3A%20Lines%20on%20a%20Map%20(Part%20I%20of%20III)&category=Essay&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scramble for Africa: Lines on a Map (Part I of III)",

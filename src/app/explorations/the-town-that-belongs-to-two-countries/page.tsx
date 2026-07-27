@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "In Baarle-Hertog, the border runs through kitchens, shops, and the logic of nationhood itself.",
     images: [
       {
-        url: "/og?title=The%20Town%20That%20Belongs%20to%20Two%20Countries&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Town%20That%20Belongs%20to%20Two%20Countries&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Town That Belongs to Two Countries",

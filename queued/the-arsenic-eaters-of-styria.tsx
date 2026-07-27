@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us",
     images: [
       {
-        url: "/og?title=The%20Arsenic%20Eaters%20of%20Styria&category=Natural%20History&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Arsenic%20Eaters%20of%20Styria&category=Natural%20History&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Arsenic Eaters of Styria",

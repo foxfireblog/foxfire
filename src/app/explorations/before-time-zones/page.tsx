@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every town once kept its own time. Then the railroads came, and the sun stopped mattering.",
     images: [
       {
-        url: "/og?title=Before%20Time%20Zones&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=Before%20Time%20Zones&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Before Time Zones",

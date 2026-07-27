@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The triangular trade, the conditions aboard, and resistance at sea",
     images: [
       {
-        url: "/og?title=The%20Middle%20Passage%3A%20The%20Crossing%20(Part%20I%20of%20II)&category=Essay&color=indigo&readTime=14%20min",
+        url: "/og?title=The%20Middle%20Passage%3A%20The%20Crossing%20(Part%20I%20of%20II)&category=Essay&color=indigo&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Middle Passage: The Crossing (Part I of II)",

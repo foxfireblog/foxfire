@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How humanity invented the idea that some moments are too sacred for killing",
     images: [
       {
-        url: "/og?title=The%20White%20Flag%20Before%20the%20White%20Flag&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20White%20Flag%20Before%20the%20White%20Flag&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The White Flag Before the White Flag",

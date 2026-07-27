@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How freed people bought, borrowed, and invented their surnames — and what those names still carry",
     images: [
       {
-        url: "/og?title=The%20Price%20of%20a%20Name&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Price%20of%20a%20Name&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Price of a Name",

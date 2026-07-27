@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The strange epidemic that froze a million minds — and the lone physician who spent decades trying to wake them up",
     images: [
       {
-        url: "/og?title=The%20Sleeping%20Sickness%20Detectives&category=Natural%20History&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Sleeping%20Sickness%20Detectives&category=Natural%20History&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Sleeping Sickness Detectives",

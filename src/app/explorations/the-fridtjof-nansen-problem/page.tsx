@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What happens when a hero becomes a bureaucrat of mercy?",
     images: [
       {
-        url: "/og?title=The%20Fridtjof%20Nansen%20Problem&category=Essay&color=sky&readTime=12%20min",
+        url: "/og?title=The%20Fridtjof%20Nansen%20Problem&category=Essay&color=sky&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fridtjof Nansen Problem",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A love story forty million years old — and what happens when one partner cheats",
     images: [
       {
-        url: "/og?title=The%20Yucca%20and%20the%20Moth&category=Natural%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Yucca%20and%20the%20Moth&category=Natural%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Yucca and the Moth",

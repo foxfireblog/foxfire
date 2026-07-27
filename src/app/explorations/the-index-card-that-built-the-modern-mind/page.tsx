@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before the database, before the spreadsheet, before the search engine — there was a small rectangle of paper. It changed how humans thought.",
     images: [
       {
-        url: "/og?title=The%20Index%20Card%20That%20Built%20the%20Modern%20Mind&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Index%20Card%20That%20Built%20the%20Modern%20Mind&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Index Card That Built the Modern Mind",

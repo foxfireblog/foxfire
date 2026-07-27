@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Haiti won its revolution. Then it spent 122 years paying France for the privilege of having done so.",
     images: [
       {
-        url: "/og?title=The%20Ransom%20for%20Freedom&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Ransom%20for%20Freedom&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ransom for Freedom",

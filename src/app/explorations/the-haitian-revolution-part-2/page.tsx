@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences",
     images: [
       {
-        url: "/og?title=The%20Haitian%20Revolution%3A%20The%20Price%20of%20Freedom%20(Part%20II%20of%20II)&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Haitian%20Revolution%3A%20The%20Price%20of%20Freedom%20(Part%20II%20of%20II)&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Haitian Revolution: The Price of Freedom (Part II of II)",

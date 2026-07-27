@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On falling in love with a voice you would never see",
     images: [
       {
-        url: "/og?title=The%20Face%20on%20the%20Radio&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Face%20on%20the%20Radio&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Face on the Radio",

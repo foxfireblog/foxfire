@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A medieval city wrote its ordinary life on tree bark, and then the mud remembered everything",
     images: [
       {
-        url: "/og?title=The%20Birch%20Bark%20Letters%20of%20Novgorod&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Birch%20Bark%20Letters%20of%20Novgorod&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Birch Bark Letters of Novgorod",

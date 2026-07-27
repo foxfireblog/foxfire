@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When regimes vanished people, their books stayed behind",
     images: [
       {
-        url: "/og?title=The%20Libraries%20of%20the%20Disappeared&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Libraries%20of%20the%20Disappeared&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Libraries of the Disappeared",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How forbidden words survived on carbon paper and nerve",
     images: [
       {
-        url: "/og?title=The%20Samizdat%20Machine&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Samizdat%20Machine&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Samizdat Machine",

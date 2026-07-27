@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the dead have testified, accused, and changed the rules for the living",
     images: [
       {
-        url: "/og?title=The%20Corpse%20That%20Made%20Law&category=Essay&color=red&readTime=15%20min",
+        url: "/og?title=The%20Corpse%20That%20Made%20Law&category=Essay&color=red&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Corpse That Made Law",

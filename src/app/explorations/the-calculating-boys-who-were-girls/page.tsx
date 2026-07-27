@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before the machine was a machine, the computer was a woman",
     images: [
       {
-        url: "/og?title=The%20Calculating%20Boys%20Who%20Were%20Girls&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Calculating%20Boys%20Who%20Were%20Girls&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Calculating Boys Who Were Girls",

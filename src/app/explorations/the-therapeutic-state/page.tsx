@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When healing became a cage with better lighting",
     images: [
       {
-        url: "/og?title=The%20Therapeutic%20State&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Therapeutic%20State&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Therapeutic State",

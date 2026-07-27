@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a beautiful idea about forests became a myth — and why the truth is stranger and lonelier",
     images: [
       {
-        url: "/og?title=The%20Wood%20Wide%20Web%20Was%20Wrong&category=Essay&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Wood%20Wide%20Web%20Was%20Wrong&category=Essay&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Wood Wide Web Was Wrong",

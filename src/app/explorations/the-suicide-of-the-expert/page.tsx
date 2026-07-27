@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What happens when a society decides it no longer needs to know things",
     images: [
       {
-        url: "/og?title=The%20Suicide%20of%20the%20Expert&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Suicide%20of%20the%20Expert&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suicide of the Expert",

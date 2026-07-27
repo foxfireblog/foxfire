@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a physician drew dots on a map and invented a way of seeing",
     images: [
       {
-        url: "/og?title=The%20Map%20of%20Every%20Death&category=Essay&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Map%20of%20Every%20Death&category=Essay&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Map of Every Death",

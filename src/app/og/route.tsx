@@ -25,7 +25,12 @@ export async function GET(request: NextRequest) {
   const color = searchParams.get("color") || "green";
   const readTime = (searchParams.get("readTime") || "").slice(0, 20);
 
-  const c = colorMap[color] || colorMap.green;
+  // Bracket lookups on an object literal expose inherited members
+  // (`?color=constructor` resolves to a native function and survives a
+  // `||` fallback), so only accept the route's own keys.
+  const c = Object.prototype.hasOwnProperty.call(colorMap, color)
+    ? colorMap[color]
+    : colorMap.green;
 
   return new ImageResponse(
     (
@@ -150,8 +155,11 @@ export async function GET(request: NextRequest) {
           }}
         >
           {readTime && (
+            // Must stay a SINGLE text child. Satori throws on any element
+            // with more than one child node unless it declares an explicit
+            // display, and a thrown render is served as a zero-byte image.
             <div style={{ fontSize: 14, color: "#71717a" }}>
-              {readTime} read
+              {`${readTime} read`}
             </div>
           )}
           <div

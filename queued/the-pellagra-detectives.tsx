@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a lone doctor proved that a plague killing thousands wasn't contagious — it was dinner",
     images: [
       {
-        url: "/og?title=The%20Pellagra%20Detectives&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Pellagra%20Detectives&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Pellagra Detectives",

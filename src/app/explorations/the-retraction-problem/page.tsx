@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Science corrects itself. The correction never catches up.",
     images: [
       {
-        url: "/og?title=The%20Retraction%20Problem&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Retraction%20Problem&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Retraction Problem",

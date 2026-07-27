@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before satellites, the weather belonged to people who never stopped looking up",
     images: [
       {
-        url: "/og?title=The%20Watchers%20of%20the%20Sky&category=Natural%20History&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Watchers%20of%20the%20Sky&category=Natural%20History&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Watchers of the Sky",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Martha's Vineyard, where deafness was not a condition but a dialect",
     images: [
       {
-        url: "/og?title=The%20Language%20That%20Lived%20in%20the%20Body&category=Natural%20History&color=teal&readTime=14%20min",
+        url: "/og?title=The%20Language%20That%20Lived%20in%20the%20Body&category=Natural%20History&color=teal&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Language That Lived in the Body",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How nature's secret handedness shattered the most beautiful assumption in science",
     images: [
       {
-        url: "/og?title=The%20Mirror%20That%20Breaks%20Physics&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Mirror%20That%20Breaks%20Physics&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mirror That Breaks Physics",

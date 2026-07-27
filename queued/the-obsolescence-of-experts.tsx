@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the people who knew the most became the last to know it was over",
     images: [
       {
-        url: "/og?title=The%20Obsolescence%20of%20Experts&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Obsolescence%20of%20Experts&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Obsolescence of Experts",

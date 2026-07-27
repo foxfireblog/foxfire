@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A field guide to the objects that outlast us, and what they know",
     images: [
       {
-        url: "/og?title=The%20Inventory%20of%20What%20Remains&category=Field%20Guide&color=amber&readTime=18%20min",
+        url: "/og?title=The%20Inventory%20of%20What%20Remains&category=Field%20Guide&color=amber&readTime=18%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Inventory of What Remains",

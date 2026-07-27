@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The impossible task, five weeks to draw a border, and the logic of partition",
     images: [
       {
-        url: "/og?title=The%20Partition%20of%20India%3A%20The%20Radcliffe%20Line%20(Part%20I%20of%20II)&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Partition%20of%20India%3A%20The%20Radcliffe%20Line%20(Part%20I%20of%20II)&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Partition of India: The Radcliffe Line (Part I of II)",

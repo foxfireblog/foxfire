@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When economists got a country to practice on",
     images: [
       {
-        url: "/og?title=The%20Chilean%20Experiment&category=Essay&color=red&readTime=10%20min",
+        url: "/og?title=The%20Chilean%20Experiment&category=Essay&color=red&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Chilean Experiment",

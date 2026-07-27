@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What grows in the place humans abandoned",
     images: [
       {
-        url: "/og?title=The%20Zone%20of%20Alienation&category=Natural%20History&color=emerald&readTime=11%20min",
+        url: "/og?title=The%20Zone%20of%20Alienation&category=Natural%20History&color=emerald&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Zone of Alienation",

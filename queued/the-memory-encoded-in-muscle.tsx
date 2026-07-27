@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the body remembers what the mind forgets",
     images: [
       {
-        url: "/og?title=The%20Memory%20Encoded%20in%20Muscle&category=Essay&color=rose&readTime=14%20min",
+        url: "/og?title=The%20Memory%20Encoded%20in%20Muscle&category=Essay&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Memory Encoded in Muscle",

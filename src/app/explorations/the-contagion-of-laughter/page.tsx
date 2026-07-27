@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "In 1962, an epidemic of laughter swept through Tanganyika. Nobody thought it was funny.",
     images: [
       {
-        url: "/og?title=The%20Contagion%20of%20Laughter&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Contagion%20of%20Laughter&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Contagion of Laughter",

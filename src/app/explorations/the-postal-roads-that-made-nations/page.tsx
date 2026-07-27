@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before there were countries, there were routes",
     images: [
       {
-        url: "/og?title=The%20Postal%20Roads%20That%20Made%20Nations&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Postal%20Roads%20That%20Made%20Nations&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Postal Roads That Made Nations",

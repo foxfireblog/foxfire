@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange persistence of nations that no longer exist",
     images: [
       {
-        url: "/og?title=The%20Government%20in%20Exile&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Government%20in%20Exile&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Government in Exile",

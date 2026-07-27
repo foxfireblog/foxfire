@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Black Death invented public health — and the surveillance state that came with it",
     images: [
       {
-        url: "/og?title=The%20Plague%20Doctor%20Was%20a%20Bureaucrat&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Plague%20Doctor%20Was%20a%20Bureaucrat&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Plague Doctor Was a Bureaucrat",

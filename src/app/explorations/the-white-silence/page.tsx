@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What polar explorers discovered about the psychology of nothingness",
     images: [
       {
-        url: "/og?title=The%20White%20Silence&category=Essay&color=sky&readTime=14%20min",
+        url: "/og?title=The%20White%20Silence&category=Essay&color=sky&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The White Silence",

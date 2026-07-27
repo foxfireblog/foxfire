@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "After the Great War, the most rational people in the world tried to call the dead — and nearly succeeded in building a new religion",
     images: [
       {
-        url: "/og?title=The%20Telephone%20to%20the%20Dead&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Telephone%20to%20the%20Dead&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Telephone to the Dead",

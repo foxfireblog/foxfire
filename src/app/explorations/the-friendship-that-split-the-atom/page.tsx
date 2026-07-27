@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Heisenberg, Bohr, and the conversation that haunts physics",
     images: [
       {
-        url: "/og?title=The%20Friendship%20That%20Split%20the%20Atom&category=Essay&color=indigo&readTime=14%20min",
+        url: "/og?title=The%20Friendship%20That%20Split%20the%20Atom&category=Essay&color=indigo&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Friendship That Split the Atom",

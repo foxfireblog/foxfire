@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the people who watch animals die have always seen the future first",
     images: [
       {
-        url: "/og?title=The%20Veterinarians%20of%20the%20Apocalypse&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Veterinarians%20of%20the%20Apocalypse&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Veterinarians of the Apocalypse",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A protein that learned one terrible trick",
     images: [
       {
-        url: "/og?title=The%20Prion&category=Natural%20Horror&color=red&readTime=12%20min",
+        url: "/og?title=The%20Prion&category=Natural%20Horror&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Prion",

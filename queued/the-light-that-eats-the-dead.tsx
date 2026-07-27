@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On bioluminescence, foxfire, and the glow at the border of living and not",
     images: [
       {
-        url: "/og?title=The%20Light%20That%20Eats%20the%20Dead&category=Natural%20History&color=emerald&readTime=11%20min",
+        url: "/og?title=The%20Light%20That%20Eats%20the%20Dead&category=Natural%20History&color=emerald&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Light That Eats the Dead",

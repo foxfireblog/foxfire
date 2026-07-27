@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When revolutionaries tried to remake time itself",
     images: [
       {
-        url: "/og?title=The%20Decimal%20Clock&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Decimal%20Clock&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Decimal Clock",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On Victorian mourning jewelry and the strange physics of grief",
     images: [
       {
-        url: "/og?title=The%20Hair%20That%20Outlives%20Us&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Hair%20That%20Outlives%20Us&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Hair That Outlives Us",

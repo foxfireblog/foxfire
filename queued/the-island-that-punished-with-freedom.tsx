@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Inside the strangest penal experiment ever attempted",
     images: [
       {
-        url: "/og?title=The%20Island%20That%20Punished%20With%20Freedom&category=Essay&color=teal&readTime=11%20min",
+        url: "/og?title=The%20Island%20That%20Punished%20With%20Freedom&category=Essay&color=teal&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Island That Punished With Freedom",

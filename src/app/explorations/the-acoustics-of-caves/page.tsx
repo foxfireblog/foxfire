@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why our oldest art was made where the walls sing back",
     images: [
       {
-        url: "/og?title=The%20Acoustics%20of%20Caves&category=Essay&color=indigo&readTime=14%20min",
+        url: "/og?title=The%20Acoustics%20of%20Caves&category=Essay&color=indigo&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Acoustics of Caves",

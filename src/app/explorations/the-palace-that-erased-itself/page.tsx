@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On Soviet history, the vanishing commissar, and what it costs to live in a past that won't hold still",
     images: [
       {
-        url: "/og?title=The%20Palace%20That%20Erased%20Itself&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Palace%20That%20Erased%20Itself&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Palace That Erased Itself",

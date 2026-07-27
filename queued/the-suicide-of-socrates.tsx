@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On choosing to drink when you could have run",
     images: [
       {
-        url: "/og?title=The%20Suicide%20of%20Socrates&category=Philosophical%20Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Suicide%20of%20Socrates&category=Philosophical%20Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suicide of Socrates",

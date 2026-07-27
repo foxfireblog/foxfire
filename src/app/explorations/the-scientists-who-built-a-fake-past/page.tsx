@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A history of scientific forgery is really a history of what we desperately want to be true",
     images: [
       {
-        url: "/og?title=The%20Scientists%20Who%20Built%20a%20Fake%20Past&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Scientists%20Who%20Built%20a%20Fake%20Past&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scientists Who Built a Fake Past",

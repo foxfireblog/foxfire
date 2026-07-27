@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How an arbitrary number became the gatekeeper of truth",
     images: [
       {
-        url: "/og?title=The%20Threshold%20of%20Significance&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Threshold%20of%20Significance&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Threshold of Significance",

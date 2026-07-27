@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On choosing to be unfindable",
     images: [
       {
-        url: "/og?title=The%20Ones%20Who%20Walk%20Away%20from%20the%20Algorithm&category=Essay&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Ones%20Who%20Walk%20Away%20from%20the%20Algorithm&category=Essay&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ones Who Walk Away from the Algorithm",

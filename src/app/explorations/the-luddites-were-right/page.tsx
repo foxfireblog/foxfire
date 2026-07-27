@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The most misunderstood protest movement in history had a point we still haven't reckoned with",
     images: [
       {
-        url: "/og?title=The%20Luddites%20Were%20Right&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Luddites%20Were%20Right&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Luddites Were Right",

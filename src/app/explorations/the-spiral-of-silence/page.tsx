@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How public opinion becomes a hall of mirrors",
     images: [
       {
-        url: "/og?title=The%20Spiral%20of%20Silence&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Spiral%20of%20Silence&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Spiral of Silence",

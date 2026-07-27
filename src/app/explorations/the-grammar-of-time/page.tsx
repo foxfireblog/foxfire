@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Some languages have no future tense. Their speakers live differently because of it.",
     images: [
       {
-        url: "/og?title=The%20Grammar%20of%20Time&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Grammar%20of%20Time&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Grammar of Time",

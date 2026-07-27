@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Henry Brown, a wooden crate, and the strange sovereignty of a body in transit",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Mailed%20Himself%20to%20Freedom&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Man%20Who%20Mailed%20Himself%20to%20Freedom&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Mailed Himself to Freedom",

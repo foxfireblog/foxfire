@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The buried waterways still shaping a city that forgot them",
     images: [
       {
-        url: "/og?title=The%20Lost%20Rivers%20of%20London&category=Natural%20History&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Lost%20Rivers%20of%20London&category=Natural%20History&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Lost Rivers of London",

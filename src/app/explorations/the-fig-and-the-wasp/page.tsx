@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "An 80-million-year marriage written in flesh and flower",
     images: [
       {
-        url: "/og?title=The%20Fig%20and%20the%20Wasp&category=Natural%20History&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Fig%20and%20the%20Wasp&category=Natural%20History&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fig and the Wasp",

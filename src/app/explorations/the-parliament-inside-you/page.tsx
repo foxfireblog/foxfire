@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the 38 trillion citizens of your inner republic",
     images: [
       {
-        url: "/og?title=The%20Parliament%20Inside%20You&category=Essay&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Parliament%20Inside%20You&category=Essay&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Parliament Inside You",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a fake prison became a real lie",
     images: [
       {
-        url: "/og?title=The%20Stanford%20Collapse&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Stanford%20Collapse&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Stanford Collapse",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "An encyclopedia of everything that never was",
     images: [
       {
-        url: "/og?title=The%20Codex%20Seraphinianus&category=Natural%20History&color=violet&readTime=14%20min",
+        url: "/og?title=The%20Codex%20Seraphinianus&category=Natural%20History&color=violet&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Codex Seraphinianus",

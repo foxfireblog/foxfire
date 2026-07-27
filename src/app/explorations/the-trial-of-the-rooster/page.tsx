@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When Europe put animals on trial — and what it says about the stories we need justice to tell",
     images: [
       {
-        url: "/og?title=The%20Trial%20of%20the%20Rooster&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Trial%20of%20the%20Rooster&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Trial of the Rooster",

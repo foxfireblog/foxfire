@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For centuries, doctors knew disease by its scent. They were not wrong.",
     images: [
       {
-        url: "/og?title=The%20Smell%20That%20Preceded%20Diagnosis&category=Natural%20History&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Smell%20That%20Preceded%20Diagnosis&category=Natural%20History&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Smell That Preceded Diagnosis",

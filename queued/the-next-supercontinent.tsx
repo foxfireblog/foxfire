@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A love letter to a world no one will ever see",
     images: [
       {
-        url: "/og?title=The%20Next%20Supercontinent&category=Deep%20Time&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Next%20Supercontinent&category=Deep%20Time&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Next Supercontinent",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the first transatlantic cable, the voices it carried, and the silence it replaced",
     images: [
       {
-        url: "/og?title=The%20Telephone%20at%20the%20Bottom%20of%20the%20Sea&category=Essay&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Telephone%20at%20the%20Bottom%20of%20the%20Sea&category=Essay&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Telephone at the Bottom of the Sea",

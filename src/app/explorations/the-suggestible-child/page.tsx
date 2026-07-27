@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The daycare panic, the archaeology of memory, and the things we made children remember",
     images: [
       {
-        url: "/og?title=The%20Suggestible%20Child&category=Essay&color=rose&readTime=14%20min",
+        url: "/og?title=The%20Suggestible%20Child&category=Essay&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suggestible Child",

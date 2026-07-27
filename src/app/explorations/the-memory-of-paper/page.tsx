@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When the Nazis came for the books, the books climbed into human bodies",
     images: [
       {
-        url: "/og?title=The%20Memory%20of%20Paper&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Memory%20of%20Paper&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Memory of Paper",

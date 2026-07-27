@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The forgotten future that ran on compressed air",
     images: [
       {
-        url: "/og?title=The%20Pneumatic%20Dream&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Pneumatic%20Dream&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Pneumatic Dream",

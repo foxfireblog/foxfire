@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the ancient logic of destroying the body to transcend it",
     images: [
       {
-        url: "/og?title=The%20Ascetics%20Who%20Became%20Gods&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Ascetics%20Who%20Became%20Gods&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ascetics Who Became Gods",

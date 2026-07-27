@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Inca encoded a civilization in string — and why we still cannot fully read it",
     images: [
       {
-        url: "/og?title=The%20Talking%20Knots%20of%20the%20Andes&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Talking%20Knots%20of%20the%20Andes&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Talking Knots of the Andes",

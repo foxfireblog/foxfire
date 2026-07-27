@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On laughter as contagion, weapon, and the sound the body makes when meaning breaks",
     images: [
       {
-        url: "/og?title=The%20Last%20Laugh&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Last%20Laugh&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Last Laugh",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Western civilization didn't discover indigenous peoples — it manufactured them",
     images: [
       {
-        url: "/og?title=The%20Invention%20of%20the%20Primitive&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Invention%20of%20the%20Primitive&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Invention of the Primitive",

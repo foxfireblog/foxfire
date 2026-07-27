@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the dream of recovering sounds that were never recorded",
     images: [
       {
-        url: "/og?title=The%20Phonograph%20in%20the%20Pharaoh's%20Tomb&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Phonograph%20in%20the%20Pharaoh's%20Tomb&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Phonograph in the Pharaoh's Tomb",

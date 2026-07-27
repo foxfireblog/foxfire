@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the ordinary architecture of betrayal",
     images: [
       {
-        url: "/og?title=The%20Informers&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Informers&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Informers",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "If you replace every part of something, is it still the same thing? (You are not the person you were seven years ago.)",
     images: [
       {
-        url: "/og?title=The%20Ship%20of%20Theseus&category=Philosophy%20%26%20Identity&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Ship%20of%20Theseus&category=Philosophy%20%26%20Identity&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ship of Theseus",

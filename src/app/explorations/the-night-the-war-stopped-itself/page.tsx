@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On Christmas Eve 1914, soldiers climbed out of the trenches — and their generals never forgave them",
     images: [
       {
-        url: "/og?title=The%20Night%20the%20War%20Stopped%20Itself&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Night%20the%20War%20Stopped%20Itself&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Night the War Stopped Itself",

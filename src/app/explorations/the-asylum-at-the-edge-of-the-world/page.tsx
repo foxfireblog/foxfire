@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a small Belgian town spent eight centuries treating madness with something radical: ordinary life",
     images: [
       {
-        url: "/og?title=The%20Asylum%20at%20the%20Edge%20of%20the%20World&category=Essay&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Asylum%20at%20the%20Edge%20of%20the%20World&category=Essay&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Asylum at the Edge of the World",

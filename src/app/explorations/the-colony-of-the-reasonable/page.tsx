@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "In a Belgian village, the mad lived freely among the sane for seven hundred years. It worked.",
     images: [
       {
-        url: "/og?title=The%20Colony%20of%20the%20Reasonable&category=Essay&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Colony%20of%20the%20Reasonable&category=Essay&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Colony of the Reasonable",

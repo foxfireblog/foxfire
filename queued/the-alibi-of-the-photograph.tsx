@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why we trust images more than memory — and why we probably shouldn't",
     images: [
       {
-        url: "/og?title=The%20Alibi%20of%20the%20Photograph&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Alibi%20of%20the%20Photograph&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Alibi of the Photograph",

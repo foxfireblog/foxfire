@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "We built a civilization so bright we blinded ourselves to the universe",
     images: [
       {
-        url: "/og?title=The%20Dark%20Above&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Dark%20Above&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Dark Above",

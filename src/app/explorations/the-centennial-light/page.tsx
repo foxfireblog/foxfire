@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On a light bulb that refuses to die and an economy that requires it to",
     images: [
       {
-        url: "/og?title=The%20Centennial%20Light&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Centennial%20Light&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Centennial Light",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the eloquence of broken speech",
     images: [
       {
-        url: "/og?title=The%20Stutterer's%20Gift&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Stutterer's%20Gift&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Stutterer's Gift",

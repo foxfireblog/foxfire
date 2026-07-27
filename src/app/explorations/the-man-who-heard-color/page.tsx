@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Synesthesia and the democracy of hallucination",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Heard%20Color&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Man%20Who%20Heard%20Color&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Heard Color",

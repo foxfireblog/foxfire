@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How easily you can be convinced that someone else's body is yours",
     images: [
       {
-        url: "/og?title=The%20Rubber%20Hand%20Illusion&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Rubber%20Hand%20Illusion&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Rubber Hand Illusion",

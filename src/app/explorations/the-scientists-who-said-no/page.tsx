@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The physicists who refused to build the bomb — and vanished from history",
     images: [
       {
-        url: "/og?title=The%20Scientists%20Who%20Said%20No&category=Essay&color=indigo&readTime=15%20min",
+        url: "/og?title=The%20Scientists%20Who%20Said%20No&category=Essay&color=indigo&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scientists Who Said No",

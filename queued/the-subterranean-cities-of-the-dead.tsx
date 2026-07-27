@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the overcrowded graves beneath Europe's great cities quietly shaped the world above",
     images: [
       {
-        url: "/og?title=The%20Subterranean%20Cities%20of%20the%20Dead&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Subterranean%20Cities%20of%20the%20Dead&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Subterranean Cities of the Dead",

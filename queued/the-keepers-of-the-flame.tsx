@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On fires that must never go out, and what it costs to tend them",
     images: [
       {
-        url: "/og?title=The%20Keepers%20of%20the%20Flame&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Keepers%20of%20the%20Flame&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Keepers of the Flame",

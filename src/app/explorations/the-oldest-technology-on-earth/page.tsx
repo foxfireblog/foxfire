@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before the wheel, before writing, before we were even quite human — we were fermenting.",
     images: [
       {
-        url: "/og?title=The%20Oldest%20Technology%20on%20Earth&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Oldest%20Technology%20on%20Earth&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Oldest Technology on Earth",

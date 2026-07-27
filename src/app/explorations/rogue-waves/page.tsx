@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the monsters that physics said were impossible",
     images: [
       {
-        url: "/og?title=Rogue%20Waves&category=Essay&color=teal&readTime=13%20min",
+        url: "/og?title=Rogue%20Waves&category=Essay&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Rogue Waves",

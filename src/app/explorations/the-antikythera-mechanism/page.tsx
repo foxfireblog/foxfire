@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A 2,000-year-old computer, a shipwreck, and the futures that rust",
     images: [
       {
-        url: "/og?title=The%20Antikythera%20Mechanism&category=Essay&color=teal&readTime=15%20min",
+        url: "/og?title=The%20Antikythera%20Mechanism&category=Essay&color=teal&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Antikythera Mechanism",

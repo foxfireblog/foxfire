@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending",
     images: [
       {
-        url: "/og?title=The%20Soldiers%20Who%20Refused%20to%20Stop&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Soldiers%20Who%20Refused%20to%20Stop&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Soldiers Who Refused to Stop",

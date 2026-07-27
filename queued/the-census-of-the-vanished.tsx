@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every abandoned place was once somebody's address",
     images: [
       {
-        url: "/og?title=The%20Census%20of%20the%20Vanished&category=Essay&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Census%20of%20the%20Vanished&category=Essay&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Census of the Vanished",

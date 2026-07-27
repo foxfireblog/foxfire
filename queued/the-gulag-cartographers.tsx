@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the prisoners who mapped the machinery of their own erasure",
     images: [
       {
-        url: "/og?title=The%20Gulag%20Cartographers&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Gulag%20Cartographers&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Gulag Cartographers",

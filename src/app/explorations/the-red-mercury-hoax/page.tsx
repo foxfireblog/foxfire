@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The phantom superweapon that fooled arms dealers, terrorists, and governments for decades",
     images: [
       {
-        url: "/og?title=The%20Red%20Mercury%20Hoax&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Red%20Mercury%20Hoax&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Red Mercury Hoax",

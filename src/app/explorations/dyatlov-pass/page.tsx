@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Nine hikers tore open their tent from the inside and fled barefoot into a Siberian blizzard. Sixty-five years later, we still can't agree on why.",
     images: [
       {
-        url: "/og?title=The%20Dyatlov%20Pass%20Incident&category=Mystery&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Dyatlov%20Pass%20Incident&category=Mystery&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Dyatlov Pass Incident",

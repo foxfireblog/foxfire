@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How spies turned park benches, lampposts, and loose bricks into the nervous system of the Cold War",
     images: [
       {
-        url: "/og?title=Dead%20Drops%20and%20Living%20Cities&category=Essay&color=teal&readTime=12%20min",
+        url: "/og?title=Dead%20Drops%20and%20Living%20Cities&category=Essay&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Dead Drops and Living Cities",

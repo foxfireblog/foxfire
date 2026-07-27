@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What the last meal reveals about the theater of execution",
     images: [
       {
-        url: "/og?title=The%20Condemned%20Man's%20Breakfast&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Condemned%20Man's%20Breakfast&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Condemned Man's Breakfast",

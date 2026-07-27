@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The day the medieval world ended with a cannon that shouldn't have existed",
     images: [
       {
-        url: "/og?title=The%20Fall%20of%20Constantinople&category=Essay&color=red&readTime=14%20min",
+        url: "/og?title=The%20Fall%20of%20Constantinople&category=Essay&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fall of Constantinople",

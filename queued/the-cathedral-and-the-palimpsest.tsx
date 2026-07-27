@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the monks who destroyed the ancient world to save their souls — and accidentally saved the ancient world instead",
     images: [
       {
-        url: "/og?title=The%20Cathedral%20and%20the%20Palimpsest&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Cathedral%20and%20the%20Palimpsest&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cathedral and the Palimpsest",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Agent Orange and the inheritance no treaty has ended",
     images: [
       {
-        url: "/og?title=The%20War%20That%20Passes%20Through%20Blood&category=Essay&color=orange&readTime=12%20min",
+        url: "/og?title=The%20War%20That%20Passes%20Through%20Blood&category=Essay&color=orange&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The War That Passes Through Blood",

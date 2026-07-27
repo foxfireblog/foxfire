@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On what happens when civilization reaches the bone",
     images: [
       {
-        url: "/og?title=The%20City%20That%20Ate%20Its%20Cats&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20City%20That%20Ate%20Its%20Cats&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The City That Ate Its Cats",

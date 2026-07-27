@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange dream of building a tongue from nothing",
     images: [
       {
-        url: "/og?title=The%20Invented%20Languages&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Invented%20Languages&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Invented Languages",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "In the mountains where human speech became birdsong, the brain reveals one of its strangest talents",
     images: [
       {
-        url: "/og?title=The%20Language%20of%20Whistles&category=Natural%20History&color=emerald&readTime=11%20min",
+        url: "/og?title=The%20Language%20of%20Whistles&category=Natural%20History&color=emerald&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Language of Whistles",

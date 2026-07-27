@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How counting became a weapon, and the quiet violence of being categorized out of existence",
     images: [
       {
-        url: "/og?title=The%20Census%20That%20Erased%20People&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Census%20That%20Erased%20People&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Census That Erased People",

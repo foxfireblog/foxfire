@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Islands that existed only in ink, and the centuries it took to drown them",
     images: [
       {
-        url: "/og?title=The%20Phantom%20Atlas&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Phantom%20Atlas&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Phantom Atlas",

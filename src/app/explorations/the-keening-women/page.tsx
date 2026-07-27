@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the professionals who carried grief so others could survive it",
     images: [
       {
-        url: "/og?title=The%20Keening%20Women&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Keening%20Women&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Keening Women",

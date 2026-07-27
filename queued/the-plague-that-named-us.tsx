@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Black Death wrote itself into your surname, your wages, and the shape of your world",
     images: [
       {
-        url: "/og?title=The%20Plague%20That%20Named%20Us&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Plague%20That%20Named%20Us&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Plague That Named Us",

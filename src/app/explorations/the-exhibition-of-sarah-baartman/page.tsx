@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A woman displayed as a specimen, and the long science that made it respectable",
     images: [
       {
-        url: "/og?title=The%20Exhibition%20of%20Sarah%20Baartman&category=Essay&color=rose&readTime=13%20min",
+        url: "/og?title=The%20Exhibition%20of%20Sarah%20Baartman&category=Essay&color=rose&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Exhibition of Sarah Baartman",

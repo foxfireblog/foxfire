@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the slave trade invented modern actuarial science — and why the numbers never became neutral",
     images: [
       {
-        url: "/og?title=The%20Insurance%20of%20the%20Body&category=Essay&color=red&readTime=14%20min",
+        url: "/og?title=The%20Insurance%20of%20the%20Body&category=Essay&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Insurance of the Body",

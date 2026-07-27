@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The German strategy, the first winter, and the Road of Life",
     images: [
       {
-        url: "/og?title=The%20Siege%20of%20Leningrad%3A%20The%20Ring%20Closes%20(Part%20I%20of%20II)&category=History&color=sky&readTime=14%20min",
+        url: "/og?title=The%20Siege%20of%20Leningrad%3A%20The%20Ring%20Closes%20(Part%20I%20of%20II)&category=History&color=sky&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Siege of Leningrad: The Ring Closes (Part I of II)",

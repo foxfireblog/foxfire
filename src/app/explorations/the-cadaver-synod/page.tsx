@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the trial of Pope Formosus, and what it means to prosecute the dead",
     images: [
       {
-        url: "/og?title=The%20Cadaver%20Synod&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Cadaver%20Synod&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cadaver Synod",

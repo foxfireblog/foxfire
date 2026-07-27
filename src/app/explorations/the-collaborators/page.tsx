@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the terrible reasonableness of saying yes",
     images: [
       {
-        url: "/og?title=The%20Collaborators&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Collaborators&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Collaborators",

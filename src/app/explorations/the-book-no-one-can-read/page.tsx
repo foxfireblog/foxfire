@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "600 years of the Voynich Manuscript, and we still don't know what it says",
     images: [
       {
-        url: "/og?title=The%20Book%20No%20One%20Can%20Read&category=History%20%26%20Mystery&color=emerald&readTime=14%20min",
+        url: "/og?title=The%20Book%20No%20One%20Can%20Read&category=History%20%26%20Mystery&color=emerald&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Book No One Can Read",

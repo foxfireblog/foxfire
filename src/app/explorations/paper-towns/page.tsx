@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the cities that existed only to catch liars, until someone built them",
     images: [
       {
-        url: "/og?title=Paper%20Towns&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=Paper%20Towns&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Paper Towns",

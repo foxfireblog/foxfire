@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "They fenced the land first. Then they fenced the rest of human experience.",
     images: [
       {
-        url: "/og?title=The%20Enclosure%20of%20Everything&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Enclosure%20of%20Everything&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Enclosure of Everything",

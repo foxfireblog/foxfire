@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The most dangerous people in history were not monsters. They were middle managers.",
     images: [
       {
-        url: "/og?title=The%20Banality%20of%20Evil&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Banality%20of%20Evil&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Banality of Evil",

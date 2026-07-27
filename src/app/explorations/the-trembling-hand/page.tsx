@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the moment a surgeon realizes they cannot cut",
     images: [
       {
-        url: "/og?title=The%20Trembling%20Hand&category=Essay&color=rose&readTime=14%20min",
+        url: "/og?title=The%20Trembling%20Hand&category=Essay&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Trembling Hand",

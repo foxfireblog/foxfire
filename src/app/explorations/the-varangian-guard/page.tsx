@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How Viking outcasts became the most feared soldiers in Constantinople",
     images: [
       {
-        url: "/og?title=The%20Varangian%20Guard&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Varangian%20Guard&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Varangian Guard",

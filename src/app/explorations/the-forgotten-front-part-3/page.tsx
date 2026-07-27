@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Eastern Front fed the Russian Revolution, the Treaty of Brest-Litovsk, and the power vacuum",
     images: [
       {
-        url: "/og?title=The%20Forgotten%20Front%3A%20Revolution%20and%20Collapse%20(Part%20III%20of%20III)&category=History%20%26%20Erasure&color=rose&readTime=13%20min",
+        url: "/og?title=The%20Forgotten%20Front%3A%20Revolution%20and%20Collapse%20(Part%20III%20of%20III)&category=History%20%26%20Erasure&color=rose&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Forgotten Front: Revolution and Collapse (Part III of III)",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What disappears when a language dies — and it's not just vocabulary",
     images: [
       {
-        url: "/og?title=The%20Last%20Word&category=Linguistics%20%26%20Loss&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Last%20Word&category=Linguistics%20%26%20Loss&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Last Word",

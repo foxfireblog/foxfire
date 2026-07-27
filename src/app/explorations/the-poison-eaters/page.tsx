@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A history of what shouldn't be swallowed, and the bodies that swallowed it anyway",
     images: [
       {
-        url: "/og?title=The%20Poison%20Eaters&category=Natural%20History&color=emerald&readTime=14%20min",
+        url: "/og?title=The%20Poison%20Eaters&category=Natural%20History&color=emerald&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Poison Eaters",

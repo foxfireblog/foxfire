@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before you could measure the universe, someone had to build the tools — and they were often wrong, brilliant, and obsessed",
     images: [
       {
-        url: "/og?title=The%20Instrument%20Makers&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Instrument%20Makers&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Instrument Makers",

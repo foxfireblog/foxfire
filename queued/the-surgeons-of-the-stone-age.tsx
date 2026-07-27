@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Ten thousand years of cutting, and the hand still trembles the same way",
     images: [
       {
-        url: "/og?title=The%20Surgeon's%20Fingers%20Remember&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Surgeon's%20Fingers%20Remember&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Surgeon's Fingers Remember",

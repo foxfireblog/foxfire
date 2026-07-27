@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the slaughterhouse invented the assembly line, and the assembly line invented us",
     images: [
       {
-        url: "/og?title=The%20Teeth%20of%20the%20Conveyor&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Teeth%20of%20the%20Conveyor&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Teeth of the Conveyor",

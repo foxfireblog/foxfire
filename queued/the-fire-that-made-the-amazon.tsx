@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The world's greatest wilderness is a garden someone planted",
     images: [
       {
-        url: "/og?title=The%20Fire%20That%20Made%20the%20Amazon&category=Natural%20History&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Fire%20That%20Made%20the%20Amazon&category=Natural%20History&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Fire That Made the Amazon",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Two miles beneath Ontario, something has been waiting for two billion years",
     images: [
       {
-        url: "/og?title=The%20Water%20That%20Remembers&category=Natural%20History&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Water%20That%20Remembers&category=Natural%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Water That Remembers",

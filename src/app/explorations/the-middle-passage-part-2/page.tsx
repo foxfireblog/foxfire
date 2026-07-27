@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The wealth it built, the institutions that profited, and the ongoing reckoning",
     images: [
       {
-        url: "/og?title=The%20Middle%20Passage%3A%20The%20Afterlife%20(Part%20II%20of%20II)&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Middle%20Passage%3A%20The%20Afterlife%20(Part%20II%20of%20II)&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Middle Passage: The Afterlife (Part II of II)",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The violence, the trains, the 15 million displaced, and Kashmir's unhealed wound",
     images: [
       {
-        url: "/og?title=The%20Partition%20of%20India%3A%20The%20Reckoning%20(Part%20II%20of%20II)&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Partition%20of%20India%3A%20The%20Reckoning%20(Part%20II%20of%20II)&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Partition of India: The Reckoning (Part II of II)",

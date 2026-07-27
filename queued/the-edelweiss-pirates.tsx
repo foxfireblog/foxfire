@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The teenagers who fought the Third Reich with song, sabotage, and sheer defiance",
     images: [
       {
-        url: "/og?title=The%20Edelweiss%20Pirates&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Edelweiss%20Pirates&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Edelweiss Pirates",

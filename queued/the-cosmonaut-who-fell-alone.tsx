@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Vladimir Komarov knew Soyuz 1 would kill him. He boarded it to save his friend.",
     images: [
       {
-        url: "/og?title=The%20Cosmonaut%20Who%20Fell%20Alone&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Cosmonaut%20Who%20Fell%20Alone&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cosmonaut Who Fell Alone",

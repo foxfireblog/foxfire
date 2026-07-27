@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Cargo cults, divine runways, and the terrifying logic of pattern recognition",
     images: [
       {
-        url: "/og?title=The%20Gods%20Who%20Came%20by%20Airplane&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Gods%20Who%20Came%20by%20Airplane&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Gods Who Came by Airplane",

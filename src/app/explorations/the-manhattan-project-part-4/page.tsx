@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The arms race, Oppenheimer's destruction, the hydrogen bomb, and the legacy of living under the bomb",
     images: [
       {
-        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Inheritance%20(Part%20IV%20of%20IV)&category=Essay&color=amber&readTime=15%20min",
+        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Inheritance%20(Part%20IV%20of%20IV)&category=Essay&color=amber&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Manhattan Project: The Inheritance (Part IV of IV)",

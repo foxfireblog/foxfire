@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The only sea defined not by land but by water — a place that exists because everything else moves around it",
     images: [
       {
-        url: "/og?title=The%20Sargasso%20Sea&category=Natural%20History&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Sargasso%20Sea&category=Natural%20History&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Sargasso Sea",

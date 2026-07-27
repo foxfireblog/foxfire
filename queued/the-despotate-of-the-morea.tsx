@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark",
     images: [
       {
-        url: "/og?title=The%20Despotate%20of%20the%20Morea&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Despotate%20of%20the%20Morea&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Despotate of the Morea",

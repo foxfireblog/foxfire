@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Shostakovich's Seventh, the Vavilov seed bank, and survival and memory",
     images: [
       {
-        url: "/og?title=The%20Siege%20of%20Leningrad%3A%20Nine%20Hundred%20Days%20(Part%20II%20of%20II)&category=History&color=sky&readTime=14%20min",
+        url: "/og?title=The%20Siege%20of%20Leningrad%3A%20Nine%20Hundred%20Days%20(Part%20II%20of%20II)&category=History&color=sky&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Siege of Leningrad: Nine Hundred Days (Part II of II)",

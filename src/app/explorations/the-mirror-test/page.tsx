@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Science built a single experiment to find the self. It found its own reflection instead.",
     images: [
       {
-        url: "/og?title=The%20Mirror%20Test&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Mirror%20Test&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mirror Test",

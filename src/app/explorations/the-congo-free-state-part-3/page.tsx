@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "E.D. Morel, Roger Casement, the Kodak camera, and the aftermath",
     images: [
       {
-        url: "/og?title=The%20Congo%20Free%20State%3A%20The%20First%20Human%20Rights%20Campaign%20(Part%20III%20of%20III)&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Congo%20Free%20State%3A%20The%20First%20Human%20Rights%20Campaign%20(Part%20III%20of%20III)&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Congo Free State: The First Human Rights Campaign (Part III of III)",

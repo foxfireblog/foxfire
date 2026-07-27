@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How John Frum became a god, and what that reveals about the nature of belief itself",
     images: [
       {
-        url: "/og?title=The%20Cargo%20That%20Never%20Arrives&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Cargo%20That%20Never%20Arrives&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cargo That Never Arrives",

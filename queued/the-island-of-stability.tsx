@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "At the edge of matter, a shore no one has reached",
     images: [
       {
-        url: "/og?title=The%20Island%20of%20Stability&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Island%20of%20Stability&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Island of Stability",

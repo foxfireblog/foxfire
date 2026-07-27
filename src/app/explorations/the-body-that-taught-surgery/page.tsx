@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the stolen dead, the science of the knife, and the debt anatomy owes to the grave",
     images: [
       {
-        url: "/og?title=The%20Body%20That%20Taught%20Surgery&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Body%20That%20Taught%20Surgery&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Body That Taught Surgery",

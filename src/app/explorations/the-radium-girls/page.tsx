@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The women whose bones became the evidence",
     images: [
       {
-        url: "/og?title=The%20Radium%20Girls&category=Essay&color=green&readTime=14%20min",
+        url: "/og?title=The%20Radium%20Girls&category=Essay&color=green&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Radium Girls",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a machine that couldn't detect lies reshaped confession, guilt, and the legal theater of truth",
     images: [
       {
-        url: "/og?title=The%20Lie%20Detector%20Was%20Always%20a%20Mirror&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Lie%20Detector%20Was%20Always%20a%20Mirror&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Lie Detector Was Always a Mirror",

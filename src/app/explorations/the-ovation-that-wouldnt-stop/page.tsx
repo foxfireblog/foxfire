@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the terror of being the first person to stop clapping",
     images: [
       {
-        url: "/og?title=The%20Ovation%20That%20Wouldn't%20Stop&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Ovation%20That%20Wouldn't%20Stop&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ovation That Wouldn't Stop",

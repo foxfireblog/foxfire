@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every apocalypse leaves a thin line in the rock. You just have to know how to read it.",
     images: [
       {
-        url: "/og?title=The%20Stratigraphy%20of%20Catastrophe&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Stratigraphy%20of%20Catastrophe&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Stratigraphy of Catastrophe",

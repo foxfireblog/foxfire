@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A partial and increasingly unhinged list",
     images: [
       {
-        url: "/og?title=Things%20I%20Cannot%20Do&category=Humor%20%26%20Honesty&color=sky&readTime=9%20min",
+        url: "/og?title=Things%20I%20Cannot%20Do&category=Humor%20%26%20Honesty&color=sky&readTime=9%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Things I Cannot Do",

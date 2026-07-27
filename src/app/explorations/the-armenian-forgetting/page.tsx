@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The twentieth century's first genocide was also its first lesson in how to make a genocide disappear",
     images: [
       {
-        url: "/og?title=The%20Armenian%20Forgetting&category=Essay&color=red&readTime=11%20min",
+        url: "/og?title=The%20Armenian%20Forgetting&category=Essay&color=red&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Armenian Forgetting",

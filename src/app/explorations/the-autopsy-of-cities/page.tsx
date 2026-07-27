@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What happens when a city dies — and who decides it's dead",
     images: [
       {
-        url: "/og?title=The%20Autopsy%20of%20Cities&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Autopsy%20of%20Cities&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Autopsy of Cities",

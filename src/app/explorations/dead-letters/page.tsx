@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the things we write but never send, and the office that read them for us",
     images: [
       {
-        url: "/og?title=Dead%20Letters&category=History%20%26%20Longing&color=amber&readTime=11%20min",
+        url: "/og?title=Dead%20Letters&category=History%20%26%20Longing&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Dead Letters",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange physics of almost-beginning",
     images: [
       {
-        url: "/og?title=The%20Silence%20Before%20the%20Breath&category=Essay&color=indigo&readTime=11%20min",
+        url: "/og?title=The%20Silence%20Before%20the%20Breath&category=Essay&color=indigo&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Silence Before the Breath",

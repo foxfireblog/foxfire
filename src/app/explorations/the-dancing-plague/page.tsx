@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Strasbourg, 1518: When the body moves and the mind cannot say why",
     images: [
       {
-        url: "/og?title=The%20Dancing%20Plague&category=Historical%20Inquiry&color=red&readTime=14%20min",
+        url: "/og?title=The%20Dancing%20Plague&category=Historical%20Inquiry&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Dancing Plague",

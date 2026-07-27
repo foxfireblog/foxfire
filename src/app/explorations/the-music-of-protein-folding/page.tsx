@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When scientists turned the language of life into sound, they discovered it was already singing",
     images: [
       {
-        url: "/og?title=The%20Music%20of%20Protein%20Folding&category=Natural%20Philosophy&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Music%20of%20Protein%20Folding&category=Natural%20Philosophy&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Music of Protein Folding",

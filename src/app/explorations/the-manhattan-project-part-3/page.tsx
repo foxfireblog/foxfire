@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Truman's choice, the targeting committee, and the destruction of Hiroshima and Nagasaki",
     images: [
       {
-        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Decision%20(Part%20III%20of%20IV)&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Manhattan%20Project%3A%20The%20Decision%20(Part%20III%20of%20IV)&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Manhattan Project: The Decision (Part III of IV)",

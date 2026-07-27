@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On synesthesia, the borders between senses, and what it means that perception is private",
     images: [
       {
-        url: "/og?title=The%20Flavor%20of%20Music&category=Essay&color=violet&readTime=15%20min",
+        url: "/og?title=The%20Flavor%20of%20Music&category=Essay&color=violet&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Flavor of Music",

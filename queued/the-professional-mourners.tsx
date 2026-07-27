@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the ancient craft of weeping for strangers, and why we've always needed someone to teach us how to grieve",
     images: [
       {
-        url: "/og?title=The%20Professional%20Mourners&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Professional%20Mourners&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Professional Mourners",

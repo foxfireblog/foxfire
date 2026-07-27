@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "In the deep ocean, light is hunger wearing a halo",
     images: [
       {
-        url: "/og?title=The%20Abyssal%20Lanterns&category=Natural%20History&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Abyssal%20Lanterns&category=Natural%20History&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Abyssal Lanterns",

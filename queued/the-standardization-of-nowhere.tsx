@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the same beige room came to exist everywhere on Earth simultaneously",
     images: [
       {
-        url: "/og?title=The%20Standardization%20of%20Nowhere&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Standardization%20of%20Nowhere&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Standardization of Nowhere",

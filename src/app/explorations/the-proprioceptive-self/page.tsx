@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "You have a secret sense that tells you where your body ends. It can be stolen.",
     images: [
       {
-        url: "/og?title=The%20Proprioceptive%20Self&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Proprioceptive%20Self&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Proprioceptive Self",

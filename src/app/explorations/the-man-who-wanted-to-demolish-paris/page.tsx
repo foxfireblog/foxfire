@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Le Corbusier's Plan Voisin and the city that almost died so cities could live",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Wanted%20to%20Demolish%20Paris&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Man%20Who%20Wanted%20to%20Demolish%20Paris&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Wanted to Demolish Paris",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What happens when a secret police archive survives its creators",
     images: [
       {
-        url: "/og?title=The%20File%20That%20Outlived%20the%20Regime&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20File%20That%20Outlived%20the%20Regime&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The File That Outlived the Regime",

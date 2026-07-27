@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What the children of the starving taught us about inheritance",
     images: [
       {
-        url: "/og?title=The%20Body%20That%20Remembered%20the%20Famine&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Body%20That%20Remembered%20the%20Famine&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Body That Remembered the Famine",

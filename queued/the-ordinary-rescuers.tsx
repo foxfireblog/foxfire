@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What made some people refuse to obey",
     images: [
       {
-        url: "/og?title=The%20Ordinary%20Rescuers&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Ordinary%20Rescuers&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ordinary Rescuers",

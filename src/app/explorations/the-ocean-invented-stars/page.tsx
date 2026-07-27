@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Below the sunlight, the ocean invented its own stars",
     images: [
       {
-        url: "/og?title=Deep%20Ocean%20Bioluminescence&category=Natural%20History&color=cyan&readTime=13%20min",
+        url: "/og?title=Deep%20Ocean%20Bioluminescence&category=Natural%20History&color=cyan&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Deep Ocean Bioluminescence",

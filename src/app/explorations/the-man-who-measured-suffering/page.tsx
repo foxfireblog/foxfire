@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Jeremy Bentham, the felicific calculus, and the dream that won't die",
     images: [
       {
-        url: "/og?title=The%20Man%20Who%20Measured%20Suffering&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Man%20Who%20Measured%20Suffering&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Man Who Measured Suffering",

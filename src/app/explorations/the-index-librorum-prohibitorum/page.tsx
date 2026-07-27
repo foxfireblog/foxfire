@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The Catholic Church spent four centuries curating history's greatest reading list",
     images: [
       {
-        url: "/og?title=The%20Index%20Librorum%20Prohibitorum&category=Essay&color=red&readTime=11%20min",
+        url: "/og?title=The%20Index%20Librorum%20Prohibitorum&category=Essay&color=red&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Index Librorum Prohibitorum",

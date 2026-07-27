@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the river that redrew nations while people slept",
     images: [
       {
-        url: "/og?title=The%20Border%20That%20Moves&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Border%20That%20Moves&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Border That Moves",

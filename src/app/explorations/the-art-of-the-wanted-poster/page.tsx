@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the state learned to describe a human face",
     images: [
       {
-        url: "/og?title=The%20Art%20of%20the%20Wanted%20Poster&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Art%20of%20the%20Wanted%20Poster&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Art of the Wanted Poster",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What if the web already ended and nobody noticed?",
     images: [
       {
-        url: "/og?title=Dead%20Internet%20Theory&category=Essay&color=indigo&readTime=11%20min",
+        url: "/og?title=Dead%20Internet%20Theory&category=Essay&color=indigo&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Dead Internet Theory",

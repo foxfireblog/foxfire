@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How plague, famine, and epidemic disease left their fingerprints in your DNA — and why your genome is a graveyard",
     images: [
       {
-        url: "/og?title=The%20Body%20That%20Kept%20the%20Score&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Body%20That%20Kept%20the%20Score&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Body That Kept the Score",

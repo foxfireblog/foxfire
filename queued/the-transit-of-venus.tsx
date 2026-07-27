@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the world conspired to measure the solar system — and almost failed",
     images: [
       {
-        url: "/og?title=The%20Transit%20of%20Venus&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Transit%20of%20Venus&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Transit of Venus",

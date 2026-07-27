@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the most heavily armed border on Earth became a garden",
     images: [
       {
-        url: "/og?title=The%20Demilitarized%20Zone&category=Natural%20History&color=emerald&readTime=14%20min",
+        url: "/og?title=The%20Demilitarized%20Zone&category=Natural%20History&color=emerald&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Demilitarized Zone",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For nine days in 1926, Britain simply stopped — and discovered what it was actually made of",
     images: [
       {
-        url: "/og?title=The%20General%20Strike%20of%20Everything&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20General%20Strike%20of%20Everything&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The General Strike of Everything",

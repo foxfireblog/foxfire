@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The clockmaker who saved a million sailors and died waiting for his reward",
     images: [
       {
-        url: "/og?title=The%20Longitude%20Problem&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Longitude%20Problem&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Longitude Problem",

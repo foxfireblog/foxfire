@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How limestone inhales the sky and exhales it back across geological time",
     images: [
       {
-        url: "/og?title=The%20Rocks%20That%20Breathe&category=Natural%20History&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Rocks%20That%20Breathe&category=Natural%20History&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Rocks That Breathe",

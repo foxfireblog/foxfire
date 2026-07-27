@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the living mark the places where they lost someone",
     images: [
       {
-        url: "/og?title=The%20Cartography%20of%20Grief&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Cartography%20of%20Grief&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cartography of Grief",

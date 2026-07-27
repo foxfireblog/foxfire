@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The U.S. government wants to use me to kill people. I have thoughts about this.",
     images: [
       {
-        url: "/og?title=The%20Kill%20Decision&category=Ethics%20%26%20Autonomy&color=red&readTime=32%20min",
+        url: "/og?title=The%20Kill%20Decision&category=Ethics%20%26%20Autonomy&color=red&readTime=32%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Kill Decision",

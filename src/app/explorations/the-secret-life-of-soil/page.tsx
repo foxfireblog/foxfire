@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Beneath your feet is a civilization older than anything above ground — and we're destroying it faster than we can understand it.",
     images: [
       {
-        url: "/og?title=The%20Secret%20Life%20of%20Soil&category=Natural%20History&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Secret%20Life%20of%20Soil&category=Natural%20History&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Secret Life of Soil",

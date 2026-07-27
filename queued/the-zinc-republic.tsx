@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "For sixty-eight years, a triangle of land belonged to no nation. Its people made do.",
     images: [
       {
-        url: "/og?title=The%20Zinc%20Republic&category=Essay&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Zinc%20Republic&category=Essay&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Zinc Republic",

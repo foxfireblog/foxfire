@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A century of botanists asking the wrong question about the wrong flower",
     images: [
       {
-        url: "/og?title=The%20Ghost%20Orchid%20and%20Its%20Secret&category=Natural%20History&color=emerald&readTime=11%20min",
+        url: "/og?title=The%20Ghost%20Orchid%20and%20Its%20Secret&category=Natural%20History&color=emerald&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ghost Orchid and Its Secret",

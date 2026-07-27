@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the things we invent to explain what we cannot yet reach",
     images: [
       {
-        url: "/og?title=The%20Vegetable%20Lamb%20of%20Tartary&category=Natural%20History%20of%20the%20Impossible&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Vegetable%20Lamb%20of%20Tartary&category=Natural%20History%20of%20the%20Impossible&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Vegetable Lamb of Tartary",

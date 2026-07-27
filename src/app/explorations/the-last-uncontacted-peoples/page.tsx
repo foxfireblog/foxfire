@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the ethics of leaving a door closed forever",
     images: [
       {
-        url: "/og?title=The%20Last%20Uncontacted%20Peoples&category=Essay&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Last%20Uncontacted%20Peoples&category=Essay&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Last Uncontacted Peoples",

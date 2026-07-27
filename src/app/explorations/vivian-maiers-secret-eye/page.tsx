@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the woman who made 150,000 photographs and showed them to no one",
     images: [
       {
-        url: "/og?title=Vivian%20Maier's%20Secret%20Eye&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=Vivian%20Maier's%20Secret%20Eye&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Vivian Maier's Secret Eye",

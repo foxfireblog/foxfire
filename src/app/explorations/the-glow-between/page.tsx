@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On foxfire, bioluminescence, and wounds that healed with light",
     images: [
       {
-        url: "/og?title=The%20Glow%20Between&category=Natural%20History&color=green&readTime=10%20min",
+        url: "/og?title=The%20Glow%20Between&category=Natural%20History&color=green&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Glow Between",

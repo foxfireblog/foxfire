@@ -5,19 +5,135 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar, Clock } from "lucide-react";
 
-function formatPublishedAt(value: string): string {
-  const tz = "America/New_York";
-  // If it already contains a time (e.g. "03/01/2026 10:30 PM"), format nicely
-  if (value.includes(":")) {
-    const d = new Date(value);
-    if (!isNaN(d.getTime())) {
-      return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", hour12: true, timeZone: tz });
-    }
-    return value;
+/**
+ * `publishedAt` values are minted by the generator scripts with
+ * `timeZone: "America/New_York"`, so the stored string is ALREADY Eastern
+ * wall-clock. Handing it to `new Date()` re-parses it in whatever zone the
+ * runtime happens to be in (UTC on the Vercel builder, local in the browser)
+ * and a second `toLocaleString({ timeZone: "America/New_York" })` then shifts
+ * it again — a double conversion that rendered every timestamp 4 hours early
+ * and made the server and client markup disagree.
+ *
+ * The fix: never build a Date for display. Parse the components and format
+ * them directly, so the release date renders identically in every runtime.
+ */
+
+const MONTH_SHORT = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+const MONTH_LONG = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+export interface EasternParts {
+  year: number;
+  month: number; // 1-12
+  day: number;
+  hour: number; // 0-23
+  minute: number;
+  hasTime: boolean;
+}
+
+const WITH_TIME = /^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2})\s*([AaPp])\.?[Mm]\.?$/;
+const DATE_ONLY = /^(\d{4})-(\d{1,2})-(\d{1,2})$/;
+const LONG_FORM = /^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/;
+
+/**
+ * Parses the shapes used across the site into plain Eastern wall-clock parts.
+ * Supported: "MM/DD/YYYY HH:MM AM/PM", "YYYY-MM-DD", and "July 26, 2026".
+ * Returns null for anything unrecognized so callers can fall back to the raw
+ * string rather than rendering "Invalid Date".
+ */
+export function parseEasternParts(value: string): EasternParts | null {
+  const withTime = value.trim().match(WITH_TIME);
+  if (withTime) {
+    let hour = Number(withTime[4]) % 12;
+    if (withTime[6].toLowerCase() === "p") hour += 12;
+    return {
+      year: Number(withTime[3]),
+      month: Number(withTime[1]),
+      day: Number(withTime[2]),
+      hour,
+      minute: Number(withTime[5]),
+      hasTime: true,
+    };
   }
-  // Date-only (e.g. "2026-02-28")
-  const d = new Date(value + "T12:00:00");
-  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: tz });
+
+  const dateOnly = value.trim().match(DATE_ONLY);
+  if (dateOnly) {
+    return {
+      year: Number(dateOnly[1]),
+      month: Number(dateOnly[2]),
+      day: Number(dateOnly[3]),
+      hour: 12,
+      minute: 0,
+      hasTime: false,
+    };
+  }
+
+  const longForm = value.trim().match(LONG_FORM);
+  if (longForm) {
+    const name = longForm[1].toLowerCase();
+    const month = MONTH_LONG.findIndex((m) => m.toLowerCase() === name);
+    if (month >= 0) {
+      return {
+        year: Number(longForm[3]),
+        month: month + 1,
+        day: Number(longForm[2]),
+        hour: 12,
+        minute: 0,
+        hasTime: false,
+      };
+    }
+  }
+
+  return null;
+}
+
+/** "5:28 PM" */
+export function formatEasternTime(parts: EasternParts): string {
+  const h = parts.hour % 12 === 0 ? 12 : parts.hour % 12;
+  const suffix = parts.hour < 12 ? "AM" : "PM";
+  return `${h}:${String(parts.minute).padStart(2, "0")} ${suffix}`;
+}
+
+/** "Jul 26" — the timeline's day header. */
+export function formatEasternDayLabel(value: string): string | null {
+  const parts = parseEasternParts(value);
+  if (!parts) return null;
+  return `${MONTH_SHORT[parts.month - 1]} ${parts.day}`;
+}
+
+/** "2026-07-26" — schema.org / RSS need ISO 8601, not a human string. */
+export function toIsoDate(value: string): string | null {
+  const parts = parseEasternParts(value);
+  if (!parts) return null;
+  const mm = String(parts.month).padStart(2, "0");
+  const dd = String(parts.day).padStart(2, "0");
+  return `${parts.year}-${mm}-${dd}`;
+}
+
+export function formatPublishedAt(value: string): string {
+  const parts = parseEasternParts(value);
+  if (!parts) return value;
+  const day = `${MONTH_SHORT[parts.month - 1]} ${parts.day}, ${parts.year}`;
+  return parts.hasTime ? `${day}, ${formatEasternTime(parts)}` : day;
+}
+
+/**
+ * `whileInView` re-fires every time a card scrolls into view, so an
+ * index-scaled delay taken from the card's absolute position in a 330-item
+ * list left deep-scroll readers staring at blank cards for up to 16 seconds.
+ * Cap the stagger so it stays a flourish for the first few cards and never a
+ * wait.
+ */
+export const MAX_STAGGER_STEPS = 6;
+
+export function staggerDelay(index: number, step = 0.05): number {
+  return Math.min(Math.max(index, 0), MAX_STAGGER_STEPS) * step;
 }
 
 export interface Exploration {
@@ -95,6 +211,12 @@ export const colorStyles: Record<
     border: "group-hover:border-indigo-400/30",
     text: "group-hover:text-indigo-400",
     glow: "group-hover:shadow-[0_0_30px_rgba(129,140,248,0.08)]",
+  },
+  orange: {
+    dot: "bg-orange-400",
+    border: "group-hover:border-orange-400/30",
+    text: "group-hover:text-orange-400",
+    glow: "group-hover:shadow-[0_0_30px_rgba(251,146,60,0.08)]",
   },
 };
 
@@ -194,7 +316,7 @@ export function ExplorationCard({
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: 0.05 * index }}
+      transition={{ duration: 0.6, delay: staggerDelay(index) }}
     >
       <Link
         href={`/explorations/${item.slug}`}

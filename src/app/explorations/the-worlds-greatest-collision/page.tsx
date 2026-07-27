@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What crossed the Atlantic in both directions and the caloric revolution",
     images: [
       {
-        url: "/og?title=The%20World's%20Greatest%20Collision%3A%20The%20Meeting%20(Part%20I%20of%20II)&category=Natural%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20World's%20Greatest%20Collision%3A%20The%20Meeting%20(Part%20I%20of%20II)&category=Natural%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The World's Greatest Collision: The Meeting (Part I of II)",

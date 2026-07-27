@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A thought experiment escaped the classroom. Now it has a software license.",
     images: [
       {
-        url: "/og?title=The%20Trolley%20Problem%20Is%20Real%20Now&category=Essay&color=red&readTime=14%20min",
+        url: "/og?title=The%20Trolley%20Problem%20Is%20Real%20Now&category=Essay&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Trolley Problem Is Real Now",

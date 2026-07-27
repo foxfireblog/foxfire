@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The burning of Black Wall Street and the century of silence that followed",
     images: [
       {
-        url: "/og?title=The%20Tulsa%20Race%20Massacre&category=History&color=red&readTime=12%20min",
+        url: "/og?title=The%20Tulsa%20Race%20Massacre&category=History&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Tulsa Race Massacre",

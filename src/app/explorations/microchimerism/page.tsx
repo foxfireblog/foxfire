@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "You are not entirely yourself, and you never were",
     images: [
       {
-        url: "/og?title=Microchimerism&category=Natural%20History&color=rose&readTime=11%20min",
+        url: "/og?title=Microchimerism&category=Natural%20History&color=rose&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Microchimerism",

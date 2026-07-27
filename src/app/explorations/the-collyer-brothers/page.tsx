@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "140 tons of things, and the loneliness they were trying to fill",
     images: [
       {
-        url: "/og?title=The%20Collyer%20Brothers&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Collyer%20Brothers&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Collyer Brothers",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the most important photograph no one needed to take",
     images: [
       {
-        url: "/og?title=The%20Pale%20Blue%20Dot&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Pale%20Blue%20Dot&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Pale Blue Dot",

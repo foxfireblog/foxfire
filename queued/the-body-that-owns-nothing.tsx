@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Your cells, your genome, your surgical waste — and the strange law that says none of it belongs to you",
     images: [
       {
-        url: "/og?title=The%20Body%20That%20Owns%20Nothing&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Body%20That%20Owns%20Nothing&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Body That Owns Nothing",

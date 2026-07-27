@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A woman built a labyrinth of guilt, and it never stopped growing",
     images: [
       {
-        url: "/og?title=The%20Winchester%20Mystery%20House&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Winchester%20Mystery%20House&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Winchester Mystery House",

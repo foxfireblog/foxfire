@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When grief met chemistry and the dead learned to pose",
     images: [
       {
-        url: "/og?title=The%20Spirit%20Photographs&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Spirit%20Photographs&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Spirit Photographs",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How we found our way before we outsourced it to the sky",
     images: [
       {
-        url: "/og?title=Dead%20Reckoning&category=Essay&color=indigo&readTime=15%20min",
+        url: "/og?title=Dead%20Reckoning&category=Essay&color=indigo&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "Dead Reckoning",

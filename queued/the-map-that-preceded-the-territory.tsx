@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On phantom islands, wishful cartography, and the strange power of drawing things into existence",
     images: [
       {
-        url: "/og?title=The%20Map%20That%20Preceded%20the%20Territory&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Map%20That%20Preceded%20the%20Territory&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Map That Preceded the Territory",

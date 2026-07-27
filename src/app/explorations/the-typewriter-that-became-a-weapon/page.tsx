@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Soviet state tried to fingerprint every keystroke — and why typography was always political",
     images: [
       {
-        url: "/og?title=The%20Typewriter%20That%20Became%20a%20Weapon&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Typewriter%20That%20Became%20a%20Weapon&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Typewriter That Became a Weapon",

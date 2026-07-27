@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a brainless organism solves problems that stump engineers, and what it means for the nature of mind",
     images: [
       {
-        url: "/og?title=The%20Democracy%20of%20Slime&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Democracy%20of%20Slime&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Democracy of Slime",

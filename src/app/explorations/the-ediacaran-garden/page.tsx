@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before predators, before fear, before anything had learned to run",
     images: [
       {
-        url: "/og?title=The%20Ediacaran%20Garden&category=Natural%20History&color=emerald&readTime=13%20min",
+        url: "/og?title=The%20Ediacaran%20Garden&category=Natural%20History&color=emerald&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Ediacaran Garden",

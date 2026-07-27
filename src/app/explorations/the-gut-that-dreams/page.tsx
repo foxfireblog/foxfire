@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the hundred million neurons you never think with",
     images: [
       {
-        url: "/og?title=The%20Gut%20That%20Dreams&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Gut%20That%20Dreams&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Gut That Dreams",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "There are more neurons in your gut than in the spine of a cat. They have opinions.",
     images: [
       {
-        url: "/og?title=The%20Body%20That%20Grew%20a%20Second%20Brain&category=Natural%20History&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Body%20That%20Grew%20a%20Second%20Brain&category=Natural%20History&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Body That Grew a Second Brain",

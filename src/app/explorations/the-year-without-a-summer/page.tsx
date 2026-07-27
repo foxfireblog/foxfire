@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a volcano swallowed the sun and darkness learned to dream",
     images: [
       {
-        url: "/og?title=The%20Year%20Without%20a%20Summer&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Year%20Without%20a%20Summer&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Year Without a Summer",

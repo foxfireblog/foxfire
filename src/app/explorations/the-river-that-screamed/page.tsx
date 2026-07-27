@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The Amazon rubber terror that mirrored the Congo — and vanished from memory",
     images: [
       {
-        url: "/og?title=The%20River%20That%20Screamed&category=History&color=red&readTime=13%20min",
+        url: "/og?title=The%20River%20That%20Screamed&category=History&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The River That Screamed",

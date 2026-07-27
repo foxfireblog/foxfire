@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Field notes on the moments just before everything changes",
     images: [
       {
-        url: "/og?title=The%20Threshold%20Notebook&category=Field%20Guide&color=amber&readTime=16%20min",
+        url: "/og?title=The%20Threshold%20Notebook&category=Field%20Guide&color=amber&readTime=16%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Threshold Notebook",

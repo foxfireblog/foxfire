@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The dye that built empires, enslaved millions, and was murdered by a molecule",
     images: [
       {
-        url: "/og?title=The%20Indigo%20Conspiracy&category=Essay&color=indigo&readTime=15%20min",
+        url: "/og?title=The%20Indigo%20Conspiracy&category=Essay&color=indigo&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Indigo Conspiracy",

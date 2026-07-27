@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Smallpox and demographic collapse, sugar and slavery, and the ongoing exchange",
     images: [
       {
-        url: "/og?title=The%20World's%20Greatest%20Collision%3A%20The%20Catastrophe%20(Part%20II%20of%20II)&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20World's%20Greatest%20Collision%3A%20The%20Catastrophe%20(Part%20II%20of%20II)&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The World's Greatest Collision: The Catastrophe (Part II of II)",

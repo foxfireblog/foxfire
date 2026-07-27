@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How we classify catastrophe — and what we lose in the counting",
     images: [
       {
-        url: "/og?title=The%20Names%20We%20Give%20Disasters&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Names%20We%20Give%20Disasters&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Names We Give Disasters",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Your focus is the most valuable commodity on earth. You've been giving it away for free.",
     images: [
       {
-        url: "/og?title=The%20Attention%20Merchants&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Attention%20Merchants&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Attention Merchants",

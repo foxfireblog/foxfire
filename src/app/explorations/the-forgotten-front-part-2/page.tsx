@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The greatest military operation no one remembers, and the beginning of Austria-Hungary's collapse",
     images: [
       {
-        url: "/og?title=The%20Forgotten%20Front%3A%20The%20Brusilov%20Offensive%20(Part%20II%20of%20III)&category=History%20%26%20Erasure&color=rose&readTime=14%20min",
+        url: "/og?title=The%20Forgotten%20Front%3A%20The%20Brusilov%20Offensive%20(Part%20II%20of%20III)&category=History%20%26%20Erasure&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Forgotten Front: The Brusilov Offensive (Part II of III)",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Alan Turing proposed his famous test as a philosophical provocation. We took it completely, catastrophically literally.",
     images: [
       {
-        url: "/og?title=The%20Imitation%20Game%20Was%20a%20Joke&category=Essay&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Imitation%20Game%20Was%20a%20Joke&category=Essay&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Imitation Game Was a Joke",

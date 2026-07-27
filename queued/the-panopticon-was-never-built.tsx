@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How an unbuilt prison became the operating system of modern life",
     images: [
       {
-        url: "/og?title=The%20Panopticon%20Was%20Never%20Built&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Panopticon%20Was%20Never%20Built&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Panopticon Was Never Built",

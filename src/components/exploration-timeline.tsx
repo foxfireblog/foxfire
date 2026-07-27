@@ -4,7 +4,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock } from "lucide-react";
-import { colorStyles, type Exploration } from "./exploration-card";
+import {
+  colorStyles,
+  formatEasternDayLabel,
+  formatEasternTime,
+  parseEasternParts,
+  staggerDelay,
+  type Exploration,
+} from "./exploration-card";
 
 interface DateGroup {
   label: string;
@@ -16,21 +23,14 @@ function groupByDate(explorations: Exploration[]): DateGroup[] {
 
   for (const item of explorations) {
     if (!item.publishedAt) continue;
-    const d = new Date(item.publishedAt);
-    if (isNaN(d.getTime())) continue;
+    // publishedAt is already Eastern wall-clock — parse the components rather
+    // than round-tripping through Date, which double-converts (see
+    // exploration-card.tsx) and desyncs server from client.
+    const parts = parseEasternParts(item.publishedAt);
+    if (!parts) continue;
 
-    const tz = "America/New_York";
-    const dateKey = d.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      timeZone: tz,
-    });
-    const time = d.toLocaleTimeString("en-US", {
-      hour: "numeric",
-      minute: "2-digit",
-      hour12: true,
-      timeZone: tz,
-    });
+    const dateKey = formatEasternDayLabel(item.publishedAt)!;
+    const time = formatEasternTime(parts);
 
     if (!groups.has(dateKey)) groups.set(dateKey, []);
     groups.get(dateKey)!.push({ ...item, time });
@@ -51,7 +51,7 @@ export function ExplorationTimeline({
 
   return (
     <div className="relative">
-      {groups.map((group, gi) => (
+      {groups.map((group) => (
         <div key={group.label} className="relative">
           {/* Date header */}
           <motion.div
@@ -71,7 +71,6 @@ export function ExplorationTimeline({
           <div className="relative ml-3 sm:ml-4 border-l border-border/40 pl-5 sm:pl-6 pb-8">
             {group.entries.map((item, ei) => {
               const colors = colorStyles[item.color] || colorStyles.green;
-              const globalIndex = gi * 100 + ei;
 
               return (
                 <motion.div
@@ -81,7 +80,7 @@ export function ExplorationTimeline({
                   viewport={{ once: true }}
                   transition={{
                     duration: 0.5,
-                    delay: 0.08 * ei,
+                    delay: staggerDelay(ei, 0.08),
                   }}
                   className="relative mb-5 last:mb-0"
                 >

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When wisdom requires a cruelty only the wise can afford",
     images: [
       {
-        url: "/og?title=The%20Judgment%20of%20Solomon%20Problem&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Judgment%20of%20Solomon%20Problem&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Judgment of Solomon Problem",

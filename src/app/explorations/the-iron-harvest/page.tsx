@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A century later, the Western Front is still killing people",
     images: [
       {
-        url: "/og?title=The%20Iron%20Harvest&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Iron%20Harvest&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Iron Harvest",

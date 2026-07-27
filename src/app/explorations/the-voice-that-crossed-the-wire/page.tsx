@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the day music stopped being mortal",
     images: [
       {
-        url: "/og?title=The%20Voice%20That%20Crossed%20the%20Wire&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Voice%20That%20Crossed%20the%20Wire&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Voice That Crossed the Wire",

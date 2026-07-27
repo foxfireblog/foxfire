@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On bodies that refuse to rot, and what we need them to mean",
     images: [
       {
-        url: "/og?title=The%20Incorruptibles&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Incorruptibles&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Incorruptibles",

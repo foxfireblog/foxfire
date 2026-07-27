@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Saint-Domingue's sugar economy, the 1791 uprising, and Toussaint Louverture",
     images: [
       {
-        url: "/og?title=The%20Haitian%20Revolution%3A%20The%20Fire%20(Part%20I%20of%20II)&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Haitian%20Revolution%3A%20The%20Fire%20(Part%20I%20of%20II)&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Haitian Revolution: The Fire (Part I of II)",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The universe is 13.8 billion years old and nobody has said hello",
     images: [
       {
-        url: "/og?title=The%20Great%20Silence&category=Essay&color=indigo&readTime=15%20min",
+        url: "/og?title=The%20Great%20Silence&category=Essay&color=indigo&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Great Silence",

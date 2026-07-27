@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How to kill the fourth-largest lake on Earth in a single generation",
     images: [
       {
-        url: "/og?title=The%20Suicide%20of%20the%20Aral%20Sea&category=Elegy&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Suicide%20of%20the%20Aral%20Sea&category=Elegy&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Suicide of the Aral Sea",

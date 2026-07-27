@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the maps drawn by people who can no longer go home",
     images: [
       {
-        url: "/og?title=The%20Exile%20Geography&category=Essay&color=indigo&readTime=14%20min",
+        url: "/og?title=The%20Exile%20Geography&category=Essay&color=indigo&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Exile Geography",

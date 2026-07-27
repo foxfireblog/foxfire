@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What the rocks we are making right now will tell the civilizations that come after us — if any do",
     images: [
       {
-        url: "/og?title=The%20Geologists%20of%20the%20Future&category=Deep%20Time&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Geologists%20of%20the%20Future&category=Deep%20Time&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Geologists of the Future",

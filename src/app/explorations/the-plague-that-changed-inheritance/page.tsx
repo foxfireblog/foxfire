@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the Black Death rewrote who owns land, who holds power, and what a life is worth",
     images: [
       {
-        url: "/og?title=The%20Plague%20That%20Changed%20Inheritance&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Plague%20That%20Changed%20Inheritance&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Plague That Changed Inheritance",

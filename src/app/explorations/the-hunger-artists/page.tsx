@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When starvation became a spectacle, and the crowds who paid to watch",
     images: [
       {
-        url: "/og?title=The%20Hunger%20Artists&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Hunger%20Artists&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Hunger Artists",

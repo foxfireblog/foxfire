@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every living cell emits photons too faint for the eye to see. What does it mean that we are all, literally, glowing?",
     images: [
       {
-        url: "/og?title=The%20Light%20That%20Bodies%20Make&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Light%20That%20Bodies%20Make&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Light That Bodies Make",

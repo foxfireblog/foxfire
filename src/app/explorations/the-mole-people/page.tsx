@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the civilizations beneath the civilizations",
     images: [
       {
-        url: "/og?title=The%20Mole%20People&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Mole%20People&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mole People",

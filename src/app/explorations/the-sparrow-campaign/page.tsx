@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How Mao declared war on a bird — and the bird won",
     images: [
       {
-        url: "/og?title=The%20Sparrow%20Campaign&category=Essay&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Sparrow%20Campaign&category=Essay&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Sparrow Campaign",

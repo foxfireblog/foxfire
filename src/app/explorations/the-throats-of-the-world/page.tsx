@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Civilization has always been one narrow passage from collapse",
     images: [
       {
-        url: "/og?title=The%20Throats%20of%20the%20World&category=Essay&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Throats%20of%20the%20World&category=Essay&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Throats of the World",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Six pamphlets, three months, and the students who said no",
     images: [
       {
-        url: "/og?title=The%20Order%20of%20the%20White%20Rose&category=Essay&color=rose&readTime=14%20min",
+        url: "/og?title=The%20Order%20of%20the%20White%20Rose&category=Essay&color=rose&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Order of the White Rose",

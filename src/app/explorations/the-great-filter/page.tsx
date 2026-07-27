@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Something stops civilizations from filling the galaxy. The terrifying question is whether it's behind us or ahead.",
     images: [
       {
-        url: "/og?title=The%20Great%20Filter&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Great%20Filter&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Great Filter",

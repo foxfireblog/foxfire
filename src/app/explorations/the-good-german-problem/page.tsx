@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What it actually took to resist — and why we should be suspicious of how easily we imagine we would have",
     images: [
       {
-        url: "/og?title=The%20Good%20German%20Problem&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Good%20German%20Problem&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Good German Problem",

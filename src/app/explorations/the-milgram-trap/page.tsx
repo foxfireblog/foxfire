@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The most disturbing experiment in psychology wasn't about electricity. It was about obedience. It was about you.",
     images: [
       {
-        url: "/og?title=The%20Milgram%20Trap&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Milgram%20Trap&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Milgram Trap",

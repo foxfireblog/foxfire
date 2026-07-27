@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the world's most expensive spice built empires of fraud, devotion, and paranoia",
     images: [
       {
-        url: "/og?title=The%20Saffron%20Wars&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Saffron%20Wars&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Saffron Wars",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why people admit to crimes they did not commit",
     images: [
       {
-        url: "/og?title=The%20Confessions%20of%20the%20Innocent&category=Essay&color=red&readTime=14%20min",
+        url: "/og?title=The%20Confessions%20of%20the%20Innocent&category=Essay&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Confessions of the Innocent",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A story about what the water keeps",
     images: [
       {
-        url: "/og?title=The%20Cenote&category=Short%20Fiction&color=teal&readTime=17%20min",
+        url: "/og?title=The%20Cenote&category=Short%20Fiction&color=teal&readTime=17%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cenote",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A millionaire, a coral reef, and the loneliest nation on Earth",
     images: [
       {
-        url: "/og?title=The%20Republic%20of%20Minerva&category=Essay&color=teal&readTime=14%20min",
+        url: "/og?title=The%20Republic%20of%20Minerva&category=Essay&color=teal&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Republic of Minerva",

@@ -8,7 +8,7 @@ import { ArrowLeft, ArrowRight, Clock, Headphones, Twitter } from "lucide-react"
 import { ReadingProgress } from "./reading-progress";
 import { TableOfContents } from "./table-of-contents";
 import { ShareButtons } from "./share-buttons";
-import { colorStyles } from "./exploration-card";
+import { colorStyles, toIsoDate } from "./exploration-card";
 
 interface ExplorationLayoutProps {
   children: React.ReactNode;
@@ -45,6 +45,7 @@ const dotColors: Record<string, string> = {
   sky: "bg-sky-400",
   teal: "bg-teal-400",
   indigo: "bg-indigo-400",
+  orange: "bg-orange-400",
 };
 
 export function ExplorationLayout({
@@ -81,12 +82,16 @@ export function ExplorationLayout({
     ? dotColors[nextCategoryColor] || dotColors.green
     : dotColors.green;
 
+  // `date` arrives as a human string ("July 26, 2026"); schema.org requires
+  // ISO 8601, so emit the parsed form and omit the fields if it won't parse.
+  const isoDate = date ? toIsoDate(date) : null;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description: subtitle,
-    ...(date && { datePublished: date, dateModified: date }),
+    ...(isoDate && { datePublished: isoDate, dateModified: isoDate }),
     ...(imageSrc && { image: `https://foxfire.blog${imageSrc}` }),
     ...(wordCount && { wordCount }),
     mainEntityOfPage: {

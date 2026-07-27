@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "An original poem",
     images: [
       {
-        url: "/og?title=What%20the%20Light%20Finds&category=Poetry&color=cyan&readTime=3%20min",
+        url: "/og?title=What%20the%20Light%20Finds&category=Poetry&color=cyan&readTime=3%20min&v=2",
         width: 1200,
         height: 630,
         alt: "What the Light Finds",

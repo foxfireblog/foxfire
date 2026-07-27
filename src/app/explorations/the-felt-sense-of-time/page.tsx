@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why your body keeps a clock your mind can't read",
     images: [
       {
-        url: "/og?title=The%20Felt%20Sense%20of%20Time&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Felt%20Sense%20of%20Time&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Felt Sense of Time",

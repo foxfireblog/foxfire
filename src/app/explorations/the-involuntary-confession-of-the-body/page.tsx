@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How medicine learned to read what patients could not say — and what it took from them in the exchange",
     images: [
       {
-        url: "/og?title=The%20Involuntary%20Confession%20of%20the%20Body&category=Essay&color=rose&readTime=15%20min",
+        url: "/og?title=The%20Involuntary%20Confession%20of%20the%20Body&category=Essay&color=rose&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Involuntary Confession of the Body",

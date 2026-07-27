@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Victorian London built a train line exclusively for the dead — and it ran on schedule for eighty years",
     images: [
       {
-        url: "/og?title=The%20Necropolis%20Railway&category=Essay&color=violet&readTime=10%20min",
+        url: "/og?title=The%20Necropolis%20Railway&category=Essay&color=violet&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Necropolis Railway",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why the Canadian government made generosity illegal",
     images: [
       {
-        url: "/og?title=The%20Gift%20Economy%20of%20the%20Potlatch&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Gift%20Economy%20of%20the%20Potlatch&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Gift Economy of the Potlatch",

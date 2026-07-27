@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Some feelings only exist in languages you'll never speak",
     images: [
       {
-        url: "/og?title=The%20Untranslatable&category=Field%20Guide&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Untranslatable&category=Field%20Guide&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Untranslatable",

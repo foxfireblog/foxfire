@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why nearly every animal on Earth agreed on the same body plan — and what it means that they did",
     images: [
       {
-        url: "/og?title=The%20Grammar%20of%20Symmetry&category=Natural%20History&color=teal&readTime=14%20min",
+        url: "/og?title=The%20Grammar%20of%20Symmetry&category=Natural%20History&color=teal&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Grammar of Symmetry",

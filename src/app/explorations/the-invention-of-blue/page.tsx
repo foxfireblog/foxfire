@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why Homer's sea was wine-dark, and what that tells us about the eye, the mind, and the world",
     images: [
       {
-        url: "/og?title=The%20Invention%20of%20Blue&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Invention%20of%20Blue&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Invention of Blue",

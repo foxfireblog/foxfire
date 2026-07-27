@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How paperwork became the perfect weapon for mass killing",
     images: [
       {
-        url: "/og?title=The%20Desk%20Murderers&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Desk%20Murderers&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Desk Murderers",

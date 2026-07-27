@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a flower from the steppes became the currency of obsession — and what beauty costs when it becomes power",
     images: [
       {
-        url: "/og?title=The%20Tulip%20That%20Broke%20an%20Empire&category=Essay&color=rose&readTime=13%20min",
+        url: "/og?title=The%20Tulip%20That%20Broke%20an%20Empire&category=Essay&color=rose&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Tulip That Broke an Empire",

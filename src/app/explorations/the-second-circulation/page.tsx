@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Inside Poland's clandestine publishing empire — the most sophisticated underground press in history",
     images: [
       {
-        url: "/og?title=The%20Second%20Circulation&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Second%20Circulation&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Second Circulation",

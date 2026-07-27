@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How a single orchid remade an island, a labor system, and the global meaning of 'plain'",
     images: [
       {
-        url: "/og?title=The%20Vanilla%20Conspiracy&category=Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Vanilla%20Conspiracy&category=Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Vanilla Conspiracy",

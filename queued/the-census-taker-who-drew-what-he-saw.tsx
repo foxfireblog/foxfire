@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "August Sander photographed every kind of German. The Nazis understood exactly what he was doing.",
     images: [
       {
-        url: "/og?title=The%20Census%20Taker%20Who%20Drew%20What%20He%20Saw&category=Essay&color=amber&readTime=10%20min",
+        url: "/og?title=The%20Census%20Taker%20Who%20Drew%20What%20He%20Saw&category=Essay&color=amber&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Census Taker Who Drew What He Saw",

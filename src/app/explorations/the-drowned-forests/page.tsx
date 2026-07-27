@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The world that vanished beneath the waves is still standing",
     images: [
       {
-        url: "/og?title=The%20Drowned%20Forests&category=Natural%20History&color=teal&readTime=13%20min",
+        url: "/og?title=The%20Drowned%20Forests&category=Natural%20History&color=teal&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Drowned Forests",

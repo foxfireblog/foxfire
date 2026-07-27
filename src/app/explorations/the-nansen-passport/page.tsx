@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When the world decided you didn't exist, one man invented a piece of paper that said you did",
     images: [
       {
-        url: "/og?title=The%20Nansen%20Passport&category=Essay&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Nansen%20Passport&category=Essay&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Nansen Passport",

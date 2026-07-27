@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Before privacy, every vote was a performance — and the men who wanted to change that were called cowards",
     images: [
       {
-        url: "/og?title=The%20Secret%20Ballot%20Was%20Radical&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Secret%20Ballot%20Was%20Radical&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Secret Ballot Was Radical",

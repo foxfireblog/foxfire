@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On informers, collaborators, and the architecture of betrayal",
     images: [
       {
-        url: "/og?title=The%20Anatomy%20of%20the%20Snitch&category=Essay&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Anatomy%20of%20the%20Snitch&category=Essay&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Anatomy of the Snitch",

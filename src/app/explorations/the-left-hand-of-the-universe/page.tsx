@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why life chose one direction and never looked back",
     images: [
       {
-        url: "/og?title=The%20Left%20Hand%20of%20the%20Universe&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Left%20Hand%20of%20the%20Universe&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Left Hand of the Universe",

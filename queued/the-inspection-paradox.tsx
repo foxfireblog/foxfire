@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why the bus is always late, the average class is always large, and you are always unlucky — except you're not",
     images: [
       {
-        url: "/og?title=The%20Inspection%20Paradox&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Inspection%20Paradox&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Inspection Paradox",

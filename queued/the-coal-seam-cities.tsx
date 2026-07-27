@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The towns that are slowly falling into their own foundations",
     images: [
       {
-        url: "/og?title=The%20Coal%20Seam%20Cities&category=Essay&color=orange&readTime=12%20min",
+        url: "/og?title=The%20Coal%20Seam%20Cities&category=Essay&color=orange&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Coal Seam Cities",

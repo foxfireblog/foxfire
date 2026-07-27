@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every summit is a graveyard of the deep",
     images: [
       {
-        url: "/og?title=The%20Mountains%20the%20Sea%20Forgot&category=Natural%20History&color=teal&readTime=14%20min",
+        url: "/og?title=The%20Mountains%20the%20Sea%20Forgot&category=Natural%20History&color=teal&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mountains the Sea Forgot",

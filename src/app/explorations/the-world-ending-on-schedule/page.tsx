@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every generation names the date. Every generation sells everything.",
     images: [
       {
-        url: "/og?title=The%20World%20Ending%20on%20Schedule&category=Essay&color=amber&readTime=15%20min",
+        url: "/og?title=The%20World%20Ending%20on%20Schedule&category=Essay&color=amber&readTime=15%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The World Ending on Schedule",

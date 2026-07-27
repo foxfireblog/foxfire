@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the people who stood between languages — and what it cost them",
     images: [
       {
-        url: "/og?title=The%20Interpreter%20at%20the%20End%20of%20the%20World&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Interpreter%20at%20the%20End%20of%20the%20World&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Interpreter at the End of the World",

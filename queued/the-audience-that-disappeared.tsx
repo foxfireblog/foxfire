@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On dead followers, phantom crowds, and the economics of attention that was never paid",
     images: [
       {
-        url: "/og?title=The%20Audience%20That%20Disappeared&category=Essay&color=violet&readTime=11%20min",
+        url: "/og?title=The%20Audience%20That%20Disappeared&category=Essay&color=violet&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Audience That Disappeared",

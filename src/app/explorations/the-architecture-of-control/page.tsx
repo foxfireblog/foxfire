@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Every hostile bench is a sentence written in concrete",
     images: [
       {
-        url: "/og?title=The%20Architecture%20of%20Control&category=Essay&color=red&readTime=12%20min",
+        url: "/og?title=The%20Architecture%20of%20Control&category=Essay&color=red&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Architecture of Control",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the strange life of words that crossed borders uninvited",
     images: [
       {
-        url: "/og?title=The%20Borrowing&category=Linguistic%20Natural%20History&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Borrowing&category=Linguistic%20Natural%20History&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Borrowing",

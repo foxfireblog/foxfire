@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A history of scientists who built creatures from ambition, bone dust, and lies",
     images: [
       {
-        url: "/og?title=The%20Monster%20Makers&category=Natural%20History&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Monster%20Makers&category=Natural%20History&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Monster Makers",

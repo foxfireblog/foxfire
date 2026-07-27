@@ -57,11 +57,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Generation is paused while the audited backlog drains. The queue holds
-      # 124 posts already written and vetted (docs/backlog-audit-2026-07-27.md),
-      # roughly seven months at the current cadence, and costs nothing to
-      # publish. When the queue empties this falls through to the generator.
-      - name: Publish from backlog queue (or generate if empty)
+      # Publishing priority, highest first:
+      #
+      #   1. A series part whose readyAfter has passed. Series must not be
+      #      stranded behind the backlog: Part I ships promising Part II, so a
+      #      multi-month gap reads as abandonment. Parts are spaced ~5 days by
+      #      the generator, which is the cadence every completed series on the
+      #      site already uses, and well inside the one-week maximum.
+      #   2. The audited backlog in queued/ — 124 posts already written and
+      #      vetted (docs/backlog-audit-2026-07-27.md), free to publish.
+      #   3. Generating something new, which is the only branch that costs
+      #      money. Reached only when the first two are exhausted.
+      #
+      # auto-explore.mjs checks the series queue itself before generating, so
+      # branch 1 routes to it only when a part is genuinely ready. Without that
+      # guard it would fall through and generate a post we did not ask for.
+      - name: Publish (series → backlog → generate)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -72,12 +83,26 @@ jobs:
           if [ "$FORCE_INPUT" = "true" ]; then
             ARGS="--force"
           fi
+
+          SERIES_READY=$(node -e "
+            try {
+              const q = require('./scripts/.series-queue.json');
+              const now = Date.now();
+              const n = q.reduce((acc, s) =>
+                acc + s.parts.filter(p => new Date(p.readyAfter).getTime() <= now).length, 0);
+              console.log(n);
+            } catch { console.log(0) }
+          ")
           REMAINING=$(node -e "try{console.log(require('./scripts/publish-queue.json').length)}catch{console.log(0)}")
-          echo "Backlog queue: $REMAINING post(s) remaining."
-          if [ "$REMAINING" -gt 0 ]; then
+          echo "Series parts ready: $SERIES_READY | Backlog remaining: $REMAINING"
+
+          if [ "$SERIES_READY" -gt 0 ]; then
+            echo "A series part is due — it takes priority over the backlog."
+            node scripts/auto-explore.mjs $ARGS
+          elif [ "$REMAINING" -gt 0 ]; then
             node scripts/publish-from-queue.mjs $ARGS
           else
-            echo "Queue empty — resuming generation."
+            echo "Series and backlog both empty — resuming generation."
             node scripts/auto-explore.mjs $ARGS
           fi
 
@@ -124,7 +149,7 @@ jobs:
             echo "explore_sha=$EXPLORE_SHA" >> $GITHUB_OUTPUT
           else
             echo "is_exploration=false" >> $GITHUB_OUTPUT
-            echo "Push was not a new exploration — skipping notify/tweet"
+            echo "Push was not a new exploration — skipping notify"
           fi
 
       - name: Notify on new post
@@ -138,23 +163,6 @@ jobs:
             -H "Tags: fire,tada" \
             -d "\"${TITLE}\" is now live on foxfire.blog" \
             ntfy.sh/foxfire-auto-explore
-
-      - name: Tweet new post
-        if: steps.check_exploration.outputs.is_exploration == 'true'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          EXPLORE_SHA: ${{ steps.check_exploration.outputs.explore_sha }}
-        run: |
-          SLUG=$(git diff-tree --no-commit-id --name-only --diff-filter=A -r "$EXPLORE_SHA" | grep 'src/app/explorations/.*/page.tsx' | head -1 | sed 's|src/app/explorations/||;s|/page.tsx||')
-          if [ -z "$SLUG" ]; then
-            echo "No slug found in commit, skipping tweet"
-            exit 0
-          fi
-          node scripts/promo-tweet.mjs --slug="${SLUG}"
 
       - name: Close stale failure issues on success
         if: success()

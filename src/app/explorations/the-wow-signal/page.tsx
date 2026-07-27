@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Seventy-two seconds of maybe",
     images: [
       {
-        url: "/og?title=The%20Wow!%20Signal&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Wow!%20Signal&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Wow! Signal",

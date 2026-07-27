@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "What if life happened twice — and we never noticed?",
     images: [
       {
-        url: "/og?title=The%20Shadow%20Biosphere&category=Natural%20History&color=violet&readTime=12%20min",
+        url: "/og?title=The%20Shadow%20Biosphere&category=Natural%20History&color=violet&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Shadow Biosphere",

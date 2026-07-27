@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the impossible psychology of living as two people at once",
     images: [
       {
-        url: "/og?title=The%20Double%20Agent%20Who%20Loved%20Both%20Sides&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Double%20Agent%20Who%20Loved%20Both%20Sides&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Double Agent Who Loved Both Sides",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The day 132 people were thrown into the sea, and the courts argued about cargo",
     images: [
       {
-        url: "/og?title=The%20Zong%20Massacre&category=Essay&color=red&readTime=13%20min",
+        url: "/og?title=The%20Zong%20Massacre&category=Essay&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Zong Massacre",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the forgotten architecture of sanctioned grief",
     images: [
       {
-        url: "/og?title=The%20Weeping%20Rooms&category=Essay&color=violet&readTime=14%20min",
+        url: "/og?title=The%20Weeping%20Rooms&category=Essay&color=violet&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Weeping Rooms",

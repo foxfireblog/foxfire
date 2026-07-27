@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Arrow's impossibility theorem and the beautiful stubbornness of voting anyway",
     images: [
       {
-        url: "/og?title=The%20Mathematics%20of%20Democracy&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Mathematics%20of%20Democracy&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Mathematics of Democracy",

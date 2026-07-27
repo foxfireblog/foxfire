@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the lens didn't just magnify the world — it rewired the human mind",
     images: [
       {
-        url: "/og?title=The%20Glass%20That%20Learned%20to%20See&category=Essay&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Glass%20That%20Learned%20to%20See&category=Essay&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Glass That Learned to See",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On allelopathy, chemical warfare, and the life that thrives in the kill zone",
     images: [
       {
-        url: "/og?title=The%20Poison%20That%20Feeds%20the%20Forest&category=Natural%20History&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Poison%20That%20Feeds%20the%20Forest&category=Natural%20History&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Poison That Feeds the Forest",

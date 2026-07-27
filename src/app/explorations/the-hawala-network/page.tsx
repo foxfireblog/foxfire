@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The oldest banking system in the world runs on nothing but trust",
     images: [
       {
-        url: "/og?title=The%20Hawala%20Network&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=The%20Hawala%20Network&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Hawala Network",

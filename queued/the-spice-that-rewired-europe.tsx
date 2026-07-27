@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the pursuit of pepper dismantled one world and built another",
     images: [
       {
-        url: "/og?title=The%20Spice%20That%20Rewired%20Europe&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Spice%20That%20Rewired%20Europe&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Spice That Rewired Europe",

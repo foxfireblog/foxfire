@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How the world's best scientists convinced themselves that water had a dangerous twin",
     images: [
       {
-        url: "/og?title=The%20Polywater%20Delusion&category=Essay&color=cyan&readTime=11%20min",
+        url: "/og?title=The%20Polywater%20Delusion&category=Essay&color=cyan&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Polywater Delusion",

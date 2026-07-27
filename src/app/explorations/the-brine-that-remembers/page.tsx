@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the ancient oceans trapped beneath our feet, and the things that learned to live in them",
     images: [
       {
-        url: "/og?title=The%20Brine%20That%20Remembers&category=Natural%20History&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Brine%20That%20Remembers&category=Natural%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Brine That Remembers",

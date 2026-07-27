@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On umami, the century it took to believe in a flavor, and the politics of whose senses count",
     images: [
       {
-        url: "/og?title=The%20Taste%20That%20Cannot%20Be%20Named&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Taste%20That%20Cannot%20Be%20Named&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Taste That Cannot Be Named",

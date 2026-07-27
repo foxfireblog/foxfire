@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why the almost-human is more terrifying than the inhuman",
     images: [
       {
-        url: "/og?title=The%20Uncanny%20Valley&category=Essay&color=violet&readTime=13%20min",
+        url: "/og?title=The%20Uncanny%20Valley&category=Essay&color=violet&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Uncanny Valley",

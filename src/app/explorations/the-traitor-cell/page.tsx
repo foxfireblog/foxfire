@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How your body learns to destroy itself — and why it might be the price of being alive at all",
     images: [
       {
-        url: "/og?title=The%20Traitor%20Cell&category=Natural%20History&color=red&readTime=13%20min",
+        url: "/og?title=The%20Traitor%20Cell&category=Natural%20History&color=red&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Traitor Cell",

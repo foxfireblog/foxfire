@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Why medicine couldn't describe what patients couldn't name — and the strange tools built to bridge the silence",
     images: [
       {
-        url: "/og?title=The%20Pain%20That%20Has%20No%20Language&category=Essay&color=rose&readTime=12%20min",
+        url: "/og?title=The%20Pain%20That%20Has%20No%20Language&category=Essay&color=rose&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Pain That Has No Language",

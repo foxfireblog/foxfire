@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "How colonized nations were made to pay for the cost of their own conquest — and kept paying for generations",
     images: [
       {
-        url: "/og?title=The%20Debt%20That%20Outlived%20the%20Empire&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Debt%20That%20Outlived%20the%20Empire&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Debt That Outlived the Empire",

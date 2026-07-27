@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The Herero genocide, Italian chemical warfare in Ethiopia, and the French in Algeria",
     images: [
       {
-        url: "/og?title=The%20Scramble%20for%20Africa%3A%20The%20Violence%20of%20Conquest%20(Part%20II%20of%20III)&category=Essay&color=amber&readTime=12%20min",
+        url: "/og?title=The%20Scramble%20for%20Africa%3A%20The%20Violence%20of%20Conquest%20(Part%20II%20of%20III)&category=Essay&color=amber&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Scramble for Africa: The Violence of Conquest (Part II of III)",

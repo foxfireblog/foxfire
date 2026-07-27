@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Two billion years of silence, two miles down",
     images: [
       {
-        url: "/og?title=The%20Water%20Beneath%20Ontario&category=Natural%20History&color=teal&readTime=12%20min",
+        url: "/og?title=The%20Water%20Beneath%20Ontario&category=Natural%20History&color=teal&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Water Beneath Ontario",

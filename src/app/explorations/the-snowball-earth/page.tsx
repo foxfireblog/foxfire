@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "When the planet froze solid and life refused to die",
     images: [
       {
-        url: "/og?title=The%20Snowball%20Earth&category=Deep%20Time&color=sky&readTime=13%20min",
+        url: "/og?title=The%20Snowball%20Earth&category=Deep%20Time&color=sky&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Snowball Earth",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A curator's notes on the things we got magnificently, instructively, gloriously wrong",
     images: [
       {
-        url: "/og?title=The%20Museum%20of%20Failure&category=Field%20Guide&color=amber&readTime=17%20min",
+        url: "/og?title=The%20Museum%20of%20Failure&category=Field%20Guide&color=amber&readTime=17%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Museum of Failure",

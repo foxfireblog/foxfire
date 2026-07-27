@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The fungus that hijacks the living — and the question it leaves rotting in the brain",
     images: [
       {
-        url: "/og?title=The%20Cordyceps%20Mind&category=Natural%20Horror&color=amber&readTime=14%20min",
+        url: "/og?title=The%20Cordyceps%20Mind&category=Natural%20Horror&color=amber&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Cordyceps Mind",

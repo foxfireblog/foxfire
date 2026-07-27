@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "There is a second sky above the visible one, and it is screaming",
     images: [
       {
-        url: "/og?title=The%20Radio%20Sky&category=Natural%20History&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Radio%20Sky&category=Natural%20History&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Radio Sky",

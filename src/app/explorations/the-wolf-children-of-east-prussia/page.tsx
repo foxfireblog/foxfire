@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "After the war ended, thousands of German children walked alone into the forests of Lithuania. Most never came back.",
     images: [
       {
-        url: "/og?title=The%20Wolf%20Children%20of%20East%20Prussia&category=History&color=emerald&readTime=10%20min",
+        url: "/og?title=The%20Wolf%20Children%20of%20East%20Prussia&category=History&color=emerald&readTime=10%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Wolf Children of East Prussia",

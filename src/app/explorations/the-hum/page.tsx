@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A love letter to the sound no one can find",
     images: [
       {
-        url: "/og?title=The%20Hum&category=Essay&color=indigo&readTime=14%20min",
+        url: "/og?title=The%20Hum&category=Essay&color=indigo&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Hum",

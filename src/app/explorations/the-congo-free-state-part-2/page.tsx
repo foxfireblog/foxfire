@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The quota system, the severed hands, the Force Publique, and the demographic catastrophe",
     images: [
       {
-        url: "/og?title=The%20Congo%20Free%20State%3A%20The%20Rubber%20Terror%20(Part%20II%20of%20III)&category=Essay&color=red&readTime=14%20min",
+        url: "/og?title=The%20Congo%20Free%20State%3A%20The%20Rubber%20Terror%20(Part%20II%20of%20III)&category=Essay&color=red&readTime=14%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Congo Free State: The Rubber Terror (Part II of III)",

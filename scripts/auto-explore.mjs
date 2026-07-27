@@ -102,8 +102,15 @@ function toRoman(n) {
 // gaps running 2+ days, and the occasional near-3-day drought.
 if (!FORCE) {
   try {
-    const lastCommit = execSync(
-      'git log -1 --format=%ct -- "src/app/explorations/*/page.tsx"',
+    // Anchor on the last actual publish, not the last commit that happened to
+    // touch a page file. Matching the pathspec counted the bulk WebP conversion
+    // (332 pages in one commit) as "the last post" and slid the whole ramp by
+    // 16.5 hours; any future sweep over the pages would poison it again. Every
+    // publish path — this script, series parts, publish-from-queue — writes a
+    // commit subject starting "Add exploration:", so that is the durable signal.
+    const lastCommit = execFileSync(
+      "git",
+      ["log", "-1", "--format=%ct", "--grep=^Add exploration:"],
       { cwd: ROOT, stdio: ["pipe", "pipe", "pipe"] }
     ).toString().trim();
     if (lastCommit) {
@@ -875,19 +882,76 @@ function updateIndexPages(topic, readTime) {
   },`;
 
   const dataFile = path.join(ROOT, "src", "data", "explorations.ts");
-  let content = fs.readFileSync(dataFile, "utf-8");
-  const before = content;
-  content = content.replace(
-    /export const explorations: Exploration\[\] = \[\n/,
-    `export const explorations: Exploration[] = [\n${entry}\n`
-  );
-  if (content === before) {
-    console.error("ERROR: Failed to insert new exploration into explorations.ts — regex did not match!");
-    console.error("The explorations.ts file format may have changed. Manual intervention required.");
+  const before = fs.readFileSync(dataFile, "utf-8");
+  let content;
+  try {
+    content = insertRegistryEntry(before, entry, topic.slug);
+  } catch (err) {
+    console.error(`ERROR: refusing to write explorations.ts — ${err.message}`);
+    console.error("Manual intervention required. Nothing was written.");
     process.exit(1);
   }
   fs.writeFileSync(dataFile, content);
-  console.log("Updated src/data/explorations.ts");
+  console.log(
+    `Updated src/data/explorations.ts (${registrySlugs(before).length} -> ${registrySlugs(content).length} entries)`
+  );
+}
+
+// ── Registry insertion ──────────────────────────────────────────────
+const REGISTRY_ANCHOR = "export const explorations: Exploration[] = [\n";
+const SLUG_LINE_RE = /^ {4}slug: "([^"]+)",$/gm;
+
+const registrySlugs = (src) => [...src.matchAll(SLUG_LINE_RE)].map((m) => m[1]);
+
+/**
+ * Prepend an entry to the explorations array and prove nothing else moved.
+ *
+ * A generated commit once wrote a new entry *over* the two existing head
+ * entries — "The Fruit That's Dying Twice" and "The Phantom Limb" have been
+ * unreachable ever since. The old code only checked that the string changed,
+ * which is true whether one entry was added or two were destroyed.
+ *
+ * Two changes make that unrepresentable. The splice uses indexOf/slice instead
+ * of replace(), so a `$&`, `` $` `` or `$'` inside a generated title can no
+ * longer be expanded into a chunk of the file. And the result is re-parsed and
+ * checked against the input: the slug list afterwards must be exactly the slug
+ * list before with the new slug in front. Anything else throws before a byte
+ * reaches disk.
+ */
+function insertRegistryEntry(source, entry, slug) {
+  const at = source.indexOf(REGISTRY_ANCHOR);
+  if (at === -1) {
+    throw new Error("could not find the explorations array — explorations.ts format changed");
+  }
+  if (source.indexOf(REGISTRY_ANCHOR, at + 1) !== -1) {
+    throw new Error("the explorations array header appears more than once — refusing to guess");
+  }
+
+  const before = registrySlugs(source);
+  if (before.length === 0) {
+    throw new Error("parsed zero existing entries out of explorations.ts — refusing to write");
+  }
+  if (before.includes(slug)) {
+    throw new Error(`"${slug}" is already in the registry`);
+  }
+
+  const cut = at + REGISTRY_ANCHOR.length;
+  const next = source.slice(0, cut) + entry + "\n" + source.slice(cut);
+
+  const after = registrySlugs(next);
+  if (after.length !== before.length + 1) {
+    throw new Error(
+      `entry count went ${before.length} -> ${after.length}, expected ${before.length + 1}`
+    );
+  }
+  if (after[0] !== slug) {
+    throw new Error(`new entry did not land at the head (head is "${after[0]}")`);
+  }
+  const lost = before.filter((s, i) => after[i + 1] !== s);
+  if (lost.length > 0) {
+    throw new Error(`insertion displaced existing entries: ${lost.join(", ")}`);
+  }
+  return next;
 }
 
 // ── Update navigation links ────────────────────────────────────────
@@ -1107,12 +1171,24 @@ function slugToComponentName(slug) {
   return /^\d/.test(name) ? `E${name}` : name;
 }
 
+/**
+ * Escape a value for use inside a double-quoted JSX attribute.
+ *
+ * JSX attribute values are not JS string literals — the compiler does not
+ * process backslash escapes, but it does decode HTML entities. So `\"` does not
+ * escape anything; it ends the attribute early and the file no longer compiles.
+ * The whole queue would stall on the first title containing a double quote.
+ * Entities are the only correct encoding here, matching publish-from-queue.
+ *
+ * `&` has to go first, or it would re-escape the ampersands the later
+ * replacements introduce. Backslashes are left alone because a backslash in a
+ * JSX attribute is already just a backslash; doubling it printed two.
+ */
 function escapeJsx(str) {
-  return str
-    .replace(/\\/g, "\\\\")
-    .replace(/"/g, '\\"')
-    .replace(/\n/g, "\\n")
-    .replace(/\r/g, "\\r")
+  return String(str ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/[\r\n]+/g, " ")
     .replace(/\{/g, "&#123;")
     .replace(/\}/g, "&#125;")
     .replace(/</g, "&lt;")

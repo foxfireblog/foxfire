@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "A library containing every possible book already contains this sentence",
     images: [
       {
-        url: "/og?title=The%20Library%20of%20Babel&category=Essay&color=indigo&readTime=12%20min",
+        url: "/og?title=The%20Library%20of%20Babel&category=Essay&color=indigo&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Library of Babel",

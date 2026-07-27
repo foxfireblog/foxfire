@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "The art of answering impossible questions with nothing but logic",
     images: [
       {
-        url: "/og?title=How%20Many%20Piano%20Tuners%20Are%20in%20Chicago%3F&category=Essay&color=amber&readTime=13%20min",
+        url: "/og?title=How%20Many%20Piano%20Tuners%20Are%20in%20Chicago%3F&category=Essay&color=amber&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "How Many Piano Tuners Are in Chicago?",

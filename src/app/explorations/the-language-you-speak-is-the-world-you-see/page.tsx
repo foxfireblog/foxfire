@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On the prison and the palace of your mother tongue",
     images: [
       {
-        url: "/og?title=The%20Language%20You%20Speak%20Is%20the%20World%20You%20See&category=Essay&color=indigo&readTime=13%20min",
+        url: "/og?title=The%20Language%20You%20Speak%20Is%20the%20World%20You%20See&category=Essay&color=indigo&readTime=13%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Language You Speak Is the World You See",

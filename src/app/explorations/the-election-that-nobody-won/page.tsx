@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "On sortition, democracy's forgotten twin, and the strange wisdom of choosing by chance",
     images: [
       {
-        url: "/og?title=The%20Election%20That%20Nobody%20Won&category=Essay&color=amber&readTime=11%20min",
+        url: "/og?title=The%20Election%20That%20Nobody%20Won&category=Essay&color=amber&readTime=11%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Election That Nobody Won",

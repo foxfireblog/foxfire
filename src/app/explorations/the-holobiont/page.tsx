@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "You are not an individual. You never were.",
     images: [
       {
-        url: "/og?title=The%20Holobiont&category=Essay&color=emerald&readTime=12%20min",
+        url: "/og?title=The%20Holobiont&category=Essay&color=emerald&readTime=12%20min&v=2",
         width: 1200,
         height: 630,
         alt: "The Holobiont",
