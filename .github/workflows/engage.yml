@@ -1,10 +1,11 @@
 name: Engage & Follow Back
 
 on:
-  schedule:
-    # 2x daily — conserve X API credits
-    - cron: "30 16 * * *"   # 11:30am EST
-    - cron: "30 23 * * *"   # 6:30pm EST
+  # PAUSED 2026-07-26 to cut costs. Uncomment to resume.
+  # schedule:
+  #   # 2x daily — conserve X API credits
+  #   - cron: "30 16 * * *"   # 11:30am EST
+  #   - cron: "30 23 * * *"   # 6:30pm EST
   workflow_dispatch:
     inputs:
       task:

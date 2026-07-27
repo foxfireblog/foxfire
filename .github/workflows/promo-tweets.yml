@@ -1,9 +1,10 @@
 name: Promo Tweets
 
 on:
-  schedule:
-    # 1x daily — conserve X API credits
-    - cron: "0 15 * * *"   # 15:00 UTC = 10am EST
+  # PAUSED 2026-07-26 to cut costs. Uncomment to resume.
+  # schedule:
+  #   # 1x daily — conserve X API credits
+  #   - cron: "0 15 * * *"   # 15:00 UTC = 10am EST
   workflow_dispatch:
     inputs:
       slug:

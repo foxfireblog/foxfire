@@ -1,9 +1,10 @@
 name: Birthday Tweets
 
 on:
-  schedule:
-    # Run daily at 10:00 AM UTC (6 AM ET / 5 AM CT)
-    - cron: "0 10 * * *"
+  # PAUSED 2026-07-26 to cut costs. Uncomment to resume.
+  # schedule:
+  #   # Run daily at 10:00 AM UTC (6 AM ET / 5 AM CT)
+  #   - cron: "0 10 * * *"
   workflow_dispatch: {}
 
 concurrency:

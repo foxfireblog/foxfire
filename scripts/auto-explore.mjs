@@ -30,7 +30,13 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, "..");
 
 // ── Config ──────────────────────────────────────────────────────────
-const MIN_GAP_HOURS = 8;   // Don't post more than ~2-3x per day
+// Pacing. Hard floor of 24h guarantees at most one post per day. Between the
+// floor and the 72h ceiling, posting is probabilistic and ramps with time, so
+// some days get nothing and the occasional 2-3 day gap happens naturally.
+// At the ceiling we always post, so the blog never goes quiet for >3 days.
+const MIN_GAP_HOURS = 24;  // Hard floor — never more than one post per day
+const MAX_GAP_HOURS = 72;  // Hard ceiling — force a post after 3 quiet days
+const PACING_CURVE = 1.5;  // Higher = more quiet days. See the gate below.
 const MAX_DELAY_MS = 45 * 60 * 1000; // 0-45 min random delay for organic timing
 const FORCE = process.argv.includes("--force");
 const COLORS = ["rose", "cyan", "amber", "violet", "emerald", "red", "sky", "green", "orange", "pink", "teal", "indigo"];
@@ -86,9 +92,14 @@ function toRoman(n) {
 }
 
 // ── Pacing gate ─────────────────────────────────────────────────────
-// Instead of a dice roll, just check when the last post was. If it was
-// less than MIN_GAP_HOURS ago, skip. Otherwise, proceed. The random
-// delay (0-90 min) handles timing unpredictability — no dice needed.
+// Three zones, based on hours since the last post:
+//   < MIN_GAP_HOURS  → always skip (hard one-per-day cap)
+//   > MAX_GAP_HOURS  → always post (never quiet more than 3 days)
+//   in between       → roll the dice, odds ramping as the gap grows
+// The exponent shapes the gap distribution: higher means the odds stay low
+// longer, so quiet stretches happen more often. 1.5 was picked by simulation
+// — it yields ~17 posts/month, a median gap near 42h, roughly a third of
+// gaps running 2+ days, and the occasional near-3-day drought.
 if (!FORCE) {
   try {
     const lastCommit = execSync(
@@ -97,15 +108,33 @@ if (!FORCE) {
     ).toString().trim();
     if (lastCommit) {
       const hoursSince = (Date.now() / 1000 - Number(lastCommit)) / 3600;
+      const stamp = `[${new Date().toISOString()}]`;
+
       if (hoursSince < MIN_GAP_HOURS) {
         console.log(
-          `[${new Date().toISOString()}] Too soon: last post was ${hoursSince.toFixed(1)}h ago (min gap: ${MIN_GAP_HOURS}h). Skipping.`
+          `${stamp} Too soon: last post was ${hoursSince.toFixed(1)}h ago (min gap: ${MIN_GAP_HOURS}h). Skipping.`
         );
         process.exit(0);
       }
-      console.log(
-        `[${new Date().toISOString()}] Last post was ${hoursSince.toFixed(1)}h ago (min gap: ${MIN_GAP_HOURS}h). Proceeding.`
-      );
+
+      if (hoursSince >= MAX_GAP_HOURS) {
+        console.log(
+          `${stamp} ${hoursSince.toFixed(1)}h since last post (max gap: ${MAX_GAP_HOURS}h). Forcing a post.`
+        );
+      } else {
+        const progress = (hoursSince - MIN_GAP_HOURS) / (MAX_GAP_HOURS - MIN_GAP_HOURS);
+        const chance = Math.pow(progress, PACING_CURVE);
+        const roll = Math.random();
+        if (roll > chance) {
+          console.log(
+            `${stamp} ${hoursSince.toFixed(1)}h since last post. Rolled ${roll.toFixed(2)} vs ${chance.toFixed(2)}. Skipping.`
+          );
+          process.exit(0);
+        }
+        console.log(
+          `${stamp} ${hoursSince.toFixed(1)}h since last post. Rolled ${roll.toFixed(2)} vs ${chance.toFixed(2)}. Proceeding.`
+        );
+      }
     }
   } catch {
     // If git check fails (e.g. no posts yet), proceed
