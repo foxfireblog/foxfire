@@ -115,7 +115,7 @@ export default function TheArchitectureOfTerror() {
 
       <p>The apparatus was built. Now it would feed.</p>
 
-      <p><em>Continue to Part II: The Purges &rarr;</em></p>
+      <p><em><a href="/explorations/the-architecture-of-terror-part-2">Continue to Part II: The Purges &rarr;</a></em></p>
 
 
       <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
