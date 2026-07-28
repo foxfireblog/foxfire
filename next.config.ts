@@ -1,12 +1,22 @@
 import type { NextConfig } from "next";
 
-// Narration is hosted on Cloudflare R2. The bucket's public host has to be in
-// media-src or the browser blocks playback, and it differs per environment, so
-// it is read from the env at build time. The Vercel Blob host stays allowed
-// while the last MP3s are migrated off it.
+// Narration is hosted on Cloudflare R2. The bucket's public host must appear in
+// media-src or the browser blocks playback entirely.
+//
+// The default is hardcoded on purpose. This is read at BUILD time, and Vercel's
+// build environment does not carry .env.local, so relying on the env var alone
+// would ship a CSP without the R2 host and silently mute every essay in
+// production while working perfectly in local dev. The bucket's public base is
+// a public URL, not a secret, so there is nothing to protect by hiding it.
+// The env var still overrides, which is what makes a bucket swap a config change.
+//
+// The Vercel Blob host stays allowed until the last MP3s finish migrating.
+const R2_PUBLIC_BASE =
+  process.env.R2_PUBLIC_BASE || "https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev";
+
 const AUDIO_HOSTS = [
   "https://awsga5alupzv2bnl.public.blob.vercel-storage.com",
-  process.env.R2_PUBLIC_BASE,
+  R2_PUBLIC_BASE,
 ].filter(Boolean).join(" ");
 
 /**

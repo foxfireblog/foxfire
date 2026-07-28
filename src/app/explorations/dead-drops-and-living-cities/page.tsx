@@ -42,7 +42,7 @@ export default function DeadDropsAndLivingCities() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-bilateral-animal.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-drops-and-living-cities.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/dead-drops-and-living-cities.opus"
     >
       <h2>The Nickel That Told a Story</h2>
 
