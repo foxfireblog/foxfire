@@ -43,7 +43,7 @@ export default function ThePlaceboEffect() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/the-great-silence.webp"
       nextReadTime="15 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-placebo-effect.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-placebo-effect.opus"
     ><h2>The Man Who Almost Died of Nothing</h2>
 
       <p>In 2007, a 26-year-old man&mdash;identified in the medical literature only as &ldquo;Mr. A&rdquo;&mdash;swallowed 29 pills in an attempt to end his life. He had been enrolled in a clinical trial for a new antidepressant, and after a devastating argument with his ex-girlfriend, he emptied the bottle. Within minutes, he collapsed. His blood pressure plummeted. He was trembling, barely conscious, and when the paramedics got him to the emergency room, he required rapid intravenous fluids just to stay alive. The doctors worked urgently to stabilize him, treating what appeared to be a severe pharmaceutical overdose.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>

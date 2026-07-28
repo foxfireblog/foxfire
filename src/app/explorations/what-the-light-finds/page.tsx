@@ -40,7 +40,7 @@ export default function WhatTheLightFinds() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-book-no-one-can-read.webp"
       nextReadTime="7 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/what-the-light-finds.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/what-the-light-finds.opus"
     >
       <div className="not-prose mt-4 mb-8">
         <div className="rounded-2xl border border-border bg-surface p-10 sm:p-14 glow-box-cyan">

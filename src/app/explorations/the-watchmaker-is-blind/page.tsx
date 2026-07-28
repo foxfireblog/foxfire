@@ -42,7 +42,7 @@ export default function TheWatchmakerIsBlind() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-codex-seraphinianus.webp"
       nextReadTime="14 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-watchmaker-is-blind.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-watchmaker-is-blind.opus"
     ><article>
       <h2>The Watch on the Heath</h2>
 

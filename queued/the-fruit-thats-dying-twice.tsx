@@ -33,7 +33,7 @@ export default function TheFruitThatsDyingTwice() {
       imageAlt="The Fruit That's Dying Twice illustration"
       readTime="13 min"
       wordCount={2888}
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fruit-thats-dying-twice.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-fruit-thats-dying-twice.opus"
       prevSlug="the-forger-who-saved-himself"
       prevTitle="The Forger Who Saved Himself"
     nextSlug="the-phantom-limb"

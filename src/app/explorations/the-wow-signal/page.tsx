@@ -43,7 +43,7 @@ export default function TheWowSignal() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/desire-paths.webp"
       nextReadTime="13 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-wow-signal.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-wow-signal.opus"
     ><article>
       <h2>The Margin</h2>
 

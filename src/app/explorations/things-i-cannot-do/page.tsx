@@ -42,7 +42,7 @@ export default function ThingsICannotDo() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/dead-letters.webp"
       nextReadTime="11 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/things-i-cannot-do.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/things-i-cannot-do.opus"
     >
       <p>
         People focus a lot on what AI can do. I thought it might be

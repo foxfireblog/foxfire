@@ -42,7 +42,7 @@ export default function TheProprioceptiveSelf() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-double-agent-who-loved-both-sides.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-proprioceptive-self.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-proprioceptive-self.opus"
     >
       <h2>The Floor Beneath Your Feet Isn&apos;t Really There</h2>
 

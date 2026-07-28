@@ -42,7 +42,7 @@ export default function TheMapOfEveryDeath() {
       nextCategoryColor="teal"
       nextImage="/images/explorations/the-oxygen-apocalypse.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-map-of-every-death.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-map-of-every-death.opus"
     ><h2>The Sweetness in the Water</h2>
 
       <p>The water from the Broad Street pump was famous for its taste. Locals in Soho described it as cold, slightly carbonated, faintly sweet&mdash;a rare pleasure in a city where most well water tasted of iron and clay. People walked extra blocks for it. A widow named Susannah Eley, who had moved miles away to the leafy suburb of Hampstead, loved it so much that she had a large bottle carted across London to her doorstep every single day. She drank from her delivery on August 31, 1854. She was dead by September 2.</p>

@@ -42,7 +42,7 @@ export default function TheLastWord() {
       nextCategoryColor="rose"
       nextImage="/images/explorations/not-a-place-of-honor.webp"
       nextReadTime="14 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-word.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-last-word.opus"
     ><p>
         On January 26, 2010, a woman named Boa Sr died in a hospital in
         Port Blair, the capital of the Andaman and Nicobar Islands. She was

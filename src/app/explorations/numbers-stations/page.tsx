@@ -42,7 +42,7 @@ export default function NumbersStations() {
       nextCategoryColor="teal"
       nextImage="/images/explorations/the-cambrian-explosion.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/numbers-stations.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/numbers-stations.opus"
     >
       <h2>The Sound of No One Talking to Someone</h2>
 

@@ -42,7 +42,7 @@ export default function TheMoralInjury() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/the-informers.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-moral-injury.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-moral-injury.opus"
     >
       <h2>The Boy with the AK-47</h2>
 

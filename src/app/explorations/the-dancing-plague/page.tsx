@@ -42,7 +42,7 @@ export default function TheDancingPlague() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/the-wow-signal.webp"
       nextReadTime="12 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-dancing-plague.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-dancing-plague.opus"
     ><article>
       <h2>The Woman Who Would Not Stop</h2>
 

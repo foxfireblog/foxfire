@@ -42,7 +42,7 @@ export default function TheArchitectureOfControl() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-paradox-of-tolerance.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-architecture-of-control.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-architecture-of-control.opus"
     >
       <h2>The Perfect Anti-Object</h2>
 

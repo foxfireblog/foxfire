@@ -42,7 +42,7 @@ export default function TheFreeRepublicOfPalmares() {
       nextCategoryColor="sky"
       nextImage="/images/explorations/the-longitude-problem.webp"
       nextReadTime="21 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-free-republic-of-palmares.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-free-republic-of-palmares.opus"
     >
       <h2>The Altar Boy Who Burned It All Down</h2>
 

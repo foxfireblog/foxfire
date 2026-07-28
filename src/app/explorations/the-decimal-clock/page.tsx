@@ -42,7 +42,7 @@ export default function TheDecimalClock() {
       nextCategoryColor="rose"
       nextImage="/images/explorations/the-forgotten-front-part-2.webp"
       nextReadTime="14 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-decimal-clock.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-decimal-clock.opus"
     ><h2>The Clock Where Noon Is Five</h2>
 
       <p>There is a clock in the Musée des Arts et Métiers in Paris with two faces.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup> The outer dial shows twenty-four hours, the familiar cycle that has governed human life for millennia. The inner dial shows ten. At the bottom of this inner face, where six should be, there is a five. At the top, where twelve belongs, there is a ten. If you stand in front of it long enough, your sense of time begins to wobble&mdash;not because the clock is broken, but because it was built by people who believed time itself was broken, and that they could fix it.</p>

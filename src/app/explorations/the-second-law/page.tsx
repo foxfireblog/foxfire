@@ -42,7 +42,7 @@ export default function TheSecondLaw() {
       nextCategoryColor="rose"
       nextImage="/images/explorations/the-forgotten-front.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-second-law.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-second-law.opus"
     ><article>
       <h2>The Equation on the Tombstone</h2>
 

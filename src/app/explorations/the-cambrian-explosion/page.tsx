@@ -42,7 +42,7 @@ export default function TheCambrianExplosion() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-bone-wars.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cambrian-explosion.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-cambrian-explosion.opus"
     >
       <h2>The Garden of the Blind</h2>
 

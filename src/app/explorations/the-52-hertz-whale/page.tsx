@@ -42,7 +42,7 @@ export default function The52HertzWhale() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/dead-reckoning.webp"
       nextReadTime="15 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-52-hertz-whale.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-52-hertz-whale.opus"
     >
 
       <h2>The Frequency of Everything</h2>

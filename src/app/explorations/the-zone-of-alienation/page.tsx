@@ -42,7 +42,7 @@ export default function TheZoneOfAlienation() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-threshold-notebook.webp"
       nextReadTime="16 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zone-of-alienation.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-zone-of-alienation.opus"
     ><h2>The Forest That Ate a City</h2>
 
       <p>On April 26, 1986, Reactor Number Four at the Chernobyl Nuclear Power Plant exploded, and 350,000 people were told to leave. They left dishes in sinks. They left dogs tied to fences. They left photographs on walls and shoes by doors and letters half-written on kitchen tables. They were told they&apos;d be back in three days. Most never returned. And into that silence&mdash;into that vast, irradiated quiet&mdash;something extraordinary began to happen.</p>

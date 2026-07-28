@@ -42,7 +42,7 @@ export default function TheShipOfTheseus() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-last-uncontacted-peoples.webp"
       nextReadTime="13 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-ship-of-theseus.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-ship-of-theseus.opus"
     ><h2>The Planks</h2>
 
       <p>In the first century CE, the Greek historian Plutarch posed a question that has refused to die for nearly two thousand years. The Athenians, he wrote, preserved the ship on which Theseus had sailed to Crete and back&mdash;the very vessel that carried him to slay the Minotaur. Over generations, as the ship&apos;s timbers decayed, they replaced each plank with new, sound wood. They did this reverently, one board at a time, until eventually not a single original plank remained. And yet it sat in the harbor, and everyone called it the Ship of Theseus. Plutarch noted that philosophers used it as a standing example of the &ldquo;growing argument&rdquo;&mdash;the puzzle of whether a thing that changes gradually remains the same thing.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>

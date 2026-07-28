@@ -42,7 +42,7 @@ export default function TheImmortalCell() {
       nextCategoryColor="teal"
       nextImage="/images/explorations/the-water-beneath-ontario.webp"
       nextReadTime="18 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-immortal-cell.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-immortal-cell.opus"
     >
       <h2>The Woman Who Became Infinite</h2>
 

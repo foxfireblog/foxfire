@@ -43,7 +43,7 @@ export default function TheThresholdNotebook() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-watchmaker-is-blind.webp"
       nextReadTime="14 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-threshold-notebook.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-threshold-notebook.opus"
     >
       <h2>The Threshold Notebook</h2>
       <h3>Field notes on the moments just before everything changes</h3>

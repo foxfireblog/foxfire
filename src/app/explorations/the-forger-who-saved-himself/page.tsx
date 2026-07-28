@@ -42,7 +42,7 @@ export default function TheForgerWhoSavedHimself() {
       nextCategoryColor="orange"
       nextImage="/images/explorations/kowloon-walled-city.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-forger-who-saved-himself.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-forger-who-saved-himself.opus"
     ><article>
       <h2>The Smell of Lilacs</h2>
 

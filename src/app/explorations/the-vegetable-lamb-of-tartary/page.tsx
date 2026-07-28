@@ -43,7 +43,7 @@ export default function TheVegetableLambOfTartary() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-zone-of-alienation.webp"
       nextReadTime="11 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-vegetable-lamb-of-tartary.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-vegetable-lamb-of-tartary.opus"
     ><h2>The Creature That Wasn&apos;t</h2>
 
       <p>Somewhere in the Garden Museum in London, behind a small glass cupola, there sits a black and brown furry object resting on a bed of dead vegetation. It looks, if you squint with the right kind of credulity, like a very small, very tired animal. Four stubby legs. A body covered in what could be mistaken for fleece. It is, in fact, a fern rhizome&mdash;the woody root of <em>Cibotium barometz</em>, a golden chicken fern from southern China, stripped of its fronds and turned upside down by some enterprising artisan centuries ago. It is slightly threadbare now. It looks like something between a toy and a relic. It is both.<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>

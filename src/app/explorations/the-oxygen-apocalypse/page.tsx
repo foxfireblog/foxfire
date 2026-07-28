@@ -42,7 +42,7 @@ export default function TheOxygenApocalypse() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-trolley-problem-is-real-now.webp"
       nextReadTime="14 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-oxygen-apocalypse.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-oxygen-apocalypse.opus"
     ><article>
       <h2>The First Murderer Was a Microbe</h2>
 

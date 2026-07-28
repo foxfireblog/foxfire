@@ -42,7 +42,7 @@ export default function TheBurningOfBlackWallStreet() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-index-librorum-prohibitorum.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-burning-of-black-wall-street.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-burning-of-black-wall-street.opus"
     >
       <h2>A Dollar Circulates</h2>
 

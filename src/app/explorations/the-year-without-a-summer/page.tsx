@@ -43,7 +43,7 @@ export default function TheYearWithoutASummer() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/the-52-hertz-whale.webp"
       nextReadTime="14 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-year-without-a-summer.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-year-without-a-summer.opus"
     ><article>
       <h2>The Sound Before the Silence</h2>
 

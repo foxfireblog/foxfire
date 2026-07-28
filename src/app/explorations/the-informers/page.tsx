@@ -42,7 +42,7 @@ export default function TheInformers() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-zong-massacre.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-informers.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-informers.opus"
     >
       <h2>The Chicken Liver Report</h2>
 

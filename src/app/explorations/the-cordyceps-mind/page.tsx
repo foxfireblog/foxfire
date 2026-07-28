@@ -42,7 +42,7 @@ export default function TheCordycepsMind() {
       nextCategoryColor="emerald"
       nextImage="/images/explorations/the-ediacaran-garden.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-cordyceps-mind.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-cordyceps-mind.opus"
     >
       <h2>The Puppet Show</h2>
 

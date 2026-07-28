@@ -42,7 +42,7 @@ export default function TheGrammarOfSymmetry() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-fever-truce.webp"
       nextReadTime="14 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-grammar-of-symmetry.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-grammar-of-symmetry.opus"
     >
       <h2>The Meeting Place</h2>
 

@@ -42,7 +42,7 @@ export default function ThePartitionOfIndiaPart2() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-architecture-of-control.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-partition-of-india-part-2.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-partition-of-india-part-2.opus"
     >
       <h2>The Trains</h2>
 

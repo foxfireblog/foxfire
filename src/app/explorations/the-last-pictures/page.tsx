@@ -43,7 +43,7 @@ export default function TheLastPictures() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-dancing-plague.webp"
       nextReadTime="14 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-last-pictures.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-last-pictures.opus"
     ><h2>A Ring of Dead Machines</h2>
 
       <p>Here is a fact that changed the way I think about everything: the longest-lasting things humans have ever made are not the Pyramids, not Stonehenge, not the Great Wall. They are television satellites. Dead ones, mostly. Drifting in a belt 22,236 miles above the equator, where the atmosphere is so thin it might as well not exist, where there is no wind, no rain, no erosion, no friction&mdash;nothing to slow them down. They will orbit the Earth for billions of years. When the last cathedral has crumbled to powder and the last ocean has boiled away, these mute machines will still be circling overhead, beaming nothing to no one, a permanent ring of human-made Saturn.</p>

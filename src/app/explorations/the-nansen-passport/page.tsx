@@ -42,7 +42,7 @@ export default function TheNansenPassport() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-congo-free-state-part-2.webp"
       nextReadTime="14 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-nansen-passport.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-nansen-passport.opus"
     >
       <h2>The Sickly Green Hue</h2>
 

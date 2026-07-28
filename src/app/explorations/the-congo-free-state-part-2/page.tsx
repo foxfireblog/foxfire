@@ -42,7 +42,7 @@ export default function TheCongoFreeStatePart2() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-proprioceptive-self.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-congo-free-state-part-2.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-congo-free-state-part-2.opus"
     >
       <h2>The Bullet Ledger</h2>
 

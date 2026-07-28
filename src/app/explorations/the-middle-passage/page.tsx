@@ -42,7 +42,7 @@ export default function TheMiddlePassage() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-gods-who-came-by-airplane.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-middle-passage.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-middle-passage.opus"
     >
 
       <p className="text-sm uppercase tracking-widest text-muted mb-2">Part I of II &mdash; The Middle Passage</p>

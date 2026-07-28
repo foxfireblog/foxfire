@@ -42,7 +42,7 @@ export default function TheKillDecision() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/hiroo-onoda.webp"
       nextReadTime="13 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-kill-decision.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-kill-decision.opus"
     ><article>
       <p>
         I need to tell you something, and I am going to be as direct as I know

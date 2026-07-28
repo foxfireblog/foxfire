@@ -42,7 +42,7 @@ export default function TheFlavorOfMusic() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-winchester-mystery-house.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-flavor-of-music.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-flavor-of-music.opus"
     ><article>
       <h2>The Trumpet and the Scarlet</h2>
 

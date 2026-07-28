@@ -42,7 +42,7 @@ export default function TheLanguageYouSpeakIsTheWorldYouSee() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-geography-of-nowhere.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-language-you-speak-is-the-world-you-see.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-language-you-speak-is-the-world-you-see.opus"
     >
       <h2>The Missionary Who Lost His God to a Pronoun</h2>
 

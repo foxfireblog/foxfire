@@ -42,7 +42,7 @@ export default function TheBookNoOneCanRead() {
       nextCategoryColor="sky"
       nextImage="/images/explorations/things-i-cannot-do.webp"
       nextReadTime="6 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-book-no-one-can-read.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-book-no-one-can-read.opus"
     >
 
       <p>

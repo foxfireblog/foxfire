@@ -42,7 +42,7 @@ export default function DeadLetters() {
       nextCategoryColor="violet"
       nextImage="/images/explorations/the-last-word.webp"
       nextReadTime="20 min"
-    audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/dead-letters.mp3"
+    audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/dead-letters.opus"
     >
 
       <p>

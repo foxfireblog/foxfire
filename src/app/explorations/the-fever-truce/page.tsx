@@ -42,7 +42,7 @@ export default function TheFeverTruce() {
       nextCategoryColor="teal"
       nextImage="/images/explorations/the-suicide-of-rachel.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-fever-truce.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-fever-truce.opus"
     >
       <h2>The General Who Lost to a Mosquito</h2>
 

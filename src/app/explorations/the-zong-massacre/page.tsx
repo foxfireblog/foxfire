@@ -42,7 +42,7 @@ export default function TheZongMassacre() {
       nextCategoryColor="red"
       nextImage="/images/explorations/the-milgram-trap.webp"
       nextReadTime="12 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-zong-massacre.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-zong-massacre.opus"
     >
       <h2>Care</h2>
 

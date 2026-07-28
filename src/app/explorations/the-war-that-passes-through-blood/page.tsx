@@ -42,7 +42,7 @@ export default function TheWarThatPassesThroughBlood() {
       nextCategoryColor="indigo"
       nextImage="/images/explorations/the-language-you-speak-is-the-world-you-see.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-war-that-passes-through-blood.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-war-that-passes-through-blood.opus"
     >
       <h2>The Smell of Ripe Guava</h2>
 

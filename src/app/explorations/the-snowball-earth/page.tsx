@@ -42,7 +42,7 @@ export default function TheSnowballEarth() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-secret-life-of-soil.webp"
       nextReadTime="10 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-snowball-earth.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-snowball-earth.opus"
     >
       <h2>The Throwaway Line That Changed Everything</h2>
 

@@ -42,7 +42,7 @@ export default function TheWorldEndingOnSchedule() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-library-of-burned-books.webp"
       nextReadTime="13 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-world-ending-on-schedule.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-world-ending-on-schedule.opus"
     >
       <h2>The Man in Times Square</h2>
 

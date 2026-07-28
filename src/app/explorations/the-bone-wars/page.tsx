@@ -42,7 +42,7 @@ export default function TheBoneWars() {
       nextCategoryColor="amber"
       nextImage="/images/explorations/the-centennial-light.webp"
       nextReadTime="11 min"
-      audioSrc="https://awsga5alupzv2bnl.public.blob.vercel-storage.com/audio/the-bone-wars.mp3"
+      audioSrc="https://pub-6bb1aea8e67e4e35942a85668408c2e9.r2.dev/audio/the-bone-wars.opus"
     >
       <h2>The Head on the Wrong End</h2>
 
