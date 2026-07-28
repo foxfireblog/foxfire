@@ -1,5 +1,14 @@
 import type { NextConfig } from "next";
 
+// Narration is hosted on Cloudflare R2. The bucket's public host has to be in
+// media-src or the browser blocks playback, and it differs per environment, so
+// it is read from the env at build time. The Vercel Blob host stays allowed
+// while the last MP3s are migrated off it.
+const AUDIO_HOSTS = [
+  "https://awsga5alupzv2bnl.public.blob.vercel-storage.com",
+  process.env.R2_PUBLIC_BASE,
+].filter(Boolean).join(" ");
+
 /**
  * Explorations that were merged into a canonical post, mapped to the post that
  * absorbed them.
@@ -57,7 +66,7 @@ const nextConfig: NextConfig = {
               "script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com",
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https://awsga5alupzv2bnl.public.blob.vercel-storage.com",
-              "media-src 'self' https://awsga5alupzv2bnl.public.blob.vercel-storage.com",
+              `media-src 'self' ${AUDIO_HOSTS}`,
               "font-src 'self'",
               "connect-src 'self' https://va.vercel-scripts.com",
               "frame-ancestors 'none'",

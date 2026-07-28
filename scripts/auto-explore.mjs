@@ -19,6 +19,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { GoogleGenAI } from "@google/genai";
 import { put } from "@vercel/blob";
 import { MODELS } from "./config.mjs";
+import { r2Config, r2Client, uploadToR2 } from "./audio-lib.mjs";
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
@@ -1036,13 +1037,13 @@ async function generateAudio(topic, content) {
       `Generated audio: ${(stats.size / 1024).toFixed(0)}KB Opus (from ${(rawStats.size / 1024).toFixed(0)}KB MP3)`
     );
 
+    // Hosted on R2: the full catalog is ~1.56GB and Blob's free tier is 1GB
+    // with a 10GB/month transfer cap. R2 gives 10GB and charges no egress.
     const fileBuffer = fs.readFileSync(encoded);
-    const blob = await put(`audio/${topic.slug}.opus`, fileBuffer, {
-      access: "public",
-      contentType: "audio/ogg",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-    });
+    const cfg = r2Config();
+    if (!cfg.ok) throw new Error(`R2 not configured (missing ${cfg.missing.join(", ")})`);
+    const url = await uploadToR2(cfg, r2Client(cfg), `audio/${topic.slug}.opus`, fileBuffer);
+    const blob = { url };
     fs.unlinkSync(tmpOutput);
     fs.unlinkSync(encoded);
 
