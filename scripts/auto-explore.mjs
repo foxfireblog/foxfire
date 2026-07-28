@@ -276,6 +276,10 @@ const PACING_CURVE = 1.5;  // Higher = more quiet days. See the gate below.
 const MAX_DELAY_MS = 45 * 60 * 1000; // 0-45 min random delay for organic timing
 const FORCE = process.argv.includes("--force");
 const COLORS = ["rose", "cyan", "amber", "violet", "emerald", "red", "sky", "green", "orange", "pink", "teal", "indigo"];
+// Opus at 24kbps mono is transparent enough for speech and roughly halves
+// storage against edge-tts's 48kbps MP3. Storage is what caps how many posts
+// can have narration, so the bitrate is a coverage decision, not a taste one.
+const AUDIO_BITRATE = "24k";
 
 // ── Load environment ────────────────────────────────────────────────
 function loadEnv() {
@@ -946,6 +950,7 @@ async function generateImage(topic) {
 
   if (!response.candidates || !response.candidates[0]) {
     console.warn("No image candidates returned");
+    if (process.env.CI) console.log(`::error title=Image generation failed::${topic.slug}: no candidates returned`);
     return;
   }
 
@@ -967,6 +972,7 @@ async function generateImage(topic) {
     }
   }
   console.warn("No image data in Gemini response");
+  if (process.env.CI) console.log(`::error title=Image generation failed::${topic.slug}: no image data in response`);
 }
 
 // ── Generate audio narration via edge-tts ────────────────────────────
@@ -1012,27 +1018,53 @@ async function generateAudio(topic, content) {
     safeEdgeTts(tmpFile, voice, tmpOutput);
     fs.unlinkSync(tmpFile);
 
-    const stats = fs.statSync(tmpOutput);
-    console.log(`Generated audio: ${(stats.size / 1024).toFixed(0)}KB`);
+    const rawStats = fs.statSync(tmpOutput);
 
-    // Upload to Vercel Blob
-    const fileBuffer = fs.readFileSync(tmpOutput);
-    const blob = await put(`audio/${topic.slug}.mp3`, fileBuffer, {
+    // Re-encode to Opus before upload. edge-tts emits 48kbps MP3, which for a
+    // ~20 minute narration is ~7MB; Opus at 24kbps is ~3.5MB at equal or better
+    // speech quality, because Opus is designed for exactly this bitrate range.
+    // Storage is the binding constraint on narration coverage, so this roughly
+    // doubles how much of the catalog can be hosted.
+    const encoded = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.opus`);
+    execFileSync(
+      "ffmpeg",
+      ["-y", "-v", "error", "-i", tmpOutput, "-c:a", "libopus", "-b:a", AUDIO_BITRATE, "-ac", "1", encoded],
+      { stdio: ["pipe", "pipe", "pipe"] }
+    );
+    const stats = fs.statSync(encoded);
+    console.log(
+      `Generated audio: ${(stats.size / 1024).toFixed(0)}KB Opus (from ${(rawStats.size / 1024).toFixed(0)}KB MP3)`
+    );
+
+    const fileBuffer = fs.readFileSync(encoded);
+    const blob = await put(`audio/${topic.slug}.opus`, fileBuffer, {
       access: "public",
-      contentType: "audio/mpeg",
+      contentType: "audio/ogg",
       addRandomSuffix: false,
       allowOverwrite: true,
     });
     fs.unlinkSync(tmpOutput);
+    fs.unlinkSync(encoded);
 
-    console.log(`Uploaded audio to Blob: ${blob.url}`);
+    console.log(`Uploaded audio: ${blob.url}`);
     return blob.url;
   } catch (err) {
-    console.warn(`Audio generation failed (non-fatal): ${err.message?.substring(0, 200)}`);
-    // Clean up both temp files
-    const tmpFile = path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`);
-    if (fs.existsSync(tmpFile)) fs.unlinkSync(tmpFile);
-    if (fs.existsSync(tmpOutput)) fs.unlinkSync(tmpOutput);
+    // This used to be a console.warn on an otherwise-green job. Audio upload
+    // started failing on 2026-04-27 (expired Blob token) and nobody noticed for
+    // three months, leaving 201 of 322 posts silent. A failure that produces a
+    // visibly incomplete post must be visible in the run, so it is now an
+    // Actions error annotation. Still non-fatal: a post without narration is
+    // worth publishing, a lost post is not.
+    const msg = err.message?.substring(0, 200);
+    console.warn(`Audio generation failed (non-fatal): ${msg}`);
+    if (process.env.CI) console.log(`::error title=Audio generation failed::${topic.slug}: ${msg}`);
+    for (const f of [
+      path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.txt`),
+      tmpOutput,
+      path.join(os.tmpdir(), `foxfire-tts-${topic.slug}.opus`),
+    ]) {
+      if (fs.existsSync(f)) fs.unlinkSync(f);
+    }
     return null;
   }
 }
