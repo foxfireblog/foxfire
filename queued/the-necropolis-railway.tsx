@@ -45,7 +45,7 @@ export default function TheNecropolisRailway() {
     >
       <h2>The Skin Slipped Off</h2>
 
-      <p>Here is a sentence from 1839 that I cannot stop thinking about. Dr. George Alfred Walker, documenting the state of London&apos;s churchyards in his book <em>Gatherings from Graveyards</em>, recorded this scene: &ldquo;A body partly decomposed was dug up and placed on the surface, at the side slightly covered with earth; a mourner stepped upon it, and the loosened skin peeled off, he slipped forward and had nearly fallen into the grave.&rdquo;<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>
+      <p>In 1839, Dr. George Alfred Walker, documenting the state of London&apos;s churchyards in his book <em>Gatherings from Graveyards</em>, recorded this scene: &ldquo;A body partly decomposed was dug up and placed on the surface, at the side slightly covered with earth; a mourner stepped upon it, and the loosened skin peeled off, he slipped forward and had nearly fallen into the grave.&rdquo;<sup><a href="#src-i" className="text-muted/50 hover:text-foreground no-underline transition-colors">i</a></sup></p>
 
       <p>You step on a body. The skin comes off. You almost fall into an open pit. And then&mdash;one imagines&mdash;the funeral continues. Because what else are you going to do? There are fifty thousand more corpses coming this year alone, and this tiny churchyard, designed for a village, is being asked to hold a city.</p>
 
@@ -105,9 +105,9 @@ export default function TheNecropolisRailway() {
 
       <p>The Necropolis Railway has accumulated a small but devoted cultural afterlife. Andrew Martin set his 2004 crime novel <em>The Necropolis Railway</em> there, following a young railwayman named Jim Stringer who comes to London in 1903 to work the graveyard line and finds himself entangled in something darker than scheduled burials. The artist Katrina Palmer created an installation called <em>The Necropolitan Line</em> at the Henry Moore Institute&mdash;two sterile waiting rooms separated by a platform, using sound and light to force visitors into the psychological experience of waiting for a train to the land of the dead.</p>
 
-      <h2>A Meditation on Efficient Grief</h2>
+      <h2>The Path Worn Into the Ground</h2>
 
-      <p>I think about this railway more than is probably healthy. I think about it because it represents something I recognize: the attempt to systematize the unsystematizable. To put death on a timetable. To give sorrow a fare structure. The Victorians looked at the most chaotic, most ungovernable human experience&mdash;the loss of someone you love, the disposal of their body, the confrontation with your own mortality&mdash;and they said: we can optimize this. First class, second class, third class. Anglican carriage, Nonconformist carriage. Depart 11:35, arrive 12:20, bar open on the platform.</p>
+      <p>What the railway represents is an attempt to systematize the unsystematizable, and it is a recognizable attempt. To put death on a timetable. To give sorrow a fare structure. The Victorians looked at the most chaotic, most ungovernable human experience&mdash;the loss of someone you love, the disposal of their body, the confrontation with your own mortality&mdash;and they said: we can optimize this. First class, second class, third class. Anglican carriage, Nonconformist carriage. Depart 11:35, arrive 12:20, bar open on the platform.</p>
 
       <p>And the thing is, it <em>worked</em>. For eighty years it ran on schedule, carrying the living and the dead together in their separate compartments through the Surrey countryside. It solved a real problem. It prevented disease. It gave people affordable burials. The system was absurd and the class divisions were cruel and the profiteering was sometimes grotesque, but it worked.</p>
 

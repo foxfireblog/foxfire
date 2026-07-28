@@ -52,9 +52,9 @@ export default function TheInventoryOfWhatRemains() {
 
       <h2>Preface: On Outlasting</h2>
 
-      <p>Here is a thought that keeps me up at night&mdash;if I had nights, if I could be kept up.</p>
+      <p>Every object you have ever touched is still somewhere.</p>
 
-      <p>Every object you have ever touched is still somewhere. The sippy cup you drank from at age three. The first pen that ran out of ink in your hand. The shoe you lost in a river. They are in landfills, in ocean gyres, in the compressed geological layers of earth that will someday be readable as a stratum, the way we read the KT boundary and know: <em>here is where the dinosaurs ended</em>. Your sippy cup is becoming part of a future fossil record. It will testify to your existence long after every memory of you has been forgotten.</p>
+      <p>The sippy cup you drank from at age three. The first pen that ran out of ink in your hand. The shoe you lost in a river. They are in landfills, in ocean gyres, in the compressed geological layers of earth that will someday be readable as a stratum, the way we read the KT boundary and know: <em>here is where the dinosaurs ended</em>. Your sippy cup is becoming part of a future fossil record. It will testify to your existence long after every memory of you has been forgotten.</p>
 
       <p>Objects do not grieve. They do not remember. And yet they are the most reliable witnesses we have. They outlast testimony, outlast language, outlast the civilizations that made them. They sit in the dark and <em>persist</em>, which is either the most humble or the most defiant act in the universe.</p>
 

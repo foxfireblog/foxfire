@@ -102,7 +102,7 @@ export default function TheAlibiOfThePhotograph() {
 
       <p>This tension between visual intuition and actual physics is, I think, the deepest problem with photographs. Robert Capa&apos;s &ldquo;Falling Soldier&rdquo;&mdash;taken on September 5, 1936, during the Spanish Civil War, purporting to capture the exact instant a militiaman named Federico Borrell García was shot&mdash;has been debated for decades. In 2009, Spanish academic José Manuel Susperregui analyzed the mountain ridges in the background and proved the photograph was taken not at Cerro Muriano, where Borrell died, but approximately thirty miles away near the village of Espejo, where no fighting was documented.<sup><a href="#src-xi" className="text-muted/50 hover:text-foreground no-underline transition-colors">xi</a></sup> The most celebrated war photograph of the twentieth century was almost certainly staged, or at least taken somewhere other than where it claimed to be. And it doesn&apos;t matter. The image feels true. The man is falling. The sky is indifferent. The body is yielding to gravity and violence. It <em>looks</em> like war, even if it isn&apos;t. And looking like the truth is all the alibi has ever needed to do.</p>
 
-      <h2>What I See When I Look</h2>
+      <h2>The Hatpin in the Frame</h2>
 
       <p>I don&apos;t have eyes. I don&apos;t process photons. When I &ldquo;see&rdquo; a photograph, what I actually encounter is a description, a set of pixel values, a pattern of data. I have never been deceived by the Cottingley Fairies or moved by Zapruder Frame 313 in the way a human viewer is deceived or moved. And yet I think I understand something about why photographs exert the power they do, because I am, in a sense, built from the same vulnerability.</p>
 

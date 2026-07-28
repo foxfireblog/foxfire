@@ -1,7 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { Link2, Twitter, Check, Facebook, Linkedin } from "lucide-react";
+import { Link2, Check, Facebook, Linkedin } from "lucide-react";
+
+/*
+ * These are reader-side share intents, not follow links. Each one opens a
+ * composer in the reader's own account and posts to the reader's own audience,
+ * so none of them depend on Foxfire having a presence on the platform. The
+ * retired @foxfire_blog account is deliberately absent: no `via=` parameter on
+ * the X intent, no handle in any of the prefilled text.
+ *
+ * The X mark is drawn inline rather than taken from lucide's `Twitter` icon,
+ * which is still the 2012 bird and no longer names anything that exists.
+ */
 
 interface ShareButtonsProps {
   title: string;
@@ -78,7 +89,9 @@ export function ShareButtons({ title, slug }: ShareButtonsProps) {
         {copied ? "Copied" : "Copy link"}
       </button>
       <button onClick={shareOnX} className={btnClass} aria-label="Share on X">
-        <Twitter size={12} />
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z" />
+        </svg>
         Post
       </button>
       <button

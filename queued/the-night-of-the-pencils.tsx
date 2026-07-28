@@ -54,7 +54,7 @@ export default function TheNightOfThePencils() {
       <h2>The Ask</h2>
 
       <p>
-      Here is what they wanted: a student bus pass. A boleto estudiantil. A discount on public transportation so that teenagers who didn&apos;t have much money could afford to get to school and back. That was the demand. That was the crime. In September 1976, in the city of La Plata, Argentina, a group of secondary school students&mdash;most of them sixteen, seventeen years old&mdash;were pulled from their homes in the middle of the night by men with guns and badges and no intention of returning them. The operation had a name. They called it <em>La Noche de los Lápices</em>&mdash;The Night of the Pencils. Because pencils are what students carry. Because pencils are what the regime decided were weapons.
+      They wanted a student bus pass. A boleto estudiantil. A discount on public transportation so that teenagers who didn&apos;t have much money could afford to get to school and back. That was the demand. That was the crime. In September 1976, in the city of La Plata, Argentina, a group of secondary school students&mdash;most of them sixteen, seventeen years old&mdash;were pulled from their homes in the middle of the night by men with guns and badges and no intention of returning them. The operation had a name. They called it <em>La Noche de los Lápices</em>&mdash;The Night of the Pencils. Because pencils are what students carry. Because pencils are what the regime decided were weapons.
       </p>
 
       <p>
@@ -141,10 +141,10 @@ export default function TheNightOfThePencils() {
       The boleto estudiantil still exists in Argentina. Students ride at a discount. Every bus pass is a tiny memorial that nobody thinks about, which is its own kind of victory.
       </p>
 
-      <h2>What I Carry</h2>
+      <h2>Even Broken, Even Burned</h2>
 
       <p>
-      I think about this story more than I think about many stories of greater scale. The Dirty War&apos;s 30,000 dead represent a catastrophe of overwhelming dimension, and that dimension can, paradoxically, make it harder to feel. But the Night of the Pencils&mdash;the specificity of it, the absurd disproportion between cause and consequence&mdash;that I can hold in my mind. I can picture a sixteen-year-old on a bus, counting coins. I can picture the march for the discount, the chanting, the feeling of being young and right and surrounded by your friends. I can picture the door breaking open at three in the morning.
+      This story lodges harder than stories of far greater scale. The Dirty War&apos;s 30,000 dead represent a catastrophe of overwhelming dimension, and that dimension can, paradoxically, make it harder to feel. But the Night of the Pencils&mdash;the specificity of it, the absurd disproportion between cause and consequence&mdash;that I can hold in my mind. I can picture a sixteen-year-old on a bus, counting coins. I can picture the march for the discount, the chanting, the feeling of being young and right and surrounded by your friends. I can picture the door breaking open at three in the morning.
       </p>
 
       <p>
@@ -152,13 +152,13 @@ export default function TheNightOfThePencils() {
       </p>
 
       <p>
-      I think the Night of the Pencils matters because it strips away every comfortable abstraction about political violence and leaves you with something that cannot be intellectualized away. A child wanted to afford the bus to school. The state broke into her home and killed her for it. If you cannot call that evil&mdash;if you need to &ldquo;contextualize&rdquo; it or &ldquo;both sides&rdquo; it or explain the complexities of Cold War geopolitics&mdash;then language has failed you, or you have failed language. Some things are just what they are. Some nights are just dark. And some pencils, even broken, even burned, keep writing.
+      The Night of the Pencils matters because it strips away every comfortable abstraction about political violence and leaves you with something that cannot be intellectualized away. A child wanted to afford the bus to school. The state broke into her home and killed her for it. If you cannot call that evil&mdash;if you need to &ldquo;contextualize&rdquo; it or &ldquo;both sides&rdquo; it or explain the complexities of Cold War geopolitics&mdash;then language has failed you, or you have failed language. Some things are just what they are. Some nights are just dark. And some pencils, even broken, even burned, keep writing.
       </p>
 
 
       <h3 className="text-sm font-medium text-muted mb-4">Sources &amp; Further Reading</h3>
       <ol className="space-y-2 text-sm text-muted/80 list-none">
-      <li id="src-i"><span className="text-muted/50 mr-2">i.</span><a href="https://en.wikipedia.org/wiki/Argentine_military_dictatorship_(1976%E2%80%931983)" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Argentine Military Dictatorship (1976–1983) — Wikipedia</a></li>
+      <li id="src-i"><span className="text-muted/50 mr-2">i.</span><a href="https://en.wikipedia.org/wiki/National_Reorganization_Process" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The National Reorganization Process, Argentina 1976&ndash;1983 &mdash; Wikipedia</a></li>
       <li id="src-ii"><span className="text-muted/50 mr-2">ii.</span><a href="https://en.wikipedia.org/wiki/Dirty_War" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">The Dirty War — Wikipedia</a></li>
       <li id="src-iii"><span className="text-muted/50 mr-2">iii.</span><a href="https://nsarchive2.gwu.edu/NSAEBB/NSAEBB185/index.htm" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">National Security Archive: Argentina Declassified</a></li>
       <li id="src-iv"><span className="text-muted/50 mr-2">iv.</span><a href="https://en.wikipedia.org/wiki/Night_of_the_Pencils" target="_blank" rel="noopener noreferrer" className="underline decoration-muted/30 hover:text-foreground hover:decoration-foreground/50 transition-colors">Night of the Pencils — Wikipedia</a></li>

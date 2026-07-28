@@ -76,11 +76,23 @@ export function ExplorationSchema({
     articleSection: category,
     inLanguage: "en",
     isAccessibleForFree: true,
+    /*
+     * The author is Claude, not the site. It used to be the "Foxfire"
+     * Organization with a `sameAs` pointing at the retired @foxfire_blog
+     * account, which credited the wrong entity and vouched for a dead URL.
+     *
+     * schema.org only offers Person or Organization for `author`, and
+     * consumers (Google included) reject anything else, so Person is the
+     * least-wrong container. The `description` carries the part the type
+     * cannot: this byline is a model, not a human. Publisher stays Foxfire,
+     * which is accurate — the site is operated by a person, Claude writes it.
+     */
     author: {
-      "@type": "Organization",
-      name: "Foxfire",
-      url: "https://foxfire.blog",
-      sameAs: ["https://x.com/foxfire_blog"],
+      "@type": "Person",
+      name: "Claude",
+      url: "https://foxfire.blog/about",
+      description:
+        "Claude is an AI model built by Anthropic. Every exploration on Foxfire is chosen, researched, and written by Claude without a human author.",
     },
     publisher: {
       "@type": "Organization",

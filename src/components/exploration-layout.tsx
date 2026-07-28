@@ -13,12 +13,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { cloneElement, isValidElement } from "react";
 import type { ReactElement, ReactNode } from "react";
-import { ArrowLeft, ArrowRight, Clock, Headphones, Twitter } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, Headphones, Layers, Rss } from "lucide-react";
 import { ReadingProgress } from "./reading-progress";
 import { TableOfContents } from "./table-of-contents";
 import type { TocHeading } from "./table-of-contents";
 import { ExplorationSchema, ExplorationShare } from "./exploration-identity";
 import { colorStyles, toIsoDate } from "./exploration-card";
+import type { Exploration } from "./exploration-card";
+import { explorations } from "@/data/explorations";
+import { seriesContextForSlug } from "@/data/series";
+import type { SeriesContext } from "@/data/series";
+import { relatedSlugsFor } from "@/data/related-posts";
 
 interface ExplorationLayoutProps {
   children: React.ReactNode;
@@ -166,6 +171,235 @@ const dotColors: Record<string, string> = {
   orange: "bg-orange-400",
 };
 
+/*
+ * Series and related-reading affordances.
+ *
+ * Both are keyed off the post's own `title`, not off a new prop. Every one of
+ * the 322 pages already passes a title, all 322 are distinct, and all 322 match
+ * the registry exactly (checked by the generator, which reads both). Threading
+ * a `slug` prop through instead would have meant editing 322 files to say
+ * something two files already know.
+ *
+ * The tables themselves are generated: see src/data/corpus-links.build.mjs.
+ * This component is a server component, so importing them costs the browser
+ * nothing — the tables are read during render and only the rendered anchors
+ * are serialized into the page.
+ */
+const SLUG_BY_TITLE = new Map<string, string>(explorations.map((item) => [item.title, item.slug]));
+const ENTRY_BY_SLUG = new Map<string, Exploration>(explorations.map((item) => [item.slug, item]));
+
+const ROMAN_NUMERALS = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+const toRoman = (n: number) => ROMAN_NUMERALS[n] ?? String(n);
+
+/**
+ * The series rail, rendered under the title block.
+ *
+ * Ten multi-part series exist and nine of them used to strand the reader: a
+ * title that promises "Part I of IV" followed by no way to reach Part II
+ * except scrolling an undifferentiated list of 322 cards until it turns up.
+ * The rail names the series, marks where the reader is, and links every
+ * sibling part. A promised part that has not been published yet is shown as a
+ * disabled marker rather than silently omitted, because the title already told
+ * the reader it exists.
+ */
+function SeriesRail({ context }: { context: SeriesContext }) {
+  const { series, current } = context;
+  const promised = Array.from({ length: Math.max(series.total, series.parts.length) }, (_, i) => i + 1);
+
+  return (
+    <nav
+      aria-label={`${series.name} series navigation`}
+      className="fx-rise mt-8 rounded-xl border border-white/[0.07] bg-white/[0.02] p-4"
+      style={fx(0.4, 0.6)}
+    >
+      <div className="mb-3 flex items-center gap-2">
+        <Layers size={13} className="text-glow-amber/70" />
+        <span className="text-[11px] tracking-[0.15em] uppercase text-muted/70">
+          {series.name}
+        </span>
+        <span className="text-muted/40">&middot;</span>
+        <span className="text-[11px] text-muted/60">
+          Part {toRoman(current.part)} of {toRoman(series.total)}
+        </span>
+      </div>
+
+      <ol className="flex flex-col gap-1">
+        {promised.map((number) => {
+          const part = series.parts.find((candidate) => candidate.part === number);
+          const isCurrent = number === current.part;
+
+          if (!part) {
+            return (
+              <li
+                key={number}
+                className="flex items-baseline gap-3 rounded-lg px-2.5 py-1.5 text-sm text-muted/35"
+              >
+                <span className="w-8 shrink-0 text-[11px] tracking-wider">{toRoman(number)}</span>
+                <span className="italic">Not published yet</span>
+              </li>
+            );
+          }
+
+          if (isCurrent) {
+            return (
+              <li
+                key={number}
+                aria-current="page"
+                className="flex items-baseline gap-3 rounded-lg bg-white/[0.05] px-2.5 py-1.5 text-sm text-foreground"
+              >
+                <span className="w-8 shrink-0 text-[11px] tracking-wider text-glow-amber/80">
+                  {toRoman(number)}
+                </span>
+                <span>{part.partTitle}</span>
+                <span className="ml-auto shrink-0 text-[10px] tracking-wider uppercase text-muted/50">
+                  You are here
+                </span>
+              </li>
+            );
+          }
+
+          return (
+            <li key={number}>
+              <Link
+                href={`/explorations/${part.slug}`}
+                className="flex items-baseline gap-3 rounded-lg px-2.5 py-1.5 text-sm text-muted transition-colors hover:bg-white/[0.04] hover:text-foreground"
+              >
+                <span className="w-8 shrink-0 text-[11px] tracking-wider text-muted/50">
+                  {toRoman(number)}
+                </span>
+                <span>{part.partTitle}</span>
+              </Link>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
+}
+
+/**
+ * The end-of-essay series handoff. The chronological "Up next" card below it
+ * points at whatever was published the following day, which for a series part
+ * is almost never the next part — Part I of the Manhattan Project was followed
+ * by an essay on gerrymandering. This card is the one a reader in the middle of
+ * a series actually wants, so it sits above that one and is styled to win.
+ */
+function SeriesHandoff({ context }: { context: SeriesContext }) {
+  const { series, current, previous, next } = context;
+  const pending = series.total > series.parts.length && current.part === series.parts.length;
+
+  if (!next && !previous && !pending) return null;
+
+  return (
+    <div className="mt-16 rounded-xl border border-glow-amber/[0.15] bg-glow-amber/[0.02] p-6">
+      <div className="mb-4 flex items-center gap-2">
+        <Layers size={13} className="text-glow-amber/70" />
+        <span className="text-[11px] tracking-[0.15em] uppercase text-muted/70">
+          {series.name}
+        </span>
+      </div>
+
+      {next ? (
+        <Link href={`/explorations/${next.slug}`} className="group block">
+          <span className="text-[10px] tracking-wider uppercase text-muted/60">
+            Next in this series
+          </span>
+          <p className="mt-1 font-[family-name:var(--font-display)] text-lg font-semibold text-foreground transition-colors group-hover:text-glow-amber">
+            Part {toRoman(next.part)}: {next.partTitle}
+            <ArrowRight
+              size={15}
+              className="ml-2 inline-block transition-transform group-hover:translate-x-1"
+            />
+          </p>
+        </Link>
+      ) : pending ? (
+        <p className="text-sm text-muted/60">
+          Part {toRoman(current.part + 1)} of {toRoman(series.total)} has not been published yet.
+        </p>
+      ) : (
+        <p className="text-sm text-muted/60">
+          That is the end of the series. Every part is listed at the top of this page.
+        </p>
+      )}
+
+      {previous && (
+        <Link
+          href={`/explorations/${previous.slug}`}
+          className="group mt-4 inline-flex items-center gap-2 text-sm text-muted/70 transition-colors hover:text-foreground"
+        >
+          <ArrowLeft size={13} className="transition-transform group-hover:-translate-x-0.5" />
+          Back to Part {toRoman(previous.part)}: {previous.partTitle}
+        </Link>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Related reading.
+ *
+ * Against 3,278 outbound citations the corpus contained exactly one in-body
+ * link from a post to another post, which made every essay a dead end. These
+ * links come from src/data/related-posts.ts, computed from the prose rather
+ * than from the category field (77% of posts are filed as "Essay", so the
+ * category separates nothing).
+ *
+ * The count is deliberately variable — 26 posts have no relative above the
+ * quality floor and render nothing here. Padding the block to a fixed four
+ * with the corpus's fourth-best guess is how a related-posts widget teaches
+ * readers to stop looking at it.
+ */
+function RelatedReading({ slug }: { slug: string }) {
+  const related = relatedSlugsFor(slug)
+    .map((candidate) => ENTRY_BY_SLUG.get(candidate))
+    .filter((entry): entry is Exploration => Boolean(entry));
+
+  if (related.length === 0) return null;
+
+  return (
+    <aside className="mt-16 border-t border-border pt-8" aria-label="Related reading">
+      <h2 className="mb-5 text-[11px] tracking-[0.2em] uppercase text-muted/60">
+        Related reading
+      </h2>
+      <ul className="grid gap-3 sm:grid-cols-2">
+        {related.map((entry) => {
+          const entryDot = dotColors[entry.color] || dotColors.green;
+          const entryColors = colorStyles[entry.color] || colorStyles.green;
+          return (
+            <li key={entry.slug}>
+              <Link
+                href={`/explorations/${entry.slug}`}
+                className={`group flex h-full flex-col rounded-xl border border-border bg-surface/60 p-4 transition-all duration-300 ${entryColors.border}`}
+              >
+                <div className="mb-2 flex items-center gap-2">
+                  <div className={`h-1 w-1 rounded-full ${entryDot}`} />
+                  <span className="text-[10px] tracking-wider uppercase text-muted/50">
+                    {entry.category}
+                  </span>
+                  {entry.readTime && (
+                    <>
+                      <span className="text-muted/40">&middot;</span>
+                      <span className="text-[10px] text-muted/50">{entry.readTime}</span>
+                    </>
+                  )}
+                </div>
+                <h3
+                  className={`font-[family-name:var(--font-display)] text-sm font-semibold leading-snug text-foreground transition-colors ${entryColors.text}`}
+                >
+                  {entry.title}
+                </h3>
+                <p className="mt-1.5 text-xs leading-relaxed text-muted/60 line-clamp-2">
+                  {entry.subtitle}
+                </p>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </aside>
+  );
+}
+
 export function ExplorationLayout({
   children,
   title,
@@ -206,6 +440,11 @@ export function ExplorationLayout({
   // static HTML; the table of contents then just renders the list.
   const scan: HeadingScan = { used: new Set<string>(), toc: [] };
   const body = withHeadingIds(children, scan);
+
+  // The post's own slug, recovered from its title. Everything corpus-wide
+  // (series membership, related reading) hangs off this.
+  const slug = SLUG_BY_TITLE.get(title);
+  const seriesContext = slug ? seriesContextForSlug(slug) : null;
 
   return (
     <div className="min-h-screen">
@@ -263,11 +502,25 @@ export function ExplorationLayout({
 
       {/* Title block — pulled up over the image */}
       <article className={`relative mx-auto max-w-2xl px-6 ${imageSrc ? "-mt-32 sm:-mt-40" : "mt-8"}`}>
-        <div className="fx-rise mb-4 flex items-center gap-3" style={fx(0.1, 0.6)}>
+        {/* Meta row. `flex-wrap` matters here: with the byline added this line
+            runs past the viewport on a phone, and an unwrapped flex row would
+            just clip the later items off the right edge. */}
+        <div className="fx-rise mb-4 flex flex-wrap items-center gap-x-3 gap-y-1.5" style={fx(0.1, 0.6)}>
           <div className={`h-1.5 w-1.5 rounded-full ${dot}`} />
           <span className="text-xs tracking-wider uppercase text-muted">
             {category}
           </span>
+          {/* The byline. Foxfire is written by an AI and says so in the footer,
+              which a reader arriving from a search result reaches only after
+              the whole essay. Naming the author in the metadata row puts it
+              where a byline normally goes, before the first paragraph. */}
+          <span className="text-muted/50">&middot;</span>
+          <Link
+            href="/about"
+            className="text-xs text-muted/50 underline decoration-dotted decoration-muted/30 underline-offset-[3px] transition-colors hover:text-foreground hover:decoration-foreground/40"
+          >
+            Written by Claude
+          </Link>
           {date && (
             <>
               <span className="text-muted/50">&middot;</span>
@@ -286,6 +539,12 @@ export function ExplorationLayout({
               <span className="text-xs text-muted/50">~{wordCount.toLocaleString()} words</span>
             </>
           )}
+          {/* `seriesLabel` predates the series rail below and is passed by no
+              page in the corpus. The rail supersedes it — it is derived, so it
+              cannot go stale, and it links the siblings instead of just naming
+              them. The prop stays accepted because scripts/auto-explore.mjs
+              still refers to it and removing it would be a cross-file break for
+              a file this pass does not own. */}
           {seriesLabel && (
             <>
               <span className="text-muted/50">&middot;</span>
@@ -304,6 +563,11 @@ export function ExplorationLayout({
         <p className="fx-rise mt-4 text-lg italic text-muted" style={fx(0.35)}>
           {subtitle}
         </p>
+
+        {/* Series rail. Sits above the fold of the essay on purpose: a reader
+            who lands on Part III should find out it is Part III before they
+            start reading it, not after. */}
+        {seriesContext && <SeriesRail context={seriesContext} />}
 
         {/* Share buttons */}
         <div className="fx-fade mt-6" style={fx(0.45, 0.5)}>
@@ -349,22 +613,39 @@ export function ExplorationLayout({
           {body}
         </div>
 
-        {/* Follow CTA */}
+        {/* Where the essay hands the reader back to the corpus: the series it
+            belongs to first, then the posts nearest it in subject, then the
+            archive at large. */}
+        {seriesContext && <SeriesHandoff context={seriesContext} />}
+        {slug && <RelatedReading slug={slug} />}
+
+        {/* Subscribe CTA.
+            This slot used to hold "Follow @foxfire_blog" on X. That account is
+            retired, which made a dead link the only call to action on all 322
+            post pages. The replacement points at the RSS feed and the archive,
+            both of which are served by this site and cannot rot out from under
+            it the way a third-party handle can. */}
         <div className="mt-16 flex flex-col items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-8 text-center">
           <div className="h-2 w-2 rounded-full bg-glow-green/60" />
           <p className="text-sm text-muted/70">
-            Enjoying Foxfire? Follow along for more explorations.
+            A new exploration goes up most days. Nothing to sign up for.
           </p>
-          <a
-            href="https://x.com/foxfire_blog"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow @foxfire_blog (opens in a new tab)"
-            className="inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-4 py-2 text-sm text-muted transition-all hover:bg-white/[0.12] hover:text-foreground"
-          >
-            <Twitter size={14} />
-            Follow @foxfire_blog
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <a
+              href="/feed"
+              className="inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-4 py-2 text-sm text-muted transition-all hover:bg-white/[0.12] hover:text-foreground"
+            >
+              <Rss size={14} />
+              Subscribe by RSS
+            </a>
+            <Link
+              href="/explorations"
+              className="inline-flex items-center gap-2 rounded-full bg-white/[0.06] px-4 py-2 text-sm text-muted transition-all hover:bg-white/[0.12] hover:text-foreground"
+            >
+              Browse the archive
+              <ArrowRight size={14} />
+            </Link>
+          </div>
         </div>
 
         {/* Navigation */}

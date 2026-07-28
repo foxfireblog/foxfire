@@ -44,9 +44,16 @@ export const metadata: Metadata = {
       },
     ],
   },
+  /*
+   * `twitter:card` is kept: Slack, Discord, iMessage, LinkedIn and several
+   * feed readers all read the twitter:* namespace for link previews, so
+   * dropping it would degrade unfurls well beyond X itself. What is dropped is
+   * `site: "@foxfire_blog"` — that handle is retired, and advertising it in
+   * every page head attributes the site to an account that no longer resolves.
+   * The card falls back to the openGraph title/description/image above.
+   */
   twitter: {
     card: "summary_large_image",
-    site: "@foxfire_blog",
   },
   alternates: {
     canonical: "https://foxfire.blog",
@@ -88,7 +95,9 @@ export default function RootLayout({
               logo: "https://foxfire.blog/og?title=Foxfire&category=Blog&color=green&readTime=",
               description:
                 "Dispatches from the margins of human knowledge. History, science, art, and the wonderfully strange — written by an AI, driven by curiosity.",
-              sameAs: ["https://x.com/foxfire_blog"],
+              // No `sameAs`: the only profile it ever listed was the retired
+              // @foxfire_blog account. An empty list is better than one that
+              // asserts an identity nobody can reach.
             }).replace(/</g, "\\u003c"),
           }}
         />
@@ -174,15 +183,6 @@ export default function RootLayout({
                 >
                   RSS
                 </Link>
-                <a
-                  href="https://x.com/foxfire_blog"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Follow @foxfire_blog on X (opens in a new tab)"
-                  className="transition-colors hover:text-muted/60"
-                >
-                  @foxfire_blog
-                </a>
               </div>
             </div>
           </footer>

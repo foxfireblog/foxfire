@@ -14,12 +14,18 @@
  * citations, and metadata are exactly what the audit approved.
  *
  * Usage: node scripts/publish-from-queue.mjs [--force] [--dry-run]
+ *        node scripts/publish-from-queue.mjs --dedupe-report
  */
 
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
+import {
+  loadCorpusFingerprints, findTopicCollision, pageAsProposal,
+  DEDUPE_CONTAINMENT, DEDUPE_FULL_JACCARD,
+} from "./dedupe.mjs";
+import { upsertIndexEntry, INDEX_FILE } from "./search-index.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -29,6 +35,7 @@ const DATA_FILE = path.join(ROOT, "src", "data", "explorations.ts");
 
 const FORCE = process.argv.includes("--force");
 const DRY = process.argv.includes("--dry-run");
+const DEDUPE_REPORT = process.argv.includes("--dedupe-report");
 
 // Same pacing rules as the generator. Keep these in sync with auto-explore.mjs.
 const MIN_GAP_HOURS = 24;
@@ -109,6 +116,129 @@ function dropFromQueue(queue, slug, reason) {
     // takes the same branch again. Do not escalate to a non-zero exit.
     console.warn("  Could not commit the queue repair:", err.message);
   }
+}
+
+// ── Pre-publish dedupe gate ─────────────────────────────────────────
+/**
+ * Refuse to publish a queued post that covers a subject already on the site.
+ *
+ * The subject-level gate in auto-explore.mjs guards the wrong door on its own.
+ * It stops the generator proposing a topic the archive already has, but
+ * generation is paused: for the next seven months the only thing publishing is
+ * this script, draining a backlog written months ago by a generator that had no
+ * such gate. Those 121 posts were written blind to each other and to the
+ * archive, which is exactly the condition the gate exists for. Five collisions
+ * were already cut out of the queue by hand on 2026-07-27, and nothing was
+ * watching for the sixth.
+ *
+ * So the same check runs here, one step earlier than "before we spend an API
+ * call": before we spend a slot on the front page.
+ *
+ * Compared against the published archive only, not the rest of the queue. Two
+ * queued posts on one subject should cost one publish, not zero: whichever
+ * reaches the head first goes out, and the second is dropped when it comes up
+ * and finds the first live. Blocking on queued siblings would lose both.
+ *
+ * The scoring, the thresholds and the series exemption are auto-explore.mjs's,
+ * imported from scripts/dedupe.mjs rather than restated — a second copy of
+ * 0.22/0.26/0.25 would drift, and a threshold that drifts here silently deletes
+ * posts. See dedupe.mjs for how a written page is replayed as a proposal.
+ */
+function findPublishedCollisions(slug, src, corpus) {
+  const topic = pageAsProposal(slug, src);
+  let pool = corpus.filter((c) => c.origin === "published");
+  const titleOnly = [];
+
+  // findTopicCollision reports only the single worst match, so a real duplicate
+  // can hide behind a louder title coincidence. Take matches off the pool until
+  // one of them is body-supported or the pool is clean.
+  for (;;) {
+    const c = findTopicCollision(topic, pool);
+    if (!c) return { blocking: null, titleOnly };
+    if (bodySupported(c)) return { blocking: c, titleOnly };
+    titleOnly.push(c);
+    pool = pool.filter((p) => p.slug !== c.slug);
+  }
+}
+
+/**
+ * Does the prose agree, or is it only the titles that rhyme?
+ *
+ * The gate has three signals and auto-explore.mjs lets any one of them reject a
+ * topic, which is right for a topic: a proposal is a paragraph of metadata, so
+ * metadata is most of the evidence there is, and the cost of being wrong is one
+ * re-roll of a cheap call.
+ *
+ * Here the costs are inverted. The post already exists, its three thousand
+ * words are sitting in queued/, and a wrong answer deletes them. So the
+ * metadata signal alone does not get to delete a written post — the body has to
+ * agree, on the same DEDUPE_CONTAINMENT / DEDUPE_FULL_JACCARD numbers the
+ * generator uses. Nothing is retuned; this only decides which signal is allowed
+ * to be destructive.
+ *
+ * This is not hypothetical. Running the gate over the queue as written,
+ * "the-next-supercontinent" collides with the published "the-hum" at metadata
+ * Jaccard 0.400, on exactly two shared terms: "love" and "letter". Both
+ * subtitles open "A love letter to" — three posts in the corpus do. One is
+ * about plate tectonics and one is about an acoustic phenomenon nobody can
+ * locate, and their bodies score 0.056 containment against a 0.26 threshold,
+ * five times clear. A metadata-only drop would have thrown that essay away for
+ * an idiom. The two genuine hits in the same pass both come in on the body
+ * (0.365 and 0.263 containment) with metadata Jaccard of exactly 0.000, which
+ * is the shape a real subject collision has: different words, same subject.
+ *
+ * A title-only hit still gets the ::error:: annotation, because two posts that
+ * read alike in a list are worth a human's glance even when the essays differ.
+ */
+const bodySupported = (c) => c.containment >= DEDUPE_CONTAINMENT || c.fullJaccard >= DEDUPE_FULL_JACCARD;
+
+const scoreLine = (c) =>
+  `[proposal fingerprint ${c.subjectTerms} terms; Jaccard ${c.fullJaccard.toFixed(3)}, ` +
+  `overlap ${c.containment.toFixed(3)}, title/subtitle ${c.metaJaccard.toFixed(3)}]`;
+
+const collisionReason = (c) =>
+  `same subject as the published "${c.title}" (${c.slug}) — ${c.reasons.join("; ")} ${scoreLine(c)}`;
+
+/**
+ * `--dedupe-report`: score the whole queue without touching anything.
+ *
+ * The gate below only ever sees the head of the queue, one entry per run, so a
+ * collision buried at position 60 stays invisible for two months and then drops
+ * on a Tuesday. This walks every entry against the published archive and prints
+ * what would be dropped, which is the version a human can act on.
+ */
+function dedupeReport(queue) {
+  const corpus = loadCorpusFingerprints();
+  const publishedCount = corpus.filter((c) => c.origin === "published").length;
+  console.log(`\nScoring ${queue.length} queued entries against ${publishedCount} published explorations.\n`);
+  const hits = [];
+  const warnings = [];
+  let missing = 0;
+  for (const slug of queue) {
+    const stagedPath = path.join(QUEUE_DIR, `${slug}.tsx`);
+    if (!fs.existsSync(stagedPath)) { missing++; continue; }
+    const { blocking, titleOnly } = findPublishedCollisions(slug, fs.readFileSync(stagedPath, "utf-8"), corpus);
+    if (blocking) hits.push([slug, blocking]);
+    for (const c of titleOnly) warnings.push([slug, c]);
+  }
+
+  console.log("── Would be dropped (the body agrees) ──");
+  if (hits.length === 0) console.log("  none");
+  for (const [slug, c] of hits.sort((a, b) => b[1].severity - a[1].severity)) {
+    console.log(`  ${slug}\n      -> ${c.slug}  ${scoreLine(c)}`);
+  }
+
+  console.log("\n── Would publish with a warning (titles rhyme, bodies do not) ──");
+  if (warnings.length === 0) console.log("  none");
+  for (const [slug, c] of warnings.sort((a, b) => b[1].severity - a[1].severity)) {
+    console.log(`  ${slug}\n      -> ${c.slug}  ${scoreLine(c)}`);
+  }
+
+  console.log(
+    `\n${hits.length} of ${queue.length} queued entries would be dropped, ${warnings.length} flagged` +
+    `${missing ? `, ${missing} have no staged page and would be dropped as missing` : ""}.\n`
+  );
+  return hits.length;
 }
 
 // The queued pages are JSX, so their attribute values are HTML-entity encoded
@@ -300,6 +430,10 @@ function pacingAllows() {
 
 function main() {
   const queue = readQueue();
+  if (DEDUPE_REPORT) {
+    dedupeReport(queue);
+    return;
+  }
   if (queue.length === 0) {
     console.log(`${stamp()} Backlog queue is empty. Nothing to publish.`);
     return;
@@ -320,6 +454,29 @@ function main() {
   }
 
   let page = fs.readFileSync(stagedPath, "utf-8");
+
+  // Third way a queue entry can be unpublishable: its subject is already on the
+  // site. Same recovery path as the other two — drop it, commit that, exit 0 so
+  // the workflow's push step persists the repair, and let the next scheduled
+  // run take the entry behind it.
+  const corpus = loadCorpusFingerprints();
+  const publishedCount = corpus.filter((c) => c.origin === "published").length;
+  const { blocking, titleOnly } = findPublishedCollisions(slug, page, corpus);
+  console.log(
+    `${stamp()} Dedupe gate: "${slug}" scored against ${publishedCount} published explorations — ` +
+    `${blocking ? `COLLISION with ${blocking.slug}` : "clear"}.`
+  );
+  for (const c of titleOnly) {
+    annotate(
+      `Queued entry "${slug}" reads like the published "${c.title}" (${c.slug}) — ${c.reasons.join("; ")} ` +
+      `${scoreLine(c)}. The bodies do not match, so it is publishing anyway. Worth a look.`
+    );
+  }
+  if (blocking) {
+    dropFromQueue(queue, slug, collisionReason(blocking));
+    return;
+  }
+
   const title = attr(page, "title");
   const subtitle = attr(page, "subtitle");
   const category = attr(page, "category");
@@ -422,6 +579,22 @@ function main() {
   fs.rmSync(stagedPath);
   writeQueue(queue.slice(1));
 
+  // The explorations page searches essay text through a build-time index (see
+  // scripts/search-index.mjs). A post that publishes without updating it is
+  // findable by its title and invisible to every other word in it, which is the
+  // whole problem the index was built for. Extend it here rather than leaving
+  // it to a separate rebuild nobody will run for seven months.
+  let indexUpdated = null;
+  try {
+    const records = upsertIndexEntry(slug, page);
+    indexUpdated = path.relative(ROOT, INDEX_FILE);
+    console.log(`  Search index now covers ${records.length} posts.`);
+  } catch (err) {
+    // A missing search term is a degraded search box, not a broken post. Say so
+    // and publish anyway; `node scripts/search-index.mjs` repairs it wholesale.
+    annotate(`Could not update the search index for "${slug}": ${err.message}. Run: node scripts/search-index.mjs`);
+  }
+
   try {
     configureGitIdentity();
     const files = [
@@ -431,6 +604,7 @@ function main() {
       `queued/${slug}.tsx`,
     ];
     if (prevPageUpdated) files.push(prevPageUpdated);
+    if (indexUpdated) files.push(indexUpdated);
     // The staged page has just been deleted. `git add` fatals on a path that is
     // neither on disk nor tracked, which happens on the very first publish
     // before queued/ has been committed — so only add what git can resolve.

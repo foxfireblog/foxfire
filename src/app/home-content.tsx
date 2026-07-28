@@ -2,9 +2,128 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ExplorationCard } from "@/components/exploration-card";
-import { Sparkles } from "lucide-react";
+import { ExplorationCard, colorStyles } from "@/components/exploration-card";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { explorations } from "@/data/explorations";
+import { featuredShelves } from "@/data/featured";
+
+/**
+ * The start-here shelf.
+ *
+ * Below this, the homepage renders all 322 posts as a flat column, which is 64
+ * screens tall and is deliberately staying that way: every post reachable at
+ * crawl depth 1 is worth more to this site than pagination is. But a flat list
+ * of 322 is not an entry point, and a reader arriving cold had none.
+ *
+ * Nine posts, in three groups a newcomer can choose between by appetite. The
+ * picks are generated, not curated by hand — see src/data/featured.ts for the
+ * criteria and the measured counts behind each one. Nine slugs and three
+ * blurbs is roughly 1 KB in the client bundle.
+ */
+/**
+ * "The Manhattan Project: The Physics of Desperation (Part I of IV)" is a fine
+ * title on its own page and three wrapped lines inside a shelf card. The shelf
+ * already says these are series openers, so the marker moves out of the title
+ * and becomes a count.
+ */
+const SERIES_SUFFIX = /\s*\(Part\s+[IVXLCDM]+\s+of\s+([IVXLCDM]+)\)\s*$/i;
+const ROMAN_VALUES: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+
+function shelfTitle(title: string): { text: string; parts: number } {
+  const match = title.match(SERIES_SUFFIX);
+  if (!match) return { text: title, parts: 0 };
+  const roman = match[1].toUpperCase();
+  let parts = 0;
+  for (let i = 0; i < roman.length; i++) {
+    const value = ROMAN_VALUES[roman[i]] ?? 0;
+    parts += value < (ROMAN_VALUES[roman[i + 1]] ?? 0) ? -value : value;
+  }
+  return { text: title.replace(SERIES_SUFFIX, ""), parts };
+}
+
+function StartHere() {
+  const bySlug = new Map(explorations.map((item) => [item.slug, item]));
+
+  return (
+    <section className="mx-auto max-w-4xl px-6 pt-16">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="mb-3 flex items-center gap-4"
+      >
+        <h2 className="text-xs font-medium tracking-[0.2em] uppercase text-muted/60">
+          Start here
+        </h2>
+        <div className="h-px flex-1 bg-gradient-to-r from-border to-transparent" />
+      </motion.div>
+      <p className="mb-8 max-w-xl text-sm leading-relaxed text-muted/60">
+        There are {explorations.length} of these and no wrong door. If you want one picked for
+        you, pick a mood.
+      </p>
+
+      <div className="grid gap-4 md:grid-cols-3">
+        {featuredShelves.map((shelf, shelfIndex) => (
+          <motion.div
+            key={shelf.title}
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-40px" }}
+            transition={{ duration: 0.5, delay: shelfIndex * 0.08 }}
+            className="flex flex-col rounded-2xl border border-border bg-surface/50 p-5"
+          >
+            <h3 className="font-[family-name:var(--font-display)] text-base font-semibold text-foreground">
+              {shelf.title}
+            </h3>
+            <p className="mt-1.5 text-xs leading-relaxed text-muted/60">{shelf.blurb}</p>
+
+            <ul className="mt-4 flex flex-col gap-3 border-t border-border/60 pt-4">
+              {shelf.slugs.map((slug) => {
+                const item = bySlug.get(slug);
+                if (!item) return null;
+                const colors = colorStyles[item.color] || colorStyles.green;
+                const { text, parts } = shelfTitle(item.title);
+                return (
+                  <li key={slug}>
+                    <Link href={`/explorations/${slug}`} className="group block">
+                      <div className="flex items-start gap-2">
+                        <div className={`mt-1.5 h-1 w-1 shrink-0 rounded-full ${colors.dot}`} />
+                        <div>
+                          <span
+                            className={`text-sm font-medium leading-snug text-foreground/90 transition-colors ${colors.text}`}
+                          >
+                            {text}
+                          </span>
+                          {parts > 0 && (
+                            <span className="ml-1.5 whitespace-nowrap text-[10px] tracking-wider uppercase text-muted/40">
+                              {parts} parts
+                            </span>
+                          )}
+                          <p className="mt-0.5 text-xs leading-relaxed text-muted/50 line-clamp-2">
+                            {item.subtitle}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </motion.div>
+        ))}
+      </div>
+
+      <Link
+        href="/explorations"
+        className="group mt-6 inline-flex items-center gap-2 text-sm text-muted/70 transition-colors hover:text-foreground"
+      >
+        Or search the whole archive
+        <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
+      </Link>
+    </section>
+  );
+}
 
 export function HomeContent() {
   const [featured, ...rest] = explorations;
@@ -109,7 +228,10 @@ export function HomeContent() {
         <ExplorationCard item={featured} index={0} featured />
       </section>
 
-      {/* Rest of explorations */}
+      <StartHere />
+
+      {/* Rest of explorations. All 321 of them, unpaginated: the shelf above is
+          the entry point, this is the index, and both are load-bearing. */}
       <section className="mx-auto max-w-4xl px-6 pb-24 pt-8">
         <motion.div
           initial={{ opacity: 0 }}
