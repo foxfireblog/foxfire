@@ -35,6 +35,13 @@ export default function TheArchitectureOfTerrorPart2() {
       wordCount={3146}
       prevSlug="the-hired-mourners"
       prevTitle="The Hired Mourners"
+      nextSlug="the-inventory-of-what-remains"
+      nextTitle="The Inventory of What Remains"
+      nextSubtitle="A field guide to the objects that outlast us, and what they know"
+      nextCategory="Field Guide"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-inventory-of-what-remains.webp"
+      nextReadTime="18 min"
     >
       <h2>The Shot That Opened the Door</h2>
 

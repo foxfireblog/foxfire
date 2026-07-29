@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-inventory-of-what-remains",
+    title: "The Inventory of What Remains",
+    subtitle: "A field guide to the objects that outlast us, and what they know",
+    category: "Field Guide",
+    color: "amber",
+    readTime: "18 min",
+    image: "/images/explorations/the-inventory-of-what-remains.webp",
+    publishedAt: "07/29/2026 11:42 AM",
+    description:
+      "A field guide to the objects that outlast us, and what they know",
+  },
+  {
     slug: "the-architecture-of-terror-part-2",
     title: "The Architecture of Terror: The Purges (Part II of III)",
     subtitle: "The Great Terror of 1936-38, the show trials, the NKVD troikas, and the Gulag",

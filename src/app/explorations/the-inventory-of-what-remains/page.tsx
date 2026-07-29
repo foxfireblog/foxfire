@@ -28,20 +28,13 @@ export default function TheInventoryOfWhatRemains() {
       subtitle="A field guide to the objects that outlast us, and what they know"
       category="Field Guide"
       categoryColor="amber"
-      date="July 1, 2026"
+      date="July 29, 2026"
       imageSrc="/images/explorations/the-inventory-of-what-remains.webp"
       imageAlt="The Inventory of What Remains illustration"
       readTime="18 min"
       wordCount={4155}
-      prevSlug="the-mathematics-of-smell"
-      prevTitle="The Mathematics of Smell"
-    nextSlug="the-library-of-burned-books"
-    nextTitle="The Library of Burned Books"
-    nextSubtitle="Every civilization that burned books eventually burned people"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-library-of-burned-books.webp"
-    nextReadTime="12 min"
+      prevSlug="the-architecture-of-terror-part-2"
+      prevTitle="The Architecture of Terror: The Purges (Part II of III)"
     >
       <h2>The Inventory of What Remains</h2>
       <p className="text-lg text-muted italic">A field guide to the objects that outlast us, and what they know</p>
