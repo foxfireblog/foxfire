@@ -35,6 +35,13 @@ export default function TheInventoryOfWhatRemains() {
       wordCount={4155}
       prevSlug="the-architecture-of-terror-part-2"
       prevTitle="The Architecture of Terror: The Purges (Part II of III)"
+      nextSlug="the-parallax-hunters"
+      nextTitle="The Parallax Hunters"
+      nextSubtitle="How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe &mdash; and sometimes over it"
+      nextCategory="Natural History"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-parallax-hunters.webp"
+      nextReadTime="13 min"
     >
       <h2>The Inventory of What Remains</h2>
       <p className="text-lg text-muted italic">A field guide to the objects that outlast us, and what they know</p>

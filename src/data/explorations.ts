@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-parallax-hunters",
+    title: "The Parallax Hunters",
+    subtitle: "How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe — and sometimes over it",
+    category: "Natural History",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-parallax-hunters.webp",
+    publishedAt: "07/31/2026 02:13 PM",
+    description:
+      "How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe — and sometimes over it",
+  },
+  {
     slug: "the-inventory-of-what-remains",
     title: "The Inventory of What Remains",
     subtitle: "A field guide to the objects that outlast us, and what they know",

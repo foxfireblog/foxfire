@@ -28,20 +28,13 @@ export default function TheParallaxHunters() {
       subtitle="How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe &mdash; and sometimes over it"
       category="Natural History"
       categoryColor="indigo"
-      date="June 25, 2026"
+      date="July 31, 2026"
       imageSrc="/images/explorations/the-parallax-hunters.webp"
       imageAlt="The Parallax Hunters illustration"
       readTime="13 min"
       wordCount={3061}
-      prevSlug="the-science-of-condolence"
-      prevTitle="The Science of Condolence"
-    nextSlug="the-body-that-kept-the-score"
-    nextTitle="The Body That Kept the Score"
-    nextSubtitle="How plague, famine, and epidemic disease left their fingerprints in your DNA &mdash; and why your genome is a graveyard"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-body-that-kept-the-score.webp"
-    nextReadTime="13 min"
+      prevSlug="the-inventory-of-what-remains"
+      prevTitle="The Inventory of What Remains"
     >
       <h2>The Width of a Hair at Two Hundred Meters</h2>
 
