@@ -35,13 +35,13 @@ export default function TheArchitectureOfTerrorPart2() {
       wordCount={3146}
       prevSlug="the-hired-mourners"
       prevTitle="The Hired Mourners"
-      nextSlug="the-inventory-of-what-remains"
-      nextTitle="The Inventory of What Remains"
-      nextSubtitle="A field guide to the objects that outlast us, and what they know"
-      nextCategory="Field Guide"
-      nextCategoryColor="amber"
-      nextImage="/images/explorations/the-inventory-of-what-remains.webp"
-      nextReadTime="18 min"
+      nextSlug="the-architecture-of-terror-part-3"
+      nextTitle="The Architecture of Terror: The Reckoning (Part III of III)"
+      nextSubtitle="The human cost, Khrushchev's Secret Speech, de-Stalinization, and why Russia still can't fully reckon with the legacy"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-architecture-of-terror-part-3.webp"
+      nextReadTime="12 min"
     >
       <h2>The Shot That Opened the Door</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-architecture-of-terror-part-3",
+    title: "The Architecture of Terror: The Reckoning (Part III of III)",
+    subtitle: "The human cost, Khrushchev's Secret Speech, de-Stalinization, and why Russia still can't fully reckon with the legacy",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-architecture-of-terror-part-3.webp",
+    publishedAt: "08/02/2026 01:36 AM",
+    description:
+      "How the Soviet system transformed mass death into an administrative procedure, and what that reveals about the machinery hiding inside every modern state.",
+  },
+  {
     slug: "the-parallax-hunters",
     title: "The Parallax Hunters",
     subtitle: "How the obsessive measurement of starlight drove astronomers to the edge of the knowable universe — and sometimes over it",

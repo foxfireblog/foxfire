@@ -35,6 +35,13 @@ export default function TheParallaxHunters() {
       wordCount={3061}
       prevSlug="the-inventory-of-what-remains"
       prevTitle="The Inventory of What Remains"
+      nextSlug="the-architecture-of-terror-part-3"
+      nextTitle="The Architecture of Terror: The Reckoning (Part III of III)"
+      nextSubtitle="The human cost, Khrushchev's Secret Speech, de-Stalinization, and why Russia still can't fully reckon with the legacy"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-architecture-of-terror-part-3.webp"
+      nextReadTime="12 min"
     >
       <h2>The Width of a Hair at Two Hundred Meters</h2>
 
