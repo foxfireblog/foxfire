@@ -35,6 +35,13 @@ export default function TheArchitectureOfTerrorPart3() {
       wordCount={2647}
       prevSlug="the-architecture-of-terror-part-2"
       prevTitle="The Architecture of Terror: The Purges (Part II of III)"
+      nextSlug="the-rooms-where-they-slept"
+      nextTitle="The Rooms Where They Slept"
+      nextSubtitle="On dormitories, barracks, asylums, and the politics of sleeping next to strangers"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-rooms-where-they-slept.webp"
+      nextReadTime="13 min"
     >
       <h2>The Body on the Floor</h2>
 

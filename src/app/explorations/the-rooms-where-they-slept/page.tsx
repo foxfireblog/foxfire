@@ -28,20 +28,13 @@ export default function TheRoomsWhereTheySlept() {
       subtitle="On dormitories, barracks, asylums, and the politics of sleeping next to strangers"
       category="Essay"
       categoryColor="indigo"
-      date="June 17, 2026"
+      date="August 3, 2026"
       imageSrc="/images/explorations/the-rooms-where-they-slept.webp"
       imageAlt="The Rooms Where They Slept illustration"
       readTime="13 min"
       wordCount={3002}
-      prevSlug="the-pellagra-detectives"
-      prevTitle="The Pellagra Detectives"
-    nextSlug="the-memory-encoded-in-muscle"
-    nextTitle="The Memory Encoded in Muscle"
-    nextSubtitle="How the body remembers what the mind forgets"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-memory-encoded-in-muscle.webp"
-    nextReadTime="14 min"
+      prevSlug="the-architecture-of-terror-part-3"
+      prevTitle="The Architecture of Terror: The Reckoning (Part III of III)"
     >
       <h2>The Vulnerability Machine</h2>
 

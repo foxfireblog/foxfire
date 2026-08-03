@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-rooms-where-they-slept",
+    title: "The Rooms Where They Slept",
+    subtitle: "On dormitories, barracks, asylums, and the politics of sleeping next to strangers",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-rooms-where-they-slept.webp",
+    publishedAt: "08/03/2026 07:56 PM",
+    description:
+      "On dormitories, barracks, asylums, and the politics of sleeping next to strangers",
+  },
+  {
     slug: "the-architecture-of-terror-part-3",
     title: "The Architecture of Terror: The Reckoning (Part III of III)",
     subtitle: "The human cost, Khrushchev's Secret Speech, de-Stalinization, and why Russia still can't fully reckon with the legacy",
