@@ -28,20 +28,13 @@ export default function TheSoldiersWhoRefusedToStop() {
       subtitle="On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending"
       category="Essay"
       categoryColor="amber"
-      date="June 10, 2026"
+      date="August 5, 2026"
       imageSrc="/images/explorations/the-soldiers-who-refused-to-stop.webp"
       imageAlt="The Soldiers Who Refused to Stop illustration"
       readTime="13 min"
       wordCount={3002}
-      prevSlug="the-ghost-empire-of-trebizond"
-      prevTitle="The Ghost Empire of Trebizond"
-    nextSlug="the-rooms-where-nobody-died"
-    nextTitle="The Rooms Where Nobody Died"
-    nextSubtitle="On hotel rooms, hospital beds, and the architecture of anonymous passage"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-rooms-where-nobody-died.webp"
-    nextReadTime="13 min"
+      prevSlug="the-rooms-where-they-slept"
+      prevTitle="The Rooms Where They Slept"
     >
       <h2>The Last Minute</h2>
 

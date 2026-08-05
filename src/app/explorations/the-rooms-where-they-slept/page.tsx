@@ -35,6 +35,13 @@ export default function TheRoomsWhereTheySlept() {
       wordCount={3002}
       prevSlug="the-architecture-of-terror-part-3"
       prevTitle="The Architecture of Terror: The Reckoning (Part III of III)"
+      nextSlug="the-soldiers-who-refused-to-stop"
+      nextTitle="The Soldiers Who Refused to Stop"
+      nextSubtitle="On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-soldiers-who-refused-to-stop.webp"
+      nextReadTime="13 min"
     >
       <h2>The Vulnerability Machine</h2>
 

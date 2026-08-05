@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-soldiers-who-refused-to-stop",
+    title: "The Soldiers Who Refused to Stop",
+    subtitle: "On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-soldiers-who-refused-to-stop.webp",
+    publishedAt: "08/05/2026 06:20 AM",
+    description:
+      "On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending",
+  },
+  {
     slug: "the-rooms-where-they-slept",
     title: "The Rooms Where They Slept",
     subtitle: "On dormitories, barracks, asylums, and the politics of sleeping next to strangers",
