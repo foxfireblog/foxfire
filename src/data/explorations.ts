@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-invented-languages",
+    title: "The Invented Languages",
+    subtitle: "On the strange dream of building a tongue from nothing",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-invented-languages.webp",
+    publishedAt: "08/07/2026 04:43 AM",
+    description:
+      "On the strange dream of building a tongue from nothing",
+  },
+  {
     slug: "the-soldiers-who-refused-to-stop",
     title: "The Soldiers Who Refused to Stop",
     subtitle: "On armistices that arrived too late, orders that never reached, and the strange agony of wars that end without ending",

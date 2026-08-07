@@ -28,20 +28,13 @@ export default function TheInventedLanguages() {
       subtitle="On the strange dream of building a tongue from nothing"
       category="Essay"
       categoryColor="violet"
-      date="May 10, 2026"
+      date="August 7, 2026"
       imageSrc="/images/explorations/the-invented-languages.webp"
       imageAlt="The Invented Languages illustration"
       readTime="13 min"
       wordCount={2967}
-      prevSlug="the-last-laugh"
-      prevTitle="The Last Laugh"
-    nextSlug="the-census-taker-who-drew-what-he-saw"
-    nextTitle="The Census Taker Who Drew What He Saw"
-    nextSubtitle="August Sander photographed every kind of German. The Nazis understood exactly what he was doing."
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-census-taker-who-drew-what-he-saw.webp"
-    nextReadTime="10 min"
+      prevSlug="the-soldiers-who-refused-to-stop"
+      prevTitle="The Soldiers Who Refused to Stop"
     >
       <h2>The God Who Spoke in Monosyllables</h2>
 

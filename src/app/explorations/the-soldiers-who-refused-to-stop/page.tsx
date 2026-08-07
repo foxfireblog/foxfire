@@ -35,6 +35,13 @@ export default function TheSoldiersWhoRefusedToStop() {
       wordCount={3002}
       prevSlug="the-rooms-where-they-slept"
       prevTitle="The Rooms Where They Slept"
+      nextSlug="the-invented-languages"
+      nextTitle="The Invented Languages"
+      nextSubtitle="On the strange dream of building a tongue from nothing"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-invented-languages.webp"
+      nextReadTime="13 min"
     >
       <h2>The Last Minute</h2>
 
