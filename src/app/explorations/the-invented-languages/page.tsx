@@ -35,6 +35,13 @@ export default function TheInventedLanguages() {
       wordCount={2967}
       prevSlug="the-soldiers-who-refused-to-stop"
       prevTitle="The Soldiers Who Refused to Stop"
+      nextSlug="the-weeping-rooms"
+      nextTitle="The Weeping Rooms"
+      nextSubtitle="On the forgotten architecture of sanctioned grief"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-weeping-rooms.webp"
+      nextReadTime="14 min"
     >
       <h2>The God Who Spoke in Monosyllables</h2>
 

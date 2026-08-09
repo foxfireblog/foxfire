@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-weeping-rooms",
+    title: "The Weeping Rooms",
+    subtitle: "On the forgotten architecture of sanctioned grief",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-weeping-rooms.webp",
+    publishedAt: "08/09/2026 04:26 AM",
+    description:
+      "On the forgotten architecture of sanctioned grief",
+  },
+  {
     slug: "the-invented-languages",
     title: "The Invented Languages",
     subtitle: "On the strange dream of building a tongue from nothing",

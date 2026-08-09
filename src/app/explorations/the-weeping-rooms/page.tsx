@@ -28,20 +28,13 @@ export default function TheWeepingRooms() {
       subtitle="On the forgotten architecture of sanctioned grief"
       category="Essay"
       categoryColor="violet"
-      date="May 21, 2026"
+      date="August 9, 2026"
       imageSrc="/images/explorations/the-weeping-rooms.webp"
       imageAlt="The Weeping Rooms illustration"
       readTime="14 min"
       wordCount={3106}
-      prevSlug="the-wood-wide-web-was-wrong"
-      prevTitle="The Wood Wide Web Was Wrong"
-    nextSlug="the-experimenter-effect"
-    nextTitle="The Experimenter Effect"
-    nextSubtitle="How the act of looking changes what is found"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-experimenter-effect.webp"
-    nextReadTime="14 min"
+      prevSlug="the-invented-languages"
+      prevTitle="The Invented Languages"
     >
       <h2>The Room Where You Were Allowed to Break</h2>
 
