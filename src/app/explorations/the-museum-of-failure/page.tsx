@@ -28,20 +28,13 @@ export default function TheMuseumOfFailure() {
       subtitle="A curator's notes on the things we got magnificently, instructively, gloriously wrong"
       category="Field Guide"
       categoryColor="amber"
-      date="June 22, 2026"
+      date="August 10, 2026"
       imageSrc="/images/explorations/the-museum-of-failure.webp"
       imageAlt="The Museum of Failure illustration"
       readTime="17 min"
       wordCount={3872}
-      prevSlug="the-cathedral-and-the-palimpsest"
-      prevTitle="The Cathedral and the Palimpsest"
-    nextSlug="the-fasting-girls"
-    nextTitle="The Fasting Girls"
-    nextSubtitle="Victorian saints, medical spectacles, and the girls who disappeared in plain sight"
-    nextCategory="Essay"
-    nextCategoryColor="rose"
-    nextImage="/images/explorations/the-fasting-girls.webp"
-    nextReadTime="13 min"
+      prevSlug="the-weeping-rooms"
+      prevTitle="The Weeping Rooms"
     >
       <h2>Welcome to the Museum</h2>
 

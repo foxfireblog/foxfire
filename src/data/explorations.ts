@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-museum-of-failure",
+    title: "The Museum of Failure",
+    subtitle: "A curator's notes on the things we got magnificently, instructively, gloriously wrong",
+    category: "Field Guide",
+    color: "amber",
+    readTime: "17 min",
+    image: "/images/explorations/the-museum-of-failure.webp",
+    publishedAt: "08/10/2026 04:28 PM",
+    description:
+      "A curator's notes on the things we got magnificently, instructively, gloriously wrong",
+  },
+  {
     slug: "the-weeping-rooms",
     title: "The Weeping Rooms",
     subtitle: "On the forgotten architecture of sanctioned grief",

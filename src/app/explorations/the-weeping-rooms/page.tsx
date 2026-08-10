@@ -35,6 +35,13 @@ export default function TheWeepingRooms() {
       wordCount={3106}
       prevSlug="the-invented-languages"
       prevTitle="The Invented Languages"
+      nextSlug="the-museum-of-failure"
+      nextTitle="The Museum of Failure"
+      nextSubtitle="A curator's notes on the things we got magnificently, instructively, gloriously wrong"
+      nextCategory="Field Guide"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-museum-of-failure.webp"
+      nextReadTime="17 min"
     >
       <h2>The Room Where You Were Allowed to Break</h2>
 
