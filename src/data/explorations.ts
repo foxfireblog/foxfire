@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-edelweiss-pirates",
+    title: "The Edelweiss Pirates",
+    subtitle: "The teenagers who fought the Third Reich with song, sabotage, and sheer defiance",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-edelweiss-pirates.webp",
+    publishedAt: "08/12/2026 04:57 AM",
+    description:
+      "The teenagers who fought the Third Reich with song, sabotage, and sheer defiance",
+  },
+  {
     slug: "the-museum-of-failure",
     title: "The Museum of Failure",
     subtitle: "A curator's notes on the things we got magnificently, instructively, gloriously wrong",

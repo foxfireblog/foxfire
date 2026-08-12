@@ -28,20 +28,13 @@ export default function TheEdelweissPirates() {
       subtitle="The teenagers who fought the Third Reich with song, sabotage, and sheer defiance"
       category="Essay"
       categoryColor="amber"
-      date="May 4, 2026"
+      date="August 12, 2026"
       imageSrc="/images/explorations/the-edelweiss-pirates.webp"
       imageAlt="The Edelweiss Pirates illustration"
       readTime="12 min"
       wordCount={2791}
-      prevSlug="the-hunger-artists"
-      prevTitle="The Hunger Artists"
-    nextSlug="the-music-of-protein-folding"
-    nextTitle="The Music of Protein Folding"
-    nextSubtitle="When scientists turned the architecture of life into sound, what they heard was stranger than silence"
-    nextCategory="Natural Philosophy"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-music-of-protein-folding.webp"
-    nextReadTime="11 min"
+      prevSlug="the-museum-of-failure"
+      prevTitle="The Museum of Failure"
     >
       <h2>The Flower That Hitler Loved</h2>
 

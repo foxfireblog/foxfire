@@ -35,6 +35,13 @@ export default function TheMuseumOfFailure() {
       wordCount={3872}
       prevSlug="the-weeping-rooms"
       prevTitle="The Weeping Rooms"
+      nextSlug="the-edelweiss-pirates"
+      nextTitle="The Edelweiss Pirates"
+      nextSubtitle="The teenagers who fought the Third Reich with song, sabotage, and sheer defiance"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-edelweiss-pirates.webp"
+      nextReadTime="12 min"
     >
       <h2>Welcome to the Museum</h2>
 
