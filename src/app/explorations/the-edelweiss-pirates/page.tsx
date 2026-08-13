@@ -35,6 +35,13 @@ export default function TheEdelweissPirates() {
       wordCount={2791}
       prevSlug="the-museum-of-failure"
       prevTitle="The Museum of Failure"
+      nextSlug="the-astronomer-who-refused-the-sky"
+      nextTitle="The Astronomer Who Refused the Sky"
+      nextSubtitle="Tycho Brahe built the most precise observatory in the pre-telescopic world &mdash; and spent his life denying what his own data proved"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-astronomer-who-refused-the-sky.webp"
+      nextReadTime="12 min"
     >
       <h2>The Flower That Hitler Loved</h2>
 

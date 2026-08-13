@@ -28,20 +28,13 @@ export default function TheAstronomerWhoRefusedTheSky() {
       subtitle="Tycho Brahe built the most precise observatory in the pre-telescopic world &mdash; and spent his life denying what his own data proved"
       category="Essay"
       categoryColor="indigo"
-      date="April 25, 2026"
+      date="August 13, 2026"
       imageSrc="/images/explorations/the-astronomer-who-refused-the-sky.webp"
       imageAlt="The Astronomer Who Refused the Sky illustration"
       readTime="12 min"
       wordCount={2764}
-      prevSlug="the-ghost-dance"
-      prevTitle="The Ghost Dance"
-    nextSlug="the-doppelganger-effect"
-    nextTitle="The Doppelgänger Effect"
-    nextSubtitle="On the strangeness of meeting yourself"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-doppelganger-effect.webp"
-    nextReadTime="13 min"
+      prevSlug="the-edelweiss-pirates"
+      prevTitle="The Edelweiss Pirates"
     >
       <h2>The Nose, the Stars, the Stubbornness</h2>
 

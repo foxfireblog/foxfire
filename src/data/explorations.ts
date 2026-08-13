@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-astronomer-who-refused-the-sky",
+    title: "The Astronomer Who Refused the Sky",
+    subtitle: "Tycho Brahe built the most precise observatory in the pre-telescopic world — and spent his life denying what his own data proved",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-astronomer-who-refused-the-sky.webp",
+    publishedAt: "08/13/2026 04:26 PM",
+    description:
+      "Tycho Brahe built the most precise observatory in the pre-telescopic world — and spent his life denying what his own data proved",
+  },
+  {
     slug: "the-edelweiss-pirates",
     title: "The Edelweiss Pirates",
     subtitle: "The teenagers who fought the Third Reich with song, sabotage, and sheer defiance",
