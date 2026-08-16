@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-surgeons-of-the-stone-age",
+    title: "The Surgeon's Fingers Remember",
+    subtitle: "Ten thousand years of cutting, and the hand still trembles the same way",
+    category: "Natural History",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-surgeons-of-the-stone-age.webp",
+    publishedAt: "08/15/2026 10:49 PM",
+    description:
+      "Ten thousand years of cutting, and the hand still trembles the same way",
+  },
+  {
     slug: "the-astronomer-who-refused-the-sky",
     title: "The Astronomer Who Refused the Sky",
     subtitle: "Tycho Brahe built the most precise observatory in the pre-telescopic world — and spent his life denying what his own data proved",

@@ -35,6 +35,13 @@ export default function TheAstronomerWhoRefusedTheSky() {
       wordCount={2764}
       prevSlug="the-edelweiss-pirates"
       prevTitle="The Edelweiss Pirates"
+      nextSlug="the-surgeons-of-the-stone-age"
+      nextTitle="The Surgeon's Fingers Remember"
+      nextSubtitle="Ten thousand years of cutting, and the hand still trembles the same way"
+      nextCategory="Natural History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-surgeons-of-the-stone-age.webp"
+      nextReadTime="12 min"
     >
       <h2>The Nose, the Stars, the Stubbornness</h2>
 

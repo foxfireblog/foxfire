@@ -28,20 +28,13 @@ export default function TheSurgeonsOfTheStoneAge() {
       subtitle="Ten thousand years of cutting, and the hand still trembles the same way"
       category="Natural History"
       categoryColor="amber"
-      date="May 31, 2026"
+      date="August 15, 2026"
       imageSrc="/images/explorations/the-surgeons-of-the-stone-age.webp"
       imageAlt="The Surgeon's Fingers Remember illustration"
       readTime="12 min"
       wordCount={2729}
-      prevSlug="the-bystander-geometry"
-      prevTitle="The Bystander Geometry"
-    nextSlug="the-demand-characteristics"
-    nextTitle="The Demand Characteristics"
-    nextSubtitle="On the impossibility of observing a human without changing what you see"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-demand-characteristics.webp"
-    nextReadTime="14 min"
+      prevSlug="the-astronomer-who-refused-the-sky"
+      prevTitle="The Astronomer Who Refused the Sky"
     >
       <h2>The Child in the Cave</h2>
 
