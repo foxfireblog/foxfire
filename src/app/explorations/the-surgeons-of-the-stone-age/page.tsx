@@ -35,6 +35,13 @@ export default function TheSurgeonsOfTheStoneAge() {
       wordCount={2729}
       prevSlug="the-astronomer-who-refused-the-sky"
       prevTitle="The Astronomer Who Refused the Sky"
+      nextSlug="the-ascetics-who-became-gods"
+      nextTitle="The Ascetics Who Became Gods"
+      nextSubtitle="On the ancient logic of destroying the body to transcend it"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-ascetics-who-became-gods.webp"
+      nextReadTime="14 min"
     >
       <h2>The Child in the Cave</h2>
 

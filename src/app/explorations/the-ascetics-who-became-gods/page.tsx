@@ -28,20 +28,13 @@ export default function TheAsceticsWhoBecameGods() {
       subtitle="On the ancient logic of destroying the body to transcend it"
       category="Essay"
       categoryColor="amber"
-      date="July 24, 2026"
+      date="August 17, 2026"
       imageSrc="/images/explorations/the-ascetics-who-became-gods.webp"
       imageAlt="The Ascetics Who Became Gods illustration"
       readTime="14 min"
       wordCount={3223}
-      prevSlug="the-threshold-of-significance"
-      prevTitle="The Threshold of Significance"
-    nextSlug="the-chilean-experiment"
-    nextTitle="The Chilean Experiment"
-    nextSubtitle="When economists treated a country like a laboratory"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-chilean-experiment.webp"
-    nextReadTime="12 min"
+      prevSlug="the-surgeons-of-the-stone-age"
+      prevTitle="The Surgeon's Fingers Remember"
     >
       <h2>The Bell in the Earth</h2>
 

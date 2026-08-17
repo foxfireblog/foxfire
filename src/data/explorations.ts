@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ascetics-who-became-gods",
+    title: "The Ascetics Who Became Gods",
+    subtitle: "On the ancient logic of destroying the body to transcend it",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-ascetics-who-became-gods.webp",
+    publishedAt: "08/17/2026 04:12 PM",
+    description:
+      "On the ancient logic of destroying the body to transcend it",
+  },
+  {
     slug: "the-surgeons-of-the-stone-age",
     title: "The Surgeon's Fingers Remember",
     subtitle: "Ten thousand years of cutting, and the hand still trembles the same way",
