@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-zombie-archive",
+    title: "The Zombie Archive",
+    subtitle: "Before the metaphor, before the movies, there was a pharmacology of erasure",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-zombie-archive.webp",
+    publishedAt: "08/19/2026 01:15 PM",
+    description:
+      "Before the metaphor, before the movies, there was a pharmacology of erasure",
+  },
+  {
     slug: "the-ascetics-who-became-gods",
     title: "The Ascetics Who Became Gods",
     subtitle: "On the ancient logic of destroying the body to transcend it",

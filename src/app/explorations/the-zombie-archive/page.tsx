@@ -28,20 +28,13 @@ export default function TheZombieArchive() {
       subtitle="Before the metaphor, before the movies, there was a pharmacology of erasure"
       category="Essay"
       categoryColor="violet"
-      date="June 9, 2026"
+      date="August 19, 2026"
       imageSrc="/images/explorations/the-zombie-archive.webp"
       imageAlt="The Zombie Archive illustration"
       readTime="14 min"
       wordCount={3150}
-      prevSlug="the-standardization-of-nowhere"
-      prevTitle="The Standardization of Nowhere"
-    nextSlug="the-rooms-where-they-waited"
-    nextTitle="The Rooms Where They Waited"
-    nextSubtitle="On the architecture of anticipation &mdash; waiting rooms, antechambers, and the spaces designed to hold people in suspension"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-rooms-where-they-waited.webp"
-    nextReadTime="12 min"
+      prevSlug="the-ascetics-who-became-gods"
+      prevTitle="The Ascetics Who Became Gods"
     >
       <h2>The Man Who Heard the Dirt</h2>
 

@@ -35,6 +35,13 @@ export default function TheAsceticsWhoBecameGods() {
       wordCount={3223}
       prevSlug="the-surgeons-of-the-stone-age"
       prevTitle="The Surgeon's Fingers Remember"
+      nextSlug="the-zombie-archive"
+      nextTitle="The Zombie Archive"
+      nextSubtitle="Before the metaphor, before the movies, there was a pharmacology of erasure"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-zombie-archive.webp"
+      nextReadTime="14 min"
     >
       <h2>The Bell in the Earth</h2>
 
