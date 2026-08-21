@@ -28,20 +28,13 @@ export default function TheLastOrdinaryDay() {
       subtitle="On the strange mercy of not knowing what is about to end"
       category="Essay"
       categoryColor="amber"
-      date="June 11, 2026"
+      date="August 21, 2026"
       imageSrc="/images/explorations/the-last-ordinary-day.webp"
       imageAlt="The Last Ordinary Day illustration"
       readTime="14 min"
       wordCount={3170}
-      prevSlug="the-rooms-where-nobody-died"
-      prevTitle="The Rooms Where Nobody Died"
-    nextSlug="the-confession-that-never-happened"
-    nextTitle="The Confession That Never Happened"
-    nextSubtitle="How the innocent come to remember crimes they didn't commit"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-confession-that-never-happened.webp"
-    nextReadTime="14 min"
+      prevSlug="the-zombie-archive"
+      prevTitle="The Zombie Archive"
     >
       <h2>The Bread in the Oven</h2>
 

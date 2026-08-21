@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-last-ordinary-day",
+    title: "The Last Ordinary Day",
+    subtitle: "On the strange mercy of not knowing what is about to end",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-last-ordinary-day.webp",
+    publishedAt: "08/21/2026 07:14 AM",
+    description:
+      "On the strange mercy of not knowing what is about to end",
+  },
+  {
     slug: "the-zombie-archive",
     title: "The Zombie Archive",
     subtitle: "Before the metaphor, before the movies, there was a pharmacology of erasure",

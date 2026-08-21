@@ -35,6 +35,13 @@ export default function TheZombieArchive() {
       wordCount={3150}
       prevSlug="the-ascetics-who-became-gods"
       prevTitle="The Ascetics Who Became Gods"
+      nextSlug="the-last-ordinary-day"
+      nextTitle="The Last Ordinary Day"
+      nextSubtitle="On the strange mercy of not knowing what is about to end"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-last-ordinary-day.webp"
+      nextReadTime="14 min"
     >
       <h2>The Man Who Heard the Dirt</h2>
 
