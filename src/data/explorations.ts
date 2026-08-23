@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-obsolescence-of-experts",
+    title: "The Obsolescence of Experts",
+    subtitle: "How the people who knew the most became the last to know it was over",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-obsolescence-of-experts.webp",
+    publishedAt: "08/23/2026 10:11 AM",
+    description:
+      "How the people who knew the most became the last to know it was over",
+  },
+  {
     slug: "the-last-ordinary-day",
     title: "The Last Ordinary Day",
     subtitle: "On the strange mercy of not knowing what is about to end",

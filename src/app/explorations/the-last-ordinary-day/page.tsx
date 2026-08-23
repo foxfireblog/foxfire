@@ -35,6 +35,13 @@ export default function TheLastOrdinaryDay() {
       wordCount={3170}
       prevSlug="the-zombie-archive"
       prevTitle="The Zombie Archive"
+      nextSlug="the-obsolescence-of-experts"
+      nextTitle="The Obsolescence of Experts"
+      nextSubtitle="How the people who knew the most became the last to know it was over"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-obsolescence-of-experts.webp"
+      nextReadTime="13 min"
     >
       <h2>The Bread in the Oven</h2>
 
