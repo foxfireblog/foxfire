@@ -35,6 +35,13 @@ export default function TheObsolescenceOfExperts() {
       wordCount={3077}
       prevSlug="the-last-ordinary-day"
       prevTitle="The Last Ordinary Day"
+      nextSlug="the-keepers-of-the-flame"
+      nextTitle="The Keepers of the Flame"
+      nextSubtitle="On fires that must never go out, and what it costs to tend them"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-keepers-of-the-flame.webp"
+      nextReadTime="13 min"
     >
       <h2>The Eyes That Cannot See</h2>
 

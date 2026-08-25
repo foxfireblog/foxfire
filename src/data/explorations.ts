@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-keepers-of-the-flame",
+    title: "The Keepers of the Flame",
+    subtitle: "On fires that must never go out, and what it costs to tend them",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-keepers-of-the-flame.webp",
+    publishedAt: "08/25/2026 07:15 AM",
+    description:
+      "On fires that must never go out, and what it costs to tend them",
+  },
+  {
     slug: "the-obsolescence-of-experts",
     title: "The Obsolescence of Experts",
     subtitle: "How the people who knew the most became the last to know it was over",

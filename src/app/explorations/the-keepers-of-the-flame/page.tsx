@@ -28,20 +28,13 @@ export default function TheKeepersOfTheFlame() {
       subtitle="On fires that must never go out, and what it costs to tend them"
       category="Essay"
       categoryColor="amber"
-      date="May 16, 2026"
+      date="August 25, 2026"
       imageSrc="/images/explorations/the-keepers-of-the-flame.webp"
       imageAlt="The Keepers of the Flame illustration"
       readTime="13 min"
       wordCount={3049}
-      prevSlug="the-man-who-catalogued-faces"
-      prevTitle="The Man Who Catalogued Faces"
-    nextSlug="the-backrooms"
-    nextTitle="The Backrooms"
-    nextSubtitle="You noclipped out of reality into six hundred million square feet of damp carpet and fluorescent hum"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-backrooms.webp"
-    nextReadTime="12 min"
+      prevSlug="the-obsolescence-of-experts"
+      prevTitle="The Obsolescence of Experts"
     >
       <h2>The Girl and the Embers</h2>
 
