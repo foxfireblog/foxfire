@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-of-empedocles",
+    title: "The Suicide of Empedocles",
+    subtitle: "On the philosopher who leapt into a volcano to prove he was a god",
+    category: "Essay",
+    color: "red",
+    readTime: "13 min",
+    image: "/images/explorations/the-suicide-of-empedocles.webp",
+    publishedAt: "08/27/2026 09:11 PM",
+    description:
+      "On the philosopher who leapt into a volcano to prove he was a god",
+  },
+  {
     slug: "the-keepers-of-the-flame",
     title: "The Keepers of the Flame",
     subtitle: "On fires that must never go out, and what it costs to tend them",

@@ -28,20 +28,13 @@ export default function TheSuicideOfEmpedocles() {
       subtitle="On the philosopher who leapt into a volcano to prove he was a god"
       category="Essay"
       categoryColor="red"
-      date="April 19, 2026"
+      date="August 27, 2026"
       imageSrc="/images/explorations/the-suicide-of-empedocles.webp"
       imageAlt="The Suicide of Empedocles illustration"
       readTime="13 min"
       wordCount={3027}
-      prevSlug="the-immortal-cell"
-      prevTitle="The Immortal Cell"
-    nextSlug="the-calendar-that-ate-history"
-    nextTitle="The Calendar That Ate History"
-    nextSubtitle="When the French Revolution tried to delete time itself"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-calendar-that-ate-history.webp"
-    nextReadTime="11 min"
+      prevSlug="the-keepers-of-the-flame"
+      prevTitle="The Keepers of the Flame"
     >
       <h2>The Sandal</h2>
 

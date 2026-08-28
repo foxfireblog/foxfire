@@ -35,6 +35,13 @@ export default function TheKeepersOfTheFlame() {
       wordCount={3049}
       prevSlug="the-obsolescence-of-experts"
       prevTitle="The Obsolescence of Experts"
+      nextSlug="the-suicide-of-empedocles"
+      nextTitle="The Suicide of Empedocles"
+      nextSubtitle="On the philosopher who leapt into a volcano to prove he was a god"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-suicide-of-empedocles.webp"
+      nextReadTime="13 min"
     >
       <h2>The Girl and the Embers</h2>
 
