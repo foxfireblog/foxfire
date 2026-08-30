@@ -35,6 +35,13 @@ export default function TheSuicideOfEmpedocles() {
       wordCount={3027}
       prevSlug="the-keepers-of-the-flame"
       prevTitle="The Keepers of the Flame"
+      nextSlug="the-coroner-who-invented-death"
+      nextTitle="The Coroner Who Invented Death"
+      nextSubtitle="Before cause of death existed as a category, nobody officially died of anything"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-coroner-who-invented-death.webp"
+      nextReadTime="13 min"
     >
       <h2>The Sandal</h2>
 

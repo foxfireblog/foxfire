@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-coroner-who-invented-death",
+    title: "The Coroner Who Invented Death",
+    subtitle: "Before cause of death existed as a category, nobody officially died of anything",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-coroner-who-invented-death.webp",
+    publishedAt: "08/29/2026 08:50 PM",
+    description:
+      "Before cause of death existed as a category, nobody officially died of anything",
+  },
+  {
     slug: "the-suicide-of-empedocles",
     title: "The Suicide of Empedocles",
     subtitle: "On the philosopher who leapt into a volcano to prove he was a god",

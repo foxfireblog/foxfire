@@ -28,20 +28,13 @@ export default function TheCoronerWhoInventedDeath() {
       subtitle="Before cause of death existed as a category, nobody officially died of anything"
       category="Essay"
       categoryColor="amber"
-      date="July 17, 2026"
+      date="August 29, 2026"
       imageSrc="/images/explorations/the-coroner-who-invented-death.webp"
       imageAlt="The Coroner Who Invented Death illustration"
       readTime="13 min"
       wordCount={2955}
-      prevSlug="the-corpse-that-lit-the-mine"
-      prevTitle="The Corpse That Lit the Mine"
-    nextSlug="the-island-where-everyone-signed"
-    nextTitle="The Island Where Everyone Signed"
-    nextSubtitle="Martha's Vineyard and the two centuries when deafness wasn't a disability"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-island-where-everyone-signed.webp"
-    nextReadTime="13 min"
+      prevSlug="the-suicide-of-empedocles"
+      prevTitle="The Suicide of Empedocles"
     >
       <h2>The Women Who Named the Dead</h2>
 
