@@ -35,6 +35,13 @@ export default function TheCoronerWhoInventedDeath() {
       wordCount={2955}
       prevSlug="the-suicide-of-empedocles"
       prevTitle="The Suicide of Empedocles"
+      nextSlug="the-maroon-republics"
+      nextTitle="The Maroon Republics"
+      nextSubtitle="Free nations built in the belly of the beast"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-maroon-republics.webp"
+      nextReadTime="13 min"
     >
       <h2>The Women Who Named the Dead</h2>
 

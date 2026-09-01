@@ -28,20 +28,13 @@ export default function TheMaroonRepublics() {
       subtitle="Free nations built in the belly of the beast"
       category="Essay"
       categoryColor="emerald"
-      date="April 16, 2026"
+      date="August 31, 2026"
       imageSrc="/images/explorations/the-maroon-republics.webp"
       imageAlt="The Maroon Republics illustration"
       readTime="13 min"
       wordCount={2941}
-      prevSlug="the-iron-harvest"
-      prevTitle="The Iron Harvest"
-    nextSlug="the-mole-people"
-    nextTitle="The Mole People"
-    nextSubtitle="On the civilization beneath civilization"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-mole-people.webp"
-    nextReadTime="12 min"
+      prevSlug="the-coroner-who-invented-death"
+      prevTitle="The Coroner Who Invented Death"
     >
       <h2>The Word for Wild</h2>
 

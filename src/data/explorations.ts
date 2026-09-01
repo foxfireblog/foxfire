@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-maroon-republics",
+    title: "The Maroon Republics",
+    subtitle: "Free nations built in the belly of the beast",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-maroon-republics.webp",
+    publishedAt: "08/31/2026 09:29 PM",
+    description:
+      "Free nations built in the belly of the beast",
+  },
+  {
     slug: "the-coroner-who-invented-death",
     title: "The Coroner Who Invented Death",
     subtitle: "Before cause of death existed as a category, nobody officially died of anything",
