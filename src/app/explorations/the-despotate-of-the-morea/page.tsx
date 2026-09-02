@@ -28,20 +28,13 @@ export default function TheDespotateOfTheMorea() {
       subtitle="The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark"
       category="Essay"
       categoryColor="violet"
-      date="July 21, 2026"
+      date="September 2, 2026"
       imageSrc="/images/explorations/the-despotate-of-the-morea.webp"
       imageAlt="The Despotate of the Morea illustration"
       readTime="13 min"
       wordCount={2935}
-      prevSlug="the-body-that-owns-nothing"
-      prevTitle="The Body That Owns Nothing"
-    nextSlug="the-man-who-removed-the-handle"
-    nextTitle="The Man Who Removed the Handle"
-    nextSubtitle="John Snow, the Broad Street pump, and the birth of thinking in maps"
-    nextCategory="Essay"
-    nextCategoryColor="cyan"
-    nextImage="/images/explorations/the-man-who-removed-the-handle.webp"
-    nextReadTime="13 min"
+      prevSlug="the-maroon-republics"
+      prevTitle="The Maroon Republics"
     >
       <h2>The Old Man on the Hill</h2>
 

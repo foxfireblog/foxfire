@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-despotate-of-the-morea",
+    title: "The Despotate of the Morea",
+    subtitle: "The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-despotate-of-the-morea.webp",
+    publishedAt: "09/02/2026 08:19 AM",
+    description:
+      "The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark",
+  },
+  {
     slug: "the-maroon-republics",
     title: "The Maroon Republics",
     subtitle: "Free nations built in the belly of the beast",

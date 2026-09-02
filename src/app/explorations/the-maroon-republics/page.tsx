@@ -35,6 +35,13 @@ export default function TheMaroonRepublics() {
       wordCount={2941}
       prevSlug="the-coroner-who-invented-death"
       prevTitle="The Coroner Who Invented Death"
+      nextSlug="the-despotate-of-the-morea"
+      nextTitle="The Despotate of the Morea"
+      nextSubtitle="The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-despotate-of-the-morea.webp"
+      nextReadTime="13 min"
     >
       <h2>The Word for Wild</h2>
 
