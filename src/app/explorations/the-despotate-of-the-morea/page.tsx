@@ -35,6 +35,13 @@ export default function TheDespotateOfTheMorea() {
       wordCount={2935}
       prevSlug="the-maroon-republics"
       prevTitle="The Maroon Republics"
+      nextSlug="the-physicians-of-the-urine-wheel"
+      nextTitle="The Physicians of the Urine Wheel"
+      nextSubtitle="For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong."
+      nextCategory="Medical History"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-physicians-of-the-urine-wheel.webp"
+      nextReadTime="13 min"
     >
       <h2>The Old Man on the Hill</h2>
 

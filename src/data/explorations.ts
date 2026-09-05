@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-physicians-of-the-urine-wheel",
+    title: "The Physicians of the Urine Wheel",
+    subtitle: "For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong.",
+    category: "Medical History",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-physicians-of-the-urine-wheel.webp",
+    publishedAt: "09/04/2026 08:27 PM",
+    description:
+      "For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong.",
+  },
+  {
     slug: "the-despotate-of-the-morea",
     title: "The Despotate of the Morea",
     subtitle: "The last garden of Byzantium, where scholars fled with armloads of Plato before the world went dark",

@@ -28,20 +28,13 @@ export default function ThePhysiciansOfTheUrineWheel() {
       subtitle="For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong."
       category="Medical History"
       categoryColor="amber"
-      date="May 27, 2026"
+      date="September 4, 2026"
       imageSrc="/images/explorations/the-physicians-of-the-urine-wheel.webp"
       imageAlt="The Physicians of the Urine Wheel illustration"
       readTime="13 min"
       wordCount={2878}
-      prevSlug="the-lost-rivers-of-london"
-      prevTitle="The Lost Rivers of London"
-    nextSlug="the-attention-merchants"
-    nextTitle="The Attention Merchants"
-    nextSubtitle="Your focus is the most valuable commodity on earth. You've been giving it away for free."
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-attention-merchants.webp"
-    nextReadTime="12 min"
+      prevSlug="the-despotate-of-the-morea"
+      prevTitle="The Despotate of the Morea"
     >
       <h2>The Flask Held Up to the Light</h2>
 
