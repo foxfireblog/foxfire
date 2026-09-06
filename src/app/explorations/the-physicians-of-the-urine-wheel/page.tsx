@@ -35,6 +35,13 @@ export default function ThePhysiciansOfTheUrineWheel() {
       wordCount={2878}
       prevSlug="the-despotate-of-the-morea"
       prevTitle="The Despotate of the Morea"
+      nextSlug="the-death-cast"
+      nextTitle="The Death Cast"
+      nextSubtitle="On pressing your face into plaster and calling it memory"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-death-cast.webp"
+      nextReadTime="12 min"
     >
       <h2>The Flask Held Up to the Light</h2>
 

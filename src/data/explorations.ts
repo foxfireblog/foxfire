@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-death-cast",
+    title: "The Death Cast",
+    subtitle: "On pressing your face into plaster and calling it memory",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-death-cast.webp",
+    publishedAt: "09/06/2026 02:42 PM",
+    description:
+      "On pressing your face into plaster and calling it memory",
+  },
+  {
     slug: "the-physicians-of-the-urine-wheel",
     title: "The Physicians of the Urine Wheel",
     subtitle: "For five hundred years, doctors read the future in a flask of piss. They were not entirely wrong.",

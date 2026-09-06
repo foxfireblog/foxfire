@@ -28,19 +28,13 @@ export default function TheDeathCast() {
       subtitle="On pressing your face into plaster and calling it memory"
       category="Essay"
       categoryColor="violet"
-      date="June 23, 2026"
+      date="September 6, 2026"
       imageSrc="/images/explorations/the-death-cast.webp"
       imageAlt="The Death Cast illustration"
       readTime="12 min"
       wordCount={2817}
-      prevSlug="the-fasting-girls"
-      prevTitle="The Fasting Girls"
-    nextSlug="the-laughing-death"
-    nextTitle="The Laughing Death"
-    nextSubtitle="A disease that only existed in one place, killed only certain people, and unlocked the deepest secret of medicine"
-    nextCategory="Natural History"
-    nextCategoryColor="violet"
-    nextReadTime="15 min"
+      prevSlug="the-physicians-of-the-urine-wheel"
+      prevTitle="The Physicians of the Urine Wheel"
     >
       <h2>The Thread Down the Center of the Face</h2>
 
