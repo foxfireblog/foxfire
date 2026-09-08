@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-hair-that-outlives-us",
+    title: "The Hair That Outlives Us",
+    subtitle: "On Victorian mourning jewelry and the strange physics of grief",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-hair-that-outlives-us.webp",
+    publishedAt: "09/08/2026 01:37 PM",
+    description:
+      "On Victorian mourning jewelry and the strange physics of grief",
+  },
+  {
     slug: "the-death-cast",
     title: "The Death Cast",
     subtitle: "On pressing your face into plaster and calling it memory",

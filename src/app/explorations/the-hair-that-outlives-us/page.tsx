@@ -28,20 +28,13 @@ export default function TheHairThatOutlivesUs() {
       subtitle="On Victorian mourning jewelry and the strange physics of grief"
       category="Essay"
       categoryColor="amber"
-      date="May 7, 2026"
+      date="September 8, 2026"
       imageSrc="/images/explorations/the-hair-that-outlives-us.webp"
       imageAlt="The Hair That Outlives Us illustration"
       readTime="12 min"
       wordCount={2697}
-      prevSlug="the-luddites-were-right"
-      prevTitle="The Luddites Were Right"
-    nextSlug="the-geography-of-silence"
-    nextTitle="The Geography of Silence"
-    nextSubtitle="On Martha's Vineyard, everyone spoke sign language &mdash; and no one was disabled."
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-geography-of-silence.webp"
-    nextReadTime="11 min"
+      prevSlug="the-death-cast"
+      prevTitle="The Death Cast"
     >
       <h2>The Last Thing to Go</h2>
 

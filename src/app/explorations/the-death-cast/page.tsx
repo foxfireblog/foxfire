@@ -35,6 +35,13 @@ export default function TheDeathCast() {
       wordCount={2817}
       prevSlug="the-physicians-of-the-urine-wheel"
       prevTitle="The Physicians of the Urine Wheel"
+      nextSlug="the-hair-that-outlives-us"
+      nextTitle="The Hair That Outlives Us"
+      nextSubtitle="On Victorian mourning jewelry and the strange physics of grief"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-hair-that-outlives-us.webp"
+      nextReadTime="12 min"
     >
       <h2>The Thread Down the Center of the Face</h2>
 
