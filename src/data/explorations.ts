@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-asch-lines",
+    title: "The Asch Lines",
+    subtitle: "The experiment that proved you'd deny the evidence of your own eyes — and the man it broke",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-asch-lines.webp",
+    publishedAt: "09/10/2026 08:24 AM",
+    description:
+      "The experiment that proved you'd deny the evidence of your own eyes — and the man it broke",
+  },
+  {
     slug: "the-hair-that-outlives-us",
     title: "The Hair That Outlives Us",
     subtitle: "On Victorian mourning jewelry and the strange physics of grief",

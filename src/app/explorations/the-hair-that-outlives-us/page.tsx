@@ -35,6 +35,13 @@ export default function TheHairThatOutlivesUs() {
       wordCount={2697}
       prevSlug="the-death-cast"
       prevTitle="The Death Cast"
+      nextSlug="the-asch-lines"
+      nextTitle="The Asch Lines"
+      nextSubtitle="The experiment that proved you'd deny the evidence of your own eyes &mdash; and the man it broke"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-asch-lines.webp"
+      nextReadTime="14 min"
     >
       <h2>The Last Thing to Go</h2>
 

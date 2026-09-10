@@ -28,20 +28,13 @@ export default function TheAschLines() {
       subtitle="The experiment that proved you'd deny the evidence of your own eyes &mdash; and the man it broke"
       category="Essay"
       categoryColor="indigo"
-      date="May 2, 2026"
+      date="September 10, 2026"
       imageSrc="/images/explorations/the-asch-lines.webp"
       imageAlt="The Asch Lines illustration"
       readTime="14 min"
       wordCount={3333}
-      prevSlug="the-taste-that-does-not-exist"
-      prevTitle="The Taste That Does Not Exist"
-    nextSlug="the-color-that-didnt-exist"
-    nextTitle="The Color That Didn't Exist"
-    nextSubtitle="On the day humanity finally learned to see blue"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-color-that-didnt-exist.webp"
-    nextReadTime="12 min"
+      prevSlug="the-hair-that-outlives-us"
+      prevTitle="The Hair That Outlives Us"
     >
       <h2>The Cup of Elijah</h2>
 
