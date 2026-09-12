@@ -35,6 +35,13 @@ export default function TheAschLines() {
       wordCount={3333}
       prevSlug="the-hair-that-outlives-us"
       prevTitle="The Hair That Outlives Us"
+      nextSlug="the-confessions-of-the-innocent"
+      nextTitle="The Confessions of the Innocent"
+      nextSubtitle="Why people admit to crimes they did not commit"
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-confessions-of-the-innocent.webp"
+      nextReadTime="14 min"
     >
       <h2>The Cup of Elijah</h2>
 

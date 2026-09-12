@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-confessions-of-the-innocent",
+    title: "The Confessions of the Innocent",
+    subtitle: "Why people admit to crimes they did not commit",
+    category: "Essay",
+    color: "red",
+    readTime: "14 min",
+    image: "/images/explorations/the-confessions-of-the-innocent.webp",
+    publishedAt: "09/12/2026 02:50 PM",
+    description:
+      "Why people admit to crimes they did not commit",
+  },
+  {
     slug: "the-asch-lines",
     title: "The Asch Lines",
     subtitle: "The experiment that proved you'd deny the evidence of your own eyes — and the man it broke",
