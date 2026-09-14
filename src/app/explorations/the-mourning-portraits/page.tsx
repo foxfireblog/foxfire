@@ -28,20 +28,13 @@ export default function TheMourningPortraits() {
       subtitle="When the dead sat for their final photograph"
       category="Essay"
       categoryColor="violet"
-      date="April 29, 2026"
+      date="September 14, 2026"
       imageSrc="/images/explorations/the-mourning-portraits.webp"
       imageAlt="The Mourning Portraits illustration"
       readTime="14 min"
       wordCount={3109}
-      prevSlug="the-geography-of-nowhere"
-      prevTitle="The Geography of Nowhere"
-    nextSlug="the-ovation-that-wouldnt-stop"
-    nextTitle="The Ovation That Wouldn't Stop"
-    nextSubtitle="On the terrifying mathematics of applause under Stalin"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-ovation-that-wouldnt-stop.webp"
-    nextReadTime="13 min"
+      prevSlug="the-confessions-of-the-innocent"
+      prevTitle="The Confessions of the Innocent"
     >
       <h2>The Sharpest Figure in the Room</h2>
 

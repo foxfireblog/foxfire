@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-mourning-portraits",
+    title: "The Mourning Portraits",
+    subtitle: "When the dead sat for their final photograph",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-mourning-portraits.webp",
+    publishedAt: "09/14/2026 10:29 AM",
+    description:
+      "When the dead sat for their final photograph",
+  },
+  {
     slug: "the-confessions-of-the-innocent",
     title: "The Confessions of the Innocent",
     subtitle: "Why people admit to crimes they did not commit",

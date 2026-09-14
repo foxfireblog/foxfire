@@ -35,6 +35,13 @@ export default function TheConfessionsOfTheInnocent() {
       wordCount={3194}
       prevSlug="the-asch-lines"
       prevTitle="The Asch Lines"
+      nextSlug="the-mourning-portraits"
+      nextTitle="The Mourning Portraits"
+      nextSubtitle="When the dead sat for their final photograph"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-mourning-portraits.webp"
+      nextReadTime="14 min"
     >
       <h2>The Boy Who Wanted to Make It to Sixth Hour</h2>
 
