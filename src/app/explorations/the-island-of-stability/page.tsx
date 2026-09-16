@@ -28,20 +28,13 @@ export default function TheIslandOfStability() {
       subtitle="At the edge of matter, a shore no one has reached"
       category="Essay"
       categoryColor="indigo"
-      date="May 30, 2026"
+      date="September 16, 2026"
       imageSrc="/images/explorations/the-island-of-stability.webp"
       imageAlt="The Island of Stability illustration"
       readTime="13 min"
       wordCount={3068}
-      prevSlug="the-cannibalism-that-explained-the-brain"
-      prevTitle="The Cannibalism That Explained the Brain"
-    nextSlug="the-bystander-geometry"
-    nextTitle="The Bystander Geometry"
-    nextSubtitle="Why more witnesses means less help &mdash; and what that reveals about the shape of human attention"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-bystander-geometry.webp"
-    nextReadTime="13 min"
+      prevSlug="the-mourning-portraits"
+      prevTitle="The Mourning Portraits"
     >
       <h2>Three Atoms in Four Months</h2>
 

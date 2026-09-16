@@ -35,6 +35,13 @@ export default function TheMourningPortraits() {
       wordCount={3109}
       prevSlug="the-confessions-of-the-innocent"
       prevTitle="The Confessions of the Innocent"
+      nextSlug="the-island-of-stability"
+      nextTitle="The Island of Stability"
+      nextSubtitle="At the edge of matter, a shore no one has reached"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-island-of-stability.webp"
+      nextReadTime="13 min"
     >
       <h2>The Sharpest Figure in the Room</h2>
 

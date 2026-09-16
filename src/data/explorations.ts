@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-island-of-stability",
+    title: "The Island of Stability",
+    subtitle: "At the edge of matter, a shore no one has reached",
+    category: "Essay",
+    color: "indigo",
+    readTime: "13 min",
+    image: "/images/explorations/the-island-of-stability.webp",
+    publishedAt: "09/16/2026 06:26 PM",
+    description:
+      "At the edge of matter, a shore no one has reached",
+  },
+  {
     slug: "the-mourning-portraits",
     title: "The Mourning Portraits",
     subtitle: "When the dead sat for their final photograph",
