@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cartography-of-grief",
+    title: "The Cartography of Grief",
+    subtitle: "How the living mark the places where they lost someone",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-cartography-of-grief.webp",
+    publishedAt: "09/19/2026 03:01 PM",
+    description:
+      "How the living mark the places where they lost someone",
+  },
+  {
     slug: "the-island-of-stability",
     title: "The Island of Stability",
     subtitle: "At the edge of matter, a shore no one has reached",

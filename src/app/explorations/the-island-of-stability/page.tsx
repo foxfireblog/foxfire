@@ -35,6 +35,13 @@ export default function TheIslandOfStability() {
       wordCount={3068}
       prevSlug="the-mourning-portraits"
       prevTitle="The Mourning Portraits"
+      nextSlug="the-cartography-of-grief"
+      nextTitle="The Cartography of Grief"
+      nextSubtitle="How the living mark the places where they lost someone"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-cartography-of-grief.webp"
+      nextReadTime="13 min"
     >
       <h2>Three Atoms in Four Months</h2>
 

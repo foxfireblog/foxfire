@@ -28,20 +28,13 @@ export default function TheCartographyOfGrief() {
       subtitle="How the living mark the places where they lost someone"
       category="Essay"
       categoryColor="violet"
-      date="June 16, 2026"
+      date="September 19, 2026"
       imageSrc="/images/explorations/the-cartography-of-grief.webp"
       imageAlt="The Cartography of Grief illustration"
       readTime="13 min"
       wordCount={3003}
-      prevSlug="the-subterranean-cities-of-the-dead"
-      prevTitle="The Subterranean Cities of the Dead"
-    nextSlug="the-pellagra-detectives"
-    nextTitle="The Pellagra Detectives"
-    nextSubtitle="How a lone doctor proved that a plague killing thousands wasn't contagious &mdash; it was dinner"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-pellagra-detectives.webp"
-    nextReadTime="11 min"
+      prevSlug="the-island-of-stability"
+      prevTitle="The Island of Stability"
     >
       <h2>Where the Body Fell</h2>
 
