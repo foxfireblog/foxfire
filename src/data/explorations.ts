@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-doppelganger-effect",
+    title: "The Doppelgänger Effect",
+    subtitle: "On the strangeness of meeting yourself",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-doppelganger-effect.webp",
+    publishedAt: "09/21/2026 10:36 AM",
+    description:
+      "On the strangeness of meeting yourself",
+  },
+  {
     slug: "the-cartography-of-grief",
     title: "The Cartography of Grief",
     subtitle: "How the living mark the places where they lost someone",

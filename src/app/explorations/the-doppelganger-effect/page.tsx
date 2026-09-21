@@ -28,20 +28,13 @@ export default function TheDoppelgangerEffect() {
       subtitle="On the strangeness of meeting yourself"
       category="Essay"
       categoryColor="violet"
-      date="April 26, 2026"
+      date="September 21, 2026"
       imageSrc="/images/explorations/the-doppelganger-effect.webp"
       imageAlt="The Doppelgänger Effect illustration"
       readTime="13 min"
       wordCount={2981}
-      prevSlug="the-astronomer-who-refused-the-sky"
-      prevTitle="The Astronomer Who Refused the Sky"
-    nextSlug="the-moral-injury"
-    nextTitle="The Moral Injury"
-    nextSubtitle="The wound that has no bandage"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-moral-injury.webp"
-    nextReadTime="13 min"
+      prevSlug="the-cartography-of-grief"
+      prevTitle="The Cartography of Grief"
     >
       <h2>The Stranger in the Glass</h2>
 

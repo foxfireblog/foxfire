@@ -35,6 +35,13 @@ export default function TheCartographyOfGrief() {
       wordCount={3003}
       prevSlug="the-island-of-stability"
       prevTitle="The Island of Stability"
+      nextSlug="the-doppelganger-effect"
+      nextTitle="The Doppelgänger Effect"
+      nextSubtitle="On the strangeness of meeting yourself"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-doppelganger-effect.webp"
+      nextReadTime="13 min"
     >
       <h2>Where the Body Fell</h2>
 
