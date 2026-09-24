@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-subterranean-cities-of-the-dead",
+    title: "The Subterranean Cities of the Dead",
+    subtitle: "How the overcrowded graves beneath Europe's great cities quietly shaped the world above",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-subterranean-cities-of-the-dead.webp",
+    publishedAt: "09/23/2026 08:56 PM",
+    description:
+      "How the overcrowded graves beneath Europe's great cities quietly shaped the world above",
+  },
+  {
     slug: "the-doppelganger-effect",
     title: "The Doppelgänger Effect",
     subtitle: "On the strangeness of meeting yourself",

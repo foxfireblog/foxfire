@@ -35,6 +35,13 @@ export default function TheDoppelgangerEffect() {
       wordCount={2981}
       prevSlug="the-cartography-of-grief"
       prevTitle="The Cartography of Grief"
+      nextSlug="the-subterranean-cities-of-the-dead"
+      nextTitle="The Subterranean Cities of the Dead"
+      nextSubtitle="How the overcrowded graves beneath Europe's great cities quietly shaped the world above"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-subterranean-cities-of-the-dead.webp"
+      nextReadTime="13 min"
     >
       <h2>The Stranger in the Glass</h2>
 

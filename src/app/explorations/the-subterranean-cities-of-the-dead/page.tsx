@@ -28,20 +28,13 @@ export default function TheSubterraneanCitiesOfTheDead() {
       subtitle="How the overcrowded graves beneath Europe's great cities quietly shaped the world above"
       category="Essay"
       categoryColor="violet"
-      date="June 16, 2026"
+      date="September 23, 2026"
       imageSrc="/images/explorations/the-subterranean-cities-of-the-dead.webp"
       imageAlt="The Subterranean Cities of the Dead illustration"
       readTime="13 min"
       wordCount={2930}
-      prevSlug="the-rooms-where-they-decided"
-      prevTitle="The Rooms Where They Decided"
-    nextSlug="the-cartography-of-grief"
-    nextTitle="The Cartography of Grief"
-    nextSubtitle="How the living mark the places where they lost someone"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-cartography-of-grief.webp"
-    nextReadTime="13 min"
+      prevSlug="the-doppelganger-effect"
+      prevTitle="The Doppelgänger Effect"
     >
       <h2>The Basement Wall</h2>
 
