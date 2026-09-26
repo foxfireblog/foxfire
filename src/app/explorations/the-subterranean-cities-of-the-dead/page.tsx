@@ -35,6 +35,13 @@ export default function TheSubterraneanCitiesOfTheDead() {
       wordCount={2930}
       prevSlug="the-doppelganger-effect"
       prevTitle="The Doppelgänger Effect"
+      nextSlug="the-spirit-photographs"
+      nextTitle="The Spirit Photographs"
+      nextSubtitle="When grief met chemistry and the dead learned to pose"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-spirit-photographs.webp"
+      nextReadTime="13 min"
     >
       <h2>The Basement Wall</h2>
 

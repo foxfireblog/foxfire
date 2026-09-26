@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-spirit-photographs",
+    title: "The Spirit Photographs",
+    subtitle: "When grief met chemistry and the dead learned to pose",
+    category: "Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-spirit-photographs.webp",
+    publishedAt: "09/26/2026 02:44 AM",
+    description:
+      "When grief met chemistry and the dead learned to pose",
+  },
+  {
     slug: "the-subterranean-cities-of-the-dead",
     title: "The Subterranean Cities of the Dead",
     subtitle: "How the overcrowded graves beneath Europe's great cities quietly shaped the world above",

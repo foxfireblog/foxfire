@@ -28,20 +28,13 @@ export default function TheSpiritPhotographs() {
       subtitle="When grief met chemistry and the dead learned to pose"
       category="Essay"
       categoryColor="violet"
-      date="April 9, 2026"
+      date="September 26, 2026"
       imageSrc="/images/explorations/the-spirit-photographs.webp"
       imageAlt="The Spirit Photographs illustration"
       readTime="13 min"
       wordCount={2947}
-      prevSlug="the-war-that-passes-through-blood"
-      prevTitle="The War That Passes Through Blood"
-    nextSlug="the-man-who-wanted-to-demolish-paris"
-    nextTitle="The Man Who Wanted to Demolish Paris"
-    nextSubtitle="How Le Corbusier's dream of erasing the past became the blueprint for a century of broken cities"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-man-who-wanted-to-demolish-paris.webp"
-    nextReadTime="13 min"
+      prevSlug="the-subterranean-cities-of-the-dead"
+      prevTitle="The Subterranean Cities of the Dead"
     >
       <h2>The Ghost in the Machine</h2>
 
