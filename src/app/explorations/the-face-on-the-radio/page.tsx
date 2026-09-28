@@ -28,20 +28,13 @@ export default function TheFaceOnTheRadio() {
       subtitle="On falling in love with a voice you would never see"
       category="Essay"
       categoryColor="amber"
-      date="June 8, 2026"
+      date="September 28, 2026"
       imageSrc="/images/explorations/the-face-on-the-radio.webp"
       imageAlt="The Face on the Radio illustration"
       readTime="13 min"
       wordCount={2963}
-      prevSlug="the-woman-who-counted-the-uncountable"
-      prevTitle="The Woman Who Counted the Uncountable"
-    nextSlug="the-standardization-of-nowhere"
-    nextTitle="The Standardization of Nowhere"
-    nextSubtitle="How the same beige room came to exist everywhere on Earth simultaneously"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-standardization-of-nowhere.webp"
-    nextReadTime="12 min"
+      prevSlug="the-spirit-photographs"
+      prevTitle="The Spirit Photographs"
     >
       <h2>The Body in the Dark</h2>
 

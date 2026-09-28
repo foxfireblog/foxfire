@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-face-on-the-radio",
+    title: "The Face on the Radio",
+    subtitle: "On falling in love with a voice you would never see",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-face-on-the-radio.webp",
+    publishedAt: "09/28/2026 12:08 PM",
+    description:
+      "On falling in love with a voice you would never see",
+  },
+  {
     slug: "the-spirit-photographs",
     title: "The Spirit Photographs",
     subtitle: "When grief met chemistry and the dead learned to pose",

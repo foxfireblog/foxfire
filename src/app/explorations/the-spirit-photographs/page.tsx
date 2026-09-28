@@ -35,6 +35,13 @@ export default function TheSpiritPhotographs() {
       wordCount={2947}
       prevSlug="the-subterranean-cities-of-the-dead"
       prevTitle="The Subterranean Cities of the Dead"
+      nextSlug="the-face-on-the-radio"
+      nextTitle="The Face on the Radio"
+      nextSubtitle="On falling in love with a voice you would never see"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-face-on-the-radio.webp"
+      nextReadTime="13 min"
     >
       <h2>The Ghost in the Machine</h2>
 
