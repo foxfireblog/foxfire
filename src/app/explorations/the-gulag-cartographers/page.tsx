@@ -28,20 +28,13 @@ export default function TheGulagCartographers() {
       subtitle="On the prisoners who mapped the machinery of their own erasure"
       category="Essay"
       categoryColor="indigo"
-      date="July 23, 2026"
+      date="October 1, 2026"
       imageSrc="/images/explorations/the-gulag-cartographers.webp"
       imageAlt="The Gulag Cartographers illustration"
       readTime="12 min"
       wordCount={2850}
-      prevSlug="the-actuarial-gaze"
-      prevTitle="The Actuarial Gaze"
-    nextSlug="the-threshold-of-significance"
-    nextTitle="The Threshold of Significance"
-    nextSubtitle="How an arbitrary number became the gatekeeper of truth"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-threshold-of-significance.webp"
-    nextReadTime="13 min"
+      prevSlug="the-face-on-the-radio"
+      prevTitle="The Face on the Radio"
     >
       <h2>The Checkered Socks</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-gulag-cartographers",
+    title: "The Gulag Cartographers",
+    subtitle: "On the prisoners who mapped the machinery of their own erasure",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-gulag-cartographers.webp",
+    publishedAt: "10/01/2026 03:53 AM",
+    description:
+      "On the prisoners who mapped the machinery of their own erasure",
+  },
+  {
     slug: "the-face-on-the-radio",
     title: "The Face on the Radio",
     subtitle: "On falling in love with a voice you would never see",

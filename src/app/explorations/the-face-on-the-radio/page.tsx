@@ -35,6 +35,13 @@ export default function TheFaceOnTheRadio() {
       wordCount={2963}
       prevSlug="the-spirit-photographs"
       prevTitle="The Spirit Photographs"
+      nextSlug="the-gulag-cartographers"
+      nextTitle="The Gulag Cartographers"
+      nextSubtitle="On the prisoners who mapped the machinery of their own erasure"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-gulag-cartographers.webp"
+      nextReadTime="12 min"
     >
       <h2>The Body in the Dark</h2>
 
