@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-dark-above",
+    title: "The Dark Above",
+    subtitle: "We built a civilization so bright we blinded ourselves to the universe",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-dark-above.webp",
+    publishedAt: "10/02/2026 09:30 PM",
+    description:
+      "We built a civilization so bright we blinded ourselves to the universe",
+  },
+  {
     slug: "the-gulag-cartographers",
     title: "The Gulag Cartographers",
     subtitle: "On the prisoners who mapped the machinery of their own erasure",

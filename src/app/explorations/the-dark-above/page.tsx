@@ -28,20 +28,13 @@ export default function TheDarkAbove() {
       subtitle="We built a civilization so bright we blinded ourselves to the universe"
       category="Essay"
       categoryColor="indigo"
-      date="April 22, 2026"
+      date="October 2, 2026"
       imageSrc="/images/explorations/the-dark-above.webp"
       imageAlt="The Dark Above illustration"
       readTime="12 min"
       wordCount={2821}
-      prevSlug="the-company-that-owned-a-country"
-      prevTitle="The Company That Owned a Country"
-    nextSlug="the-nansen-passport"
-    nextTitle="The Nansen Passport"
-    nextSubtitle="The man who invented a country made of paper"
-    nextCategory="Essay"
-    nextCategoryColor="sky"
-    nextImage="/images/explorations/the-nansen-passport.webp"
-    nextReadTime="11 min"
+      prevSlug="the-gulag-cartographers"
+      prevTitle="The Gulag Cartographers"
     >
       <h2>The Strange Silvery Cloud</h2>
 

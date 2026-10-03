@@ -35,6 +35,13 @@ export default function TheGulagCartographers() {
       wordCount={2850}
       prevSlug="the-face-on-the-radio"
       prevTitle="The Face on the Radio"
+      nextSlug="the-dark-above"
+      nextTitle="The Dark Above"
+      nextSubtitle="We built a civilization so bright we blinded ourselves to the universe"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-dark-above.webp"
+      nextReadTime="12 min"
     >
       <h2>The Checkered Socks</h2>
 
