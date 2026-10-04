@@ -28,20 +28,13 @@ export default function TheCondemnedMansBreakfast() {
       subtitle="What the last meal reveals about the theater of execution"
       category="Essay"
       categoryColor="amber"
-      date="June 5, 2026"
+      date="October 4, 2026"
       imageSrc="/images/explorations/the-condemned-mans-breakfast.webp"
       imageAlt="The Condemned Man's Breakfast illustration"
       readTime="12 min"
       wordCount={2772}
-      prevSlug="the-index-that-tried-to-stop-time"
-      prevTitle="The Index That Tried to Stop Time"
-    nextSlug="the-zong-massacre"
-    nextTitle="The Zong Massacre"
-    nextSubtitle="The day 132 people became a line item in an insurance ledger"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-zong-massacre.webp"
-    nextReadTime="12 min"
+      prevSlug="the-dark-above"
+      prevTitle="The Dark Above"
     >
       <h2>The Olive Pit</h2>
 

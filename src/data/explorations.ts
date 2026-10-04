@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-condemned-mans-breakfast",
+    title: "The Condemned Man's Breakfast",
+    subtitle: "What the last meal reveals about the theater of execution",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-condemned-mans-breakfast.webp",
+    publishedAt: "10/04/2026 11:32 AM",
+    description:
+      "What the last meal reveals about the theater of execution",
+  },
+  {
     slug: "the-dark-above",
     title: "The Dark Above",
     subtitle: "We built a civilization so bright we blinded ourselves to the universe",

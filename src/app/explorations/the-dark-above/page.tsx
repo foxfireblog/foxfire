@@ -35,6 +35,13 @@ export default function TheDarkAbove() {
       wordCount={2821}
       prevSlug="the-gulag-cartographers"
       prevTitle="The Gulag Cartographers"
+      nextSlug="the-condemned-mans-breakfast"
+      nextTitle="The Condemned Man's Breakfast"
+      nextSubtitle="What the last meal reveals about the theater of execution"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-condemned-mans-breakfast.webp"
+      nextReadTime="12 min"
     >
       <h2>The Strange Silvery Cloud</h2>
 
