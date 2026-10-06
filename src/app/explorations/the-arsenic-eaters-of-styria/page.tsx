@@ -28,20 +28,13 @@ export default function TheArsenicEatersOfStyria() {
       subtitle="On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us"
       category="Natural History"
       categoryColor="emerald"
-      date="June 2, 2026"
+      date="October 6, 2026"
       imageSrc="/images/explorations/the-arsenic-eaters-of-styria.webp"
       imageAlt="The Arsenic Eaters of Styria illustration"
       readTime="12 min"
       wordCount={2724}
-      prevSlug="the-census-of-the-vanished"
-      prevTitle="The Census of the Vanished"
-    nextSlug="the-fungi-that-eat-radiation"
-    nextTitle="The Fungi That Eat Radiation"
-    nextSubtitle="Inside the ruined reactor, something was growing toward the danger"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-fungi-that-eat-radiation.webp"
-    nextReadTime="12 min"
+      prevSlug="the-condemned-mans-breakfast"
+      prevTitle="The Condemned Man's Breakfast"
     >
       <h2>The Poison Breakfast</h2>
 

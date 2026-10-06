@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-arsenic-eaters-of-styria",
+    title: "The Arsenic Eaters of Styria",
+    subtitle: "On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "12 min",
+    image: "/images/explorations/the-arsenic-eaters-of-styria.webp",
+    publishedAt: "10/06/2026 03:09 PM",
+    description:
+      "On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us",
+  },
+  {
     slug: "the-condemned-mans-breakfast",
     title: "The Condemned Man's Breakfast",
     subtitle: "What the last meal reveals about the theater of execution",

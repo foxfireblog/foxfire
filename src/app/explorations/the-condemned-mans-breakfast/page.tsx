@@ -35,6 +35,13 @@ export default function TheCondemnedMansBreakfast() {
       wordCount={2772}
       prevSlug="the-dark-above"
       prevTitle="The Dark Above"
+      nextSlug="the-arsenic-eaters-of-styria"
+      nextTitle="The Arsenic Eaters of Styria"
+      nextSubtitle="On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-arsenic-eaters-of-styria.webp"
+      nextReadTime="12 min"
     >
       <h2>The Olive Pit</h2>
 
