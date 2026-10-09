@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-man-who-catalogued-faces",
+    title: "The Man Who Catalogued Faces",
+    subtitle: "Francis Galton wanted to find the criminal type. What he found instead was a ghost.",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-man-who-catalogued-faces.webp",
+    publishedAt: "10/09/2026 01:13 PM",
+    description:
+      "Francis Galton wanted to find the criminal type. What he found instead was a ghost.",
+  },
+  {
     slug: "the-arsenic-eaters-of-styria",
     title: "The Arsenic Eaters of Styria",
     subtitle: "On the peasants who ate poison for breakfast and the impossibility of knowing what sustains us",

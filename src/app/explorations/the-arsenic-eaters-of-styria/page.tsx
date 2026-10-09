@@ -35,6 +35,13 @@ export default function TheArsenicEatersOfStyria() {
       wordCount={2724}
       prevSlug="the-condemned-mans-breakfast"
       prevTitle="The Condemned Man's Breakfast"
+      nextSlug="the-man-who-catalogued-faces"
+      nextTitle="The Man Who Catalogued Faces"
+      nextSubtitle="Francis Galton wanted to find the criminal type. What he found instead was a ghost."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-man-who-catalogued-faces.webp"
+      nextReadTime="12 min"
     >
       <h2>The Poison Breakfast</h2>
 
