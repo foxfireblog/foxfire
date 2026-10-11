@@ -35,6 +35,13 @@ export default function TheManWhoCataloguedFaces() {
       wordCount={2713}
       prevSlug="the-arsenic-eaters-of-styria"
       prevTitle="The Arsenic Eaters of Styria"
+      nextSlug="the-perpetual-motion-believers"
+      nextTitle="The Perpetual Motion Believers"
+      nextSubtitle="Why brilliant minds kept building machines that couldn't exist &mdash; and what they were really searching for"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-perpetual-motion-believers.webp"
+      nextReadTime="12 min"
     >
       <h2>The Face That Wasn&apos;t There</h2>
 

@@ -28,20 +28,13 @@ export default function ThePerpetualMotionBelievers() {
       subtitle="Why brilliant minds kept building machines that couldn't exist &mdash; and what they were really searching for"
       category="Essay"
       categoryColor="amber"
-      date="May 26, 2026"
+      date="October 11, 2026"
       imageSrc="/images/explorations/the-perpetual-motion-believers.webp"
       imageAlt="The Perpetual Motion Believers illustration"
       readTime="12 min"
       wordCount={2666}
-      prevSlug="the-elements-that-shouldnt-exist"
-      prevTitle="The Elements That Shouldn't Exist"
-    nextSlug="the-sleeping-sickness-detectives"
-    nextTitle="The Sleeping Sickness Detectives"
-    nextSubtitle="The strange epidemic that froze a million minds &mdash; and the lone physician who spent decades trying to wake them up"
-    nextCategory="Natural History"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-sleeping-sickness-detectives.webp"
-    nextReadTime="12 min"
+      prevSlug="the-man-who-catalogued-faces"
+      prevTitle="The Man Who Catalogued Faces"
     >
       <h2>The Old Man with the Crust of Bread</h2>
 

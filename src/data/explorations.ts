@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-perpetual-motion-believers",
+    title: "The Perpetual Motion Believers",
+    subtitle: "Why brilliant minds kept building machines that couldn't exist — and what they were really searching for",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-perpetual-motion-believers.webp",
+    publishedAt: "10/11/2026 04:39 PM",
+    description:
+      "Why brilliant minds kept building machines that couldn't exist — and what they were really searching for",
+  },
+  {
     slug: "the-man-who-catalogued-faces",
     title: "The Man Who Catalogued Faces",
     subtitle: "Francis Galton wanted to find the criminal type. What he found instead was a ghost.",
