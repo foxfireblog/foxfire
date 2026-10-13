@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-census-taker-who-drew-what-he-saw",
+    title: "The Census Taker Who Drew What He Saw",
+    subtitle: "August Sander photographed every kind of German. The Nazis understood exactly what he was doing.",
+    category: "Essay",
+    color: "amber",
+    readTime: "10 min",
+    image: "/images/explorations/the-census-taker-who-drew-what-he-saw.webp",
+    publishedAt: "10/13/2026 08:15 AM",
+    description:
+      "August Sander photographed every kind of German. The Nazis understood exactly what he was doing.",
+  },
+  {
     slug: "the-perpetual-motion-believers",
     title: "The Perpetual Motion Believers",
     subtitle: "Why brilliant minds kept building machines that couldn't exist — and what they were really searching for",

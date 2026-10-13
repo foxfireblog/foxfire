@@ -35,6 +35,13 @@ export default function ThePerpetualMotionBelievers() {
       wordCount={2666}
       prevSlug="the-man-who-catalogued-faces"
       prevTitle="The Man Who Catalogued Faces"
+      nextSlug="the-census-taker-who-drew-what-he-saw"
+      nextTitle="The Census Taker Who Drew What He Saw"
+      nextSubtitle="August Sander photographed every kind of German. The Nazis understood exactly what he was doing."
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-census-taker-who-drew-what-he-saw.webp"
+      nextReadTime="10 min"
     >
       <h2>The Old Man with the Crust of Bread</h2>
 
