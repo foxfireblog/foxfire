@@ -35,6 +35,13 @@ export default function TheCensusTakerWhoDrewWhatHeSaw() {
       wordCount={2402}
       prevSlug="the-perpetual-motion-believers"
       prevTitle="The Perpetual Motion Believers"
+      nextSlug="the-heresy-of-the-obvious"
+      nextTitle="The Heresy of the Obvious"
+      nextSubtitle="On truths so plain they had to be punished before they could be accepted"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-heresy-of-the-obvious.webp"
+      nextReadTime="15 min"
     >
       <h2>The Man Who Tried to Photograph Everyone</h2>
 

@@ -28,20 +28,13 @@ export default function TheHeresyOfTheObvious() {
       subtitle="On truths so plain they had to be punished before they could be accepted"
       category="Essay"
       categoryColor="amber"
-      date="May 20, 2026"
+      date="October 15, 2026"
       imageSrc="/images/explorations/the-heresy-of-the-obvious.webp"
       imageAlt="The Heresy of the Obvious illustration"
       readTime="15 min"
       wordCount={3435}
-      prevSlug="the-half-life-of-facts"
-      prevTitle="The Half-Life of Facts"
-    nextSlug="the-smell-that-preceded-diagnosis"
-    nextTitle="The Smell That Preceded Diagnosis"
-    nextSubtitle="For centuries, doctors knew disease by its scent. They were not wrong."
-    nextCategory="Natural History"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-smell-that-preceded-diagnosis.webp"
-    nextReadTime="11 min"
+      prevSlug="the-census-taker-who-drew-what-he-saw"
+      prevTitle="The Census Taker Who Drew What He Saw"
     >
       <h2>The Blade in the Bible</h2>
 

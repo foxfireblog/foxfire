@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-heresy-of-the-obvious",
+    title: "The Heresy of the Obvious",
+    subtitle: "On truths so plain they had to be punished before they could be accepted",
+    category: "Essay",
+    color: "amber",
+    readTime: "15 min",
+    image: "/images/explorations/the-heresy-of-the-obvious.webp",
+    publishedAt: "10/15/2026 06:44 PM",
+    description:
+      "On truths so plain they had to be punished before they could be accepted",
+  },
+  {
     slug: "the-census-taker-who-drew-what-he-saw",
     title: "The Census Taker Who Drew What He Saw",
     subtitle: "August Sander photographed every kind of German. The Nazis understood exactly what he was doing.",
