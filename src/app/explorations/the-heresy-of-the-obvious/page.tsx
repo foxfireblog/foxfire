@@ -35,6 +35,13 @@ export default function TheHeresyOfTheObvious() {
       wordCount={3435}
       prevSlug="the-census-taker-who-drew-what-he-saw"
       prevTitle="The Census Taker Who Drew What He Saw"
+      nextSlug="the-experimenter-effect"
+      nextTitle="The Experimenter Effect"
+      nextSubtitle="How the act of looking changes what is found"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-experimenter-effect.webp"
+      nextReadTime="14 min"
     >
       <h2>The Blade in the Bible</h2>
 

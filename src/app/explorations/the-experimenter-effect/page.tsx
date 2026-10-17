@@ -28,20 +28,13 @@ export default function TheExperimenterEffect() {
       subtitle="How the act of looking changes what is found"
       category="Essay"
       categoryColor="violet"
-      date="May 22, 2026"
+      date="October 17, 2026"
       imageSrc="/images/explorations/the-experimenter-effect.webp"
       imageAlt="The Experimenter Effect illustration"
       readTime="14 min"
       wordCount={3263}
-      prevSlug="the-weeping-rooms"
-      prevTitle="The Weeping Rooms"
-    nextSlug="the-gamblers-ruin"
-    nextTitle="The Gambler's Ruin"
-    nextSubtitle="Why the house always wins, even when the game is fair"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-gamblers-ruin.webp"
-    nextReadTime="11 min"
+      prevSlug="the-heresy-of-the-obvious"
+      prevTitle="The Heresy of the Obvious"
     >
       <h2>The Prism in the Pocket</h2>
 

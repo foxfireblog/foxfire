@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-experimenter-effect",
+    title: "The Experimenter Effect",
+    subtitle: "How the act of looking changes what is found",
+    category: "Essay",
+    color: "violet",
+    readTime: "14 min",
+    image: "/images/explorations/the-experimenter-effect.webp",
+    publishedAt: "10/17/2026 02:55 PM",
+    description:
+      "How the act of looking changes what is found",
+  },
+  {
     slug: "the-heresy-of-the-obvious",
     title: "The Heresy of the Obvious",
     subtitle: "On truths so plain they had to be punished before they could be accepted",
