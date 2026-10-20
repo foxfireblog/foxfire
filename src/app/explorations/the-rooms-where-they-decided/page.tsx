@@ -28,20 +28,13 @@ export default function TheRoomsWhereTheyDecided() {
       subtitle="On the strange intimacy of the spaces where irreversible choices were made"
       category="Essay"
       categoryColor="indigo"
-      date="June 15, 2026"
+      date="October 20, 2026"
       imageSrc="/images/explorations/the-rooms-where-they-decided.webp"
       imageAlt="The Rooms Where They Decided illustration"
       readTime="14 min"
       wordCount={3206}
-      prevSlug="the-cosmonaut-who-fell-alone"
-      prevTitle="The Cosmonaut Who Fell Alone"
-    nextSlug="the-subterranean-cities-of-the-dead"
-    nextTitle="The Subterranean Cities of the Dead"
-    nextSubtitle="How the overcrowded graves beneath Europe's great cities quietly shaped the world above"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-subterranean-cities-of-the-dead.webp"
-    nextReadTime="13 min"
+      prevSlug="the-experimenter-effect"
+      prevTitle="The Experimenter Effect"
     >
       <h2>The Rooms</h2>
 

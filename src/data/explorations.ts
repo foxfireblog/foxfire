@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-rooms-where-they-decided",
+    title: "The Rooms Where They Decided",
+    subtitle: "On the strange intimacy of the spaces where irreversible choices were made",
+    category: "Essay",
+    color: "indigo",
+    readTime: "14 min",
+    image: "/images/explorations/the-rooms-where-they-decided.webp",
+    publishedAt: "10/20/2026 09:05 AM",
+    description:
+      "On the strange intimacy of the spaces where irreversible choices were made",
+  },
+  {
     slug: "the-experimenter-effect",
     title: "The Experimenter Effect",
     subtitle: "How the act of looking changes what is found",

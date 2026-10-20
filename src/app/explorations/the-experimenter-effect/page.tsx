@@ -35,6 +35,13 @@ export default function TheExperimenterEffect() {
       wordCount={3263}
       prevSlug="the-heresy-of-the-obvious"
       prevTitle="The Heresy of the Obvious"
+      nextSlug="the-rooms-where-they-decided"
+      nextTitle="The Rooms Where They Decided"
+      nextSubtitle="On the strange intimacy of the spaces where irreversible choices were made"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-rooms-where-they-decided.webp"
+      nextReadTime="14 min"
     >
       <h2>The Prism in the Pocket</h2>
 
