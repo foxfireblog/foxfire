@@ -28,20 +28,13 @@ export default function TheDemilitarizedZone() {
       subtitle="How the most heavily armed border on Earth became a garden"
       category="Natural History"
       categoryColor="emerald"
-      date="May 15, 2026"
+      date="October 21, 2026"
       imageSrc="/images/explorations/the-demilitarized-zone.webp"
       imageAlt="The Demilitarized Zone illustration"
       readTime="14 min"
       wordCount={3170}
-      prevSlug="the-professional-mourners"
-      prevTitle="The Professional Mourners"
-    nextSlug="the-language-that-lived-in-the-body"
-    nextTitle="The Language That Lived in the Body"
-    nextSubtitle="Martha's Vineyard, where deafness was not a condition but a dialect"
-    nextCategory="Natural History"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-language-that-lived-in-the-body.webp"
-    nextReadTime="14 min"
+      prevSlug="the-rooms-where-they-decided"
+      prevTitle="The Rooms Where They Decided"
     >
       <h2>The Iron Horse Wants to Run Again</h2>
 

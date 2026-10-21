@@ -35,6 +35,13 @@ export default function TheRoomsWhereTheyDecided() {
       wordCount={3206}
       prevSlug="the-experimenter-effect"
       prevTitle="The Experimenter Effect"
+      nextSlug="the-demilitarized-zone"
+      nextTitle="The Demilitarized Zone"
+      nextSubtitle="How the most heavily armed border on Earth became a garden"
+      nextCategory="Natural History"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-demilitarized-zone.webp"
+      nextReadTime="14 min"
     >
       <h2>The Rooms</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-demilitarized-zone",
+    title: "The Demilitarized Zone",
+    subtitle: "How the most heavily armed border on Earth became a garden",
+    category: "Natural History",
+    color: "emerald",
+    readTime: "14 min",
+    image: "/images/explorations/the-demilitarized-zone.webp",
+    publishedAt: "10/21/2026 02:17 PM",
+    description:
+      "How the most heavily armed border on Earth became a garden",
+  },
+  {
     slug: "the-rooms-where-they-decided",
     title: "The Rooms Where They Decided",
     subtitle: "On the strange intimacy of the spaces where irreversible choices were made",
