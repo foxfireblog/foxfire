@@ -35,6 +35,13 @@ export default function TheDemilitarizedZone() {
       wordCount={3170}
       prevSlug="the-rooms-where-they-decided"
       prevTitle="The Rooms Where They Decided"
+      nextSlug="the-alibi-of-the-photograph"
+      nextTitle="The Alibi of the Photograph"
+      nextSubtitle="Why we trust images more than memory &mdash; and why we probably shouldn't"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-alibi-of-the-photograph.webp"
+      nextReadTime="14 min"
     >
       <h2>The Iron Horse Wants to Run Again</h2>
 

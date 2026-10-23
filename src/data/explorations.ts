@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-alibi-of-the-photograph",
+    title: "The Alibi of the Photograph",
+    subtitle: "Why we trust images more than memory — and why we probably shouldn't",
+    category: "Essay",
+    color: "amber",
+    readTime: "14 min",
+    image: "/images/explorations/the-alibi-of-the-photograph.webp",
+    publishedAt: "10/23/2026 01:59 PM",
+    description:
+      "Why we trust images more than memory — and why we probably shouldn't",
+  },
+  {
     slug: "the-demilitarized-zone",
     title: "The Demilitarized Zone",
     subtitle: "How the most heavily armed border on Earth became a garden",

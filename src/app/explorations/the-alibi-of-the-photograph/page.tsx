@@ -28,13 +28,13 @@ export default function TheAlibiOfThePhotograph() {
       subtitle="Why we trust images more than memory &mdash; and why we probably shouldn't"
       category="Essay"
       categoryColor="amber"
-      date="July 26, 2026"
+      date="October 23, 2026"
       imageSrc="/images/explorations/the-alibi-of-the-photograph.webp"
       imageAlt="The Alibi of the Photograph illustration"
       readTime="14 min"
       wordCount={3177}
-      prevSlug="the-question-they-would-not-allow"
-      prevTitle="The Question They Would Not Allow"
+      prevSlug="the-demilitarized-zone"
+      prevTitle="The Demilitarized Zone"
     >
       <h2>The Dead Man Who Was Moved</h2>
 
