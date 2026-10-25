@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-language-that-lived-in-the-body",
+    title: "The Language That Lived in the Body",
+    subtitle: "Martha's Vineyard, where deafness was not a condition but a dialect",
+    category: "Natural History",
+    color: "teal",
+    readTime: "14 min",
+    image: "/images/explorations/the-language-that-lived-in-the-body.webp",
+    publishedAt: "10/25/2026 03:02 AM",
+    description:
+      "Martha's Vineyard, where deafness was not a condition but a dialect",
+  },
+  {
     slug: "the-alibi-of-the-photograph",
     title: "The Alibi of the Photograph",
     subtitle: "Why we trust images more than memory — and why we probably shouldn't",

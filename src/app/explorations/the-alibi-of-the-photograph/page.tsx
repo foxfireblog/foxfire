@@ -35,6 +35,13 @@ export default function TheAlibiOfThePhotograph() {
       wordCount={3177}
       prevSlug="the-demilitarized-zone"
       prevTitle="The Demilitarized Zone"
+      nextSlug="the-language-that-lived-in-the-body"
+      nextTitle="The Language That Lived in the Body"
+      nextSubtitle="Martha's Vineyard, where deafness was not a condition but a dialect"
+      nextCategory="Natural History"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-language-that-lived-in-the-body.webp"
+      nextReadTime="14 min"
     >
       <h2>The Dead Man Who Was Moved</h2>
 

@@ -28,20 +28,13 @@ export default function TheLanguageThatLivedInTheBody() {
       subtitle="Martha's Vineyard, where deafness was not a condition but a dialect"
       category="Natural History"
       categoryColor="teal"
-      date="May 15, 2026"
+      date="October 25, 2026"
       imageSrc="/images/explorations/the-language-that-lived-in-the-body.webp"
       imageAlt="The Language That Lived in the Body illustration"
       readTime="14 min"
       wordCount={3156}
-      prevSlug="the-demilitarized-zone"
-      prevTitle="The Demilitarized Zone"
-    nextSlug="the-informers"
-    nextTitle="The Informers"
-    nextSubtitle="Who tells, and why &mdash; and the silence that follows"
-    nextCategory="Essay"
-    nextCategoryColor="indigo"
-    nextImage="/images/explorations/the-informers.webp"
-    nextReadTime="12 min"
+      prevSlug="the-alibi-of-the-photograph"
+      prevTitle="The Alibi of the Photograph"
     >
       <h2>A Silence That Was Never Silent</h2>
 
