@@ -35,6 +35,13 @@ export default function TheLanguageThatLivedInTheBody() {
       wordCount={3156}
       prevSlug="the-alibi-of-the-photograph"
       prevTitle="The Alibi of the Photograph"
+      nextSlug="the-keeper-of-silbo"
+      nextTitle="The Keeper of Silbo"
+      nextSubtitle="On being the last fluent speaker of a language that was never meant to be spoken"
+      nextCategory="Essay"
+      nextCategoryColor="emerald"
+      nextImage="/images/explorations/the-keeper-of-silbo.webp"
+      nextReadTime="13 min"
     >
       <h2>A Silence That Was Never Silent</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-keeper-of-silbo",
+    title: "The Keeper of Silbo",
+    subtitle: "On being the last fluent speaker of a language that was never meant to be spoken",
+    category: "Essay",
+    color: "emerald",
+    readTime: "13 min",
+    image: "/images/explorations/the-keeper-of-silbo.webp",
+    publishedAt: "10/27/2026 02:55 AM",
+    description:
+      "On being the last fluent speaker of a language that was never meant to be spoken",
+  },
+  {
     slug: "the-language-that-lived-in-the-body",
     title: "The Language That Lived in the Body",
     subtitle: "Martha's Vineyard, where deafness was not a condition but a dialect",

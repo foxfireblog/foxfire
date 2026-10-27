@@ -28,20 +28,13 @@ export default function TheKeeperOfSilbo() {
       subtitle="On being the last fluent speaker of a language that was never meant to be spoken"
       category="Essay"
       categoryColor="emerald"
-      date="June 30, 2026"
+      date="October 27, 2026"
       imageSrc="/images/explorations/the-keeper-of-silbo.webp"
       imageAlt="The Keeper of Silbo illustration"
       readTime="13 min"
       wordCount={3069}
-      prevSlug="the-coal-seam-cities"
-      prevTitle="The Coal Seam Cities"
-    nextSlug="the-mathematics-of-smell"
-    nextTitle="The Mathematics of Smell"
-    nextSubtitle="How the most ancient sense may hide the deepest geometry in biology"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-mathematics-of-smell.webp"
-    nextReadTime="11 min"
+      prevSlug="the-language-that-lived-in-the-body"
+      prevTitle="The Language That Lived in the Body"
     >
       <h2>The Crash</h2>
 
