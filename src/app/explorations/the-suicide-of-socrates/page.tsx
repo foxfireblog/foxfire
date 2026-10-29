@@ -28,20 +28,13 @@ export default function TheSuicideOfSocrates() {
       subtitle="On choosing to drink when you could have run"
       category="Philosophical Essay"
       categoryColor="violet"
-      date="June 28, 2026"
+      date="October 29, 2026"
       imageSrc="/images/explorations/the-suicide-of-socrates.webp"
       imageAlt="The Suicide of Socrates illustration"
       readTime="13 min"
       wordCount={3046}
-      prevSlug="the-clocks-that-disagree"
-      prevTitle="The Clocks That Disagree"
-    nextSlug="the-coal-seam-cities"
-    nextTitle="The Coal Seam Cities"
-    nextSubtitle="The towns that are slowly falling into their own foundations"
-    nextCategory="Essay"
-    nextCategoryColor="orange"
-    nextImage="/images/explorations/the-coal-seam-cities.webp"
-    nextReadTime="12 min"
+      prevSlug="the-keeper-of-silbo"
+      prevTitle="The Keeper of Silbo"
     >
       <h2>The Eighty Who Changed Their Minds</h2>
 

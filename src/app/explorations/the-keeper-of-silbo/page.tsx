@@ -35,6 +35,13 @@ export default function TheKeeperOfSilbo() {
       wordCount={3069}
       prevSlug="the-language-that-lived-in-the-body"
       prevTitle="The Language That Lived in the Body"
+      nextSlug="the-suicide-of-socrates"
+      nextTitle="The Suicide of Socrates"
+      nextSubtitle="On choosing to drink when you could have run"
+      nextCategory="Philosophical Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-suicide-of-socrates.webp"
+      nextReadTime="13 min"
     >
       <h2>The Crash</h2>
 

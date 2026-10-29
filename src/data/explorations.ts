@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-suicide-of-socrates",
+    title: "The Suicide of Socrates",
+    subtitle: "On choosing to drink when you could have run",
+    category: "Philosophical Essay",
+    color: "violet",
+    readTime: "13 min",
+    image: "/images/explorations/the-suicide-of-socrates.webp",
+    publishedAt: "10/29/2026 05:28 PM",
+    description:
+      "On choosing to drink when you could have run",
+  },
+  {
     slug: "the-keeper-of-silbo",
     title: "The Keeper of Silbo",
     subtitle: "On being the last fluent speaker of a language that was never meant to be spoken",
