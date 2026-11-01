@@ -35,6 +35,13 @@ export default function TheSuicideOfSocrates() {
       wordCount={3046}
       prevSlug="the-keeper-of-silbo"
       prevTitle="The Keeper of Silbo"
+      nextSlug="the-question-they-would-not-allow"
+      nextTitle="The Question They Would Not Allow"
+      nextSubtitle="On knowledge suppressed not because it was dangerous, but because it was too simple"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-question-they-would-not-allow.webp"
+      nextReadTime="13 min"
     >
       <h2>The Eighty Who Changed Their Minds</h2>
 

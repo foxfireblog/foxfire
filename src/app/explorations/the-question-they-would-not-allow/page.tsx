@@ -28,20 +28,13 @@ export default function TheQuestionTheyWouldNotAllow() {
       subtitle="On knowledge suppressed not because it was dangerous, but because it was too simple"
       category="Essay"
       categoryColor="amber"
-      date="July 25, 2026"
+      date="October 31, 2026"
       imageSrc="/images/explorations/the-question-they-would-not-allow.webp"
       imageAlt="The Question They Would Not Allow illustration"
       readTime="13 min"
       wordCount={2975}
-      prevSlug="the-chilean-experiment"
-      prevTitle="The Chilean Experiment"
-    nextSlug="the-alibi-of-the-photograph"
-    nextTitle="The Alibi of the Photograph"
-    nextSubtitle="Why we trust images more than memory &mdash; and why we probably shouldn't"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-alibi-of-the-photograph.webp"
-    nextReadTime="14 min"
+      prevSlug="the-suicide-of-socrates"
+      prevTitle="The Suicide of Socrates"
     >
       <h2>The Dirty Hands</h2>
 

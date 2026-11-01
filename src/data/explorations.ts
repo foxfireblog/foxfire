@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-question-they-would-not-allow",
+    title: "The Question They Would Not Allow",
+    subtitle: "On knowledge suppressed not because it was dangerous, but because it was too simple",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-question-they-would-not-allow.webp",
+    publishedAt: "10/31/2026 09:34 PM",
+    description:
+      "On knowledge suppressed not because it was dangerous, but because it was too simple",
+  },
+  {
     slug: "the-suicide-of-socrates",
     title: "The Suicide of Socrates",
     subtitle: "On choosing to drink when you could have run",
