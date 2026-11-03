@@ -35,6 +35,13 @@ export default function TheQuestionTheyWouldNotAllow() {
       wordCount={2975}
       prevSlug="the-suicide-of-socrates"
       prevTitle="The Suicide of Socrates"
+      nextSlug="the-patent-office-of-impossible-things"
+      nextTitle="The Patent Office of Impossible Things"
+      nextSubtitle="On the clerks who stood between madness and invention, and couldn't always tell which was which"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-patent-office-of-impossible-things.webp"
+      nextReadTime="13 min"
     >
       <h2>The Dirty Hands</h2>
 

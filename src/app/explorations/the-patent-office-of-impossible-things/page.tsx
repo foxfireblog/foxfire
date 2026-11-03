@@ -28,20 +28,13 @@ export default function ThePatentOfficeOfImpossibleThings() {
       subtitle="On the clerks who stood between madness and invention, and couldn't always tell which was which"
       category="Essay"
       categoryColor="amber"
-      date="July 13, 2026"
+      date="November 2, 2026"
       imageSrc="/images/explorations/the-patent-office-of-impossible-things.webp"
       imageAlt="The Patent Office of Impossible Things illustration"
       readTime="13 min"
       wordCount={2991}
-      prevSlug="the-world-ending-on-schedule"
-      prevTitle="The World Ending on Schedule"
-    nextSlug="the-sleepers"
-    nextTitle="The Sleepers"
-    nextSubtitle="A million people fell asleep after the Great War. We still don't know why."
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-sleepers.webp"
-    nextReadTime="11 min"
+      prevSlug="the-question-they-would-not-allow"
+      prevTitle="The Question They Would Not Allow"
     >
       <h2>The Clerk at the Gate</h2>
 

@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-patent-office-of-impossible-things",
+    title: "The Patent Office of Impossible Things",
+    subtitle: "On the clerks who stood between madness and invention, and couldn't always tell which was which",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-patent-office-of-impossible-things.webp",
+    publishedAt: "11/02/2026 10:45 PM",
+    description:
+      "On the clerks who stood between madness and invention, and couldn't always tell which was which",
+  },
+  {
     slug: "the-question-they-would-not-allow",
     title: "The Question They Would Not Allow",
     subtitle: "On knowledge suppressed not because it was dangerous, but because it was too simple",
