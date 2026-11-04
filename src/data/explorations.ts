@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cenote",
+    title: "The Cenote",
+    subtitle: "A story about what the water keeps",
+    category: "Short Fiction",
+    color: "teal",
+    readTime: "17 min",
+    image: "/images/explorations/the-cenote.webp",
+    publishedAt: "11/04/2026 07:38 AM",
+    description:
+      "A story about what the water keeps",
+  },
+  {
     slug: "the-patent-office-of-impossible-things",
     title: "The Patent Office of Impossible Things",
     subtitle: "On the clerks who stood between madness and invention, and couldn't always tell which was which",

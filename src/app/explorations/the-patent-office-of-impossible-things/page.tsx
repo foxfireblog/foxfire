@@ -35,6 +35,13 @@ export default function ThePatentOfficeOfImpossibleThings() {
       wordCount={2991}
       prevSlug="the-question-they-would-not-allow"
       prevTitle="The Question They Would Not Allow"
+      nextSlug="the-cenote"
+      nextTitle="The Cenote"
+      nextSubtitle="A story about what the water keeps"
+      nextCategory="Short Fiction"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-cenote.webp"
+      nextReadTime="17 min"
     >
       <h2>The Clerk at the Gate</h2>
 

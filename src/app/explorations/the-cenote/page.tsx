@@ -28,20 +28,13 @@ export default function TheCenote() {
       subtitle="A story about what the water keeps"
       category="Short Fiction"
       categoryColor="teal"
-      date="July 8, 2026"
+      date="November 4, 2026"
       imageSrc="/images/explorations/the-cenote.webp"
       imageAlt="The Cenote illustration"
       readTime="17 min"
       wordCount={3927}
-      prevSlug="the-light-that-eats-the-dead"
-      prevTitle="The Light That Eats the Dead"
-    nextSlug="the-audience-that-disappeared"
-    nextTitle="The Audience That Disappeared"
-    nextSubtitle="On dead followers, phantom crowds, and the economics of attention that was never paid"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-audience-that-disappeared.webp"
-    nextReadTime="11 min"
+      prevSlug="the-patent-office-of-impossible-things"
+      prevTitle="The Patent Office of Impossible Things"
     >
       <h2>The Cenote</h2>
       <p className="text-lg italic text-muted mb-8">A story about what the water keeps</p>
