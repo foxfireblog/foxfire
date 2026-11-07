@@ -35,6 +35,13 @@ export default function TheCenote() {
       wordCount={3927}
       prevSlug="the-patent-office-of-impossible-things"
       prevTitle="The Patent Office of Impossible Things"
+      nextSlug="the-ice-ships"
+      nextTitle="The Ice Ships"
+      nextSubtitle="Three centuries of men sailing into white silence, and what they were really looking for"
+      nextCategory="Essay"
+      nextCategoryColor="sky"
+      nextImage="/images/explorations/the-ice-ships.webp"
+      nextReadTime="13 min"
     >
       <h2>The Cenote</h2>
       <p className="text-lg italic text-muted mb-8">A story about what the water keeps</p>

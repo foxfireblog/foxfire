@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ice-ships",
+    title: "The Ice Ships",
+    subtitle: "Three centuries of men sailing into white silence, and what they were really looking for",
+    category: "Essay",
+    color: "sky",
+    readTime: "13 min",
+    image: "/images/explorations/the-ice-ships.webp",
+    publishedAt: "11/07/2026 06:23 AM",
+    description:
+      "Three centuries of men sailing into white silence, and what they were really looking for",
+  },
+  {
     slug: "the-cenote",
     title: "The Cenote",
     subtitle: "A story about what the water keeps",

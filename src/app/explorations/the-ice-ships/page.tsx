@@ -28,20 +28,13 @@ export default function TheIceShips() {
       subtitle="Three centuries of men sailing into white silence, and what they were really looking for"
       category="Essay"
       categoryColor="sky"
-      date="April 20, 2026"
+      date="November 7, 2026"
       imageSrc="/images/explorations/the-ice-ships.webp"
       imageAlt="The Ice Ships illustration"
       readTime="13 min"
       wordCount={2883}
-      prevSlug="the-calendar-that-ate-history"
-      prevTitle="The Calendar That Ate History"
-    nextSlug="the-foxfire-phenomenon"
-    nextTitle="The Foxfire Phenomenon"
-    nextSubtitle="On cold light, rotting wood, and the things that glow without burning"
-    nextCategory="Natural History"
-    nextCategoryColor="emerald"
-    nextImage="/images/explorations/the-foxfire-phenomenon.webp"
-    nextReadTime="10 min"
+      prevSlug="the-cenote"
+      prevTitle="The Cenote"
     >
       <h2>The Goodbye</h2>
 
