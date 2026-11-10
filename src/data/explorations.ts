@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-cathedral-and-the-palimpsest",
+    title: "The Cathedral and the Palimpsest",
+    subtitle: "On the monks who destroyed the ancient world to save their souls — and accidentally saved the ancient world instead",
+    category: "Essay",
+    color: "amber",
+    readTime: "13 min",
+    image: "/images/explorations/the-cathedral-and-the-palimpsest.webp",
+    publishedAt: "11/10/2026 03:54 AM",
+    description:
+      "On the monks who destroyed the ancient world to save their souls — and accidentally saved the ancient world instead",
+  },
+  {
     slug: "the-ice-ships",
     title: "The Ice Ships",
     subtitle: "Three centuries of men sailing into white silence, and what they were really looking for",

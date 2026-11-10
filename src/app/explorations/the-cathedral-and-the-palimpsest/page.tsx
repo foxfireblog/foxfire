@@ -28,20 +28,13 @@ export default function TheCathedralAndThePalimpsest() {
       subtitle="On the monks who destroyed the ancient world to save their souls &mdash; and accidentally saved the ancient world instead"
       category="Essay"
       categoryColor="amber"
-      date="June 21, 2026"
+      date="November 10, 2026"
       imageSrc="/images/explorations/the-cathedral-and-the-palimpsest.webp"
       imageAlt="The Cathedral and the Palimpsest illustration"
       readTime="13 min"
       wordCount={2934}
-      prevSlug="the-women-who-counted-stars"
-      prevTitle="The Women Who Counted Stars"
-    nextSlug="the-museum-of-failure"
-    nextTitle="The Museum of Failure"
-    nextSubtitle="A curator's notes on the things we got magnificently, instructively, gloriously wrong"
-    nextCategory="Field Guide"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-museum-of-failure.webp"
-    nextReadTime="17 min"
+      prevSlug="the-ice-ships"
+      prevTitle="The Ice Ships"
     >
       <h2>The Monk&apos;s Knife</h2>
 

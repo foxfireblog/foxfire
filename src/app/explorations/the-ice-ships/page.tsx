@@ -35,6 +35,13 @@ export default function TheIceShips() {
       wordCount={2883}
       prevSlug="the-cenote"
       prevTitle="The Cenote"
+      nextSlug="the-cathedral-and-the-palimpsest"
+      nextTitle="The Cathedral and the Palimpsest"
+      nextSubtitle="On the monks who destroyed the ancient world to save their souls &mdash; and accidentally saved the ancient world instead"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-cathedral-and-the-palimpsest.webp"
+      nextReadTime="13 min"
     >
       <h2>The Goodbye</h2>
 
