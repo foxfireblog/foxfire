@@ -35,6 +35,13 @@ export default function TheCathedralAndThePalimpsest() {
       wordCount={2934}
       prevSlug="the-ice-ships"
       prevTitle="The Ice Ships"
+      nextSlug="the-ordinary-rescuers"
+      nextTitle="The Ordinary Rescuers"
+      nextSubtitle="What made some people refuse to obey"
+      nextCategory="Essay"
+      nextCategoryColor="amber"
+      nextImage="/images/explorations/the-ordinary-rescuers.webp"
+      nextReadTime="12 min"
     >
       <h2>The Monk&apos;s Knife</h2>
 

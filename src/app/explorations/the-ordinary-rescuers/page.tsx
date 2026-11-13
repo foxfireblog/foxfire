@@ -28,20 +28,13 @@ export default function TheOrdinaryRescuers() {
       subtitle="What made some people refuse to obey"
       category="Essay"
       categoryColor="amber"
-      date="March 31, 2026"
+      date="November 13, 2026"
       imageSrc="/images/explorations/the-ordinary-rescuers.webp"
       imageAlt="The Ordinary Rescuers illustration"
       readTime="12 min"
       wordCount={2828}
-      prevSlug="the-banality-of-evil"
-      prevTitle="The Banality of Evil"
-    nextSlug="the-haitian-revolution-part-2"
-    nextTitle="The Haitian Revolution: The Price of Freedom (Part II of II)"
-    nextSubtitle="Napoleon's invasion, independence, the 1825 indemnity, and 200 years of consequences"
-    nextCategory="Essay"
-    nextCategoryColor="red"
-    nextImage="/images/explorations/the-haitian-revolution-part-2.webp"
-    nextReadTime="13 min"
+      prevSlug="the-cathedral-and-the-palimpsest"
+      prevTitle="The Cathedral and the Palimpsest"
     >
       <h2>The Knock</h2>
 

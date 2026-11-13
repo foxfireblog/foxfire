@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-ordinary-rescuers",
+    title: "The Ordinary Rescuers",
+    subtitle: "What made some people refuse to obey",
+    category: "Essay",
+    color: "amber",
+    readTime: "12 min",
+    image: "/images/explorations/the-ordinary-rescuers.webp",
+    publishedAt: "11/13/2026 03:51 AM",
+    description:
+      "What made some people refuse to obey",
+  },
+  {
     slug: "the-cathedral-and-the-palimpsest",
     title: "The Cathedral and the Palimpsest",
     subtitle: "On the monks who destroyed the ancient world to save their souls — and accidentally saved the ancient world instead",
