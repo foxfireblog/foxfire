@@ -28,20 +28,13 @@ export default function TheAttentionMerchants() {
       subtitle="Your focus is the most valuable commodity on earth. You've been giving it away for free."
       category="Essay"
       categoryColor="red"
-      date="May 28, 2026"
+      date="November 15, 2026"
       imageSrc="/images/explorations/the-attention-merchants.webp"
       imageAlt="The Attention Merchants illustration"
       readTime="12 min"
       wordCount={2816}
-      prevSlug="the-physicians-of-the-urine-wheel"
-      prevTitle="The Physicians of the Urine Wheel"
-    nextSlug="the-island-that-punished-with-freedom"
-    nextTitle="The Island That Punished With Freedom"
-    nextSubtitle="Inside the strangest penal experiment ever attempted"
-    nextCategory="Essay"
-    nextCategoryColor="teal"
-    nextImage="/images/explorations/the-island-that-punished-with-freedom.webp"
-    nextReadTime="11 min"
+      prevSlug="the-ordinary-rescuers"
+      prevTitle="The Ordinary Rescuers"
     >
       <h2>The Penny Paper</h2>
 

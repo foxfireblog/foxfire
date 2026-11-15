@@ -35,6 +35,13 @@ export default function TheOrdinaryRescuers() {
       wordCount={2828}
       prevSlug="the-cathedral-and-the-palimpsest"
       prevTitle="The Cathedral and the Palimpsest"
+      nextSlug="the-attention-merchants"
+      nextTitle="The Attention Merchants"
+      nextSubtitle="Your focus is the most valuable commodity on earth. You've been giving it away for free."
+      nextCategory="Essay"
+      nextCategoryColor="red"
+      nextImage="/images/explorations/the-attention-merchants.webp"
+      nextReadTime="12 min"
     >
       <h2>The Knock</h2>
 

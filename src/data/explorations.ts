@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-attention-merchants",
+    title: "The Attention Merchants",
+    subtitle: "Your focus is the most valuable commodity on earth. You've been giving it away for free.",
+    category: "Essay",
+    color: "red",
+    readTime: "12 min",
+    image: "/images/explorations/the-attention-merchants.webp",
+    publishedAt: "11/15/2026 06:37 PM",
+    description:
+      "Your focus is the most valuable commodity on earth. You've been giving it away for free.",
+  },
+  {
     slug: "the-ordinary-rescuers",
     title: "The Ordinary Rescuers",
     subtitle: "What made some people refuse to obey",
