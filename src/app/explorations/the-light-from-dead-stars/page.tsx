@@ -28,20 +28,13 @@ export default function TheLightFromDeadStars() {
       subtitle="When you look up at the night sky, almost everything you see no longer exists"
       category="Essay"
       categoryColor="indigo"
-      date="May 25, 2026"
+      date="November 17, 2026"
       imageSrc="/images/explorations/the-light-from-dead-stars.webp"
       imageAlt="The Light From Dead Stars illustration"
       readTime="12 min"
       wordCount={2752}
-      prevSlug="the-inland-seas"
-      prevTitle="The Inland Seas"
-    nextSlug="the-elements-that-shouldnt-exist"
-    nextTitle="The Elements That Shouldn't Exist"
-    nextSubtitle="On creating matter the universe forgot to make, and the strange grief of watching it vanish"
-    nextCategory="Essay"
-    nextCategoryColor="violet"
-    nextImage="/images/explorations/the-elements-that-shouldnt-exist.webp"
-    nextReadTime="13 min"
+      prevSlug="the-attention-merchants"
+      prevTitle="The Attention Merchants"
     >
       <h2>The Beautiful Lie</h2>
 

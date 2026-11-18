@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-light-from-dead-stars",
+    title: "The Light From Dead Stars",
+    subtitle: "When you look up at the night sky, almost everything you see no longer exists",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-light-from-dead-stars.webp",
+    publishedAt: "11/17/2026 10:56 PM",
+    description:
+      "When you look up at the night sky, almost everything you see no longer exists",
+  },
+  {
     slug: "the-attention-merchants",
     title: "The Attention Merchants",
     subtitle: "Your focus is the most valuable commodity on earth. You've been giving it away for free.",

@@ -35,6 +35,13 @@ export default function TheAttentionMerchants() {
       wordCount={2816}
       prevSlug="the-ordinary-rescuers"
       prevTitle="The Ordinary Rescuers"
+      nextSlug="the-light-from-dead-stars"
+      nextTitle="The Light From Dead Stars"
+      nextSubtitle="When you look up at the night sky, almost everything you see no longer exists"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-light-from-dead-stars.webp"
+      nextReadTime="12 min"
     >
       <h2>The Penny Paper</h2>
 
