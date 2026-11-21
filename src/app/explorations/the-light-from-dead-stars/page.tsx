@@ -35,6 +35,13 @@ export default function TheLightFromDeadStars() {
       wordCount={2752}
       prevSlug="the-attention-merchants"
       prevTitle="The Attention Merchants"
+      nextSlug="the-panopticon-was-never-built"
+      nextTitle="The Panopticon Was Never Built"
+      nextSubtitle="How an unbuilt prison became the operating system of modern life"
+      nextCategory="Essay"
+      nextCategoryColor="indigo"
+      nextImage="/images/explorations/the-panopticon-was-never-built.webp"
+      nextReadTime="12 min"
     >
       <h2>The Beautiful Lie</h2>
 

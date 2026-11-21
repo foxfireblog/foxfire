@@ -28,20 +28,13 @@ export default function ThePanopticonWasNeverBuilt() {
       subtitle="How an unbuilt prison became the operating system of modern life"
       category="Essay"
       categoryColor="indigo"
-      date="April 28, 2026"
+      date="November 20, 2026"
       imageSrc="/images/explorations/the-panopticon-was-never-built.webp"
       imageAlt="The Panopticon Was Never Built illustration"
       readTime="12 min"
       wordCount={2727}
-      prevSlug="vivian-maiers-secret-eye"
-      prevTitle="Vivian Maier's Secret Eye"
-    nextSlug="the-geography-of-nowhere"
-    nextTitle="The Geography of Nowhere"
-    nextSubtitle="How every place became the same place, and what we lost along the way"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-geography-of-nowhere.webp"
-    nextReadTime="13 min"
+      prevSlug="the-light-from-dead-stars"
+      prevTitle="The Light From Dead Stars"
     >
       <h2>The Spider in His Web</h2>
 

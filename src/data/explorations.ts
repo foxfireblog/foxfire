@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-panopticon-was-never-built",
+    title: "The Panopticon Was Never Built",
+    subtitle: "How an unbuilt prison became the operating system of modern life",
+    category: "Essay",
+    color: "indigo",
+    readTime: "12 min",
+    image: "/images/explorations/the-panopticon-was-never-built.webp",
+    publishedAt: "11/20/2026 10:36 PM",
+    description:
+      "How an unbuilt prison became the operating system of modern life",
+  },
+  {
     slug: "the-light-from-dead-stars",
     title: "The Light From Dead Stars",
     subtitle: "When you look up at the night sky, almost everything you see no longer exists",
