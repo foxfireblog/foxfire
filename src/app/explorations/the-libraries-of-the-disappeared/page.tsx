@@ -28,20 +28,13 @@ export default function TheLibrariesOfTheDisappeared() {
       subtitle="When regimes vanished people, their books stayed behind"
       category="Essay"
       categoryColor="violet"
-      date="July 3, 2026"
+      date="November 23, 2026"
       imageSrc="/images/explorations/the-libraries-of-the-disappeared.webp"
       imageAlt="The Libraries of the Disappeared illustration"
       readTime="12 min"
       wordCount={2683}
-      prevSlug="the-instrument-makers"
-      prevTitle="The Instrument Makers"
-    nextSlug="the-great-guano-rush"
-    nextTitle="The Great Guano Rush"
-    nextSubtitle="How bird excrement built empires, started wars, and revealed everything about us"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-great-guano-rush.webp"
-    nextReadTime="12 min"
+      prevSlug="the-panopticon-was-never-built"
+      prevTitle="The Panopticon Was Never Built"
     >
       <h2>The Morning Of</h2>
 

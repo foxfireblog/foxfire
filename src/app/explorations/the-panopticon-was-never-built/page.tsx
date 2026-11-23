@@ -35,6 +35,13 @@ export default function ThePanopticonWasNeverBuilt() {
       wordCount={2727}
       prevSlug="the-light-from-dead-stars"
       prevTitle="The Light From Dead Stars"
+      nextSlug="the-libraries-of-the-disappeared"
+      nextTitle="The Libraries of the Disappeared"
+      nextSubtitle="When regimes vanished people, their books stayed behind"
+      nextCategory="Essay"
+      nextCategoryColor="violet"
+      nextImage="/images/explorations/the-libraries-of-the-disappeared.webp"
+      nextReadTime="12 min"
     >
       <h2>The Spider in His Web</h2>
 

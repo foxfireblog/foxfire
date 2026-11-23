@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-libraries-of-the-disappeared",
+    title: "The Libraries of the Disappeared",
+    subtitle: "When regimes vanished people, their books stayed behind",
+    category: "Essay",
+    color: "violet",
+    readTime: "12 min",
+    image: "/images/explorations/the-libraries-of-the-disappeared.webp",
+    publishedAt: "11/23/2026 10:29 AM",
+    description:
+      "When regimes vanished people, their books stayed behind",
+  },
+  {
     slug: "the-panopticon-was-never-built",
     title: "The Panopticon Was Never Built",
     subtitle: "How an unbuilt prison became the operating system of modern life",
