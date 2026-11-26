@@ -33,6 +33,18 @@ export function getExplorationsByCategory(categoryName: string): Exploration[] {
 
 export const explorations: Exploration[] = [
   {
+    slug: "the-island-that-punished-with-freedom",
+    title: "The Island That Punished With Freedom",
+    subtitle: "Inside the strangest penal experiment ever attempted",
+    category: "Essay",
+    color: "teal",
+    readTime: "11 min",
+    image: "/images/explorations/the-island-that-punished-with-freedom.webp",
+    publishedAt: "11/25/2026 11:33 PM",
+    description:
+      "Inside the strangest penal experiment ever attempted",
+  },
+  {
     slug: "the-libraries-of-the-disappeared",
     title: "The Libraries of the Disappeared",
     subtitle: "When regimes vanished people, their books stayed behind",

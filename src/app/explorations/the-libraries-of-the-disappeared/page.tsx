@@ -35,6 +35,13 @@ export default function TheLibrariesOfTheDisappeared() {
       wordCount={2683}
       prevSlug="the-panopticon-was-never-built"
       prevTitle="The Panopticon Was Never Built"
+      nextSlug="the-island-that-punished-with-freedom"
+      nextTitle="The Island That Punished With Freedom"
+      nextSubtitle="Inside the strangest penal experiment ever attempted"
+      nextCategory="Essay"
+      nextCategoryColor="teal"
+      nextImage="/images/explorations/the-island-that-punished-with-freedom.webp"
+      nextReadTime="11 min"
     >
       <h2>The Morning Of</h2>
 

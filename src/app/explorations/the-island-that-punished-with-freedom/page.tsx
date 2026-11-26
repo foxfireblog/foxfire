@@ -28,20 +28,13 @@ export default function TheIslandThatPunishedWithFreedom() {
       subtitle="Inside the strangest penal experiment ever attempted"
       category="Essay"
       categoryColor="teal"
-      date="May 28, 2026"
+      date="November 25, 2026"
       imageSrc="/images/explorations/the-island-that-punished-with-freedom.webp"
       imageAlt="The Island That Punished With Freedom illustration"
       readTime="11 min"
       wordCount={2552}
-      prevSlug="the-attention-merchants"
-      prevTitle="The Attention Merchants"
-    nextSlug="the-relics-industry"
-    nextTitle="The Relics Industry"
-    nextSubtitle="On the medieval trade in holy bodies &mdash; and what it meant to own a piece of the sacred dead"
-    nextCategory="Essay"
-    nextCategoryColor="amber"
-    nextImage="/images/explorations/the-relics-industry.webp"
-    nextReadTime="12 min"
+      prevSlug="the-libraries-of-the-disappeared"
+      prevTitle="The Libraries of the Disappeared"
     >
       <h2>The Ocean Hell Gets a Librarian</h2>
 
